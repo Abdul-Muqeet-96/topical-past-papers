@@ -1,0 +1,4 @@
+{
+  "stages": {"0": "done"},
+  "notes": "Stage 0: PyMuPDF 1.28.2 + reportlab installed; curl 9701_s25_qp_22.pdf -> 200, 16 pages."
+}
