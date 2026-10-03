@@ -122,14 +122,14 @@ def assemble(phase):
                                    "topic": topic_of(code), "section": code,
                                    "justification": f"{code} {SECTIONS.get(code, 'no clear syllabus match')}",
                                    "marks": mk})
-                if any(c == "X" for _, c, _ in lv):
-                    xs = [l for l, c, _ in lv if c == "X"]
-                    if len(xs) == len(lv) or not L["romans"]:
-                        log["out_of_syllabus"].append({"ref": f"{p['ref']}/Q{Q['n']}{L['label']}",
-                                                       "issue": "no clear syllabus match", "action": "excluded"})
-                        continue
+                xs = [l for l, c, _ in lv if c == "X"]
+                if xs and (len(xs) == len(lv) or not L["romans"]):
+                    log["out_of_syllabus"].append({"ref": f"{p['ref']}/Q{Q['n']}{L['label']}",
+                                                   "issue": "no clear match in current learning outcomes",
+                                                   "action": "excluded"})
+                    continue
                 tops = {topic_of(c) for _, c, _ in lv if c != "X"}
-                if len(tops) == 1 or not L["romans"]:
+                if (len(tops) == 1 and not xs) or not L["romans"]:
                     t = tops.pop() if tops else None
                     units.append(([L["label"]], t, {t: L["marks"]}, []))
                     continue
@@ -169,9 +169,19 @@ def assemble(phase):
                         break
                 if ok:
                     for g in groups:
+                        if g[1] is None:
+                            log["out_of_syllabus"].append({"ref": ref_units(p['ref'], Q['n'], g[0]),
+                                                           "issue": "no clear match in current learning outcomes",
+                                                           "action": "excluded (rest of the lettered part kept)"})
+                            continue
                         units.append((g[0], g[1], {g[1]: g[2]}, ["split"]))
                     log["split"].append({"ref": f"{p['ref']}/Q{Q['n']}{L['label']}",
                                          "groups": [[ref_units(p['ref'], Q['n'], g[0]), g[1]] for g in groups]})
+                elif xs:
+                    log["out_of_syllabus"].append({"ref": f"{p['ref']}/Q{Q['n']}{L['label']}",
+                                                   "issue": f"contains out-of-syllabus sub-part(s) {xs} that cannot "
+                                                            f"be separated ({why})", "action": "excluded"})
+                    continue
                 else:
                     t, by, tie = majority(lv)
                     flags = ["tie"] if tie else []

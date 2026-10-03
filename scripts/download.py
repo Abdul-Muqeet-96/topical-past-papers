@@ -58,13 +58,18 @@ def verify(path, s, yy, v, kind):
     if not re.search(r"Paper 2 AS Level Structured Questions", t, re.I):
         # AUTO-DECIDED: some official MS headers read "Paper 2 AS Structured
         # Questions" (no "Level"); same paper, so accept and record.
-        if re.search(r"Paper 2 AS Structured Questions", t, re.I):
-            notes.append("title variant 'Paper 2 AS Structured Questions'")
+        m = re.search(r"Paper 2 \(?(AS Structured Questions|Structured Questions? AS Core)\)?", t, re.I)
+        if m:
+            notes.append(f"title variant 'Paper 2 {m.group(1)}'")
         else:
             issues.append("paper title not on page 1")
     series = f"{SERIES_NAME[s]} 20{yy:02d}"
     if series not in t:
-        issues.append(f"'{series}' not on page 1")
+        # AUTO-DECIDED: Feb/March series was published as "March 20yy" up to 2017
+        if s == "m" and re.search(rf"\bMarch 20{yy:02d}\b", t):
+            notes.append(f"series variant 'March 20{yy:02d}'")
+        else:
+            issues.append(f"'{series}' not on page 1")
     if kind == "ms" and "MARK SCHEME" not in t.upper():
         issues.append("not a mark scheme")
     return issues, notes, d.page_count

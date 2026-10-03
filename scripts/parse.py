@@ -82,10 +82,10 @@ def paper_ref(doc):
     """Reference from the paper's own page-1 header, e.g. 'M/J 25/P22'."""
     t = re.sub(r"\s+", " ", doc[0].get_text())
     m = re.search(r"9701/(2\d)", t)
-    s = re.search(r"(February/March|May/June|October/November) (20\d\d)", t)
+    s = re.search(r"(February/March|May/June|October/November|March) (20\d\d)", t)
     if not (m and s):
         return None
-    return f"{SERIES[s.group(1)]} {s.group(2)[2:]}/P{m.group(1)}"
+    return f"{SERIES.get(s.group(1), 'MAR')} {s.group(2)[2:]}/P{m.group(1)}"
 
 
 def page_lines(page, top=46, bottom=798.5, left=25, right=572):
@@ -204,21 +204,30 @@ def parse_qp(doc):
     return qs
 
 
+RE_HQ = re.compile(r"^\d{1,2}$")
+RE_HL = re.compile(r"^\(([a-h])\)$")
+RE_HR = re.compile(r"^\((i|ii|iii|iv|v|vi|vii|viii|ix|x)\)$")
+
+
 def ms_rows(doc):
     """Rows of the mark-scheme table: [{label, q, part, marks, segs:[(pno, rect)]}].
-    A page may hold several tables (each with its own header row); a row may
-    continue onto the next page (content above the first label there)."""
+    Handles both label styles: combined '3(c)(ii)' (2017+) and the older
+    column style where '3', '(c)', '(ii)' are separate tokens that carry over
+    from row to row. A page may hold several tables; a row may continue onto
+    the next page; a 'Total' row ends the previous row and is not a part."""
     rows = []
     open_row = None
+    cq = cl = cr = None
     for pno in range(doc.page_count):
         page = doc[pno]
-        words = page.get_text("words")
+        words = _dedupe(page.get_text("words"))
         drs = page.get_drawings()
         heads = []
         for h in sorted((w for w in words if w[4] == "Question" and w[0] < 140), key=lambda w: w[1]):
-            mk = [w for w in words if w[4] == "Marks" and w[0] > 300 and abs(w[1] - h[1]) < 3]
+            mk = [w for w in words if w[4] in ("Marks", "Mark", "Total") and w[0] > 300 and abs(w[1] - h[1]) < 3]
             if mk:
-                heads.append((h, mk[0]))
+                tot = [w for w in mk if w[4] == "Total"]
+                heads.append((h, tot[0] if tot else max(mk, key=lambda w: w[0])))
         if not heads:
             continue
         foot = [w for w in words if w[4] == "Page" and w[1] > page.rect.height - 70]
@@ -228,9 +237,13 @@ def ms_rows(doc):
             reg_end = heads[hi + 1][0][1] - 6 if hi + 1 < len(heads) else bottom
             tx0 = h[0] - 8
             mx0, mx1 = mk[0] - 12, mk[2] + 12
+            bo = mk[4] == "Total"
             gd = any(w[4] == "Guidance" and abs(w[1] - h[1]) < 3 for w in words)
             vr = [d["rect"] for d in drs if d["rect"].width < 2 and d["rect"].height > 4
                   and d["rect"].y1 > hy and d["rect"].y0 < reg_end]
+            right = [r.x0 for r in vr if r.x0 > mk[2] - 2]
+            if right:   # marks column ends at the next vertical rule (drops off-table duplicates)
+                mx1 = min(mx1, min(right) + 1)
             qcol_x1 = min([r.x0 for r in vr if r.x0 > h[0] + 5] or [h[2] + 20])
             table_x1 = max([r.x1 for r in vr] or [page.rect.width - 60])
             tab_bottom = max([r.y1 for r in vr if r.y1 <= reg_end + 1] or [reg_end])
@@ -238,38 +251,139 @@ def ms_rows(doc):
             hr = sorted({round(d["rect"].y0, 1) for d in drs
                          if d["rect"].height < 2 and d["rect"].width > 30 and d["rect"].x0 < tx0 + 12
                          and hy < d["rect"].y0 < reg_end})
-            labels = sorted([w for w in words if hy < w[1] < tab_bottom and w[2] <= qcol_x1 + 4
-                             and RE_MS_LABEL.match(w[4])], key=lambda w: w[1])
+            qx0 = min([r.x0 for r in vr if r.x0 < h[0]] or [h[0] - 15]) - 2
+            qw = sorted([w for w in words if hy < w[1] < tab_bottom and w[2] <= qcol_x1 + 4 and w[0] >= qx0],
+                        key=lambda w: (w[1], w[0]))
+            lines = []
+            for w in qw:
+                if lines and abs(lines[-1][0][1] - w[1]) < 3:
+                    lines[-1].append(w)
+                else:
+                    lines.append([w])
+            starts = []      # (top, label or None for 'Total', first word)
+            for w in words:
+                if w[4] in ("Total:", "Total") and hy + 2 < w[1] < tab_bottom and w[2] > qcol_x1 + 4:
+                    starts.append((w[1], None, w))
+            for ln in lines:
+                ln.sort(key=lambda w: w[0])
+                toks = [w[4] for w in ln]
+                lab = None
+                if toks[0] == "Total":
+                    starts.append((ln[0][1], None, ln[0]))
+                    continue
+                if RE_MS_LABEL.match(toks[0]) and "(" in toks[0] or (RE_MS_LABEL.match(toks[0]) and len(toks) == 1
+                                                                    and not RE_HQ.match(toks[0])):
+                    lab = toks[0]
+                elif all(RE_HQ.match(t) or RE_HL.match(t) or RE_HR.match(t) for t in toks):
+                    q, l, r = cq, cl, cr
+                    for t in toks:
+                        if RE_HQ.match(t):
+                            q, l, r = int(t), None, None
+                        elif RE_HL.match(t) and not (RE_HR.match(t) and l is not None):
+                            l, r = RE_HL.match(t).group(1), None
+                        elif RE_HR.match(t):
+                            r = RE_HR.match(t).group(1)
+                    if q is None:
+                        continue
+                    cq, cl, cr = q, l, r
+                    lab = f"{q}" + (f"({l})" if l else "") + (f"({r})" if r else "")
+                elif RE_MS_LABEL.match(toks[0]):
+                    lab = toks[0]
+                if lab and RE_MS_LABEL.match(lab):
+                    starts.append((ln[0][1], lab, ln[0]))
+            starts.sort(key=lambda t: t[0])
             row_starts = []
-            for w in labels:
-                above = [y for y in hr if y <= w[1] + 1]
-                row_starts.append((max(above) if above else hy + 2, w))
+            for y0, lab, w in starts:
+                above = [y for y in hr if y <= y0 + 1]
+                row_starts.append((max(above) if above else (y0 - 3 if not hr else hy + 2), lab, w))
             first_top = row_starts[0][0] if row_starts else tab_bottom
             start_hdr = min(hr or [hy + 4])
             if hi == 0 and open_row is not None and first_top - start_hdr > 8:
                 seg = pymupdf.Rect(tx0, start_hdr - 0.5, table_x1 + 1, first_top + 0.5)
                 open_row["segs"].append((pno, seg))
-                open_row["marks"] += _marks_in(words, seg, mx0, mx1)
-            for k, (top, w) in enumerate(row_starts):
+                open_row["marks"] += _marks_in(words, seg, mx0, mx1, bo)
+            for k, (top, lab, w) in enumerate(row_starts):
                 end = row_starts[k + 1][0] if k + 1 < len(row_starts) else tab_bottom
+                if lab is None:          # 'Total' row
+                    open_row = None
+                    continue
                 seg = pymupdf.Rect(tx0, top - 0.5, table_x1 + 1, end + 0.5)
-                m = RE_MS_LABEL.match(w[4])
-                row = {"label": w[4], "q": int(m.group(1)), "part": m.group(2) + m.group(3),
-                       "segs": [(pno, seg)], "marks": _marks_in(words, seg, mx0, mx1),
+                m = RE_MS_LABEL.match(lab)
+                row = {"label": lab, "q": int(m.group(1)), "part": m.group(2) + m.group(3),
+                       "segs": [(pno, seg)], "marks": _marks_in(words, seg, mx0, mx1, bo),
                        "na": any(w2[4] == "N/A" for w2 in words if w2[0] >= mx0 and w2[2] <= mx1
                                  and seg.y0 - 1 <= w2[1] <= seg.y1),
-                       "guidance": gd}
+                       "guidance": gd, "total_col": bo}
                 rows.append(row)
                 open_row = row
+    # older layouts print the question total after the last part's marks:
+    # drop a final value that equals the sum of all other marks of that question
+    for r in rows:
+        # part total printed above its per-point marks: [2, 1, 1] -> [2]
+        m = r["marks"]
+        if len(m) >= 3 and m[0] == sum(m[1:]) and all(v == 1 for v in m[1:]):
+            r["points"] = m[1:]
+            r["marks"] = [m[0]]
+    byq = {}
+    for r in rows:
+        byq.setdefault(r["q"], []).append(r)
+    for q, rs in byq.items():
+        last = rs[-1]
+        big = len(rs) >= 3 and last["marks"] and last["marks"][-1] >= 5 and len(last["marks"]) >= 2
+        if (last.get("total_col") or big) and (len(last["marks"]) >= 2 or (len(rs) > 1 and last["marks"])):
+            others = sum(sum(r["marks"]) for r in rs) - last["marks"][-1]
+            if last["marks"][-1] == others and others > 0:
+                last["marks"] = last["marks"][:-1]
+                last["dropped_total"] = others
     for r in rows:
         r["mark_total"] = sum(r["marks"])
     return rows
 
 
-def _marks_in(words, rect, mx0, mx1):
-    out = []
-    for w in words:
-        if w[0] >= mx0 and w[2] <= mx1 and w[1] >= rect.y0 - 1.5 and w[3] <= rect.y1 + 1.5:
-            if re.fullmatch(r"\d{1,2}", w[4]):
-                out.append(int(w[4]))
+def _marks_in(words, rect, mx0, mx1, bracket_only=False):
+    """Mark values in the marks column of a row: one value per text line
+    (older PDFs carry hidden duplicates). With bracket_only (old 'Total'
+    column layout) bare numbers are question totals and are ignored."""
+    out, lines = [], set()
+    for w in sorted(words, key=lambda w: (w[1], w[0])):
+        if w[0] >= mx0 - 1 and w[0] <= mx1 and w[1] >= rect.y0 - 1.5 and w[3] <= rect.y1 + 1.5:
+            m = re.fullmatch(r"\[(\d{1,2})\]" if bracket_only else r"\[?(\d{1,2})\]?", w[4])
+            if m and round(w[1]) not in lines:
+                lines.add(round(w[1]))
+                out.append(int(m.group(1)))
     return out
+
+
+def _dedupe(words):
+    """Some older PDFs draw each word 2-3 times (faux bold) or split words into
+    overlapping fragments ('Que'+'estion', '3('+'(b)(i)'). Keep one copy and
+    re-join touching fragments, dropping the duplicated overlap characters."""
+    seen, uniq = set(), []
+    for w in words:
+        k = (round(w[0]), round(w[1]), w[4])
+        if k in seen:
+            continue
+        seen.add(k)
+        uniq.append(list(w[:5]))
+    srt = sorted(uniq, key=lambda w: (round(w[1]), w[0]))
+    fragmented = sum(1 for a, b in zip(srt, srt[1:])
+                     if abs(a[1] - b[1]) < 1.5 and a[2] - b[0] > 1 and b[0] > a[0]) >= 3
+    if not fragmented:
+        return [tuple(w) for w in uniq]
+    uniq = srt
+    out = []
+    for w in uniq:
+        if out and abs(out[-1][1] - w[1]) < 1.5 and w[0] <= out[-1][2] + 0.6:
+            prev = out[-1]
+            ov = prev[2] - w[0]
+            txt = w[4]
+            if ov > 1 and txt:
+                cw = (w[2] - w[0]) / len(txt)
+                n = int(round(ov / cw)) if cw > 0 else 0
+                txt = txt[n:]
+            prev[4] += txt
+            prev[2] = max(prev[2], w[2])
+            prev[3] = max(prev[3], w[3])
+            continue
+        out.append(w)
+    return [tuple(w) for w in out]

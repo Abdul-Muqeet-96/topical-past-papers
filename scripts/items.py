@@ -99,6 +99,8 @@ def resolve(Q, units):
     ctx_parts, ctx_blocks, notes = [], [], []
     texts = [Q["stem_text"]] + [find_letter(Q, letter_of(i))["intro_text"] for i in intros] + \
             [unit_text(Q, u) or "" for u in units]
+    if any(re.search(r"Data Booklet", t or "", re.I) for t in texts):
+        return _fail("needs the Data Booklet (separate document, not included)")
     todo = list(texts)
     seen = set()
     allleaves = all_leaves(Q)

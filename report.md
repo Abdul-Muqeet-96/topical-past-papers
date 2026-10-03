@@ -58,3 +58,27 @@
   | Contents boxes overlapped for single-row entries | Box height per row type |
   | Unit PDFs large (fonts duplicated) | Font subsetting (verified pixel-identical rendering) |
 - No screenshots/raster crops were used: all question and mark-scheme content is vector clips.
+
+## Stage 7 — Phase 2 (m16–m21, s15–s21, w15–w21)
+- 48 papers attempted: 47 downloaded and header-verified; 1 excluded at download (s20 v23 MS header reads "Paper 3").
+- Paper checks: 46 papers pass; 1 excluded (O/N? see table); question-level exclusions listed below.
+- Out-of-syllabus check against chemistry-syllabus.pdf (2025–27): parts with no clear match in current learning outcomes excluded (listed in the out-of-syllabus section).
+- Items needing the separate Data Booklet (bond energies, R, etc.) excluded as not solvable alone.
+
+| Paper | Q | Check failed |
+|---|---|---|
+| s15_21 | (whole paper) | no questions found in QP text layer |
+| M/J 16/P23 | Q2 | MS marks 35 != QP total 19 |
+| M/J 16/P23 | Q3 | MS marks 32 != QP total 17 |
+| M/J 18/P21 | Q4 | MS marks 9 != QP total 15 |
+| M/J 20/P21 | Q3 | MS marks 10 != QP total 13 |
+| M/J 20/P22 | Q2 | MS marks 10 != QP total 12 |
+| O/N 15/P21 | Q1 | MS marks 24 != QP total 13 |
+| O/N 15/P23 | Q1 | MS marks 24 != QP total 13 |
+| O/N 16/P21 | Q2 | MS marks 14 != QP total 13 |
+| O/N 16/P21 | Q3 | MS marks 15 != QP total 14 |
+| O/N 16/P22 | Q4 | MS marks 15 != QP total 17 |
+| O/N 16/P23 | Q2 | MS marks 14 != QP total 13 |
+| O/N 16/P23 | Q3 | MS marks 15 != QP total 14 |
+| O/N 21/P21 | Q1 | MS marks 20 != QP total 21 |
+| O/N 21/P23 | Q1 | MS marks 20 != QP total 21 |

@@ -6,7 +6,8 @@
   "3": "done",
   "4": "done",
   "5": "done",
-  "6": "done"
+  "6": "done",
+  "7": "done"
  },
- "notes": "Stage 0: PyMuPDF 1.28.2 + reportlab installed; curl 9701_s25_qp_22.pdf -> 200, 16 pages. | Stage 1: 35/35 Phase-1 papers downloaded+verified (data/manifest.json). | Stage 2: layout.md written. | Stage 3: 35 papers pass, 9 questions excluded (work/checks_phase1.json). | Stage 4: work/parts_phase1.json (155 q, 596 letters, 1028 romans); scripts/items.py resolves context. | Stage 5: tags in work/tags_phase1.txt, items in work/items_phase1.json (809), topics.json. | Stage 6: Phase-1 book in \u0394-chemistry/p2-topical-workbook (fallback). work/build_info_phase1.json."
+ "notes": "Stage 0: PyMuPDF 1.28.2 + reportlab installed; curl 9701_s25_qp_22.pdf -> 200, 16 pages. | Stage 1: 35/35 Phase-1 papers downloaded+verified (data/manifest.json). | Stage 2: layout.md written. | Stage 3: 35 papers pass, 9 questions excluded (work/checks_phase1.json). | Stage 4: work/parts_phase1.json (155 q, 596 letters, 1028 romans); scripts/items.py resolves context. | Stage 5: tags in work/tags_phase1.txt, items in work/items_phase1.json (809), topics.json. | Stage 6: Phase-1 book in \u0394-chemistry/p2-topical-workbook (fallback). work/build_info_phase1.json. | Stage 7: Phase 2 tags work/tags_phase2.txt, items work/items_phase2.json (926)."
 }
