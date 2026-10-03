@@ -1,4 +1,7 @@
 {
-  "stages": {"0": "done"},
-  "notes": "Stage 0: PyMuPDF 1.28.2 + reportlab installed; curl 9701_s25_qp_22.pdf -> 200, 16 pages."
+ "stages": {
+  "0": "done",
+  "1": "done"
+ },
+ "notes": "Stage 0: PyMuPDF 1.28.2 + reportlab installed; curl 9701_s25_qp_22.pdf -> 200, 16 pages. | Stage 1: 35/35 Phase-1 papers downloaded+verified (data/manifest.json)."
 }
