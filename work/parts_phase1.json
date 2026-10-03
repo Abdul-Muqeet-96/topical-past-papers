@@ -11,6 +11,7 @@
 {
 "n": 1,
 "total": 9,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -339,11 +340,6 @@
 ]
 },
 "first_def": {
-"L:B": "stem",
-"L:C": "stem",
-"L:F": "stem",
-"L:N": "stem",
-"L:O": "stem",
 "L:E": "(c)"
 },
 "ms_unmatched": []
@@ -351,6 +347,7 @@
 {
 "n": 2,
 "total": 16,
+"labels_defined": [],
 "stem": [
 [
 3,
@@ -1262,8 +1259,6 @@
 "Fig. 2.2": null
 },
 "first_def": {
-"L:C": "(c)",
-"L:P": "(c)(ii)",
 "N:equation 1": "(d)"
 },
 "ms_unmatched": []
@@ -1271,6 +1266,7 @@
 {
 "n": 3,
 "total": 20,
+"labels_defined": [],
 "stem": [
 [
 7,
@@ -2012,15 +2008,16 @@
 },
 "first_def": {
 "N:reaction 1": "(b)",
-"N:reaction 2": "(b)",
-"L:C": "(e)(i)",
-"L:H": "(e)(i)"
+"N:reaction 2": "(b)"
 },
 "ms_unmatched": []
 },
 {
 "n": 4,
 "total": 15,
+"labels_defined": [
+"L"
+],
 "stem": [
 [
 11,
@@ -2611,16 +2608,11 @@
 ]
 },
 "first_def": {
-"L:C": "stem",
-"L:H": "stem",
 "L:J": "stem",
-"L:K": "stem",
-"L:O": "stem",
 "L:L": "(b)",
 "L:M": "(b)",
 "N:reaction 1": "(b)",
 "N:reaction 2": "(b)",
-"L:N": "(b)(iii)",
 "N:step 1": "(b)(iv)",
 "N:step 2": "(b)(iv)",
 "N:step 3": "(b)(iv)"
@@ -2641,6 +2633,10 @@
 {
 "n": 1,
 "total": 17,
+"labels_defined": [
+"H",
+"O"
+],
 "stem": [
 [
 1,
@@ -3570,16 +3566,15 @@
 ]
 },
 "first_def": {
-"L:C": "stem",
 "L:H": "stem",
-"L:O": "stem",
-"L:S": "stem"
+"L:O": "stem"
 },
 "ms_unmatched": []
 },
 {
 "n": 2,
 "total": 11,
+"labels_defined": [],
 "stem": [
 [
 5,
@@ -4018,6 +4013,9 @@
 {
 "n": 3,
 "total": 21,
+"labels_defined": [
+"C"
+],
 "stem": [
 [
 7,
@@ -4985,11 +4983,7 @@
 ]
 },
 "first_def": {
-"L:B": "stem",
 "L:C": "(b)(i)",
-"L:H": "(b)(i)",
-"L:O": "(b)(i)",
-"L:N": "(b)(iv)",
 "N:equation 1": "(d)"
 },
 "ms_unmatched": []
@@ -4997,6 +4991,13 @@
 {
 "n": 4,
 "total": 11,
+"labels_defined": [
+"D",
+"E",
+"F",
+"G",
+"H"
+],
 "stem": [
 [
 11,
@@ -5770,9 +5771,7 @@
 "N:reaction 2": "stem",
 "N:reaction 3": "stem",
 "N:reaction 4": "stem",
-"N:reaction 5": "stem",
-"L:C": "(d)(i)",
-"L:N": "(d)(i)"
+"N:reaction 5": "stem"
 },
 "ms_unmatched": []
 }
@@ -5790,6 +5789,10 @@
 {
 "n": 1,
 "total": 16,
+"labels_defined": [
+"Y",
+"Z"
+],
 "stem": [
 [
 1,
@@ -6562,10 +6565,7 @@
 ]
 },
 "first_def": {
-"L:K": "(b)(ii)",
 "N:equation 1": "(c)",
-"L:H": "(d)",
-"L:O": "(d)",
 "L:X": "(d)",
 "L:Y": "(d)",
 "L:Z": "(d)",
@@ -6576,6 +6576,7 @@
 {
 "n": 2,
 "total": 18,
+"labels_defined": [],
 "stem": [
 [
 4,
@@ -7383,18 +7384,16 @@
 "first_def": {
 "L:G": "(b)",
 "L:J": "(c)(ii)",
-"L:K": "(d)",
 "L:L": "(d)",
 "N:reaction 1": "(d)",
-"N:reaction 2": "(d)",
-"L:C": "(d)(i)",
-"L:H": "(d)(i)"
+"N:reaction 2": "(d)"
 },
 "ms_unmatched": []
 },
 {
 "n": 3,
 "total": 15,
+"labels_defined": [],
 "stem": [
 [
 7,
@@ -8186,16 +8185,16 @@
 "first_def": {
 "N:reaction 1": "(b)",
 "N:reaction 2": "(b)",
-"N:reaction 3": "(b)",
-"L:H": "(c)",
-"L:F": "(d)(i)",
-"L:N": "(d)(i)"
+"N:reaction 3": "(b)"
 },
 "ms_unmatched": []
 },
 {
 "n": 4,
 "total": 11,
+"labels_defined": [
+"U"
+],
 "stem": [
 [
 10,
@@ -8652,7 +8651,7 @@
 "T",
 "U"
 ],
-"your": true
+"your": false
 }
 }
 ],
@@ -8740,7 +8739,7 @@
 "T",
 "U"
 ],
-"your": true
+"your": false
 }
 }
 ],
@@ -8810,17 +8809,13 @@
 ]
 },
 "first_def": {
-"L:P": "stem",
 "L:Q": "stem",
 "L:R": "stem",
-"L:S": "stem",
 "N:reaction 1": "stem",
 "N:reaction 2": "stem",
 "N:reaction 3": "stem",
 "L:T": "(c)",
-"L:U": "(c)",
-"L:C": "(c)(ii)",
-"L:N": "(c)(ii)"
+"L:U": "(c)"
 },
 "ms_unmatched": []
 }
@@ -8838,6 +8833,7 @@
 {
 "n": 1,
 "total": 17,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -9855,17 +9851,13 @@
 ]
 },
 "first_def": {
-"L:P": "(a)(i)",
-"L:H": "(a)(ii)",
 "N:reaction 1": "(a)(ii)",
 "L:W": "(a)(iii)",
-"L:C": "(b)",
 "N:reaction 2": "(b)",
 "N:reaction 3": "(b)",
 "N:reaction 4": "(b)",
 "N:reaction 5": "(b)",
 "N:reaction 6": "(b)",
-"L:B": "(b)(iv)",
 "N:reaction 7": "(c)",
 "L:D": "(d)"
 },
@@ -9874,6 +9866,7 @@
 {
 "n": 2,
 "total": 17,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -10567,6 +10560,7 @@
 {
 "n": 3,
 "total": 15,
+"labels_defined": [],
 "stem": [
 [
 7,
@@ -11347,6 +11341,10 @@
 {
 "n": 4,
 "total": 11,
+"labels_defined": [
+"J",
+"M"
+],
 "stem": [
 [
 9,
@@ -11721,14 +11719,9 @@
 ]
 },
 "first_def": {
-"L:H": "stem",
 "L:J": "stem",
-"L:K": "stem",
 "L:L": "stem",
-"L:M": "stem",
-"L:O": "stem",
-"L:N": "(b)",
-"L:C": "(b)(i)"
+"L:M": "stem"
 },
 "ms_unmatched": []
 }
@@ -11746,6 +11739,7 @@
 {
 "n": 1,
 "total": 14,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -12504,14 +12498,13 @@
 ]
 ]
 },
-"first_def": {
-"L:O": "(d)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 2,
 "total": 13,
+"labels_defined": [],
 "stem": [
 [
 3,
@@ -13176,10 +13169,6 @@
 ]
 },
 "first_def": {
-"L:N": "(a)",
-"L:O": "(a)",
-"L:C": "(b)",
-"L:H": "(d)",
 "N:reaction 1": "(d)"
 },
 "ms_unmatched": []
@@ -13187,6 +13176,11 @@
 {
 "n": 3,
 "total": 14,
+"labels_defined": [
+"B",
+"C",
+"D"
+],
 "stem": [
 [
 5,
@@ -13836,17 +13830,18 @@
 ]
 },
 "first_def": {
-"L:A": "(b)",
 "L:B": "(d)",
 "L:C": "(d)",
-"L:D": "(d)",
-"L:O": "(e)"
+"L:D": "(d)"
 },
 "ms_unmatched": []
 },
 {
 "n": 4,
 "total": 19,
+"labels_defined": [
+"F"
+],
 "stem": [
 [
 9,
@@ -14869,10 +14864,6 @@
 ]
 },
 "first_def": {
-"L:C": "(b)",
-"L:H": "(b)",
-"L:N": "(b)",
-"L:O": "(b)",
 "L:E": "(d)",
 "N:step 1": "(d)",
 "N:step 2": "(d)",
@@ -14894,6 +14885,7 @@
 {
 "n": 1,
 "total": 17,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -15789,14 +15781,14 @@
 ]
 },
 "first_def": {
-"L:X": "(e)",
-"L:H": "(f)(ii)"
+"L:X": "(e)"
 },
 "ms_unmatched": []
 },
 {
 "n": 2,
 "total": 12,
+"labels_defined": [],
 "stem": [
 [
 4,
@@ -16322,6 +16314,7 @@
 {
 "n": 3,
 "total": 17,
+"labels_defined": [],
 "stem": [
 [
 6,
@@ -16768,7 +16761,7 @@
 "Q",
 "R"
 ],
-"your": true
+"your": false
 }
 },
 {
@@ -16935,7 +16928,7 @@
 "Q",
 "R"
 ],
-"your": true
+"your": false
 }
 }
 ],
@@ -16998,11 +16991,9 @@
 ]
 },
 "first_def": {
-"L:O": "stem",
 "L:T": "stem",
 "L:Q": "(c)",
 "L:R": "(c)",
-"L:S": "(c)",
 "N:reaction 1": "(c)",
 "N:reaction 2": "(c)"
 },
@@ -17011,6 +17002,9 @@
 {
 "n": 4,
 "total": 14,
+"labels_defined": [
+"Z"
+],
 "stem": [
 [
 9,
@@ -17598,6 +17592,7 @@
 {
 "n": 1,
 "total": 9,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -17950,14 +17945,13 @@
 ]
 ]
 },
-"first_def": {
-"L:C": "(a)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 2,
 "total": 11,
+"labels_defined": [],
 "stem": [
 [
 3,
@@ -18439,7 +18433,6 @@
 ]
 },
 "first_def": {
-"L:C": "stem",
 "N:step 1": "(d)",
 "N:step 2": "(d)"
 },
@@ -18448,6 +18441,7 @@
 {
 "n": 3,
 "total": 12,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -19098,14 +19092,14 @@
 ]
 },
 "first_def": {
-"N:equation 1": "(a)",
-"L:H": "(b)"
+"N:equation 1": "(a)"
 },
 "ms_unmatched": []
 },
 {
 "n": 4,
 "total": 8,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -19701,9 +19695,6 @@
 ]
 },
 "first_def": {
-"L:C": "(b)",
-"L:F": "(b)",
-"L:H": "(b)",
 "L:X": "(c)"
 },
 "ms_unmatched": []
@@ -19711,6 +19702,7 @@
 {
 "n": 5,
 "total": 13,
+"labels_defined": [],
 "stem": [
 [
 9,
@@ -20219,19 +20211,16 @@
 "N:reaction 1": "stem",
 "N:reaction 2": "stem",
 "N:reaction 3": "stem",
-"L:N": "(c)",
-"L:O": "(c)",
 "N:step 1": "(c)",
 "N:step 2": "(c)",
-"N:step 3": "(c)",
-"L:C": "(c)(i)",
-"L:H": "(c)(i)"
+"N:step 3": "(c)"
 },
 "ms_unmatched": []
 },
 {
 "n": 6,
 "total": 7,
+"labels_defined": [],
 "stem": [
 [
 11,
@@ -20669,6 +20658,9 @@
 {
 "n": 1,
 "total": 13,
+"labels_defined": [
+"A"
+],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -21161,14 +21153,14 @@
 ]
 },
 "first_def": {
-"L:A": "(b)",
-"L:C": "(f)(ii)"
+"L:A": "(b)"
 },
 "ms_unmatched": []
 },
 {
 "n": 2,
 "total": 10,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -21550,15 +21542,13 @@
 ]
 ]
 },
-"first_def": {
-"L:P": "(a)(i)",
-"L:C": "(b)(ii)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 3,
 "total": 16,
+"labels_defined": [],
 "stem": [
 [
 5,
@@ -22337,19 +22327,20 @@
 ]
 },
 "first_def": {
-"L:C": "stem",
 "L:G": "stem",
-"L:H": "stem",
-"L:O": "stem",
 "L:T": "(a)(v)",
-"L:J": "(b)",
-"L:K": "(c)"
+"L:J": "(b)"
 },
 "ms_unmatched": []
 },
 {
 "n": 4,
 "total": 12,
+"labels_defined": [
+"L",
+"M",
+"Q"
+],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -22920,9 +22911,6 @@
 ]
 },
 "first_def": {
-"L:C": "(a)(i)",
-"L:H": "(a)(i)",
-"L:I": "(b)",
 "L:M": "(b)",
 "L:Q": "(b)",
 "L:T": "(b)",
@@ -22934,6 +22922,7 @@
 {
 "n": 5,
 "total": 9,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -23363,6 +23352,7 @@
 {
 "n": 1,
 "total": 13,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -23935,14 +23925,13 @@
 ]
 ]
 },
-"first_def": {
-"L:C": "(e)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 2,
 "total": 9,
+"labels_defined": [],
 "stem": [
 [
 3,
@@ -24356,7 +24345,6 @@
 },
 "first_def": {
 "N:equation 1": "stem",
-"L:C": "(b)",
 "L:J": "(b)(ii)"
 },
 "ms_unmatched": []
@@ -24364,6 +24352,7 @@
 {
 "n": 3,
 "total": 15,
+"labels_defined": [],
 "stem": [
 [
 5,
@@ -24981,6 +24970,7 @@
 {
 "n": 4,
 "total": 8,
+"labels_defined": [],
 "stem": [
 [
 7,
@@ -25500,7 +25490,6 @@
 ]
 },
 "first_def": {
-"L:O": "stem",
 "L:V": "stem",
 "L:W": "(a)",
 "L:Z": "(b)",
@@ -25511,6 +25500,9 @@
 {
 "n": 5,
 "total": 15,
+"labels_defined": [
+"G"
+],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -26264,11 +26256,9 @@
 },
 "first_def": {
 "L:M": "(a)",
-"L:C": "(c)",
 "L:G": "(c)",
 "L:J": "(c)",
 "L:L": "(c)",
-"L:O": "(c)",
 "L:R": "(c)",
 "L:T": "(c)",
 "N:step 1": "(c)",
@@ -26290,6 +26280,7 @@
 {
 "n": 1,
 "total": 12,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -26857,14 +26848,13 @@
 ]
 ]
 },
-"first_def": {
-"L:K": "stem"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 2,
 "total": 13,
+"labels_defined": [],
 "stem": [
 [
 3,
@@ -27719,8 +27709,6 @@
 ]
 },
 "first_def": {
-"L:P": "(a)(i)",
-"L:O": "(e)",
 "L:W": "(e)(iii)"
 },
 "ms_unmatched": []
@@ -27728,6 +27716,9 @@
 {
 "n": 3,
 "total": 8,
+"labels_defined": [
+"Y"
+],
 "stem": [
 [
 5,
@@ -28189,6 +28180,7 @@
 {
 "n": 4,
 "total": 15,
+"labels_defined": [],
 "stem": [
 [
 6,
@@ -28882,10 +28874,6 @@
 },
 "first_def": {
 "N:reaction 1": "stem",
-"L:C": "(a)",
-"L:H": "(c)",
-"L:O": "(c)",
-"L:P": "(c)",
 "N:step 1": "(c)",
 "N:step 2": "(c)",
 "N:step 3": "(c)(iii)"
@@ -28895,6 +28883,10 @@
 {
 "n": 5,
 "total": 12,
+"labels_defined": [
+"A",
+"C"
+],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -29674,12 +29666,9 @@
 },
 "first_def": {
 "L:A": "(b)",
-"L:B": "(b)",
 "L:C": "(c)",
 "L:D": "(d)",
-"L:E": "(d)",
-"L:O": "(d)",
-"L:N": "(d)(iv)"
+"L:E": "(d)"
 },
 "ms_unmatched": []
 }
@@ -29697,6 +29686,7 @@
 {
 "n": 1,
 "total": 9,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -30225,7 +30215,7 @@
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 },
 {
@@ -30332,7 +30322,7 @@
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 }
 ],
@@ -30362,14 +30352,13 @@
 ],
 "Fig. 1.1": null
 },
-"first_def": {
-"L:C": "stem"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 2,
 "total": 10,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -30964,6 +30953,7 @@
 {
 "n": 3,
 "total": 8,
+"labels_defined": [],
 "stem": [
 [
 5,
@@ -31382,7 +31372,6 @@
 },
 "first_def": {
 "N:equation 1": "stem",
-"L:C": "(b)",
 "L:J": "(b)(ii)"
 },
 "ms_unmatched": []
@@ -31390,6 +31379,7 @@
 {
 "n": 4,
 "total": 10,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -31936,7 +31926,6 @@
 "cap_site": {},
 "blocks": {},
 "first_def": {
-"L:K": "(b)",
 "N:reaction 1": "(b)"
 },
 "ms_unmatched": []
@@ -31944,6 +31933,7 @@
 {
 "n": 5,
 "total": 8,
+"labels_defined": [],
 "stem": [
 [
 9,
@@ -32374,7 +32364,6 @@
 ]
 },
 "first_def": {
-"L:O": "stem",
 "L:X": "stem",
 "L:Y": "stem"
 },
@@ -32383,6 +32372,7 @@
 {
 "n": 6,
 "total": 15,
+"labels_defined": [],
 "stem": [
 [
 11,
@@ -33300,11 +33290,6 @@
 "L:W": "stem",
 "N:step 1": "(b)",
 "N:step 2": "(b)",
-"L:C": "(b)(ii)",
-"L:H": "(b)(ii)",
-"L:N": "(b)(ii)",
-"L:O": "(b)(ii)",
-"L:S": "(b)(iv)",
 "L:T": "(b)(iv)"
 },
 "ms_unmatched": []
@@ -33323,6 +33308,7 @@
 {
 "n": 1,
 "total": 10,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -33779,14 +33765,13 @@
 ]
 ]
 },
-"first_def": {
-"L:K": "(a)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 2,
 "total": 12,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -34524,15 +34509,13 @@
 ]
 ]
 },
-"first_def": {
-"L:S": "(b)(i)",
-"L:C": "(d)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 3,
 "total": 9,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -34834,8 +34817,6 @@
 "cap_site": {},
 "blocks": {},
 "first_def": {
-"L:C": "(b)",
-"L:H": "(b)",
 "N:reaction 1": "(b)"
 },
 "ms_unmatched": []
@@ -34843,6 +34824,7 @@
 {
 "n": 4,
 "total": 6,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -35102,8 +35084,6 @@
 ]
 },
 "first_def": {
-"L:H": "(b)",
-"L:K": "(b)",
 "N:reaction 2": "(b)"
 },
 "ms_unmatched": []
@@ -35111,6 +35091,7 @@
 {
 "n": 5,
 "total": 9,
+"labels_defined": [],
 "stem": [
 [
 8,
@@ -35509,15 +35490,18 @@
 ]
 ]
 },
-"first_def": {
-"L:C": "(c)(ii)",
-"L:H": "(c)(ii)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 6,
 "total": 14,
+"labels_defined": [
+"Q",
+"T",
+"U",
+"Y"
+],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -36383,7 +36367,6 @@
 ]
 },
 "first_def": {
-"L:O": "(a)",
 "L:V": "(a)",
 "L:T": "(b)",
 "L:U": "(b)",
@@ -36392,9 +36375,7 @@
 "N:reaction 1": "(b)",
 "N:reaction 2": "(b)",
 "L:Q": "(c)",
-"L:Y": "(c)",
-"L:C": "(c)(iv)",
-"L:N": "(c)(iv)"
+"L:Y": "(c)"
 },
 "ms_unmatched": []
 }
@@ -36412,6 +36393,10 @@
 {
 "n": 1,
 "total": 15,
+"labels_defined": [
+"P",
+"S"
+],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -37169,7 +37154,6 @@
 ]
 },
 "first_def": {
-"L:K": "(d)",
 "L:P": "(d)",
 "L:S": "(d)"
 },
@@ -37178,6 +37162,7 @@
 {
 "n": 2,
 "total": 10,
+"labels_defined": [],
 "stem": [
 [
 3,
@@ -37583,9 +37568,7 @@
 ]
 },
 "first_def": {
-"L:H": "stem",
 "N:reaction 2": "(a)",
-"L:C": "(b)",
 "N:reaction 3": "(b)(iii)",
 "L:Z": "(c)"
 },
@@ -37594,6 +37577,7 @@
 {
 "n": 3,
 "total": 12,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -37979,16 +37963,14 @@
 ]
 },
 "first_def": {
-"N:reaction 4": "(b)",
-"L:C": "(d)",
-"L:N": "(d)",
-"L:S": "(d)"
+"N:reaction 4": "(b)"
 },
 "ms_unmatched": []
 },
 {
 "n": 4,
 "total": 15,
+"labels_defined": [],
 "stem": [
 [
 9,
@@ -38570,11 +38552,8 @@
 },
 "first_def": {
 "L:R": "(a)",
-"L:C": "(b)",
-"L:H": "(b)",
 "L:D": "(d)",
 "L:E": "(d)",
-"L:F": "(d)",
 "L:G": "(d)"
 },
 "ms_unmatched": []
@@ -38593,6 +38572,7 @@
 {
 "n": 1,
 "total": 13,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -39227,6 +39207,9 @@
 {
 "n": 2,
 "total": 14,
+"labels_defined": [
+"D"
+],
 "stem": [
 [
 3,
@@ -39872,9 +39855,6 @@
 ]
 },
 "first_def": {
-"L:B": "stem",
-"L:C": "stem",
-"L:H": "stem",
 "N:reaction 1": "stem",
 "L:D": "(c)(ii)",
 "L:E": "(c)(iii)"
@@ -39884,6 +39864,7 @@
 {
 "n": 3,
 "total": 7,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -40201,15 +40182,14 @@
 ]
 },
 "first_def": {
-"L:H": "(b)",
-"N:reaction 2": "(b)",
-"L:C": "(c)"
+"N:reaction 2": "(b)"
 },
 "ms_unmatched": []
 },
 {
 "n": 4,
 "total": 16,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -41061,15 +41041,13 @@
 ]
 ]
 },
-"first_def": {
-"L:C": "(e)(i)",
-"L:H": "(e)(i)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 5,
 "total": 10,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -41792,11 +41770,7 @@
 "L:Q": "(b)",
 "N:step 1": "(b)",
 "N:step 2": "(b)",
-"L:C": "(c)",
-"L:F": "(c)",
 "L:G": "(c)",
-"L:N": "(c)",
-"L:O": "(d)",
 "L:W": "(d)",
 "L:X": "(d)",
 "L:Y": "(d)",
@@ -41819,6 +41793,7 @@
 {
 "n": 1,
 "total": 11,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -42398,14 +42373,13 @@
 ]
 ]
 },
-"first_def": {
-"L:C": "(d)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 2,
 "total": 11,
+"labels_defined": [],
 "stem": [
 [
 3,
@@ -42803,14 +42777,14 @@
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 },
 "full_refs": {
 "tabs": [],
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 }
 ],
@@ -42846,6 +42820,7 @@
 {
 "n": 3,
 "total": 10,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -43322,7 +43297,6 @@
 "first_def": {
 "L:T": "(a)",
 "N:reaction 1": "(a)",
-"L:K": "(c)",
 "N:reaction 2": "(c)"
 },
 "ms_unmatched": []
@@ -43330,6 +43304,7 @@
 {
 "n": 4,
 "total": 9,
+"labels_defined": [],
 "stem": [
 [
 7,
@@ -43823,8 +43798,6 @@
 ]
 },
 "first_def": {
-"L:C": "stem",
-"L:O": "stem",
 "L:Q": "(b)"
 },
 "ms_unmatched": []
@@ -43832,6 +43805,11 @@
 {
 "n": 5,
 "total": 12,
+"labels_defined": [
+"B",
+"C",
+"E"
+],
 "stem": [
 [
 11,
@@ -44554,7 +44532,6 @@
 ]
 },
 "first_def": {
-"L:A": "stem",
 "L:B": "stem",
 "L:C": "stem",
 "N:step 1": "(d)",
@@ -44568,6 +44545,12 @@
 {
 "n": 6,
 "total": 7,
+"labels_defined": [
+"F",
+"G",
+"H",
+"J"
+],
 "stem": [
 [
 13,
@@ -44978,6 +44961,7 @@
 {
 "n": 1,
 "total": 16,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -45732,15 +45716,13 @@
 ]
 ]
 },
-"first_def": {
-"L:C": "(d)",
-"L:H": "(d)(i)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 2,
 "total": 10,
+"labels_defined": [],
 "stem": [
 [
 3,
@@ -46180,6 +46162,11 @@
 {
 "n": 3,
 "total": 16,
+"labels_defined": [
+"A",
+"B",
+"X"
+],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -46775,7 +46762,7 @@
 "T",
 "Y"
 ],
-"your": true
+"your": false
 }
 }
 ],
@@ -46844,7 +46831,7 @@
 "T",
 "Y"
 ],
-"your": true
+"your": false
 }
 },
 {
@@ -46955,8 +46942,6 @@
 "Fig. 3.3": null
 },
 "first_def": {
-"L:C": "(a)(ii)",
-"L:H": "(a)(ii)",
 "L:X": "(b)",
 "L:Y": "(c)",
 "L:T": "(d)",
@@ -46968,6 +46953,10 @@
 {
 "n": 4,
 "total": 13,
+"labels_defined": [
+"E",
+"T"
+],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -47870,16 +47859,16 @@
 "L:T": "(b)",
 "N:step 1": "(b)",
 "N:step 2": "(b)",
-"N:step 3": "(b)",
-"L:A": "(c)",
-"L:B": "(c)",
-"L:C": "(c)"
+"N:step 3": "(b)"
 },
 "ms_unmatched": []
 },
 {
 "n": 5,
 "total": 5,
+"labels_defined": [
+"L"
+],
 "stem": [
 [
 11,
@@ -48268,13 +48257,10 @@
 ]
 },
 "first_def": {
-"L:C": "stem",
-"L:O": "stem",
 "L:L": "(b)",
 "L:M": "(b)",
 "N:stage 1": "(b)",
-"N:stage 2": "(b)",
-"L:N": "(b)(iii)"
+"N:stage 2": "(b)"
 },
 "ms_unmatched": []
 }
@@ -48292,6 +48278,9 @@
 {
 "n": 1,
 "total": 10,
+"labels_defined": [
+"F"
+],
 "stem": [
 [
 1,
@@ -48708,6 +48697,7 @@
 {
 "n": 2,
 "total": 8,
+"labels_defined": [],
 "stem": [
 [
 2,
@@ -49230,14 +49220,13 @@
 ]
 ]
 },
-"first_def": {
-"L:C": "(c)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 3,
 "total": 7,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -49637,6 +49626,7 @@
 {
 "n": 4,
 "total": 11,
+"labels_defined": [],
 "stem": [
 [
 5,
@@ -50186,16 +50176,21 @@
 ]
 ]
 },
-"first_def": {
-"L:S": "stem",
-"L:O": "(b)",
-"L:H": "(b)(ii)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 5,
 "total": 14,
+"labels_defined": [
+"A",
+"B",
+"C",
+"D",
+"Q",
+"Y",
+"Z"
+],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -50945,14 +50940,12 @@
 ]
 },
 "first_def": {
-"L:O": "(a)",
 "L:W": "(a)",
 "L:Y": "(b)",
 "L:Z": "(b)",
 "L:B": "(b)(v)",
 "L:C": "(b)(v)",
 "L:D": "(b)(v)",
-"L:N": "(b)(v)",
 "L:Q": "(b)(vi)"
 },
 "ms_unmatched": []
@@ -50960,6 +50953,7 @@
 {
 "n": 6,
 "total": 10,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -51492,8 +51486,6 @@
 ]
 },
 "first_def": {
-"L:C": "(b)",
-"L:H": "(b)",
 "N:step 1": "(c)",
 "N:step 2": "(c)"
 },
@@ -51513,6 +51505,7 @@
 {
 "n": 1,
 "total": 14,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -52145,15 +52138,13 @@
 ]
 ]
 },
-"first_def": {
-"L:P": "(a)",
-"L:S": "(b)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 2,
 "total": 7,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -52545,14 +52536,15 @@
 ]
 ]
 },
-"first_def": {
-"L:S": "(a)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 3,
 "total": 11,
+"labels_defined": [
+"A"
+],
 "stem": [
 [
 5,
@@ -53106,7 +53098,6 @@
 "L:A": "(a)",
 "N:experiment 1": "(a)",
 "N:experiment 2": "(b)",
-"L:K": "(c)",
 "N:experiment 3": "(c)"
 },
 "ms_unmatched": []
@@ -53114,6 +53105,7 @@
 {
 "n": 4,
 "total": 11,
+"labels_defined": [],
 "stem": [
 [
 7,
@@ -53732,10 +53724,7 @@
 },
 "first_def": {
 "L:E": "stem",
-"L:O": "stem",
-"L:F": "(d)",
 "L:G": "(d)",
-"L:H": "(d)",
 "N:step 1": "(d)(iii)",
 "N:step 2": "(d)(iii)"
 },
@@ -53744,6 +53733,9 @@
 {
 "n": 5,
 "total": 7,
+"labels_defined": [
+"X"
+],
 "stem": [
 [
 9,
@@ -54233,6 +54225,9 @@
 {
 "n": 6,
 "total": 10,
+"labels_defined": [
+"R"
+],
 "stem": [
 [
 11,
@@ -54627,7 +54622,7 @@
 "labels": [
 "R"
 ],
-"your": true
+"your": false
 }
 },
 {
@@ -54746,7 +54741,7 @@
 "labels": [
 "R"
 ],
-"your": true
+"your": false
 }
 }
 ],
@@ -54764,10 +54759,8 @@
 "Fig. 6.1": null
 },
 "first_def": {
-"L:P": "stem",
 "L:Q": "stem",
-"L:R": "stem",
-"L:C": "(b)"
+"L:R": "stem"
 },
 "ms_unmatched": []
 }
@@ -54785,6 +54778,7 @@
 {
 "n": 1,
 "total": 17,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -55673,8 +55667,6 @@
 ]
 },
 "first_def": {
-"L:F": "(a)(i)",
-"L:S": "(a)(i)",
 "L:X": "(e)"
 },
 "ms_unmatched": []
@@ -55682,6 +55674,7 @@
 {
 "n": 2,
 "total": 9,
+"labels_defined": [],
 "stem": [
 [
 5,
@@ -56099,18 +56092,17 @@
 "cap_site": {},
 "blocks": {},
 "first_def": {
-"L:H": "stem",
 "N:stage 1": "stem",
 "N:stage 2": "stem",
 "N:stage 3": "stem",
-"N:equation 1": "(c)",
-"L:C": "(c)(ii)"
+"N:equation 1": "(c)"
 },
 "ms_unmatched": []
 },
 {
 "n": 3,
 "total": 10,
+"labels_defined": [],
 "stem": [
 [
 7,
@@ -56716,6 +56708,11 @@
 {
 "n": 4,
 "total": 9,
+"labels_defined": [
+"C",
+"W",
+"Y"
+],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -57245,17 +57242,15 @@
 "first_def": {
 "L:W": "(a)",
 "L:Z": "(a)",
-"L:A": "(b)",
 "L:Y": "(b)(iii)",
-"L:B": "(c)",
-"L:C": "(c)",
-"L:O": "(c)"
+"L:C": "(c)"
 },
 "ms_unmatched": []
 },
 {
 "n": 5,
 "total": 15,
+"labels_defined": [],
 "stem": [
 [
 11,
@@ -57868,9 +57863,7 @@
 "first_def": {
 "N:reaction 1": "stem",
 "N:reaction 2": "stem",
-"N:reaction 3": "stem",
-"L:C": "(d)",
-"L:H": "(d)"
+"N:reaction 3": "stem"
 },
 "ms_unmatched": []
 }
@@ -57888,6 +57881,7 @@
 {
 "n": 1,
 "total": 14,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -58537,15 +58531,16 @@
 "captions": {},
 "cap_site": {},
 "blocks": {},
-"first_def": {
-"L:C": "(b)",
-"L:H": "(e)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 2,
 "total": 6,
+"labels_defined": [
+"A",
+"C"
+],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -58971,7 +58966,6 @@
 ]
 },
 "first_def": {
-"L:B": "(b)",
 "L:C": "(b)",
 "L:A": "(b)(iii)"
 },
@@ -58980,6 +58974,7 @@
 {
 "n": 3,
 "total": 8,
+"labels_defined": [],
 "stem": [
 [
 5,
@@ -59357,6 +59352,14 @@
 {
 "n": 4,
 "total": 10,
+"labels_defined": [
+"D",
+"E",
+"F",
+"G",
+"X",
+"Z"
+],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -60035,6 +60038,7 @@
 {
 "n": 5,
 "total": 9,
+"labels_defined": [],
 "stem": [
 [
 9,
@@ -60501,6 +60505,12 @@
 {
 "n": 6,
 "total": 13,
+"labels_defined": [
+"P",
+"Q",
+"R",
+"S"
+],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -61180,10 +61190,8 @@
 ]
 },
 "first_def": {
-"L:O": "(a)",
 "L:P": "(a)",
 "L:Q": "(b)",
-"L:C": "(b)(ii)",
 "L:R": "(c)",
 "L:S": "(c)"
 },
@@ -61203,6 +61211,7 @@
 {
 "n": 1,
 "total": 12,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -61770,6 +61779,9 @@
 {
 "n": 2,
 "total": 9,
+"labels_defined": [
+"X"
+],
 "stem": [
 [
 3,
@@ -61991,7 +62003,6 @@
 ]
 },
 "first_def": {
-"L:K": "(c)",
 "L:X": "(c)"
 },
 "ms_unmatched": []
@@ -61999,6 +62010,7 @@
 {
 "n": 3,
 "total": 13,
+"labels_defined": [],
 "stem": [
 [
 4,
@@ -62450,15 +62462,22 @@
 ]
 },
 "first_def": {
-"L:H": "stem",
-"N:reaction 1": "stem",
-"L:C": "(c)"
+"N:reaction 1": "stem"
 },
 "ms_unmatched": []
 },
 {
 "n": 4,
 "total": 14,
+"labels_defined": [
+"E",
+"R",
+"V",
+"W",
+"X",
+"Y",
+"Z"
+],
 "stem": [
 [
 6,
@@ -63348,8 +63367,6 @@
 "L:X": "(c)",
 "L:Y": "(c)",
 "L:E": "(c)(iii)",
-"L:H": "(c)(iii)",
-"L:O": "(c)(iii)",
 "L:R": "(c)(iii)"
 },
 "ms_unmatched": []
@@ -63357,6 +63374,7 @@
 {
 "n": 5,
 "total": 12,
+"labels_defined": [],
 "stem": [
 [
 9,
@@ -63982,8 +64000,7 @@
 "N:stage 3": "(b)",
 "N:reaction 1": "(b)(ii)",
 "N:reaction 2": "(b)(ii)",
-"N:reaction 3": "(b)(iii)",
-"L:A": "(c)"
+"N:reaction 3": "(b)(iii)"
 },
 "ms_unmatched": []
 }
@@ -64001,6 +64018,7 @@
 {
 "n": 1,
 "total": 8,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -64515,6 +64533,7 @@
 {
 "n": 2,
 "total": 21,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -65319,6 +65338,7 @@
 {
 "n": 3,
 "total": 9,
+"labels_defined": [],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -65853,16 +65873,18 @@
 ]
 },
 "first_def": {
-"L:C": "(b)",
 "L:G": "(b)(i)",
-"L:M": "(b)(i)",
-"L:S": "(b)(i)"
+"L:M": "(b)(i)"
 },
 "ms_unmatched": []
 },
 {
 "n": 4,
 "total": 9,
+"labels_defined": [
+"S",
+"T"
+],
 "stem": [],
 "stem_text": "",
 "stem_refs": {
@@ -66327,8 +66349,6 @@
 "first_def": {
 "L:S": "(a)",
 "L:T": "(b)",
-"L:C": "(c)",
-"L:N": "(c)",
 "L:W": "(c)",
 "N:step 1": "(d)",
 "N:step 2": "(d)"
@@ -66338,6 +66358,11 @@
 {
 "n": 5,
 "total": 13,
+"labels_defined": [
+"P",
+"Q",
+"R"
+],
 "stem": [
 [
 11,
@@ -67051,8 +67076,6 @@
 ]
 },
 "first_def": {
-"L:C": "(d)(ii)",
-"L:H": "(d)(ii)",
 "L:P": "(e)",
 "L:Q": "(f)",
 "L:R": "(f)"
@@ -67073,6 +67096,7 @@
 {
 "n": 1,
 "total": 10,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -67230,7 +67254,7 @@
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 }
 ],
@@ -67301,7 +67325,7 @@
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 },
 {
@@ -67531,6 +67555,7 @@
 {
 "n": 2,
 "total": 9,
+"labels_defined": [],
 "stem": [
 [
 3,
@@ -67978,6 +68003,9 @@
 {
 "n": 3,
 "total": 18,
+"labels_defined": [
+"I"
+],
 "stem": [
 [
 5,
@@ -68879,14 +68907,16 @@
 "first_def": {
 "N:reaction 1": "(d)",
 "N:reaction 2": "(d)",
-"L:I": "(d)(iii)",
-"L:S": "(d)(iii)"
+"L:I": "(d)(iii)"
 },
 "ms_unmatched": []
 },
 {
 "n": 5,
 "total": 9,
+"labels_defined": [
+"M"
+],
 "stem": [
 [
 11,
@@ -69388,14 +69418,10 @@
 },
 "first_def": {
 "L:M": "stem",
-"L:N": "stem",
-"L:O": "stem",
-"L:P": "stem",
 "N:equation 1": "stem",
 "N:reaction 1": "stem",
 "N:reaction 2": "stem",
 "N:reaction 3": "stem",
-"L:C": "(b)",
 "L:Q": "(c)"
 },
 "ms_unmatched": []
@@ -69414,6 +69440,9 @@
 {
 "n": 1,
 "total": 17,
+"labels_defined": [
+"M"
+],
 "stem": [
 [
 1,
@@ -69862,7 +69891,7 @@
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 }
 ],
@@ -69916,7 +69945,7 @@
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 },
 {
@@ -70155,7 +70184,6 @@
 "Fig. 1.1": null
 },
 "first_def": {
-"L:C": "(e)(i)",
 "L:M": "(e)(iii)"
 },
 "ms_unmatched": []
@@ -70163,6 +70191,9 @@
 {
 "n": 2,
 "total": 21,
+"labels_defined": [
+"S"
+],
 "stem": [
 [
 4,
@@ -70633,7 +70664,7 @@
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 }
 ],
@@ -70687,7 +70718,7 @@
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 },
 {
@@ -70859,18 +70890,21 @@
 ]
 },
 "first_def": {
-"L:C": "stem",
 "L:S": "stem",
 "L:G": "(a)",
 "L:M": "(a)",
-"N:equation 1": "(c)",
-"L:K": "(d)"
+"N:equation 1": "(c)"
 },
 "ms_unmatched": []
 },
 {
 "n": 3,
 "total": 22,
+"labels_defined": [
+"E",
+"F",
+"Z"
+],
 "stem": [
 [
 7,
@@ -71800,13 +71834,9 @@
 ]
 },
 "first_def": {
-"L:H": "(a)",
-"L:O": "(a)",
 "L:Z": "(b)",
-"L:C": "(c)",
 "L:E": "(c)",
-"L:F": "(c)",
-"L:N": "(c)"
+"L:F": "(c)"
 },
 "ms_unmatched": []
 }
@@ -71824,6 +71854,7 @@
 {
 "n": 1,
 "total": 10,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -71981,7 +72012,7 @@
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 }
 ],
@@ -72052,7 +72083,7 @@
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 },
 {
@@ -72282,6 +72313,7 @@
 {
 "n": 2,
 "total": 9,
+"labels_defined": [],
 "stem": [
 [
 3,
@@ -72729,6 +72761,9 @@
 {
 "n": 3,
 "total": 18,
+"labels_defined": [
+"I"
+],
 "stem": [
 [
 5,
@@ -73630,14 +73665,16 @@
 "first_def": {
 "N:reaction 1": "(d)",
 "N:reaction 2": "(d)",
-"L:I": "(d)(iii)",
-"L:S": "(d)(iii)"
+"L:I": "(d)(iii)"
 },
 "ms_unmatched": []
 },
 {
 "n": 5,
 "total": 9,
+"labels_defined": [
+"M"
+],
 "stem": [
 [
 11,
@@ -74139,14 +74176,10 @@
 },
 "first_def": {
 "L:M": "stem",
-"L:N": "stem",
-"L:O": "stem",
-"L:P": "stem",
 "N:equation 1": "stem",
 "N:reaction 1": "stem",
 "N:reaction 2": "stem",
 "N:reaction 3": "stem",
-"L:C": "(b)",
 "L:Q": "(c)"
 },
 "ms_unmatched": []
@@ -74165,6 +74198,9 @@
 {
 "n": 1,
 "total": 22,
+"labels_defined": [
+"P"
+],
 "stem": [
 [
 1,
@@ -75070,16 +75106,14 @@
 ]
 },
 "first_def": {
-"L:P": "stem",
-"L:S": "stem",
-"L:C": "(d)",
-"L:O": "(d)(iii)"
+"L:P": "stem"
 },
 "ms_unmatched": []
 },
 {
 "n": 2,
 "total": 10,
+"labels_defined": [],
 "stem": [
 [
 5,
@@ -75668,14 +75702,14 @@
 "first_def": {
 "N:reaction 1": "stem",
 "N:reaction 2": "stem",
-"N:reaction 3": "stem",
-"L:B": "(c)"
+"N:reaction 3": "stem"
 },
 "ms_unmatched": []
 },
 {
 "n": 3,
 "total": 12,
+"labels_defined": [],
 "stem": [
 [
 7,
@@ -75936,7 +75970,7 @@
 "labels": [
 "K"
 ],
-"your": true
+"your": false
 }
 },
 {
@@ -76321,10 +76355,7 @@
 ]
 ]
 },
-"first_def": {
-"L:K": "(d)",
-"L:O": "(e)"
-},
+"first_def": {},
 "ms_unmatched": []
 }
 ]
@@ -76341,6 +76372,7 @@
 {
 "n": 1,
 "total": 13,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -76827,16 +76859,13 @@
 ]
 ]
 },
-"first_def": {
-"L:C": "(a)(ii)",
-"L:P": "(b)",
-"L:S": "(b)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 2,
 "total": 15,
+"labels_defined": [],
 "stem": [
 [
 3,
@@ -77553,15 +77582,13 @@
 ]
 ]
 },
-"first_def": {
-"L:C": "stem",
-"L:H": "stem"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 3,
 "total": 19,
+"labels_defined": [],
 "stem": [
 [
 7,
@@ -78501,12 +78528,8 @@
 "N:step 1": "(a)",
 "N:step 2": "(a)",
 "N:reaction 1": "(b)",
-"L:H": "(b)(ii)",
-"L:B": "(c)",
-"L:O": "(c)",
 "N:reaction 2": "(c)",
 "N:reaction 3": "(c)",
-"L:P": "(d)",
 "L:R": "(d)",
 "L:M": "(d)(ii)",
 "L:T": "(d)(ii)"
@@ -78516,6 +78539,9 @@
 {
 "n": 4,
 "total": 13,
+"labels_defined": [
+"H"
+],
 "stem": [
 [
 12,
@@ -79066,9 +79092,7 @@
 ]
 },
 "first_def": {
-"L:C": "stem",
-"L:H": "stem",
-"L:O": "stem"
+"L:H": "stem"
 },
 "ms_unmatched": []
 }
@@ -79086,6 +79110,9 @@
 {
 "n": 1,
 "total": 22,
+"labels_defined": [
+"P"
+],
 "stem": [
 [
 1,
@@ -79991,16 +80018,14 @@
 ]
 },
 "first_def": {
-"L:P": "stem",
-"L:S": "stem",
-"L:C": "(d)",
-"L:O": "(d)(iii)"
+"L:P": "stem"
 },
 "ms_unmatched": []
 },
 {
 "n": 2,
 "total": 10,
+"labels_defined": [],
 "stem": [
 [
 5,
@@ -80589,14 +80614,14 @@
 "first_def": {
 "N:reaction 1": "stem",
 "N:reaction 2": "stem",
-"N:reaction 3": "stem",
-"L:B": "(c)"
+"N:reaction 3": "stem"
 },
 "ms_unmatched": []
 },
 {
 "n": 3,
 "total": 12,
+"labels_defined": [],
 "stem": [
 [
 7,
@@ -80857,7 +80882,7 @@
 "labels": [
 "K"
 ],
-"your": true
+"your": false
 }
 },
 {
@@ -81242,10 +81267,7 @@
 ]
 ]
 },
-"first_def": {
-"L:K": "(d)",
-"L:O": "(e)"
-},
+"first_def": {},
 "ms_unmatched": []
 }
 ]
@@ -81262,6 +81284,7 @@
 {
 "n": 1,
 "total": 16,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -81636,7 +81659,7 @@
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 }
 ],
@@ -81694,7 +81717,7 @@
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 },
 {
@@ -81990,6 +82013,7 @@
 {
 "n": 2,
 "total": 13,
+"labels_defined": [],
 "stem": [
 [
 5,
@@ -82729,6 +82753,7 @@
 {
 "n": 3,
 "total": 20,
+"labels_defined": [],
 "stem": [
 [
 7,
@@ -83802,15 +83827,17 @@
 ]
 ]
 },
-"first_def": {
-"L:C": "(a)",
-"L:K": "(d)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 4,
 "total": 11,
+"labels_defined": [
+"A",
+"B",
+"C"
+],
 "stem": [
 [
 11,
@@ -84597,13 +84624,11 @@
 "first_def": {
 "L:B": "stem",
 "L:C": "stem",
-"L:O": "stem",
 "N:reaction 1": "stem",
 "N:reaction 2": "stem",
 "N:reaction 3": "stem",
 "N:reaction 4": "stem",
-"L:A": "(f)",
-"L:N": "(f)"
+"L:A": "(f)"
 },
 "ms_unmatched": []
 }
@@ -84621,6 +84646,7 @@
 {
 "n": 1,
 "total": 9,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -84981,7 +85007,7 @@
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 }
 ],
@@ -85052,7 +85078,7 @@
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 }
 ],
@@ -85081,6 +85107,7 @@
 {
 "n": 2,
 "total": 15,
+"labels_defined": [],
 "stem": [
 [
 3,
@@ -85768,14 +85795,14 @@
 ]
 },
 "first_def": {
-"N:equation 1": "(b)(iii)",
-"L:K": "(c)"
+"N:equation 1": "(b)(iii)"
 },
 "ms_unmatched": []
 },
 {
 "n": 3,
 "total": 19,
+"labels_defined": [],
 "stem": [
 [
 6,
@@ -86843,9 +86870,7 @@
 ]
 },
 "first_def": {
-"N:equation 1": "(b)",
-"L:P": "(c)",
-"L:N": "(f)(ii)"
+"N:equation 1": "(b)"
 },
 "ms_unmatched": []
 }
@@ -86863,6 +86888,7 @@
 {
 "n": 1,
 "total": 16,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -87237,7 +87263,7 @@
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 }
 ],
@@ -87295,7 +87321,7 @@
 "parts": [],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 },
 {
@@ -87591,6 +87617,7 @@
 {
 "n": 2,
 "total": 13,
+"labels_defined": [],
 "stem": [
 [
 5,
@@ -88330,6 +88357,7 @@
 {
 "n": 3,
 "total": 20,
+"labels_defined": [],
 "stem": [
 [
 7,
@@ -89403,15 +89431,17 @@
 ]
 ]
 },
-"first_def": {
-"L:C": "(a)",
-"L:K": "(d)"
-},
+"first_def": {},
 "ms_unmatched": []
 },
 {
 "n": 4,
 "total": 11,
+"labels_defined": [
+"A",
+"B",
+"C"
+],
 "stem": [
 [
 11,
@@ -90198,13 +90228,11 @@
 "first_def": {
 "L:B": "stem",
 "L:C": "stem",
-"L:O": "stem",
 "N:reaction 1": "stem",
 "N:reaction 2": "stem",
 "N:reaction 3": "stem",
 "N:reaction 4": "stem",
-"L:A": "(f)",
-"L:N": "(f)"
+"L:A": "(f)"
 },
 "ms_unmatched": []
 }
@@ -90222,6 +90250,9 @@
 {
 "n": 2,
 "total": 11,
+"labels_defined": [
+"B"
+],
 "stem": [
 [
 5,
@@ -90892,8 +90923,6 @@
 ]
 },
 "first_def": {
-"L:P": "(a)",
-"L:S": "(a)",
 "L:B": "(b)"
 },
 "ms_unmatched": []
@@ -90901,6 +90930,9 @@
 {
 "n": 3,
 "total": 13,
+"labels_defined": [
+"W"
+],
 "stem": [
 [
 7,
@@ -91537,7 +91569,7 @@
 "N",
 "W"
 ],
-"your": true
+"your": false
 }
 }
 ],
@@ -91601,7 +91633,7 @@
 "N",
 "W"
 ],
-"your": true
+"your": false
 }
 }
 ],
@@ -91684,18 +91716,20 @@
 ]
 },
 "first_def": {
-"L:C": "(b)",
 "N:reaction 1": "(d)",
 "N:reaction 2": "(d)",
 "N:reaction 3": "(d)",
-"L:W": "(e)",
-"L:N": "(e)(ii)"
+"L:W": "(e)"
 },
 "ms_unmatched": []
 },
 {
 "n": 4,
 "total": 16,
+"labels_defined": [
+"X",
+"Y"
+],
 "stem": [
 [
 11,
@@ -92523,6 +92557,10 @@
 {
 "n": 2,
 "total": 20,
+"labels_defined": [
+"P",
+"S"
+],
 "stem": [
 [
 3,
@@ -93441,19 +93479,19 @@
 "first_def": {
 "L:P": "(a)(ii)",
 "L:S": "(a)(ii)",
-"L:K": "(b)",
-"L:B": "(c)",
-"L:C": "(c)",
 "L:D": "(c)",
 "L:G": "(c)",
-"L:M": "(c)",
-"L:H": "(e)"
+"L:M": "(c)"
 },
 "ms_unmatched": []
 },
 {
 "n": 3,
 "total": 14,
+"labels_defined": [
+"E",
+"F"
+],
 "stem": [
 [
 7,
@@ -94089,8 +94127,6 @@
 ]
 },
 "first_def": {
-"L:B": "(d)",
-"L:C": "(d)",
 "L:D": "(d)",
 "L:E": "(e)",
 "L:F": "(e)",
@@ -94103,6 +94139,10 @@
 {
 "n": 4,
 "total": 16,
+"labels_defined": [
+"R",
+"S"
+],
 "stem": [
 [
 9,
@@ -94803,7 +94843,7 @@
 "N",
 "S"
 ],
-"your": true
+"your": false
 }
 },
 {
@@ -94927,7 +94967,7 @@
 "R",
 "S"
 ],
-"your": true
+"your": false
 }
 }
 ],
@@ -95000,12 +95040,9 @@
 "N:reaction 1": "stem",
 "N:reaction 2": "stem",
 "N:reaction 3": "stem",
-"L:C": "(a)(iv)",
-"L:H": "(a)(iv)",
 "L:Q": "(a)(iv)",
 "L:R": "(d)",
-"L:S": "(d)",
-"L:N": "(d)(ii)"
+"L:S": "(d)"
 },
 "ms_unmatched": []
 }
@@ -95023,6 +95060,9 @@
 {
 "n": 2,
 "total": 11,
+"labels_defined": [
+"B"
+],
 "stem": [
 [
 5,
@@ -95693,8 +95733,6 @@
 ]
 },
 "first_def": {
-"L:P": "(a)",
-"L:S": "(a)",
 "L:B": "(b)"
 },
 "ms_unmatched": []
@@ -95702,6 +95740,9 @@
 {
 "n": 3,
 "total": 13,
+"labels_defined": [
+"W"
+],
 "stem": [
 [
 7,
@@ -96338,7 +96379,7 @@
 "N",
 "W"
 ],
-"your": true
+"your": false
 }
 }
 ],
@@ -96402,7 +96443,7 @@
 "N",
 "W"
 ],
-"your": true
+"your": false
 }
 }
 ],
@@ -96485,18 +96526,20 @@
 ]
 },
 "first_def": {
-"L:C": "(b)",
 "N:reaction 1": "(d)",
 "N:reaction 2": "(d)",
 "N:reaction 3": "(d)",
-"L:W": "(e)",
-"L:N": "(e)(ii)"
+"L:W": "(e)"
 },
 "ms_unmatched": []
 },
 {
 "n": 4,
 "total": 16,
+"labels_defined": [
+"X",
+"Y"
+],
 "stem": [
 [
 11,
@@ -97324,6 +97367,7 @@
 {
 "n": 1,
 "total": 22,
+"labels_defined": [],
 "stem": [
 [
 1,
@@ -98238,6 +98282,7 @@
 {
 "n": 2,
 "total": 11,
+"labels_defined": [],
 "stem": [
 [
 5,
@@ -98412,7 +98457,7 @@
 ],
 "nrefs": [],
 "labels": [],
-"your": true
+"your": false
 }
 },
 {
@@ -98536,7 +98581,7 @@
 "labels": [
 "C"
 ],
-"your": true
+"your": false
 }
 },
 {
@@ -98753,7 +98798,6 @@
 "cap_site": {},
 "blocks": {},
 "first_def": {
-"L:C": "(a)",
 "N:equation 1": "(b)"
 },
 "ms_unmatched": []
@@ -98761,6 +98805,10 @@
 {
 "n": 3,
 "total": 11,
+"labels_defined": [
+"K",
+"N"
+],
 "stem": [
 [
 7,
@@ -99406,16 +99454,17 @@
 "N:reaction 1": "stem",
 "N:reaction 2": "stem",
 "N:reaction 3": "stem",
-"L:C": "(a)(iv)",
-"L:H": "(a)(iv)",
-"L:N": "(b)",
-"L:O": "(b)"
+"L:N": "(b)"
 },
 "ms_unmatched": []
 },
 {
 "n": 4,
 "total": 16,
+"labels_defined": [
+"S",
+"W"
+],
 "stem": [
 [
 9,
@@ -100131,7 +100180,6 @@
 ]
 },
 "first_def": {
-"L:P": "stem",
 "L:Q": "stem",
 "L:R": "(a)(v)",
 "L:S": "(a)(v)",

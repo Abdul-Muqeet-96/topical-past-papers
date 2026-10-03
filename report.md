@@ -33,3 +33,15 @@
   |---|---|---|
   | M/J 26/P24/Q5(e) | QP [1], MS row 5(e) = 3 marks | Excluded |
   | M/J 26/P24/Q5(f) | QP [2], MS has no 5(f) row | Excluded |
+
+## Stage 5 — topics and items (Phase 1)
+- 1250 lowest-level parts tagged in topics.json (topic, syllabus section, marks, item). 0 out-of-syllabus in Phase 1.
+- 809 items: 168 lettered parts split into roman groups (different topics, independently solvable, MS rows per sub-part); 15 multi-topic lettered parts kept whole with "also" tags (sibling dependency / marks not attributable / context too large); dependent adjacent parts in the same unit merged.
+- Excluded items: M/J 26/P24/Q5(e), Q5(f) (marks mismatch, see Stage 4).
+- Thin units (< 5 items): none in Phase 1.
+- AUTO-DECIDED (rules applied):
+  | Item | Issue | What I did |
+  |---|---|---|
+  | (all splits) | Consecutive roman sub-parts with the same topic | Kept together as one item, e.g. Q3(c)(i)-(ii); split only at topic changes |
+  | Test tables spanning several functional groups (e.g. MAR 25/P22/Q4(a), M/J 24/P22/Q4(c), O/N 22/P22/Q3(a)(i)) | One leaf covers several organic topics | Tagged 21.1 (identify functional groups using the reactions in the syllabus) |
+  | Ties on majority topic | see work/log_phase1.json "auto" | Filed under topic of first sub-part |

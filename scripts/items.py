@@ -5,7 +5,7 @@ roman sub-parts "(c)(ii)". resolve() returns the context blocks needed so the
 item is solvable alone, or a failure reason.
 """
 import re
-from extract import refs_in
+from extract import refs_in, ELEMENT_LIKE
 
 MAX_CONTEXT_H = 700   # ~ one page of context
 
@@ -24,7 +24,10 @@ def find_letter(Q, letter):
 
 def unit_region(Q, lab):
     """Question-crop region for a part label: '(c)' -> full lettered part,
-    '(c)(ii)' -> that sub-part only."""
+    '(c)(ii)' -> that sub-part only, '(c)#intro' -> the lettered intro only."""
+    if lab.endswith("#intro"):
+        L = find_letter(Q, letter_of(lab))
+        return L["intro"] if L else None
     L = find_letter(Q, letter_of(lab)) if letter_of(lab) else (Q["letters"][0] if Q["letters"] else None)
     if L is None:
         return None
@@ -37,6 +40,9 @@ def unit_region(Q, lab):
 
 
 def unit_text(Q, lab):
+    if lab.endswith("#intro"):
+        L = find_letter(Q, letter_of(lab))
+        return L["intro_text"] if L else None
     L = find_letter(Q, letter_of(lab)) if letter_of(lab) else (Q["letters"][0] if Q["letters"] else None)
     if L is None:
         return None
@@ -74,7 +80,7 @@ def covers(units, lab):
 def _site_covered(site, units, ctx_parts, intros):
     if site in ("stem", "Q"):
         return True
-    if site in intros:
+    if site in intros or site + "#intro" in ctx_parts:
         return True
     for u in list(units) + list(ctx_parts):
         if site == u or site.startswith(u):
@@ -126,7 +132,9 @@ def resolve(Q, units):
                 continue
             if any(pr == u or pr.startswith(u) for u in units):
                 continue
-            if any(pr == c or pr.startswith(c) for c in ctx_parts):
+            if pr in intros or any(letter_of(u) == letter_of(pr) and pr == f"({letter_of(u)})" for u in units):
+                continue   # "the information in (c)" from inside (c): the intro, already included
+            if any(pr == c or pr.startswith(c) for c in ctx_parts if not c.endswith("#intro")):
                 continue
             if pr not in allleaves and not find_letter(Q, letter_of(pr)):
                 continue
@@ -145,13 +153,17 @@ def resolve(Q, units):
                 todo.append(unit_text(Q, prev) or "")
                 notes.append(f"'your answer' -> previous part {prev}")
         # labels / numbered references defined elsewhere
-        for key in ["L:" + x for x in r["labels"]] + ["N:" + x for x in r["nrefs"]]:
+        labs = [x for x in r["labels"] if x not in ELEMENT_LIKE or x in Q.get("labels_defined", [])]
+        for key in ["L:" + x for x in labs] + ["N:" + x for x in r["nrefs"]]:
             site = Q["first_def"].get(key)
             if site is None or _site_covered(site, units, ctx_parts, intros):
                 continue
             if _after(Q, site, units):
                 continue
-            # site may be a lettered intro: include intro only (as ctx part label)
+            # a label defined in a lettered intro: include that intro only
+            L = find_letter(Q, letter_of(site)) if letter_of(site) else None
+            if L is not None and site == L["label"] and L["romans"]:
+                site = site + "#intro"
             ctx_parts.append(site)
             todo.append(unit_text(Q, site) or "")
     ctx_parts = _order_labels(Q, ctx_parts)
@@ -164,6 +176,7 @@ def _fail(why):
 
 
 def _order_key(Q, lab):
+    lab = lab.replace("#intro", "")
     order = []
     for L in Q["letters"]:
         order.append(L["label"])
@@ -174,7 +187,13 @@ def _order_key(Q, lab):
 def _order_labels(Q, labs):
     labs = sorted(set(labs), key=lambda l: _order_key(Q, l))
     # drop sub-parts already covered by an included lettered part
-    return [l for l in labs if not any(l != o and l.startswith(o) for o in labs)]
+    out = []
+    for l in labs:
+        base = l.replace("#intro", "")
+        if any(o != l and not o.endswith("#intro") and base.startswith(o) for o in labs):
+            continue
+        out.append(l)
+    return out
 
 
 def _after(Q, lab, units):

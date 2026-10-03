@@ -140,6 +140,22 @@ def _norm(w):
     return "Fig." if w.startswith("Fig") else w
 
 
+ELEMENT_LIKE = set("ABCFHIKNOPS")
+RE_DEFN = re.compile(r"\b(?:compounds?|substances?|elements?|ions?|molecules?|isomers?|products?|reagents?|"
+                     r"solutions?|solids?|gas|gases|liquids?|salts?|species|acids?|alcohols?|alkenes?|esters?|"
+                     r"mixtures?|polymers?|monomers?|reactants?|intermediates?|catalysts?|metals?|oxides?|"
+                     r"hydrocarbons?|halogenoalkanes?|bottles?|samples?|structures?|ketones?|aldehydes?|"
+                     r"atoms?|isotopes?|peaks?|anions?|cations?|curves?|areas?|points?|experiments?|"
+                     r"organic compounds?|labelled|labeled)\s+((?:[A-Z](?:\s*,\s*|\s+and\s+|\s+or\s+|\s+to\s+))*[A-Z])\b")
+
+
+def defined_labels(text):
+    out = set()
+    for m in RE_DEFN.finditer(text):
+        out |= set(re.findall(r"[A-Z]", m.group(1)))
+    return out
+
+
 def refs_in(text):
     tabs = sorted({f"{_norm(m.group(1))} {m.group(2)}" for m in RE_TREF.finditer(text)})
     parts = []
@@ -158,7 +174,7 @@ def refs_in(text):
             if not re.fullmatch(LABEL_NOUNS, prev, re.I):
                 continue
         labs.add(L)
-    your = bool(re.search(r"\byour answers? (to|in|from)\b|\bthat you\b.*\b(drew|gave|identified|calculated)\b", text, re.I))
+    your = bool(re.search(r"\b(use|using)\s+your\s+(answers?|values?)\b", text, re.I))
     return {"tabs": tabs, "parts": sorted(set(parts)), "nrefs": nrefs, "labels": sorted(labs), "your": your}
 
 
@@ -241,10 +257,13 @@ def build_question(doc, q, nxt_start, rows_q):
         order.append((L["label"] or "Q", L["intro_text"]))
         for R in L["romans"]:
             order.append((R["label"], R["text"]))
+    defined = defined_labels(" ".join(t for _, t in order))
     first_def = {}
     for where, t in order:
         r = refs_in(t)
         for lab in r["labels"]:
+            if lab in ELEMENT_LIKE and lab not in defined:
+                continue
             first_def.setdefault("L:" + lab, where)
         for n in r["nrefs"]:
             first_def.setdefault("N:" + n, where)
@@ -258,7 +277,7 @@ def build_question(doc, q, nxt_start, rows_q):
                     if _in(R["region"], p, y0):
                         site = R["label"]
         cap_site[k] = site
-    return {"n": q["n"], "total": q["total"], "stem": stem, "stem_text": stem_text,
+    return {"n": q["n"], "total": q["total"], "labels_defined": sorted(defined), "stem": stem, "stem_text": stem_text,
             "stem_refs": refs_in(stem_text), "letters": letters, "captions": {k: list(v) for k, v in caps.items()},
             "cap_site": cap_site, "blocks": blocks, "first_def": first_def,
             "ms_unmatched": sorted(k for k in msrows if not any(k == L["label"] or k.startswith(L["label"]) for L in letters if L["label"]))}
