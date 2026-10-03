@@ -18,8 +18,60 @@ RE_TOTAL = re.compile(r"\[Total:\s*(\d+)\]")
 RE_MS_LABEL = re.compile(r"^(\d{1,2})((?:\([a-z]\))?)((?:\((?:i|ii|iii|iv|v|vi|vii|viii|ix|x)\))?)$")
 
 
+RE_WM = re.compile(rb"/FormXob\.pcm\s+Do")
+
+
+def strip_watermark(d):
+    """Remove the download site's tiled watermark (Form XObject 'FormXob.pcm')
+    from every content stream, in memory only. Returns number of removals."""
+    n = 0
+    for x in range(1, d.xref_length()):
+        try:
+            if not d.xref_is_stream(x):
+                continue
+            st = d.xref_stream(x)
+        except Exception:
+            continue
+        if not st or (b"FormXob.pcm" not in st and b"gRLs" not in st):
+            continue
+        new, k = RE_WM.subn(b"", st)
+        new, k2 = _drop_wm_blocks(new)
+        if k or k2:
+            d.update_stream(x, new)
+            n += k + k2
+    return n
+
+
+RE_WM_BLOCK = re.compile(rb"(?<![^\s])q\s+0?\.055 0?\.227 0?\.361 rg\s+/gRLs\S* gs")
+
+
+def _drop_wm_blocks(st):
+    """Remove 'q <watermark colour> rg /gRLs.. gs ... Q' blocks (inline glyph
+    paths of the watermark), matching q/Q nesting."""
+    out, pos, k = [], 0, 0
+    for m in RE_WM_BLOCK.finditer(st):
+        if m.start() < pos:
+            continue
+        depth, i = 0, m.start()
+        toks = re.finditer(rb"(?<![^\s])([qQ])(?![^\s])", st[m.start():])
+        end = None
+        for t in toks:
+            depth += 1 if t.group(1) == b"q" else -1
+            if depth == 0:
+                end = m.start() + t.end()
+                break
+        if end is None:
+            continue
+        out.append(st[pos:m.start()])
+        pos = end
+        k += 1
+    out.append(st[pos:])
+    return b"".join(out), k
+
+
 def load(path):
     d = pymupdf.open(path)
+    strip_watermark(d)
     for p in d:
         if p.rotation:
             p.remove_rotation()

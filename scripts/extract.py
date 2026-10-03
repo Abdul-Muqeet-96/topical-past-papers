@@ -85,8 +85,10 @@ def drawing_boxes(page):
     boxes = []
     for d in page.get_drawings():
         r = d["rect"]
-        if r.x1 < 30 or r.x0 > W - 30 or (r.width > W * 0.9 and r.height > 600):
-            continue
+        if r.x1 <= 40 or r.x0 >= W - 40 or (r.width > W * 0.9 and r.height > 600):
+            continue   # margin furniture: corner marks, side bars
+        if r.y1 <= TOP + 2:
+            continue   # top barcode / corner marks
         if d.get("fill") == (1.0, 1.0, 1.0) and not d.get("color"):
             continue
         boxes.append((r.x0, r.y0, r.x1, r.y1))

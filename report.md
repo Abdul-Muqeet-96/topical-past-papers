@@ -45,3 +45,16 @@
   | (all splits) | Consecutive roman sub-parts with the same topic | Kept together as one item, e.g. Q3(c)(i)-(ii); split only at topic changes |
   | Test tables spanning several functional groups (e.g. MAR 25/P22/Q4(a), M/J 24/P22/Q4(c), O/N 22/P22/Q3(a)(i)) | One leaf covers several organic topics | Tagged 21.1 (identify functional groups using the reactions in the syllabus) |
   | Ties on majority topic | see work/log_phase1.json "auto" | Filed under topic of first sub-part |
+
+## Stage 6 — Phase-1 book (fallback)
+- Built Δ-chemistry/p2-topical-workbook/: full book (651 pages), 22 per-unit PDFs, index.csv.
+- Layout checks (rendered and inspected): cover, contents (2 pages), unit title pages, item pages from Units 1, 7, 11, 14 and 22, Answers Sections (Unit 7), topic index, Periodic Table appendix.
+- Problems found and fixed during inspection:
+  | Problem | Fix |
+  |---|---|
+  | The download site's watermark ("PapaCambridge", tiled Form XObject plus inline low-opacity glyph paths) showed through crops | Stripped from every content stream in memory when loading (scripts/parse.py `strip_watermark`); source files untouched |
+  | Corner registration marks / top barcode stubs at page breaks | Margin furniture excluded from crop bands; clip narrowed to x 40–556 |
+  | Periodic Table printed sideways with barcodes | Cropped to the table and rotated upright |
+  | Contents boxes overlapped for single-row entries | Box height per row type |
+  | Unit PDFs large (fonts duplicated) | Font subsetting (verified pixel-identical rendering) |
+- No screenshots/raster crops were used: all question and mark-scheme content is vector clips.

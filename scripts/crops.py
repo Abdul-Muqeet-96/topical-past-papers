@@ -9,7 +9,7 @@ from parse import page_lines
 from extract import drawing_boxes, content_bottom, RE_DOTS
 
 RE_DOTRUN = re.compile(r"[.…]{5,}")
-X0, X1 = 36, 559   # QP content clip (drops "DO NOT WRITE IN THIS MARGIN")
+X0, X1 = 40, 556   # QP content clip (drops margin text and corner marks)
 
 
 class Band:

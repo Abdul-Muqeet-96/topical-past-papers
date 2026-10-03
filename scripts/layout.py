@@ -14,6 +14,22 @@ DARK = (0.17, 0.2, 0.27)
 GREY = (0.45, 0.45, 0.45)
 ACCENT = (0.12, 0.38, 0.55)
 MAX_GAP = 8.0
+FONTDIR = "/usr/share/fonts/truetype/liberation/"
+FONTS = {"helv": ("lsr", FONTDIR + "LiberationSans-Regular.ttf"),
+         "hebo": ("lsb", FONTDIR + "LiberationSans-Bold.ttf"),
+         "heit": ("lsi", FONTDIR + "LiberationSans-Italic.ttf")}
+_FONT_OBJ = {}
+
+
+def tlen(s, font="helv", size=10):
+    if font not in _FONT_OBJ:
+        _FONT_OBJ[font] = pymupdf.Font(fontfile=FONTS[font][1])
+    return _FONT_OBJ[font].text_length(s, fontsize=size)
+
+
+def put(page, pt, s, font="helv", size=10, color=(0, 0, 0)):
+    name, path = FONTS[font]
+    page.insert_text(pt, s, fontname=name, fontfile=path, fontsize=size, color=color)
 
 
 class Flow:
@@ -36,11 +52,10 @@ class Flow:
     def _draw_header(self):
         pg = self.page
         n = pg.number + 1
-        pg.insert_text((ML, 34), BOOK, fontname="helv", fontsize=7.5, color=GREY)
+        put(pg, (ML, 34), BOOK, size=7.5, color=GREY)
         s = str(n)
-        pg.insert_text((W / 2 - pymupdf.get_text_length(s, "helv", 8) / 2, 34), s, fontname="helv", fontsize=8)
-        pg.insert_text((W - MR - pymupdf.get_text_length(self.header, "helv", 7.5), 34), self.header,
-                       fontname="helv", fontsize=7.5, color=GREY)
+        put(pg, (W / 2 - tlen(s, "helv", 8) / 2, 34), s, size=8)
+        put(pg, (W - MR - tlen(self.header, "helv", 7.5), 34), self.header, size=7.5, color=GREY)
         pg.draw_line((ML, 40), (W - MR, 40), color=GREY, width=0.4)
 
     def room(self):
@@ -59,7 +74,7 @@ class Flow:
         self.ensure(h)
         for ln in lines:
             self.y += size
-            self.page.insert_text((x, self.y), ln, fontname=font, fontsize=size, color=color)
+            put(self.page, (x, self.y), ln, font, size, color)
             self.y += size * 0.25
         self.y += gap
 
@@ -67,11 +82,11 @@ class Flow:
         self.ensure(30)
         r = pymupdf.Rect(ML, self.y, W - MR, self.y + 22)
         if center:
-            tw = pymupdf.get_text_length(s, "hebo", 12) + 30
+            tw = tlen(s, "hebo", 12) + 30
             r = pymupdf.Rect(W / 2 - tw / 2, self.y, W / 2 + tw / 2, self.y + 22)
         self.page.draw_rect(r, color=DARK, fill=DARK)
-        tx = r.x0 + 8 if not center else W / 2 - pymupdf.get_text_length(s, "hebo", 12) / 2
-        self.page.insert_text((tx, r.y0 + 15.5), s, fontname="hebo", fontsize=12, color=(1, 1, 1))
+        tx = r.x0 + 8 if not center else W / 2 - tlen(s, "hebo", 12) / 2
+        put(self.page, (tx, r.y0 + 15.5), s, "hebo", 12, (1, 1, 1))
         self.y = r.y1 + 12
 
     # ---------- crops ----------
@@ -106,7 +121,7 @@ class Flow:
                 gap = 0
             self.y += gap
             if first and label:
-                self.page.insert_text((ML + indent, self.y + 6), label, fontname="helv", fontsize=6.5, color=ACCENT)
+                put(self.page, (ML + indent, self.y + 6), label, "helv", 6.5, ACCENT)
                 self.y += 9
                 if h > self.room():
                     self.new_page(self.header)
@@ -150,7 +165,7 @@ def _wrap(s, font, size, width):
         cur = ""
         for w in words:
             t = (cur + " " + w).strip()
-            if pymupdf.get_text_length(t, font, size) <= width or not cur:
+            if tlen(t, font, size) <= width or not cur:
                 cur = t
             else:
                 out.append(cur)
