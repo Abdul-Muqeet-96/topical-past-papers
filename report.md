@@ -24,3 +24,12 @@
 | O/N 25/P21 | Q1 | MS marks 18 != QP total 20 | MS 1(c)(iii) "N/A": question removed from the paper by Cambridge |
 | O/N 25/P22 | Q1 | MS marks 8 != QP total 10 | MS 1(c)(iii) "N/A": question removed from the paper by Cambridge |
 | O/N 25/P23 | Q1 | MS marks 18 != QP total 20 | MS 1(c)(iii) "N/A": question removed from the paper by Cambridge |
+
+## Stage 4 — part extraction (Phase 1)
+- 155 included questions → 596 lettered parts, 1028 roman sub-parts; 390 Table/Fig. captions (38 without an isolable vector block; when one of those is referenced from another part, the defining part is used as context instead).
+- Lettered-part default items: 595/596 self-contained after context resolution (stem + referenced Tables/Figs + earlier parts / defined labels); 67 need earlier-part context, 5 need a Table/Fig. block from another part.
+- Marks check (item [marks] vs MS marks):
+  | Item | Issue | Action |
+  |---|---|---|
+  | M/J 26/P24/Q5(e) | QP [1], MS row 5(e) = 3 marks | Excluded |
+  | M/J 26/P24/Q5(f) | QP [2], MS has no 5(f) row | Excluded |

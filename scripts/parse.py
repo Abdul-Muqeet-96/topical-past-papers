@@ -181,7 +181,7 @@ def ms_rows(doc):
                   and d["rect"].y1 > hy and d["rect"].y0 < reg_end]
             qcol_x1 = min([r.x0 for r in vr if r.x0 > h[0] + 5] or [h[2] + 20])
             table_x1 = max([r.x1 for r in vr] or [page.rect.width - 60])
-            tab_bottom = min(max([r.y1 for r in vr] or [reg_end]), reg_end)
+            tab_bottom = max([r.y1 for r in vr if r.y1 <= reg_end + 1] or [reg_end])
             # full-width row rules only (rules of tables nested in a cell start further right)
             hr = sorted({round(d["rect"].y0, 1) for d in drs
                          if d["rect"].height < 2 and d["rect"].width > 30 and d["rect"].x0 < tx0 + 12
