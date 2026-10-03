@@ -262,7 +262,7 @@ def ms_rows(doc):
                     lines.append([w])
             starts = []      # (top, label or None for 'Total', first word)
             for w in words:
-                if w[4] in ("Total:", "Total") and hy + 2 < w[1] < tab_bottom and w[2] > qcol_x1 + 4:
+                if re.fullmatch(r"\[?Total:?", w[4]) and hy + 2 < w[1] < tab_bottom and w[2] > qcol_x1 + 4:
                     starts.append((w[1], None, w))
             for ln in lines:
                 ln.sort(key=lambda w: w[0])
@@ -335,6 +335,15 @@ def ms_rows(doc):
             if last["marks"][-1] == others and others > 0:
                 last["marks"] = last["marks"][:-1]
                 last["dropped_total"] = others
+                # trim the printed question total off the bottom of the crop
+                pno, rect = last["segs"][-1]
+                tw = [w for w in _dedupe(doc[pno].get_text("words"))
+                      if re.fullmatch(rf"\[?{others}\]?", w[4]) and rect.y0 < w[1] < rect.y1
+                      and w[0] > rect.x0 + (rect.width * 0.6)]
+                if tw:
+                    y = max(w[1] for w in tw)
+                    if y - rect.y0 > 12:
+                        last["segs"][-1] = (pno, pymupdf.Rect(rect.x0, rect.y0, rect.x1, y - 3))
     for r in rows:
         r["mark_total"] = sum(r["marks"])
     return rows
