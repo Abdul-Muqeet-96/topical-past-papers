@@ -4,8 +4,8 @@
   "0": "done",
   "1": "done",
   "2": "done",
-  "3": "running",
-  "4": "todo",
+  "3": "done",
+  "4": "running",
   "5": "todo",
   "6": "todo",
   "7": "todo"
@@ -13,6 +13,7 @@
  "notes": {
   "0": "scripts copied to scripts/physics and adapted (paths, 9702, Data/Formulae page, topics 1-11, no Data Booklet/Important values rules). Part B downloads: 21 attempted, 20 ok, s26_21 MS missing (HTTP 302) -> excluded. Manifest \u03a9-physics/work/manifest_physics.json. Syllabus LOs in \u03a9-physics/work/syllabus_AS.txt.",
   "1": "OCR: 550 pages, tesseract 5.3.4 --oem 1 --psm 3 300dpi, 4 jobs (OMP_THREAD_LIMIT=1); TSV in \u03a9-physics/work/ocr/; booklet-ocr.pdf 24.1 MB, 110864 invisible words; text search finds 'M/J 23/P22/Q1' on p6.",
-  "2": "map_booklet.py -> work/booklet_items.json: 366 items (12 booklet units), answers matched; 731 headings by OCR, 3 by image (heading_reads.json), 18 numbers inferred/corrected and verified by image (heading_number_checks.json). Scan misses printed pages 96-97,144-145,313-314,328-329,534-535: 7 items and 5 answers lost, 4 items + 1 answer truncated (flags). No O/N 2023 items -> w23 v21-23 to be built as Part B."
+  "2": "map_booklet.py -> work/booklet_items.json: 366 items (12 booklet units), answers matched; 731 headings by OCR, 3 by image (heading_reads.json), 18 numbers inferred/corrected and verified by image (heading_number_checks.json). Scan misses printed pages 96-97,144-145,313-314,328-329,534-535: 7 items and 5 answers lost, 4 items + 1 answer truncated (flags). No O/N 2023 items -> w23 v21-23 to be built as Part B.",
+  "3": "Light check in work/booklet_check.json + report.md Part A: contents 12/12 ok; 55-item sample (37 official QPs, phase 'check') viewed side by side, 0 problems; 9 electric-field items flagged; 2 booklet duplicates kept with notes."
  }
 }

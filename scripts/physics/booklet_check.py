@@ -120,5 +120,92 @@ def marks():
                   r.get("issue", ""))
 
 
+
+
+# Verdicts of the side-by-side visual comparison (scripts/physics/side_by_side.py, 50 dpi,
+# booklet crop left, official QP right), recorded by the reviewer for all 55 sampled items.
+VISUAL = {
+    "default": "text and figures match the official question; printed marks equal the official marks",
+    (4, 33): "booklet prints part (c) relabelled as (a); content and marks (5) match",
+    (6, 1): "booklet prints part (c) relabelled as (a); content and marks (7) match",
+    (7, 19): "booklet prints parts (c),(d) relabelled as (a),(b); content and marks (5) match",
+    (3, 16): "alpha-scattering / quark question filed by the booklet under Kinematics (also its Unit 12 #28); "
+             "content and marks match",
+    (12, 19): "(b)(ii) mark [1] printed on the line of heading 20: the crop now takes that line (heading "
+              "whited out); content and marks (4) match",
+    (12, 33): "content and marks match; tests a beta-particle in a uniform electric field (flagged: outside the "
+              "2025-27 AS syllabus)",
+    (9, 17): "content and marks match; the item number sits left of x=16 pt on this skewed page (crop width "
+             "taken from ink in the build)",
+}
+# Items that clearly test content outside the 2025-27 AS syllabus (read from the OCR text and the
+# scans): uniform electric fields / electric field strength are A Level only (topic 18).
+OUTSIDE = {
+    (1, 8): "(b) electric field strength of a point charge", (6, 14): "(b) charged particle between charged plates",
+    (10, 19): "(b),(c) smoke particle in the uniform field between charged plates",
+    (12, 14): "(d),(e) alpha-particles / nuclei in a uniform electric field",
+    (12, 15): "(b) nuclei accelerated by a uniform electric field",
+    (12, 16): "(c) proton and alpha-particle in a uniform electric field",
+    (12, 22): "(b)(ii) electric force on an ion between charged plates",
+    (12, 27): "electric field lines and field strength", (12, 33): "beta-particle path in a uniform electric field",
+}
+NOT_FLAGGED = {(12, 29): "only asks which radiation cannot be deflected by an electric field (tests charge, 11.1.7)",
+               (12, 30): "only asks which particles feel no electric force (tests charge, 11.2)"}
+
+
+def summary():
+    P = json.load(open(os.path.join(WORK, "booklet_pages.json")))
+    I = json.load(open(os.path.join(WORK, "booklet_items.json")))
+    M = {(r["unit"], r["n"]): r for r in json.load(open(os.path.join(WORK, "booklet_marks.json")))}
+    pages = P["pages"]
+    res = {}
+    # contents page vs the pages themselves (title pages by their text, Answers Sections by the header)
+    rows = []
+    for u, (q, a) in CONTENTS.items():
+        title = [pg["printed"] for pg in pages if pg["unit"] == u and pg["role"] == "title"]
+        ans = [pg.get("printed") or pg.get("printed_guess") for pg in pages if pg["unit"] == u and
+               re.search(r"Answers?\s+Sec", pg["header_text"] or "", re.I)]
+        qs = [pg.get("printed") or pg.get("printed_guess") for pg in pages if pg["unit"] == u and pg["role"] == "questions"]
+        rows.append({"unit": u, "contents_title": q, "title_page": title[0] if title else None,
+                     "contents_answers": a, "first_answers_page": min(ans) if ans else None,
+                     "question_pages": [min(qs), max(qs)] if qs else None,
+                     "ok": (title[:1] == [q]) and (min(ans) if ans else None) == a and qs and min(qs) == q + 1})
+    res["contents"] = rows
+    nq = Counter(it["unit"] for it in I)
+    res["counts"] = {u: {"items": nq[u], "answers": sum(1 for it in I if it["unit"] == u and it["answer_regions"]),
+                         "numbering_max": max([it["n"] for it in I if it["unit"] == u] +
+                                              [o["n"] for o in P["orphan_answers"] if o["unit"] == u])}
+                     for u in CONTENTS}
+    res["lost_in_scan"] = {"missing_printed_pages": [[a, b] for a, b, _, _ in P["missing_printed"]],
+                           "items_lost": [p for p in P["problems"] if p.get("missing")],
+                           "answers_without_item": P["orphan_answers"],
+                           "items_flagged": [[it["unit"], it["n"], it["ref"], it["flags"]] for it in I if it["flags"]]}
+    res["refs"] = {"parsed": sum(1 for it in I if it["ref_parsed"] and it["ref_parsed"].get("unambiguous")),
+                   "total": len(I), "by_image": [it["heading_key"] for it in I if it["heading_source"] == "image"],
+                   "years": dict(sorted(Counter(2000 + it["ref_parsed"]["yy"] for it in I).items())),
+                   "after_2023": [it["ref"] for it in I if it["ref_parsed"]["yy"] > 23]}
+    c = Counter(it["ref"] for it in I)
+    res["duplicates"] = [[k, [[it["unit"], it["n"]] for it in I if it["ref"] == k]] for k, v in c.items() if v > 1]
+    res["answer_ref_mismatch"] = [[it["unit"], it["n"], it["ref"], it.get("answer_ref")] for it in I
+                                  if it.get("answer_ref") and it["answer_ref"] != it["ref"]]
+    samp = []
+    for (u, n), r in sorted(M.items()):
+        samp.append(dict(r, visual=VISUAL.get((u, n), VISUAL["default"]),
+                         ocr_marks_note=None if r["match"] else "margin OCR misread; marks checked by eye: equal"))
+    res["sample"] = samp
+    res["sample_problems_per_topic"] = {t: 0 for t in sorted({s["topic"] for s in samp})}
+    res["outside_syllabus"] = [[u, n, next(it["ref"] for it in I if (it["unit"], it["n"]) == (u, n)), why]
+                               for (u, n), why in sorted(OUTSIDE.items())]
+    res["not_flagged"] = [[u, n, why] for (u, n), why in sorted(NOT_FLAGGED.items())]
+    json.dump(res, open(os.path.join(WORK, "booklet_check.json"), "w"), indent=1, ensure_ascii=False)
+    print("contents rows ok:", sum(r["ok"] for r in rows), "/", len(rows))
+    for r in rows:
+        if not r["ok"]:
+            print("  ", r)
+    print("counts", res["counts"])
+    print("dupes", res["duplicates"], "ref mismatch", res["answer_ref_mismatch"])
+    print("sample", len(samp), "outside", len(res["outside_syllabus"]))
+
+
 if __name__ == "__main__":
-    {"select": select, "marks": marks}[sys.argv[1]]()
+    {"select": select, "marks": marks, "summary": summary}[sys.argv[1]]()
