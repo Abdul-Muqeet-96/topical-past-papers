@@ -1,0 +1,18 @@
+{
+ "coverage_unexplained": [],
+ "coverage_dupes": [],
+ "selfcontained_fail": [],
+ "ctx_mismatch": [],
+ "marks_fail": [],
+ "ref_not_on_page": [],
+ "answers_missing": [],
+ "booklet_ref_not_on_page": [],
+ "booklet_answer_missing": [],
+ "booklet_items_missing": [],
+ "counts": {
+  "official_items": 260,
+  "booklet_items": 366,
+  "book_pages": 912,
+  "booklet_in_book": 366
+ }
+}

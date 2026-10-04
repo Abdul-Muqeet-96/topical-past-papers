@@ -1,13 +1,17 @@
-"""Stage 6/8: build the workbook PDF, per-unit PDFs and index.csv.
+"""Stage 5: build the Physics workbook PDF, per-unit PDFs, index.csv, items.jsonl.
 
-Usage: python3 scripts/build.py OUTDIR phase1 [phase2 ...]
-Layout follows layout.md. Contents page numbers are filled after the body is
-rendered (front pages are reserved first), so they are exact.
+Usage: python3 scripts/physics/build.py OUTDIR
+Each unit: Part B items (official papers, newest first), then the booklet items
+(crops of Ω-physics/booklet-ocr.pdf, newest first, booklet order within a year),
+one numbering; Answers Section after each unit in the same order. Layout as in
+the Chemistry book (Δ-chemistry/layout.md). Contents page numbers are filled after
+the body is rendered (front pages are reserved first), so they are exact.
 """
-import csv, datetime, json, os, sys
+import csv, datetime, json, os, re, sys
 from collections import defaultdict
 import pymupdf
 sys.path.insert(0, os.path.dirname(__file__))
+import numpy as np
 from parse import load, special_page
 from crops import bands, ms_bands, Band, X0, X1
 from items import find_letter, letter_of, unit_region
@@ -89,26 +93,113 @@ def est_height(blocks):
     return h
 
 
-def place_item(f, num, it, blocks, ref_pages):
-    h = est_height(blocks) + (10 if it["also"] else 0) + (10 if it.get("data_booklet") else 0)
+
+BOOKLET_PDF = os.path.join(ROOT, "Ω-physics", "booklet-ocr.pdf")
+WORK = os.path.join(ROOT, "Ω-physics", "work")
+BOOKNAME = "Physics-9702-P2-Topical-Workbook.pdf"
+BX0, BX1 = 8, 588          # horizontal limits for booklet crops (ink extent inside them)
+_GRAY = {}
+
+
+def _booklet_gray(bd, p0, z=1.5):
+    if p0 not in _GRAY:
+        pm = bd[p0].get_pixmap(matrix=pymupdf.Matrix(z, z), colorspace=pymupdf.csGRAY, alpha=False)
+        _GRAY[p0] = np.frombuffer(pm.samples, dtype=np.uint8).reshape(pm.height, pm.stride)[:, :pm.width].copy()
+        if len(_GRAY) > 40:
+            _GRAY.pop(next(iter(_GRAY)))
+    return _GRAY[p0]
+
+
+def booklet_bands(bd, regions, wos):
+    """One band per booklet region (a region never crosses a page), x-extent from ink."""
+    z = 1.5
+    out = []
+    for p0, y0, y1 in regions:
+        a = _booklet_gray(bd, p0)[int(y0 * z):int(np.ceil(y1 * z)), int(BX0 * z):int(BX1 * z)] < 150
+        w = [pymupdf.Rect(r[1], r[2], r[3], r[4]) for r in wos if r[0] == p0 and r[2] < y1 and r[4] > y0]
+        for r in w:      # whiteouts do not count as ink
+            a[max(0, int((r.y0 - y0) * z)):max(0, int((r.y1 - y0) * z)),
+              max(0, int((r.x0 - BX0) * z)):max(0, int((r.x1 - BX0) * z))] = False
+        cols = np.flatnonzero(a.sum(axis=0) >= 3)
+        x0 = BX0 + cols[0] / z - 2 if len(cols) else 40
+        x1 = BX0 + (cols[-1] + 1) / z + 2 if len(cols) else 556
+        b = Band(p0, y0, y1, w, x0=max(BX0, x0), x1=min(BX1, x1))
+        out.append(b)
+    return out
+
+
+def booklet_entries():
+    """Booklet items with their notes, from work/booklet_items.json and the light check."""
+    sys.path.insert(0, os.path.dirname(__file__))
+    from map_booklet import UNIT_TO_TOPIC
+    I = json.load(open(os.path.join(WORK, "booklet_items.json")))
+    C = json.load(open(os.path.join(WORK, "booklet_check.json")))
+    outside = {(u, n) for u, n, _, _ in C["outside_syllabus"]}
+    dup = {}
+    for ref, locs in C["duplicates"]:
+        for u, n in locs:
+            dup[(u, n)] = [UNIT_TO_TOPIC[v] for v, m in locs if (v, m) != (u, n)]
+    out = []
+    for it in I:
+        u, n = it["unit"], it["n"]
+        notes, anotes = ["booklet (scan + OCR)"], []
+        if (u, n) in outside:
+            notes.append("May be outside the 2025–27 syllabus")
+        for fl in it["flags"]:
+            if fl.startswith("scan_gap_q"):
+                a, b = fl.split(":")[1].split("-")
+                notes.append(f"Incomplete in the scanned booklet: its printed pages {a}–{b} are missing")
+            elif fl.startswith("scan_gap_a"):
+                a, b = fl.split(":")[1].split("-")
+                anotes.append(f"Answer incomplete in the scanned booklet: its printed pages {a}–{b} are missing")
+            elif fl == "no_answer":
+                anotes.append("Answer missing from the scanned booklet (printed pages 328–329 are missing)")
+        if (u, n) in dup:
+            notes.append("The booklet also files this question under Unit " + ", ".join(map(str, dup[(u, n)])))
+        rp = it["ref_parsed"]
+        out.append({"kind": "booklet", "key": f"B{u}-{n}", "ref": it["ref"], "topic": it["topic"],
+                    "booklet_unit": u, "booklet_n": n, "marks": None, "year": 2000 + rp["yy"],
+                    "regions": it["regions"], "whiteouts": it.get("whiteouts", []),
+                    "answer_regions": it["answer_regions"], "answer_whiteouts": it.get("answer_whiteouts", []),
+                    "notes": notes, "answer_notes": anotes, "flags": it["flags"],
+                    "sort": (-(2000 + rp["yy"]), u, n)})
+    return out
+
+
+def est_height(blocks, x0=None, x1=None):
+    h = 18
+    allb = [b for _, bs in blocks for b in bs]
+    if allb:
+        x0 = min(b.x0 for b in allb) if x0 is None else x0
+        x1 = max(b.x1 for b in allb) if x1 is None else x1
+        h += Flow.bands_height(allb, min(1.0, TW / (x1 - x0))) + 4
+    return h
+
+
+def place_item(f, num, it, blocks, ref_pages, src):
+    notes = []
+    if it["kind"] == "official":
+        at = also_text(it)
+        if at:
+            notes.append(at)
+    else:
+        notes = it["notes"]
+    h = est_height(blocks) + 10 * len(notes)
     avail = H - MB - MT - 30
     if h > f.room() and h <= avail:
         f.new_page(f.header)
     elif f.room() < 80:
         f.new_page(f.header)
     f.text(f"{num}.  {it['ref']}", size=10.5, bold=True, gap=2)
-    ref_pages[it["ref"]] = f.page.number + 1
-    at = also_text(it)
-    if at:
-        f.text(at, size=7.5, color=GREY, gap=3)
-    if it.get("data_booklet"):
-        f.text("Data Booklet needed", size=7.5, color=GREY, gap=3)
+    ref_pages[it["key"]] = f.page.number + 1
+    for n in notes:
+        f.text(n, size=7.5, color=GREY, gap=3)
     allb = [b for _, bs in blocks for b in bs]
     x0 = min([b.x0 for b in allb] or [X0])
     x1 = max([b.x1 for b in allb] or [X1])
     for lab, bs in blocks:
         if bs:
-            f.place_bands(f.cur_src, bs, x0=x0, x1=x1)
+            f.place_bands(src, bs, x0=x0, x1=x1)
             f.y += 2
     f.y += 14
 
@@ -132,12 +223,29 @@ def place_answer(f, num, it, Q, md):
     if f.room() < 30 + min(first_h, 200):
         f.new_page(f.header)
     f.text(f"{num}.  {it['ref']}", size=10.5, bold=True, gap=3)
-    f.place_bands(f.cur_ms, bs, x0=x0, x1=x1)
+    f.place_bands(md, bs, x0=x0, x1=x1)
     for c, rr in ctx:
         cs = [s for r in rr for s in r["segs"]]
         cbs = [Band(p, r[1], r[3]) for p, r in cs if r[3] - r[1] > 2]
         f.y += 6
-        f.place_bands(f.cur_ms, cbs, x0=x0, x1=x1)
+        f.place_bands(md, cbs, x0=x0, x1=x1)
+    f.y += 14
+    return True
+
+
+def place_booklet_answer(f, num, it, bd):
+    bs = booklet_bands(bd, it["answer_regions"], it["answer_whiteouts"])
+    notes = it["answer_notes"]
+    first_h = bs[0].h if bs else 0
+    if f.room() < 30 + 10 * len(notes) + min(first_h, 200):
+        f.new_page(f.header)
+    f.text(f"{num}.  {it['ref']}", size=10.5, bold=True, gap=3)
+    for n in notes:
+        f.text(n, size=7.5, color=GREY, gap=3)
+    if bs:
+        x0 = min(b.x0 for b in bs)
+        x1 = max(b.x1 for b in bs)
+        f.place_bands(bd, bs, x0=x0, x1=x1)
     f.y += 14
     return True
 
@@ -149,20 +257,22 @@ def cover(doc, stats):
         pg.draw_rect(pymupdf.Rect(ML + i * 26, 60, ML + i * 26 + 18, 78), color=None, fill=c)
     put(pg, (ML, 140), "Physics 9702", "hebo", 34, (1, 1, 1))
     put(pg, (ML, 175), "Paper 2 · AS Level Structured Questions", "helv", 16, (0.85, 0.88, 0.92))
-    put(pg, (ML, 235), "Part-level Topical Workbook", "hebo", 22, (1, 1, 1))
+    put(pg, (ML, 235), "Topical Workbook", "hebo", 22, (1, 1, 1))
     put(pg, (ML, 262), "with Mark Scheme", "helv", 14, (0.85, 0.88, 0.92))
     y = 350
     bullets = [
-        "Every question part filed under its own syllabus topic (22 AS units)",
-        "Each item carries the official context it needs: stem, tables, figures, earlier parts",
-        "Answer lines removed; tables to complete kept",
-        "Newest papers first; mark scheme in an Answers Section after each unit",
-        "Index of every part with its unit, marks and page; Periodic Table appendix",
+        "Questions filed under the 11 AS topics of the 2025–27 syllabus",
+        "Official papers (Oct/Nov 2023 – May/June 2026): each question part under its own topic,",
+        "    with the official context it needs and the official mark scheme",
+        "Booklet questions up to 2023: scanned pages with an OCR text layer, marked \"booklet (scan + OCR)\"",
+        "Newest first in each unit; Answers Section after each unit",
+        "Topic index with page numbers; Data and Formulae appendix",
     ]
     for b in bullets:
-        pg.draw_rect(pymupdf.Rect(ML, y - 7, ML + 6, y - 1), color=None, fill=ACCENT)
-        put(pg, (ML + 14, y), b, "helv", 11)
-        y += 22
+        if not b.startswith("    "):
+            pg.draw_rect(pymupdf.Rect(ML, y - 7, ML + 6, y - 1), color=None, fill=ACCENT)
+        put(pg, (ML + 14, y), b.strip(), "helv", 10.5)
+        y += 21
     y += 20
     put(pg, (ML, y), "Coverage", "hebo", 12)
     y += 20
@@ -185,8 +295,10 @@ def unit_title_page(f, t, items):
         y += 30
     pg.draw_line((ML, y), (W - MR, y), color=DARK, width=1.5)
     y += 30
-    marks = sum(i["marks"] for i in items)
-    put(pg, (ML, y), f"{len(items)} items · {marks} marks", "helv", 12)
+    off = [i for i in items if i["kind"] == "official"]
+    bk = [i for i in items if i["kind"] == "booklet"]
+    put(pg, (ML, y), f"{len(items)} items: {len(off)} from official papers ({sum(i['marks'] for i in off)} marks), "
+        f"{len(bk)} from the booklet", "helv", 12)
     y += 30
     put(pg, (ML, y), "Syllabus sections in this unit", "hebo", 11)
     y += 18
@@ -233,46 +345,58 @@ def contents(doc, front, rows):
         dots = "." * max(0, int((px - lx - 4) / tlen(".", "helv", 9.5)))
         put(pg, (lx, y + 10), dots, "helv", 9.5, GREY)
         put(pg, (px, y + 10), ps, "helv", 9.5)
-        y += 16 if label is None else 16
+        y += 16
 
 
-def periodic_clip(pt):
-    """Clip around the Periodic Table itself (no barcodes/margins); rotate it
-    upright when the table is printed sideways."""
-    from collections import Counter
-    lines = [l for b in pt.get_text("dict")["blocks"] for l in b.get("lines", [])]
-    dirs = Counter(tuple(round(v) for v in l["dir"]) for l in lines)
-    main = dirs.most_common(1)[0][0]
-    rot = -90 if main == (0, -1) else (90 if main == (0, 1) else 0)
-    inner = pymupdf.Rect(45, 50, pt.rect.width - 45, pt.rect.height - 50)
-    tl = [pymupdf.Rect(l["bbox"]) for l in lines if tuple(round(v) for v in l["dir"]) == main
-          and pymupdf.Rect(l["bbox"]) in inner and "".join(s["text"] for s in l["spans"]).strip()
-          and not "".join(s["text"] for s in l["spans"]).strip().startswith(("©", "*", "9702/", "DO NOT"))]
-    box = pymupdf.Rect(tl[0])
-    for r in tl:
-        box |= r
-    grown = box + (-25, -25, 25, 25)
-    for dr in pt.get_drawings():
-        r = dr["rect"]
-        if r.intersects(grown) and r in inner and r.width < pt.rect.width * 0.9:
+def data_clip(pg):
+    """Clip around the Data and Formulae content of the QP page (no page number, barcode,
+    footer or margin text)."""
+    from crops import page_top
+    from extract import content_bottom
+    top, bot = page_top(pg), content_bottom(pg)
+    box = None
+    for b in pg.get_text("dict")["blocks"]:
+        for l in b.get("lines", []):
+            r = pymupdf.Rect(l["bbox"])
+            t = "".join(s["text"] for s in l["spans"]).strip()
+            if not t or r.y0 < top or r.y1 > bot or r.x0 < 40 or r.x1 > pg.rect.width - 30:
+                continue
+            box = r if box is None else box | r
+    for d in pg.get_drawings():
+        r = d["rect"]
+        if box is not None and r.y0 >= top and r.y1 <= bot and r.x0 >= 40 and r.x1 <= pg.rect.width - 30:
             box |= r
-    return box + (-4, -4, 4, 4), rot
+    return box + (-4, -4, 4, 4)
 
 
-def build(outdir, phases):
+def item_text_booklet(it):
+    from booklet_lines import region_text
+    return region_text(it["regions"])
+
+
+def build(outdir):
     docs = Docs()
-    items, parts = [], {}
-    for ph in phases:
-        items += json.load(open(os.path.join(ROOT, "Ω-physics", "work", f"items_{ph}.json")))
-        parts.update(json.load(open(os.path.join(ROOT, "Ω-physics", "work", f"parts_{ph}.json"))))
+    bd = pymupdf.open(BOOKLET_PDF)
+    items = json.load(open(os.path.join(WORK, "items_partb.json")))
+    parts = json.load(open(os.path.join(WORK, "parts_partb.json")))
+    for it in items:
+        it["kind"] = "official"
+        it["key"] = "P:" + it["ref"]
+    bitems = booklet_entries()
     by_unit = defaultdict(list)
     for it in items:
         by_unit[it["topic"]].append(it)
     for t in by_unit:
         by_unit[t].sort(key=lambda i: tuple(-x for x in i["sort"][:3]) + tuple(-x for x in i["sort"][3:]))
-    papers = sorted({(i["year"], i["series"], i["variant"], i["paper_ref"]) for i in items})
-    stats = [f"{len(papers)} papers: {papers[0][3]} to {papers[-1][3]} (newest first in each unit)",
-             f"{len(items)} items, {sum(i['marks'] for i in items)} marks across {len(by_unit)} units"]
+    for it in sorted(bitems, key=lambda i: i["sort"]):
+        by_unit[it["topic"]].append(it)
+    papers = sorted({(i["year"], i["series"], i["variant"], i["paper_ref"]) for i in items},
+                    key=lambda p: (p[0], {"m": 1, "s": 2, "w": 3}[p[1]], p[2]))
+    byears = sorted({i["year"] for i in bitems})
+    stats = [f"Official papers: {len(papers)} ({papers[0][3]} to {papers[-1][3]}), {len(items)} items, "
+             f"{sum(i['marks'] for i in items)} marks",
+             f"Booklet: {len(bitems)} items from {byears[0]}–{byears[-1]} papers (Read and Write booklet scan)",
+             f"{len(items) + len(bitems)} items across {len(by_unit)} units"]
     out = pymupdf.open()
     cover(out, stats)
     n_rows = 2 * len(TOPICS) + 2
@@ -282,7 +406,7 @@ def build(outdir, phases):
         out.new_page(width=W, height=H)
         front.append(out.page_count - 1)
     f = Flow(out)
-    rows, ref_pages, unit_ranges = [], {}, {}
+    rows, ref_pages, unit_ranges, numbers = [], {}, {}, {}
     for t in TOPICS:
         its = by_unit.get(t, [])
         start = out.page_count
@@ -290,75 +414,90 @@ def build(outdir, phases):
         name = f"Unit {t}: {TOPICS[t]}"
         f.new_page(name)
         f.banner(name)
-        q_page = out.page_count
         for k, it in enumerate(its, 1):
-            P = parts[it["paper"]]
-            Q = next(q for q in P["questions"] if q["n"] == it["q"])
-            qd = docs(P["qp"])
-            f.cur_src = qd
-            place_item(f, k, it, item_blocks(it, Q, qd), ref_pages)
+            numbers[it["key"]] = k
+            if it["kind"] == "official":
+                P = parts[it["paper"]]
+                Q = next(q for q in P["questions"] if q["n"] == it["q"])
+                qd = docs(P["qp"])
+                place_item(f, k, it, item_blocks(it, Q, qd), ref_pages, qd)
+            else:
+                place_item(f, k, it, [(None, booklet_bands(bd, it["regions"], it["whiteouts"]))], ref_pages, bd)
         f.new_page(f"Unit {t}: Answers Section")
         f.banner("Answers Section", center=True)
         a_page = out.page_count
         for k, it in enumerate(its, 1):
-            P = parts[it["paper"]]
-            Q = next(q for q in P["questions"] if q["n"] == it["q"])
-            f.cur_ms = docs(P["ms"])
-            place_answer(f, k, it, Q, f.cur_ms)
+            if it["kind"] == "official":
+                P = parts[it["paper"]]
+                Q = next(q for q in P["questions"] if q["n"] == it["q"])
+                place_answer(f, k, it, Q, docs(P["ms"]))
+            else:
+                place_booklet_answer(f, k, it, bd)
         unit_ranges[t] = (start, out.page_count - 1)
         rows.append((f"UNIT {t}", (TOPICS[t], True), start + 1))
         rows.append((None, ("Answers Section", False), a_page))
     # index
     f.new_page("Topic index")
-    f.banner("Topic index: where each part was filed")
+    f.banner("Topic index: where each item was filed")
     idx_page = out.page_count
-    idx = sorted(items, key=lambda i: (-i["year"], -{"w": 3, "s": 2, "m": 1}[i["series"]], i["variant"], i["q"],
-                                       i["sort"][4] * -1))
-    cols = [ML, ML + 170, ML + 215, ML + 255, ML + 300]
+    so = {"w": 3, "s": 2, "m": 1}
+    idx = sorted(items, key=lambda i: (-i["year"], -so[i["series"]], i["variant"], i["q"], i["sort"][4] * -1)) + \
+        sorted(bitems, key=lambda i: i["sort"])
+    cols = [ML, ML + 165, ML + 200, ML + 235, ML + 268, ML + 318]
     def head():
-        for x, h in zip(cols, ["Reference", "Unit", "Marks", "Page", "Also / context"]):
+        for x, h in zip(cols, ["Reference", "Unit", "Marks", "Page", "Source", "Also / context / notes"]):
             put(f.page, (x, f.y + 8), h, "hebo", 8)
         f.y += 14
         f.page.draw_line((ML, f.y - 3), (W - MR, f.y - 3), color=GREY, width=0.4)
     head()
-    csvrows = []
+    csvrows, jl = [], []
     for it in idx:
         if f.room() < 14:
             f.new_page("Topic index")
             head()
-        extra = []
-        if it["also"]:
-            extra.append("also " + ", ".join(f"U{k}:{v}" for k, v in it["also"].items()))
-        ctxp = [c.replace("#intro", " intro") for c in it["ctx_parts"]] + it["ctx_blocks"]
-        if ctxp:
-            extra.append("ctx " + ", ".join(ctxp))
-        vals = [it["ref"], str(it["topic"]), str(it["marks"]), str(ref_pages[it["ref"]]), "; ".join(extra)]
+        extra, ctxp = [], []
+        if it["kind"] == "official":
+            if it["also"]:
+                extra.append("also " + ", ".join(f"U{k}:{v}" for k, v in it["also"].items()))
+            ctxp = [c.replace("#intro", " intro") for c in it["ctx_parts"]] + it["ctx_blocks"]
+            if ctxp:
+                extra.append("ctx " + ", ".join(ctxp))
+            src, mk = "official", str(it["marks"])
+        else:
+            extra = [f"booklet unit {it['booklet_unit']} #{it['booklet_n']}"] + \
+                [n for n in it["notes"][1:]] + it["answer_notes"]
+            src, mk = "booklet", "–"
+        vals = [it["ref"], str(it["topic"]), mk, str(ref_pages[it["key"]]), src, "; ".join(extra)]
         for x, v in zip(cols, vals):
             s = v
             while tlen(s, "helv", 7.5) > (W - MR - x if x == cols[-1] else 999) and len(s) > 4:
                 s = s[:-4] + "…"
             put(f.page, (x, f.y + 8), s, "helv", 7.5)
         f.y += 11
-        csvrows.append({"reference": it["ref"], "unit": it["topic"], "marks": it["marks"],
-                        "page": ref_pages[it["ref"]],
-                        "also_topics": ";".join(f"{k}:{v}" for k, v in it["also"].items()),
+        csvrows.append({"reference": it["ref"], "unit": it["topic"],
+                        "marks": it["marks"] if it["kind"] == "official" else "",
+                        "page": ref_pages[it["key"]], "source": src,
+                        "also_topics": ";".join(f"{k}:{v}" for k, v in it["also"].items()) if src == "official" else "",
                         "context_parts": ";".join(ctxp)})
     rows.append(("INDEX", ("Topic index", True), idx_page))
-    # appendix: periodic table from newest paper
-    newest = max(parts.values(), key=lambda p: (p["year"], {"w": 3, "s": 2, "m": 1}[p["series"]], p["variant"]))
+    # appendix: Data and Formulae page(s) from the newest paper
+    newest = max(parts.values(), key=lambda p: (p["year"], so[p["series"]], p["variant"]))
     qd = docs(newest["qp"])
-    pt = next(p for p in qd if special_page(p) == "periodic")
-    f.new_page("Appendix: Periodic Table")
-    f.banner(f"Appendix: The Periodic Table of Elements (from {newest['ref']})")
+    dps = [p for p in qd if special_page(p) == "data"]
+    f.new_page("Appendix: Data and Formulae")
+    f.banner(f"Appendix: Data and Formulae (from {newest['ref']})")
     app_page = out.page_count
-    clip, rot = periodic_clip(pt)
-    cw, ch = (clip.height, clip.width) if rot else (clip.width, clip.height)
-    s = min(TW / cw, (H - MB - f.y) / ch)
-    dest = pymupdf.Rect(ML, f.y, ML + cw * s, f.y + ch * s)
-    f.page.show_pdf_page(dest, qd, pt.number, clip=clip, rotate=rot)
-    rows.append(("APPENDIX", ("The Periodic Table of Elements", True), app_page))
+    for k, dp in enumerate(dps):
+        clip = data_clip(dp)
+        s = min(TW / clip.width, (H - MB - f.y) / clip.height)
+        if s < 0.6 and k:
+            f.new_page(f.header)
+            s = min(TW / clip.width, (H - MB - f.y) / clip.height)
+        dest = pymupdf.Rect(ML, f.y, ML + clip.width * s, f.y + clip.height * s)
+        f.page.show_pdf_page(dest, qd, dp.number, clip=clip)
+        f.y = dest.y1 + 10
+    rows.append(("APPENDIX", ("Data and Formulae", True), app_page))
     contents(out, front, rows)
-    # bookmarks (audit A-016)
     toc = [[1, "Contents", front[0] + 1]]
     for t in TOPICS:
         r = [x for x in rows if x[0] == f"UNIT {t}"]
@@ -367,14 +506,16 @@ def build(outdir, phases):
             ai = rows.index(r[0]) + 1
             toc.append([2, f"Unit {t}: Answers Section", rows[ai][2]])
     toc.append([1, "Topic index", idx_page])
-    toc.append([1, "Appendix: The Periodic Table of Elements", app_page])
+    toc.append([1, "Appendix: Data and Formulae", app_page])
     out.set_toc(toc)
     os.makedirs(outdir, exist_ok=True)
-    book = os.path.join(outdir, "Physics-9702-P2-Topical-Workbook.pdf")
+    book = os.path.join(outdir, BOOKNAME)
     out.subset_fonts()
     out.save(book, garbage=4, deflate=True, deflate_fonts=True)
     unit_dir = os.path.join(outdir, "units")
     os.makedirs(unit_dir, exist_ok=True)
+    for fn in os.listdir(unit_dir):
+        os.remove(os.path.join(unit_dir, fn))
     for t, (a, b) in unit_ranges.items():
         u = pymupdf.open()
         u.insert_pdf(out, from_page=a, to_page=b)
@@ -382,26 +523,47 @@ def build(outdir, phases):
         ap = rows[rows.index(ai) + 1][2]
         u.set_toc([[1, f"Unit {t}: {TOPICS[t]}", 1], [2, "Answers Section", ap - a]])
         u.subset_fonts()
-        u.save(os.path.join(unit_dir, f"Unit-{t:02d}-{TOPICS[t].replace(':', '').replace(' ', '-')}.pdf"),
+        u.save(os.path.join(unit_dir, f"Unit-{t:02d}-{TOPICS[t].replace(':', '').replace(' ', '-').replace('.', '').replace(',', '')}.pdf"),
                garbage=4, deflate=True, deflate_fonts=True)
     with open(os.path.join(outdir, "index.csv"), "w", newline="") as fh:
-        w = csv.DictWriter(fh, fieldnames=["reference", "unit", "marks", "page", "also_topics", "context_parts"])
+        w = csv.DictWriter(fh, fieldnames=["reference", "unit", "marks", "page", "source", "also_topics",
+                                           "context_parts"])
         w.writeheader()
         w.writerows(csvrows)
-    # items.jsonl: each item's question text from the source text layer (audit A-020)
+    # items.jsonl: question (and answer) text of every item: Part B from the official PDFs' text layer,
+    # booklet items from the OCR of the scan
     from extract import text_of
     with open(os.path.join(outdir, "items.jsonl"), "w") as fh:
         for it in idx:
-            P = parts[it["paper"]]
-            Q = next(q for q in P["questions"] if q["n"] == it["q"])
-            fh.write(json.dumps({"reference": it["ref"], "unit": it["topic"], "marks": it["marks"],
-                                 "page": ref_pages[it["ref"]], "data_booklet": it.get("data_booklet", False),
-                                 "text": text_of(docs(P["qp"]), item_regions(it, Q))},
-                                ensure_ascii=False) + "\n")
-    json.dump({"pages": out.page_count, "ref_pages": ref_pages, "unit_ranges": unit_ranges,
-               "contents": rows}, open(os.path.join(ROOT, "Ω-physics", "work", "build_info.json"), "w"), indent=0)
-    print(f"book pages {out.page_count}, items {len(items)}, size {os.path.getsize(book)/1e6:.1f} MB")
+            if it["kind"] == "official":
+                P = parts[it["paper"]]
+                Q = next(q for q in P["questions"] if q["n"] == it["q"])
+                md = docs(P["ms"])
+                ans = []
+                for u in it["units"]:
+                    for r in unit_ms_rows(Q, u):
+                        for p, rc in r["segs"]:
+                            ans.append(md[p].get_text("text", clip=pymupdf.Rect(rc)).strip())
+                rec = {"reference": it["ref"], "unit": it["topic"], "marks": it["marks"],
+                       "page": ref_pages[it["key"]], "source": "official", "number": numbers[it["key"]],
+                       "also_topics": it["also"], "text": text_of(docs(P["qp"]), item_regions(it, Q)),
+                       "answer_text": "\n".join(ans)}
+            else:
+                from booklet_lines import region_text
+                rec = {"reference": it["ref"], "unit": it["topic"], "marks": None,
+                       "page": ref_pages[it["key"]], "source": "booklet", "number": numbers[it["key"]],
+                       "booklet_unit": it["booklet_unit"], "booklet_item": it["booklet_n"],
+                       "notes": it["notes"][1:] + it["answer_notes"],
+                       "text_note": "booklet item: text is OCR of the scanned page (may contain recognition "
+                                    "errors; the page image is authoritative); marks not read",
+                       "text": region_text(it["regions"]), "answer_text": region_text(it["answer_regions"])}
+            fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    json.dump({"pages": out.page_count, "ref_pages": ref_pages, "numbers": numbers, "unit_ranges": unit_ranges,
+               "contents": rows, "n_official": len(items), "n_booklet": len(bitems)},
+              open(os.path.join(WORK, "build_info.json"), "w"), indent=0)
+    print(f"book pages {out.page_count}, items {len(items)} official + {len(bitems)} booklet, "
+          f"size {os.path.getsize(book)/1e6:.1f} MB")
 
 
 if __name__ == "__main__":
-    build(sys.argv[1], sys.argv[2:])
+    build(sys.argv[1])

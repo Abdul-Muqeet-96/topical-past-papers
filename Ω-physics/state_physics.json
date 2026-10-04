@@ -6,8 +6,8 @@
   "2": "done",
   "3": "done",
   "4": "done",
-  "5": "running",
-  "6": "todo",
+  "5": "done",
+  "6": "running",
   "7": "todo"
  },
  "notes": {
@@ -15,6 +15,7 @@
   "1": "OCR: 550 pages, tesseract 5.3.4 --oem 1 --psm 3 300dpi, 4 jobs (OMP_THREAD_LIMIT=1); TSV in \u03a9-physics/work/ocr/; booklet-ocr.pdf 24.1 MB, 110864 invisible words; text search finds 'M/J 23/P22/Q1' on p6.",
   "2": "map_booklet.py -> work/booklet_items.json: 366 items (12 booklet units), answers matched; 731 headings by OCR, 3 by image (heading_reads.json), 18 numbers inferred/corrected and verified by image (heading_number_checks.json). Scan misses printed pages 96-97,144-145,313-314,328-329,534-535: 7 items and 5 answers lost, 4 items + 1 answer truncated (flags). No O/N 2023 items -> w23 v21-23 to be built as Part B.",
   "3": "Light check in work/booklet_check.json + report.md Part A: contents 12/12 ok; 55-item sample (37 official QPs, phase 'check') viewed side by side, 0 problems; 9 electric-field items flagged; 2 booklet duplicates kept with notes.",
-  "4": "Part B: 24 papers in manifest (20 spec + w23 v21-23; s26_21 no MS). checks_partb: 23 pass, w25_23 excluded as identical to w25_21. MS reader: B/C/M/A codes, bracketed alternatives not counted, 'OR' alternative rule (1 row). parts_partb 22 papers/149 q; tags in work/tags.txt (708 leaves, LO codes); items_partb 260, 0 excluded, 63 splits, 6 kept whole, 1 tie."
+  "4": "Part B: 24 papers in manifest (20 spec + w23 v21-23; s26_21 no MS). checks_partb: 23 pass, w25_23 excluded as identical to w25_21. MS reader: B/C/M/A codes, bracketed alternatives not counted, 'OR' alternative rule (1 row). parts_partb 22 papers/149 q; tags in work/tags.txt (708 leaves, LO codes); items_partb 260, 0 excluded, 63 splits, 6 kept whole, 1 tie.",
+  "5": "Build: scripts/physics/build.py -> p2-topical-workbook (912 pages, 31 MB), units/, index.csv, items.jsonl; topics.json; report.md, SUMMARY.md (scripts/physics/reports.py). Rendered cover, contents, unit title, Part B page, booklet page, both answer types, appendix; fixed: booklet heading repeated in crops."
  }
 }

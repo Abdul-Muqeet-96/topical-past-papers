@@ -211,6 +211,7 @@ def heading_candidates(pno, info):
         txt = " ".join(w["text"] for w in ws)
         tail = [w for w in l["words"] if w["x0"] > ws[-1]["x1"] + 30]     # previous item's mark / dots
         hx1 = ws[-1]["x1"]
+        hy1 = max(w["y1"] for w in ws)
         m = RE_NUM.match(w0)
         if m and len(ws) == 1 and li + 1 < len(L) and L[li + 1]["y0"] - l["y1"] < 12 \
                 and parse_ref(L[li + 1]["text"]) and L[li + 1]["x0"] < l["x1"] + 40:
@@ -222,6 +223,7 @@ def heading_candidates(pno, info):
             tail = [w for w in l["words"][1:] if w["x0"] > ws[0]["x1"] + 30] + \
                 [w for w in nl["words"] if w["x0"] > nl["x0"] + 200]
             hx1 = max(ws[0]["x1"], max([w["x1"] for w in nl["words"] if w["x0"] <= nl["x0"] + 200] or [0]))
+            hy1 = max([ws[0]["y1"]] + [w["y1"] for w in nl["words"] if w["x0"] <= nl["x0"] + 200])
         elif m:
             n, rest = int(m.group(1)), " ".join(w["text"] for w in ws[1:])
         else:
@@ -236,7 +238,7 @@ def heading_candidates(pno, info):
             r0 = parse_ref(txt)
             if r0 and not r0["pre"] and l["x0"] <= left + 40 and re.match(r"^\S{1,4}\s*\d", txt):
                 out.append({"pdf": pno, "n": None, "y0": l["y0"], "y1": l["y1"], "x0": l["x0"], "x1": l["x1"],
-                            "ocr": txt, "parsed": r0, "no_number": True, "hx1": hx1,
+                            "ocr": txt, "parsed": r0, "no_number": True, "hx1": hx1, "hy1": hy1,
                             "tail": [[w["x0"], w["y0"], w["x1"], w["y1"]] for w in tail]})
             continue
         if l["x0"] > left + 22:          # skewed scans drift by up to ~15 pt down a page
@@ -245,7 +247,7 @@ def heading_candidates(pno, info):
         looks = bool(re.search(r"(M\s*\S?\s*/?\s*J|O\s*\S?\s*/?\s*N|MAR)\s*\S{2}\s*/|/\s*P\s*\S{2}|/\s*Q\s*\d", rest))
         if ref or looks:
             out.append({"pdf": pno, "n": n, "y0": l["y0"], "y1": l["y1"], "x0": l["x0"], "x1": l["x1"],
-                        "ocr": rest, "parsed": ref, "hx1": hx1,
+                        "ocr": rest, "parsed": ref, "hx1": hx1, "hy1": hy1,
                         "tail": [[w["x0"], w["y0"], w["x1"], w["y1"]] for w in tail]})
     return out
 
@@ -349,15 +351,15 @@ def main():
             ty1 = max(t[3] for t in nh["tail"]) + 1.5
             end = (nh["pdf"], ty1)
             wos.append([nh["pdf"] - 1, 0, nh["y0"] - 2.5, nh.get("hx1", nh["x1"]) + 4, ty1 + 1])
-        if h.get("tail"):
-            x0 = min(t[0] for t in h["tail"])
-            wos.append([h["pdf"] - 1, x0 - 3, h["y0"] - 3.5, 600, h["y1"] + 2.5])
+        # the crop starts below the booklet's own heading line ("n. reference"): the book prints its
+        # own number and the reference above the crop (one numbering per unit)
+        hstart = max(h.get("hy1", h["y1"]), max([t[3] for t in h.get("tail", [])] or [0])) + 1.0
         regs = []
         for p in range(h["pdf"], end[0] + 1):
             if p not in pl:
                 continue
             pg = pages[p - 1]
-            y0 = h["y0"] - 3 if p == h["pdf"] else (pg["header_bottom"] or 60) + 1
+            y0 = hstart if p == h["pdf"] else (pg["header_bottom"] or 60) + 1
             y1 = end[1] if p == end[0] else 842
             t = trim(rows(p), y0, y1)
             if t and t[1] - t[0] > 3:

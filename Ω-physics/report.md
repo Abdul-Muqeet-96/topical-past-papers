@@ -1,9 +1,24 @@
-# Report — Physics 9702 Paper 2 topical workbook (provisional: Part A light check)
+# Report — Physics 9702 Paper 2 topical workbook
+
+Two sources (spec `Ω-physics/CLAUDE-physics.md`): **Part A** = the scanned Read and Write booklet (papers up to 2023; its items and answers used as they are, cropped from the OCR'd scan `Ω-physics/booklet-ocr.pdf`), **Part B** = official papers (O/N 2023, all 2024–2026 papers listed in the spec), built with the Chemistry pipeline. Nothing was retyped: every question and answer in the book is a crop of the scan or a vector clip of the official PDF.
 
 ## AUTO-DECIDED
 
 | Item | Issue | What I did |
 |---|---|---|
+| Run branch | The prompt names `claude/physics-p2-booklet`; the session's default branch had another name | Followed the prompt (the user's explicit instruction): all work pushed to `claude/physics-p2-booklet`; no pull request. |
+| 9702 s26 v21 | QP downloads, MS does not exist on the source (HTTP 302 to an error page) | Excluded (as the spec says) and reported. |
+| Data and Formulae pages | In every Part B paper both are on QP page 2 (page 3 is blank or a question page) | Page 2 recognised by its 'Data'/'Formulae' headings and never used as question material; a page 3 with questions is used normally. Appendix: the Data and Formulae page of the newest paper (M/J 26/P24). |
+| Physics mark schemes | Marks are printed as codes (B1, C1, M1, A1; B2/B3) not numbers; codes in brackets, e.g. (C1), belong to an alternative method | Marks = sum of the code digits; bracketed codes not counted. Check 4 (MS = QP total) passed for every question, so the reading is confirmed. |
+| MS alternative introduced by 'OR' | In a few rows a second method follows an 'OR' line with unbracketed codes | Its codes are not counted only where the first method's marks equal that part's QP marks (else the row is read as printed). Applied to: MAR 26/P22 5(b)(iii) (4 → 2). |
+| MAR 24/P22 MS label "2c(iii)" | Typo in the mark scheme (missing brackets) | Read as 2(c)(iii) (unambiguous; Chemistry decision D6). |
+| M/J 24/P22 MS label "2c(i)" | Typo in the mark scheme (missing brackets) | Read as 2(c)(i) (unambiguous; Chemistry decision D6). |
+| O/N 25/P23 | question paper identical to O/N 25/P21 (same text for every question; official files carry different codes) - duplicate not repeated | Paper not repeated: its questions are already in the book under O/N 25/P21. |
+| Figure captions | Physics captions read 'Fig. 2.1 (not to scale)' and some figures share one caption line ('Fig. 4.1 (not to scale) Fig. 4.2 (not to scale)') | Both forms recognised as captions (the copied Chemistry rule only accepted a bare caption). Before this, 79 items failed the self-containment check; after it none. |
+| Context height | The one-page context limit added the heights of overlapping regions (a figure inside a context part counted twice) | Height measured on the union of the context regions, as the book lays them out. |
+| Booklet items: marks | The booklet's printed [marks] can only be read by OCR (the sample check shows the margin OCR is right for 46/55 items) | Marks are not given for booklet items in index.csv, items.jsonl or the unit pages (no unverified figures); the crops show them. |
+| Booklet item headings in crops | The booklet prints its own number and reference above each item and answer | Crops start below that heading line; the book prints its own number (one numbering per unit) and the normalised reference. |
+| M/J 26/P24/Q2/b | topic marks tie {1: 3, 6: 3} | filed under topic 1 (topic of first sub-part) |
 | Booklet scan | 10 printed pages are missing from the 550-page scan (printed pages 96–97, 144–145, 313–314, 328–329, 534–535; the printed page numbers jump by 2 at each gap). The scan ends at printed page 560. | Nothing reconstructed. Items whose questions were entirely on missing pages are absent (their answers are dropped too); items and answers cut by a gap are kept as scanned with a grey note "Incomplete in the scanned booklet"; items whose answer is lost carry "Answer missing from the scanned booklet". Listed below. |
 | Booklet item headings | Tesseract dropped or misread some small item numbers (18 headings: e.g. '41.' for '11.', '141.' for '11.', or no number at all) | Number taken from the sequence only where exactly one slot fits; every such heading was checked on a cropped strip by image (all confirmed; work/heading_number_checks.json). |
 | Booklet references | 3 headings did not parse unambiguously (O/N 14/P22/Q1ic, MAR 21/P22/Q6,a,bi(i,ii,iii)) | Read by image from a cropped heading strip: O/N 14/P22/Q1/c; MAR 21/P22/Q6,a,b(i,ii,iii) (twice). Shown normalised: O/N 14/P22/Q1/c, MAR 21/P22/Q6/a,b(i,ii,iii). |
@@ -13,6 +28,58 @@
 | Booklet items 2024+ | None in the booklet (latest: M/J 23 and MAR 23) | Nothing dropped. |
 | Electric-field items | Electric fields are A Level only in 2025–27 | 9 booklet items flagged (grey note "May be outside the 2025–27 syllabus", kept). Not flagged: Unit 12 #29 (only asks which radiation cannot be deflected by an electric field (tests charge, 11.1.7)); Unit 12 #30 (only asks which particles feel no electric force (tests charge, 11.2)) |
 | Booklet part labels | Some booklet items relabel parts (e.g. O/N 14/P22/Q1/c printed as (a)) | Left as printed (spec). |
+
+## Downloads and header checks
+
+- Part B papers (spec list + O/N 23): 24 attempted, 23 downloaded and header-verified (9702/<variant>, 'Paper 2 AS Level Structured Questions', series), 1 excluded.
+  - s26_21: ms: no file (HTTP 302, 287 bytes)
+- QPs for the booklet light check: 37 attempted, 37 downloaded and header-verified (9702/<variant>, 'Paper 2 AS Level Structured Questions', series), 0 excluded.
+
+## Part B paper-level verification
+
+Checks per paper (scripts/physics/check_papers.py): every question once, [Total] = sum of part marks, totals = 60, MS marks = QP total per question, reference from the paper's own header.
+
+| Paper | Questions | Result |
+|---|---|---|
+| O/N 23/P21 | 7 | all pass |
+| O/N 23/P22 | 7 | all pass |
+| O/N 23/P23 | 8 | all pass |
+| MAR 24/P22 | 8 | all pass |
+| M/J 24/P21 | 7 | all pass |
+| M/J 24/P22 | 7 | all pass |
+| M/J 24/P23 | 6 | all pass |
+| O/N 24/P21 | 7 | all pass |
+| O/N 24/P22 | 6 | all pass |
+| O/N 24/P23 | 7 | all pass |
+| MAR 25/P22 | 7 | all pass |
+| M/J 25/P21 | 7 | all pass |
+| M/J 25/P22 | 7 | all pass |
+| M/J 25/P23 | 8 | all pass |
+| M/J 25/P24 | 7 | all pass |
+| O/N 25/P21 | 6 | all pass |
+| O/N 25/P22 | 6 | all pass |
+| O/N 25/P23 | 6 | question paper identical to O/N 25/P21 (same text for every question; official files carry different codes) - duplicate not repeated |
+| O/N 25/P24 | 6 | all pass |
+| MAR 26/P22 | 7 | all pass |
+| M/J 26/P22 | 6 | all pass |
+| M/J 26/P23 | 5 | all pass |
+| M/J 26/P24 | 7 | all pass |
+
+## Part B items
+
+- 260 items from 22 papers (149 questions, 1320 marks). Excluded items: 0. Out of syllabus: none (every lowest-level part matched a 2025–27 AS learning outcome; topics.json).
+- Lettered parts split by topic: 63; multi-topic lettered parts kept whole (filed under the majority topic, tagged 'also'): 6.
+
+| Kept whole | Why not split | Marks by unit |
+|---|---|---|
+| M/J 24/P22/Q1/b | (b)(iii) depends on sibling ['(b)(i)'] | {'7': 3, '1': 2, '5': 4} |
+| M/J 26/P22/Q5/c | context for ['(c)(i)', '(c)(ii)'] exceeds one page | {'10': 4, '9': 2} |
+| M/J 26/P24/Q2/b | (b)(iii) depends on sibling ['(b)(ii)'] | {'1': 3, '6': 3} |
+| O/N 24/P21/Q7/a | (a)(iii) depends on sibling ['(a)(ii)'] | {'10': 3, '9': 2} |
+| O/N 24/P22/Q1/b | (b)(ii) depends on sibling ['(b)(i)'] | {'1': 3, '3': 1, '4': 2} |
+| O/N 24/P22/Q6/c | context for ['(c)(i)'] exceeds one page | {'3': 3, '5': 2} |
+
+Thin units (< 5 items): none.
 
 ## Part A: booklet light check (report only)
 
@@ -143,4 +210,11 @@ Printed marks were read from each item's right margin (OCR at 300 dpi) and compa
 | Unit 12 #22 M/J 20/P21/Q6/b | (b)(ii) electric force on an ion between charged plates |
 | Unit 12 #27 M/J 19/P22/Q6 | electric field lines and field strength |
 | Unit 12 #33 M/J 18/P21/Q7 | beta-particle path in a uniform electric field |
+
+## Checks on the built book
+
+- Coverage (Part B): every lowest-level part of every included question is in exactly one item: unexplained gaps 0, duplicates 0.
+- Self-containment re-check: 0 failures; context recomputed identically (0 mismatches). Marks re-check (item [marks] = MS marks): 0 failures.
+- Every item's reference is on its indexed page (official 0 misses, booklet 0 misses) and appears with an answer entry and an index row (official 0 misses, booklet 0 misses). Booklet items in the book: 366/366.
+- Full self-check with every audit-derived check: `audit/PHYSICS_CHECK.md` (not yet written).
 
