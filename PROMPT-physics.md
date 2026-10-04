@@ -8,9 +8,9 @@ Paste this one line into a fresh session:
 
 ## Task
 
-Build the Physics 9702 Paper 2 topical workbook described in `CLAUDE.md`, in
-one unattended run. `CLAUDE.md` is the specification; if this prompt and
-`CLAUDE.md` ever disagree, follow `CLAUDE.md`. Quality and accuracy come first;
+Build the Physics 9702 Paper 2 topical workbook described in `Ω-physics/CLAUDE-physics.md`, in
+one unattended run. `Ω-physics/CLAUDE-physics.md` is the specification; if this prompt and the
+specification ever disagree, follow the specification. Quality and accuracy come first;
 cost is not a constraint. Never skip a check, a fix or a visual inspection to
 save tokens. Still let scripts do the heavy lifting and print only counts and
 short summaries.
@@ -28,8 +28,8 @@ short summaries.
 ## Stages (commit and push after each)
 0. **Tooling and sources.** Copy `scripts/` to `scripts/physics/` and adapt it
    (subject code 9702, URLs, Data/Formulae pages, topics). Download and verify
-   the Part B papers listed in `CLAUDE.md`. Print a count table.
-1. **OCR the booklet** (Part A, step 1 of `CLAUDE.md`). Run it in the
+   the Part B papers listed in the specification. Print a count table.
+1. **OCR the booklet** (Part A, step 1 of the specification). Run it in the
    background, 4 parallel jobs; write `Ω-physics/booklet-ocr.pdf`. Check: the
    page count is 550 and a text search finds a known heading.
 2. **Map the booklet**: units, item headings, answers, page spans, references
@@ -42,7 +42,7 @@ short summaries.
 5. **Build**: book, unit PDFs, index.csv, items.jsonl, topics.json,
    report.md, SUMMARY.md. Render 3 sample pages (cover/contents, a Part B
    page, a booklet page) and fix obvious problems.
-6. **Self-check** (the final section of `CLAUDE.md`): write
+6. **Self-check** (the final section of the specification): write
    `audit/PHYSICS_CHECK.md`, fix what failed, rebuild, and re-run all checks;
    repeat until everything passes or the remaining issue cannot be fixed
    (then report exactly why). Commit after each round.
@@ -57,4 +57,4 @@ short summaries.
   exclude and report (Part B). Never guess.
 - Wait for background jobs on a marker file or PID, not with `pgrep -f` on a
   pattern that also matches the waiting command itself.
-- Stop only for the hard blockers in `CLAUDE.md`; write STOPPED.md if you do.
+- Stop only for the hard blockers in the specification; write STOPPED.md if you do.
