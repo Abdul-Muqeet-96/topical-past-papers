@@ -172,11 +172,12 @@ def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
             wos.append(pymupdf.Rect(w[0] - 0.5, ry0 - 1, w[2] + 0.5, w[3] + 0.5))
         if (w[1] + w[3]) / 2 >= ry0 and (w[1] + w[3]) / 2 < ry1 and w[3] > ry1 and w[3] - ry1 < 8:
             ext = max(ext, min(w[3] + 1, bot))
-    if ext > ry1:
-        for w in words:
-            if (w[1] + w[3]) / 2 >= ry1 and w[1] < ext:
-                wos.append(pymupdf.Rect(w[0] - 0.5, w[1] - 0.5, w[2] + 0.5, ext + 1))
-        ry1 = ext
+    # words of the next part whose box starts above the bottom edge (top of their
+    # glyphs inside the region) are whited out, so no sliver of them shows
+    for w in words:
+        if (w[1] + w[3]) / 2 >= ry1 and w[1] < max(ext, ry1) and XMIN <= w[0] and w[2] <= XMAX:
+            wos.append(pymupdf.Rect(w[0] - 0.5, w[1] - 1.5, w[2] + 0.5, max(ext, ry1) + 1))
+    ry1 = max(ry1, ext)
     for ws in page_lines(page, bottom=bot):
         ly0 = min(w[1] for w in ws)
         if not (ry0 - 0.5 <= ly0 < ry1):
@@ -206,10 +207,25 @@ def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
             merged.append([y0, y1, x0, x1])
     # slivers of a neighbouring line touching the region edge
     merged = [m for m in merged if not (m[1] - m[0] < 1.6 and (m[0] <= ry0 + 0.6 or m[1] >= ry1 - 0.6))]
-    out = []
+    # extend each band over the full boxes of the words whose centre lies in it,
+    # so no glyph box is cut by the clip (A-013)
+    wb = [w for w in words if XMIN <= w[0] and w[2] <= XMAX]
+    ext_m = []
     for y0, y1, x0, x1 in merged:
-        b = Band(p, max(ry0, y0 - PAD), min(ry1, y1 + PAD),
-                 x0=min(X0, x0 - 1.5), x1=max(X1, x1 + 1.5))
+        a, b2 = y0 - PAD, y1 + PAD
+        for w in wb:
+            cy = (w[1] + w[3]) / 2
+            if y0 - 0.5 <= cy <= y1 + 0.5:
+                a, b2 = min(a, w[1] - 0.5), max(b2, w[3] + 0.5)
+        a, b2 = max(ry0, a), min(ry1, b2)
+        if ext_m and a <= ext_m[-1][1]:
+            m = ext_m[-1]
+            m[1], m[2], m[3] = max(m[1], b2), min(m[2], x0), max(m[3], x1)
+        else:
+            ext_m.append([a, b2, x0, x1])
+    out = []
+    for y0, y1, x0, x1 in ext_m:
+        b = Band(p, y0, y1, x0=min(X0, x0 - 1.5), x1=max(X1, x1 + 1.5))
         b.whiteouts = [w for w in wos if w.y0 < b.y1 and w.y1 > b.y0]
         if b.h > 1:
             out.append(b)

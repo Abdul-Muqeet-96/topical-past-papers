@@ -173,6 +173,13 @@ def resolve(Q, units):
                 site = site + "#intro"
             ctx_parts.append(site)
             todo.append((unit_text(Q, site) or "", letter_of(site)))
+    # a sub-part shown as context comes with its lettered part's introduction,
+    # which often holds what the reference points to (e.g. "the reaction described in (a)(i)")
+    for c in list(ctx_parts):
+        L = find_letter(Q, letter_of(c)) if letter_of(c) else None
+        if L and c != L["label"] and not c.endswith("#intro") and L["intro"] and L["label"] not in intros \
+                and L["label"] + "#intro" not in ctx_parts and not any(u == L["label"] for u in units):
+            ctx_parts.append(L["label"] + "#intro")
     ctx_parts = _order_labels(Q, ctx_parts)
     # parts whose ANSWER the item uses (explicit part reference / "your answer"): their MS rows are shown
     deps = [c for c in ctx_parts if any(c == d or d.startswith(c) for d in deps)]

@@ -31,6 +31,7 @@ idx_keys=[(i['page'],i['y']) for i in seq]
 for pno in range(len(d)):
     p=d[pno]
     for xref,name,inv,bbox in p.get_xobjects():
+        if inv: continue   # nested form (fix branch: a re-scaled source page wrapped in an A4 page)
         obj=d.xref_object(xref)
         if '/fullpage' not in obj: continue
         m=re.search(r'/BBox \[ ([\d.\-]+) ([\d.\-]+) ([\d.\-]+) ([\d.\-]+) \]',obj)
@@ -58,6 +59,29 @@ for fp,t in fptext.items():
             ov=len(T&S)/max(1,len(T))
             if ov>best[0]: best=(ov,(fn,i))
     fpsrc[fp]={'match':best[1],'overlap':round(best[0],3)}
+# fix branch: the build normalises re-scaled question papers to A4 before cropping, so band clips
+# are in A4 coordinates. Map them back to the raw source page. Scale is measured here independently
+# from the top page-number position (centred at x = width/2 on a standard page).
+def raw_scale(fn):
+    D,_=src(fn); ks=[]
+    for p in D:
+        for w in p.get_text('words'):
+            if w[1]<0.08*p.rect.height and re.fullmatch(r'\d{1,2}',w[4]):
+                ks.append(((w[0]+w[2])/2)/297.64)
+    ks.sort(); k=ks[len(ks)//2] if ks else 1.0
+    return k if abs(k-1)>0.03 else 1.0
+kcache={}
+for b in bands:
+    m=fpsrc.get(b['fp'])
+    if not m or not m['match'] or '_qp_' not in m['match'][0]: continue
+    fn,pi=m['match']
+    if fn not in kcache: kcache[fn]=raw_scale(fn)
+    k=kcache[fn]
+    if k==1.0: continue
+    Hr=src(fn)[0][pi].rect.height; c=b['clip']
+    t=[c[0]*k,(841.89-c[3])*k,c[2]*k,(841.89-c[1])*k]
+    b['clip']=[t[0],Hr-t[3],t[2],Hr-t[1]]; b['scaled']=k
+print('re-scaled papers',{k:round(v,3) for k,v in kcache.items() if v!=1.0})
 json.dump({'bands':bands,'fpsrc':{str(k):v for k,v in fpsrc.items()}},open('audit/out/bands.json','w'))
 lo=[(fp,v) for fp,v in fpsrc.items() if v and v['overlap']<0.8]
 print('source pages placed',len(fpsrc),'; low-overlap mappings',len(lo), lo[:5])

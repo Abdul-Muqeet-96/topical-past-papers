@@ -14,7 +14,7 @@ for name,pg in ents:
     pg=int(pg)
     if name=='Answers Section': exp=ans[k-1] if k-1<len(ans) else None
     elif name in ('Topic index','The Periodic Table of Elements'):
-        exp=next((i+1 for i in range(len(d)) if (name=='Topic index' and d[i].get_text().lstrip().startswith('Topic index')) or (name!='Topic index' and 'APPENDIX' not in d[i].get_text()[:5] and i+1>ans[-1] and 'Periodic' in d[i].get_text() )),None)
+        exp=next((i+1 for i in range(len(d)) if (name=='Topic index' and 'Topic index: where each part was filed' in d[i].get_text()) or (name!='Topic index' and 'APPENDIX' not in d[i].get_text()[:5] and i+1>ans[-1] and 'Periodic' in d[i].get_text() )),None)
     else: exp=units[k] if k<len(units) else None; names.append(name); k+=1
     if exp!=pg: F.append(('contents-page-wrong',name,pg,exp))
 info['unit_names']=names

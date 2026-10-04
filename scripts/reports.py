@@ -157,14 +157,19 @@ def main():
           f"- Coverage: every lowest-level part of every included question appears in exactly one item, or is in "
           f"an exclusion list above. Unexplained gaps: {len(fc['coverage_unexplained'])}; duplicates: "
           f"{len(fc['coverage_dupes'])}.",
-          f"- Self-containment re-check: {len(fc['selfcontained_fail'])} failures; context recomputed identically "
+          f"- Self-containment re-check (build resolver): {len(fc['selfcontained_fail'])} failures; context recomputed identically "
           f"for every item ({len(fc['ctx_mismatch'])} mismatches).",
           f"- Marks re-check (item [marks] = MS marks): {len(fc['marks_fail'])} failures.",
           f"- Every item reference found on its indexed page: {len(fc['ref_not_on_page'])} misses; every item has "
           f"an answer entry: {len(fc['answers_missing'])} misses.", "",
           "## Layout checks (rendered and inspected)", "",
-          "- Cover, contents (2 pages), unit title pages; item pages in Units 1, 2, 7, 11, 14, 22; Answers Sections "
-          "(Units 1, 2, 3, 7, 10) including 2015–2016 mark-scheme layouts; topic index; Periodic Table appendix.",
+          "- Original build: cover, contents (2 pages), unit title pages; item pages in Units 1, 2, 7, 11, 14, 22; "
+          "Answers Sections (Units 1, 2, 3, 7, 10) including 2015–2016 mark-scheme layouts; topic index; Periodic "
+          "Table appendix.",
+          "- After the audit fixes: the pages of the audit's worst cases (M/J 22/P21/Q3 items, M/J 23/P22/Q4, "
+          "M/J 25/P23/Q5, M/J 24/P22, MAR 20/P22, MAR 24/P22/Q2), a unit title page and an Answers page were "
+          "rendered and viewed, and every figure/table block whose extent changed by more than 60 pt was viewed on "
+          "contact sheets. The audit's automated checks were re-run on the rebuilt book.",
           "- Crop rules after the audit: content found from the rendered ink of each page (rows with ink are never "
           "dropped, so figures are not cut); page number, barcode and corner marks excluded by position; footer "
           "found by its text; answer-line dots removed from the text layer itself and dotted rows whited out; "
