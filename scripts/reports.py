@@ -14,14 +14,14 @@ def j(p):
 
 
 def main():
-    man = j("data/manifest.json")
-    checks = {ph: j(f"work/checks_{ph}.json") for ph in PH}
-    logs = {ph: j(f"work/log_{ph}.json") for ph in PH}
-    items = {ph: j(f"work/items_{ph}.json") for ph in PH}
-    parts = {ph: j(f"work/parts_{ph}.json") for ph in PH}
-    topics = j("topics.json")
-    info = j("work/build_info.json")
-    fc = j("work/final_checks.json")
+    man = j("Δ-chemistry/work/manifest.json")
+    checks = {ph: j(f"Δ-chemistry/work/checks_{ph}.json") for ph in PH}
+    logs = {ph: j(f"Δ-chemistry/work/log_{ph}.json") for ph in PH}
+    items = {ph: j(f"Δ-chemistry/work/items_{ph}.json") for ph in PH}
+    parts = {ph: j(f"Δ-chemistry/work/parts_{ph}.json") for ph in PH}
+    topics = j("Δ-chemistry/topics.json")
+    info = j("Δ-chemistry/work/build_info.json")
+    fc = j("Δ-chemistry/work/final_checks.json")
 
     R = ["# Report — 9701 Paper 2 part-level topical workbook", "",
          "All failures, exclusions and AUTO-DECIDED items, grouped by type. Nothing was retyped or patched: "
@@ -176,7 +176,7 @@ def main():
           "text cut at a region edge whited out or completed; \"continues on page\" notes dropped; figures kept "
           "with their labels and captions on one page; bookmarks added. The audit-report branch holds the "
           "independent re-check of these rules.", ""]
-    open(os.path.join(ROOT, "report.md"), "w").write("\n".join(R) + "\n")
+    open(os.path.join(ROOT, "Δ-chemistry", "report.md"), "w").write("\n".join(R) + "\n")
 
     # ---------- SUMMARY ----------
     S = ["# SUMMARY — Chemistry 9701 Paper 2 part-level topical workbook", ""]
@@ -217,8 +217,8 @@ def main():
     for f in sorted(os.listdir(os.path.join(OUT, "units"))):
         p = os.path.join(OUT, "units", f)
         S.append(f"| {rel(p)} | {size(p)} |")
-    for p in [os.path.join(OUT, "index.csv"), os.path.join(OUT, "items.jsonl"), os.path.join(ROOT, "topics.json"), os.path.join(ROOT, "report.md"),
-              os.path.join(ROOT, "layout.md")]:
+    for p in [os.path.join(OUT, "index.csv"), os.path.join(OUT, "items.jsonl"), os.path.join(ROOT, "Δ-chemistry", "topics.json"), os.path.join(ROOT, "Δ-chemistry", "report.md"),
+              os.path.join(ROOT, "Δ-chemistry", "layout.md")]:
         S.append(f"| {rel(p)} | {size(p)} |")
     S += ["", "No file exceeds 95 MB, so everything is pushed. Per-unit PDFs keep the full book's page numbers "
           "(so they match index.csv).", ""]
@@ -242,7 +242,7 @@ def main():
           f"5. **Repo size**: the book ({os.path.getsize(book) / 1e6:.0f} MB) and 22 unit PDFs "
           f"(~{sum(os.path.getsize(os.path.join(OUT, 'units', f)) for f in os.listdir(os.path.join(OUT, 'units'))) / 1e6:.0f} MB) "
           "are committed; consider Git LFS or a release if the repo gets heavy.", ""]
-    open(os.path.join(ROOT, "SUMMARY.md"), "w").write("\n".join(S) + "\n")
+    open(os.path.join(ROOT, "Δ-chemistry", "SUMMARY.md"), "w").write("\n".join(S) + "\n")
     print("report.md and SUMMARY.md written")
 
 

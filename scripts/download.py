@@ -77,7 +77,7 @@ def verify(path, s, yy, v, kind):
 
 def main():
     phase = sys.argv[1]
-    mpath = os.path.join(DATA, "manifest.json")
+    mpath = os.path.join(ROOT, "Δ-chemistry", "work", "manifest.json")
     man = json.load(open(mpath)) if os.path.exists(mpath) else {}
     for s, yy, v in papers(phase):
         pid = f"{s}{yy:02d}_{v}"

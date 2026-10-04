@@ -363,8 +363,8 @@ def _order(k):
 
 def main():
     phase = sys.argv[1]
-    man = json.load(open(os.path.join(ROOT, "data", "manifest.json")))
-    checks = json.load(open(os.path.join(ROOT, "work", f"checks_{phase}.json")))
+    man = json.load(open(os.path.join(ROOT, "Δ-chemistry", "work", "manifest.json")))
+    checks = json.load(open(os.path.join(ROOT, "Δ-chemistry", "work", f"checks_{phase}.json")))
     out = {}
     nq = nl = nr = 0
     for pid, chk in sorted(checks.items()):
@@ -389,7 +389,7 @@ def main():
             nl += len(Q["letters"])
             nr += sum(len(L["romans"]) for L in Q["letters"])
         out[pid] = paper
-    json.dump(out, open(os.path.join(ROOT, "work", f"parts_{phase}.json"), "w"), indent=0)
+    json.dump(out, open(os.path.join(ROOT, "Δ-chemistry", "work", f"parts_{phase}.json"), "w"), indent=0)
     print(f"{phase}: papers {len(out)}, questions {nq}, lettered parts {nl}, roman sub-parts {nr}")
 
 

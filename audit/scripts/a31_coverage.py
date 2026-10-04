@@ -29,7 +29,7 @@ def expand(q,suf,leaves):
     if suf=='': return L
     return None
 def report_exclusions():
-    R=open('report.md').read(); ex={}
+    R=open('Δ-chemistry/report.md').read(); ex={}
     sec=None
     for line in R.splitlines():
         if line.startswith('## '): sec=line[3:]
