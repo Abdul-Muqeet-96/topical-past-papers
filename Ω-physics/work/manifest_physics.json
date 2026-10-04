@@ -437,5 +437,543 @@
    "notes": []
   },
   "status": "ok"
+ },
+ "m18_22": {
+  "phase": "check",
+  "series": "m",
+  "year": 2018,
+  "variant": 22,
+  "qp": {
+   "file": "9702_m18_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "m19_22": {
+  "phase": "check",
+  "series": "m",
+  "year": 2019,
+  "variant": 22,
+  "qp": {
+   "file": "9702_m19_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "m21_22": {
+  "phase": "check",
+  "series": "m",
+  "year": 2021,
+  "variant": 22,
+  "qp": {
+   "file": "9702_m21_qp_22.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "m22_22": {
+  "phase": "check",
+  "series": "m",
+  "year": 2022,
+  "variant": 22,
+  "qp": {
+   "file": "9702_m22_qp_22.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "m23_22": {
+  "phase": "check",
+  "series": "m",
+  "year": 2023,
+  "variant": 22,
+  "qp": {
+   "file": "9702_m23_qp_22.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s13_21": {
+  "phase": "check",
+  "series": "s",
+  "year": 2013,
+  "variant": 21,
+  "qp": {
+   "file": "9702_s13_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 AS Structured Questions'"
+   ]
+  },
+  "status": "ok"
+ },
+ "s13_23": {
+  "phase": "check",
+  "series": "s",
+  "year": 2013,
+  "variant": 23,
+  "qp": {
+   "file": "9702_s13_qp_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 AS Structured Questions'"
+   ]
+  },
+  "status": "ok"
+ },
+ "s14_21": {
+  "phase": "check",
+  "series": "s",
+  "year": 2014,
+  "variant": 21,
+  "qp": {
+   "file": "9702_s14_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 AS Structured Questions'"
+   ]
+  },
+  "status": "ok"
+ },
+ "s15_22": {
+  "phase": "check",
+  "series": "s",
+  "year": 2015,
+  "variant": 22,
+  "qp": {
+   "file": "9702_s15_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 AS Structured Questions'"
+   ]
+  },
+  "status": "ok"
+ },
+ "s16_21": {
+  "phase": "check",
+  "series": "s",
+  "year": 2016,
+  "variant": 21,
+  "qp": {
+   "file": "9702_s16_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s17_22": {
+  "phase": "check",
+  "series": "s",
+  "year": 2017,
+  "variant": 22,
+  "qp": {
+   "file": "9702_s17_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s18_21": {
+  "phase": "check",
+  "series": "s",
+  "year": 2018,
+  "variant": 21,
+  "qp": {
+   "file": "9702_s18_qp_21.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s19_21": {
+  "phase": "check",
+  "series": "s",
+  "year": 2019,
+  "variant": 21,
+  "qp": {
+   "file": "9702_s19_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s19_22": {
+  "phase": "check",
+  "series": "s",
+  "year": 2019,
+  "variant": 22,
+  "qp": {
+   "file": "9702_s19_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s20_22": {
+  "phase": "check",
+  "series": "s",
+  "year": 2020,
+  "variant": 22,
+  "qp": {
+   "file": "9702_s20_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s20_23": {
+  "phase": "check",
+  "series": "s",
+  "year": 2020,
+  "variant": 23,
+  "qp": {
+   "file": "9702_s20_qp_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s21_21": {
+  "phase": "check",
+  "series": "s",
+  "year": 2021,
+  "variant": 21,
+  "qp": {
+   "file": "9702_s21_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s22_21": {
+  "phase": "check",
+  "series": "s",
+  "year": 2022,
+  "variant": 21,
+  "qp": {
+   "file": "9702_s22_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s23_21": {
+  "phase": "check",
+  "series": "s",
+  "year": 2023,
+  "variant": 21,
+  "qp": {
+   "file": "9702_s23_qp_21.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s23_22": {
+  "phase": "check",
+  "series": "s",
+  "year": 2023,
+  "variant": 22,
+  "qp": {
+   "file": "9702_s23_qp_22.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s23_23": {
+  "phase": "check",
+  "series": "s",
+  "year": 2023,
+  "variant": 23,
+  "qp": {
+   "file": "9702_s23_qp_23.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w13_23": {
+  "phase": "check",
+  "series": "w",
+  "year": 2013,
+  "variant": 23,
+  "qp": {
+   "file": "9702_w13_qp_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 AS Structured Questions'"
+   ]
+  },
+  "status": "ok"
+ },
+ "w14_22": {
+  "phase": "check",
+  "series": "w",
+  "year": 2014,
+  "variant": 22,
+  "qp": {
+   "file": "9702_w14_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 AS Structured Questions'"
+   ]
+  },
+  "status": "ok"
+ },
+ "w14_23": {
+  "phase": "check",
+  "series": "w",
+  "year": 2014,
+  "variant": 23,
+  "qp": {
+   "file": "9702_w14_qp_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 AS Structured Questions'"
+   ]
+  },
+  "status": "ok"
+ },
+ "w15_21": {
+  "phase": "check",
+  "series": "w",
+  "year": 2015,
+  "variant": 21,
+  "qp": {
+   "file": "9702_w15_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 AS Structured Questions'"
+   ]
+  },
+  "status": "ok"
+ },
+ "w15_22": {
+  "phase": "check",
+  "series": "w",
+  "year": 2015,
+  "variant": 22,
+  "qp": {
+   "file": "9702_w15_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 AS Structured Questions'"
+   ]
+  },
+  "status": "ok"
+ },
+ "w15_23": {
+  "phase": "check",
+  "series": "w",
+  "year": 2015,
+  "variant": 23,
+  "qp": {
+   "file": "9702_w15_qp_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 AS Structured Questions'"
+   ]
+  },
+  "status": "ok"
+ },
+ "w16_22": {
+  "phase": "check",
+  "series": "w",
+  "year": 2016,
+  "variant": 22,
+  "qp": {
+   "file": "9702_w16_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w17_22": {
+  "phase": "check",
+  "series": "w",
+  "year": 2017,
+  "variant": 22,
+  "qp": {
+   "file": "9702_w17_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w17_23": {
+  "phase": "check",
+  "series": "w",
+  "year": 2017,
+  "variant": 23,
+  "qp": {
+   "file": "9702_w17_qp_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w18_21": {
+  "phase": "check",
+  "series": "w",
+  "year": 2018,
+  "variant": 21,
+  "qp": {
+   "file": "9702_w18_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w18_23": {
+  "phase": "check",
+  "series": "w",
+  "year": 2018,
+  "variant": 23,
+  "qp": {
+   "file": "9702_w18_qp_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w19_22": {
+  "phase": "check",
+  "series": "w",
+  "year": 2019,
+  "variant": 22,
+  "qp": {
+   "file": "9702_w19_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w19_23": {
+  "phase": "check",
+  "series": "w",
+  "year": 2019,
+  "variant": 23,
+  "qp": {
+   "file": "9702_w19_qp_23.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w20_21": {
+  "phase": "check",
+  "series": "w",
+  "year": 2020,
+  "variant": 21,
+  "qp": {
+   "file": "9702_w20_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w20_22": {
+  "phase": "check",
+  "series": "w",
+  "year": 2020,
+  "variant": 22,
+  "qp": {
+   "file": "9702_w20_qp_22.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w21_22": {
+  "phase": "check",
+  "series": "w",
+  "year": 2021,
+  "variant": 22,
+  "qp": {
+   "file": "9702_w21_qp_22.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
  }
 }
