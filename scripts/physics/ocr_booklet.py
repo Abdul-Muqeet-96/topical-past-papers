@@ -78,30 +78,32 @@ def main_ocr(jobs):
 def main_pdf():
     d = pymupdf.open(SRC)
     font = pymupdf.Font(fontfile=FONT)
+    asc, desc = font.ascender, -font.descender          # em units (about 0.91 and 0.21)
     nwords = 0
     for page in d:
         if page.rotation:
             page.remove_rotation()      # displayed orientation = page coordinates (scan unchanged)
         words = read_tsv(os.path.join(OCR, f"p{page.number + 1:03d}.tsv"))
-        tw = pymupdf.TextWriter(page.rect)
+        lines = {}
         for w in words:
-            bw, bh = w["x1"] - w["x0"], w["y1"] - w["y0"]
-            if bw <= 0 or bh <= 0:
+            k = (w["block"], w["par"], w["line"])
+            a = lines.setdefault(k, [w["y0"], w["y1"]])
+            a[0], a[1] = min(a[0], w["y0"]), max(a[1], w["y1"])
+        for w in words:
+            bw = w["x1"] - w["x0"]
+            ly0, ly1 = lines[(w["block"], w["par"], w["line"])]
+            lh = ly1 - ly0
+            if bw <= 0 or lh <= 0:
                 continue
-            fs = max(bh * 1.05, 2.0)
+            fs = max(lh / (asc + desc), 2.0)
+            base = ly1 - desc * fs
             tl = font.text_length(w["text"], fontsize=fs)
             if tl <= 0:
                 continue
-            fs = fs * min(bw / tl, 2.5) if bw / tl < 1 else fs   # never wider than the box
-            tl = font.text_length(w["text"], fontsize=fs)
-            # baseline near the bottom of the box (descenders below it)
-            base = w["y1"] - bh * 0.18
-            # stretch horizontally to the box width with a per-word writer
-            sub = pymupdf.TextWriter(page.rect)
-            sub.append((w["x0"], base), w["text"], font=font, fontsize=fs)
-            sx = bw / tl if tl > 0 else 1
-            sub.write_text(page, render_mode=3, morph=(pymupdf.Point(w["x0"], base), pymupdf.Matrix(sx, 1)))
+            page.insert_text((w["x0"], base), w["text"], fontsize=fs, fontname="F0", fontfile=FONT,
+                             render_mode=3, morph=(pymupdf.Point(w["x0"], base), pymupdf.Matrix(bw / tl, 1)))
             nwords += 1
+        page.clean_contents()        # one content stream per page instead of one per word
     d.subset_fonts()
     d.save(OUT, garbage=4, deflate=True)
     print(f"booklet-ocr.pdf: pages {d.page_count}, words {nwords}, size {os.path.getsize(OUT) / 1e6:.1f} MB")
