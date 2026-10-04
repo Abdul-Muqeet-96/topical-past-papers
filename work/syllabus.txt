@@ -1,0 +1,5605 @@
+Syllabus
+Cambridge International 
+AS & A Level 
+Chemistry 9701
+Use this syllabus for exams in 2025, 2026 and 2027.
+Exams are available in the June and November series.
+Also available for examination in March 2025, 2026 and 2027 for India.
+Version 1
+For the purposes of screen readers, any mention in this document of Cambridge IGCSE 
+refers to Cambridge International General Certificate of Secondary Education.
+Why choose Cambridge International?
+Cambridge International prepares school students for life, helping them develop an informed curiosity and a 
+lasting passion for learning. We are part of Cambridge University Press & Assessment, which is a department 
+of the University of Cambridge.
+Our Cambridge Pathway gives students a clear path for educational success from age 5 to 19. Schools can 
+shape the curriculum around how they want students to learn – with a wide range of subjects and flexible ways 
+to offer them. It helps students discover new abilities and a wider world, and gives them the skills they need for 
+life, so they can achieve at school, university and work.
+Our programmes and qualifications set the global standard for international education. They are created by 
+subject experts, rooted in academic rigour and reflect the latest educational research. They provide a strong 
+platform for students to progress from one stage to the next, and are well supported by teaching and learning 
+resources.
+We review all our syllabuses regularly, so they reflect the latest research evidence and professional teaching 
+practice – and take account of the different national contexts in which they are taught.
+We consult with teachers to help us design each syllabus around the needs of their learners. Consulting with 
+leading universities has helped us make sure our syllabuses encourage students to master the key concepts in 
+the subject and develop the skills necessary for success in higher education.
+Our mission is to provide educational benefit through provision of international programmes and qualifications 
+for school education and to be the world leader in this field. Together with schools, we develop Cambridge 
+learners who are confident, responsible, reflective, innovative and engaged – equipped for success in the 
+modern world.
+Every year, nearly a million Cambridge students from 10 000 schools in 160 countries prepare for their future 
+with the Cambridge Pathway. 
+School feedback: ‘We think the Cambridge curriculum is superb preparation for university.’
+Feedback from: Christoph Guttentag, Dean of Undergraduate Admissions, Duke University, USA
+Quality management
+Cambridge International is committed to providing exceptional quality. In line with this commitment, our 
+quality management system for the provision of international qualifications and education programmes for 
+students aged 5 to 19 is independently certified as meeting the internationally recognised standard, 
+ISO 9001:2015. Learn more at www.cambridgeinternational.org/ISO9001
+© Cambridge University Press & Assessment September 2022
+Cambridge Assessment International Education is part of Cambridge University Press & Assessment. Cambridge University Press & 
+Assessment is a department of the University of Cambridge.
+Cambridge University Press & Assessment retains the copyright on all its publications. Registered centres are permitted to copy 
+material from this booklet for their own internal use. However, we cannot give permission to centres to photocopy any material that is 
+acknowledged to a third party even for internal use within a centre.
+Contents
+Why choose Cambridge International?......................................................................... 2
+1  Why choose this syllabus? ......................................................................................... 5
+2  Syllabus overview ....................................................................................................... 9
+Aims	
+9
+Content overview	
+10
+Assessment overview	
+11
+Assessment objectives	
+13
+3  Subject content ..........................................................................................................15
+AS Level subject content	
+16
+A Level subject content	
+39
+4  Details of the assessment ....................................................................................... 56
+Paper 1 Multiple Choice	
+56
+Paper 2 AS Level Structured Questions	
+56
+Paper 3 Advanced Practical Skills	
+56
+Paper 4 A Level Structured Questions	
+56
+Paper 5 Planning, Analysis and Evaluation 	
+56
+Command words	
+57
+5  Practical assessment................................................................................................ 58
+Introduction	
+58
+Paper 3 Advanced Practical Skills	
+58
+Paper 5 Planning, Analysis and Evaluation	
+71
+6  Additional information............................................................................................... 75
+Mathematical requirements	
+75
+Summary of key quantities, symbols and units	
+77
+Expected conventions for representing organic structures	
+78
+Data section	
+80
+7  What else you need to know .................................................................................... 92
+Before you start	
+92
+Making entries	
+93
+Accessibility and equality	
+93
+After the exam	
+94
+How students, teachers and higher education can use the grades	
+96
+Grade descriptions	
+96
+Changes to this syllabus for 2025, 2026 and 2027	
+97
+Important: Changes to this syllabus
+For information about changes to this syllabus for 2025, 2026 and 2027, go to page 97.
+The latest syllabus is version 1, published September 2022. 
+Any textbooks endorsed to support the syllabus for examination from 2022 are still suitable for use with this 
+syllabus.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.
+5
+www.cambridgeinternational.org/alevel
+Back to contents page
+1  Why choose this syllabus? 
+Key benefits	
+The best motivation for a student is a real passion for the 
+subject they’re learning. By offering students a variety of 
+Cambridge International AS & A Levels, you can give them the 
+greatest chance of finding the path of education they most 
+want to follow. With over 50 subjects to choose from, students 
+can select the ones they love and that they’re best at, which 
+helps motivate them throughout their studies.
+Following a Cambridge International AS & A Level programme 
+helps students develop abilities which universities value highly, 
+including:
+	•
+a deep understanding of their subjects
+	•
+higher order thinking skills – analysis, critical thinking, 
+problem solving 
+	•
+presenting ordered and coherent arguments
+	•
+independent learning and research.
+Cambridge International AS & A Level Chemistry develops a set of transferable skills including handling 
+data, practical problem-solving and applying the scientific method. Learners develop relevant attitudes, such as 
+concern for accuracy and precision, objectivity, integrity, enquiry, initiative and inventiveness. They acquire the 
+essential scientific skills required for progression to further studies or employment.
+Our approach in Cambridge International AS & A Level Chemistry encourages learners to be:
+confident, secure in their knowledge, keen to explore further and able to communicate effectively through the 
+language of science 
+responsible, developing efficient and safe scientific practices and working collaboratively with others
+reflective, able to evaluate evidence to draw informed and appropriate conclusions and recognising that the 
+applications of science have the potential to affect the individual, the community and the environment 
+innovative, applying problem-solving skills to novel situations and engaging with new tools and techniques, 
+including information technology, to develop successful approaches
+engaged, developing an enquiring mind, keen to apply scientific skills in everyday life.
+
+School feedback: ‘Cambridge students develop a deep understanding of subjects and 
+independent thinking skills.’
+Feedback from: Principal, Rockledge High School, USA
+Cambridge
+learner
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Why choose this syllabus? 
+6
+www.cambridgeinternational.org/alevel
+Back to contents page
+Key concepts
+Key concepts are essential ideas that help students develop a deep understanding of their subject and make 
+links between different aspects. Key concepts may open up new ways of thinking about, understanding or 
+interpreting the important things to be learned.  
+Good teaching and learning will incorporate and reinforce a subject’s key concepts to help students gain:
+	•
+a greater depth as well as breadth of subject knowledge
+	•
+confidence, especially in applying knowledge and skills in new situations  
+	•
+the vocabulary to discuss their subject conceptually and show how different aspects link together
+	•
+a level of mastery of their subject to help them enter higher education.
+The key concepts identified below, carefully introduced and developed, will help to underpin the course you will 
+teach. You may identify additional key concepts which will also enrich teaching and learning. 
+The key concepts for Cambridge International AS & A Level Chemistry are:
+	•
+Atoms and forces
+Matter is built from atoms interacting and bonding through electrostatic forces. The structure of matter 
+affects its physical and chemical properties, and influences how substances react chemically. 
+	•
+Experiments and evidence
+Chemists use evidence gained from observations and experiments to build models and theories of the 
+structure and reactivity of materials. Theories are tested by further experiments and an appreciation of 
+accuracy and reliability is gained.
+	•
+Patterns in chemical behaviour and reactions
+Patterns in chemical behaviour can be identified and used to predict the properties of substances. By 
+applying these patterns, useful new substances can be designed and synthetic routes created. 
+	•
+Chemical bonds
+The understanding of how chemical bonds are made and broken by the movement of electrons allows us 
+to predict patterns of reactivity. Appreciation of the strength of chemical bonds leads to the understanding 
+of a material’s properties and its uses.
+	•
+Energy changes
+The energy changes that take place during chemical reactions can be used to predict the extent, feasibility 
+and rate of such reactions. An understanding is gained of why and how chemical reactions happen.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Why choose this syllabus? 
+7
+www.cambridgeinternational.org/alevel
+Back to contents page
+International recognition and acceptance
+Our expertise in curriculum, teaching and learning, and assessment is the basis for the recognition of 
+our programmes and qualifications around the world. Every year thousands of students with Cambridge 
+International AS & A Levels gain places at leading universities worldwide. Our programmes and qualifications 
+are valued by top universities around the world including those in the UK, US (including Ivy League universities), 
+Europe, Australia, Canada and New Zealand.
+UK NARIC*, the national agency in the UK for the recognition and comparison of international qualifications and 
+skills, has carried out an independent benchmarking study of Cambridge International AS & A Level and found 
+it to be comparable to the standard of AS & A Level in the UK. This means students can be confident that their 
+Cambridge International AS & A Level qualifications are accepted as equivalent, grade for grade, to UK AS & A 
+Levels by leading universities worldwide.
+Cambridge International AS Level Chemistry makes up the first half of the Cambridge International A Level 
+course in Chemistry and provides a foundation for the study of Chemistry at Cambridge International A Level. 
+Depending on local university entrance requirements, students may be able to use it to progress directly 
+to university courses in Chemistry or some other subjects. It is also suitable as part of a course of general 
+education. 
+Cambridge International A Level Chemistry provides a foundation for the study of Chemistry or related courses 
+in higher education. Equally it is suitable as part of a course of general education.
+For more information about the relationship between the Cambridge International AS Level and Cambridge 
+International A Level see the ‘Assessment overview’ section of the Syllabus overview.
+We recommend learners check the Cambridge recognition database and university websites to find the most 
+up-to-date entry requirements for courses they wish to study. 
+* Due to the United Kingdom leaving the European Union, the UK NARIC national recognition agency function was re-titled as UK ENIC 
+on 1 March 2021, operated and managed by Ecctis Limited. From 1 March 2021, international benchmarking findings are published 
+under the Ecctis name.
+Learn more at www.cambridgeinternational.org/recognition
+School feedback: ‘The depth of knowledge displayed by the best A Level students makes 
+them prime targets for America’s Ivy League universities.’
+Feedback from: Yale University, USA
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Why choose this syllabus? 
+8
+www.cambridgeinternational.org/alevel
+Back to contents page
+Supporting teachers
+We provide a wide range of resources, detailed guidance, innovative training and professional development so 
+that you can give your students the best possible preparation for Cambridge International AS & A Level. To find 
+out which resources are available for each syllabus go to www.cambridgeinternational.org/support 
+The School Support Hub is our secure online site for Cambridge teachers where you can find the resources 
+you need to deliver our programmes. You can also keep up to date with your subject and the global Cambridge 
+community through our online discussion forums.  
+Find out more at www.cambridgeinternational.org/support
+Support for Cambridge International AS & A Level
+Planning and 
+preparation
+	•
+Schemes of work
+	•
+Specimen papers
+	•
+Syllabuses
+	•
+Teacher guides
+Teaching and 
+assessment
+	•
+Endorsed resources
+	•
+Online forums
+	•
+Support for 
+coursework and 
+speaking tests
+Learning and revision
+	•
+Example candidate 
+responses
+	•
+Past papers and 
+mark schemes
+	•
+Specimen paper 
+answers
+Results
+	•
+Candidate Results 
+Service
+	•
+Principal examiner 
+reports for teachers
+Sign up for email notifications about changes to syllabuses, including new and revised products and services at 
+www.cambridgeinternational.org/syllabusupdates
+Professional development
+We support teachers through:
+	•
+Introductory Training – face-to-face or online
+	•
+Extension Training – face-to-face or online
+	•
+Enrichment Professional Development – face-to-face or online
+Find out more at www.cambridgeinternational.org/events
+	•
+Cambridge Professional Development Qualifications
+Find out more at www.cambridgeinternational.org/profdev
+Supporting exams officers
+We provide comprehensive support and guidance for all Cambridge exams officers. 
+Find out more at: www.cambridgeinternational.org/eoguide
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.
+9
+www.cambridgeinternational.org/alevel
+Back to contents page
+2  Syllabus overview 
+Aims
+The aims describe the purposes of a course based on this syllabus.
+The aims are to enable students to:
+	•
+acquire knowledge and understanding and develop practical skills, including efficient, accurate and safe 
+scientific practices
+	•
+learn to apply the scientific method, while developing an awareness of the limitations of scientific theories 
+and models
+	•
+develop skills in data analysis, evaluation and drawing conclusions, cultivating attitudes relevant to science 
+such as objectivity, integrity, enquiry, initiative and inventiveness
+	•
+develop effective scientific communication skills, using appropriate terminology and scientific conventions
+	•
+understand their responsibility to others/society and to care for the environment
+	•
+enjoy science and develop an informed interest in the subject that may lead to further study.
+Cambridge Assessment International Education is an education organisation and politically 
+neutral. The contents of this syllabus, examination papers and associated materials do not endorse any 
+political view. We endeavour to treat all aspects of the exam process neutrally.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Syllabus overview 
+10
+www.cambridgeinternational.org/alevel
+Back to contents page
+Content overview
+AS Level subject content
+Candidates for Cambridge International AS Level 
+Chemistry study the following topics:
+A Level subject content
+Candidates for Cambridge International A Level 
+Chemistry study the AS topics and the following 
+topics:
+Physical chemistry 
+1	
+Atomic structure 
+2	
+Atoms, molecules and stoichiometry 
+3	
+Chemical bonding 
+4	
+States of matter 
+5	
+Chemical energetics 
+6	
+Electrochemistry 
+7	
+Equilibria 
+8	
+Reaction kinetics
+Inorganic chemistry 
+9 	 The Periodic Table: chemical periodicity 
+10 	Group 2 
+11 	Group 17 
+12 	Nitrogen and sulfur
+Organic chemistry 
+13 	An introduction to AS Level organic chemistry 
+14 	Hydrocarbons 
+15 	Halogen compounds 
+16 	Hydroxy compounds 
+17 	Carbonyl compounds 
+18 	Carboxylic acids and derivatives 
+19 	Nitrogen compounds 
+20 	Polymerisation 
+21	 Organic synthesis 
+Analysis
+22 	Analytical techniques 
+AS Level candidates also study practical 
+skills.
+Physical chemistry 
+23 	Chemical energetics 
+24 	Electrochemistry 
+25 	Equilibria 
+26 	Reaction kinetics 
+Inorganic chemistry 
+27 	Group 2 
+28 	Chemistry of transition elements 
+Organic chemistry 
+29 	An introduction to A Level organic chemistry 
+30 	Hydrocarbons 
+31	 Halogen compounds
+32	 Hydroxy compounds 
+33 	Carboxylic acids and derivatives 
+34 	Nitrogen compounds 
+35 	Polymerisation 
+36 	Organic synthesis  
+Analysis
+37 	Analytical techniques 
+A Level candidates also study practical skills.
+School feedback: ‘Cambridge International AS & A Levels prepare students well for university 
+because they’ve learnt to go into a subject in considerable depth. There’s that ability to really 
+understand the depth and richness and the detail of a subject. It’s a wonderful preparation for 
+what they are going to face at university.’
+Feedback from: US Higher Education Advisory Council
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Syllabus overview 
+11
+www.cambridgeinternational.org/alevel
+Back to contents page
+Assessment overview
+Paper 1
+Paper 4
+Multiple Choice
+	
+1 hour 15 minutes
+40 marks
+40 multiple-choice questions
+Questions are based on the AS Level syllabus 
+content. 
+Externally assessed 
+31% of the AS Level
+15.5% of the A Level 
+A Level Structured Questions
+	
+2 hours
+100 marks
+Structured questions
+Questions are based on the A Level syllabus 
+content; knowledge of material from the AS Level 
+syllabus content will be required. 
+Externally assessed 
+38.5% of the A Level 
+Paper 2
+Paper 5
+AS Level Structured Questions
+	
+1 hour 15 minutes
+60 marks
+Structured questions 
+Questions are based on the AS Level syllabus 
+content. 
+Externally assessed 
+46% of the AS Level
+23% of the A Level 
+Planning, Analysis and Evaluation
+	
+1 hour 15 minutes
+30 marks
+Questions are based on the experimental skills of 
+planning, analysis and evaluation.
+The context of the questions may be outside the 
+syllabus content. 
+Externally assessed 
+11.5% of the A Level 
+Paper 3
+Advanced Practical Skills	
+2 hours
+40 marks
+Practical work and structured questions 
+Questions are based on the experimental skills in 
+the Practical assessment section of the syllabus.
+Externally assessed 
+23% of the AS Level
+11.5% of the A Level 
+Information on availability is in the Before you start section. 
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Syllabus overview 
+12
+www.cambridgeinternational.org/alevel
+Back to contents page
+There are three routes for Cambridge International AS & A Level Chemistry:
+Route
+Paper 1
+Paper 2
+Paper 3
+Paper 4
+Paper 5
+1
+AS Level only
+(Candidates take all AS 
+components in the same exam 
+series) 
+
+yes
+
+yes
+
+yes
+
+
+2
+A Level (staged over two years)
+Year 1 AS Level*
+
+yes
+
+yes
+
+yes
+
+
+Year 2 Complete the A Level
+yes
+yes
+3
+A Level
+(Candidates take all components in 
+the same exam series)
+
+yes
+
+yes
+
+yes
+
+yes
+
+yes
+* Candidates carry forward their AS Level result subject to the rules and time limits described in the Cambridge 
+Handbook. See Making entries for more information on carry forward of results.
+Candidates following an AS Level route are eligible for grades a–e. Candidates following an A Level route are 
+eligible for grades A*–E.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Syllabus overview 
+13
+www.cambridgeinternational.org/alevel
+Back to contents page
+Assessment objectives
+The assessment objectives (AOs) are:
+AO1 Knowledge and understanding
+Candidates should be able to demonstrate knowledge and understanding of:
+	•
+scientific phenomena, facts, laws, definitions, concepts and theories
+	•
+scientific vocabulary, terminology and conventions (including symbols, quantities and units)
+	•
+scientific instruments and apparatus, including techniques of operation and aspects of safety
+	•
+scientific quantities and their determination
+	•
+scientific and technological applications with their social, economic and environmental implications
+	•
+reasoned explanations for phenomena, patterns and relationships.
+AO2 Handling, applying and evaluating information
+Candidates should be able to handle, apply and evaluate information in words or using other forms of 
+presentation (e.g. symbols, graphical or numerical) to:
+	•
+locate, select, organise and present information from a variety of sources
+	•
+translate information from one form to another
+	•
+manipulate numerical and other data
+	•
+use information to identify patterns, report trends and draw conclusions
+	•
+give reasoned explanations for phenomena, patterns and relationships
+	•
+make predictions and construct arguments to support hypotheses 
+	•
+make sense of new situations
+	•
+evaluate hypotheses
+	•
+demonstrate an awareness of the limitations of chemical theories and models
+	•
+solve problems.
+AO3 Experimental skills and investigations
+Candidates should be able to:
+	•
+plan experiments and investigations
+	•
+collect, record and present observations, measurements and estimates
+	•
+analyse and interpret experimental data to reach conclusions
+	•
+evaluate methods and quality of experimental data, and suggest improvements to experiments.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Syllabus overview 
+14
+www.cambridgeinternational.org/alevel
+Back to contents page
+Weighting for assessment objectives
+The approximate weightings allocated to each of the assessment objectives (AOs) are summarised below.
+Assessment objectives as a percentage of each qualification
+Assessment objective
+Weighting in AS Level %
+Weighting in A Level %
+AO1 Knowledge and understanding
+40
+40
+AO2 Handling, applying and evaluating 
+information
+40
+40
+AO3 Experimental skills and investigations
+20
+20
+Total
+100
+100
+Assessment objectives as a percentage of each component
+Assessment objective
+Weighting in components %
+Paper 1
+Paper 2
+Paper 3
+Paper 4
+Paper 5
+AO1 Knowledge and understanding
+50
+50
+0
+50
+0
+AO2 Handling, applying and evaluating 
+information
+50
+50
+0
+50
+0
+AO3 Experimental skills and investigations
+0
+0
+100
+0
+100
+Total
+100
+100
+100
+100
+100
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.
+15
+www.cambridgeinternational.org/alevel
+Back to contents page
+3  Subject content 
+Candidates for Cambridge International AS Level should study topics 1–22.
+Candidates for Cambridge International A Level should study all topics.
+The content of the AS Level learning outcomes is assumed knowledge for the A Level components.
+Teachers should refer to the social, environmental, economic and technological aspects of chemistry wherever 
+possible throughout the syllabus. Some examples are included in the syllabus and teachers should encourage 
+learners to apply the principles of these examples to other situations introduced during the course. 
+The syllabus content for practical skills is in the Practical assessment section. 
+Teachers should ensure that candidates are prepared for the assessment of both theory learning outcomes 
+and practical expectations.
+This syllabus gives you the flexibility to design a course that will interest, challenge and engage your learners. 
+Where appropriate you are responsible for selecting suitable subject contexts, resources and examples to 
+support your learners’ study. These should be appropriate for the learners’ age, cultural background and 
+learning context as well as complying with your school policies and local legal requirements.
+Nomenclature 
+Symbols, signs and abbreviations used in examination papers will follow the recommendations made in the 
+ASE publication Signs, Symbols and Systematics (The ASE Companion to 16–19 Science, 2000) although 
+the traditional names sulfite, nitrite, sulfur trioxide, sulfurous acid and nitrous acid will be used. Sulfur and all 
+compounds of sulfur will be spelled with f, not ph.
+Decimal markers 
+In accordance with current ASE convention, decimal markers in examination papers will be a single dot on the 
+line. Candidates are expected to follow this convention in their answers.
+Units 
+In practical work, candidates will be expected to use SI units or, where appropriate, units approved by the BIPM 
+for use with the SI (e.g. minute). A list of SI units and units approved for use with the SI may be found in the SI 
+brochure at www.bipm.org 
+The use of imperial/customary units such as the inch and degree Fahrenheit is not acceptable and should be 
+discouraged. In all examinations, where data are supplied for use in questions, candidates will be expected to 
+use units that are consistent with the units supplied, and should not attempt conversion to other systems of 
+units unless this is a requirement of the question.
+Special note regarding units and significant figures 
+Candidates should be aware that misuse of units and/or significant figures, i.e. failure to quote units where 
+necessary, the inclusion of units in quantities defined as ratios or quoting answers to an inappropriate number 
+of significant figures, is liable to be penalised in the assessments.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+16
+www.cambridgeinternational.org/alevel
+Back to contents page
+AS Level subject content
+Physical chemistry
+1	
+Atomic structure
+1.1 	
+Particles in the atom and atomic radius
+Learning outcomes
+Candidates should be able to:
+1	
+understand that atoms are mostly empty space surrounding a very small, dense nucleus that contains 
+protons and neutrons; electrons are found in shells in the empty space around the nucleus
+2	
+identify and describe protons, neutrons and electrons in terms of their relative charges and relative 
+masses
+3	
+understand the terms atomic and proton number; mass and nucleon number 
+4	
+describe the distribution of mass and charge within an atom
+5	
+describe the behaviour of beams of protons, neutrons and electrons moving at the same velocity in an 
+electric field 
+6	
+determine the numbers of protons, neutrons and electrons present in both atoms and ions given atomic 
+or proton number, mass or nucleon number and charge
+7 	 state and explain qualitatively the variations in atomic radius and ionic radius across a period and down a 
+group 
+1.2	
+Isotopes
+Learning outcomes
+Candidates should be able to:
+1	
+define the term isotope in terms of numbers of protons and neutrons
+2	
+understand the notation x
+y A for isotopes, where x is the mass or nucleon number and y is the atomic or 
+proton number 
+3 	 state that and explain why isotopes of the same element have the same chemical properties
+4	
+state that and explain why isotopes of the same element have different physical properties, limited to 
+mass and density 
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+17
+www.cambridgeinternational.org/alevel
+Back to contents page
+1.3	
+Electrons, energy levels and atomic orbitals
+In 1.3 each atom or ion described will be in the ground state. Only the elements hydrogen to krypton will be 
+assessed. 
+Learning outcomes
+Candidates should be able to:
+1	
+understand the terms: 
+•	
+shells, sub-shells and orbitals
+•	
+principal quantum number (n)
+•	
+ground state, limited to electronic configuration
+2	
+describe the number of orbitals making up s, p and d sub-shells, and the number of electrons that can 
+fill s, p and d sub-shells
+3	
+describe the order of increasing energy of the sub-shells within the first three shells and the 4s and 4p 
+sub-shells 
+4	
+describe the electronic configurations to include the number of electrons in each shell, sub-shell and 
+orbital
+5	
+explain the electronic configurations in terms of energy of the electrons and inter-electron repulsion 
+6	
+determine the electronic configuration of atoms and ions given the atomic or proton number and charge, 
+using either of the following conventions:
+	
+e.g. for Fe: 1s22s22p63s23p63d64s2 (full electronic configuration) 
+or [Ar] 3d64s2 (shorthand electronic configuration) 
+7	
+understand and use the electrons in boxes notation
+e.g. for Fe: [Ar]
+8	
+describe and sketch the shapes of s and p orbitals
+9 	 describe a free radical as a species with one or more unpaired electrons
+1.4	
+Ionisation energy
+In 1.4 each atom or ion described will be in the ground state. Only the elements hydrogen to krypton will be 
+assessed. 
+Learning outcomes
+Candidates should be able to:
+1	
+define and use the term first ionisation energy, IE
+2	
+construct equations to represent first, second and subsequent ionisation energies
+3	
+identify and explain the trends in ionisation energies across a period and down a group of the Periodic 
+Table 
+4  	 identify and explain the variation in successive ionisation energies of an element
+5	
+understand that ionisation energies are due to the attraction between the nucleus and the outer electron
+6	
+explain the factors influencing the ionisation energies of elements in terms of nuclear charge, 
+atomic/ionic radius, shielding by inner shells and sub-shells and spin-pair repulsion
+7	
+deduce the electronic configurations of elements using successive ionisation energy data
+8	
+deduce the position of an element in the Periodic Table using successive ionisation energy data
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+18
+www.cambridgeinternational.org/alevel
+Back to contents page
+2	
+Atoms, molecules and stoichiometry
+2.1 	
+Relative masses of atoms and molecules
+Learning outcomes
+Candidates should be able to:
+1	
+define the unified atomic mass unit as one twelfth of the mass of a carbon-12 atom 
+2	
+define relative atomic mass, Ar, relative isotopic mass, relative molecular mass, Mr, and relative formula 
+mass in terms of the unified atomic mass unit
+2.2 	
+The mole and the Avogadro constant
+Learning outcomes
+Candidates should be able to:
+1	
+define and use the term mole in terms of the Avogadro constant
+2.3 	
+Formulas
+Learning outcomes
+Candidates should be able to:
+1	
+write formulas of ionic compounds from ionic charges and oxidation numbers (shown by a Roman 
+numeral), including:
+(a)	 the prediction of ionic charge from the position of an element in the Periodic Table
+(b)	 recall of the names and formulas for the following ions: NO3
+–, CO3
+2–, SO4
+2–, OH–, NH4
++, Zn2+, Ag+, 
+HCO3
+–, PO4
+3–
+2	
+(a)	 write and construct equations (which should be balanced), including ionic equations (which should 
+not include spectator ions)
+(b)	 use appropriate state symbols in equations 
+3	
+define and use the terms empirical and molecular formula
+4	
+understand and use the terms anhydrous, hydrated and water of crystallisation
+5	
+calculate empirical and molecular formulas, using given data  
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+19
+www.cambridgeinternational.org/alevel
+Back to contents page
+2.4 	
+Reacting masses and volumes (of solutions and gases)
+Learning outcomes
+Candidates should be able to:
+1	
+perform calculations including use of the mole concept, involving:
+(a)	 reacting masses (from formulas and equations) including percentage yield calculations 
+(b)	 volumes of gases (e.g. in the burning of hydrocarbons)
+(c)	 volumes and concentrations of solutions
+(d)	 limiting reagent and excess reagent
+	
+(When performing calculations, candidates’ answers should reflect the number of significant figures 
+given or asked for in the question. When rounding up or down, candidates should ensure that 
+significant figures are neither lost unnecessarily nor used beyond what is justified (see also Mathematical 
+requirements section).) 
+(e)	 deduce stoichiometric relationships from calculations such as those in 2.4.1(a)–(d)
+3	
+Chemical bonding
+3.1 	
+Electronegativity and bonding
+Learning outcomes
+Candidates should be able to:
+1	
+define electronegativity as the power of an atom to attract electrons to itself 
+2	
+explain the factors influencing the electronegativities of the elements in terms of nuclear charge, atomic 
+radius and shielding by inner shells and sub-shells
+3	
+state and explain the trends in electronegativity across a period and down a group of the Periodic Table
+4	
+use the differences in Pauling electronegativity values to predict the formation of ionic and covalent 
+bonds (the presence of covalent character in some ionic compounds will not be assessed) (Pauling 
+electronegativity values will be given where necessary) 
+3.2 	
+Ionic bonding
+Learning outcomes
+Candidates should be able to:
+1	
+define ionic bonding as the electrostatic attraction between oppositely charged ions (positively charged 
+cations and negatively charged anions)
+2	
+describe ionic bonding including the examples of sodium chloride, magnesium oxide and calcium 
+fluoride
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+20
+www.cambridgeinternational.org/alevel
+Back to contents page
+3.3 	
+Metallic bonding
+Learning outcomes
+Candidates should be able to:
+1	
+define metallic bonding as the electrostatic attraction between positive metal ions and delocalised 
+electrons 
+3.4 	
+Covalent bonding and coordinate (dative covalent) bonding
+Learning outcomes
+Candidates should be able to:
+1	
+define covalent bonding as electrostatic attraction between the nuclei of two atoms and a shared pair of 
+electrons 
+(a)	 describe covalent bonding in molecules including: 
+•	
+hydrogen, H2
+•	
+oxygen, O2
+•	
+nitrogen, N2
+•	
+chlorine, Cl 2
+•	
+hydrogen chloride, HCl
+•	
+carbon dioxide, CO2
+•	
+ammonia, NH3
+•	
+methane, CH4
+•	
+ethane, C2H6
+•	
+ethene, C2H4
+(b)	 understand that elements in period 3 can expand their octet including in the compounds 
+sulfur dioxide, SO2, phosphorus pentachloride, PCl 5 , and sulfur hexafluoride, SF6
+(c)	 describe coordinate (dative covalent) bonding, including in the reaction between ammonia and 
+hydrogen chloride gases to form the ammonium ion, NH4
++ , and in the Al 2Cl 6 molecule
+2	
+(a)	 describe covalent bonds in terms of orbital overlap giving σ and π bonds:
+•	
+σ bonds are formed by direct overlap of orbitals between the bonding atoms
+•	
+π bonds are formed by the sideways overlap of adjacent p orbitals above and below the σ bond 
+(b)	 describe how the σ and π bonds form in molecules including H₂, C₂H₆, C₂H₄, HCN and N₂
+(c)	 use the concept of hybridisation to describe sp, sp² and sp³ orbitals 
+3	
+(a)	 define the terms: 
+•	
+bond energy as the energy required to break one mole of a particular covalent bond in the 
+gaseous state
+•	
+bond length as the internuclear distance of two covalently bonded atoms 
+(b)	 use bond energy values and the concept of bond length to compare the reactivity of covalent 
+molecules
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+21
+www.cambridgeinternational.org/alevel
+Back to contents page
+3.5 	
+Shapes of molecules
+Learning outcomes
+Candidates should be able to:
+1	
+state and explain the shapes of, and bond angles in, molecules by using VSEPR theory, including as 
+simple examples:  
+•	
+BF3 (trigonal planar, 120°)
+•	
+CO2 (linear, 180°)
+•	
+CH4 (tetrahedral, 109.5°)
+•	
+NH3 (pyramidal, 107°) 
+•	
+H2O (non-linear, 104.5°)
+•	
+SF6 (octahedral, 90°)
+•	
+PF5 (trigonal bipyramidal, 120° and 90°)
+2	
+predict the shapes of, and bond angles in, molecules and ions analogous to those specified in 3.5.1
+3.6 	
+Intermolecular forces, electronegativity and bond properties
+Learning outcomes
+Candidates should be able to:
+1	
+(a)	 describe hydrogen bonding, limited to molecules containing N–H and O–H groups, including 
+ammonia and water as simple examples
+(b)	 use the concept of hydrogen bonding to explain the anomalous properties of H₂O (ice and water):
+•	
+its relatively high melting and boiling points 
+•	
+its relatively high surface tension 
+•	
+the density of the solid ice compared with the liquid water
+2	
+use the concept of electronegativity to explain bond polarity and dipole moments of molecules 
+3	
+(a)	 describe van der Waals’ forces as the intermolecular forces between molecular entities other than 
+those due to bond formation, and use the term van der Waals’ forces as a generic term to describe 
+all intermolecular forces
+(b)	 describe the types of van der Waals’ forces:
+•	
+instantaneous dipole–induced dipole (id-id) forces, also called London dispersion forces
+•	
+permanent dipole–permanent dipole (pd-pd) forces, including hydrogen bonding 
+(c) 	 describe hydrogen bonding and understand that hydrogen bonding is a special case of 
+permanent dipole–permanent dipole forces between molecules where hydrogen is bonded to a 
+highly electronegative atom
+4 	 state that, in general, ionic, covalent and metallic bonding are stronger than intermolecular forces
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+22
+www.cambridgeinternational.org/alevel
+Back to contents page
+3.7 	
+Dot-and-cross diagrams
+Learning outcomes
+Candidates should be able to:
+1	
+use dot-and-cross diagrams to illustrate ionic, covalent and coordinate bonding including the 
+representation of any compounds stated in 3.4 and 3.5 (dot-and-cross diagrams may include species 
+with atoms which have an expanded octet or species with an odd number of electrons)
+4	
+States of matter
+4.1 	
+The gaseous state: ideal and real gases and pV = nRT
+Learning outcomes
+Candidates should be able to:
+1	
+explain the origin of pressure in a gas in terms of collisions between gas molecules and the wall of the 
+container 
+2	
+understand that ideal gases have zero particle volume and no intermolecular forces of attraction
+3	
+state and use the ideal gas equation pV = nRT in calculations, including in the determination of Mr
+4.2 	
+Bonding and structure
+Learning outcomes
+Candidates should be able to:
+1	
+describe, in simple terms, the lattice structure of a crystalline solid which is:
+(a)	 giant ionic, including sodium chloride and magnesium oxide
+(b)	 simple molecular, including iodine, buckminsterfullerene C60 and ice
+(c)	 giant molecular, including silicon(IV) oxide, graphite and diamond 
+(d)	 giant metallic, including copper
+2	
+describe, interpret and predict the effect of different types of structure and bonding on the physical 
+properties of substances, including melting point, boiling point, electrical conductivity and solubility 
+3	
+deduce the type of structure and bonding present in a substance from given information
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+23
+www.cambridgeinternational.org/alevel
+Back to contents page
+5	
+Chemical energetics
+5.1 	
+Enthalpy change, ΔH
+Learning outcomes
+Candidates should be able to:
+1	
+understand that chemical reactions are accompanied by enthalpy changes and these changes can be 
+exothermic (ΔH is negative) or endothermic (ΔH is positive)
+2	
+construct and interpret a reaction pathway diagram, in terms of the enthalpy change of the reaction and 
+of the activation energy
+3 	 define and use the terms:
+(a)	 standard conditions (this syllabus assumes that these are 298 K and 101 kPa) shown by 
+⦵.
+(b)	 enthalpy change with particular reference to: reaction, ΔHr , formation, ΔHf , combustion, ΔHc , 
+neutralisation, ΔHneut 
+4 	 understand that energy transfers occur during chemical reactions because of the breaking and making 
+of chemical bonds
+5	
+use bond energies (ΔH positive, i.e. bond breaking) to calculate enthalpy change of reaction, ΔHr
+6	
+understand that some bond energies are exact and some bond energies are averages
+7	
+calculate enthalpy changes from appropriate experimental results, including the use of the relationships 
+q = mcΔT and ΔH = –mcΔT/n 
+5.2 	
+Hess’s law
+Learning outcomes
+Candidates should be able to:
+1	
+apply Hess’s law to construct simple energy cycles 
+2 	 carry out calculations using cycles and relevant energy terms, including:
+(a)	 determining enthalpy changes that cannot be found by direct experiment
+(b)	 use of bond energy data
+6	
+Electrochemistry
+6.1 	
+Redox processes: electron transfer and changes in oxidation number (oxidation state)
+Learning outcomes
+Candidates should be able to:
+1 	 calculate oxidation numbers of elements in compounds and ions 
+2	
+use changes in oxidation numbers to help balance chemical equations
+3 	 explain and use the terms redox, oxidation, reduction and disproportionation in terms of electron transfer 
+and changes in oxidation number
+4 	 explain and use the terms oxidising agent and reducing agent
+5	
+use a Roman numeral to indicate the magnitude of the oxidation number of an element
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+24
+www.cambridgeinternational.org/alevel
+Back to contents page
+7	
+Equilibria
+7.1 	
+Chemical equilibria: reversible reactions, dynamic equilibrium
+Learning outcomes
+Candidates should be able to:
+1	
+(a)	 understand what is meant by a reversible reaction
+(b)	 understand what is meant by dynamic equilibrium in terms of the rate of forward and reverse 
+reactions being equal and the concentration of reactants and products remaining constant 
+(c)	 understand the need for a closed system in order to establish dynamic equilibrium 
+2	
+define Le Chatelier’s principle as: if a change is made to a system at dynamic equilibrium, the position of 
+equilibrium moves to minimise this change 
+3	
+use Le Chatelier’s principle to deduce qualitatively (from appropriate information) the effects of changes 
+in temperature, concentration, pressure or presence of a catalyst on a system at equilibrium 
+4	
+deduce expressions for equilibrium constants in terms of concentrations, Kc 
+5	
+use the terms mole fraction and partial pressure 
+6	
+deduce expressions for equilibrium constants in terms of partial pressures, Kp
+(use of the relationship between Kp and Kc is not required) 
+7	
+use the Kc and Kp expressions to carry out calculations (such calculations will not require the solving of 
+quadratic equations)
+8	
+calculate the quantities present at equilibrium, given appropriate data 
+9	
+state whether changes in temperature, concentration or pressure or the presence of a catalyst affect the 
+value of the equilibrium constant for a reaction 
+10	 describe and explain the conditions used in the Haber process and the Contact process, as examples of 
+the importance of an understanding of dynamic equilibrium in the chemical industry and the application 
+of Le Chatelier’s principle
+7.2 	
+Brønsted–Lowry theory of acids and bases
+Learning outcomes
+Candidates should be able to:
+1	
+state the names and formulas of the common acids, limited to hydrochloric acid, HCl, sulfuric acid, 
+H2SO4, nitric acid, HNO3, ethanoic acid, CH3COOH
+2	
+state the names and formulas of the common alkalis, limited to  sodium hydroxide, NaOH, 
+potassium hydroxide, KOH, ammonia, NH3
+3	
+describe the Brønsted–Lowry theory of acids and bases 
+4	
+describe strong acids and strong bases as fully dissociated in aqueous solution and weak acids and 
+weak bases as partially dissociated in aqueous solution
+5	
+appreciate that water has pH of 7, acid solutions pH of below 7 and alkaline solutions pH of above 7
+6	
+explain qualitatively the differences in behaviour between strong and weak acids including the reaction 
+with a reactive metal and difference in pH values by use of a pH meter, universal indicator or conductivity 
+7	
+understand that neutralisation reactions occur when H+(aq) and OH–(aq) form H2O(l)
+8	
+understand that salts are formed in neutralisation reactions
+9	
+sketch the pH titration curves of titrations using combinations of strong and weak acids with strong and 
+weak alkalis 
+10	 select suitable indicators for acid-alkali titrations, given appropriate data (pKa values will not be used)
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+25
+www.cambridgeinternational.org/alevel
+Back to contents page
+8	
+Reaction kinetics
+8.1 	
+Rate of reaction
+Learning outcomes
+Candidates should be able to:
+1	
+explain and use the term rate of reaction, frequency of collisions, effective collisions and non-effective 
+collisions 
+2	
+explain qualitatively, in terms of frequency of effective collisions, the effect of concentration and pressure 
+changes on the rate of a reaction
+3	
+use experimental data to calculate the rate of a reaction 
+8.2	
+Effect of temperature on reaction rates and the concept of activation energy
+Learning outcomes
+Candidates should be able to:
+1	
+define activation energy, EA, as the minimum energy required for a collision to be effective 
+2	
+sketch and use the Boltzmann distribution to explain the significance of activation energy 
+3	
+explain qualitatively, in terms both of the Boltzmann distribution and of frequency of effective collisions, 
+the effect of temperature change on the rate of a reaction
+8.3	
+Homogeneous and heterogeneous catalysts 
+Learning outcomes
+Candidates should be able to:
+1	
+explain and use the terms catalyst and catalysis:
+(a)	 explain that, in the presence of a catalyst, a reaction has a different mechanism, i.e. one of lower 
+activation energy
+(b)	 explain this catalytic effect in terms of the Boltzmann distribution
+(c)	 construct and interpret a reaction pathway diagram, for a reaction in the presence and absence of an 
+effective catalyst 
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+26
+www.cambridgeinternational.org/alevel
+Back to contents page
+Inorganic chemistry
+9	
+The Periodic Table: chemical periodicity
+9.1 	
+Periodicity of physical properties of the elements in Period 3
+Learning outcomes
+Candidates should be able to:
+1	
+describe qualitatively (and indicate the periodicity in) the variations in atomic radius, ionic radius, melting 
+point and electrical conductivity of the elements 
+2	
+explain the variation in melting point and electrical conductivity in terms of the structure and bonding of 
+the elements 
+9.2 	
+Periodicity of chemical properties of the elements in Period 3
+Learning outcomes
+Candidates should be able to:
+1	
+describe, and write equations for, the reactions of the elements with oxygen (to give Na2O, MgO, Al 2O3, 
+P4O10, SO2), chlorine (to give NaCl, MgCl 2, Al Cl3, SiCl 4, PCl 5) and water (Na and Mg only)
+2	
+state and explain the variation in the oxidation number of the oxides (Na2O, MgO, Al 2O3, P4O10, SO2 and 
+SO3 only) and chlorides (NaCl, MgCl 2, Al Cl3, SiCl4, PCl 5 only) in terms of their outer shell (valence shell) 
+electrons
+3	
+describe, and write equations for, the reactions, if any, of the oxides Na2O, MgO, Al 2O3, SiO2, P4O10, SO2 
+and SO3 with water including the likely pHs of the solutions obtained 
+4	
+describe, explain, and write equations for, the acid / base behaviour of the oxides Na2O, MgO, Al 2O3, 
+P4O10, SO2 and SO3 and the hydroxides NaOH, Mg(OH)2 and Al (OH)3 including, where relevant, 
+amphoteric behaviour in reactions with acids and bases (sodium hydroxide only)
+5	
+describe, explain, and write equations for, the reactions of the chlorides NaCl, MgCl 2, Al Cl 3, SiCl 4, PCl 5 
+with water including the likely pHs of the solutions obtained
+6	
+explain the variations and trends in 9.2.2, 9.2.3, 9.2.4 and 9.2.5 in terms of bonding and electronegativity
+7	
+suggest the types of chemical bonding present in the chlorides and oxides from observations of their 
+chemical and physical properties
+9.3 	
+Chemical periodicity of other elements
+Learning outcomes
+Candidates should be able to:
+1	
+predict the characteristic properties of an element in a given group by using knowledge of chemical 
+periodicity
+2	
+deduce the nature, possible position in the Periodic Table and identity of unknown elements from given 
+information about physical and chemical properties
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+27
+www.cambridgeinternational.org/alevel
+Back to contents page
+10	
+Group 2
+10.1 	 Similarities and trends in the properties of the Group 2 metals, magnesium to barium, and 
+their compounds
+Learning outcomes
+Candidates should be able to:
+1	
+describe, and write equations for, the reactions of the elements with oxygen, water and dilute 
+hydrochloric and sulfuric acids
+2	
+describe, and write equations for, the reactions of the oxides, hydroxides and carbonates with water and 
+dilute hydrochloric and sulfuric acids
+3	
+describe, and write equations for, the thermal decomposition of the nitrates and carbonates, to include 
+the trend in thermal stabilities
+4	
+describe, and make predictions from, the trends in physical and chemical properties of the elements 
+involved in the reactions in 10.1.1 and the compounds involved in 10.1.2, 10.1.3 and 10.1.5
+5	
+state the variation in the solubilities of the hydroxides and sulfates
+11	
+Group 17
+11.1 	 Physical properties of the Group 17 elements
+Learning outcomes
+Candidates should be able to:
+1	
+describe the colours and the trend in volatility of chlorine, bromine and iodine
+2	
+describe and explain the trend in the bond strength of the halogen molecules
+3	
+interpret the volatility of the elements in terms of instantaneous dipole–induced dipole forces
+11.2 	 The chemical properties of the halogen elements and the hydrogen halides
+Learning outcomes
+Candidates should be able to:
+1	
+describe the relative reactivity of the elements as oxidising agents
+2	
+describe the reactions of the elements with hydrogen and explain their relative reactivity in these 
+reactions 
+3	
+describe the relative thermal stabilities of the hydrogen halides and explain these in terms of bond 
+strengths
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+28
+www.cambridgeinternational.org/alevel
+Back to contents page
+11.3 	 Some reactions of the halide ions
+Learning outcomes
+Candidates should be able to:
+1	
+describe the relative reactivity of halide ions as reducing agents
+2	
+describe and explain the reactions of halide ions with:
+(a)	 aqueous silver ions followed by aqueous ammonia (the formation and formula of the [Ag(NH3)2]+ 
+complex is not required)
+(b)	 concentrated sulfuric acid, to include balanced chemical equations 
+11.4 	 The reactions of chlorine 
+Learning outcomes
+Candidates should be able to:
+1	
+describe and interpret, in terms of changes in oxidation number, the reaction of chlorine with cold and 
+with hot aqueous sodium hydroxide and recognise these as disproportionation reactions
+2	
+explain, including by use of an equation, the use of chlorine in water purification to include the production 
+of the active species HOCl and Cl O­– which kill bacteria
+12	
+Nitrogen and sulfur
+12.1 	 Nitrogen and sulfur
+Learning outcomes
+Candidates should be able to:
+1	
+explain the lack of reactivity of nitrogen, with reference to triple bond strength and lack of polarity
+2	
+describe and explain:
+(a)	 the basicity of ammonia, using the Brønsted–Lowry theory 
+(b)	 the structure of the ammonium ion and its formation by an acid–base reaction
+(c)	 the displacement of ammonia from ammonium salts by an acid–base reaction 
+3	
+state and explain the natural and man-made occurrences of oxides of nitrogen and their catalytic 
+removal from the exhaust gases of internal combustion engines
+4	
+understand that atmospheric oxides of nitrogen (NO and NO2) can react with unburned hydrocarbons to 
+form peroxyacetyl nitrate, PAN, which is a component of photochemical smog 
+5	
+describe the role of NO and NO2 in the formation of acid rain both directly and in their catalytic role in the 
+oxidation of atmospheric sulfur dioxide 
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+29
+www.cambridgeinternational.org/alevel
+Back to contents page
+Organic chemistry
+13	
+An introduction to AS Level organic chemistry
+In this syllabus the following conventions are used:
+X to represent a halogen atom
+R and Rˊ to represent alkyl groups (or in some circumstances a hydrogen atom); R and Rʹ can be the same or different depending on the molecule.
+homologous series
+name of 
+functional group
+structural formula of 
+functional group
+displayed formula
+skeletal formula
+name
+alkene
+C=C bond
+C
+C
+R
+R
+R
+R
+H
+C
+H
+H
+H
+C
+C
+H
+H
+ 
+propene
+halogenoalkane
+(primary, secondary
+and tertiary)
+halogen
+X
+R
+H
+C
+H
+H
+H
+C
+C
+H
+H
+H
+X
+X
+ 
+1-chloropropane
+(when X is chlorine)
+alcohol (primary,
+secondary and
+tertiary)
+hydroxyl
+OH
+R
+H
+C
+H
+H
+H
+C
+C
+O
+H
+H
+H
+H
+OH
+propan-1-ol
+aldehyde
+carbonyl
+R
+C
+H
+O
+H
+C
+H
+H
+H
+C
+C
+H
+H
+O
+O
+propanal
+ketone
+carbonyl
+C
+O
+R
+R´
+H
+C
+H
+H
+H
+C
+C
+H
+H
+O
+O
+propanone
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+30
+www.cambridgeinternational.org/alevel
+Back to contents page
+homologous series
+name of 
+functional group
+structural formula of 
+functional group
+displayed formula
+skeletal formula
+name
+carboxylic acid
+carboxyl
+R
+C
+OH
+O
+H
+C
+H
+H
+H
+C
+C
+H
+O
+O
+H
+O
+OH
+propanoic acid
+ester
+ester
+C
+R
+R
+C
+O
+O
+H
+C
+H
+H
+H
+O
+C
+C
+C
+H
+H
+H
+H
+O
+O
+O
+methyl propanoate
+amine (primary only)
+amine
+R
+NH2
+H
+C
+H
+H
+H
+C
+C
+N
+H
+H
+H
+H
+H
+NH2
+propylamine
+nitrile
+nitrile
+C
+N
+R
+H
+C
+H
+H
+C
+C
+N
+H
+H
+N
+propanenitrile
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+31
+www.cambridgeinternational.org/alevel
+Back to contents page
+13.1 	 Formulas, functional groups and the naming of organic compounds
+Learning outcomes
+Candidates should be able to:
+1	
+define the term hydrocarbon as a compound made up of C and H atoms only
+2	
+understand that alkanes are simple hydrocarbons with no functional group 
+3	
+understand that the compounds in the table on pages 29 and 30 contain a functional group which 
+dictates their physical and chemical properties 
+4  	 interpret and use the general, structural, displayed and skeletal formulas of the classes of compound 
+stated in the table on pages 29 and 30
+5	
+understand and use systematic nomenclature of simple aliphatic organic molecules with functional 
+groups detailed in the table on pages 29 and 30, up to six carbon atoms (six plus six for esters, straight 
+chains only for esters and nitriles)   
+6	
+deduce the molecular and/or empirical formula of a compound, given its structural, displayed or skeletal 
+formula
+13.2 	 Characteristic organic reactions
+Learning outcomes
+Candidates should be able to:
+1	
+interpret and use the following terminology associated with types of organic compounds and reactions:
+(a)	 homologous series 
+(b)	 saturated and unsaturated
+(c)	 homolytic and heterolytic fission
+(d)	 free radical, initiation, propagation, termination
+(e)	 nucleophile, electrophile, nucleophilic, electrophilic
+(f)	 addition, substitution, elimination, hydrolysis, condensation
+(g)	 oxidation and reduction
+(in equations for organic redox reactions, the symbol [O] can be used to represent one atom of oxygen 
+from an oxidising agent and the symbol [H] to represent one atom of hydrogen from a reducing agent)
+2	
+understand and use the following terminology associated with types of organic mechanisms:
+(a)	 free-radical substitution 
+(b)	 electrophilic addition 
+(c)	 nucleophilic substitution
+(d)	 nucleophilic addition
+(in organic reaction mechanisms, the use of curly arrows to represent movement of electron pairs is 
+expected; the arrow should begin at a bond or a lone pair of electrons)
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+32
+www.cambridgeinternational.org/alevel
+Back to contents page
+13.3 	 Shapes of organic molecules; σ and π bonds
+Learning outcomes
+Candidates should be able to:
+1	
+describe organic molecules as either straight-chained, branched or cyclic
+2	
+describe and explain the shape of, and bond angles in, molecules containing sp, sp2 and sp3 hybridised 
+atoms 
+3	
+describe the arrangement of σ and π bonds in molecules containing sp, sp2 and sp3 hybridised atoms
+4	
+understand and use the term planar when describing the arrangement of atoms in organic molecules, for 
+example ethene
+13.4 	 Isomerism: structural isomerism and stereoisomerism
+Learning outcomes
+Candidates should be able to:
+1	
+describe structural isomerism and its division into chain, positional and functional group isomerism
+2	
+describe stereoisomerism and its division into geometrical (cis/trans) and optical isomerism (use of E/Z 
+nomenclature is acceptable but is not required)
+3	
+describe geometrical (cis/trans) isomerism in alkenes, and explain its origin in terms of restricted rotation 
+due to the presence of π bonds
+4	
+explain what is meant by a chiral centre and that such a centre gives rise to two optical isomers 
+(enantiomers) 
+(Candidates should appreciate that compounds can contain more than one chiral centre, but knowledge 
+of meso compounds, or nomenclature such as diastereoisomers is not required.) 
+5	
+identify chiral centres and geometrical (cis/trans) isomerism in a molecule of given structural formula 
+including cyclic compounds
+6	
+deduce the possible isomers for an organic molecule of known molecular formula 
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+33
+www.cambridgeinternational.org/alevel
+Back to contents page
+14	
+Hydrocarbons
+14.1 	 Alkanes
+Learning outcomes
+Candidates should be able to:
+1 	 recall the reactions (reagents and conditions) by which alkanes can be produced:
+(a)	 addition of hydrogen to an alkene in a hydrogenation reaction, H2(g) and Pt/Ni catalyst and heat
+(b)	 cracking of a longer chain alkane, heat with Al 2O3
+2	
+describe:
+(a)	 the complete and incomplete combustion of alkanes
+(b)	 the free-radical substitution of alkanes by Cl 2 or Br2 in the presence of ultraviolet light, as exemplified 
+by the reactions of ethane
+3	
+describe the mechanism of free-radical substitution with reference to the initiation, propagation and 
+termination steps
+4	
+suggest how cracking can be used to obtain more useful alkanes and alkenes of lower Mr from heavier 
+crude oil fractions 
+5	
+understand the general unreactivity of alkanes, including towards polar reagents in terms of the strength 
+of the C–H bonds and their relative lack of polarity 
+6	
+recognise the environmental consequences of carbon monoxide, oxides of nitrogen and unburnt 
+hydrocarbons arising from the combustion of alkanes in the internal combustion engine and of their 
+catalytic removal
+14.2 	 Alkenes
+Learning outcomes
+Candidates should be able to:
+1 	 recall the reactions (including reagents and conditions) by which alkenes can be produced:
+(a)	 elimination of HX from a halogenoalkane by ethanolic NaOH and heat
+(b)	 dehydration of an alcohol, by using a heated catalyst (e.g. Al 2O3) or a concentrated acid 
+(e.g. concentrated H2SO4)
+(c)	 cracking of a longer chain alkane
+2	
+describe the following reactions of alkenes: 
+(a)	 the electrophilic addition of 
+(i)	 hydrogen in a hydrogenation reaction, H2(g) and Pt/Ni catalyst and heat 
+(ii)	 steam, H2O(g) and H3PO4 catalyst
+(iii)	 a hydrogen halide, HX(g), at room temperature
+(iv)	 a halogen, X2 
+(b) 	the oxidation by cold dilute acidified KMnO4 to form the diol
+(c)	 the oxidation by hot concentrated acidified KMnO4 leading to the rupture of the carbon–carbon 
+double bond and the identities of the subsequent products to determine the position of alkene 
+linkages in larger molecules
+(d)	 addition polymerisation exemplified by the reactions of ethene and propene 
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+34
+www.cambridgeinternational.org/alevel
+Back to contents page
+14.2 	 Alkenes (continued)
+3	
+describe the use of aqueous bromine to show the presence of a C=C bond
+4	
+describe the mechanism of electrophilic addition in alkenes, using bromine/ethene and 
+hydrogen bromide/propene as examples
+5	
+describe and explain the inductive effects of alkyl groups on the stability of primary, secondary and 
+tertiary cations formed during electrophilic addition (this should be used to explain Markovnikov addition) 
+15	
+Halogen compounds
+15.1 	 Halogenoalkanes
+Learning outcomes
+Candidates should be able to:
+1	
+recall the reactions (reagents and conditions) by which halogenoalkanes can be produced:
+(a)	 the free-radical substitution of alkanes by Cl2 or Br2 in the presence of ultraviolet light, as exemplified 
+by the reactions of ethane
+(b)	 electrophilic addition of an alkene with a halogen, X2, or hydrogen halide, HX(g), at room temperature
+(c)	 substitution of an alcohol, e.g. by reaction with HX(g); or with KCl and concentrated H2SO4 or 
+concentrated H3PO4; or with PCl 3 and heat; or with PCl 5; or with SOCl 2 
+2	
+classify halogenoalkanes into primary, secondary and tertiary 
+3	
+describe the following nucleophilic substitution reactions:
+(a)  the reaction with NaOH(aq) and heat to produce an alcohol
+(b)  the reaction with KCN in ethanol and heat to produce a nitrile
+(c)  the reaction with NH3 in ethanol heated under pressure to produce an amine 
+(d)  the reaction with aqueous silver nitrate in ethanol as a method of identifying the halogen present as 
+exemplified by bromoethane
+4 	 describe the elimination reaction with NaOH in ethanol and heat to produce an alkene as exemplified by 
+bromoethane
+5	
+describe the SN1 and SN2 mechanisms of nucleophilic substitution in halogenoalkanes including the 
+inductive effects of alkyl groups 
+6	
+recall that primary halogenoalkanes tend to react via the SN2 mechanism; tertiary halogenoalkanes via 
+the SN1 mechanism; and secondary halogenoalkanes by a mixture of the two, depending on structure 
+7	
+describe and explain the different reactivities of halogenoalkanes (with particular reference to the relative 
+strengths of the C–X bonds as exemplified by the reactions of halogenoalkanes with aqueous silver 
+nitrates)
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+35
+www.cambridgeinternational.org/alevel
+Back to contents page
+16	
+Hydroxy compounds
+16.1 	 Alcohols
+Learning outcomes
+Candidates should be able to:
+1	
+recall the reactions (reagents and conditions) by which alcohols can be produced:
+(a)	 electrophilic addition of steam to an alkene, H2O(g) and H3PO4 catalyst
+(b)	 reaction of alkenes with cold dilute acidified potassium manganate(VII) to form a diol
+(c)	 substitution of a halogenoalkane using NaOH(aq) and heat
+(d)	 reduction of an aldehyde or ketone using NaBH4 or LiAl H4 
+(e)	 reduction of a carboxylic acid using LiAl H4
+(f)	 hydrolysis of an ester using dilute acid or dilute alkali and heat
+2	
+describe:
+(a)	 the reaction with oxygen (combustion)
+(b)	 substitution to form halogenoalkanes, e.g. by reaction with HX(g); or with KCl and concentrated 
+H2SO4 or concentrated H3PO4; or with PCl 3 and heat; or with PCl 5; or with SOCl 2
+(c) 	 the reaction with Na(s)
+(d) 	oxidation with acidified K2Cr2O7 or acidified KMnO4 to: 
+(i)	 carbonyl compounds by distillation 
+(ii)	 carboxylic acids by refluxing 
+(primary alcohols give aldehydes which can be further oxidised to carboxylic acids, secondary 
+alcohols give ketones, tertiary alcohols cannot be oxidised)
+(e)	 dehydration to an alkene, by using a heated catalyst, e.g. Al2O3 or a concentrated acid
+(f)	 formation of esters by reaction with carboxylic acids and concentrated H2SO4 as catalyst as 
+exemplified by ethanol 
+3	
+(a) 	 classify alcohols as primary, secondary and tertiary alcohols, to include examples with more than 
+one alcohol group 
+(b)	 state characteristic distinguishing reactions, e.g. mild oxidation with acidified K2Cr2O7, colour change 
+from orange to green
+4	
+deduce the presence of a CH3CH(OH)– group in an alcohol, CH3CH(OH)–R, from its reaction with 
+alkaline I2(aq) to form a yellow precipitate of tri-iodomethane and an ion, RCO2
+–
+5 	 explain the acidity of alcohols compared with water
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+36
+www.cambridgeinternational.org/alevel
+Back to contents page
+17	
+Carbonyl compounds
+17.1 	 Aldehydes and ketones
+Learning outcomes
+Candidates should be able to:
+1 	 recall the reactions (reagents and conditions) by which aldehydes and ketones can be produced:
+	
+(a)	 the oxidation of primary alcohols using acidified K2Cr2O7 or acidified KMnO4 and distillation to 
+produce aldehydes
+	
+(b)	 the oxidation of secondary alcohols using acidified K2Cr2O7 or acidified KMnO4 and distillation to 
+produce ketones
+2	
+describe:
+(a)	 the reduction of aldehydes and ketones using NaBH4 or LiAl H4 to produce alcohols
+(b)	 the reaction of aldehydes and ketones with HCN, KCN as catalyst, and heat to produce 
+hydroxynitriles as exemplified by ethanal and propanone 
+3	
+describe the mechanism of the nucleophilic addition reactions of hydrogen cyanide with aldehydes and 
+ketones in 17.1.2(b)
+4	
+describe the use of 2,4-dinitrophenylhydrazine (2,4-DNPH reagent) to detect the presence of carbonyl 
+compounds
+5	
+deduce the nature (aldehyde or ketone) of an unknown carbonyl compound from the results of simple 
+tests (Fehling’s and Tollens’ reagents; ease of oxidation)
+6 	 deduce the presence of a CH3CO – group in an aldehyde or ketone, CH3CO–R, from its reaction with 
+alkaline I2(aq) to form a yellow precipitate of tri-iodomethane and an ion, RCO2
+–
+18	
+Carboxylic acids and derivatives
+18.1 	 Carboxylic acids
+Learning outcomes
+Candidates should be able to:
+1 	 recall the reactions by which carboxylic acids can be produced:
+(a)	 oxidation of primary alcohols and aldehydes with acidified K2Cr2O7 or acidified KMnO4 and refluxing
+(b)	 hydrolysis of nitriles with dilute acid or dilute alkali followed by acidification  
+(c)	 hydrolysis of esters with dilute acid or dilute alkali  and heat followed by acidification  
+2	
+describe: 
+(a)	 the redox reaction with reactive metals to produce a salt and H2(g)
+(b)	 the neutralisation reaction with alkalis to produce a salt and H2O(l )
+(c)	 the acid–base reaction with carbonates to produce a salt and H2O(l) and CO2(g)
+(d)	 esterification with alcohols with concentrated H2SO4 as catalyst
+(e)	 reduction by LiAlH4 to form a primary alcohol
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+37
+www.cambridgeinternational.org/alevel
+Back to contents page
+18.2 	 Esters
+Learning outcomes
+Candidates should be able to:
+1	
+recall the reaction (reagents and conditions) by which esters can be produced:
+	
+(a)	 the condensation reaction between an alcohol and a carboxylic acid with concentrated H₂SO₄ as 
+catalyst
+2	
+describe the hydrolysis of esters by dilute acid and by dilute alkali and heat
+19	
+Nitrogen compounds
+19.1 	 Primary amines
+Learning outcomes
+Candidates should be able to:
+1	
+recall the reactions by which amines can be produced:
+	
+(a)	 reaction of a halogenoalkane with NH₃ in ethanol heated under pressure 
+	
+Classification of amines will not be tested at AS Level.
+19.2 	 Nitriles and hydroxynitriles
+Learning outcomes
+Candidates should be able to:
+1 	 recall the reactions by which nitriles can be produced:
+(a)	 reaction of a halogenoalkane with KCN in ethanol and heat
+2	
+ recall the reactions by which hydroxynitriles can be produced:
+(a)	 the reaction of aldehydes and ketones with HCN, KCN as catalyst, and heat 
+3 	 describe the hydrolysis of nitriles with dilute acid or dilute alkali followed by acidification to produce a 
+carboxylic acid 
+20	
+Polymerisation
+20.1 	 Addition polymerisation 
+Learning outcomes
+Candidates should be able to:
+1	
+describe addition polymerisation as exemplified by poly(ethene) and poly(chloroethene), PVC
+2	
+deduce the repeat unit of an addition polymer obtained from a given monomer
+3	
+identify the monomer(s) present in a given section of an addition polymer molecule
+4	
+recognise the difficulty of the disposal of poly(alkene)s, i.e. non-biodegradability and harmful combustion 
+products 
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+38
+www.cambridgeinternational.org/alevel
+Back to contents page
+21	
+Organic synthesis
+21.1 	 Organic synthesis
+Learning outcomes
+Candidates should be able to:
+1	
+for an organic molecule containing several functional groups:
+(a)	 identify organic functional groups using the reactions in the syllabus
+(b)	 predict properties and reactions
+2	
+devise multi-step synthetic routes for preparing organic molecules using the reactions in the syllabus
+3	
+analyse a given synthetic route in terms of type of reaction and reagents used for each step of it, and 
+possible by-products
+Analysis
+22	
+Analytical techniques
+22.1 	 Infrared spectroscopy
+Learning outcomes
+Candidates should be able to:
+1	
+analyse an infrared spectrum of a simple molecule to identify functional groups (see the Data section for 
+the functional groups required)
+22.2 	 Mass spectrometry
+Learning outcomes
+Candidates should be able to:
+1	
+analyse mass spectra in terms of m/e values and isotopic abundances (knowledge of the working of the 
+mass spectrometer is not required)
+2	
+calculate the relative atomic mass of an element given the relative abundances of its isotopes, or its 
+mass spectrum
+3	
+deduce the molecular mass of an organic molecule from the molecular ion peak in a mass spectrum 
+4	
+suggest the identity of molecules formed by simple fragmentation in a given mass spectrum 
+5	
+deduce the number of carbon atoms, n, in a compound using the [M + 1]+ peak and the formula
+n =
+ 
+100 × abundance of [M + 1]+ ion
+1.1 × abundance of M+ ion
+6	
+deduce the presence of bromine and chlorine atoms in a compound using the [M + 2]+ peak 
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+39
+www.cambridgeinternational.org/alevel
+Back to contents page
+A Level subject content
+Physical chemistry
+23	
+Chemical energetics
+23.1 	 Lattice energy and Born-Haber cycles
+Learning outcomes
+Candidates should be able to:
+1 	 define and use the terms: 
+(a)	 enthalpy change of atomisation, ΔHat
+(b)	 lattice energy, ΔHlatt (the change from gas phase ions to solid lattice)
+2	
+(a)	 define and use the term first electron affinity, EA
+(b)	 explain the factors affecting the electron affinities of elements
+(c)	 describe and explain the trends in the electron affinities of the Group 16 and Group 17 elements 
+3	
+construct and use Born–Haber cycles for ionic solids 
+	
+(limited to +1 and +2 cations, –1 and –2 anions) 
+4	
+carry out calculations involving Born–Haber cycles
+5	
+explain, in qualitative terms, the effect of ionic charge and of ionic radius on the numerical magnitude of a 
+lattice energy 
+23.2	 Enthalpies of solution and hydration 
+Learning outcomes
+Candidates should be able to:
+1 	 define and use the term enthalpy change with reference to hydration, ΔHhyd, and solution, ΔHsol 
+2	
+construct and use an energy cycle involving enthalpy change of solution, lattice energy and enthalpy 
+change of hydration
+3	
+carry out calculations involving the energy cycles in 23.2.2
+4	
+explain, in qualitative terms, the effect of ionic charge and of ionic radius on the numerical magnitude of 
+an enthalpy change of hydration  
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+40
+www.cambridgeinternational.org/alevel
+Back to contents page
+23.3 	 Entropy change, ΔS
+Learning outcomes
+Candidates should be able to:
+1	
+define the term entropy, S, as the number of possible arrangements of the particles and their energy in a 
+given system 
+2	
+predict and explain the sign of the entropy changes that occur: 
+(a)	 during a change in state, e.g. melting, boiling and dissolving (and their reverse)
+(b)	 during a temperature change 
+(c)	 during a reaction in which there is a change in the number of gaseous molecules
+3	
+calculate the entropy change for a reaction, ΔS, given the standard entropies, S
+⦵, of the reactants and 
+products, ΔS
+⦵ = ΣS
+⦵ (products) – ΣS
+⦵ (reactants)
+(use of ΔS
+⦵ = ΔSsurr + ΔSsys is not required)
+23.4 	 Gibbs free energy change, ΔG 
+Learning outcomes
+Candidates should be able to:
+1	
+state and use the Gibbs equation ΔG
+⦵ = ΔH
+⦵ – TΔS
+⦵
+2	
+perform calculations using the equation ΔG
+⦵ = ΔH
+⦵ – TΔS
+⦵
+3	
+state whether a reaction or process will be feasible by using the sign of ΔG
+4	
+predict the effect of temperature change on the feasibility of a reaction, given standard enthalpy and 
+entropy changes
+24	
+Electrochemistry
+24.1 	 Electrolysis
+Learning outcomes
+Candidates should be able to:
+1	
+predict the identities of substances liberated during electrolysis from the state of electrolyte (molten or 
+aqueous), position in the redox series (electrode potential) and concentration 
+2	
+state and apply the relationship F = Le between the Faraday constant, F, the Avogadro constant, L, and 
+the charge on the electron, e
+3	
+calculate:
+(a)	 the quantity of charge passed during electrolysis, using Q = It
+(b)	 the mass and/or volume of substance liberated during electrolysis
+4	
+describe the determination of a value of the Avogadro constant by an electrolytic method
+⦵
+⦵
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+41
+www.cambridgeinternational.org/alevel
+Back to contents page
+24.2 	 Standard electrode potentials E
+⦵, standard cell potentials E
+⦵
+cell and the Nernst equation
+Learning outcomes
+Candidates should be able to:
+1	
+define the terms:
+(a)	 standard electrode (reduction) potential
+(b)	 standard cell potential
+2	
+describe the standard hydrogen electrode
+3	
+describe methods used to measure the standard electrode potentials of:
+(a)	 metals or non-metals in contact with their ions in aqueous solution
+(b)	 ions of the same element in different oxidation states
+4	
+calculate a standard cell potential by combining two standard electrode potentials 
+5	
+use standard cell potentials to:
+(a)	 deduce the polarity of each electrode and hence explain/deduce the direction of electron flow in the 
+external circuit of a simple cell
+(b)	 predict the feasibility of a reaction
+6	
+deduce from E
+⦵ values the relative reactivity of elements, compounds and ions as oxidising agents or as 
+reducing agents 
+7	
+construct redox equations using the relevant half-equations 
+8	
+predict qualitatively how the value of an electrode potential, E, varies with the concentrations of the 
+aqueous ions
+9	
+use the Nernst equation, e.g. E = E
+⦵ + (0.059/z) log [oxidised species]
+[reduced species] ,
+	
+to predict quantitatively how the value of an electrode potential varies with the concentrations of the 
+aqueous ions; examples include Cu2+(aq) + 2e–⇌ Cu(s), Fe3+(aq) + e– ⇌ Fe2+(aq)
+10	 understand and use the equation ΔG
+⦵ = –nE 
+⦵
+cell F
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+42
+www.cambridgeinternational.org/alevel
+Back to contents page
+25	
+Equilibria
+25.1 	 Acids and bases
+Learning outcomes
+Candidates should be able to:
+1	
+understand and use the terms conjugate acid and conjugate base
+2	
+define conjugate acid–base pairs, identifying such pairs in reactions  
+3	
+define mathematically the terms pH, Ka, pKa and Kw and use them in calculations (Kb and the equation 
+Kw = Ka × Kb will not be tested)
+4	
+calculate [H+(aq)] and pH values for:
+(a)	 strong acids 
+(b)	 strong alkalis
+(c)	 weak acids 
+5	
+(a)	 define a buffer solution 
+	
+(b)	 explain how a buffer solution can be made
+	
+(c)	 explain how buffer solutions control pH; use chemical equations in these explanations
+(d)	 describe and explain the uses of buffer solutions, including the role of HCO3
+– in controlling pH in 
+blood  
+6	
+calculate the pH of buffer solutions, given appropriate data
+7	
+understand and use the term solubility product, Ksp
+8	
+write an expression for Ksp
+9	
+calculate Ksp from concentrations and vice versa
+10	 (a)	 understand and use the common ion effect to explain the different solubility of a compound in a 
+solution containing a common ion
+	
+(b)	 perform calculations using Ksp values and concentration of a common ion 
+25.2 	 Partition coefficients
+Learning outcomes
+Candidates should be able to:
+1	
+state what is meant by the term partition coefficient, Kpc
+2	
+calculate and use a partition coefficient for a system in which the solute is in the same physical state in 
+the two solvents
+3	
+understand the factors affecting the numerical value of a partition coefficient in terms of the polarities of 
+the solute and the solvents used  
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+43
+www.cambridgeinternational.org/alevel
+Back to contents page
+26	
+Reaction kinetics
+26.1 	 Simple rate equations, orders of reaction and rate constants
+Learning outcomes
+Candidates should be able to:
+1	
+explain and use the terms rate equation, order of reaction, overall order of reaction, rate constant, 
+half-life, rate-determining step and intermediate
+2	
+(a)	 understand and use rate equations of the form rate = k [A]m[B]n (for which m and n are 0, 1 or 2)
+(b)	 deduce the order of a reaction from concentration–time graphs or from experimental data relating to 
+the initial rates method and half-life method
+(c)	 interpret experimental data in graphical form, including concentration–time and rate–concentration 
+graphs
+(d)	 calculate an initial rate using concentration data 
+(e)	 construct a rate equation 
+3	
+(a)	 show understanding that the half-life of a first-order reaction is independent of concentration
+(b)	 use the half-life of a first-order reaction in calculations
+4	
+calculate the numerical value of a rate constant, for example by:
+(a)	 using the initial rates and the rate equation 
+(b)	 using the half-life, t½ , and the equation k = 0.693 / t½
+5	
+for a multi-step reaction:
+(a)	 suggest a reaction mechanism that is consistent with the rate equation and the equation for the 
+overall reaction
+(b)	 predict the order that would result from a given reaction mechanism and rate-determining step
+(c)	 deduce a rate equation using a given reaction mechanism and rate-determining step for a given 
+reaction 
+(d)	 identify an intermediate or catalyst from a given reaction mechanism 
+(e)	 identify the rate determining step from a rate equation and a given reaction mechanism  
+6	
+describe qualitatively the effect of temperature change on the rate constant and hence the rate of a 
+reaction
+26.2 	 Homogeneous and heterogeneous catalysts 
+Learning outcomes
+Candidates should be able to:
+1	
+explain that catalysts can be homogeneous or heterogeneous 
+2	
+describe the mode of action of a heterogeneous catalyst to include adsorption of reactants, bond 
+weakening and desorption of products, for example:
+(a)	 iron in the Haber process
+(b)	 palladium, platinum and rhodium in the catalytic removal of oxides of nitrogen from the exhaust 
+gases of car engines 
+3 	 describe the mode of action of a homogeneous catalyst by being used in one step and reformed in a 
+later step, for example:
+(a)	 atmospheric oxides of nitrogen in the oxidation of atmospheric sulfur dioxide 
+(b)	 Fe2+ or Fe3+ in the I–/S2O8
+2– reaction
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+44
+www.cambridgeinternational.org/alevel
+Back to contents page
+Inorganic chemistry
+27	
+Group 2
+27.1 	 Similarities and trends in the properties of the Group 2 metals, magnesium to barium, and 
+their compounds
+Learning outcomes
+Candidates should be able to:
+1	
+describe and explain qualitatively the trend in the thermal stability of the nitrates and carbonates 
+including the effect of ionic radius on the polarisation of the large anion 
+2	
+describe and explain qualitatively the variation in solubility and of enthalpy change of solution, ΔH
+⦵
+sol, of 
+the hydroxides and sulfates in terms of relative magnitudes of the enthalpy change of hydration and the 
+lattice energy
+28	
+Chemistry of transition elements
+28.1 	 General physical and chemical properties of the first row of transition elements, titanium to 
+copper
+Learning outcomes
+Candidates should be able to:
+1	
+define a transition element as a d-block element which forms one or more stable ions with incomplete 
+d orbitals
+2	
+sketch the shape of a 3dxy orbital and 3dz² orbital 
+3	
+understand that transition elements have the following properties:
+(a)	 they have variable oxidation states 
+(b)	 they behave as catalysts
+(c)	 they form complex ions
+(d)	 they form coloured compounds 
+4	
+explain why transition elements have variable oxidation states in terms of the similarity in energy of the 3d 
+and the 4s sub-shells 
+5 	 explain why transition elements behave as catalysts in terms of having more than one stable oxidation 
+state, and vacant d orbitals that are energetically accessible and can form dative bonds with ligands
+6	
+explain why transition elements form complex ions in terms of vacant d orbitals that are energetically 
+accessible 
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+45
+www.cambridgeinternational.org/alevel
+Back to contents page
+28.2 	 General characteristic chemical properties of the first set of transition elements, titanium to 
+copper 
+Learning outcomes
+Candidates should be able to:
+1	
+describe and explain the reactions of transition elements with ligands to form complexes, including the 
+complexes of copper(II) and cobalt(II) ions with water and ammonia molecules and hydroxide and 
+chloride ions 
+2	
+define the term ligand as a species that contains a lone pair of electrons that forms a dative covalent 
+bond to a central metal atom / ion 
+3	
+understand and use the terms: 
+(a)	 monodentate ligand including as examples H2O, NH3, Cl  – and CN– 
+(b)	 bidentate ligand including as examples 1,2-diaminoethane, en, H2NCH2CH2NH2 and the 
+ethanedioate ion, C2O4
+2– 
+(c)	 polydentate ligand including as an example EDTA4–
+4	
+define the term complex as a molecule or ion formed by a central metal atom / ion surrounded by one or 
+more ligands 
+5	
+describe the geometry (shape and bond angles) of transition element complexes which are linear, square 
+planar, tetrahedral or octahedral 
+6	
+(a)	 state what is meant by coordination number 
+(b)	 predict the formula and charge of a complex ion, given the metal ion, its charge or oxidation state, 
+the ligand and its coordination number or geometry 
+7	
+explain qualitatively that ligand exchange can occur, including the complexes of copper(II) ions and 
+cobalt(II) ions with water and ammonia molecules and hydroxide and chloride ions
+8	
+predict, using E
+⦵ values, the feasibility of redox reactions involving transition elements and their ions 
+9	
+describe the reactions of, and perform calculations involving: 
+(a)	 MnO4
+– / C2O4
+2– in acid solution given suitable data  
+(b)	 MnO4
+– / Fe2+ in acid solution given suitable data  
+(c)	 Cu2+ / I– given suitable data
+10	 perform calculations involving other redox systems given suitable data  
+28.3 	 Colour of complexes 
+Learning outcomes
+Candidates should be able to:
+1 	 define and use the terms degenerate and non-degenerate d orbitals 
+2	
+describe the splitting of degenerate d orbitals into two non-degenerate sets of d orbitals of higher 
+energy, and use of Δ E in:
+(a)	 octahedral complexes, two higher and three lower d orbitals
+(b)	 tetrahedral complexes, three higher and two lower d orbitals 
+3 	 explain why transition elements form coloured compounds in terms of the frequency of light absorbed as 
+an electron is promoted between two non-degenerate d orbitals
+4	
+describe, in qualitative terms, the effects of different ligands on Δ E, frequency of light absorbed, and 
+hence the complementary colour that is observed
+5	
+use the complexes of copper(II) ions and cobalt(II) ions with water and ammonia molecules and 
+hydroxide and chloride ions as examples of ligand exchange affecting the colour observed 
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+46
+www.cambridgeinternational.org/alevel
+Back to contents page
+28.4 	 Stereoisomerism in transition element complexes
+Learning outcomes
+Candidates should be able to:
+1	
+describe the types of stereoisomerism shown by complexes, including those associated with bidentate 
+ligands:   
+(a)	 geometrical (cis/trans) isomerism, e.g. square planar such as [Pt(NH₃)₂Cl ₂] and octahedral such as 
+[Co(NH3)4(H2O)2]2+ and [Ni(H2NCH2CH2NH2)2(H2O)2]2+
+(b)	 optical isomerism, e.g. [Ni(H2NCH2CH2NH2)3]2+ and [Ni(H2NCH2CH2NH2)2(H2O)2]2+
+2	
+deduce the overall polarity of complexes such as those described in 28.4.1(a) and 28.4.1(b)
+28.5 	 Stability constants, Kstab 
+Learning outcomes
+Candidates should be able to:
+1	
+define the stability constant, Kstab, of a complex as the equilibrium constant for the formation of the 
+complex ion in a solvent (from its constituent ions or molecules)  
+2	
+write an expression for a Kstab of a complex ([H₂O] should not be included)  
+3 	 use Kstab expressions to perform calculations 
+4	
+describe and explain ligand exchanges in terms of Kstab values and understand that a large Kstab is due 
+to the formation of a stable complex ion
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+47
+www.cambridgeinternational.org/alevel
+Back to contents page
+Organic chemistry
+29	
+An introduction to A Level organic chemistry
+homologous series
+name of functional 
+group
+structural formula of 
+functional group
+displayed formula
+skeletal formula
+name
+arene
+arene
+*n/a
+benzene
+halogenoarene
+halogen
+X
+*n/a
+X
+chlorobenzene
+(when X = Cl )
+phenol
+phenol
+OH
+*n/a
+OH
+phenol
+acyl chloride
+acyl chloride
+R
+C
+O
+Cl
+H
+C
+H
+H
+H
+C
+C
+H
+Cl
+O
+O
+Cl
+propanoyl chloride
+amines (secondary
+and tertiary)
+amine
+H
+R
+N
+R
+H
+C
+H
+H
+H
+N
+C
+H
+H
+H
+N
+H
+(naming of secondary 
+and tertiary amines is 
+not required)
+amide (primary,
+secondary and tertiary)
+amide
+R
+C
+NH2
+O
+H
+C
+H
+H
+H
+C
+C
+N
+H
+H
+H
+O
+O
+NH2
+propanamide
+amino acid
+amine and carboxyl
+HO
+C
+CHRNH2
+O
+HO
+C
+H
+C
+N
+H
+H
+H
+O
+NH2
+O
+HO
+2-aminoethanoic acid
+*Where a benzene ring is part of the molecule, a displayed formula would not be expected to be drawn.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+48
+www.cambridgeinternational.org/alevel
+Back to contents page
+29.1 	 Formulas, functional groups and the naming of organic compounds 
+Learning outcomes
+Candidates should be able to:
+1	
+understand that the compounds in the table on page 47 contain a functional group which dictates their 
+physical and chemical properties 
+2	
+interpret and use the general, structural, displayed and skeletal formulas of the classes of compound 
+stated in the table on page 47
+3	
+understand and use systematic nomenclature of simple aliphatic organic molecules (including cyclic 
+compounds containing a single ring of up to six carbon atoms) with functional groups detailed in the 
+table on page 47, up to six carbon atoms (six plus six for esters and amides, straight chains only for 
+esters and nitriles)  
+4	
+understand and use systematic nomenclature of simple aromatic molecules with one benzene ring and 
+one or more simple substituents, for example 3-nitrobenzoic acid or 2,4,6-tribromophenol
+29.2 	 Characteristic organic reactions
+Learning outcomes
+Candidates should be able to:
+1	
+understand and use the following terminology associated with types of organic mechanisms:
+(a)	 electrophilic substitution 
+(b)	 addition–elimination 
+29.3 	 Shapes of aromatic organic molecules; σ and π bonds
+Learning outcomes
+Candidates should be able to:
+1	
+describe and explain the shape of benzene and other aromatic molecules, including sp² hybridisation, in 
+terms of σ bonds and a delocalised π system 
+29.4 	 Isomerism: optical
+Learning outcomes
+Candidates should be able to:
+1 	 understand that enantiomers have identical physical and chemical properties apart from their ability to 
+rotate plane polarised light and their potential biological activity 
+2	
+understand and use the terms optically active and racemic mixture 
+3	
+describe the effect on plane polarised light of the two optical isomers of a single substance 
+4	
+explain the relevance of chirality to the synthetic preparation of drug molecules including:
+(a)	 the potential different biological activity of the two enantiomers 
+(b)	 the need to separate a racemic mixture into two pure enantiomers 
+(c)	 the use of chiral catalysts to produce a single pure optical isomer 
+(Candidates should appreciate that compounds can contain more than one chiral centre, but knowledge 
+of meso compounds and nomenclature such as diastereoisomers is not required.)
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+49
+www.cambridgeinternational.org/alevel
+Back to contents page
+30	
+Hydrocarbons
+30.1 	 Arenes
+Learning outcomes
+Candidates should be able to:
+1	
+describe the chemistry of arenes as exemplified by the following reactions of benzene and 
+methylbenzene:
+(a)	 substitution reactions with Cl ₂ and with Br₂ in the presence of a catalyst, Al Cl ₃ or Al Br₃, to form 
+halogenoarenes (aryl halides)
+(b)	 nitration with a mixture of concentrated HNO₃ and concentrated H₂SO₄ at a temperature between 
+25 °C and 60 °C
+(c)	 Friedel–Crafts alkylation by CH₃Cl and Al Cl ₃ and heat
+(d)	 Friedel–Crafts acylation by CH₃COCl and Al Cl ₃ and heat
+(e)	 complete oxidation of the side-chain using hot alkaline KMnO₄ and then dilute acid to give a benzoic 
+acid
+(f)	 hydrogenation of the benzene ring using H₂ and Pt/Ni catalyst and heat to form a cyclohexane ring 
+2	
+describe the mechanism of electrophilic substitution in arenes:
+(a)	 as exemplified by the formation of nitrobenzene and bromobenzene
+(b)	 with regards to the effect of delocalisation (aromatic stabilisation) of electrons in arenes to explain the 
+predomination of substitution over addition
+3	
+predict whether halogenation will occur in the side-chain or in the aromatic ring in arenes depending on 
+reaction conditions
+4	
+describe that in the electrophilic substitution of arenes, different substituents direct to different ring 
+positions (limited to the directing effects of –NH₂, –OH, –R, –NO₂, –COOH and –COR)
+31	
+Halogen compounds
+31.1 	 Halogen compounds
+Learning outcomes
+Candidates should be able to:
+1 	 recall the reactions by which halogenoarenes can be produced: substitution of an arene with Cl₂ or Br₂ 
+in the presence of a catalyst, Al Cl₃ or Al Br₃ to form a halogenoarene, exemplified by benzene to form 
+chlorobenzene and methylbenzene to form 2-chloromethylbenzene and 4-chloromethylbenzene
+2	
+explain the difference in reactivity between a halogenoalkane and a halogenoarene as exemplified by 
+chloroethane and chlorobenzene
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+50
+www.cambridgeinternational.org/alevel
+Back to contents page
+32	
+Hydroxy compounds
+32.1 	 Alcohols
+Learning outcomes
+Candidates should be able to:
+1 	 describe the reaction with acyl chlorides to form esters using ethyl ethanoate 
+32.2 	 Phenol
+Learning outcomes
+Candidates should be able to:
+1	
+recall the reactions (reagents and conditions) by which phenol can be produced: 
+(a)	 reaction of phenylamine with HNO₂ or NaNO₂ and dilute acid below 10 °C to produce the diazonium 
+salt; further warming of the diazonium salt with H₂O to give phenol
+2	
+recall the chemistry of phenol, as exemplified by the following reactions:
+(a)	 with bases, for example NaOH(aq) to produce sodium phenoxide
+(b)	 with Na(s) to produce sodium phenoxide and H2(g)
+(c)	 in NaOH(aq) with diazonium salts, to give azo compounds
+(d)	 nitration of the aromatic ring with dilute HNO₃(aq) at room temperature to give a mixture of 
+2-nitrophenol and 4-nitrophenol
+(e)	 bromination of the aromatic ring with Br₂(aq) to form 2,4,6-tribromophenol
+3	
+explain the acidity of phenol
+4	
+describe and explain the relative acidities of water, phenol and ethanol
+5 	 explain why the reagents and conditions for the nitration and bromination of phenol are different from 
+those for benzene
+6 	 recall that the hydroxyl group of a phenol directs to the 2-, 4- and 6-positions
+7	
+apply knowledge of the reactions of phenol to those of other phenolic compounds, e.g. naphthol
+33	
+Carboxylic acids and derivatives
+33.1 	 Carboxylic acids
+Learning outcomes
+Candidates should be able to:
+1	
+recall the reaction by which benzoic acid can be produced:
+	
+(a)	 reaction of an alkylbenzene with hot alkaline KMnO₄ and then dilute acid, exemplified by 
+methylbenzene
+2	
+describe the reaction of carboxylic acids with PCl ₃ and heat, PCl ₅ or SOCl ₂ to form acyl chlorides
+3	
+recognise that some carboxylic acids can be further oxidised:
+(a)	 the oxidation of methanoic acid, HCOOH, with Fehling’s reagent or Tollens’ reagent or 
+acidified KMnO₄ or acidified K₂Cr₂O₇ to carbon dioxide and water
+(b)	 the oxidation of ethanedioic acid, HOOCCOOH, with warm acidified KMnO₄ to carbon dioxide
+4	
+describe and explain the relative acidities of carboxylic acids, phenols and alcohols
+5	
+describe and explain the relative acidities of chlorine-substituted carboxylic acids
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+51
+www.cambridgeinternational.org/alevel
+Back to contents page
+33.2 	 Esters
+Learning outcomes
+Candidates should be able to:
+1	
+recall the reaction by which esters can be produced:
+(a)	 reaction of alcohols with acyl chlorides using the formation of ethyl ethanoate and phenyl benzoate 
+as examples 
+33.3 	 Acyl chlorides
+Learning outcomes
+Candidates should be able to:
+1 	 recall the reactions (reagents and conditions) by which acyl chlorides can be produced: 
+(a)	 reaction of carboxylic acids with PCl ₃ and heat, PCl ₅ or SOCl ₂
+2	
+describe the following reactions of acyl chlorides:
+(a)	 hydrolysis on addition of water at room temperature to give the carboxylic acid and HCl 
+(b)	 reaction with an alcohol at room temperature to produce an ester and HCl
+(c)	 reaction with phenol at room temperature to produce an ester and HCl
+(d)	 reaction with ammonia at room temperature to produce an amide and HCl
+(e)	 reaction with a primary or secondary amine at room temperature to produce an amide and HCl
+3	
+describe the addition–elimination mechanism of acyl chlorides in reactions in 33.3.2(a)–(e) 
+4	
+explain the relative ease of hydrolysis of acyl chlorides, alkyl chlorides and halogenoarenes (aryl 
+chlorides)
+34	
+Nitrogen compounds
+34.1 	 Primary and secondary amines
+Learning outcomes
+Candidates should be able to:
+1 	 recall the reactions (reagents and conditions) by which primary and secondary amines are produced:
+(a)	 reaction of halogenoalkanes with NH₃ in ethanol heated under pressure
+(b)	 reaction of halogenoalkanes with primary amines in ethanol, heated in a sealed tube / under pressure
+(c)	 the reduction of amides with LiAl H₄
+(d)	 the reduction of nitriles with LiAl H₄ or H₂ / Ni
+2	
+describe the condensation reaction of ammonia or an amine with an acyl chloride at room temperature 
+to give an amide
+3	
+describe and explain the basicity of aqueous solutions of amines
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+52
+www.cambridgeinternational.org/alevel
+Back to contents page
+34.2 	 Phenylamine and azo compounds
+Learning outcomes
+Candidates should be able to:
+1 	 describe the preparation of phenylamine via the nitration of benzene to form nitrobenzene followed by 
+reduction with hot Sn/concentrated HCl followed by NaOH(aq)
+2	
+describe:
+(a)	 the reaction of phenylamine with Br₂(aq) at room temperature
+(b)	 the reaction of phenylamine with HNO₂ or NaNO₂ and dilute acid below 10 °C to produce the 
+diazonium salt; further warming of the diazonium salt with H₂O to give phenol
+3	
+describe and explain the relative basicities of aqueous ammonia, ethylamine and phenylamine 
+4	
+recall the following about azo compounds:
+	
+(a)	 describe the coupling of benzenediazonium chloride with phenol in NaOH(aq) to form an azo 
+compound
+(b)	 identify the azo group
+(c)	 state that azo compounds are often used as dyes
+(d)	 that other azo dyes can be formed via a similar route
+34.3 	 Amides
+Learning outcomes
+Candidates should be able to:
+1 	 recall the reactions (reagents and conditions) by which amides are produced:
+(a)	 the reaction between ammonia and an acyl chloride at room temperature
+(b)	 the reaction between a primary amine and an acyl chloride at room temperature
+2	
+describe the reactions of amides:
+(a)	 hydrolysis with aqueous alkali or aqueous acid
+(b)	 the reduction of the CO group in amides with LiAl H₄ to form an amine
+3	
+state and explain why amides are much weaker bases than amines
+34.4 	 Amino acids
+Learning outcomes
+Candidates should be able to:
+1	
+describe the acid / base properties of amino acids and the formation of zwitterions, to include the 
+isoelectric point
+2	
+describe the formation of amide (peptide) bonds between amino acids to give di- and tripeptides
+3	
+interpret and predict the results of electrophoresis on mixtures of amino acids and dipeptides at varying 
+pHs (the assembling of the apparatus will not be tested)
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+53
+www.cambridgeinternational.org/alevel
+Back to contents page
+35	
+Polymerisation
+35.1 	 Condensation polymerisation
+Learning outcomes
+Candidates should be able to:
+1	
+describe the formation of polyesters: 
+(a)	 the reaction between a diol and a dicarboxylic acid or dioyl chloride 
+(b)	 the reaction of a hydroxycarboxylic acid 
+2	
+describe the formation of polyamides: 
+(a)	 the reaction between a diamine and a dicarboxylic acid or dioyl chloride 
+(b)	 the reaction of an aminocarboxylic acid 
+(c) 	 the reaction between amino acids
+3	
+deduce the repeat unit of a condensation polymer obtained from a given monomer or pair of monomers
+4	
+identify the monomer(s) present in a given section of a condensation polymer molecule
+35.2 	 Predicting the type of polymerisation
+Learning outcomes
+Candidates should be able to:
+1	
+predict the type of polymerisation reaction for a given monomer or pair of monomers
+2	
+deduce the type of polymerisation reaction which produces a given section of a polymer molecule
+35.3 	 Degradable polymers
+Learning outcomes
+Candidates should be able to:
+1	
+recognise that poly(alkenes) are chemically inert and can therefore be difficult to biodegrade 
+2	
+recognise that some polymers can be degraded by the action of light
+3	
+recognise that polyesters and polyamides are biodegradable by acidic and alkaline hydrolysis 
+36	
+Organic synthesis
+36.1 	 Organic synthesis
+Learning outcomes
+Candidates should be able to:
+1	
+for an organic molecule containing several functional groups:
+(a)	 identify organic functional groups using the reactions in the syllabus
+(b)	 predict properties and reactions
+2	
+devise multi-step synthetic routes for preparing organic molecules using the reactions in the syllabus
+3	
+analyse a given synthetic route in terms of type of reaction and reagents used for each step of it, and 
+possible by-products
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+54
+www.cambridgeinternational.org/alevel
+Back to contents page
+Analysis
+37	
+Analytical techniques
+37.1 	 Thin-layer chromatography
+Learning outcomes
+Candidates should be able to:
+1	
+describe and understand the terms 
+(a)	 stationary phase, for example aluminium oxide (on a solid support)
+(b) 	mobile phase; a polar or non-polar solvent 
+(c) 	 Rf value 
+(d) 	solvent front and baseline 
+2	
+interpret Rf values 
+3	
+explain the differences in Rf values in terms of interaction with the stationary phase and of relative 
+solubility in the mobile phase  
+37.2 	 Gas / liquid chromatography 
+Learning outcomes
+Candidates should be able to:
+1	
+describe and understand the terms 
+(a)	 stationary phase; a high boiling point non-polar liquid (on a solid support)
+(b)	 mobile phase; an unreactive gas 
+(c)	 retention time 
+2	
+interpret gas / liquid chromatograms in terms of the percentage composition of a mixture 
+3 	 explain retention times in terms of interaction with the stationary phase
+37.3 	 Carbon-13 NMR spectroscopy
+Learning outcomes
+Candidates should be able to:
+1	
+analyse and interpret a carbon-13 NMR spectrum of a simple molecule to deduce: 
+(a)	 the different environments of the carbon atoms present
+(b)	 the possible structures for the molecule
+2	
+predict or explain the number of peaks in a carbon-13 NMR spectrum for a given molecule
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Subject content 
+55
+www.cambridgeinternational.org/alevel
+Back to contents page
+37.4 	 Proton (1H) NMR spectroscopy
+Learning outcomes
+Candidates should be able to:
+1	
+analyse and interpret a proton (1H) NMR spectrum of a simple molecule to deduce:
+(a)	 the different environments of proton present using chemical shift values
+(b)	 the relative numbers of each type of proton present from relative peak areas
+(c)	 the number of equivalent protons on the carbon atom adjacent to the one to which the given proton 
+is attached from the splitting pattern, using the n + 1 rule (limited to singlet, doublet, triplet, quartet 
+and multiplet)
+(d)	 the possible structures for the molecule
+2	
+predict the chemical shifts and splitting patterns of the protons in a given molecule
+3	
+describe the use of tetramethylsilane, TMS, as the standard for chemical shift measurements
+4	
+state the need for deuterated solvents, e.g. CDCl ₃, when obtaining a proton NMR spectrum
+5	
+describe the identification of O–H and N–H protons by proton exchange using D₂O
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.
+56
+www.cambridgeinternational.org/alevel
+Back to contents page
+4  Details of the assessment 
+Paper 1 Multiple Choice
+Written paper, 1 hour 15 minutes, 40 marks
+Forty multiple-choice questions of the four-choice type testing assessment objectives AO1 and AO2. 
+Questions are based on the AS Level syllabus content. 
+Paper 2 AS Level Structured Questions
+Written paper, 1 hour 15 minutes, 60 marks
+Structured questions testing assessment objectives AO1 and AO2. 
+Questions are based on the AS Level syllabus content. 
+Paper 3 Advanced Practical Skills
+Practical test, 2 hours, 40 marks
+This paper tests assessment objective AO3 in a practical context. 
+Questions are based on the experimental skills in the Practical assessment section of the syllabus for Paper 3.
+Paper 4 A Level Structured Questions
+Written paper, 2 hours, 100 marks
+Structured questions testing assessment objectives AO1 and AO2. 
+Questions are based on the A Level syllabus content; knowledge of material from the AS Level syllabus content 
+will be required. 
+Paper 5 Planning, Analysis and Evaluation 
+Written paper, 1 hour 15 minutes, 30 marks
+Structured questions testing assessment objective AO3.
+Questions are based on the experimental skills of planning, analysis and evaluation in the Practical assessment 
+section of the syllabus for Paper 5. The context of the questions may be outside the syllabus content.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Details of the assessment 
+57
+www.cambridgeinternational.org/alevel
+Back to contents page
+Command words
+Command words and their meanings help candidates know what is expected from them in the exam. The table 
+below includes command words used in the assessment for this syllabus. The use of the command word will 
+relate to the subject context. 
+Command word
+What it means
+Analyse
+examine in detail to show meaning, identify elements and the relationship between 
+them
+Calculate
+work out from given facts, figures or information
+Compare
+identify/comment on similarities and/or differences
+Consider
+review and respond to given information
+Contrast
+identify/comment on differences
+Deduce
+conclude from available information
+Define
+give precise meaning
+Demonstrate
+show how or give an example
+Describe
+state the points of a topic / give characteristics and main features
+Determine
+establish an answer using the information available
+Discuss
+write about issue(s) or topic(s) in depth in a structured way
+Evaluate
+judge or calculate the quality, importance, amount, or value of something
+Examine
+investigate closely, in detail
+Explain
+set out purposes or reasons / make the relationships between things evident / 
+provide why and/or how and support with relevant evidence
+Give
+produce an answer from a given source or recall/memory
+Identify
+name/select/recognise
+Justify
+support a case with evidence/argument
+Predict
+suggest what may happen based on available information
+Show (that)
+provide structured evidence that leads to a given result
+Sketch
+make a simple drawing showing the key features
+State
+express in clear terms
+Suggest
+apply knowledge and understanding to situations where there are a range of valid 
+responses in order to make proposals / put forward considerations
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.
+58
+www.cambridgeinternational.org/alevel
+Back to contents page
+5  Practical assessment
+Introduction
+Teachers should ensure that learners practise experimental skills throughout their course of study. As a guide, 
+learners should spend at least 20 per cent of their time doing practical work individually or in small groups. This 
+20 per cent does not include the time spent observing demonstrations of experiments.
+The practical work that learners do during their course should aim to:
+	•
+provide learning opportunities so they develop the skills they need to carry out experimental and 
+investigative work
+	•
+reinforce their learning of the theoretical subject content of the syllabus
+	•
+instil an understanding of the relationship between experimentation and theory in scientific method
+	•
+be enjoyable, contributing to the motivation of learners.
+Candidates’ experimental skills will be assessed in Paper 3 and Paper 5. In each of these papers, the questions 
+may be based on chemistry not included in the syllabus content, but candidates will be assessed on their 
+practical skills gained during the course rather than their knowledge of theory. Where appropriate, candidates 
+will be given any additional information that they need.
+Paper 3 Advanced Practical Skills
+Paper 3 is a timetabled, laboratory-based practical paper focusing on the experimental skills of:
+	•
+manipulation, measurement and observation
+	•
+presentation of data and observations
+	•
+analysis, conclusions and evaluation.
+Centres should refer to the document ‘How to manage your science practical exams’ for advice on making 
+entries and organisation of candidates for practical exams. 
+Paper 3 consists of two or three questions, totalling 40 marks.
+One question is an observational problem in which the candidate is asked to investigate an unknown 
+substance or substances in specified experiments. The substances may be elements, compounds or mixtures. 
+Candidates are expected to record their observations, analyse their results and draw appropriate conclusions. 
+For this question, Qualitative analysis notes are provided as part of the exam paper. These are reproduced on 
+pages 69 and 70.
+The other question or questions are quantitative, involving either a titration or measurement of a quantity, 
+e.g. time, temperature, mass or gas volume. Candidates will be expected to draw suitable tables or graphs. 
+They will analyse the data, perform calculations and draw appropriate conclusions from them.
+One or more of the questions may require candidates to comment on the accuracy of the procedure or identify 
+sources of error and make suggestions for change.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Practical assessment 
+59
+www.cambridgeinternational.org/alevel
+Back to contents page
+The apparatus requirements for Paper 3 will vary from paper to paper. A complete list of apparatus and 
+materials required will be issued to the centre in the Confidential Instructions. The Confidential Instructions 
+should be followed very carefully. If there is any doubt about how the practical exam should be set up or if a 
+particular chemical cannot be obtained or is not permitted for use in schools, it is vital that centres contact 
+Cambridge International as soon as possible. A list of laboratory equipment and chemicals expected to be 
+available is provided on pages 65–68.
+Mark allocations for Paper 3
+Marks will be allocated for Paper 3 according to the table below. The expectations for each skill are listed in the 
+sections that follow.
+Skill
+Breakdown of skills
+Minimum mark 
+allocation*
+Manipulation, 
+measurement and 
+observation
+Successful collection of data and observations
+Quality of measurements or observations
+Decisions relating to measurements or observations
+12 marks
+Presentation of data 
+and observations
+Recording data and observations
+6 marks
+Display of calculation and reasoning
+Data layout
+Analysis, 
+conclusions and 
+evaluation
+Interpretation of data or observations
+10 marks
+Drawing conclusions
+Identifying sources of error and suggesting improvements
+* The remaining 12 marks will be allocated across the skills in this grid and their allocation may vary from paper 
+to paper
+Expectations for each skill (Paper 3) 
+Manipulation, measurement and observation
+Successful collection of data and observations
+Candidates should be able to:
+	•
+set up apparatus
+	•
+follow instructions given in the form of written instructions or diagrams
+	•
+use apparatus to collect an appropriate quantity of data 
+	•
+make observations, including subtle differences in colour, solubility or quantity of materials
+	•
+make measurements using pipettes, burettes, measuring cylinders, thermometers and other common 
+laboratory apparatus; candidates should record burette readings to the nearest 0.05 cm³ and, when using a 
+thermometer calibrated at 1 °C intervals, temperature readings should be recorded to the nearest 0.5 °C.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Practical assessment 
+60
+www.cambridgeinternational.org/alevel
+Back to contents page
+Some candidates may be unable to set up their apparatus without help and may ask for assistance from the 
+Supervisor. Supervisors will be given clear instructions on what assistance may be given to candidates, but 
+this assistance should never go beyond the minimum necessary to enable candidates to take some readings: 
+under no circumstances should help be given with the presentation of data, analysis or evaluation sections. All 
+assistance must be reported to the Examiners by recording details of the help given on the Supervisor’s report, 
+and candidates who require assistance may not be awarded full credit for the successful collection of data.
+Quality of measurements or observations
+Candidates should be able to:
+	•
+make accurate and consistent measurements and observations, including achieving concordant titres (two 
+titres within 0.10 cm³ of each other) and precise colour descriptions.
+Marks will be awarded for consistency and accuracy of readings. For example, candidates’ data or 
+observations may be compared with those supplied by the Supervisor or known to the Examiners or the 
+award of the mark may be based on the scatter of points on a graph. Candidates are expected to work to the 
+precision of the apparatus and materials provided.
+Decisions relating to measurements or observations
+Candidates should be able to:
+	•
+decide how many tests or observations to perform
+	•
+make measurements that span a range and have a distribution appropriate to the experiment
+	•
+identify where repeated readings or observations are appropriate
+	•
+replicate readings or observations as necessary, including where an anomaly is suspected
+	•
+identify where confirmatory tests are appropriate and the nature of such tests
+	•
+select reagents to distinguish between given ions.
+Presentation of data and observations
+Recording data and observations
+Candidates should be able to:
+	•
+present numerical data, values or observations in a single table of results with headings and units that 
+conform to accepted scientific conventions, i.e. volume / cm³, volume (cm³) or volume in cm³
+	•
+record raw readings of a quantity to the same degree of precision, e.g. if one measurement of mass in a 
+collection of raw data is given as 0.06 g, then all the masses in that collection should be given to the nearest 
+0.01 g. The degree of precision recorded should be compatible with the measuring instrument used, e.g. a 
+measuring cylinder calibrated at 1.0 cm³ should be read to the nearest 0.5 cm³
+	•
+record observations to the same level of detail, e.g. observations of qualitative variables such as colour 
+should be recorded in simple language such as ‘blue’ or ‘yellow’. Where fine discrimination is required, 
+terms such as ‘pale’ or ‘dark’ should be used, and comparisons made such as ‘darker brown than at three 
+minutes’ or ‘paler green than with 0.2 mol dm−3’.
+For recording of data, appropriate symbols may be used provided that their meaning is clear and unambiguous 
+in the given context (e.g. time, t or t /s but temperature, T or T / °C). Conventional symbols or abbreviations, 
+such as ΔH for enthalpy change or ppt. for precipitate, may be used without explanation.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Practical assessment 
+61
+www.cambridgeinternational.org/alevel
+Back to contents page
+Display of calculation and reasoning
+Candidates should be able to:
+	•
+show working in calculations and key steps in reasoning: where calculations are carried out, all the stages 
+in the calculation should be recorded, so that credit can be given for correctly displayed working
+	•
+use the correct number of significant figures for calculated quantities (this should be the same as or one 
+more than the smallest number of significant figures in the provided or experimentally determined data). 
+For example, if titre volume is measured to four significant figures, e.g. 23.45 cm³, then the calculated molar 
+concentrations from this should be given to four significant figures, e.g. 1.305 mol dm−3 or 0.9876 mol dm−3. 
+However, if the concentration of one of the reactants is given to three significant figures, then the calculated 
+concentration could be given to three or four significant figures. For example, if the concentration of alkali 
+in an acid–base titration is given as 0.100 mol dm−3, then the concentration of the acid may be shown as 
+0.1305 mol dm−3 or 0.131 mol dm−3.
+Data layout
+Candidates should be able to:
+	•
+present data in a single table of results
+	•
+draw an appropriate table in advance of taking readings or making observations, so that they do not have 
+to copy their results
+	•
+record all data in the table
+	•
+use the appropriate presentation method to produce a clear presentation of the data, e.g. graph lines and 
+graph points should be drawn using a sharp pencil
+	•
+plot appropriate variables on appropriate, clearly labelled x- and y-axes (the same convention for axis labels 
+should be used as for table headings)
+	•
+choose scales for graph axes that allow the graph to be read easily, such as 1, 2 or 5 units to a 20 mm 
+square; the data points should occupy at least half of the graph grid in both x- and y-directions
+	•
+plot all points using a cross × or circled dot ʘ to an appropriate accuracy
+	•
+draw straight lines or smooth curves of best fit to show the trend of a graph; a line of best fit should show 
+an even distribution of points on either side of the line along its entire length, anomalous points should be 
+identified.
+Analysis, conclusions and evaluation
+Interpretation of data or observations
+Candidates should be able to:
+	•
+describe the patterns and trends shown by data in tables and graphs
+	•
+describe and summarise the key points of a set of observations
+	•
+calculate quantities from data, or calculate the mean from repeated values, or make other appropriate 
+calculations
+	•
+find an unknown value by using coordinates, a point of intersection or intercepts on a graph
+	•
+determine the gradient of a straight-line graph, using two points that are more than half of the length of the 
+axes apart
+	•
+extrapolate the line of a graph.
+Calculations may involve mean, percentage, percentage gain or loss, rate of reaction, concentration, molar 
+mass and volume of gases or other appropriate calculations. 
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Practical assessment 
+62
+www.cambridgeinternational.org/alevel
+Back to contents page
+Drawing conclusions
+Candidates should be able to:
+	•
+draw conclusions from an experiment, giving an outline description of the main features of the data, 
+considering whether experimental data support a given hypothesis, and making further predictions
+	•
+draw conclusions from interpretations of observations, data and calculated values
+	•
+make scientific explanations of data, observations and conclusions that they have described.
+Candidates may be required to prove or disprove given hypotheses, using deductions from the data, 
+observations or calculated values. Simple scientific explanations form a part of such conclusions and therefore 
+candidates will be expected to refer to knowledge and understanding gained in the theory part of the course in 
+order to provide explanations of their practical conclusions.
+Identifying sources of error and suggesting improvements
+Candidates should be able to:
+	•
+evaluate the effectiveness of control variables
+	•
+comment on errors intrinsic in measuring devices, e.g. a thermometer consistently reading 1 °C above 
+actual temperature, or in experiments where limitations of the method introduce errors, e.g. heat loss when 
+trying to assess enthalpy change
+	•
+show an understanding of the distinction between systematic errors, e.g. zero error in a balance hence the 
+reason for using the same balance for all weighings within an experiment, and random errors, e.g. change 
+in room temperature when investigating the effect of changing concentration on the rate of a reaction. 
+(A statement of ‘human errors’ is not acceptable; though there are occasionally errors arising in the 
+observer’s ability to observe, e.g. in the disappearing cross experiment, which would be a random error.)
+	•
+identify the most significant sources of error in an experiment
+	•
+state the uncertainty in a quantitative measurement and express such uncertainty in a measurement as 
+an actual or percentage error. For the purpose of this syllabus, the maximum uncertainty in a quantitative 
+measurement is half the difference between the closest calibrations, e.g. for a thermometer calibrated 
+at 1 °C the maximum uncertainty is ± 0.5 °C, therefore the maximum percentage error in a temperature 
+change of 14.0 °C = ((2 × 0.5)/14.0) × 100 = 7.14%
+	•
+suggest realistic modifications to an experimental arrangement that will improve the accuracy of the 
+experiment or the observations that can be made
+	•
+suggest ways in which to extend the investigation to answer a new question.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Practical assessment 
+63
+www.cambridgeinternational.org/alevel
+Back to contents page
+Practical procedures
+Quantitative analysis
+Candidates should have experience of carrying out the following types of quantitative analysis experiments.
+Titration experiments
+Candidates are expected to understand how to correctly set up a burette in order to carry out titrations.
+Candidates are expected to carry out a rough titration first.
+Candidates are expected to carry out titrations until concordant results are obtained.
+A knowledge of the following titrations will be expected: 
+	•
+acid–alkali titration (this could be weak or strong acid and weak or strong alkali) and the use of indicators 
+listed on page 67
+	•
+potassium manganate(VII) titration with hydrogen peroxide, iron(II) ions or ethanedioic acid or its salts
+	•
+sodium thiosulfate and iodine titrations.
+This list is not exhaustive, and simple titrations involving other reagents may also be set and additional 
+information provided where necessary.
+Rates experiments
+Candidates are expected to be able to follow instructions to mix reagents and record the time for an 
+observation to occur; an example of such an experiment is the time taken on mixing solutions of sodium 
+thiosulfate and an acid for the print on a piece of paper to be obscured by the precipitate produced.
+Gravimetric experiments
+Candidates are expected to be able to heat a solid in a crucible on a pipe-clay triangle and record any mass 
+change; an example of such an experiment is the determination of the water of hydration of a hydrated salt by 
+evaporation of the water and calculation of the change in mass.
+Thermometric experiments
+Candidates are expected to be able to accurately use and take readings from thermometers; an example 
+of such an experiment is the determination of the enthalpy change of reaction by recording of temperature 
+changes and subsequent calculation of enthalpy changes and use of Hess’s law.
+Gas volume experiments
+Candidates are expected to be able to set up apparatus for a gas collection over water method; an example 
+of such an experiment is the determination of the composition of a solid from the volume of carbon dioxide 
+produced on reaction of a carbonate with an acid.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Practical assessment 
+64
+www.cambridgeinternational.org/alevel
+Back to contents page
+Qualitative analysis
+Candidates should understand the appropriate methods to be used when carrying out qualitative analysis tests:
+	•
+to treat all unknown materials with caution
+	•
+to use an appropriate quantity of the material under test
+	•
+to add only the specified amount
+	•
+to work safely, e.g. to use a test-tube holder when heating a solid in a hard-glass test-tube
+	•
+to record all observations, even when this is ‘no change’ or ‘remains a colourless solution’
+	•
+to use excess alkali where a precipitate is produced on addition of NaOH(aq) or NH₃(aq) to determine its 
+solubility
+	•
+to identify a gas whose formation is shown by effervescence.
+Candidates should be familiar with carrying out qualitative analysis reactions for all elements, compounds and 
+ions listed in the Qualitative analysis notes, and with using these notes to make conclusions about the unknown 
+substance being tested. However, the substances to be investigated may contain ions not included in these 
+notes. In such cases, candidates will not be expected to identify the ions but only to record observations and 
+draw conclusions of a general nature where possible.
+Candidates may also be required to carry out the following organic analysis tests and/or interpret the positive 
+test result to identify the functional group present:
+	•
+the production of an orange/red precipitate with Fehling’s reagent to indicate the presence of the aldehyde 
+functional group
+	•
+the production of a silver mirror/black precipitate with Tollens’ reagent to indicate the presence of the 
+aldehyde functional group
+	•
+the production of a yellow precipitate with alkaline aqueous iodine to indicate the presence of the CH₃CO or 
+CH₃CH(OH) group
+	•
+the change in colour of acidified potassium manganate(VII) from purple to colourless to indicate the 
+presence of a compound that can be oxidised. 
+Administration of Paper 3
+Detailed regulations on the administration of Cambridge International practical examinations are contained in 
+the Cambridge Handbook.
+Details of the specific requirements for apparatus and materials for a particular examination are given in the 
+Confidential Instructions which are sent to centres several weeks prior to the examination. Centres should 
+contact Cambridge International if they have not received the Confidential Instructions.
+It is the responsibility of centres to provide the apparatus and chemicals required for practical examinations. 
+Cambridge International is not able to supply apparatus or chemicals directly, nor provide advice on local 
+suppliers.
+Apparatus and materials 
+This section gives guidance to schools concerning the apparatus and materials that are expected to be 
+available within the centre for use during practical exams. The lists are not intended to be exhaustive. Unless 
+otherwise stated, for apparatus the number given is ‘per candidate’. Centres should keep these apparatus and 
+materials in stock and candidates should be accustomed to using them.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Practical assessment 
+65
+www.cambridgeinternational.org/alevel
+Back to contents page
+Apparatus 
+Glassware should, where possible, conform to the quality specifications given, or supervisors should otherwise 
+satisfy themselves that the glassware used is of an appropriate accuracy.
+1 × 10 cm³ pipette (ISO648 or grade B)
+1 × 25 cm³ pipette (ISO648 or grade B)
+1 × pipette filler
+2 × 50 cm³ burette (ISO385 or grade B)
+2 × 150 cm³ or 250 cm³ conical flask
+1 × 25 cm³ measuring cylinder (ISO6706 or ISO4788 or grade B)
+1 × 50 cm³ measuring cylinder (ISO6706 or ISO4788 or grade B)
+1 × 250 cm³ plastic or glass measuring cylinder 
+2 × burette stand and clamp
+1 × 250 cm³ one-mark graduated volumetric flask (ISO1042 or grade B)
+2 × 100 cm³ beaker, squat form with lip
+2 × 250 cm³ beaker, squat form with lip
+1 × funnel (for filling burette)
+1 × white tile
+1 × stand and clamp 
+1 × tub suitable for acting as a trough (minimum capacity 1 dm³)
+1 × side-arm conical flask with bung connected to approximately 50 cm of plastic/rubber delivery tube OR 
+additional 150 cm³ or 250 cm³ conical flask with one-hole bung connected to approximately 50 cm of 
+plastic/rubber delivery tube
+1 × thermometer (–10 °C to +110 °C at 1 °C)
+2 × plastic or cardboard cup, capacity approximately 150 cm³
+1 × glass rod
+1 × stop-clock to measure to an accuracy of 1 second
+2 × teat/dropping pipette
+1 × spatula
+2 × crucible with lid (approximate capacity 15 cm³)
+1 × crucible tongs
+1 × pipe-clay triangle
+1 × tripod
+1 × gauze
+1 × Bunsen burner (propane or butane burners are suitable, spirit burners are not recommended)
+1 × heat-proof mat
+1 × test-tube holder
+2 × boiling tube, approximately 150 mm × 25 mm
+2 × hard-glass test-tube
+8 × test-tube, approximately 125 mm × 16 mm
+1 × test-tube rack
+1 x funnel (for filtering)
+filter paper
+balance, single-pan, direct reading, minimum accuracy 0.01 g (1 per 8–12 candidates) weighing up to 200 g 
+1 × wash bottle with distilled water
+1 × pen for labelling glassware
+red and blue litmus papers
+aluminium foil
+wooden splints
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Practical assessment 
+66
+www.cambridgeinternational.org/alevel
+Back to contents page
+Materials
+The following table gives guidance for technicians for the preparation of solutions commonly used in practical 
+papers. Candidates are not expected to be familiar with these preparations.
+Centres are recommended to maintain stocks of all the materials detailed in this section as they are regularly 
+used in the practical exams.
+Hazard codes will be used where relevant and in accordance with information provided by CLEAPSS.1
+C	
+corrosive
+MH	moderate hazard
+HH	 health hazard
+T	
+toxic
+F	
+flammable
+O	
+oxidising
+N	
+hazardous to the aquatic environment
+The attention of centres is drawn to any local regulations relating to safety, first aid and disposal of chemicals. 
+‘Hazard Data Sheets’ should be available from your chemical supplier.
+Label
+Identity
+Instructions
+dilute 
+hydrochloric acid
+2.0 mol dm–3 HCl
+Dilute 170 cm³ of concentrated (35–37%; approximately 
+11 mol dm–3) hydrochloric acid [C][MH] to 1 dm3.
+dilute nitric acid
+[C]
+2.0 mol dm–3 HNO3
+Dilute 128 cm³ of concentrated (70%) nitric acid [C][O] to 1 dm³.
+dilute sulfuric 
+acid [MH]
+1.0 mol dm–3 
+H₂SO₄
+Cautiously pour 55 cm³ of concentrated (98%) sulfuric acid [C] 
+into 500 cm³ of distilled water with continuous stirring. Make the 
+solution up to 1 dm³ with distilled water.
+Care: concentrated H₂SO₄ is very corrosive.
+aqueous 
+ammonia
+[C][MH][N]
+2.0 mol dm–3 NH3
+Dilute 112 cm³ of concentrated (35%) ammonia [C][MH][N] to 
+1 dm³.
+aqueous sodium 
+hydroxide
+[C]
+1.0 mol dm–3 NaOH
+Dissolve 40.0 g of NaOH [C] in each dm³ of solution.
+Care: the process of solution is exothermic and any 
+concentrated solution is very corrosive.
+barium chloride
+or
+barium nitrate
+0.1 mol dm–3 BaCl 2
+or
+0.1 mol dm–3 
+Ba(NO₃)₂
+Dissolve 24.4 g of BaCl ₂•2H₂O [T] in each dm³ of solution
+or
+dissolve 26.1 g of Ba(NO₃)₂ [HH][O] in each dm³ of solution.
+silver nitrate
+[N]
+0.05 mol dm–3
+AgNO₃
+Dissolve 8.5 g of AgNO₃ [C][O][N] in each dm³ of solution.
+limewater
+[MH]
+saturated aqueous 
+Ca(OH)₂
+Prepare fresh limewater by leaving distilled water to stand over 
+solid calcium hydroxide [C][MH] for several days, shaking 
+occasionally. Decant or filter the solution.
+1	
+An advisory service providing support in practical science and technology for schools and colleges 
+(www.cleapss.org.uk)
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Practical assessment 
+67
+www.cambridgeinternational.org/alevel
+Back to contents page
+Label
+Identity
+Instructions
+acidified aqueous 
+potassium 
+manganate(VII)
+[MH]
+0.01 mol dm–3 
+KMnO₄  in
+0.5 mol dm–3 
+H₂SO₄
+Mix equal volumes of 0.02 mol dm–3 KMnO₄ and 1.0 mol dm–3 
+H₂SO₄ [MH].
+starch solution
+freshly prepared 
+aqueous starch 
+solution (approx 
+2% solution w/v)
+Mix 2 g of soluble starch with a little cold water until a smooth 
+paste is obtained.
+Add 100 cm³ boiling water and stir. Boil until a clear solution is 
+obtained (about 5 minutes).
+methyl orange 
+indicator
+[F][HH][MH]
+methyl orange 
+indicator (pH range 
+2.9 to 4.6)
+Use commercially produced solution or dissolve 0.4 g of solid 
+indicator [T] in 200 cm³ of ethanol (IMS) [F][HH][MH] and make 
+up to 1 dm³ with distilled water.
+bromophenol 
+blue indicator
+[F][HH][MH]
+bromophenol blue 
+indicator (pH range 
+3.0 to 4.5)
+Dissolve 0.4 g of the solid indicator in 200 cm³ of ethanol (IMS) 
+[F][HH][MH] and make up to 1 dm³ with distilled water.
+thymol blue 
+indicator
+[F][HH][MH]
+thymol blue 
+indicator (pH range 
+8.0 to 9.6)
+Dissolve 0.4 g of the solid indicator in 200 cm³ of ethanol (IMS) 
+[F][HH][MH] and make up to 1 dm³ with distilled water.
+thymolphthalein 
+indicator
+[F][HH][MH]
+thymolphthalein 
+indicator (pH range 
+9.3 to 10.5)
+Dissolve 2.0 g of the solid indicator in 1 dm³ of ethanol (IMS) 
+[F][HH][MH].
+In addition to the materials in the table above, the following materials are recommended to be used in the 
+centre as part of the practical course: 
+	•
+hydrogen peroxide
+	•
+aqueous iodine (approximately 0.01 mol dm–3 in 0.2 mol dm–3 potassium iodide) 
+	•
+iron(II) sulfate or ammonium iron(II) sulfate 
+	•
+sodium nitrite
+	•
+copper(II) sulfate 
+	•
+iron, magnesium and zinc metals 
+	•
+potassium iodide
+	•
+potassium peroxydisulfate 
+	•
+sodium thiosulfate
+	•
+solid hydrated barium chloride and magnesium sulfate
+	•
+sodium carbonate or sodium hydrogencarbonate
+	•
+magnesium ribbon
+	•
+pH indicator papers
+	•
+universal indicator (paper or solution)
+	•
+the carbonates (where they exist), sulfates, nitrates and chlorides of the cations listed in the Qualitative 
+analysis notes on page 69
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Practical assessment 
+68
+www.cambridgeinternational.org/alevel
+Back to contents page
+	•
+the sodium and/or potassium salts of the anions listed in the Qualitative analysis notes on page 69
+	•
+weak acids, e.g. methanoic acid, ethanoic acid, propanoic acid
+	•
+alcohols (primary, secondary, tertiary), e.g. ethanol, propan-1-ol, propan-2-ol, butan-1-ol, butan-2-ol, 
+methylpropan-1-ol
+	•
+aldehydes and ketones, e.g. propanal, propanone (Note: Tests for aldehydes may be performed by 
+substituting glucose for the aldehyde) 
+	•
+carboxylic acids and esters, e.g. methanoic acid, ethanoic acid, propanoic acid, ethyl ethanoate 
+	•
+ethanedioic acid or its soluble salts
+	•
+halogenoalkanes, e.g. 1-chlorobutane, 1-bromobutane, 1-iodobutane.
+These materials should be kept in stock as they may be required for the practical examination. Practical 
+examinations may also require materials that are not listed.
+Safety in the laboratory
+Responsibility for safety matters rests with centres. 
+Supervisors must follow national and local regulations relating to safety and first aid.
+Hazard data sheets relating to substances should be available from your chemical supplier.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Practical assessment 
+69
+www.cambridgeinternational.org/alevel
+Back to contents page
+Qualitative analysis notes
+1  Reactions of cations
+cation
+reaction with
+NaOH(aq)
+NH3(aq)
+aluminium, 
+Al 3+(aq)
+white ppt. soluble in excess
+white ppt. insoluble in excess
+ammonium, 
+NH4
++(aq)
+no ppt.
+ammonia produced on warming
+–
+barium, Ba2+(aq)
+faint white ppt. is observed unless 
+[Ba2+(aq)] is very low
+no ppt.
+calcium, Ca2+(aq)
+white ppt. unless [Ca2+(aq)] is very low
+no ppt.
+chromium(III), 
+Cr3+(aq)
+grey-green ppt. soluble in excess giving 
+dark green solution
+grey-green ppt. insoluble in excess
+copper(II), 
+Cu2+(aq)
+pale blue ppt. insoluble in excess
+pale blue ppt. soluble in excess giving 
+dark blue solution
+iron(II), Fe2+(aq)
+green ppt. turning brown on contact 
+with air
+insoluble in excess
+green ppt. turning brown on contact with 
+air
+insoluble in excess
+iron(III), Fe3+(aq)
+red-brown ppt. insoluble in excess
+red-brown ppt. insoluble in excess
+magnesium, 
+Mg2+(aq)
+white ppt. insoluble in excess
+white ppt. insoluble in excess
+manganese(II), 
+Mn2+(aq)
+off-white ppt. rapidly turning brown 
+on contact with air
+insoluble in excess
+off-white ppt. rapidly turning brown on 
+contact with air
+insoluble in excess
+zinc, Zn2+(aq)
+white ppt. soluble in excess
+white ppt. soluble in excess
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Practical assessment 
+70
+www.cambridgeinternational.org/alevel
+Back to contents page
+2  Reactions of anions
+anion
+reaction
+carbonate, CO₃2−
+CO₂ liberated by dilute acids
+chloride, Cl –(aq)
+gives white ppt. with Ag+(aq) (soluble in NH₃(aq))
+bromide, Br –(aq)
+gives cream / off-white ppt. with Ag+(aq) (partially soluble in NH₃(aq))
+iodide, I–(aq)
+gives pale yellow ppt. with Ag+(aq) (insoluble in NH₃(aq))
+nitrate, NO₃–(aq)
+NH3 liberated on heating with OH–(aq) and Al foil
+nitrite, NO₂–(aq)
+NH3 liberated on heating with OH–(aq) and Al foil;
+decolourises acidified aqueous KMnO₄
+sulfate, SO₄2−(aq)
+gives white ppt. with Ba2+(aq) (insoluble in excess dilute strong acids); 
+gives white ppt. with high [Ca2+(aq)]
+sulfite, SO₃2−(aq)
+gives white ppt. with Ba2+(aq) (soluble in excess dilute strong acids); 
+decolourises acidified aqueous KMnO₄
+thiosulfate, S₂O₃2–(aq)
+gives off-white / pale yellow ppt. slowly with H⁺
+3  Tests for gases
+gas
+test and test result
+ammonia, NH₃
+turns damp red litmus paper blue
+carbon dioxide, CO₂
+gives a white ppt. with limewater 
+hydrogen, H₂
+‘pops’ with a lighted splint
+oxygen, O₂
+relights a glowing splint
+4  Tests for elements
+element
+test and test result
+iodine, I₂
+gives blue-black colour on addition of starch solution 
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Practical assessment 
+71
+www.cambridgeinternational.org/alevel
+Back to contents page
+Paper 5 Planning, Analysis and Evaluation
+Paper 5 is a timetabled, written paper focusing on the higher-order experimental skills of:
+	•
+planning
+	•
+analysis 
+	•
+drawing conclusions 
+	•
+evaluation.
+This exam will not require laboratory facilities.
+It should be emphasised that candidates cannot be adequately prepared for this exam without 
+extensive laboratory work of A Level standard during their course of study. This requires many hours 
+of laboratory-based work with careful supervision from teachers to ensure that experiments are planned and 
+carried out safely.
+Paper 5 consists of two or more questions totalling 30 marks. 
+Candidates may be required to design an experimental investigation of a given problem. Such questions may 
+not be highly structured: candidates may be expected to answer using extended, structured writing illustrated 
+with appropriate diagrams, flow charts, tables or equations. 
+Candidates may be asked to express a prediction in the form of a written hypothesis linking independent and 
+dependent variables, or in the form of a graph showing the expected outcome. 
+There may be questions in which candidates are given experimental data and are required to analyse, evaluate 
+and draw conclusions from this.
+Some questions may be set in areas of chemistry that are difficult to investigate experimentally in school 
+laboratories, possibly for reasons of cost or safety. No question will require knowledge of theory or equipment 
+that is beyond that expected of A Level practical work in the syllabus. Information that candidates are not 
+expected to know will be provided in the examination paper.
+Mark allocations for Paper 5
+Marks will be allocated for Paper 5 according to the table below. The expectations for each skill are listed in the 
+sections that follow.
+Skill
+Breakdown of skills
+Minimum mark 
+allocation*
+Planning
+Defining the problem
+12 marks
+Method
+Analysis, conclusion and 
+evaluation
+Dealing with data
+12 marks
+Conclusion
+Evaluation
+*  The remaining 6 marks will be allocated across the skills in this grid and their allocation may vary from paper 
+to paper.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Practical assessment 
+72
+www.cambridgeinternational.org/alevel
+Back to contents page
+Expectations for each skill (Paper 5) 
+Candidates will be provided with information about the aims of an experiment, and some background 
+information relating to it. 
+Planning
+Defining the problem
+Candidates should be able to:
+	•
+identify a safe and efficient procedure that when followed would lead to a reliable result
+	•
+identify the steps necessary to carry out the procedure
+	•
+identify apparatus that is suitable for carrying out each step of the procedure
+	•
+show an understanding of the risks of a proposed experiment 
+	•
+identify the independent variable in an experiment 
+	•
+identify the dependent variable in an experiment 
+	•
+express the aim of an experiment in terms of a prediction, and express this in words or in the form of a 
+predicted graph
+	•
+identify any variables that are to be controlled
+	•
+show an understanding of how and why the procedure suggested will be effective.
+Method
+Candidates should be able to:
+	•
+describe the method to be used when carrying out the experiment to its full conclusion, including, as 
+appropriate, preparation of results tables, proposed graphs to plot, key points to consider in any evaluation 
+of the method and results, and reference back to the prediction
+	•
+describe the arrangement of apparatus, by use of words or labelled diagrams, and the steps in the 
+procedure to be followed in order to collect all relevant data
+	•
+suggest the use of appropriate measuring instruments so that the data are recorded to a suitable precision
+	•
+suggest appropriate volumes and concentrations of reagents 
+	•
+describe precautions that should be taken to keep risks to a minimum; these include use of a fume hood 
+for hazardous gases, use of a face mask for hazardous particles, avoidance of naked flames for flammable 
+materials and wearing chemically resistant gloves for handling irritant materials
+	•
+describe how to vary the independent variable and how the dependent variable is to be measured, and 
+describe how each of the other key variables might be controlled
+	•
+explain how any control experiments might be used to verify that it is the independent variable that is 
+affecting the dependent variable and not some other factor
+	•
+describe the outcome of steps in the procedure where these are relevant to the overall experiment
+	•
+draw up appropriately headed tables for data to be recorded and describe how the data might be used in 
+order to reach a conclusion
+	•
+describe standard laboratory practice when carrying out quantitative determinations, e.g. making up of 
+standard solutions, weighing by difference, concordancy of titrations, heating to constant mass, taking 
+more readings about the inflexion point of a plot of data values.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Practical assessment 
+73
+www.cambridgeinternational.org/alevel
+Back to contents page
+Analysis, conclusions and evaluation
+Dealing with data
+Candidates should be able to:
+	•
+identify the calculations and means of presentation of data that are necessary to be able to draw 
+conclusions from provided data
+	•
+use calculations to enable simplification or explanation of data, including calculation of mean, percentage 
+and percentage gain or loss
+	•
+use tables and graphs to draw attention to the key points in quantitative data, including the variability of 
+data
+	•
+analyse data to draw appropriate conclusions
+	•
+plot an appropriate graph from provided or calculated data fulfilling the criteria for plotting detailed in the 
+Paper 3 section on page 61
+	•
+plot a graph of y against x and use the graph to find the values of m and c in an equation of the form 
+y = mx + c
+	•
+suggest appropriate axes from a range of data values
+	•
+calculate the percentage error of a measurement
+	•
+calculate quantities from raw data
+	•
+use the correct number of significant figures for these calculated quantities. 
+Conclusion
+Candidates should be able to:
+	•
+draw a conclusion from an investigation, providing a detailed description of the key features of the data and 
+analyses, and considering whether experimental data support the conclusion reached
+	•
+make detailed scientific explanations of the data, analyses and conclusion described
+	•
+make further predictions and suggest improvements
+	•
+conclude whether errors in experimentally obtained data could be accounted for by a measurement error 
+or by other factors.
+Evaluation
+Candidates should be able to:
+	•
+identify anomalous values in provided data, suggest possible explanations for anomalous readings and 
+suggest appropriate means of dealing with such anomalies 
+	•
+identify the extent to which provided readings have been adequately replicated and the benefit of this
+	•
+describe the adequacy of the range of data provided
+	•
+use provided information to assess the extent to which selected variables have been effectively controlled
+	•
+identify and explain the weaknesses of the experimental procedure used
+	•
+suggest and explain the effect that a change in the concentrations of reagents or the conditions used for 
+the experiment might have on the results obtained
+	•
+suggest the consequences that the incorrect use of apparatus might have on the results obtained
+	•
+explain that data that obey a line of best fit are reliable because there are no anomalous points
+	•
+comment on the validity of data with regards to their suitability to prove or disprove a prediction
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Practical assessment 
+74
+www.cambridgeinternational.org/alevel
+Back to contents page
+	•
+identify instances where additional readings being taken during the experiment would be advantageous in 
+order to give a more comprehensive range of values
+	•
+draw together all available information to make judgements about the reliability of the investigation and the 
+trustworthiness of its outcomes
+	•
+comment on the quality of data and state whether or not the data support a prediction
+	•
+use evaluations and provided information to make informed judgements on the confidence with which 
+conclusions may be drawn.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.
+75
+www.cambridgeinternational.org/alevel
+Back to contents page
+6  Additional information
+Mathematical requirements
+We expect candidates to be able to use the following mathematical skills and knowledge in the assessment. 
+Teaching the mathematical requirements should be embedded into the AS & A Level Chemistry course.
+At AS Level and A Level:
+Candidates should be able to:
+	•
+perform calculations involving addition, subtraction, multiplication and division of quantities
+	•
+understand the term integer
+	•
+make approximate evaluations of numerical expressions
+	•
+correctly round numbers
+	•
+provide answers to an appropriate number of significant figures; this is the same as or one more than the 
+minimum number of significant figures in the values used for the calculation
+	•
+calculate a percentage
+	•
+express fractions as percentages, and vice versa
+	•
+calculate an arithmetic mean
+	•
+carry out the following unit conversions (and their reverse)
+	–
+cm³ to dm³ to m³
+	–
+Pa to kPa
+	–
+seconds to minutes
+	–
+mg to g to kg to tonne
+	–
+degrees Celsius to Kelvin
+	–
+J to kJ
+	•
+convert numbers in decimal notation to standard form notation (scientific notation) and vice versa
+	•
+use tables or calculators to evaluate logarithms (for pH calculations), squares, square roots, cubes, cube 
+roots and reciprocals
+	•
+change the subject of a formula (most such equations involve only the simpler operations but may include 
+positive and negative indices and square roots)
+	•
+substitute physical quantities into a formula using consistent units so as to calculate one quantity; check the 
+dimensional consistency of such calculations, e.g. the units of a rate constant k
+	•
+solve simple algebraic equations (not including quadratic equations)
+	•
+understand and use the symbols/notations <, >, ≈, /, Δ
+	•
+test tabulated pairs of values for direct proportionality by a graphical method or by constancy of ratio
+	•
+select appropriate variables and scales for plotting a graph, especially to obtain a linear graph of the form 
+y = mx + c
+	•
+determine and interpret the gradient (slope) and intercept of a linear graph
+	•
+choose by inspection a straight line or curve that will serve as the line of best fit for a set of data presented 
+graphically
+	•
+use plotted points that are × or ʘ
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Additional information 
+76
+www.cambridgeinternational.org/alevel
+Back to contents page
+	•
+understand:
+	–
+the gradient of a tangent to a curve as a measure of rate of change
+	–
+the area below a curve where the area has physical significance, e.g. Boltzmann distribution curves
+	•
+estimate orders of magnitude
+	•
+set up simple algebraic equations as mathematical models, e.g. construct a rate equation, and identify 
+limitations of such models
+	•
+use the terms log x (to mean log to base 10 of x) and ln x (to mean log to base e of x)
+	•
+perform calculations using the following:
+density = mass ÷ volume
+concentration = amount ÷ volume
+number of moles = mass ÷ molar mass.
+Calculators
+If calculators are to be used, it is suggested that they should have the following functions: 
++, –, ×, ÷, √x, x², xy, log x, ln x, x³, ³√x
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Additional information 
+77
+www.cambridgeinternational.org/alevel
+Back to contents page
+Summary of key quantities, symbols and units
+The list below is intended as a guide to the more important quantities which might be encountered in teaching 
+and used in question papers. The list is not exhaustive.
+Quantity
+Usual symbols
+Usual unit
+Base quantities
+mass
+m
+kg, g
+length
+l
+m
+time
+t
+s
+electric current
+I
+A
+thermodynamic temperature
+T
+K
+amount of substance
+n
+mol
+Other quantities
+Avogadro constant
+L
+mol–1
+electric potential difference
+V
+V
+charge
+Q
+C
+Faraday constant
+F
+C mol–1
+half-life
+T
+2
+1 , t
+2
+1
+s
+ionic product of water
+K w
+mol2 dm–6
+molar gas constant
+R
+J K–1 mol–1
+relative atomic (isotopic) mass
+Ar
+–
+relative molecular mass
+Mr
+–
+(standard) electrode (reduction) potential
+(E 
+⦵) E
+V
+standard enthalpy change of reaction
+ΔH 
+⦵
+J mol–1, kJ mol–1
+temperature
+t
+°C
+volume
+V, v
+m³, dm³, cm³
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Additional information 
+78
+www.cambridgeinternational.org/alevel
+Back to contents page
+Expected conventions for representing organic structures
+This section gives details of the terminology used when referring to organic structures, reactions and 
+mechanisms.
+Structural formulas
+In candidates’ answers, an acceptable response to a request for a structural formula will be to give the minimal 
+detail, using conventional groups, for an unambiguous structure, e.g. CH₃CH₂CH₂OH for propan-1-ol, not 
+C₃H₇OH, and CH₃CHCHCH₃ for but-2-ene, not C₄H₈.
+Displayed formulas
+A displayed formula should show both the relative placing of atoms and the number of bonds between them, 
+for example ethanoic acid.
+H
+C
+H
+H
+H
+O
+C
+O
+ 
+
+Skeletal formulas
+A skeletal formula is a simplified representation of an organic structure. It is derived from the displayed formula 
+by removing hydrogen atoms (and their associated bonds) and carbon atoms from alkyl chains, leaving just the 
+carbon-carbon bonds in the carbon skeleton and the associated functional groups. 
+Skeletal or partial-skeletal representations may be used in question papers and are acceptable in candidates’ 
+answers where they are unambiguous. The skeletal formula for butan-2-ol and a partial-skeletal formula for 
+cholesterol are shown.
+CH3
+CH3
+H3C
+HO
+OH
+The 
+ convention for representing the aromatic ring is preferred.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Additional information 
+79
+www.cambridgeinternational.org/alevel
+Back to contents page
+Optical isomers
+When drawing a pair of optical isomers, candidates should 
+indicate the three-dimensional structures according to the 
+convention shown.
+CH3
+COOH
+C
+HO
+H
+CH3
+COOH
+C
+OH
+H
+mirror plane
+Organic reaction mechanisms
+When drawing an organic reaction mechanism, candidates should use charges, dipoles, lone pairs of electrons 
+and curly arrows to indicate the mechanism involved. An example is shown.
+CH3
+Cδ+
+CH3
+Brδ–
+CH3
+CH3
+C+
+CH3
+:OH–
+CH3
+CH3
+C
+CH3
+OH
+CH3
++ Br–
++ Br–
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Additional information 
+80
+www.cambridgeinternational.org/alevel
+Back to contents page
+Data section
+Contents: Tables of chemical data
+1	
+Important values, constants and standards
+2	
+Ionisation energies (1st, 2nd, 3rd and 4th) of selected elements in kJ mol–1
+3	
+Bond energies
+4	
+Standard electrode (reduction) potentials, E
+⦵, at 298 K (25 °C)
+5	
+Pauling electronegativity values
+6	
+Typical proton (1H) NMR chemical shift values (δ) relative to TMS = 0
+7	
+Typical carbon–13 (13C) NMR chemical shift values (δ) relative to TMS = 0
+8	
+Characteristic infrared absorption frequencies for some selected bonds
+9	
+The Periodic Table of Elements
+1  Important values, constants and standards
+molar gas constant
+R = 8.31 J K–1 mol–1
+Faraday constant
+F = 9.65 × 104 C mol–1
+Avogadro constant
+L = 6.022 × 1023 mol–1
+electronic charge
+e = –1.60 × 10–19 C
+molar volume of gas
+Vm = 22.4 dm3 mol–1 at s.t.p. (101 kPa and 273 K)
+Vm = 24.0 dm3 mol–1 at room conditions
+ionic product of water
+Kw = 1.00 × 10–14 mol2 dm–6 (at 298 K (25 °C))
+specific heat capacity of water
+c = 4.18 kJ kg–1 K–1 (4.18 J g–1 K–1)
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Additional information 
+81
+www.cambridgeinternational.org/alevel
+Back to contents page
+2  Ionisation energies (1st, 2nd, 3rd and 4th) of selected elements in kJ mol–1
+proton number
+1st
+2nd
+3rd
+4th
+H
+1
+1310
+He
+2
+2370
+5250
+Li
+3
+519
+7300
+11800
+Be
+4
+900
+1760
+14800
+21000
+B
+5
+799
+2420
+3660
+25000
+C
+6
+1090
+2350
+4610
+6220
+N
+7
+1400
+2860
+4590
+7480
+O
+8
+1310
+3390
+5320
+7450
+F
+9
+1680
+3370
+6040
+8410
+Ne
+10
+2080
+3950
+6150
+9290
+Na
+11
+494
+4560
+6940
+9540
+Mg
+12
+736
+1450
+7740
+10500
+Al
+13
+577
+1820
+2740
+11600
+Si
+14
+786
+1580
+3230
+4360
+P
+15
+1060
+1900
+2920
+4960
+S
+16
+1000
+2260
+3390
+4540
+Cl
+17
+1260
+2300
+3850
+5150
+Ar
+18
+1520
+2660
+3950
+5770
+K
+19
+418
+3070
+4600
+5860
+Ca
+20
+590
+1150
+4940
+6480
+Sc
+21
+632
+1240
+2390
+7110
+Ti
+22
+661
+1310
+2720
+4170
+V
+23
+648
+1370
+2870
+4600
+Cr
+24
+653
+1590
+2990
+4770
+Mn
+25
+716
+1510
+3250
+5190
+Fe
+26
+762
+1560
+2960
+5400
+Co
+27
+757
+1640
+3230
+5100
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Additional information 
+82
+www.cambridgeinternational.org/alevel
+Back to contents page
+proton number
+1st
+2nd
+3rd
+4th
+Ni
+28
+736
+1750
+3390
+5400
+Cu
+29
+745
+1960
+3350
+5690
+Zn
+30
+908
+1730
+3828
+5980
+Ga
+31
+577
+1980
+2960
+6190
+Br
+35
+1140
+2080
+3460
+4850
+Rb
+37
+403
+2632
+3900
+5080
+Sr
+38
+548
+1060
+4120
+5440
+Ag
+47
+731
+2074
+3361
+5000
+I
+53
+1010
+1840
+3000
+4030
+Cs
+55
+376
+2420
+3300
+4400
+Ba
+56
+502
+966
+3390
+4700
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Additional information 
+83
+www.cambridgeinternational.org/alevel
+Back to contents page
+3  Bond energies
+3(a)  Bond energies in diatomic molecules (these are exact values)
+Homonuclear 	
+Heteronuclear
+bond
+energy / kJ mol–1
+bond
+energy / kJ mol–1
+H−H
+436
+H−F
+  562
+N≡N
+944
+H−Cl
+  431
+O=O
+496
+H−Br
+  366
+P≡P
+485
+H−I
+  299
+S=S
+425
+C≡O
+1077
+F−F
+158
+Cl −Cl
+242
+Br−Br
+193
+I−I
+151
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Additional information 
+84
+www.cambridgeinternational.org/alevel
+Back to contents page
+3(b)  Bond energies in polyatomic molecules (these are average values)
+Homonuclear 	
+Heteronuclear
+bond
+energy / kJ mol–1
+bond
+energy / kJ mol–1
+C−C
+350
+C−H
+410
+C=C
+610
+C−Cl
+340
+C≡C
+840
+C−Br
+280
+C   C (benzene)
+520
+C−I
+240
+N−N
+160
+C−N
+305
+N=N
+410
+C=N
+610
+O−O
+150
+C≡N
+890
+Si−Si
+225
+C−O
+360
+P−P
+200
+C=O
+740
+S−S
+265
+C=O in CO2
+805
+N−H
+390
+N−Cl
+310
+O−H
+460
+Si−Cl
+360
+Si−H
+320
+Si−O (in SiO2(s))
+460
+Si=O (in SiO2(g))
+640
+P−H
+320
+P−Cl
+330
+P−O
+340
+P=O
+540
+S−H
+340
+S−Cl
+250
+S−O
+360
+S=O
+500
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Additional information 
+85
+www.cambridgeinternational.org/alevel
+Back to contents page
+4  Standard electrode (reduction) potentials, E
+⦵, at 298 K (25 °C)
+E
+⦵ in alphabetical order
+electrode reaction
+E
+⦵ / V
+Ag⁺ + e–
+⇌
+Ag
++0.80
+Al 3+ + 3e–
+⇌
+Al
+–1.66
+Ba2+ + 2e–
+⇌
+Ba
+–2.90
+Br2 + 2e–
+⇌
+2Br –
++1.07
+Ca2+ + 2e–
+⇌
+Ca
+–2.87
+Cl 2 + 2e–
+⇌
+2Cl –
++1.36
+2HOCl + 2H+ + 2e–
+⇌
+Cl₂ + 2H₂O
++1.64
+ClO– + H2O + 2e–
+⇌
+Cl – + 2OH–
++0.89
+Co2+ + 2e–
+⇌
+Co
+–0.28
+Co3+ + e–
+⇌
+Co2+
++1.82
+[Co(NH3)6]2+ + 2e–
+⇌
+Co + 6NH3
+–0.43
+Cr2+ + 2e–
+⇌
+Cr
+–0.91
+Cr3+ + 3e–
+⇌
+Cr
+–0.74
+Cr3+ + e–
+⇌
+Cr2+
+–0.41
+Cr2O7
+2– + 14H+ + 6e–
+⇌
+2Cr3+ + 7H2O
++1.33
+Cu+ + e–
+⇌
+Cu
++0.52
+Cu2+ + 2e–
+⇌
+Cu
++0.34
+Cu2+ + e–
+⇌
+Cu+
++0.15
+[Cu(NH3)4]2+ + 2e–
+⇌
+Cu + 4NH3
+–0.05
+F2 + 2e–
+⇌
+2F–
++2.87
+Fe2+ + 2e–
+⇌
+Fe
+–0.44
+Fe3+ + 3e–
+⇌
+Fe
+–0.04
+Fe3+ + e–
+⇌
+Fe2+
++0.77
+[Fe(CN)6]3– + e–
+⇌
+[Fe(CN)6]4–
++0.36
+Fe(OH)3 + e–
+⇌
+Fe(OH)2 + OH–
+–0.56
+2H⁺ + 2e–
+⇌
+H2
+0.00
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Additional information 
+86
+www.cambridgeinternational.org/alevel
+Back to contents page
+electrode reaction
+E
+⦵ / V
+2H2O + 2e–
+⇌
+H2 + 2OH–
+–0.83
+I2 + 2e–
+⇌
+2I –
++0.54
+K⁺ + e–
+⇌
+K
+–2.92
+Li⁺ + e–
+⇌
+Li
+–3.04
+Mg2+ + 2e–
+⇌
+Mg
+–2.38
+Mn2+ + 2e–
+⇌
+Mn
+–1.18
+Mn3+ + e–
+⇌
+Mn2+
++1.49
+MnO2 + 4H+ + 2e–
+⇌
+Mn2+ + 2H2O
++1.23
+MnO4
+– + e–
+⇌
+MnO₄2–
++0.56
+MnO4
+– + 4H+ + 3e–
+⇌
+MnO2 + 2H2O
++1.67
+MnO4
+– + 8H+ + 5e–
+⇌
+Mn2+ + 4H2O
++1.52
+NO3
+– + 2H+ + e–
+⇌
+NO2 + H2O
++0.81
+NO3
+– + 3H+ + 2e–
+⇌
+HNO2 + H2O
++0.94
+NO3
+– + 10H+ + 8e–
+⇌
+NH4
++ + 3H2O
++0.87
+Na+ + e–
+⇌
+Na
+–2.71
+Ni2+ + 2e–
+⇌
+Ni
+–0.25
+[Ni(NH3)6]2+ + 2e–
+⇌
+Ni + 6NH3
+–0.51
+H2O2 + 2H+ + 2e–
+⇌
+2H2O
++1.77
+HO2
+– + H2O + 2e–
+⇌
+3OH–
++0.88
+O2 + 4H+ + 4e–
+⇌
+2H2O
++1.23
+O2 + 2H2O + 4e–
+⇌
+4OH–
++0.40
+O2 + 2H+ + 2e–
+⇌
+H2O2
++0.68
+O2 + H2O + 2e–
+⇌
+HO2
+– + OH–
+–0.08
+Pb2+ + 2e–
+⇌
+Pb
+–0.13
+Pb4+ + 2e–
+⇌
+Pb2+
++1.69
+PbO2 + 4H+ + 2e–
+⇌
+Pb2+ + 2H2O
++1.47
+SO4
+2– + 4H+ + 2e–
+⇌
+SO2 + 2H2O
++0.17
+S2O8
+2–+ 2e–
+⇌
+2SO4
+2–
++2.01
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Additional information 
+87
+www.cambridgeinternational.org/alevel
+Back to contents page
+electrode reaction
+E
+⦵ / V
+S₄O₆2–+ 2e–
+⇌
+2S2O3
+2–
++0.09
+Sn2+ + 2e–
+⇌
+Sn
+–0.14
+Sn4+ + 2e–
+⇌
+Sn2+
++0.15
+V2+ + 2e–
+⇌
+V
+–1.20
+V3+ + e–
+⇌
+V2+
+–0.26
+VO2+ + 2H+ + e–
+⇌
+V3+ + H2O
++0.34
+VO2
++ + 2H+ + e–
+⇌
+VO2+ + H2O
++1.00
+VO3
+– + 4H+ + e–
+⇌
+VO2+ + 2H2O
++1.00
+Zn2+ + 2e–
+⇌
+Zn
+–0.76
+All ionic states refer to aqueous ions but other state symbols have been omitted.
+5  Pauling electronegativity values
+H
+2.1
+Li
+1.0
+Be
+1.6
+B
+2.0
+C
+2.5
+N
+3.0
+O
+3.5
+F
+4.0
+Na
+0.9
+Mg
+1.3
+Al
+1.5
+Si
+1.9
+P
+2.2
+S
+2.6
+Cl
+3.0
+K
+0.8
+Ca
+1.0
+Sc
+1.4
+Ti
+1.5
+V
+1.6
+Cr
+1.7
+Mn
+1.5
+Fe
+1.8
+Co
+1.9
+Ni
+1.9
+Cu
+1.9
+Zn
+1.6
+Ga
+1.8
+Ge
+2.0
+As
+2.2
+Se
+2.6
+Br
+2.6
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Additional information 
+88
+www.cambridgeinternational.org/alevel
+Back to contents page
+6  Typical proton (1H) NMR chemical shift values (δ) relative to TMS = 0
+environment of proton
+example
+chemical 
+shift range 
+δ δ / ppm
+alkane
+–CH₃, –CH₂–, >CH–
+0.9–1.7
+alkyl next to C=O
+CH₃–C=O, –CH₂–C=O, >CH–C=O
+2.2–3.0
+alkyl next to aromatic ring
+CH₃–Ar, –CH₂–Ar, >CH–Ar
+2.3–3.0
+alkyl next to electronegative atom
+CH₃–O, –CH₂–O, –CH₂–Cl
+3.2–4.0
+attached to alkene
+=CHR
+4.5–6.0
+attached to aromatic ring
+H–Ar
+6.0–9.0
+aldehyde
+HCOR
+9.3–10.5
+alcohol
+ROH
+0.5–6.0
+phenol
+Ar–OH
+4.5–7.0
+carboxylic acid
+RCOOH
+9.0–13.0
+alkyl amine
+R–NH–
+1.0–5.0
+aryl amine
+Ar–NH₂
+3.0–6.0
+amide
+RCONHR
+5.0–12.0
+Note: δ values for O–H and N–H protons can vary depending on solvent and concentration.
+	
+Ar is used to represent an aromatic ring.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Additional information 
+89
+www.cambridgeinternational.org/alevel
+Back to contents page
+7  Typical carbon-13 (13C) NMR chemical shift values (δ) relative to TMS = 0
+hybridisation 
+of the carbon 
+atom
+environment of carbon 
+atom
+example
+chemical 
+shift range 
+δ / ppm
+sp³
+alkyl
+CH₃–, CH₂–, –CH<, >C<
+0–50
+sp³
+next to alkene/arene
+–C–C=C, –C–Ar
+25–50
+sp³
+next to carbonyl/carboxyl
+C–COR, C–O₂R
+30–65
+sp³
+next to halogen
+C–X
+30–60
+sp³
+next to oxygen
+C–O
+50–70
+sp²
+alkene or arene
+>C=C<, 
+C
+C
+C
+C
+C
+C
+110–160
+sp²
+carboxyl
+R−COOH, R−COOR
+160–185
+sp²
+carbonyl
+R−CHO, R−CO−R
+190–220
+sp
+nitrile
+R−C≡N
+100–125
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Additional information 
+90
+www.cambridgeinternational.org/alevel
+Back to contents page
+8  Characteristic infrared absorption frequencies for some selected bonds
+bond
+functional groups containing
+the bond
+characteristic infrared absorption 
+range (in wavenumbers) / cm–1
+C−O
+hydroxy, ester
+1040–1300
+C=C
+aromatic compound, alkene
+1500–1680
+C=O
+amide
+carbonyl, carboxyl
+ester
+1640–1690
+1670–1740
+1710–1750
+C≡N
+nitrile
+2200–2250
+C−H
+alkane
+2850–2950
+N−H
+amine, amide
+3300–3500
+O−H
+carboxyl
+hydroxy
+2500–3000
+3200–3600
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  Additional information 
+91
+www.cambridgeinternational.org/alevel
+Back to contents page
+9  The Periodic Table of Elements
+Group
+The Periodic Table of Elements
+1
+H
+hydrogen
+1.0
+2
+He
+helium
+4.0
+1
+2
+13
+14
+15
+16
+17
+18
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+3
+Li
+lithium
+6.9
+4
+Be
+beryllium
+9.0
+atomic number
+atomic symbol
+Key
+name
+relative atomic mass
+11
+Na
+sodium
+23.0
+12
+Mg
+magnesium
+24.3
+19
+K
+potassium
+39.1
+20
+Ca
+calcium
+40.1
+37
+Rb
+rubidium
+85.5
+38
+Sr
+strontium
+87.6
+55
+Cs
+caesium
+132.9
+56
+Ba
+barium
+137.3
+87
+Fr
+francium
+–
+88
+Ra
+radium
+–
+5
+B
+boron
+10.8
+13
+Al
+aluminium
+27.0
+31
+Ga
+gallium
+69.7
+49
+In
+indium
+114.8
+81
+Tl
+thallium
+204.4
+6
+C
+carbon
+12.0
+14
+Si
+silicon
+28.1
+32
+Ge
+germanium
+72.6
+50
+Sn
+tin
+118.7
+82
+Pb
+lead
+207.2
+22
+Ti
+titanium
+47.9
+40
+Zr
+zirconium
+91.2
+72
+Hf
+hafnium
+178.5
+104
+Rf
+rutherfordium
+–
+23
+V
+vanadium
+50.9
+41
+Nb
+niobium
+92.9
+73
+Ta
+tantalum
+180.9
+105
+Db
+dubnium
+–
+24
+Cr
+chromium
+52.0
+42
+Mo
+molybdenum
+95.9
+74
+W
+tungsten
+183.8
+106
+Sg
+seaborgium
+–
+25
+Mn
+manganese
+54.9
+43
+Tc
+technetium
+–
+75
+Re
+rhenium
+186.2
+107
+Bh
+bohrium
+–
+26
+Fe
+iron
+55.8
+44
+Ru
+ruthenium
+101.1
+76
+Os
+osmium
+190.2
+108
+Hs
+hassium
+–
+27
+Co
+cobalt
+58.9
+45
+Rh
+rhodium
+102.9
+77
+Ir
+iridium
+192.2
+109
+Mt
+meitnerium
+–
+28
+Ni
+nickel
+58.7
+46
+Pd
+palladium
+106.4
+78
+Pt
+platinum
+195.1
+110
+Ds
+darmstadtium
+–
+29
+Cu
+copper
+63.5
+47
+Ag
+silver
+107.9
+79
+Au
+gold
+197.0
+111
+Rg
+roentgenium
+–
+30
+Zn
+zinc
+65.4
+48
+Cd
+cadmium
+112.4
+80
+Hg
+mercury
+200.6
+112
+Cn
+copernicium
+–
+114
+Fl
+flerovium
+–
+116
+Lv
+livermorium
+–
+7
+N
+nitrogen
+14.0
+15
+P
+phosphorus
+31.0
+33
+As
+arsenic
+74.9
+51
+Sb
+antimony
+121.8
+83
+Bi
+bismuth
+209.0
+8
+O
+oxygen
+16.0
+16
+S
+sulfur
+32.1
+34
+Se
+selenium
+79.0
+52
+Te
+tellurium
+127.6
+84
+Po
+polonium
+–
+9
+F
+fluorine
+19.0
+17
+Cl
+chlorine
+35.5
+35
+Br
+bromine
+79.9
+53
+I
+iodine
+126.9
+85
+At
+astatine
+–
+10
+Ne
+neon
+20.2
+18
+Ar
+argon
+39.9
+36
+Kr
+krypton
+83.8
+54
+Xe
+xenon
+131.3
+86
+Rn
+radon
+–
+113
+Nh
+nihonium
+–
+115
+Mc
+moscovium
+–
+117
+Ts
+tennessine
+–
+118
+Og
+oganesson
+–
+21
+Sc
+scandium
+45.0
+39
+Y
+yttrium
+88.9
+57–71
+lanthanoids
+89–103
+actinoids
+57
+La
+lanthanum
+138.9
+89
+Ac
+lanthanoids
+actinoids
+actinium
+–
+58
+Ce
+cerium
+140.1
+90
+Th
+thorium
+232.0
+59
+Pr
+praseodymium
+140.9
+91
+Pa
+protactinium
+231.0
+60
+Nd
+neodymium
+144.4
+92
+U
+uranium
+238.0
+61
+Pm
+promethium
+–
+93
+Np
+neptunium
+–
+62
+Sm
+samarium
+150.4
+94
+Pu
+plutonium
+–
+63
+Eu
+europium
+152.0
+95
+Am
+americium
+–
+64
+Gd
+gadolinium
+157.3
+96
+Cm
+curium
+–
+65
+Tb
+terbium
+158.9
+97
+Bk
+berkelium
+–
+66
+Dy
+dysprosium
+162.5
+98
+Cf
+californium
+–
+67
+Ho
+holmium
+164.9
+99
+Es
+einsteinium
+–
+68
+Er
+erbium
+167.3
+100
+Fm
+fermium
+–
+69
+Tm
+thulium
+168.9
+101
+Md
+mendelevium
+–
+70
+Yb
+ytterbium
+173.1
+102
+No
+nobelium
+–
+71
+Lu
+lutetium
+175.0
+103
+Lr
+lawrencium
+–
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.
+92
+www.cambridgeinternational.org/alevel
+Back to contents page
+7  What else you need to know 
+This section is an overview of other information you need to know about this syllabus. It will help to share the 
+administrative information with your exams officer so they know when you will need their support. Find more 
+information about our administrative processes at www.cambridgeinternational.org/eoguide
+Before you start
+Previous study
+We recommend that learners starting this course should have completed a course in Chemistry or 
+Co-ordinated Science equivalent to Cambridge IGCSE™ or Cambridge O Level. 
+Guided learning hours
+We design Cambridge International AS & A Level syllabuses to require about 180 guided learning hours for 
+each Cambridge International AS Level and about 360 guided learning hours for a Cambridge International A 
+Level. The number of hours a learner needs to achieve the qualification may vary according to each school and 
+the learners’ previous experience of the subject.
+Availability and timetables 
+All Cambridge schools are allocated to an administrative zone. Each zone has a specific timetable. 
+You can view the timetable for your administrative zone at www.cambridgeinternational.org/timetables
+You can enter candidates in the June and November exam series. If your school is in India, you can also enter 
+your candidates in the March exam series. 
+Check you are using the syllabus for the year the candidate is taking the exam.
+Private candidates can enter for this syllabus. However, it is expected that private candidates learn in an 
+environment where practical work is an integral part of the course. Candidates will not be able to perform well 
+in this assessment or progress successfully to further study without this necessary and important aspect of 
+science education. For more information, please refer to the Cambridge Guide to Making Entries.
+Combining with other syllabuses
+Candidates can take this syllabus alongside other Cambridge International syllabuses in a single exam series. 
+The only exceptions are:
+	•
+syllabuses with the same title at the same level.
+Group awards: Cambridge AICE 
+Cambridge AICE (Advanced International Certificate of Education) is a group award for Cambridge International 
+AS & A Level. It allows schools to offer a broad and balanced curriculum by recognising the achievements of 
+learners who pass exams in a range of different subjects. 
+Learn more about Cambridge AICE at www.cambridgeinternational.org/aice
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  What else you need to know 
+93
+www.cambridgeinternational.org/alevel
+Back to contents page
+Making entries
+Exams officers are responsible for submitting entries to Cambridge International. We encourage them to work 
+closely with you to make sure they enter the right number of candidates for the right combination of syllabus 
+components. Entry option codes and instructions for submitting entries are in the Cambridge Guide to Making 
+Entries. Your exams officer has a copy of this guide.
+Exam administration
+To keep our exams secure, we produce question papers for different areas of the world, known as 
+administrative zones. We allocate all Cambridge schools to one administrative zone determined by their 
+location. Each zone has a specific timetable. Some of our syllabuses offer candidates different assessment 
+options. An entry option code is used to identify the components the candidate will take relevant to the 
+administrative zone and the available assessment options.
+Support for exams officers
+We know how important exams officers are to the successful running of exams. We provide them with the 
+support they need to make your entries on time. Your exams officer will find this support, and guidance for all 
+other phases of the Cambridge Exams Cycle, at www.cambridgeinternational.org/eoguide
+Retakes and carrying forward marks
+Candidates can retake Cambridge International AS Level and Cambridge International A Level as many times 
+as they want to. Information on retake entries is at www.cambridgeinternational.org/retakes 
+Candidates can carry forward the result of their Cambridge International AS Level assessment from one series 
+to complete the Cambridge International A Level in a following series, subject to the rules and time limits 
+described in the Cambridge Handbook.
+Language
+This syllabus and the related assessment materials are available in English only.
+Accessibility and equality
+Syllabus and assessment design 
+Cambridge International works to avoid direct or indirect discrimination. We develop and design syllabuses and 
+assessment materials to maximise inclusivity for candidates of all national, cultural or social backgrounds and 
+candidates with protected characteristics; these protected characteristics include special educational needs 
+and disability, religion and belief, and characteristics related to gender and identity. In addition, the language 
+and layout used are designed to make our materials as accessible as possible. This gives all candidates the 
+fairest possible opportunity to demonstrate their knowledge, skills and understanding and helps to minimise the 
+requirement to make reasonable adjustments during the assessment process.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  What else you need to know 
+94
+www.cambridgeinternational.org/alevel
+Back to contents page
+Access arrangements 
+Access arrangements (including modified papers) are the principal way in which Cambridge International 
+complies with our duty, as guided by the UK Equality Act (2010), to make ‘reasonable adjustments’ for 
+candidates with special educational needs (SEN), disability, illness or injury. Where a candidate would otherwise 
+be at a substantial disadvantage in comparison to a candidate with no SEN, disability, illness or injury, we 
+may be able to agree pre-examination access arrangements. These arrangements help a candidate by 
+minimising accessibility barriers and maximising their opportunity to demonstrate their knowledge, skills and 
+understanding in an assessment. 
+Important: 
+	•
+Requested access arrangements should be based on evidence of the candidate’s barrier to assessment 
+and should also reflect their normal way of working at school; this is in line with the Cambridge Handbook 
+www.cambridgeinternational.org/eoguide 
+	•
+For Cambridge International to approve an access arrangement, we will need to agree that it constitutes 
+a reasonable adjustment, involves reasonable cost and timeframe and does not affect the security and 
+integrity of the assessment. 
+	•
+Availability of access arrangements should be checked by centres at the start of the course. Details of our 
+standard access arrangements and modified question papers are available in the Cambridge Handbook 
+www.cambridgeinternational.org/eoguide 
+	•
+Please contact us at the start of the course to find out if we are able to approve an arrangement that is not 
+included in the list of standard access arrangements. 
+	•
+Candidates who cannot access parts of the assessment may be able to receive an award based on the 
+parts they have completed. 
+After the exam
+Grading and reporting
+Grades A*, A, B, C, D or E indicate the standard a candidate achieved at Cambridge International A Level. A* is the 
+highest and E is the lowest grade. 
+Grades a, b, c, d or e indicate the standard a candidate achieved at Cambridge International AS Level. ‘a’ is the 
+highest and ‘e’ is the lowest grade.
+‘Ungraded’ means that the candidate’s performance did not meet the standard required for the lowest grade 
+(E or e). ‘Ungraded’ is reported on the statement of results but not on the certificate. In specific circumstances 
+your candidates may see one of the following letters on their statement of results:
+	•
+Q (PENDING)
+	•
+X (NO RESULT).
+These letters do not appear on the certificate.
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  What else you need to know 
+95
+www.cambridgeinternational.org/alevel
+Back to contents page
+If a candidate takes a Cambridge International A Level and fails to achieve grade E or higher, a Cambridge 
+International AS Level grade will be awarded if both of the following apply:
+	•
+the components taken for the Cambridge International A Level by the candidate in that series included all 
+the components making up a Cambridge International AS Level
+	•
+the candidate’s performance on the AS Level components was sufficient to merit the award of a Cambridge 
+International AS Level grade.
+On the statement of results and certificates, Cambridge International AS & A Levels are shown as General 
+Certificates of Education, GCE Advanced Subsidiary Level (GCE AS Level) and GCE Advanced Level 
+(GCE A Level).
+School feedback: ‘Cambridge International A Levels are the ‘gold standard’ qualification. They 
+are based on rigorous, academic syllabuses that are accessible to students from a wide range 
+of abilities yet have the capacity to stretch our most able.’
+Feedback from: Director of Studies, Auckland Grammar School, New Zealand
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  What else you need to know 
+96
+www.cambridgeinternational.org/alevel
+Back to contents page
+How students, teachers and higher education can use the grades
+Cambridge International A Level
+Assessment at Cambridge International A Level has two purposes:
+1	
+to measure learning and achievement
+	
+The assessment confirms achievement and performance in relation to the knowledge, understanding and 
+skills specified in the syllabus, to the levels described in the grade descriptions.
+2	
+to show likely future success
+	
+The outcomes help predict which students are well prepared for a particular course or career and/or which 
+students are more likely to be successful. 
+	
+The outcomes help students choose the most suitable course or career.
+Cambridge International AS Level
+Assessment at Cambridge International AS Level has two purposes:
+1	
+to measure learning and achievement
+	
+The assessment confirms achievement and performance in relation to the knowledge, understanding and 
+skills specified in the syllabus.
+2	
+to show likely future success
+	
+The outcomes help predict which students are well prepared for a particular course or career and/or which 
+students are more likely to be successful. 
+	
+The outcomes help students choose the most suitable course or career.
+	
+The outcomes help decide whether students part way through a Cambridge International A Level course 
+are making enough progress to continue.
+	
+The outcomes guide teaching and learning in the next stages of the Cambridge International A Level 
+course.  
+Grade descriptions
+Grade descriptions are provided to give an indication of the standards of achievement candidates awarded 
+particular grades are likely to show. Weakness in one aspect of the examination may be balanced by a better 
+performance in some other aspect.
+Grade descriptions for Cambridge International A Level Chemistry will be published after the first assessment of 
+the A Level in 2022. 
+Cambridge International AS & A Level Chemistry 9701 syllabus for 2025, 2026 and 2027.  What else you need to know 
+97
+www.cambridgeinternational.org/alevel
+Back to contents page
+Changes to this syllabus for 2025, 2026 and 2027
+The syllabus has been updated. This is version 1, published September 2022. 
+You must read the whole syllabus before planning your teaching programme. We review our 
+syllabuses regularly to make sure they continue to meet the needs of our schools. In updating this syllabus, we 
+have made it easier for teachers and students to understand, keeping the familiar features that teachers and 
+schools value.
+Changes to syllabus 
+content
+	•
+Update to reagents in 15.1(c) and 16.2(b).
+Any textbooks endorsed to support the syllabus for examination from 2022 are still suitable for 
+use with this syllabus. 
+School feedback: ‘While studying Cambridge IGCSE and Cambridge International A Levels, students 
+broaden their horizons through a global perspective and develop a lasting passion for learning.’
+Feedback from: Zhai Xiaoning, Deputy Principal, The High School Affiliated to Renmin University of China
+We are committed to making our documents accessible in accordance with the WCAG 2.1 Standard. We are always looking to improve 
+the accessibility of our documents. If you find any problems or you think we are not meeting accessibility requirements, contact us at 
+info@cambridgeinternational.org with the subject heading: Digital accessibility. If you need this document in a different format, contact 
+us and supply your name, email address and requirements and we will respond within 15 working days.
+Cambridge Assessment International Education, The Triangle Building, Shaftesbury Road, Cambridge, CB2 8EA, United Kingdom
+t : +44 (0)1223 553554 	
+email : info@cambridgeinternational.org	
+www.cambridgeinternational.org
+© Cambridge University Press & Assessment September 2022
