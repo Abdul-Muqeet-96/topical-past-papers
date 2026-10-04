@@ -8,7 +8,7 @@ Regions are lists of [page, y0, y1] on the de-rotated question paper.
 import json, os, re, sys
 from collections import defaultdict
 sys.path.insert(0, os.path.dirname(__file__))
-from parse import load, parse_qp, ms_rows, page_lines, special_page, data_cut, ROMANS
+from parse import load, parse_qp, ms_rows, fix_ms_rows, page_lines, special_page, data_cut, ROMANS
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TOP = 52
@@ -99,7 +99,56 @@ def drawing_boxes(page):
     return boxes
 
 
-def block_for(doc, cap_key, cap):
+def _prose(ws):
+    """A text line of question prose (not a figure label): a sentence of several
+    words, a part label, or a [mark]."""
+    t = " ".join(w[4] for w in ws)
+    if RE_CAP.match(t.strip()):
+        return True
+    alpha = [w for w in ws if re.search(r"[A-Za-z]{2,}", w[4])]
+    lab = (re.fullmatch(r"\d{1,2}", ws[0][4]) and ws[0][0] < 64) or \
+        (re.fullmatch(r"\([a-z]\)|\((?:i|ii|iii|iv|v|vi|vii|viii|ix|x)\)", ws[0][4]) and ws[0][0] < 125)
+    return (len(alpha) >= 6 or lab
+            or re.search(r"\[\d+\]$", t) or re.search(r"[a-z)]{2,}[.:?]$", t) and len(alpha) >= 1
+            or RE_TREF.search(t) and len(alpha) >= 3)
+
+
+def block_for_ink(doc, cap_key, cap):
+    """Crop region for a Table (caption above) or Fig. (caption below), grown
+    over the rendered ink (audit A-001/A-003): from the caption, take ink runs
+    separated by at most GAP pt, stopping at a line of question prose."""
+    from crops import ink_runs, page_top
+    GAP = 26
+    p, cy0, cy1 = cap
+    page = doc[p]
+    bot = content_bottom(page)
+    top = page_top(page)
+    lines = page_lines(page, bottom=bot)
+    def prose_in(y0, y1):
+        return any(_prose(ws) for ws in lines
+                   if y0 - 1 <= (min(w[1] for w in ws) + max(w[3] for w in ws)) / 2 <= y1 + 1)
+    if cap_key.startswith("Table"):
+        runs = [r for r in ink_runs(page, cy1, bot, []) if r[0] >= cy1 - 0.5]
+        y1 = cy1
+        for k, r in enumerate(runs):
+            if r[0] - y1 > GAP or (k and prose_in(r[0], r[1])):
+                break
+            y1 = r[1]
+        if y1 <= cy1 + 2:
+            return None
+        return [[p, round(cy0 - 2, 1), round(min(y1 + 2, bot), 1)]]
+    runs = [r for r in ink_runs(page, top, cy0, []) if r[1] <= cy0 + 0.5]
+    y0 = cy0
+    for k, r in enumerate(reversed(runs)):
+        if y0 - r[1] > GAP or (k and prose_in(r[0], r[1])):
+            break
+        y0 = r[0]
+    if y0 >= cy0 - 2:
+        return None
+    return [[p, round(max(y0 - 2, top), 1), round(cy1 + 2, 1)]]
+
+
+def block_for_drawings(doc, cap_key, cap):
     """Crop region for a Table (caption above) or Fig. (caption below)."""
     p, cy0, cy1 = cap
     page = doc[p]
@@ -136,6 +185,19 @@ def block_for(doc, cap_key, cap):
         if y0 - 16 <= ly < y0:
             y0 = ly
     return [[p, round(max(y0 - 2, TOP), 1), round(cy1 + 2, 1)]]
+
+
+def block_for(doc, cap_key, cap):
+    """Tables: drawing-based extent (ink-based only when that finds nothing).
+    Figures: union of the drawing-based and ink-based extents, so strokes that
+    get_drawings misses are kept (audit A-001/A-003) and nothing shrinks."""
+    old = block_for_drawings(doc, cap_key, cap)
+    new = block_for_ink(doc, cap_key, cap)
+    if cap_key.startswith("Table"):
+        return old or new
+    if not (old and new):
+        return old or new
+    return [[old[0][0], min(old[0][1], new[0][1]), max(old[0][2], new[0][2])]]
 
 
 def _norm(w):
@@ -176,6 +238,9 @@ def refs_in(text):
             if not re.fullmatch(LABEL_NOUNS, prev, re.I):
                 continue
         labs.add(L)
+    # labels such as "D2" (a non-element letter + digit) used for compounds in tables (audit A-010)
+    for m in re.finditer(r"(?<![A-Za-z0-9(\[])([ADEGJLMQRTXZ])([1-9])(?![A-Za-z0-9])", text):
+        labs.add(m.group(1) + m.group(2))
     your = bool(re.search(r"\b(use|using)\s+your\s+(answers?|values?)\b", text, re.I))
     return {"tabs": tabs, "parts": sorted(set(parts)), "nrefs": nrefs, "labels": sorted(labs), "your": your}
 
@@ -310,6 +375,7 @@ def main():
         md = load(os.path.join(ROOT, "data", ent["ms"]["file"]))
         qs = parse_qp(qd)
         rows = ms_rows(md)
+        fix_ms_rows(rows, qs)
         paper = {"pid": pid, "ref": chk["ref"], "year": ent["year"], "series": ent["series"],
                  "variant": ent["variant"], "qp": ent["qp"]["file"], "ms": ent["ms"]["file"],
                  "questions": []}

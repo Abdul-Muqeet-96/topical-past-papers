@@ -96,20 +96,23 @@ def resolve(Q, units):
         L = find_letter(Q, letter_of(u))
         if L and u != L["label"] and L["intro"] and L["label"] not in intros:
             intros.append(L["label"])
-    ctx_parts, ctx_blocks, notes = [], [], []
-    texts = [Q["stem_text"]] + [find_letter(Q, letter_of(i))["intro_text"] for i in intros] + \
-            [unit_text(Q, u) or "" for u in units]
-    if any(re.search(r"Data Booklet", t or "", re.I) for t in texts):
-        return _fail("needs the Data Booklet (separate document, not included)")
+    ctx_parts, ctx_blocks, notes, deps = [], [], [], []
+    texts = [(Q["stem_text"], None)] + [(find_letter(Q, letter_of(i))["intro_text"], letter_of(i)) for i in intros] + \
+            [(unit_text(Q, u) or "", letter_of(u)) for u in units]
+    # Data Booklet items are kept with a note (audit A-017, decision D4)
+    data_booklet = any(re.search(r"Data Booklet", t or "", re.I) for t, _ in texts)
     todo = list(texts)
     seen = set()
     allleaves = all_leaves(Q)
     while todo:
-        t = todo.pop(0)
-        if t in seen:
+        t, tl = todo.pop(0)
+        if (t, tl) in seen:
             continue
-        seen.add(t)
+        seen.add((t, tl))
         r = refs_in(t)
+        # "(*)(i)" = a sibling roman of the text's own lettered part (audit A-010/A-018)
+        r["parts"] = [(f"({tl})" if tl else "") + p[3:] if p.startswith("(*)") else p for p in r["parts"]]
+        data_booklet = data_booklet or bool(re.search(r"Data Booklet", t, re.I))
         # Tables / Figs
         for k in r["tabs"]:
             if k not in Q["captions"]:
@@ -126,7 +129,7 @@ def resolve(Q, units):
                 # no clean block: include the defining part as context
                 if site not in ctx_parts:
                     ctx_parts.append(site)
-                    todo.append(unit_text(Q, site) or "")
+                    todo.append((unit_text(Q, site) or "", letter_of(site)))
                     notes.append(f"{k}: block not isolable, defining part {site} used as context")
         # part references
         for pr in r["parts"]:
@@ -144,7 +147,8 @@ def resolve(Q, units):
             if _after(Q, pr, units):
                 continue
             ctx_parts.append(pr)
-            todo.append(unit_text(Q, pr) or "")
+            deps.append(pr)
+            todo.append((unit_text(Q, pr) or "", letter_of(pr)))
         # "your answer" with no explicit reference -> previous leaf
         if r["your"] and not r["parts"]:
             first = units[0]
@@ -152,7 +156,8 @@ def resolve(Q, units):
             if prev and not any(prev == c or prev.startswith(c) for c in ctx_parts) \
                     and not any(prev.startswith(u) for u in units):
                 ctx_parts.append(prev)
-                todo.append(unit_text(Q, prev) or "")
+                deps.append(prev)
+                todo.append((unit_text(Q, prev) or "", letter_of(prev)))
                 notes.append(f"'your answer' -> previous part {prev}")
         # labels / numbered references defined elsewhere
         labs = [x for x in r["labels"] if x not in ELEMENT_LIKE or x in Q.get("labels_defined", [])]
@@ -167,14 +172,24 @@ def resolve(Q, units):
             if L is not None and site == L["label"] and L["romans"]:
                 site = site + "#intro"
             ctx_parts.append(site)
-            todo.append(unit_text(Q, site) or "")
+            todo.append((unit_text(Q, site) or "", letter_of(site)))
+    # a sub-part shown as context comes with its lettered part's introduction,
+    # which often holds what the reference points to (e.g. "the reaction described in (a)(i)")
+    for c in list(ctx_parts):
+        L = find_letter(Q, letter_of(c)) if letter_of(c) else None
+        if L and c != L["label"] and not c.endswith("#intro") and L["intro"] and L["label"] not in intros \
+                and L["label"] + "#intro" not in ctx_parts and not any(u == L["label"] for u in units):
+            ctx_parts.append(L["label"] + "#intro")
     ctx_parts = _order_labels(Q, ctx_parts)
+    # parts whose ANSWER the item uses (explicit part reference / "your answer"): their MS rows are shown
+    deps = [c for c in ctx_parts if any(c == d or d.startswith(c) for d in deps)]
     return {"ok": True, "why": "", "intros": intros, "ctx_parts": ctx_parts, "ctx_blocks": sorted(ctx_blocks),
-            "notes": notes}
+            "notes": notes, "deps": deps, "data_booklet": data_booklet}
 
 
 def _fail(why):
-    return {"ok": False, "why": why, "intros": [], "ctx_parts": [], "ctx_blocks": [], "notes": []}
+    return {"ok": False, "why": why, "intros": [], "ctx_parts": [], "ctx_blocks": [], "notes": [], "deps": [],
+            "data_booklet": False}
 
 
 def _order_key(Q, lab):

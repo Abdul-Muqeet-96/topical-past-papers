@@ -1,0 +1,1168 @@
+{
+"marks_bad": [
+{
+"ref": "MAR 19/P22/Q2(b)(ii)-(iv)",
+"index_marks": 5,
+"my_qp": 5,
+"my_ms": 4,
+"page": "606"
+}
+],
+"trunc": [
+{
+"ref": "M/J 22/P22/Q6(c)(iii)",
+"page_q": "1075",
+"missing_words": 3,
+"sample": [
+"6(c)(iii)",
+"1",
+"OR"
+]
+},
+{
+"ref": "O/N 16/P21/Q5(a)",
+"page_q": "733",
+"missing_words": 2,
+"sample": [
+"H+",
+"2\u2212"
+]
+},
+{
+"ref": "O/N 16/P21/Q5(b)",
+"page_q": "972",
+"missing_words": 2,
+"sample": [
+"H+",
+"2\u2212"
+]
+},
+{
+"ref": "O/N 16/P23/Q5(a)",
+"page_q": "735",
+"missing_words": 2,
+"sample": [
+"H+",
+"2\u2212"
+]
+},
+{
+"ref": "O/N 16/P23/Q5(b)",
+"page_q": "972",
+"missing_words": 2,
+"sample": [
+"H+",
+"2\u2212"
+]
+},
+{
+"ref": "M/J 16/P21/Q1(d)",
+"page_q": "123",
+"missing_words": 1,
+"sample": [
+"[16]"
+]
+},
+{
+"ref": "M/J 16/P21/Q2(d)",
+"page_q": "516",
+"missing_words": 1,
+"sample": [
+"[7]"
+]
+},
+{
+"ref": "M/J 16/P21/Q3(b)(i)",
+"page_q": "304",
+"missing_words": 47,
+"sample": [
+"(ii)",
+"activation",
+"energy",
+"is",
+"high",
+"[1]",
+"[2]",
+"so"
+]
+},
+{
+"ref": "M/J 16/P21/Q3(b)(ii)",
+"page_q": "445",
+"missing_words": 62,
+"sample": [
+"(b)",
+"(i)",
+"[2]",
+"M1",
+"\u2013",
+"general",
+"layout",
+"with"
+]
+},
+{
+"ref": "M/J 16/P21/Q3(b)(iii)",
+"page_q": "257",
+"missing_words": 55,
+"sample": [
+"(b)",
+"(i)",
+"[2]",
+"M1",
+"\u2013",
+"general",
+"layout",
+"with"
+]
+},
+{
+"ref": "M/J 16/P21/Q3(b)(iv)",
+"page_q": "564",
+"missing_words": 67,
+"sample": [
+"(b)",
+"(i)",
+"[2]",
+"M1",
+"\u2013",
+"general",
+"layout",
+"with"
+]
+},
+{
+"ref": "M/J 16/P21/Q3(c)",
+"page_q": "564",
+"missing_words": 1,
+"sample": [
+"[15]"
+]
+},
+{
+"ref": "M/J 16/P21/Q4(d)",
+"page_q": "736",
+"missing_words": 1,
+"sample": [
+"[7]"
+]
+},
+{
+"ref": "M/J 16/P21/Q5(b)(i)",
+"page_q": "1091",
+"missing_words": 31,
+"sample": [
+"(ii)",
+"disappearance",
+"of",
+"peak",
+"/",
+"dip",
+"/",
+"trough"
+]
+},
+{
+"ref": "M/J 16/P21/Q5(b)(ii)",
+"page_q": "1233",
+"missing_words": 5,
+"sample": [
+"(b)",
+"(i)",
+"reduction",
+"[1]",
+"[1]"
+]
+},
+{
+"ref": "M/J 16/P21/Q5(e)(i)",
+"page_q": "841",
+"missing_words": 15,
+"sample": [
+"(ii)",
+"V",
+"=",
+"geometric(al)",
+"/",
+"cis-trans",
+"/",
+"E\u2013Z"
+]
+},
+{
+"ref": "M/J 16/P21/Q5(e)(ii)",
+"page_q": "737",
+"missing_words": 14,
+"sample": [
+"(e)",
+"(i)",
+"V",
+"=",
+"CH3CH2CHCHCH2CH3",
+"/",
+"CH3CH2CH=CHCH2CH3",
+"[1]"
+]
+},
+{
+"ref": "M/J 16/P22/Q1(c)",
+"page_q": "124",
+"missing_words": 2,
+"sample": [
+"[Total",
+"11]"
+]
+},
+{
+"ref": "M/J 16/P22/Q2(a)(iii)",
+"page_q": "305",
+"missing_words": 57,
+"sample": [
+"2",
+"(a)",
+"(i)",
+"enthalpy",
+"/",
+"energy",
+"/",
+"heat"
+]
+},
+{
+"ref": "M/J 16/P22/Q2(d)",
+"page_q": "516",
+"missing_words": 5,
+"sample": [
+"[Total",
+"21]",
+"2\u2212",
+"8H+",
+"2Cr3+"
+]
+},
+{
+"ref": "M/J 16/P22/Q3(b)",
+"page_q": "124",
+"missing_words": 2,
+"sample": [
+"[Total",
+"6]"
+]
+},
+{
+"ref": "M/J 16/P22/Q4(b)(i)",
+"page_q": "738",
+"missing_words": 35,
+"sample": [
+"(ii)",
+"correct",
+"acid",
+"+",
+"alcohol",
+"for",
+"either",
+"ester"
+]
+},
+{
+"ref": "M/J 16/P22/Q4(b)(ii)",
+"page_q": "1092",
+"missing_words": 12,
+"sample": [
+"(b)",
+"(i)",
+"Two",
+"from",
+"1.",
+"CH3CH2COOCH3",
+"2.",
+"CH3COOCH2CH3"
+]
+},
+{
+"ref": "M/J 16/P22/Q4(c)",
+"page_q": "1234",
+"missing_words": 2,
+"sample": [
+"[Total",
+"9]"
+]
+},
+{
+"ref": "M/J 16/P22/Q5(c)(i)",
+"page_q": "1041",
+"missing_words": 166,
+"sample": [
+"(ii)",
+"OH",
+"OH",
+"C",
+"C",
+"[1+1]",
+"CN",
+"N"
+]
+},
+{
+"ref": "M/J 16/P22/Q5(c)(ii)",
+"page_q": "738",
+"missing_words": 224,
+"sample": [
+"(c)",
+"(i)",
+"OH",
+"CH3CH2",
+"CH3CH2",
+"\u03b4+",
+"\u03b4\u2212",
+"-"
+]
+},
+{
+"ref": "M/J 16/P22/Q5(c)(iii)",
+"page_q": "1042",
+"missing_words": 90,
+"sample": [
+"(c)",
+"(i)",
+"OH",
+"CH3CH2",
+"CH3CH2",
+"\u03b4+",
+"\u03b4\u2212",
+"-"
+]
+},
+{
+"ref": "M/J 16/P23/Q1(a)(i)",
+"page_q": "125",
+"missing_words": 63,
+"sample": [
+"(ii)",
+"2\u2013",
+"14H+",
+"6Fe2+",
+"2Cr3+",
+"6Fe3+",
+"[1]",
+"[1]"
+]
+},
+{
+"ref": "M/J 16/P23/Q1(a)(ii)",
+"page_q": "338",
+"missing_words": 60,
+"sample": [
+"1",
+"(a)",
+"(i)",
+"Fe",
+"+",
+"H2SO4",
+"\u2192",
+"FeSO4"
+]
+},
+{
+"ref": "M/J 16/P23/Q1(a)(iii)-(vii)",
+"page_q": "125",
+"missing_words": 27,
+"sample": [
+"1",
+"(a)",
+"(i)",
+"Fe",
+"+",
+"H2SO4",
+"\u2192",
+"FeSO4"
+]
+},
+{
+"ref": "M/J 16/P23/Q1(b)(i)",
+"page_q": "201",
+"missing_words": 24,
+"sample": [
+"(ii)",
+"[Fe(H2O)6]3+",
+"\u2013",
+"[1]",
+"[1]",
+"FeCl",
+"3",
+"+"
+]
+},
+{
+"ref": "M/J 16/P23/Q1(b)(ii)",
+"page_q": "517",
+"missing_words": 20,
+"sample": [
+"(b)",
+"(i)",
+"covalent",
+"[1]",
+"[2]",
+"small(er)",
+"difference",
+"in"
+]
+},
+{
+"ref": "M/J 16/P23/Q4(a)",
+"page_q": "739",
+"missing_words": 1,
+"sample": [
+"2\u2013"
+]
+},
+{
+"ref": "M/J 16/P23/Q4(d)(i)",
+"page_q": "976",
+"missing_words": 75,
+"sample": [
+"(ii)",
+"one",
+"of",
+"the",
+"double-bonded",
+"C",
+"atoms",
+"/"
+]
+},
+{
+"ref": "M/J 16/P23/Q4(d)(ii)-(iv)",
+"page_q": "739",
+"missing_words": 6,
+"sample": [
+"(d)",
+"(i)",
+"CH3COCH(=)CH2",
+"[1]",
+"[1]",
+"[14]"
+]
+},
+{
+"ref": "MAR 16/P22/Q1(a)(i)",
+"page_q": "517",
+"missing_words": 76,
+"sample": [
+"(ii)",
+"sulfur\u2019s",
+"electron",
+"removed",
+"from",
+"full",
+"(3p)",
+"orbital"
+]
+},
+{
+"ref": "MAR 16/P22/Q1(a)(ii)",
+"page_q": "58",
+"missing_words": 88,
+"sample": [
+"1",
+"(a)",
+"(i)",
+"greater",
+"attractive",
+"force",
+"[1]",
+"OR"
+]
+},
+{
+"ref": "MAR 16/P22/Q1(a)(iii)",
+"page_q": "517",
+"missing_words": 88,
+"sample": [
+"1",
+"(a)",
+"(i)",
+"greater",
+"attractive",
+"force",
+"[1]",
+"OR"
+]
+},
+{
+"ref": "MAR 16/P22/Q1(a)(iv)",
+"page_q": "201",
+"missing_words": 87,
+"sample": [
+"1",
+"(a)",
+"(i)",
+"greater",
+"attractive",
+"force",
+"[1]",
+"OR"
+]
+},
+{
+"ref": "MAR 16/P22/Q1(b)",
+"page_q": "565",
+"missing_words": 2,
+"sample": [
+"[12]",
+"27.30"
+]
+},
+{
+"ref": "MAR 16/P22/Q2(b)",
+"page_q": "338",
+"missing_words": 1,
+"sample": [
+"[10]"
+]
+},
+{
+"ref": "MAR 16/P22/Q3(d)",
+"page_q": "1042",
+"missing_words": 1,
+"sample": [
+"[17]"
+]
+},
+{
+"ref": "MAR 16/P22/Q4(e)",
+"page_q": "909",
+"missing_words": 1,
+"sample": [
+"[11]"
+]
+},
+{
+"ref": "MAR 16/P22/Q5(a)(i)",
+"page_q": "1163",
+"missing_words": 17,
+"sample": [
+"(ii)",
+"pent-3-en(e)-2-one",
+"[1]",
+"OR",
+"[1]",
+"3-penten-2-one",
+"(iii)",
+"red"
+]
+},
+{
+"ref": "MAR 16/P22/Q5(a)(ii)",
+"page_q": "740",
+"missing_words": 23,
+"sample": [
+"5",
+"(a)",
+"(i)",
+"[1]",
+"[1]",
+"Q",
+"R",
+"[1]"
+]
+},
+{
+"ref": "MAR 16/P22/Q5(a)(iii)",
+"page_q": "1043",
+"missing_words": 18,
+"sample": [
+"5",
+"(a)",
+"(i)",
+"[1]",
+"[1]",
+"Q",
+"R",
+"[1]"
+]
+},
+{
+"ref": "MAR 16/P22/Q5(b)",
+"page_q": "1164",
+"missing_words": 1,
+"sample": [
+"[10]"
+]
+},
+{
+"ref": "O/N 15/P21/Q3(c)",
+"page_q": "842",
+"missing_words": 1,
+"sample": [
+"[15]"
+]
+},
+{
+"ref": "O/N 15/P21/Q4(a)(i)",
+"page_q": "909",
+"missing_words": 14,
+"sample": [
+"(ii)",
+"NaOH",
+"/",
+"KOH",
+"[1]",
+"[2]",
+"warm",
+"/"
+]
+},
+{
+"ref": "O/N 15/P21/Q4(a)(ii)",
+"page_q": "976",
+"missing_words": 32,
+"sample": [
+"4",
+"(a)",
+"(i)",
+"CH3CH2OH",
+"+",
+"HCl",
+"\u2192",
+"CH3CH2Cl"
+]
+},
+{
+"ref": "O/N 15/P21/Q4(c)",
+"page_q": "977",
+"missing_words": 1,
+"sample": [
+"[11]"
+]
+},
+{
+"ref": "O/N 15/P22/Q1(c)",
+"page_q": "204",
+"missing_words": 1,
+"sample": [
+"[17]"
+]
+},
+{
+"ref": "O/N 15/P22/Q2(b)",
+"page_q": "306",
+"missing_words": 1,
+"sample": [
+"[7]"
+]
+},
+{
+"ref": "O/N 15/P22/Q3(c)",
+"page_q": "647",
+"missing_words": 1,
+"sample": [
+"[14]"
+]
+},
+{
+"ref": "O/N 15/P22/Q4(a)(i)",
+"page_q": "910",
+"missing_words": 77,
+"sample": [
+"(ii)",
+"Has",
+"a",
+"chiral",
+"centre",
+"/",
+"carbon",
+"OR"
+]
+},
+{
+"ref": "O/N 15/P22/Q4(a)(ii)-(iii)",
+"page_q": "741",
+"missing_words": 48,
+"sample": [
+"4",
+"(a)",
+"(i)",
+"N",
+"ucleophilic",
+"Su",
+"bstitution",
+"[1]"
+]
+},
+{
+"ref": "O/N 15/P22/Q4(a)(iv)",
+"page_q": "910",
+"missing_words": 82,
+"sample": [
+"4",
+"(a)",
+"(i)",
+"N",
+"ucleophilic",
+"Su",
+"bstitution",
+"[1]"
+]
+},
+{
+"ref": "O/N 15/P22/Q4(a)(v)-(vi)",
+"page_q": "742",
+"missing_words": 51,
+"sample": [
+"4",
+"(a)",
+"(i)",
+"N",
+"ucleophilic",
+"Su",
+"bstitution",
+"[1]"
+]
+},
+{
+"ref": "O/N 15/P22/Q4(b)(i)",
+"page_q": "1115",
+"missing_words": 131,
+"sample": [
+"(ii)",
+"propanoyl",
+"chloride",
+"/",
+"C2H5C",
+"OC",
+"l",
+"[1]"
+]
+},
+{
+"ref": "O/N 15/P22/Q4(b)(ii)-(iii)",
+"page_q": "911",
+"missing_words": 125,
+"sample": [
+"(b)",
+"(i)",
+"ammonia",
+"/",
+"N",
+"H3",
+"[1]",
+"[1]"
+]
+},
+{
+"ref": "O/N 15/P22/Q4(b)(iv)",
+"page_q": "843",
+"missing_words": 122,
+"sample": [
+"(b)",
+"(i)",
+"ammonia",
+"/",
+"N",
+"H3",
+"[1]",
+"[1]"
+]
+},
+{
+"ref": "O/N 15/P22/Q4(b)(v)",
+"page_q": "977",
+"missing_words": 133,
+"sample": [
+"(b)",
+"(i)",
+"ammonia",
+"/",
+"N",
+"H3",
+"[1]",
+"[1]"
+]
+},
+{
+"ref": "O/N 15/P22/Q4(b)(vi)-(viii)",
+"page_q": "844",
+"missing_words": 46,
+"sample": [
+"(b)",
+"(i)",
+"ammonia",
+"/",
+"N",
+"H3",
+"[1]",
+"[1]"
+]
+},
+{
+"ref": "O/N 15/P23/Q3(c)",
+"page_q": "845",
+"missing_words": 1,
+"sample": [
+"[15]"
+]
+},
+{
+"ref": "O/N 15/P23/Q4(a)(i)",
+"page_q": "911",
+"missing_words": 14,
+"sample": [
+"(ii)",
+"NaOH",
+"/",
+"KOH",
+"[1]",
+"[2]",
+"warm",
+"/"
+]
+},
+{
+"ref": "O/N 15/P23/Q4(a)(ii)",
+"page_q": "977",
+"missing_words": 32,
+"sample": [
+"4",
+"(a)",
+"(i)",
+"CH3CH2OH",
+"+",
+"HCl",
+"\u2192",
+"CH3CH2Cl"
+]
+},
+{
+"ref": "O/N 15/P23/Q4(c)",
+"page_q": "978",
+"missing_words": 1,
+"sample": [
+"[11]"
+]
+},
+{
+"ref": "M/J 15/P22/Q1(b)",
+"page_q": "127",
+"missing_words": 2,
+"sample": [
+"\u2013",
+"2e\u2013"
+]
+},
+{
+"ref": "M/J 15/P22/Q1(c)(ii)",
+"page_q": "127",
+"missing_words": 14,
+"sample": [
+"(c)",
+"(i)",
+"anode",
+"2Cl",
+"Cl2",
+"+",
+"[1]",
+"[2]"
+]
+},
+{
+"ref": "M/J 15/P22/Q2(a)(i)",
+"page_q": "127",
+"missing_words": 16,
+"sample": [
+"(ii)",
+"S",
+"(is",
+"oxidised)",
+"\u20132",
+"to",
+"(+)4",
+"[1]"
+]
+},
+{
+"ref": "M/J 15/P22/Q2(a)(ii)",
+"page_q": "338",
+"missing_words": 16,
+"sample": [
+"2",
+"(a)",
+"(i)",
+"2PbS",
+"+",
+"3O2",
+"2PbO",
+"+"
+]
+},
+{
+"ref": "M/J 15/P22/Q2(e)",
+"page_q": "128",
+"missing_words": 1,
+"sample": [
+"[18]"
+]
+},
+{
+"ref": "M/J 15/P22/Q3(b)(i)",
+"page_q": "743",
+"missing_words": 22,
+"sample": [
+"(ii)",
+"KOH",
+"/",
+"NaOH",
+"[1]",
+"[2]",
+"ethanolic",
+"AND"
+]
+},
+{
+"ref": "M/J 15/P22/Q3(b)(ii)",
+"page_q": "912",
+"missing_words": 15,
+"sample": [
+"(b)",
+"(i)",
+"ethene",
+"[1]",
+"[1]",
+"(iii)",
+"H2",
+"AND"
+]
+},
+{
+"ref": "M/J 15/P22/Q3(b)(iii)",
+"page_q": "845",
+"missing_words": 18,
+"sample": [
+"(b)",
+"(i)",
+"ethene",
+"[1]",
+"[1]",
+"(ii)",
+"KOH",
+"/"
+]
+},
+{
+"ref": "M/J 15/P22/Q4(b)",
+"page_q": "1043",
+"missing_words": 1,
+"sample": [
+"[11]"
+]
+},
+{
+"ref": "M/J 15/P23/Q1(e)",
+"page_q": "204",
+"missing_words": 1,
+"sample": [
+"[18]"
+]
+},
+{
+"ref": "M/J 15/P23/Q2(b)(i)-(iii)",
+"page_q": "566",
+"missing_words": 22,
+"sample": [
+"(iv)",
+"N",
+"from",
+"(+)5",
+"to",
+"(+)3",
+"[1]",
+"O"
+]
+},
+{
+"ref": "M/J 15/P23/Q2(d)(i)-(ii)",
+"page_q": "566",
+"missing_words": 24,
+"sample": [
+"(iii)",
+"1",
+"\u00d7",
+"10\u20134",
+"\u00d7",
+"8000",
+"=",
+"0.8"
+]
+},
+{
+"ref": "M/J 15/P23/Q2(d)(iii)",
+"page_q": "129",
+"missing_words": 24,
+"sample": [
+"(d)",
+"(i)",
+"CaCO3",
+"CaO",
+"+",
+"CO2",
+"[1]",
+"CaO"
+]
+},
+{
+"ref": "M/J 15/P23/Q3(a)(i)",
+"page_q": "1044",
+"missing_words": 10,
+"sample": [
+"(ii)",
+"Chain",
+"[1]",
+"[1]",
+"(iii)",
+"Silver",
+"mirror/ppt/solid",
+"(black/grey)"
+]
+},
+{
+"ref": "M/J 15/P23/Q3(a)(ii)",
+"page_q": "745",
+"missing_words": 20,
+"sample": [
+"3",
+"(a)",
+"(i)",
+"A/B",
+"=",
+"[1]",
+"[1]",
+"O"
+]
+},
+{
+"ref": "M/J 15/P23/Q3(a)(iii)",
+"page_q": "1044",
+"missing_words": 18,
+"sample": [
+"3",
+"(a)",
+"(i)",
+"A/B",
+"=",
+"[1]",
+"[1]",
+"O"
+]
+},
+{
+"ref": "M/J 15/P23/Q3(b)(i)",
+"page_q": "745",
+"missing_words": 4,
+"sample": [
+"(ii)",
+"Hydrogen",
+"[1]",
+"[1]"
+]
+},
+{
+"ref": "M/J 15/P23/Q3(b)(ii)",
+"page_q": "978",
+"missing_words": 34,
+"sample": [
+"(b)",
+"(i)",
+"D",
+"[1]",
+"CH2=C(CH3)CH2OH",
+"E",
+"E",
+"H3"
+]
+},
+{
+"ref": "M/J 15/P23/Q3(c)",
+"page_q": "1044",
+"missing_words": 1,
+"sample": [
+"[13]"
+]
+},
+{
+"ref": "M/J 15/P23/Q4(b)",
+"page_q": "847",
+"missing_words": 1,
+"sample": [
+"[10]"
+]
+}
+],
+"extra": [
+{
+"ref": "MAR 19/P22/Q2(b)(ii)-(iv)",
+"page_q": "606",
+"other_rows_shown": {
+"2(b)(iv)": 1
+}
+},
+{
+"ref": "O/N 16/P21/Q5(b)",
+"page_q": "972",
+"other_rows_shown": {
+"5(a)": 1
+}
+},
+{
+"ref": "O/N 16/P21/Q5(c)",
+"page_q": "972",
+"other_rows_shown": {
+"5(b)": 1
+}
+},
+{
+"ref": "O/N 16/P23/Q5(b)",
+"page_q": "972",
+"other_rows_shown": {
+"5(a)": 1
+}
+},
+{
+"ref": "O/N 16/P23/Q5(c)",
+"page_q": "973",
+"other_rows_shown": {
+"5(b)": 1
+}
+},
+{
+"ref": "M/J 16/P22/Q3(a)",
+"page_q": "337",
+"other_rows_shown": {
+"2(d)": 1
+}
+},
+{
+"ref": "M/J 16/P23/Q4(b)",
+"page_q": "975",
+"other_rows_shown": {
+"4(a)": 1
+}
+},
+{
+"ref": "M/J 16/P23/Q4(c)",
+"page_q": "1235",
+"other_rows_shown": {
+"1(a)": 8,
+"1(b)": 6,
+"2(a)": 1,
+"2(b)": 6
+}
+},
+{
+"ref": "MAR 16/P22/Q2(a)",
+"page_q": "126",
+"other_rows_shown": {
+"1(b)": 1
+}
+}
+]
+}

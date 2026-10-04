@@ -50,7 +50,8 @@ URL: https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/uploa
    "May/June 2025" + 9701/22 -> M/J 25/P22
    "February/March 2026" + 9701/22 -> MAR 26/P22
    "October/November 2025" + 9701/23 -> O/N 25/P23
-   Item reference = paper reference + question/part, e.g. M/J 25/P22/Q3(c).
+   Item reference = paper reference + question/part in the Physics-booklet
+   style, e.g. M/J 25/P22/Q5/b, Q5/b(ii), Q3/b(ii,iii), Q3/a,b,c (decision D1).
 Defaults on failure: missing/duplicate question or total != 60 -> exclude the
 whole paper. A single question failing checks 2 or 4 -> exclude that question.
 Log all in report.md. Never patch.
@@ -63,10 +64,12 @@ Log all in report.md. Never patch.
   Otherwise keep the lettered part whole.
 - A part (or unsplittable block) covering several topics goes under the topic
   with the most marks, tagged "also <n>" with the mark split. Tie -> use the
-  topic of its first sub-part and log as AUTO-DECIDED.
-- Dependent adjacent parts of one question landing in the same unit stay
-  together as one item (reference like Q3(a)-(c)), stem shown once. Otherwise
-  each part is its own item with its own context.
+  topic of the first sub-part that belongs to one of the tied topics (decision
+  D8) and log as AUTO-DECIDED.
+- All parts of one question landing in the same unit form one item (reference
+  like Q3/a,b(i,ii)), stem shown once (decision D3). If that item would fail a
+  check, merge only dependent adjacent parts; otherwise each part is its own
+  item with its own context.
 - Coverage check: every part of every included question appears as an item in
   exactly one unit. Context-only appearances don't count. Report gaps/dupes.
 
@@ -90,7 +93,10 @@ Rules:
   lettered part whole, else exclude and report.
 - Do not show the question's [Total: n] in a split item; keep the part's own
   [marks].
-- Context blocks carry a small generated "Context" label.
+- Context is shown inline in paper order (stem, figures, earlier parts) with
+  no generated label, and nothing is shown twice (decision D2).
+- Items needing the Data Booklet are kept with a "Data Booklet needed" note
+  (decision D4).
 
 ## Cropping
 - Vector clips via PyMuPDF (pip install pymupdf); stitch multi-page regions
@@ -102,8 +108,9 @@ Rules:
   INCLUDING tables the student must complete (blank cells stay).
 - Mark scheme: crop rows matching the item's part (e.g. "3(c)(i)"), full width
   including the Guidance column when present (2022+ layout is Question |
-  Answer | Marks | Guidance; older has no Guidance). Also crop rows for every
-  context part, labelled "Answer for context part (x)".
+  Answer | Marks | Guidance; older has no Guidance). Also crop rows of any
+  context part whose answer the item uses (unlabelled; the row shows its own
+  part label) (decision D2).
 - The item's [marks] must equal the MS marks for that part; mismatch -> exclude
   item and report.
 - Appendix: include the Periodic Table once, cropped from the newest paper.

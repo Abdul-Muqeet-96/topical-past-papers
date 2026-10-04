@@ -49,22 +49,46 @@ def main():
         "a Total column; text drawn 2–3× (faux bold) or split into overlapping fragments; part total printed above "
         "its per-point 1s; question total printed after the last part | MS reader extended (dedupe, rejoin "
         "fragments, carry labels across rows, use the Total column, keep only the part total when it equals the sum of "
-        "its 1-mark points, drop a printed question total and trim it off the crop). Verified the change leaves every "
-        "Phase-1 MS row identical. Every question still had to pass check 4 (MS = QP total) |",
+        "its 1-mark points, read \"[max N]\" rows and the Oct/Nov 2016 part-total column (\"1+1\" point entries), "
+        "drop a printed question total and trim it off the crop). Every MS row of all 83 papers was compared before "
+        "and after each change; only the intended rows changed. Every question still had to pass check 4 "
+        "(MS = QP total) |",
+        "| Papers printed at a non-standard scale (s15 v21 A3-sized; m20, s21, w19 v21, w20 v21 at 0.90–0.95) | "
+        "Coordinate rules assume a standard A4 page | Each page is normalised to A4 in memory before parsing and "
+        "cropping (scale from the © footer position); s15 v21 is now included |",
+        "| Typos in MS row labels | e.g. \"4(a(i)\", \"5f)\", \"2c(i)\", or a wrong letter (\"3(e)\" for 3(a)) | Accepted "
+        "only when unambiguous (decision D6): a label with missing brackets is read as the obvious label; a row whose "
+        "label matches no QP part is relabelled only if it is the single unmatched row and the single QP part "
+        "without MS rows has the same marks. Each case is listed below |",
+        "| Parts of one question filed in the same unit | Physics-booklet style keeps them as one item | One item per "
+        "question per unit with one stem (decision D3); reference style Q5/b, Q3/b(ii,iii), Q3/a,b,c (decision D1) |",
+        "| Context display | Generated \"Context\" labels are not in the Physics booklet | Context is shown inline in "
+        "paper order, unlabelled, nothing shown twice; the answers show the MS rows of an earlier part only when the "
+        "item uses that part's answer (decision D2) |",
         "| Consecutive roman sub-parts with the same topic | Split rule talks about individual sub-parts | Split only "
         "where the topic changes; same-topic neighbours stay together, e.g. Q3(c)(i)-(ii) |",
         "| Test/observation tables spanning several functional groups | One lowest-level part covers several organic "
         "topics | Tagged 21.1 (identify functional groups using the reactions in the syllabus) |",
-        "| Items whose text says to use the Data Booklet (Phase 2 only) | Data Booklet is a separate document, not "
-        "included, so the item is not solvable alone | Excluded (listed below) |",
+        "| Items whose text says to use the Data Booklet | Data Booklet is a separate document, not included | Kept "
+        "with a \"Data Booklet needed\" note under the reference (decision D4) |",
         "| Phase 2 papers (pre-2022) | Older papers do not number figures/tables (\"the table below\") | Cross-part "
         "context found from part references, \"use your answer\", and defined labels/compounds; the lettered "
         "introduction is always included for split sub-parts |",
         "| Topic ties | Majority-topic marks tie | Filed under the topic of the first sub-part that belongs to one "
-        "of the tied topics (listed below) |",
+        "of the tied topics (decision D8; listed below) |",
         "| Download-site watermark | Source PDFs carry a tiled \"PapaCambridge\" watermark (Form XObject + inline "
-        "low-opacity glyphs) | Stripped in memory when loading; downloaded files left untouched |",
+        "low-opacity glyphs) and, on scaled papers, a logo image in the footer | Watermark stripped in memory when "
+        "loading; the footer logo falls outside the page after scale normalisation; downloaded files left untouched |",
+        "| s20 v23 mark scheme | Page 1 reads \"Paper 3\" although the code is 9701/23 | Kept excluded by the "
+        "header rule (decision D5) |",
+        "| Phase-2 parts set in a non-syllabus context | IR monitoring of atmospheric CO; use of calcium compounds in "
+        "agriculture | Out of syllabus, excluded (decision D7). Ceramics/refractory parts are kept: they test giant "
+        "ionic lattice properties (4.2) |",
     ]
+    for ph in PH:
+        for pid, r in sorted(checks[ph].items()):
+            for a, b in r.get("ms_label_fixes", []):
+                R.append(f"| {r['ref']} MS label \"{a}\" | Typo in the mark scheme | Read as {b} (decision D6) |")
     for ph in PH:
         for a in logs[ph]["auto"]:
             R.append(f"| {a['ref']} | {a['issue']} | {a['action']} |")
@@ -93,9 +117,9 @@ def main():
                 if not q["ok"]:
                     R.append(f"| {r['ref']} | Q{n} | {q['why']} | question excluded |")
     R += ["", "Phase-1 causes (inspected): MS without Q5 rows (M/J 24/P22); MS rows printed without marks "
-          "(O/N 22/P21–23 Q4(a), O/N 24/P22 Q4(e)(i)); MS label typo \"4(a(i)\" (O/N 23/P21, P23); Q1(c)(iii) withdrawn by "
-          "Cambridge (O/N 25/P21–23, MS \"N/A\"). Phase-2 question failures are MS layouts whose marks could not be "
-          "matched to the QP totals from the text layer; s15 P21's QP has no usable text layer.", ""]
+          "(O/N 22/P21, P23 Q4(a), O/N 24/P22 Q4(e)(i)); Q1(c)(iii) withdrawn by Cambridge (O/N 25/P21–23, MS "
+          "\"N/A\"). Phase-2 question failures: MS marks do not add up to the QP total as read from the text layer "
+          "(the independent audit parser agrees for all seven).", ""]
 
     # ---------- item exclusions ----------
     R += ["## Item exclusions", "", "| Item | Issue | Action |", "|---|---|---|"]
@@ -133,17 +157,25 @@ def main():
           f"- Coverage: every lowest-level part of every included question appears in exactly one item, or is in "
           f"an exclusion list above. Unexplained gaps: {len(fc['coverage_unexplained'])}; duplicates: "
           f"{len(fc['coverage_dupes'])}.",
-          f"- Self-containment re-check: {len(fc['selfcontained_fail'])} failures; context recomputed identically "
+          f"- Self-containment re-check (build resolver): {len(fc['selfcontained_fail'])} failures; context recomputed identically "
           f"for every item ({len(fc['ctx_mismatch'])} mismatches).",
           f"- Marks re-check (item [marks] = MS marks): {len(fc['marks_fail'])} failures.",
           f"- Every item reference found on its indexed page: {len(fc['ref_not_on_page'])} misses; every item has "
           f"an answer entry: {len(fc['answers_missing'])} misses.", "",
           "## Layout checks (rendered and inspected)", "",
-          "- Cover, contents (2 pages), unit title pages; item pages in Units 1, 2, 7, 11, 14, 22; Answers Sections "
-          "(Units 1, 2, 3, 7, 10) including 2015–2016 mark-scheme layouts; topic index; Periodic Table appendix.",
-          "- Fixed after inspection: download-site watermark, corner marks/barcode stubs at page breaks, "
-          "Periodic Table orientation and crop, contents box heights, printed question totals in old MS crops, "
-          "font subsetting for size.", ""]
+          "- Original build: cover, contents (2 pages), unit title pages; item pages in Units 1, 2, 7, 11, 14, 22; "
+          "Answers Sections (Units 1, 2, 3, 7, 10) including 2015–2016 mark-scheme layouts; topic index; Periodic "
+          "Table appendix.",
+          "- After the audit fixes: the pages of the audit's worst cases (M/J 22/P21/Q3 items, M/J 23/P22/Q4, "
+          "M/J 25/P23/Q5, M/J 24/P22, MAR 20/P22, MAR 24/P22/Q2), a unit title page and an Answers page were "
+          "rendered and viewed, and every figure/table block whose extent changed by more than 60 pt was viewed on "
+          "contact sheets. The audit's automated checks were re-run on the rebuilt book.",
+          "- Crop rules after the audit: content found from the rendered ink of each page (rows with ink are never "
+          "dropped, so figures are not cut); page number, barcode and corner marks excluded by position; footer "
+          "found by its text; answer-line dots removed from the text layer itself and dotted rows whited out; "
+          "text cut at a region edge whited out or completed; \"continues on page\" notes dropped; figures kept "
+          "with their labels and captions on one page; bookmarks added. The audit-report branch holds the "
+          "independent re-check of these rules.", ""]
     open(os.path.join(ROOT, "report.md"), "w").write("\n".join(R) + "\n")
 
     # ---------- SUMMARY ----------
@@ -164,7 +196,7 @@ def main():
                     ("Papers included", incl), ("Questions included", q_inc), ("Questions excluded", q_exc),
                     ("Items in the book", it)]:
         S.append(f"| {name} | {v[0]} | {v[1]} | {v[0] + v[1]} |")
-    S += ["", "Papers excluded: s20 v23 (MS header says \"Paper 3\"), s15 v21 (QP has no usable text layer).", ""]
+    S += ["", "Papers excluded: s20 v23 (MS header says \"Paper 3\"; decision D5).", ""]
 
     S += ["## Items per unit", "", "| Unit | Items | Marks |", "|---|---|---|"]
     mk = Counter()
@@ -185,7 +217,7 @@ def main():
     for f in sorted(os.listdir(os.path.join(OUT, "units"))):
         p = os.path.join(OUT, "units", f)
         S.append(f"| {rel(p)} | {size(p)} |")
-    for p in [os.path.join(OUT, "index.csv"), os.path.join(ROOT, "topics.json"), os.path.join(ROOT, "report.md"),
+    for p in [os.path.join(OUT, "index.csv"), os.path.join(OUT, "items.jsonl"), os.path.join(ROOT, "topics.json"), os.path.join(ROOT, "report.md"),
               os.path.join(ROOT, "layout.md")]:
         S.append(f"| {rel(p)} | {size(p)} |")
     S += ["", "No file exceeds 95 MB, so everything is pushed. Per-unit PDFs keep the full book's page numbers "
@@ -195,8 +227,9 @@ def main():
           "1. **Topic tagging** (topics.json): every part was tagged by reading its text against the syllabus. "
           "Judgement calls worth a look: 21.1 for multi-functional-group test tables; 9.3 for unfamiliar elements; "
           "4.2 vs 3.x for structure/bonding explanations; Phase-2 parts marked out-of-syllabus (vapour pressure, "
-          "cooling curves, fertilisers/eutrophication, Contact-process oleum stage, electrolysis, ceramics, "
-          "enthalpy of atomisation, greenhouse/CFC questions, crude-oil fractional distillation).",
+          "cooling curves, fertilisers/eutrophication, Contact-process oleum stage, electrolysis, "
+          "enthalpy of atomisation, greenhouse/CFC questions, crude-oil fractional distillation, IR monitoring of "
+          "pollutants, agricultural use of calcium compounds).",
           "2. **2015–2018 mark schemes**: their marks were read with layout heuristics (see report.md "
           "AUTO-DECIDED). Each question still had to match the QP total, but spot-check a few answers in the "
           "older years.",
@@ -204,10 +237,11 @@ def main():
           "defined labels only. Spot-check split sub-parts from 2015–2021 for anything that says \"the diagram "
           "above\" when the diagram sits in an earlier sub-part.",
           f"4. **Exclusions** ({sum(len(logs[ph]['excluded']) for ph in PH)} items, "
-          f"{sum(q_exc)} questions, 2 papers): genuine source defects in Phase 1; mostly MS-layout and Data "
-          "Booklet cases in Phase 2. Full list in report.md.",
-          "5. **Repo size**: the book (40 MB) and 22 unit PDFs (~215 MB) are committed; consider Git LFS or a "
-          "release if the repo gets heavy.", ""]
+          f"{sum(q_exc)} questions, 1 paper): source defects (MS rows missing or without marks, withdrawn "
+          "parts) and old MS layouts whose marks do not add up. Full list in report.md.",
+          f"5. **Repo size**: the book ({os.path.getsize(book) / 1e6:.0f} MB) and 22 unit PDFs "
+          f"(~{sum(os.path.getsize(os.path.join(OUT, 'units', f)) for f in os.listdir(os.path.join(OUT, 'units'))) / 1e6:.0f} MB) "
+          "are committed; consider Git LFS or a release if the repo gets heavy.", ""]
     open(os.path.join(ROOT, "SUMMARY.md"), "w").write("\n".join(S) + "\n")
     print("report.md and SUMMARY.md written")
 

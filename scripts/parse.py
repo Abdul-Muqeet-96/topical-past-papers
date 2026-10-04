@@ -6,7 +6,7 @@ MS: table rows keyed by labels like 3(c)(ii), with their marks and the
 row rectangles (one per page segment).
 All pages are de-rotated first so coordinates match the displayed page.
 """
-import re
+import os, re
 import pymupdf
 
 ROMANS = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x"]
@@ -15,6 +15,24 @@ SERIES = {"February/March": "MAR", "May/June": "M/J", "October/November": "O/N"}
 
 RE_MARK = re.compile(r"(?:^|[.…_ ])\[(\d+)\]$")
 RE_TOTAL = re.compile(r"\[Total:\s*(\d+)\]")
+RE_MS_TYPO = re.compile(r"^(\d{1,2})\(?([a-h])\)?(?:\(?(i|ii|iii|iv|v|vi|vii|viii|ix|x)\)?)?$")
+MS_TYPOS = []   # (original token, normalised label) seen while reading mark schemes
+
+
+def fix_label(tok):
+    """Typo-tolerant MS label (audit A-009, decision D6): '4(a(i)' -> '4(a)(i)',
+    '5f)' -> '5(f)', '2c(i)' -> '2(c)(i)'. Only tokens that are a question number
+    followed by a letter (and optional roman) with missing brackets are changed."""
+    if RE_MS_LABEL.match(tok) or not re.match(r"^\d{1,2}\(?[a-h]", tok):
+        return tok
+    m = RE_MS_TYPO.match(tok)
+    if not m:
+        return tok
+    lab = f"{m.group(1)}({m.group(2)})" + (f"({m.group(3)})" if m.group(3) else "")
+    MS_TYPOS.append((tok, lab))
+    return lab
+
+
 RE_MS_LABEL = re.compile(r"^(\d{1,2})((?:\([a-z]\))?)((?:\((?:i|ii|iii|iv|v|vi|vii|viii|ix|x)\))?)$")
 
 
@@ -69,13 +87,81 @@ def _drop_wm_blocks(st):
     return b"".join(out), k
 
 
-def load(path):
+A4 = pymupdf.Rect(0, 0, 595.28, 841.89)
+RE_DOTRUN = re.compile(r"[.…]{5,}")
+
+
+def content_scale(d):
+    """Scale of the printed content relative to a standard A4 paper, from the
+    '©' footer word (x0 = 50 pt on standard pages; scaled about the origin).
+    s15 v21 is A3-sized (x1.41); m20, s21, w19/w20 v21 are printed at 0.9-0.95."""
+    ks = []
+    for p in d:
+        ws = [w for w in p.get_text("words") if w[4] == "©" and w[1] > p.rect.height * 0.8]
+        if ws:
+            ks.append(ws[0][0] / 50.0)
+    if not ks:
+        return 1.0
+    ks.sort()
+    k = ks[len(ks) // 2]
+    return k if abs(k - 1) > 0.03 else 1.0
+
+
+def redact_dot_runs(d):
+    """Remove answer-line glyphs (runs of 5+ dots) from the text layer itself,
+    so the book's text layer holds no hidden '......' (audit A-020). Only the
+    dot characters are removed; every other glyph and all graphics stay."""
+    n = 0
+    for p in d:
+        raw = p.get_text("rawdict")
+        rects = []
+        for b in raw["blocks"]:
+            for l in b.get("lines", []):
+                for s in l["spans"]:
+                    cs = s["chars"]
+                    txt = "".join(c["c"] for c in cs)
+                    for m in RE_DOTRUN.finditer(txt):
+                        run = cs[m.start():m.end()]
+                        x0, x1 = run[0]["bbox"][0], run[-1]["bbox"][2]
+                        y0 = min(c["bbox"][1] for c in run)
+                        y1 = max(c["bbox"][3] for c in run)
+                        rects.append(pymupdf.Rect(x0 + 0.4, y0 + (y1 - y0) * 0.3, x1 - 0.4, y1 - (y1 - y0) * 0.1))
+        for r in rects:
+            p.add_redact_annot(r)
+        if rects:
+            p.apply_redactions(images=pymupdf.PDF_REDACT_IMAGE_NONE,
+                               graphics=pymupdf.PDF_REDACT_LINE_ART_NONE,
+                               text=pymupdf.PDF_REDACT_TEXT_REMOVE)
+            n += len(rects)
+    return n
+
+
+def normalise(d):
+    """Return a copy of d whose pages are A4 with the content at standard scale
+    (audit A-007/A-005): every coordinate rule then applies to every paper."""
+    k = content_scale(d)
+    if k == 1.0 and all(abs(p.rect.width - A4.width) < 2 and abs(p.rect.height - A4.height) < 2 for p in d):
+        return d
+    out = pymupdf.open()
+    for p in d:
+        np = out.new_page(width=A4.width, height=A4.height)
+        clip = pymupdf.Rect(0, 0, A4.width * k, A4.height * k) & p.rect
+        np.show_pdf_page(pymupdf.Rect(0, 0, clip.width / k, clip.height / k), d, p.number, clip=clip)
+    out.scale_k = k
+    return out
+
+
+def load(path, redact=None):
     d = pymupdf.open(path)
     strip_watermark(d)
     for p in d:
         if p.rotation:
             p.remove_rotation()
-    return d
+    if redact is None:
+        redact = "_qp_" in os.path.basename(path)
+    if redact:
+        redact_dot_runs(d)
+    return normalise(d) if "_qp_" in os.path.basename(path) else d
 
 
 def paper_ref(doc):
@@ -267,6 +353,7 @@ def ms_rows(doc):
             for ln in lines:
                 ln.sort(key=lambda w: w[0])
                 toks = [w[4] for w in ln]
+                toks[0] = fix_label(toks[0])
                 lab = None
                 if toks[0] == "Total":
                     starts.append((ln[0][1], None, ln[0]))
@@ -301,7 +388,7 @@ def ms_rows(doc):
             if hi == 0 and open_row is not None and first_top - start_hdr > 8:
                 seg = pymupdf.Rect(tx0, start_hdr - 0.5, table_x1 + 1, first_top + 0.5)
                 open_row["segs"].append((pno, seg))
-                open_row["marks"] += _marks_in(words, seg, mx0, mx1, bo)
+                open_row["marks"] += _marks_in(words, seg, mx0, mx1, bo, None if bo else mk[2] - 1)
             for k, (top, lab, w) in enumerate(row_starts):
                 end = row_starts[k + 1][0] if k + 1 < len(row_starts) else tab_bottom
                 if lab is None:          # 'Total' row
@@ -310,7 +397,7 @@ def ms_rows(doc):
                 seg = pymupdf.Rect(tx0, top - 0.5, table_x1 + 1, end + 0.5)
                 m = RE_MS_LABEL.match(lab)
                 row = {"label": lab, "q": int(m.group(1)), "part": m.group(2) + m.group(3),
-                       "segs": [(pno, seg)], "marks": _marks_in(words, seg, mx0, mx1, bo),
+                       "segs": [(pno, seg)], "marks": _marks_in(words, seg, mx0, mx1, bo, None if bo else mk[2] - 1),
                        "na": any(w2[4] == "N/A" for w2 in words if w2[0] >= mx0 and w2[2] <= mx1
                                  and seg.y0 - 1 <= w2[1] <= seg.y1),
                        "guidance": gd, "total_col": bo}
@@ -344,18 +431,43 @@ def ms_rows(doc):
                     y = max(w[1] for w in tw)
                     if y - rect.y0 > 12:
                         last["segs"][-1] = (pno, pymupdf.Rect(rect.x0, rect.y0, rect.x1, y - 3))
+                    elif len(last["segs"]) > 1:
+                        # the printed total is all that continues onto the next page (audit A-015)
+                        last["segs"].pop()
     for r in rows:
         r["mark_total"] = sum(r["marks"])
     return rows
 
 
-def _marks_in(words, rect, mx0, mx1, bracket_only=False):
+def _marks_in(words, rect, mx0, mx1, bracket_only=False, pt_x=None):
     """Mark values in the marks column of a row: one value per text line
     (older PDFs carry hidden duplicates). With bracket_only (old 'Total'
-    column layout) bare numbers are question totals and are ignored."""
+    column layout) bare numbers are question totals and are ignored.
+    Old layouts also print '[max N]' (the part is worth N, not the sum of its
+    [1] points) and, in 2016 Oct/Nov, a part-total column right of the Marks
+    header (pt_x) beside per-point entries such as '1+1' (audit A-008)."""
+    inrow = [w for w in sorted(words, key=lambda w: (w[1], w[0]))
+             if w[1] >= rect.y0 - 1.5 and w[3] <= rect.y1 + 1.5]
+    # '[max' 'N]' -> N for the whole row
+    for i, w in enumerate(inrow):
+        if w[4] == "[max" and w[0] >= mx0 - 45 and w[0] <= mx1:
+            nx = next((v for v in inrow[i + 1:] if abs(v[1] - w[1]) < 2 and v[0] > w[0]), None)
+            m = re.fullmatch(r"(\d{1,2})\]", nx[4]) if nx else None
+            if m:
+                later = [int(v[4][1:-1]) for v in inrow if mx0 - 1 <= v[0] <= mx1 and v[1] > w[1] + 2
+                         and re.fullmatch(r"\[\d{1,2}\]", v[4])]
+                return [int(m.group(1))] + later
+    if pt_x is not None:
+        tot = [w for w in inrow if w[0] > pt_x and w[0] <= mx1 and re.fullmatch(r"\d{1,2}", w[4])]
+        if tot:
+            return [int(w[4]) for w in tot]
     out, lines = [], set()
-    for w in sorted(words, key=lambda w: (w[1], w[0])):
-        if w[0] >= mx0 - 1 and w[0] <= mx1 and w[1] >= rect.y0 - 1.5 and w[3] <= rect.y1 + 1.5:
+    for w in inrow:
+        if w[0] >= mx0 - 1 and w[0] <= mx1:
+            if not bracket_only and re.fullmatch(r"\d(?:\+\d)+", w[4]) and round(w[1]) not in lines:
+                lines.add(round(w[1]))
+                out.append(sum(int(x) for x in w[4].split("+")))
+                continue
             m = re.fullmatch(r"\[(\d{1,2})\]" if bracket_only else r"\[?(\d{1,2})\]?", w[4])
             if m and round(w[1]) not in lines:
                 lines.add(round(w[1]))
@@ -396,3 +508,28 @@ def _dedupe(words):
             continue
         out.append(w)
     return [tuple(w) for w in out]
+
+
+def fix_ms_rows(rows, qs):
+    """Relabel an MS row whose label matches no part of the QP question when it is
+    unambiguous (audit A-009, decision D6): exactly one unmatched MS row and exactly
+    one QP part without MS rows, with equal marks. Returns [(q, old, new)]."""
+    fixed = []
+    for q in qs:
+        qp = {}
+        for m in q["marks"]:
+            qp[m["label"]] = qp.get(m["label"], 0) + m["value"]
+        rq = [r for r in rows if r["q"] == q["n"]]
+        def known(p):
+            return any(p == l or l.startswith(p) or p.startswith(l) for l in qp if l)
+        bad = [r for r in rq if not known(r["part"])]
+        missing = [l for l in qp if not any(r["part"] == l or l.startswith(r["part"]) and r["part"]
+                                            or r["part"].startswith(l) for r in rq if known(r["part"]))]
+        if len(bad) == 1 and len(missing) == 1 and bad[0]["mark_total"] == qp[missing[0]]:
+            r = bad[0]
+            old = r["label"]
+            r["part"] = missing[0]
+            r["label"] = f"{q['n']}{missing[0]}"
+            r["relabelled_from"] = old
+            fixed.append((q["n"], old, r["label"]))
+    return fixed

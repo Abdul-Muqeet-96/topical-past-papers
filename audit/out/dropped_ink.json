@@ -1,0 +1,86 @@
+[
+{
+"ref": "M/J 15/P21/Q1/b(i),c(i)",
+"src": "9701_s15_qp_21.pdf",
+"srcpage": 2,
+"dropped_y": [
+859.5,
+881.0
+],
+"ink_px": 48,
+"rows": 1,
+"bookpage": 118
+},
+{
+"ref": "M/J 15/P21/Q1/c(ii,iii),d",
+"src": "9701_s15_qp_21.pdf",
+"srcpage": 3,
+"dropped_y": [
+852.1,
+868.0
+],
+"ink_px": 45,
+"rows": 1,
+"bookpage": 484
+},
+{
+"ref": "M/J 15/P21/Q1/c(ii,iii),d",
+"src": "9701_s15_qp_21.pdf",
+"srcpage": 3,
+"dropped_y": [
+1037.4,
+1053.4
+],
+"ink_px": 227,
+"rows": 3,
+"bookpage": 484
+},
+{
+"ref": "M/J 15/P21/Q2/c",
+"src": "9701_s15_qp_21.pdf",
+"srcpage": 6,
+"dropped_y": [
+911.5,
+927.4
+],
+"ink_px": 131,
+"rows": 2,
+"bookpage": 598
+},
+{
+"ref": "O/N 19/P21/Q4/a,c(iii,iv)",
+"src": "9701_w19_qp_21.pdf",
+"srcpage": 10,
+"dropped_y": [
+491.9,
+501.9
+],
+"ink_px": 731,
+"rows": 1,
+"bookpage": 651
+},
+{
+"ref": "M/J 21/P23/Q4/b",
+"src": "9701_s21_qp_23.pdf",
+"srcpage": 8,
+"dropped_y": [
+594.8,
+604.8
+],
+"ink_px": 809,
+"rows": 1,
+"bookpage": 869
+},
+{
+"ref": "M/J 21/P23/Q5/b(i)",
+"src": "9701_s21_qp_23.pdf",
+"srcpage": 10,
+"dropped_y": [
+488.4,
+498.1
+],
+"ink_px": 337,
+"rows": 1,
+"bookpage": 1047
+}
+]

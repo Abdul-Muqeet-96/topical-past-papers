@@ -31,13 +31,18 @@ text layer). Page roles were found from 14-dpi contact sheets of pages 1–40
 - **Unit title page**: "Unit n" and unit name in large bold, item count,
   syllabus section reference. No logo.
 - **First question page of a unit**: dark banner with white bold "Unit n: Name".
-- **Items**: number "n." + bold reference (e.g. `M/J 25/P22/Q3(c)`), optional
-  "also <topic> (marks split)" tag in small grey. Then each context block
-  with a small grey "Context" label and thin left rule, then the part crop.
+- **Items**: number "n." + bold reference (e.g. `M/J 25/P22/Q5/b`,
+  `Q3/a,b(i,ii)`), optional "also <topic> (marks split)" tag and "Data Booklet
+  needed" note in small grey. Then the item's source regions (stem, context
+  figures/tables, earlier parts it depends on, its own parts) merged in paper
+  order with no generated labels, as in the Physics booklet.
   Crops are vector clips of the official paper scaled to fit text width (max
-  scale 1.0). Items do not split across pages unless taller than a page.
+  scale 1.0). Items do not split across pages unless taller than a page; a figure stays
+  with its label line and caption.
 - **Answers Section**: dark banner "Answers Section"; same numbering and
-  reference; MS row crops (full width, incl. Guidance column); context-part
-  rows labelled "Answer for context part (x)".
+  reference; MS row crops (full width, incl. Guidance column), plus the
+  unlabelled rows of any earlier part whose answer the item uses.
+- **Bookmarks**: Contents, each unit with its Answers Section, Topic index,
+  Appendix (book and unit PDFs).
 - **Topic index**: table reference → unit, marks, page (also in index.csv).
 - **Appendix**: Periodic Table cropped once from the newest paper.

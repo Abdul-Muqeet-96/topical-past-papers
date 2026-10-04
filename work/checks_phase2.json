@@ -40,7 +40,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "m17_22": {
   "pid": "m17_22",
@@ -69,7 +70,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "m18_22": {
   "pid": "m18_22",
@@ -105,7 +107,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "m19_22": {
   "pid": "m19_22",
@@ -141,7 +144,13 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": [
+   [
+    "3(e)",
+    "3(a)"
+   ]
+  ]
  },
  "m20_22": {
   "pid": "m20_22",
@@ -170,7 +179,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "m21_22": {
   "pid": "m21_22",
@@ -206,14 +216,45 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s15_21": {
   "pid": "s15_21",
   "ref": "M/J 15/P21",
-  "paper_excluded": "no questions found in QP text layer",
-  "questions": {},
-  "issues": []
+  "paper_excluded": null,
+  "questions": {
+   "1": {
+    "total": 20,
+    "part_sum": 20,
+    "ms": 20,
+    "ok": true,
+    "why": ""
+   },
+   "2": {
+    "total": 15,
+    "part_sum": 15,
+    "ms": 15,
+    "ok": true,
+    "why": ""
+   },
+   "3": {
+    "total": 12,
+    "part_sum": 12,
+    "ms": 12,
+    "ok": true,
+    "why": ""
+   },
+   "4": {
+    "total": 13,
+    "part_sum": 13,
+    "ms": 13,
+    "ok": true,
+    "why": ""
+   }
+  },
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s15_22": {
   "pid": "s15_22",
@@ -249,7 +290,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s15_23": {
   "pid": "s15_23",
@@ -285,7 +327,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s16_21": {
   "pid": "s16_21",
@@ -328,7 +371,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s16_22": {
   "pid": "s16_22",
@@ -371,7 +415,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s16_23": {
   "pid": "s16_23",
@@ -388,16 +433,16 @@
    "2": {
     "total": 19,
     "part_sum": 19,
-    "ms": 35,
-    "ok": false,
-    "why": "MS marks 35 != QP total 19"
+    "ms": 19,
+    "ok": true,
+    "why": ""
    },
    "3": {
     "total": 17,
     "part_sum": 17,
-    "ms": 32,
-    "ok": false,
-    "why": "MS marks 32 != QP total 17"
+    "ms": 17,
+    "ok": true,
+    "why": ""
    },
    "4": {
     "total": 14,
@@ -407,7 +452,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s17_21": {
   "pid": "s17_21",
@@ -443,7 +489,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s17_22": {
   "pid": "s17_22",
@@ -479,7 +526,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s17_23": {
   "pid": "s17_23",
@@ -515,7 +563,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s18_21": {
   "pid": "s18_21",
@@ -551,7 +600,8 @@
     "why": "MS marks 9 != QP total 15"
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s18_22": {
   "pid": "s18_22",
@@ -587,7 +637,29 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": [
+   [
+    "2c(i)",
+    "2(c)(i)"
+   ],
+   [
+    "2c(ii)",
+    "2(c)(ii)"
+   ],
+   [
+    "3c(i)",
+    "3(c)(i)"
+   ],
+   [
+    "3c(ii)",
+    "3(c)(ii)"
+   ],
+   [
+    "3c(iii)",
+    "3(c)(iii)"
+   ]
+  ]
  },
  "s18_23": {
   "pid": "s18_23",
@@ -623,7 +695,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s19_21": {
   "pid": "s19_21",
@@ -666,7 +739,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s19_22": {
   "pid": "s19_22",
@@ -709,7 +783,13 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": [
+   [
+    "5a(iii)",
+    "5(a)(iii)"
+   ]
+  ]
  },
  "s19_23": {
   "pid": "s19_23",
@@ -759,7 +839,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s20_21": {
   "pid": "s20_21",
@@ -809,7 +890,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s20_22": {
   "pid": "s20_22",
@@ -852,7 +934,13 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": [
+   [
+    "5(b)(iii)",
+    "5(c)"
+   ]
+  ]
  },
  "s21_21": {
   "pid": "s21_21",
@@ -902,7 +990,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s21_22": {
   "pid": "s21_22",
@@ -945,7 +1034,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s21_23": {
   "pid": "s21_23",
@@ -988,7 +1078,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w15_21": {
   "pid": "w15_21",
@@ -1024,7 +1115,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w15_22": {
   "pid": "w15_22",
@@ -1060,7 +1152,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w15_23": {
   "pid": "w15_23",
@@ -1096,7 +1189,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w16_21": {
   "pid": "w16_21",
@@ -1113,16 +1207,16 @@
    "2": {
     "total": 13,
     "part_sum": 13,
-    "ms": 14,
-    "ok": false,
-    "why": "MS marks 14 != QP total 13"
+    "ms": 13,
+    "ok": true,
+    "why": ""
    },
    "3": {
     "total": 14,
     "part_sum": 14,
-    "ms": 15,
-    "ok": false,
-    "why": "MS marks 15 != QP total 14"
+    "ms": 14,
+    "ok": true,
+    "why": ""
    },
    "4": {
     "total": 18,
@@ -1139,7 +1233,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w16_22": {
   "pid": "w16_22",
@@ -1170,9 +1265,9 @@
    "4": {
     "total": 17,
     "part_sum": 17,
-    "ms": 15,
-    "ok": false,
-    "why": "MS marks 15 != QP total 17"
+    "ms": 17,
+    "ok": true,
+    "why": ""
    },
    "5": {
     "total": 6,
@@ -1182,7 +1277,13 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": [
+   [
+    "2b)(iii)",
+    "2(b)(iii)"
+   ]
+  ]
  },
  "w16_23": {
   "pid": "w16_23",
@@ -1199,16 +1300,16 @@
    "2": {
     "total": 13,
     "part_sum": 13,
-    "ms": 14,
-    "ok": false,
-    "why": "MS marks 14 != QP total 13"
+    "ms": 13,
+    "ok": true,
+    "why": ""
    },
    "3": {
     "total": 14,
     "part_sum": 14,
-    "ms": 15,
-    "ok": false,
-    "why": "MS marks 15 != QP total 14"
+    "ms": 14,
+    "ok": true,
+    "why": ""
    },
    "4": {
     "total": 18,
@@ -1225,7 +1326,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w17_21": {
   "pid": "w17_21",
@@ -1254,7 +1356,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w17_22": {
   "pid": "w17_22",
@@ -1290,7 +1393,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w17_23": {
   "pid": "w17_23",
@@ -1319,7 +1423,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w18_21": {
   "pid": "w18_21",
@@ -1355,7 +1460,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w18_22": {
   "pid": "w18_22",
@@ -1391,7 +1497,13 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": [
+   [
+    "2b)(ii)",
+    "2(b)(ii)"
+   ]
+  ]
  },
  "w18_23": {
   "pid": "w18_23",
@@ -1427,7 +1539,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w19_21": {
   "pid": "w19_21",
@@ -1463,7 +1576,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w19_22": {
   "pid": "w19_22",
@@ -1499,7 +1613,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w19_23": {
   "pid": "w19_23",
@@ -1535,7 +1650,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w20_21": {
   "pid": "w20_21",
@@ -1571,7 +1687,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w20_22": {
   "pid": "w20_22",
@@ -1607,7 +1724,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w20_23": {
   "pid": "w20_23",
@@ -1643,7 +1761,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w21_21": {
   "pid": "w21_21",
@@ -1679,7 +1798,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w21_22": {
   "pid": "w21_22",
@@ -1708,7 +1828,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w21_23": {
   "pid": "w21_23",
@@ -1744,6 +1865,7 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  }
 }
