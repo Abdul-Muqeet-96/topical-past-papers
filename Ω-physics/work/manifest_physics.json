@@ -1,0 +1,441 @@
+{
+ "m24_22": {
+  "phase": "partb",
+  "series": "m",
+  "year": 2024,
+  "variant": 22,
+  "qp": {
+   "file": "9702_m24_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_m24_ms_22.pdf",
+   "pages": 13,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s24_21": {
+  "phase": "partb",
+  "series": "s",
+  "year": 2024,
+  "variant": 21,
+  "qp": {
+   "file": "9702_s24_qp_21.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_s24_ms_21.pdf",
+   "pages": 15,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s24_22": {
+  "phase": "partb",
+  "series": "s",
+  "year": 2024,
+  "variant": 22,
+  "qp": {
+   "file": "9702_s24_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_s24_ms_22.pdf",
+   "pages": 12,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s24_23": {
+  "phase": "partb",
+  "series": "s",
+  "year": 2024,
+  "variant": 23,
+  "qp": {
+   "file": "9702_s24_qp_23.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_s24_ms_23.pdf",
+   "pages": 12,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w24_21": {
+  "phase": "partb",
+  "series": "w",
+  "year": 2024,
+  "variant": 21,
+  "qp": {
+   "file": "9702_w24_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_w24_ms_21.pdf",
+   "pages": 11,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w24_22": {
+  "phase": "partb",
+  "series": "w",
+  "year": 2024,
+  "variant": 22,
+  "qp": {
+   "file": "9702_w24_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_w24_ms_22.pdf",
+   "pages": 11,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w24_23": {
+  "phase": "partb",
+  "series": "w",
+  "year": 2024,
+  "variant": 23,
+  "qp": {
+   "file": "9702_w24_qp_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_w24_ms_23.pdf",
+   "pages": 12,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "m25_22": {
+  "phase": "partb",
+  "series": "m",
+  "year": 2025,
+  "variant": 22,
+  "qp": {
+   "file": "9702_m25_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_m25_ms_22.pdf",
+   "pages": 13,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s25_21": {
+  "phase": "partb",
+  "series": "s",
+  "year": 2025,
+  "variant": 21,
+  "qp": {
+   "file": "9702_s25_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_s25_ms_21.pdf",
+   "pages": 14,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s25_22": {
+  "phase": "partb",
+  "series": "s",
+  "year": 2025,
+  "variant": 22,
+  "qp": {
+   "file": "9702_s25_qp_22.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_s25_ms_22.pdf",
+   "pages": 15,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s25_23": {
+  "phase": "partb",
+  "series": "s",
+  "year": 2025,
+  "variant": 23,
+  "qp": {
+   "file": "9702_s25_qp_23.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_s25_ms_23.pdf",
+   "pages": 13,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s25_24": {
+  "phase": "partb",
+  "series": "s",
+  "year": 2025,
+  "variant": 24,
+  "qp": {
+   "file": "9702_s25_qp_24.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_s25_ms_24.pdf",
+   "pages": 14,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w25_21": {
+  "phase": "partb",
+  "series": "w",
+  "year": 2025,
+  "variant": 21,
+  "qp": {
+   "file": "9702_w25_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_w25_ms_21.pdf",
+   "pages": 13,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w25_22": {
+  "phase": "partb",
+  "series": "w",
+  "year": 2025,
+  "variant": 22,
+  "qp": {
+   "file": "9702_w25_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_w25_ms_22.pdf",
+   "pages": 15,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w25_23": {
+  "phase": "partb",
+  "series": "w",
+  "year": 2025,
+  "variant": 23,
+  "qp": {
+   "file": "9702_w25_qp_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_w25_ms_23.pdf",
+   "pages": 13,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w25_24": {
+  "phase": "partb",
+  "series": "w",
+  "year": 2025,
+  "variant": 24,
+  "qp": {
+   "file": "9702_w25_qp_24.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_w25_ms_24.pdf",
+   "pages": 14,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "m26_22": {
+  "phase": "partb",
+  "series": "m",
+  "year": 2026,
+  "variant": 22,
+  "qp": {
+   "file": "9702_m26_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_m26_ms_22.pdf",
+   "pages": 14,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s26_21": {
+  "phase": "partb",
+  "series": "s",
+  "year": 2026,
+  "variant": 21,
+  "qp": {
+   "file": "9702_s26_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_s26_ms_21.pdf",
+   "status": "download_failed",
+   "error": "no file (HTTP 302, 287 bytes)"
+  },
+  "status": "excluded"
+ },
+ "s26_22": {
+  "phase": "partb",
+  "series": "s",
+  "year": 2026,
+  "variant": 22,
+  "qp": {
+   "file": "9702_s26_qp_22.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_s26_ms_22.pdf",
+   "pages": 21,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s26_23": {
+  "phase": "partb",
+  "series": "s",
+  "year": 2026,
+  "variant": 23,
+  "qp": {
+   "file": "9702_s26_qp_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_s26_ms_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "s26_24": {
+  "phase": "partb",
+  "series": "s",
+  "year": 2026,
+  "variant": 24,
+  "qp": {
+   "file": "9702_s26_qp_24.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_s26_ms_24.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ }
+}

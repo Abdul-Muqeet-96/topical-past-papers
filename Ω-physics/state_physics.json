@@ -1,0 +1,16 @@
+{
+ "branch": "claude/physics-p2-booklet",
+ "stages": {
+  "0": "done",
+  "1": "running",
+  "2": "todo",
+  "3": "todo",
+  "4": "todo",
+  "5": "todo",
+  "6": "todo",
+  "7": "todo"
+ },
+ "notes": {
+  "0": "scripts copied to scripts/physics and adapted (paths, 9702, Data/Formulae page, topics 1-11, no Data Booklet/Important values rules). Part B downloads: 21 attempted, 20 ok, s26_21 MS missing (HTTP 302) -> excluded. Manifest \u03a9-physics/work/manifest_physics.json. Syllabus LOs in \u03a9-physics/work/syllabus_AS.txt."
+ }
+}
