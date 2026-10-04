@@ -33,7 +33,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "m23_22": {
   "pid": "m23_22",
@@ -69,7 +70,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "m24_22": {
   "pid": "m24_22",
@@ -105,7 +107,13 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": [
+   [
+    "4(c)(iv)",
+    "4(c)(iii)"
+   ]
+  ]
  },
  "m25_22": {
   "pid": "m25_22",
@@ -141,7 +149,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "m26_22": {
   "pid": "m26_22",
@@ -177,7 +186,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s22_21": {
   "pid": "s22_21",
@@ -213,7 +223,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s22_22": {
   "pid": "s22_22",
@@ -263,7 +274,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s22_23": {
   "pid": "s22_23",
@@ -306,7 +318,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s23_21": {
   "pid": "s23_21",
@@ -349,7 +362,13 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": [
+   [
+    "1f(ii)",
+    "1(f)(ii)"
+   ]
+  ]
  },
  "s23_22": {
   "pid": "s23_22",
@@ -392,7 +411,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s23_23": {
   "pid": "s23_23",
@@ -442,7 +462,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s24_21": {
   "pid": "s24_21",
@@ -492,7 +513,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s24_22": {
   "pid": "s24_22",
@@ -535,7 +557,8 @@
     "why": "MS marks 0 != QP total 8"
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s24_23": {
   "pid": "s24_23",
@@ -578,7 +601,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s25_21": {
   "pid": "s25_21",
@@ -628,7 +652,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s25_22": {
   "pid": "s25_22",
@@ -671,7 +696,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s25_23": {
   "pid": "s25_23",
@@ -721,7 +747,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s25_24": {
   "pid": "s25_24",
@@ -771,7 +798,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s26_21": {
   "pid": "s26_21",
@@ -814,7 +842,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s26_22": {
   "pid": "s26_22",
@@ -864,7 +893,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s26_23": {
   "pid": "s26_23",
@@ -907,7 +937,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "s26_24": {
   "pid": "s26_24",
@@ -950,7 +981,13 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": [
+   [
+    "5f)",
+    "5(f)"
+   ]
+  ]
  },
  "w22_21": {
   "pid": "w22_21",
@@ -993,7 +1030,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w22_22": {
   "pid": "w22_22",
@@ -1022,7 +1060,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w22_23": {
   "pid": "w22_23",
@@ -1065,7 +1104,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w23_21": {
   "pid": "w23_21",
@@ -1096,12 +1136,18 @@
    "4": {
     "total": 16,
     "part_sum": 16,
-    "ms": 15,
-    "ok": false,
-    "why": "MS marks 15 != QP total 16"
+    "ms": 16,
+    "ok": true,
+    "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": [
+   [
+    "4(a(i)",
+    "4(a)(i)"
+   ]
+  ]
  },
  "w23_22": {
   "pid": "w23_22",
@@ -1137,7 +1183,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w23_23": {
   "pid": "w23_23",
@@ -1168,12 +1215,18 @@
    "4": {
     "total": 16,
     "part_sum": 16,
-    "ms": 15,
-    "ok": false,
-    "why": "MS marks 15 != QP total 16"
+    "ms": 16,
+    "ok": true,
+    "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": [
+   [
+    "4(a(i)",
+    "4(a)(i)"
+   ]
+  ]
  },
  "w24_21": {
   "pid": "w24_21",
@@ -1209,7 +1262,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w24_22": {
   "pid": "w24_22",
@@ -1245,7 +1299,8 @@
     "why": "MS marks 14 != QP total 17"
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w24_23": {
   "pid": "w24_23",
@@ -1281,7 +1336,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w25_21": {
   "pid": "w25_21",
@@ -1317,7 +1373,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w25_22": {
   "pid": "w25_22",
@@ -1353,7 +1410,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w25_23": {
   "pid": "w25_23",
@@ -1389,7 +1447,8 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  },
  "w25_24": {
   "pid": "w25_24",
@@ -1425,6 +1484,7 @@
     "why": ""
    }
   },
-  "issues": []
+  "issues": [],
+  "ms_label_fixes": []
  }
 }

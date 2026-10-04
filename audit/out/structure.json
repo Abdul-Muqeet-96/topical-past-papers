@@ -29,17 +29,10 @@
  "pages_with_bad_number": 0,
  "bad_number_examples": [],
  "page_labels_set": false,
- "toc_entries": 0,
+ "toc_entries": 47,
  "branding_hits": [],
  "newest_first_violations": 0,
  "order_examples": [],
- "last_page_head": "Chemistry 9701 Paper 2 Topical Workbook\n1273\nAppendix: Periodic Table\nAppendix: The Periodic Table of Elements (from M/J 26/P24)\nGroup\nThe Periodic Table of Elements\n1\nH\nhydrogen\n1.0\n2\nHe\nhelium\n4.0\n1",
- "contents_fail": [
-  [
-   "contents-page-wrong",
-   "Topic index",
-   1246,
-   null
-  ]
- ]
+ "last_page_head": "Chemistry 9701 Paper 2 Topical Workbook\n1159\nAppendix: Periodic Table\nAppendix: The Periodic Table of Elements (from M/J 26/P24)\nGroup\nThe Periodic Table of Elements\n1\nH\nhydrogen\n1.0\n2\nHe\nhelium\n4.0\n1",
+ "contents_fail": []
 }

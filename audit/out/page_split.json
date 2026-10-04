@@ -1,26 +1,14 @@
 [
 {
-"ref": "M/J 22/P23/Q3(b)",
-"side": "Q",
-"src": "9701_s22_qp_23.pdf",
-"srcpage": 6,
-"cut_src_y": 117.1,
+"ref": "MAR 21/P22/Q2/g(i,ii,iv,v,vi)",
+"side": "A",
+"src": "9701_m21_ms_22.pdf",
+"srcpage": 8,
+"cut_src_y": 160.8,
 "book_pages": [
-690,
-691
+784,
+785
 ],
-"crossing_px": 8
-},
-{
-"ref": "MAR 16/P22/Q5(a)(i)",
-"side": "Q",
-"src": "9701_m16_qp_22.pdf",
-"srcpage": 12,
-"cut_src_y": 493.3,
-"book_pages": [
-1163,
-1164
-],
-"crossing_px": 338
+"crossing_px": 2
 }
 ]

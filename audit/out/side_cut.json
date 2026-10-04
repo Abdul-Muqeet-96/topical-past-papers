@@ -1,15 +1,28 @@
 [
 {
-"ref": "M/J 19/P22/Q1(c)",
-"side": "Q",
-"src": "9701_s19_qp_22.pdf",
-"srcpage": 3,
-"word": "/",
-"x": 29,
+"ref": "M/J 15/P21/Q1/b(ii)",
+"side": "A",
+"src": "9701_s15_qp_21.pdf",
+"srcpage": 2,
+"word": "[3]",
+"x": 754,
 "clip_x": [
-40,
-556
+109,
+734
 ],
-"bookpage": 378
+"bookpage": 1159
+},
+{
+"ref": "M/J 15/P21/Q1/b(ii)",
+"side": "A",
+"src": "9701_s15_qp_21.pdf",
+"srcpage": 2,
+"word": "[3]",
+"x": 754,
+"clip_x": [
+109,
+734
+],
+"bookpage": 1159
 }
 ]

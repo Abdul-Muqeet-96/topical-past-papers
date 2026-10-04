@@ -1,346 +1,5 @@
 [
 {
-"paper": "m19_22",
-"leaf": "1(d)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
-"paper": "m19_22",
-"leaf": "1(d)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
-"paper": "m19_22",
-"leaf": "1(d)(iii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
-"paper": "m19_22",
-"leaf": "3(a)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"item [marks] 3 != MS marks 0"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "1(a)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "1(b)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "1(b)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "1(c)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "1(c)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "1(c)(iii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "1(d)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "1(d)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "2(a)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "2(a)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "2(a)(iii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "2(a)(iv)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "2(b)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "2(c)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "2(c)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "2(c)(iii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "2(c)(iv)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "2(c)(v)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "3(a)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "3(b)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "3(b)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "3(c)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "3(c)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "4(a)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "4(b)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "4(b)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
-"paper": "s15_21",
-"leaf": "4(b)(iii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"no questions found in QP text layer"
-]
-},
-{
 "paper": "s15_22",
 "leaf": "1(c)(i)",
 "status": "MISSING",
@@ -385,39 +44,6 @@
 ]
 },
 {
-"paper": "s15_22",
-"leaf": "3(a)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
-"paper": "s15_22",
-"leaf": "3(a)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
-"paper": "s15_22",
-"leaf": "3(a)(iii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
 "paper": "s15_23",
 "leaf": "2(b)(iv)",
 "status": "MISSING",
@@ -452,101 +78,13 @@
 },
 {
 "paper": "s16_23",
-"leaf": "2(a)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 35 != QP total 19"
-]
-},
-{
-"paper": "s16_23",
-"leaf": "2(b)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 35 != QP total 19"
-]
-},
-{
-"paper": "s16_23",
-"leaf": "2(b)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 35 != QP total 19"
-]
-},
-{
-"paper": "s16_23",
-"leaf": "2(b)(iii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 35 != QP total 19"
-]
-},
-{
-"paper": "s16_23",
-"leaf": "2(b)(iv)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 35 != QP total 19"
-]
-},
-{
-"paper": "s16_23",
-"leaf": "2(c)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 35 != QP total 19"
-]
-},
-{
-"paper": "s16_23",
-"leaf": "2(d)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 35 != QP total 19"
-]
-},
-{
-"paper": "s16_23",
-"leaf": "2(d)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 35 != QP total 19"
-]
-},
-{
-"paper": "s16_23",
 "leaf": "2(e)",
 "status": "MISSING",
 "items": [],
 "cls": "missing, reason stated in report.md",
 "stated": [
-"Paper-level verification failures",
-"MS marks 35 != QP total 19"
+"Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
+"no clear match in current learning outcomes"
 ]
 },
 {
@@ -556,8 +94,8 @@
 "items": [],
 "cls": "missing, reason stated in report.md",
 "stated": [
-"Paper-level verification failures",
-"MS marks 32 != QP total 17"
+"Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
+"no clear match in current learning outcomes"
 ]
 },
 {
@@ -567,8 +105,8 @@
 "items": [],
 "cls": "missing, reason stated in report.md",
 "stated": [
-"Paper-level verification failures",
-"MS marks 32 != QP total 17"
+"Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
+"no clear match in current learning outcomes"
 ]
 },
 {
@@ -578,63 +116,8 @@
 "items": [],
 "cls": "missing, reason stated in report.md",
 "stated": [
-"Paper-level verification failures",
-"MS marks 32 != QP total 17"
-]
-},
-{
-"paper": "s16_23",
-"leaf": "3(b)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 32 != QP total 17"
-]
-},
-{
-"paper": "s16_23",
-"leaf": "3(b)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 32 != QP total 17"
-]
-},
-{
-"paper": "s16_23",
-"leaf": "3(c)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 32 != QP total 17"
-]
-},
-{
-"paper": "s16_23",
-"leaf": "3(c)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 32 != QP total 17"
-]
-},
-{
-"paper": "s16_23",
-"leaf": "3(c)(iii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 32 != QP total 17"
+"Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
+"no clear match in current learning outcomes"
 ]
 },
 {
@@ -644,8 +127,8 @@
 "items": [],
 "cls": "missing, reason stated in report.md",
 "stated": [
-"Paper-level verification failures",
-"MS marks 32 != QP total 17"
+"Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
+"no clear match in current learning outcomes"
 ]
 },
 {
@@ -684,6 +167,17 @@
 {
 "paper": "s17_21",
 "leaf": "3(d)(i)",
+"status": "MISSING",
+"items": [],
+"cls": "missing, reason stated in report.md",
+"stated": [
+"Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
+"no clear match in current learning outcomes"
+]
+},
+{
+"paper": "s17_21",
+"leaf": "3(d)(ii)",
 "status": "MISSING",
 "items": [],
 "cls": "missing, reason stated in report.md",
@@ -804,116 +298,6 @@
 },
 {
 "paper": "s18_22",
-"leaf": "2(b)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"item [marks] 4 != MS marks 8"
-]
-},
-{
-"paper": "s18_22",
-"leaf": "2(b)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"item [marks] 4 != MS marks 8"
-]
-},
-{
-"paper": "s18_22",
-"leaf": "2(c)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"item [marks] 4 != MS marks 0"
-]
-},
-{
-"paper": "s18_22",
-"leaf": "2(c)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"item [marks] 4 != MS marks 0"
-]
-},
-{
-"paper": "s18_22",
-"leaf": "3(b)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"item [marks] 4 != MS marks 7"
-]
-},
-{
-"paper": "s18_22",
-"leaf": "3(b)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"item [marks] 4 != MS marks 7"
-]
-},
-{
-"paper": "s18_22",
-"leaf": "3(b)(iii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"item [marks] 4 != MS marks 7"
-]
-},
-{
-"paper": "s18_22",
-"leaf": "3(c)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"item [marks] 3 != MS marks 0"
-]
-},
-{
-"paper": "s18_22",
-"leaf": "3(c)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"item [marks] 3 != MS marks 0"
-]
-},
-{
-"paper": "s18_22",
-"leaf": "3(c)(iii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"item [marks] 3 != MS marks 0"
-]
-},
-{
-"paper": "s18_22",
 "leaf": "3(d)(i)",
 "status": "MISSING",
 "items": [],
@@ -921,17 +305,6 @@
 "stated": [
 "Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
 "no clear match in current learning outcomes"
-]
-},
-{
-"paper": "s19_21",
-"leaf": "2(e)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
 ]
 },
 {
@@ -954,17 +327,6 @@
 "stated": [
 "Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
 "no clear match in current learning outcomes"
-]
-},
-{
-"paper": "s20_21",
-"leaf": "2(b)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
 ]
 },
 {
@@ -1119,39 +481,6 @@
 "stated": [
 "Paper-level verification failures",
 "MS marks 10 != QP total 12"
-]
-},
-{
-"paper": "s20_22",
-"leaf": "3(d)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
-"paper": "s20_22",
-"leaf": "3(d)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
-"paper": "s20_22",
-"leaf": "5(c)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"item [marks] 1 != MS marks 0"
 ]
 },
 {
@@ -1574,39 +903,6 @@
 },
 {
 "paper": "s21_21",
-"leaf": "2(a)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
-"paper": "s21_21",
-"leaf": "2(a)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
-"paper": "s21_21",
-"leaf": "2(d)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
-"paper": "s21_21",
 "leaf": "5(a)(ii)",
 "status": "MISSING",
 "items": [],
@@ -1838,39 +1134,6 @@
 },
 {
 "paper": "w15_21",
-"leaf": "2(b)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
-"paper": "w15_21",
-"leaf": "2(b)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
-"paper": "w15_21",
-"leaf": "2(b)(iii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
-"paper": "w15_21",
 "leaf": "2(d)(i)",
 "status": "MISSING",
 "items": [],
@@ -1981,39 +1244,6 @@
 },
 {
 "paper": "w15_23",
-"leaf": "2(b)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
-"paper": "w15_23",
-"leaf": "2(b)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
-"paper": "w15_23",
-"leaf": "2(b)(iii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
-"paper": "w15_23",
 "leaf": "2(d)(i)",
 "status": "MISSING",
 "items": [],
@@ -2036,409 +1266,13 @@
 },
 {
 "paper": "w16_21",
-"leaf": "2(a)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 14 != QP total 13"
-]
-},
-{
-"paper": "w16_21",
-"leaf": "2(a)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 14 != QP total 13"
-]
-},
-{
-"paper": "w16_21",
-"leaf": "2(b)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 14 != QP total 13"
-]
-},
-{
-"paper": "w16_21",
-"leaf": "2(b)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 14 != QP total 13"
-]
-},
-{
-"paper": "w16_21",
-"leaf": "2(b)(iii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 14 != QP total 13"
-]
-},
-{
-"paper": "w16_21",
-"leaf": "2(c)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 14 != QP total 13"
-]
-},
-{
-"paper": "w16_21",
-"leaf": "2(c)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 14 != QP total 13"
-]
-},
-{
-"paper": "w16_21",
-"leaf": "3(a)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 14"
-]
-},
-{
-"paper": "w16_21",
-"leaf": "3(a)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 14"
-]
-},
-{
-"paper": "w16_21",
-"leaf": "3(b)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 14"
-]
-},
-{
-"paper": "w16_21",
-"leaf": "3(b)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 14"
-]
-},
-{
-"paper": "w16_21",
-"leaf": "3(b)(iii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 14"
-]
-},
-{
-"paper": "w16_21",
-"leaf": "3(c)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 14"
-]
-},
-{
-"paper": "w16_21",
 "leaf": "3(c)(ii)",
 "status": "MISSING",
 "items": [],
 "cls": "missing, reason stated in report.md",
 "stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 14"
-]
-},
-{
-"paper": "w16_21",
-"leaf": "3(d)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 14"
-]
-},
-{
-"paper": "w16_22",
-"leaf": "4(a)(i)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 17"
-]
-},
-{
-"paper": "w16_22",
-"leaf": "4(a)(ii)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 17"
-]
-},
-{
-"paper": "w16_22",
-"leaf": "4(a)(iii)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 17"
-]
-},
-{
-"paper": "w16_22",
-"leaf": "4(b)(i)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 17"
-]
-},
-{
-"paper": "w16_22",
-"leaf": "4(b)(ii)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 17"
-]
-},
-{
-"paper": "w16_22",
-"leaf": "4(b)(iii)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 17"
-]
-},
-{
-"paper": "w16_22",
-"leaf": "4(c)(i)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 17"
-]
-},
-{
-"paper": "w16_22",
-"leaf": "4(c)(ii)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 17"
-]
-},
-{
-"paper": "w16_22",
-"leaf": "4(c)(iii)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 17"
-]
-},
-{
-"paper": "w16_23",
-"leaf": "2(a)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 14 != QP total 13"
-]
-},
-{
-"paper": "w16_23",
-"leaf": "2(a)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 14 != QP total 13"
-]
-},
-{
-"paper": "w16_23",
-"leaf": "2(b)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 14 != QP total 13"
-]
-},
-{
-"paper": "w16_23",
-"leaf": "2(b)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 14 != QP total 13"
-]
-},
-{
-"paper": "w16_23",
-"leaf": "2(b)(iii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 14 != QP total 13"
-]
-},
-{
-"paper": "w16_23",
-"leaf": "2(c)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 14 != QP total 13"
-]
-},
-{
-"paper": "w16_23",
-"leaf": "2(c)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 14 != QP total 13"
-]
-},
-{
-"paper": "w16_23",
-"leaf": "3(a)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 14"
-]
-},
-{
-"paper": "w16_23",
-"leaf": "3(a)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 14"
-]
-},
-{
-"paper": "w16_23",
-"leaf": "3(b)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 14"
-]
-},
-{
-"paper": "w16_23",
-"leaf": "3(b)(ii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 14"
-]
-},
-{
-"paper": "w16_23",
-"leaf": "3(b)(iii)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 14"
-]
-},
-{
-"paper": "w16_23",
-"leaf": "3(c)(i)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 14"
+"Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
+"no clear match in current learning outcomes"
 ]
 },
 {
@@ -2448,19 +1282,8 @@
 "items": [],
 "cls": "missing, reason stated in report.md",
 "stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 14"
-]
-},
-{
-"paper": "w16_23",
-"leaf": "3(d)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 14"
+"Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
+"no clear match in current learning outcomes"
 ]
 },
 {
@@ -2493,7 +1316,29 @@
 "cls": "missing, reason stated in report.md",
 "stated": [
 "Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
-"no clear match in current learning outcomes"
+"contains out-of-syllabus sub-part(s) ['(a)(i)'] that cannot be separated ((a)(iii) depends on sibling ['(a)(ii)'])"
+]
+},
+{
+"paper": "w18_21",
+"leaf": "3(a)(ii)",
+"status": "MISSING",
+"items": [],
+"cls": "missing, reason stated in report.md",
+"stated": [
+"Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
+"contains out-of-syllabus sub-part(s) ['(a)(i)'] that cannot be separated ((a)(iii) depends on sibling ['(a)(ii)'])"
+]
+},
+{
+"paper": "w18_21",
+"leaf": "3(a)(iii)",
+"status": "MISSING",
+"items": [],
+"cls": "missing, reason stated in report.md",
+"stated": [
+"Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
+"contains out-of-syllabus sub-part(s) ['(a)(i)'] that cannot be separated ((a)(iii) depends on sibling ['(a)(ii)'])"
 ]
 },
 {
@@ -2541,17 +1386,6 @@
 ]
 },
 {
-"paper": "w18_22",
-"leaf": "2(f)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
 "paper": "w18_23",
 "leaf": "2(c)",
 "status": "MISSING",
@@ -2581,7 +1415,29 @@
 "cls": "missing, reason stated in report.md",
 "stated": [
 "Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
-"no clear match in current learning outcomes"
+"contains out-of-syllabus sub-part(s) ['(a)(i)'] that cannot be separated ((a)(iii) depends on sibling ['(a)(ii)'])"
+]
+},
+{
+"paper": "w18_23",
+"leaf": "3(a)(ii)",
+"status": "MISSING",
+"items": [],
+"cls": "missing, reason stated in report.md",
+"stated": [
+"Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
+"contains out-of-syllabus sub-part(s) ['(a)(i)'] that cannot be separated ((a)(iii) depends on sibling ['(a)(ii)'])"
+]
+},
+{
+"paper": "w18_23",
+"leaf": "3(a)(iii)",
+"status": "MISSING",
+"items": [],
+"cls": "missing, reason stated in report.md",
+"stated": [
+"Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
+"contains out-of-syllabus sub-part(s) ['(a)(i)'] that cannot be separated ((a)(iii) depends on sibling ['(a)(ii)'])"
 ]
 },
 {
@@ -2640,6 +1496,17 @@
 ]
 },
 {
+"paper": "w19_21",
+"leaf": "3(a)(iv)",
+"status": "MISSING",
+"items": [],
+"cls": "missing, reason stated in report.md",
+"stated": [
+"Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
+"no clear match in current learning outcomes"
+]
+},
+{
 "paper": "w19_22",
 "leaf": "3(b)(iii)",
 "status": "MISSING",
@@ -2653,6 +1520,17 @@
 {
 "paper": "w19_23",
 "leaf": "3(a)(ii)",
+"status": "MISSING",
+"items": [],
+"cls": "missing, reason stated in report.md",
+"stated": [
+"Out-of-syllabus (Phase 2; not clearly covered by the 2025\u201327 learning outcomes)",
+"no clear match in current learning outcomes"
+]
+},
+{
+"paper": "w19_23",
+"leaf": "3(a)(iv)",
 "status": "MISSING",
 "items": [],
 "cls": "missing, reason stated in report.md",
@@ -2827,17 +1705,6 @@
 ]
 },
 {
-"paper": "w21_21",
-"leaf": "4(b)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
 "paper": "w21_23",
 "leaf": "1(a)(i)",
 "status": "excluded:question excluded (my MS check)",
@@ -2992,17 +1859,6 @@
 ]
 },
 {
-"paper": "w21_23",
-"leaf": "4(b)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"needs the Data Booklet (separate document, not included)"
-]
-},
-{
 "paper": "w22_21",
 "leaf": "4(a)",
 "status": "excluded:question excluded (my MS check)",
@@ -3110,226 +1966,6 @@
 "stated": [
 "Paper-level verification failures",
 "MS marks 10 != QP total 14"
-]
-},
-{
-"paper": "w23_21",
-"leaf": "4(a)(i)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_21",
-"leaf": "4(a)(ii)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_21",
-"leaf": "4(a)(iii)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_21",
-"leaf": "4(a)(iv)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_21",
-"leaf": "4(a)(v)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_21",
-"leaf": "4(b)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_21",
-"leaf": "4(c)(i)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_21",
-"leaf": "4(c)(ii)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_21",
-"leaf": "4(c)(iii)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_21",
-"leaf": "4(d)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_23",
-"leaf": "4(a)(i)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_23",
-"leaf": "4(a)(ii)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_23",
-"leaf": "4(a)(iii)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_23",
-"leaf": "4(a)(iv)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_23",
-"leaf": "4(a)(v)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_23",
-"leaf": "4(b)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_23",
-"leaf": "4(c)(i)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_23",
-"leaf": "4(c)(ii)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_23",
-"leaf": "4(c)(iii)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
-]
-},
-{
-"paper": "w23_23",
-"leaf": "4(d)",
-"status": "excluded:question excluded (my MS check)",
-"items": [],
-"cls": "excluded by me too; build reason stated",
-"stated": [
-"Paper-level verification failures",
-"MS marks 15 != QP total 16"
 ]
 },
 {
@@ -3836,28 +2472,6 @@
 "stated": [
 "Paper-level verification failures",
 "MS marks 18 != QP total 20"
-]
-},
-{
-"paper": "s26_24",
-"leaf": "5(e)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"item [marks] 1 != MS marks 3"
-]
-},
-{
-"paper": "s26_24",
-"leaf": "5(f)",
-"status": "MISSING",
-"items": [],
-"cls": "missing, reason stated in report.md",
-"stated": [
-"Item exclusions",
-"item [marks] 2 != MS marks 0"
 ]
 }
 ]
