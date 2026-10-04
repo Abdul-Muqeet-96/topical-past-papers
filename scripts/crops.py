@@ -168,7 +168,7 @@ def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
     for w in words:
         if w[0] < XMIN or w[2] > XMAX:
             continue
-        if (w[1] + w[3]) / 2 < ry0 and w[3] > ry0 + 0.3:
+        if ((w[1] + w[3]) / 2 < ry0 or w[1] < ry0 - 3) and w[3] > ry0 + 0.3:
             wos.append(pymupdf.Rect(w[0] - 0.5, ry0 - 1, w[2] + 0.5, w[3] + 0.5))
         if (w[1] + w[3]) / 2 >= ry0 and (w[1] + w[3]) / 2 < ry1 and w[3] > ry1 and w[3] - ry1 < 8:
             ext = max(ext, min(w[3] + 1, bot))
