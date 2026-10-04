@@ -36,17 +36,16 @@ and Claude Code teaching the student, so every item must have readable text
 - Commit and push after every stage; progress in `state_physics.json` so a new
   session can resume.
 
-## Token budget (important)
-- All heavy work in Python scripts; print counts and short summaries only.
-- OCR runs locally with tesseract (about 1.3 s per page here). Never read page
-  images to get text. No websites (no smallpdf etc.).
-- Vision budget for the whole run: about 80 page images. Use it for spot
-  checks and for anything a script cannot decide; render at 60-75 dpi.
-- Reuse code: copy `scripts/` to `scripts/physics/` and adapt. Do not
-  rewrite the pipeline, and do not edit the Chemistry scripts.
-- At most 3 full rebuilds. Batch fixes before rebuilding. Run long jobs in the
-  background and wait with a check that cannot match its own command line
-  (e.g. wait on a marker file, not `pgrep -f` on a pattern in the loop).
+## Quality first (cost is not a constraint)
+- Accuracy and quality come before token use. Never skip a check, a fix or a
+  visual inspection to save tokens; rebuild as many times as needed until the
+  checks pass.
+- Still work efficiently: heavy work in Python scripts, print counts and short
+  summaries, OCR locally with tesseract (no websites), reuse code (copy
+  `scripts/` to `scripts/physics/` and adapt; don't edit the Chemistry scripts).
+- Use images whenever text or coordinates can't settle a question, and for all
+  the visual checks below. Wait for background jobs with a check that can't
+  match its own command line (a marker file or PID, not `pgrep -f`).
 
 ## Part A: the booklet
 1. OCR every page (tesseract 300 dpi, `--oem 1 --psm 3 -l eng`, 4 jobs in
@@ -75,9 +74,10 @@ and Claude Code teaching the student, so every item must have readable text
    - every item has an answer with the same number, and vice versa;
    - references parse; no duplicate items; years ≤ 2023;
    - item counts per unit and page ranges match the booklet contents page;
-   - 2 items per unit (22 in all): compare the item's printed [marks] with
-     the official QP of that paper (download only those papers) and look at
-     the images side by side for missing figures or text;
+   - 5 items per unit (55 in all, spread across years): compare the item's
+     printed [marks] with the official QP of that paper (download only those
+     papers) and view the images side by side for missing figures or text;
+     if more than 2 problems are found in a unit, check every item of that unit;
    - flag (do not remove) items that clearly test content outside the 2025-27
      AS syllabus: add a small grey note "May be outside the 2025–27 syllabus"
      and list them in report.md.
@@ -128,12 +128,14 @@ say so); topics.json (Part B leaves; booklet items with their unit);
 report.md; SUMMARY.md; booklet-ocr.pdf. Any file over 95 MB: don't push it,
 note it in SUMMARY.md.
 
-## Final self-check (one pass, then fix, then re-run only what failed)
+## Final self-check (repeat check → fix → rebuild until everything passes)
 Adapt and run the relevant `audit/scripts` checks on the physics book: paper
 checks and coverage (Part B), item/index/items.jsonl/unit PDF consistency,
 structure (contents, headers, bookmarks), crop checks (clipped text, figures,
 furniture, visible dotted lines, page splits), self-containment (Part B),
-file checks (qpdf, sizes). Visual: 3 Part B items and 2 booklet items per
-unit at low dpi. Write `audit/PHYSICS_CHECK.md` with every check: PASS / FAIL /
+file checks (qpdf, sizes). Visual: at least 15 Part B items (or all, if fewer)
+and 5 booklet items per unit, plus every automated flag, viewed at a
+readable dpi (≥ 90); the answers too. After every rebuild, re-run all checks,
+not only the failed ones. Write `audit/PHYSICS_CHECK.md` with every check: PASS / FAIL /
 NOT RUN, with counts and the script used. Keep report.md and SUMMARY.md
 accurate (no claim without a check behind it).

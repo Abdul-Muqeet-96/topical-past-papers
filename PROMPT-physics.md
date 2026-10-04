@@ -10,9 +10,10 @@ Paste this one line into a fresh session:
 
 Build the Physics 9702 Paper 2 topical workbook described in `CLAUDE.md`, in
 one unattended run. `CLAUDE.md` is the specification; if this prompt and
-`CLAUDE.md` ever disagree, follow `CLAUDE.md`. Work cheaply: scripts do the heavy
-lifting, you print only counts and short summaries, and you read images only
-within the vision budget.
+`CLAUDE.md` ever disagree, follow `CLAUDE.md`. Quality and accuracy come first;
+cost is not a constraint. Never skip a check, a fix or a visual inspection to
+save tokens. Still let scripts do the heavy lifting and print only counts and
+short summaries.
 
 ## Setup
 1. `git fetch origin claude/audit-fixes`, check it out, then create the branch
@@ -42,8 +43,9 @@ within the vision budget.
    report.md, SUMMARY.md. Render 3 sample pages (cover/contents, a Part B
    page, a booklet page) and fix obvious problems.
 6. **Self-check** (the final section of `CLAUDE.md`): write
-   `audit/PHYSICS_CHECK.md`, fix what failed (batch the fixes, at most 2 more
-   rebuilds), re-run only what failed, and commit.
+   `audit/PHYSICS_CHECK.md`, fix what failed, rebuild, and re-run all checks;
+   repeat until everything passes or the remaining issue cannot be fixed
+   (then report exactly why). Commit after each round.
 7. **Finish**: update SUMMARY.md with what was done, counts per unit (Part A
    and Part B), files and sizes, and what is still open. Your final message:
    a compact summary table, the open issues, and the branch name.
