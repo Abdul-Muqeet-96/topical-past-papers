@@ -1,0 +1,11308 @@
+[
+{
+"ref": "M/J 26/P21/Q1(b)",
+"page": 5,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q1(a)",
+"page": 5,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q2(a)",
+"page": 6,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q2(b)",
+"page": 6,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q2(a)",
+"page": 7,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q5(b)(i)",
+"page": 7,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q1(a)",
+"page": 8,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q1(a)",
+"page": 9,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q2(a)",
+"page": 9,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q2(b)(ii)",
+"page": 10,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q2(c)",
+"page": 10,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q2(d)",
+"page": 10,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q2(e)",
+"page": 11,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q2(b)",
+"page": 11,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q2(c)",
+"page": 11,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q2(d)",
+"page": 11,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q2(e)",
+"page": 11,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q1(a)",
+"page": 12,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q1(b)",
+"page": 12,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q1(c)",
+"page": 12,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 25/P22/Q2(b)",
+"page": 14,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "MAR 25/P22/Q2(c)",
+"page": 15,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 24/P21/Q1(a)",
+"page": 16,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P21/Q1(b)",
+"page": 16,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P21/Q3(c)",
+"page": 17,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 24/P22/Q1(a)",
+"page": 18,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P22/Q1(b)(i)",
+"page": 18,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P22/Q3(c)",
+"page": 19,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P23/Q1(a)",
+"page": 20,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P23/Q1(b)",
+"page": 20,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P23/Q3(c)",
+"page": 21,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 24/P22/Q1(a)",
+"page": 21,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 24/P22/Q1(b)",
+"page": 22,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 24/P22/Q3(c)",
+"page": 22,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 23/P21/Q1(a)",
+"page": 22,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 23/P21/Q1(b)",
+"page": 23,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 23/P22/Q1(b)",
+"page": 24,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 23/P23/Q1(a)",
+"page": 25,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 23/P23/Q1(b)",
+"page": 26,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 23/P21/Q1(a)",
+"page": 26,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q1(b)",
+"page": 26,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q1(c)",
+"page": 27,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q1(d)",
+"page": 27,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q1(d)(iii)",
+"page": 27,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q1(c)",
+"page": 28,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 22/P21/Q1(a)(i)",
+"page": 28,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 22/P21/Q1(b)",
+"page": 29,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q1(b)",
+"page": 29,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 22/P23/Q1(a)(i)",
+"page": 30,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 22/P23/Q1(b)",
+"page": 30,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q1(a)",
+"page": 31,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q1(d)",
+"page": 31,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q1(e)(iii)",
+"page": 31,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q4(b)(iii)",
+"page": 32,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q1(a)",
+"page": 32,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q1(b)",
+"page": 32,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 22/P23/Q1(c)",
+"page": 32,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q1(d)",
+"page": 33,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q1(e)",
+"page": 33,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q1(a)",
+"page": 33,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q1(b)",
+"page": 34,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q1(c)",
+"page": 35,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 21/P22/Q2(a)(ii)-(iii)",
+"page": 36,
+"unit": 1,
+"issues": [
+[
+"label used once",
+"M"
+]
+]
+},
+{
+"ref": "O/N 21/P22/Q2(a)(v)",
+"page": 36,
+"unit": 1,
+"issues": [
+[
+"label used once",
+"M"
+]
+]
+},
+{
+"ref": "M/J 21/P22/Q1(f)(ii)",
+"page": 37,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q2(b)",
+"page": 37,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q2(g)(iii)",
+"page": 37,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q1(a)",
+"page": 38,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q1(b)",
+"page": 38,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q1(c)",
+"page": 39,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q3(a)(iii)",
+"page": 39,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q1(a)",
+"page": 40,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q1(b)(i)-(iii)",
+"page": 41,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q1(c)",
+"page": 41,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q1(a)",
+"page": 42,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q1(b)",
+"page": 42,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q1(c)",
+"page": 43,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q3(a)(iii)",
+"page": 43,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q1(a)(i)",
+"page": 43,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 20/P22/Q1(c)",
+"page": 44,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q1(a)",
+"page": 45,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 19/P21/Q3(a)",
+"page": 45,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q3(b)",
+"page": 46,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q3(c)",
+"page": 46,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q1(a)",
+"page": 46,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q1(c)",
+"page": 47,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q1(d)",
+"page": 47,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q2(b)(i)",
+"page": 47,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 18/P21/Q1(a)(i)",
+"page": 48,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q1(a)",
+"page": 48,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q1(c)",
+"page": 48,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q4(e)(ii)-(iii)",
+"page": 49,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q1(a)(i)",
+"page": 49,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 18/P21/Q3(a)(ii)-(iii)",
+"page": 50,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 18/P21/Q3(b)",
+"page": 50,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q1(a)",
+"page": 51,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 18/P22/Q2(d)(ii)",
+"page": 51,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 17/P21/Q2(a)",
+"page": 52,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q3(a)",
+"page": 52,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 17/P23/Q2(a)",
+"page": 53,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 17/P21/Q3(a)(ii)",
+"page": 54,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 17/P21/Q3(a)(v)",
+"page": 54,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 17/P22/Q1(a)",
+"page": 55,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q1(a)(iii)",
+"page": 55,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 16/P22/Q3(a)",
+"page": 56,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 16/P21/Q1(a)",
+"page": 56,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q1(b)",
+"page": 57,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q1(c)",
+"page": 57,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 16/P22/Q1(a)",
+"page": 58,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 16/P22/Q1(b)",
+"page": 58,
+"unit": 1,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 16/P22/Q1(a)(ii)",
+"page": 58,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "O/N 15/P22/Q1(a)",
+"page": 59,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 15/P22/Q1(a)",
+"page": 59,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q1(a)",
+"page": 59,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q1(b)",
+"page": 59,
+"unit": 1,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q1(e)",
+"page": 79,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q4(b)(ii)-(iii)",
+"page": 79,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q1(b)",
+"page": 79,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q3(a)",
+"page": 80,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 25/P23/Q3(a)",
+"page": 80,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q3(b)(iv)",
+"page": 80,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q2(b)(i)",
+"page": 81,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q4(a)",
+"page": 81,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q4(b)(i)-(ii)",
+"page": 82,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q2(a)",
+"page": 83,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q5(a)",
+"page": 83,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q5(b)(i)-(ii)",
+"page": 84,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q5(a)(i)",
+"page": 85,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q3(a)",
+"page": 85,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q6(a)(i)-(ii)",
+"page": 86,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 24/P21/Q1(c)",
+"page": 86,
+"unit": 2,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P21/Q1(d)(i)",
+"page": 87,
+"unit": 2,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P22/Q1(b)(ii)-(iii)",
+"page": 87,
+"unit": 2,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P23/Q1(c)",
+"page": 88,
+"unit": 2,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P23/Q1(d)(i)",
+"page": 88,
+"unit": 2,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 24/P21/Q2(d)(i)",
+"page": 89,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q3(c)(ii)",
+"page": 89,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q1(e)",
+"page": 90,
+"unit": 2,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 23/P21/Q2(b)(i)",
+"page": 90,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q4(b)(ii)",
+"page": 91,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q2(e)(iii)",
+"page": 91,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q1(b)",
+"page": 92,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q3(b)(i)",
+"page": 92,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q5(a)",
+"page": 93,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q2(d)(ii)",
+"page": 93,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q3(a)(iv)",
+"page": 93,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 22/P21/Q1(a)(ii)-(iii)",
+"page": 94,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q1(d)",
+"page": 94,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 22/P23/Q1(a)(ii)-(iii)",
+"page": 95,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q1(e)(i)-(ii)",
+"page": 95,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q4(a)",
+"page": 96,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q4(b)(ii)",
+"page": 96,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q6(b)",
+"page": 96,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q1(f)(i)",
+"page": 97,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 21/P21/Q2(d)(i)",
+"page": 97,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 21/P23/Q2(d)(i)",
+"page": 98,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q1(a)",
+"page": 99,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q1(b)(i)",
+"page": 99,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q1(c)",
+"page": 99,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q1(e)",
+"page": 100,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q3(c)",
+"page": 100,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q2(f)(ii)",
+"page": 100,
+"unit": 2,
+"issues": [
+[
+"label used once",
+"Z"
+]
+]
+},
+{
+"ref": "M/J 20/P21/Q1(a)(ii)",
+"page": 101,
+"unit": 2,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 20/P22/Q1(a)",
+"page": 101,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 20/P22/Q1(b)",
+"page": 102,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q3(b)(i)",
+"page": 102,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q3(b)(i)",
+"page": 102,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q1(b)(i)",
+"page": 103,
+"unit": 2,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 19/P22/Q1(c)(i)",
+"page": 103,
+"unit": 2,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 19/P22/Q2(c)(ii)",
+"page": 103,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q3(b)(i)",
+"page": 104,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q4(c)",
+"page": 104,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q5(b)",
+"page": 104,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q1(b)",
+"page": 104,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q4(b)(i)",
+"page": 105,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q2(a)(i)",
+"page": 105,
+"unit": 2,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 19/P22/Q2(a)(iv)",
+"page": 105,
+"unit": 2,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 19/P22/Q2(d)(ii)",
+"page": 106,
+"unit": 2,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 18/P21/Q1(c)(ii)-(iv)",
+"page": 107,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q1(d)",
+"page": 108,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q3(c)(i)",
+"page": 108,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q1(c)(ii)-(iv)",
+"page": 109,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 18/P22/Q2(a)",
+"page": 109,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 18/P22/Q2(d)(iii)-(vi)",
+"page": 110,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 18/P22/Q4(e)",
+"page": 111,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q2(c)(ii)",
+"page": 112,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q2(c)(iv)",
+"page": 112,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 17/P21/Q1(a)",
+"page": 112,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 17/P21/Q1(b)(i)-(iii)",
+"page": 113,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 17/P22/Q1(b)",
+"page": 114,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q1(b)(i)-(iii)",
+"page": 115,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q1(c)(iii)",
+"page": 116,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q1(a)",
+"page": 116,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q1(b)",
+"page": 117,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q1(c)",
+"page": 117,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q1(d)",
+"page": 117,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q1(e)",
+"page": 118,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q1(f)",
+"page": 118,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q1(g)",
+"page": 118,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q1(h)",
+"page": 119,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 16/P22/Q1(a)-(b)",
+"page": 120,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q1(a)",
+"page": 121,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q1(b)",
+"page": 121,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q1(c)",
+"page": 121,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q1(d)",
+"page": 122,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q1(e)",
+"page": 122,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q1(f)",
+"page": 122,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q1(g)",
+"page": 123,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q1(h)",
+"page": 123,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q1(d)",
+"page": 123,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 16/P22/Q1(c)",
+"page": 124,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 16/P22/Q3(b)",
+"page": 124,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 16/P23/Q1(a)(i)",
+"page": 125,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 16/P23/Q1(a)(iii)-(vii)",
+"page": 125,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q2(a)",
+"page": 126,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 15/P22/Q1(b)",
+"page": 127,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 15/P22/Q1(c)(ii)",
+"page": 127,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 15/P22/Q2(a)(i)",
+"page": 127,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 15/P22/Q2(e)",
+"page": 128,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q1(c)",
+"page": 128,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q2(d)(iii)",
+"page": 129,
+"unit": 2,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q1(a)",
+"page": 147,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q1(c)",
+"page": 147,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q1(d)",
+"page": 148,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q1(b)",
+"page": 148,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q1(c)",
+"page": 149,
+"unit": 3,
+"issues": [
+[
+"dangling Fig.",
+"1.3"
+]
+]
+},
+{
+"ref": "M/J 26/P24/Q1(d)",
+"page": 150,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q2(a)(i)",
+"page": 150,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q2(a)(ii)",
+"page": 151,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q4(b)",
+"page": 151,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q3(d)(ii)",
+"page": 152,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q1(b)(v)",
+"page": 152,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q1(a)(ii)",
+"page": 152,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q4(b)",
+"page": 153,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q2(a)",
+"page": 154,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q3(d)(i)",
+"page": 154,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 25/P22/Q1(b)(ii)",
+"page": 155,
+"unit": 3,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 25/P22/Q2(a)",
+"page": 155,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 24/P21/Q3(a)(iii)",
+"page": 155,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 24/P21/Q3(d)",
+"page": 156,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 24/P22/Q2(a)(ii)",
+"page": 156,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 24/P22/Q2(c)",
+"page": 157,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 24/P22/Q3(b)(iv)",
+"page": 157,
+"unit": 3,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P22/Q3(f)(i)",
+"page": 157,
+"unit": 3,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P23/Q3(a)(iii)",
+"page": 158,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 24/P23/Q3(d)",
+"page": 158,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q2(b)",
+"page": 159,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q5(a)",
+"page": 159,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 24/P22/Q1(c)",
+"page": 159,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 24/P22/Q3(d)",
+"page": 160,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q1(a)(ii)",
+"page": 160,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q4(a)",
+"page": 160,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q1(a)",
+"page": 161,
+"unit": 3,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 24/P22/Q2(c)(i)",
+"page": 161,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q3(d)",
+"page": 162,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 23/P21/Q1(d)(iii)",
+"page": 163,
+"unit": 3,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 23/P22/Q4(a)(iii)",
+"page": 164,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 23/P23/Q1(d)(iii)",
+"page": 165,
+"unit": 3,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 23/P21/Q1(e)",
+"page": 166,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q1(b)",
+"page": 167,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q1(a)(ii)",
+"page": 167,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q1(a)",
+"page": 168,
+"unit": 3,
+"issues": [
+[
+"label used once",
+"H"
+]
+]
+},
+{
+"ref": "MAR 23/P22/Q1(b)",
+"page": 168,
+"unit": 3,
+"issues": [
+[
+"label used once",
+"H"
+]
+]
+},
+{
+"ref": "MAR 23/P22/Q1(e)(i)",
+"page": 169,
+"unit": 3,
+"issues": [
+[
+"label used once",
+"H"
+]
+]
+},
+{
+"ref": "MAR 23/P22/Q2(a)",
+"page": 169,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q3(d)(iv)",
+"page": 170,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 22/P21/Q2(a)",
+"page": 170,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 22/P21/Q3(d)",
+"page": 170,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q1(a)",
+"page": 171,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q1(c)(iii)",
+"page": 172,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q2(c)(i)",
+"page": 173,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q2(e)(ii)",
+"page": 173,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q2(f)(i)",
+"page": 174,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 22/P23/Q2(a)",
+"page": 174,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 22/P23/Q3(d)",
+"page": 174,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q2(a)",
+"page": 175,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q2(b)",
+"page": 175,
+"unit": 3,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 22/P23/Q3(a)(i)",
+"page": 176,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 21/P21/Q2(c)",
+"page": 177,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 21/P21/Q4(d)",
+"page": 178,
+"unit": 3,
+"issues": [
+[
+"needs Data Booklet",
+""
+]
+]
+},
+{
+"ref": "O/N 21/P22/Q1(a)",
+"page": 179,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q1(f)(i)",
+"page": 179,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q2(d)(iii)",
+"page": 180,
+"unit": 3,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 21/P23/Q2(c)",
+"page": 180,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 21/P23/Q4(d)",
+"page": 181,
+"unit": 3,
+"issues": [
+[
+"needs Data Booklet",
+""
+]
+]
+},
+{
+"ref": "M/J 21/P21/Q2(b)",
+"page": 182,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q4(d)",
+"page": 182,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q2(a)(i)",
+"page": 182,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q2(b)",
+"page": 183,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q2(c)(iii)-(iv)",
+"page": 183,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q2(a)",
+"page": 183,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q2(e)(i)",
+"page": 184,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q3(b)(ii)",
+"page": 184,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q2(d)(i)",
+"page": 184,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q3(a)(i)-(ii)",
+"page": 185,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q3(a)(iv)",
+"page": 185,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q4(a)(iii)",
+"page": 185,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q3(d)(i)",
+"page": 186,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q2(d)(i)",
+"page": 186,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q3(a)(i)-(ii)",
+"page": 186,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q3(a)(iv)",
+"page": 187,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q4(a)(iii)",
+"page": 187,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q1(b)(ii)",
+"page": 187,
+"unit": 3,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 20/P21/Q4(c)",
+"page": 188,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 20/P22/Q1(d)",
+"page": 188,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q1(d)",
+"page": 189,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q2(d)(i)",
+"page": 189,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q2(c)(i)",
+"page": 189,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q4(b)(ii)",
+"page": 190,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q2(c)(iii)",
+"page": 190,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q3(b)(ii)",
+"page": 191,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q2(c)(i)",
+"page": 191,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q4(b)(ii)",
+"page": 191,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q2(a)",
+"page": 192,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q2(d)",
+"page": 192,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q2(c)(iii)-(iv)",
+"page": 192,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q3(a)(iv)",
+"page": 193,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q2(b)",
+"page": 193,
+"unit": 3,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 19/P22/Q2(a)(ii)",
+"page": 194,
+"unit": 3,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 19/P22/Q2(c)(i)",
+"page": 194,
+"unit": 3,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 19/P22/Q2(c)(iv)",
+"page": 195,
+"unit": 3,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 18/P21/Q1(b)",
+"page": 195,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 18/P21/Q2(a)(ii)",
+"page": 195,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q1(b)",
+"page": 195,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q1(b)",
+"page": 196,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q2(a)(ii)",
+"page": 196,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 18/P21/Q1(f)(i)",
+"page": 196,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 18/P21/Q2(a)",
+"page": 197,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 18/P22/Q1(b)(iv)",
+"page": 197,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q1(a)",
+"page": 197,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q2(d)(iv)",
+"page": 197,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q3(b)(i)",
+"page": 198,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q1(a)",
+"page": 198,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q1(b)(ii)-(iii)",
+"page": 199,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q3(b)(ii)",
+"page": 199,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 17/P21/Q2(b)",
+"page": 199,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 17/P22/Q4(a)(ii)",
+"page": 199,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q1(c)(i)",
+"page": 200,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q2(a)(i)-(ii)",
+"page": 200,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 16/P22/Q2(b)",
+"page": 201,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 16/P23/Q1(b)(i)",
+"page": 201,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q1(a)(iv)",
+"page": 201,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q3(a)",
+"page": 202,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q4(d)",
+"page": 203,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 15/P22/Q1(b)",
+"page": 203,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "O/N 15/P22/Q1(c)",
+"page": 204,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q1(e)",
+"page": 204,
+"unit": 3,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q2(c)(ii)",
+"page": 228,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q2(b)",
+"page": 228,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q2(c)",
+"page": 229,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q2(b)",
+"page": 229,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q2(a)",
+"page": 229,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q1(a)(i)",
+"page": 229,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q1(a)(iii)",
+"page": 230,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q1(d)",
+"page": 230,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q1(a)",
+"page": 230,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q1(d)",
+"page": 231,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q2(c)(ii)",
+"page": 232,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q1(a)",
+"page": 232,
+"unit": 4,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 25/P24/Q6(b)",
+"page": 232,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 24/P21/Q3(a)(i)-(ii)",
+"page": 233,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 24/P21/Q3(e)(iii)",
+"page": 233,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 24/P22/Q3(d)",
+"page": 234,
+"unit": 4,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P22/Q3(e)",
+"page": 234,
+"unit": 4,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P23/Q3(a)(i)-(ii)",
+"page": 234,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 24/P23/Q3(e)(iii)",
+"page": 235,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q2(d)(ii)",
+"page": 235,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q3(c)(i)",
+"page": 235,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q1(b)(ii)",
+"page": 236,
+"unit": 4,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 23/P21/Q1(d)(i)",
+"page": 236,
+"unit": 4,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 23/P21/Q3(d)",
+"page": 237,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 23/P23/Q1(d)(i)",
+"page": 238,
+"unit": 4,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 23/P23/Q3(d)",
+"page": 239,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q1(a)(i)-(ii)",
+"page": 239,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q1(a)(i)",
+"page": 240,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q1(e)(ii)",
+"page": 240,
+"unit": 4,
+"issues": [
+[
+"label used once",
+"H"
+]
+]
+},
+{
+"ref": "O/N 22/P22/Q2(d)",
+"page": 241,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q2(f)(ii)",
+"page": 241,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q1(a)",
+"page": 242,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q2(a)",
+"page": 242,
+"unit": 4,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 22/P23/Q1(f)(ii)",
+"page": 242,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q2(c)(i)",
+"page": 242,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 21/P21/Q3(a)(i)",
+"page": 243,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q1(e)",
+"page": 243,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 21/P23/Q3(a)(i)",
+"page": 244,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q2(c)",
+"page": 244,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q2(a)(ii)",
+"page": 244,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q2(c)(i)-(ii)",
+"page": 245,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q1(b)",
+"page": 245,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q2(f)(i)",
+"page": 246,
+"unit": 4,
+"issues": [
+[
+"label used once",
+"Z"
+]
+]
+},
+{
+"ref": "O/N 20/P21/Q2(a)(iii)",
+"page": 246,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q2(d)",
+"page": 246,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q2(f)",
+"page": 246,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q3(a)(ii)",
+"page": 247,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q3(d)(iii)",
+"page": 247,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q2(a)(iii)",
+"page": 247,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q1(b)",
+"page": 248,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q3(b)(ii)",
+"page": 248,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q2(b)(i)",
+"page": 248,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q1(b)(ii)",
+"page": 249,
+"unit": 4,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 19/P22/Q2(c)(i)",
+"page": 249,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q2(b)(i)",
+"page": 249,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q2(c)",
+"page": 249,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q3(d)",
+"page": 250,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q2(a)",
+"page": 250,
+"unit": 4,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 19/P23/Q3(c)",
+"page": 251,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q2(a)(iii)",
+"page": 251,
+"unit": 4,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 19/P22/Q2(d)(i)",
+"page": 251,
+"unit": 4,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 18/P22/Q3(b)",
+"page": 252,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q1(b)",
+"page": 252,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q2(a)",
+"page": 253,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q2(c)(iii)",
+"page": 253,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q2(d)(i)",
+"page": 253,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q1(b)(i)",
+"page": 254,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 17/P21/Q1(b)(v)",
+"page": 254,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 17/P21/Q2(a)",
+"page": 255,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q1(b)(v)",
+"page": 255,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q1(c)(ii)",
+"page": 256,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "O/N 16/P22/Q2(b)(i)",
+"page": 256,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q3(b)(iii)",
+"page": 257,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q1(d)",
+"page": 257,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q2(c)",
+"page": 257,
+"unit": 4,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q3(a)",
+"page": 271,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q2(d)(i)",
+"page": 272,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q3(d)(ii)",
+"page": 273,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q3(e)(ii)",
+"page": 274,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 25/P23/Q3(d)(ii)",
+"page": 275,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q1(b)(iii)-(iv)",
+"page": 276,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q3(c)",
+"page": 276,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q4(a)",
+"page": 276,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q4(b)",
+"page": 277,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 24/P22/Q2(a)",
+"page": 278,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 24/P22/Q2(b)",
+"page": 279,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q3(a)",
+"page": 279,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q3(b)",
+"page": 280,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q3(c)(i)",
+"page": 280,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 23/P21/Q1(e)",
+"page": 281,
+"unit": 5,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 23/P22/Q3(b)(i)-(ii)",
+"page": 282,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 23/P23/Q1(e)",
+"page": 283,
+"unit": 5,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 23/P21/Q2(a)",
+"page": 283,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q2(b)(ii)",
+"page": 284,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q2(c)(ii)",
+"page": 284,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q4(a)",
+"page": 285,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q3(a)",
+"page": 285,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q3(b)(ii)",
+"page": 286,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q3(c)(ii)",
+"page": 286,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q3(d)(iii)",
+"page": 287,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q1(f)(ii)",
+"page": 288,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q1(b)(iii)-(iv)",
+"page": 288,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q3(b)",
+"page": 289,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q3(a)(ii)",
+"page": 289,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q2(c)(iii)",
+"page": 290,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 21/P21/Q3(a)(ii)",
+"page": 290,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q1(b)",
+"page": 291,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 21/P23/Q3(a)(ii)",
+"page": 291,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q1(c)(i)",
+"page": 292,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q3(a)(i)",
+"page": 293,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q2(c)(ii)",
+"page": 293,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q2(c)(ii)",
+"page": 294,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q1(g)(ii)-(iv)",
+"page": 295,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q3(b)(ii)-(iv)",
+"page": 296,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q3(b)(ii)-(iv)",
+"page": 297,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q2(c)(iii)",
+"page": 298,
+"unit": 5,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 18/P22/Q2(b)",
+"page": 299,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q3(a)",
+"page": 300,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 18/P21/Q1(b)",
+"page": 300,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 17/P21/Q1(a)",
+"page": 301,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q2(a)",
+"page": 301,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 17/P23/Q1(a)",
+"page": 301,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 17/P22/Q3(a)",
+"page": 302,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q3(a)",
+"page": 302,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q2(c)(i)",
+"page": 303,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 16/P22/Q2(a)",
+"page": 304,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q3(b)(i)",
+"page": 304,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 16/P22/Q2(a)(iii)",
+"page": 305,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 15/P21/Q2(a)",
+"page": 305,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 15/P22/Q2(a)",
+"page": 305,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 15/P22/Q2(b)",
+"page": 306,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "O/N 15/P23/Q2(a)",
+"page": 306,
+"unit": 5,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q3(d)",
+"page": 318,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q4(a)(ii)",
+"page": 318,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q4(c)",
+"page": 319,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q4(d)(ii)",
+"page": 320,
+"unit": 6,
+"issues": [
+[
+"dangling Fig.",
+"4.1"
+]
+]
+},
+{
+"ref": "M/J 25/P21/Q4(b)(iii)",
+"page": 321,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q2(b)(ii)",
+"page": 321,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "MAR 25/P22/Q1(a)",
+"page": 322,
+"unit": 6,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P21/Q2(c)(ii)-(iii)",
+"page": 323,
+"unit": 6,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P22/Q3(b)(i)-(ii)",
+"page": 323,
+"unit": 6,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P23/Q2(c)(ii)-(iii)",
+"page": 323,
+"unit": 6,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 24/P23/Q1(d)(i)",
+"page": 324,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q1(b)(i)",
+"page": 324,
+"unit": 6,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 24/P22/Q1(c)",
+"page": 324,
+"unit": 6,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 24/P22/Q1(d)(i)",
+"page": 325,
+"unit": 6,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 23/P21/Q3(a)",
+"page": 325,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "O/N 23/P21/Q3(c)",
+"page": 325,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q3(b)(iii)",
+"page": 326,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "O/N 23/P23/Q3(a)",
+"page": 326,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "O/N 23/P23/Q3(c)",
+"page": 326,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q2(e)(ii)",
+"page": 327,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q1(d)(i)-(ii)",
+"page": 327,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q1(b)(i)-(ii)",
+"page": 327,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q2(a)(i)",
+"page": 328,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q2(c)(ii)",
+"page": 328,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "O/N 21/P21/Q3(b)(i)",
+"page": 328,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q1(d)",
+"page": 329,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q3(e)(ii)",
+"page": 330,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "O/N 21/P23/Q3(b)(i)",
+"page": 331,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q4(a)",
+"page": 331,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q1(d)(ii)",
+"page": 331,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q1(f)",
+"page": 332,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q2(c)(ii)",
+"page": 332,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q2(d)(i)",
+"page": 332,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q2(d)(ii)",
+"page": 332,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q2(d)(ii)",
+"page": 333,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q2(a)",
+"page": 333,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q1(g)(i)",
+"page": 334,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q1(a)",
+"page": 334,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q3(a)(iii)",
+"page": 334,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q1(a)",
+"page": 335,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q3(b)(i)-(ii)",
+"page": 335,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q2(c)",
+"page": 335,
+"unit": 6,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 18/P21/Q1(a)(ii)",
+"page": 336,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q1(a)(ii)",
+"page": 336,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 18/P22/Q2(d)(i)-(ii)",
+"page": 336,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q3(e)(i)",
+"page": 337,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q3(c)(iii)-(iv)",
+"page": 337,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 16/P22/Q3(a)",
+"page": 337,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 16/P23/Q1(a)(ii)",
+"page": 338,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q2(b)",
+"page": 338,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 15/P22/Q2(a)(ii)",
+"page": 338,
+"unit": 6,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q2(b)(i)",
+"page": 346,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q1(e)(i)",
+"page": 346,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q3(a)",
+"page": 347,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q3(b)",
+"page": 347,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q3(c)",
+"page": 348,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q3(d)",
+"page": 349,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q2(b)(ii)",
+"page": 349,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q2(c)",
+"page": 350,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q4(a)(i)-(iii)",
+"page": 351,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q2(e)",
+"page": 352,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q2(b)",
+"page": 353,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q3(b)",
+"page": 353,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q3(c)",
+"page": 354,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q2(d)",
+"page": 354,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q3(b)",
+"page": 354,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q3(c)",
+"page": 355,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 24/P21/Q3(b)(iii)",
+"page": 355,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 24/P23/Q3(b)(iii)",
+"page": 355,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q2(c)",
+"page": 356,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q3(a)",
+"page": 356,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q3(b)-(c)",
+"page": 357,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 24/P22/Q3(a)",
+"page": 357,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 24/P22/Q3(b)",
+"page": 358,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q2(a)",
+"page": 359,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q2(b)(i)",
+"page": 359,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q2(c)",
+"page": 360,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q4(b)(i)",
+"page": 360,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q2(a)",
+"page": 361,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q2(b)",
+"page": 361,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q2(c)",
+"page": 362,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q3(a)(ii)",
+"page": 362,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q4(b)",
+"page": 363,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q4(c)(i)",
+"page": 363,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q4(b)",
+"page": 364,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q4(c)",
+"page": 364,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q3(d)(ii)",
+"page": 365,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q1(c)(i)",
+"page": 365,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q2(c)(ii)",
+"page": 366,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q2(d)",
+"page": 367,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q3(a)",
+"page": 368,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q3(c)",
+"page": 368,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q3(a)(iii)",
+"page": 369,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q2(d)(iii)",
+"page": 370,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q3(d)",
+"page": 371,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q1(c)",
+"page": 372,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q1(f)(iii)-(iv)",
+"page": 372,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q1(d)",
+"page": 373,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q2(c)",
+"page": 373,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q3(b)(i)",
+"page": 374,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q2(b)(i)",
+"page": 374,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q2(d)(iii)",
+"page": 374,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q3(d)(ii)",
+"page": 375,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q2(b)(i)",
+"page": 375,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q2(d)(iii)",
+"page": 375,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q1(a)(ii)",
+"page": 375,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q1(f)",
+"page": 376,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q1(d)",
+"page": 377,
+"unit": 7,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 19/P22/Q1(b)",
+"page": 377,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q1(c)",
+"page": 378,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q2(c)(i)-(ii)",
+"page": 379,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 18/P21/Q3(a)(ii)",
+"page": 379,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q3(a)(ii)",
+"page": 380,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 18/P21/Q1(d)(ii)",
+"page": 380,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 18/P21/Q1(f)(ii)-(iii)",
+"page": 381,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q1(c)(i)",
+"page": 381,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q1(c)(iii)",
+"page": 382,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q1(d)",
+"page": 382,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 17/P21/Q1(b)(iii)",
+"page": 383,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 17/P21/Q1(c)",
+"page": 383,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 17/P21/Q1(d)",
+"page": 384,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q2(b)(ii)",
+"page": 384,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q2(c)",
+"page": 385,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q2(d)",
+"page": 385,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 17/P23/Q1(b)(iii)",
+"page": 386,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 17/P23/Q1(c)",
+"page": 386,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 17/P23/Q1(d)",
+"page": 387,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 17/P22/Q3(b)(iii)",
+"page": 388,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 17/P22/Q3(c)",
+"page": 389,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 17/P22/Q3(d)",
+"page": 390,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q3(b)(iii)",
+"page": 391,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q3(c)",
+"page": 392,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q3(d)",
+"page": 392,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q2(b)(i)",
+"page": 393,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q2(c)(iii)-(vi)",
+"page": 393,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "O/N 16/P22/Q2(b)(ii)-(vii)",
+"page": 394,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q3(b)",
+"page": 396,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 15/P22/Q2(b)",
+"page": 396,
+"unit": 7,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q2(b)(ii)",
+"page": 414,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q1(e)(ii)",
+"page": 414,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q2(b)(i)",
+"page": 415,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q2(d)",
+"page": 415,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q2(e)",
+"page": 416,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q2(d)(ii)",
+"page": 417,
+"unit": 8,
+"issues": [
+[
+"dangling Fig.",
+"2.3"
+]
+]
+},
+{
+"ref": "O/N 25/P24/Q2(c)(i)",
+"page": 417,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q3(a)",
+"page": 418,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q3(b)",
+"page": 419,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q3(d)",
+"page": 420,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q3(b)(ii)-(iii)",
+"page": 421,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q4(a)",
+"page": 421,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q2(b)(ii)",
+"page": 423,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q3(c)(ii)-(iii)",
+"page": 423,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "O/N 23/P21/Q3(b)",
+"page": 424,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "O/N 23/P23/Q3(b)",
+"page": 424,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q4(c)(iv)-(v)",
+"page": 425,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q3(d)(i)",
+"page": 426,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q1(g)",
+"page": 426,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q3(a)(iv)-(v)",
+"page": 427,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q2(b)(iii)",
+"page": 428,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "O/N 21/P21/Q4(a)(iv)",
+"page": 429,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "O/N 21/P23/Q4(a)(iv)",
+"page": 430,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q4(b)",
+"page": 430,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q4(c)",
+"page": 431,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q3(a)",
+"page": 432,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q3(b)",
+"page": 433,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q1(a)",
+"page": 434,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q1(c)(ii)",
+"page": 434,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 20/P22/Q3(c)",
+"page": 435,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q1(c)",
+"page": 436,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q2(e)(i)",
+"page": 436,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q4(d)(ii)",
+"page": 437,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "O/N 18/P21/Q3(a)(iii)",
+"page": 438,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q3(a)(iii)",
+"page": 438,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 18/P21/Q1(a)",
+"page": 438,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 18/P21/Q1(c)",
+"page": 439,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 18/P21/Q1(d)(i)",
+"page": 440,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q1(c)(ii)",
+"page": 440,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q1(c)(iv)",
+"page": 440,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "O/N 17/P21/Q1(b)(i)-(ii)",
+"page": 441,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q2(b)(i)",
+"page": 441,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "O/N 17/P23/Q1(b)(i)-(ii)",
+"page": 442,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 17/P22/Q3(b)(i)-(ii)",
+"page": 443,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q3(b)(i)-(ii)",
+"page": 444,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q2(c)(ii)",
+"page": 445,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q3(b)(ii)",
+"page": 445,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q3(c)",
+"page": 446,
+"unit": 8,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q1(c)",
+"page": 458,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q1(d)",
+"page": 458,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q1(a)",
+"page": 458,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q3(a)",
+"page": 459,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q3(b)",
+"page": 459,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q2(a)",
+"page": 460,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q2(b)",
+"page": 460,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q2(c)",
+"page": 461,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q2(a)-(c)",
+"page": 461,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q2(d)",
+"page": 462,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 25/P23/Q2(a)",
+"page": 463,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 25/P23/Q2(b)",
+"page": 463,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 25/P23/Q2(c)",
+"page": 464,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q1(a)(ii)",
+"page": 464,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q1(d)",
+"page": 464,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q2(c)(iii)",
+"page": 465,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q1(b)",
+"page": 465,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q1(c)",
+"page": 466,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q1(b)",
+"page": 466,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q1(c)",
+"page": 466,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q2(a)",
+"page": 466,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q2(b)",
+"page": 466,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q2(c)(i)",
+"page": 467,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q2(e)",
+"page": 467,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q1(b)",
+"page": 468,
+"unit": 9,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 25/P24/Q1(d)",
+"page": 468,
+"unit": 9,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 25/P24/Q2(b)(i)",
+"page": 468,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q2(b)(iii)",
+"page": 469,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "MAR 25/P22/Q1(b)(i)",
+"page": 469,
+"unit": 9,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 25/P22/Q1(b)(iii)-(v)",
+"page": 470,
+"unit": 9,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P21/Q3(e)(i)-(ii)",
+"page": 470,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 24/P21/Q3(f)",
+"page": 470,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 24/P22/Q2(a)(i)",
+"page": 471,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 24/P22/Q2(a)(iii)",
+"page": 471,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 24/P22/Q2(b)(i)",
+"page": 471,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 24/P23/Q3(e)(i)-(ii)",
+"page": 471,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 24/P23/Q3(f)",
+"page": 472,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q2(a)",
+"page": 472,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 24/P22/Q1(d)-(e)",
+"page": 473,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 24/P22/Q1(f)",
+"page": 474,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q1(b)",
+"page": 474,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q1(c)",
+"page": 474,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q2(a)",
+"page": 475,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q2(c)(ii)",
+"page": 476,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 23/P21/Q1(d)(ii)",
+"page": 477,
+"unit": 9,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 23/P22/Q1(a)",
+"page": 477,
+"unit": 9,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 23/P22/Q3(a)(i)",
+"page": 478,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 23/P23/Q1(d)(ii)",
+"page": 478,
+"unit": 9,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 23/P21/Q1(f)",
+"page": 479,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q3(a)",
+"page": 479,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q3(b)",
+"page": 479,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q1(a)(iii)",
+"page": 480,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q2(a)",
+"page": 480,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q2(b)",
+"page": 480,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q2(c)",
+"page": 481,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q2(a)",
+"page": 481,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q2(c)",
+"page": 482,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q1(d)(i)-(ii)",
+"page": 482,
+"unit": 9,
+"issues": [
+[
+"label used once",
+"H"
+]
+]
+},
+{
+"ref": "O/N 22/P21/Q3(a)",
+"page": 483,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q2(a)",
+"page": 483,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q2(b)",
+"page": 484,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 22/P23/Q3(a)",
+"page": 484,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q1(f)(i)",
+"page": 485,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q3(d)(iii)",
+"page": 486,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q2(a)",
+"page": 487,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q2(a)(ii)",
+"page": 487,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q2(b)(i)-(ii)",
+"page": 488,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q2(c)(iv)",
+"page": 488,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q3(b)(i)",
+"page": 488,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 21/P21/Q3(b)(ii)",
+"page": 489,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q1(f)(ii)",
+"page": 489,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q2(a)(i)",
+"page": 490,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q2(a)(iv)",
+"page": 490,
+"unit": 9,
+"issues": [
+[
+"label used once",
+"M"
+]
+]
+},
+{
+"ref": "O/N 21/P22/Q2(b)",
+"page": 491,
+"unit": 9,
+"issues": [
+[
+"label used once",
+"M"
+]
+]
+},
+{
+"ref": "O/N 21/P22/Q2(c)",
+"page": 492,
+"unit": 9,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 21/P22/Q2(d)(i)-(ii)",
+"page": 492,
+"unit": 9,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 21/P23/Q3(b)(ii)",
+"page": 493,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q3(a)",
+"page": 494,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q2(e)(ii)",
+"page": 494,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q2(a)(i)-(ii)",
+"page": 495,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q2(b)(ii)",
+"page": 495,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q2(e)",
+"page": 495,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q3(b)",
+"page": 496,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q2(a)",
+"page": 496,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q2(b)",
+"page": 496,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q2(c)",
+"page": 496,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q2(e)",
+"page": 497,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q2(g)",
+"page": 497,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q3(a)(i)",
+"page": 497,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q3(b)",
+"page": 498,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q2(a)(i)-(ii)",
+"page": 498,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q2(b)(ii)",
+"page": 498,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q2(e)",
+"page": 499,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q3(b)",
+"page": 499,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q1(b)(i)",
+"page": 499,
+"unit": 9,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 20/P21/Q1(c)",
+"page": 500,
+"unit": 9,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 20/P22/Q1(e)",
+"page": 500,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q1(e)",
+"page": 501,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q2(b)(ii)",
+"page": 501,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q2(a)",
+"page": 501,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q2(b)(ii)-(iii)",
+"page": 502,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q2(c)(ii)-(iii)",
+"page": 502,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q2(a)",
+"page": 502,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q2(b)(i)",
+"page": 503,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q3(a)(i)-(ii)",
+"page": 503,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q2(a)",
+"page": 503,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q2(b)(ii)-(iii)",
+"page": 504,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q2(c)(ii)-(iii)",
+"page": 504,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q1(b)",
+"page": 505,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q2(b)",
+"page": 505,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q2(f)",
+"page": 505,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q3(a)(i)-(iii)",
+"page": 506,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q1(b)(ii)",
+"page": 506,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q2(a)",
+"page": 507,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q2(c)",
+"page": 507,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q2(d)",
+"page": 508,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 18/P21/Q3(a)(i)",
+"page": 508,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 18/P21/Q3(c)",
+"page": 509,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q1(b)",
+"page": 510,
+"unit": 9,
+"issues": [
+[
+"label used once",
+"P"
+],
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 18/P22/Q2(d)(iii)",
+"page": 510,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q2(d)(v)",
+"page": 511,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 17/P21/Q2(b)",
+"page": 511,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 17/P23/Q2(b)",
+"page": 512,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 17/P21/Q3(a)(i)",
+"page": 512,
+"unit": 9,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 17/P22/Q1(a)(i)-(ii)",
+"page": 513,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q1(b)",
+"page": 513,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 16/P22/Q3(b)",
+"page": 514,
+"unit": 9,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 16/P21/Q2(a)",
+"page": 515,
+"unit": 9,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 16/P21/Q2(b)",
+"page": 515,
+"unit": 9,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 16/P21/Q2(c)",
+"page": 515,
+"unit": 9,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 16/P21/Q2(d)",
+"page": 516,
+"unit": 9,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 16/P22/Q2(d)",
+"page": 516,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 16/P23/Q1(b)(ii)",
+"page": 517,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q1(a)(i)",
+"page": 517,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q1(a)(iii)",
+"page": 517,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "O/N 15/P22/Q3(a)-(b)",
+"page": 518,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 15/P22/Q1(d)",
+"page": 519,
+"unit": 9,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q3(c)",
+"page": 541,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q1(b)",
+"page": 541,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q1(c)",
+"page": 541,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q2(d)",
+"page": 541,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q2(f)",
+"page": 542,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 25/P23/Q2(d)",
+"page": 542,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "MAR 25/P22/Q2(d)",
+"page": 542,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 24/P21/Q3(b)(i)-(ii)",
+"page": 543,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 24/P22/Q3(a)(iv)-(v)",
+"page": 543,
+"unit": 10,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P23/Q3(b)(i)-(ii)",
+"page": 543,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 24/P22/Q2(c)",
+"page": 543,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q1(d)(ii)",
+"page": 544,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 23/P21/Q2(a)",
+"page": 544,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 23/P21/Q2(b)",
+"page": 545,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q2(f)",
+"page": 546,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 23/P23/Q2(a)",
+"page": 547,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 23/P23/Q2(b)",
+"page": 548,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q2(c)(i)",
+"page": 548,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q2(b)",
+"page": 549,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q1(d)(iii)",
+"page": 549,
+"unit": 10,
+"issues": [
+[
+"label used once",
+"H"
+]
+]
+},
+{
+"ref": "MAR 23/P22/Q2(b)",
+"page": 549,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q2(c)",
+"page": 549,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 22/P21/Q2(b)",
+"page": 550,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 22/P23/Q2(b)",
+"page": 551,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q1(b)",
+"page": 551,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q1(c)",
+"page": 552,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q2(c)",
+"page": 552,
+"unit": 10,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 21/P21/Q2(a)(i)-(iii)",
+"page": 553,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 21/P23/Q2(a)(i)-(iii)",
+"page": 554,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q1(b)(ii)-(iii)",
+"page": 554,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q1(f)(i)",
+"page": 555,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q1(g)",
+"page": 555,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q2(c)(i)",
+"page": 555,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q2(c)(i)",
+"page": 556,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q1(a)(i)",
+"page": 556,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q2(b)(ii)-(iv)",
+"page": 556,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q1(a)",
+"page": 557,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q3(a)",
+"page": 557,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q3(b)",
+"page": 557,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q3(d)",
+"page": 558,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q1(b)(i)",
+"page": 558,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 18/P21/Q2(d)(iii)-(iv)",
+"page": 558,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q2(d)(iii)-(iv)",
+"page": 559,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 18/P22/Q1(a)",
+"page": 559,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 18/P22/Q1(b)(i)-(iii)",
+"page": 559,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q3(a)",
+"page": 560,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q3(c)",
+"page": 561,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 17/P21/Q3(a)(iii)",
+"page": 562,
+"unit": 10,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 17/P21/Q3(b)",
+"page": 562,
+"unit": 10,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 17/P21/Q3(c)",
+"page": 563,
+"unit": 10,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 17/P21/Q3(d)(ii)",
+"page": 563,
+"unit": 10,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 16/P21/Q3(a)",
+"page": 563,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q3(b)(iv)",
+"page": 564,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q3(c)",
+"page": 564,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q1(b)",
+"page": 565,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q2(a)",
+"page": 565,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q2(b)(i)-(iii)",
+"page": 566,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q2(d)(i)-(ii)",
+"page": 566,
+"unit": 10,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q3(a)",
+"page": 576,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q3(b)-(c)",
+"page": 577,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q3(e)",
+"page": 578,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q3(f)",
+"page": 579,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q3(b)-(d)",
+"page": 580,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q1(b)",
+"page": 580,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q1(c)",
+"page": 581,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q1(d)",
+"page": 581,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q1(d)",
+"page": 581,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q1(a)(i)",
+"page": 582,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q1(a)(iii)",
+"page": 582,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q1(b)(i)-(ii)",
+"page": 582,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q1(c)",
+"page": 583,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q6(a)(ii)-(iii)",
+"page": 583,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q3(d)(ii)-(iii)",
+"page": 584,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 25/P22/Q3(a)",
+"page": 584,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 25/P22/Q3(b)",
+"page": 585,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 25/P22/Q3(c)",
+"page": 585,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 24/P21/Q2(a)",
+"page": 586,
+"unit": 11,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P21/Q2(c)(i)",
+"page": 586,
+"unit": 11,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P23/Q2(a)",
+"page": 586,
+"unit": 11,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P23/Q2(c)(i)",
+"page": 586,
+"unit": 11,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 24/P21/Q1(a)",
+"page": 587,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q1(b)",
+"page": 587,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q1(c)",
+"page": 587,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q1(d)",
+"page": 587,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q2(b)",
+"page": 588,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 23/P21/Q1(c)",
+"page": 589,
+"unit": 11,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 23/P23/Q1(c)",
+"page": 590,
+"unit": 11,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 23/P21/Q3(c)",
+"page": 590,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q2(d)",
+"page": 591,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q2(e)(i)",
+"page": 591,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q4(a)",
+"page": 591,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q2(d)(i)",
+"page": 591,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 22/P21/Q2(c)",
+"page": 591,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 22/P21/Q2(d)",
+"page": 592,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 22/P21/Q3(b)",
+"page": 592,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q2(e)(i)",
+"page": 592,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 22/P23/Q2(c)",
+"page": 592,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 22/P23/Q2(d)",
+"page": 593,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 22/P23/Q3(b)",
+"page": 593,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q2(d)",
+"page": 593,
+"unit": 11,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 22/P22/Q3(d)",
+"page": 594,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q2(b)",
+"page": 594,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q3(a)",
+"page": 595,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q3(b)(ii)",
+"page": 595,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q3(c)",
+"page": 596,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q3(a)",
+"page": 596,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q3(b)",
+"page": 596,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q3(c)",
+"page": 596,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q3(d)",
+"page": 597,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q1(a)",
+"page": 597,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q1(b)",
+"page": 597,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q1(d)(i)",
+"page": 597,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q1(e)",
+"page": 598,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q1(a)",
+"page": 598,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q1(b)",
+"page": 598,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q1(c)",
+"page": 599,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q2(a)",
+"page": 599,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q2(c)(i)",
+"page": 599,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q2(c)(iii)",
+"page": 599,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q2(d)(ii)",
+"page": 600,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q4(a)(i)-(ii)",
+"page": 600,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q4(a)(iv)",
+"page": 600,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q4(a)(i)-(ii)",
+"page": 600,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q4(a)(iv)",
+"page": 600,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 20/P22/Q4(a)(iii)",
+"page": 601,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q2(a)",
+"page": 601,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q2(b)(i)",
+"page": 601,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q2(c)",
+"page": 602,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q2(d)(ii)",
+"page": 602,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q1(b)",
+"page": 602,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q1(c)",
+"page": 603,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q1(d)",
+"page": 603,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q3(c)(iii)",
+"page": 603,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q1(b)",
+"page": 603,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q1(c)",
+"page": 604,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q1(d)",
+"page": 604,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q2(a)",
+"page": 604,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q2(b)",
+"page": 604,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q3(b)(iii)",
+"page": 605,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q3(c)",
+"page": 605,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q2(b)(ii)-(iv)",
+"page": 606,
+"unit": 11,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 19/P22/Q2(c)(ii)",
+"page": 607,
+"unit": 11,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 18/P23/Q3(a)",
+"page": 607,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q3(b)",
+"page": 607,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q3(c)",
+"page": 608,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q3(d)",
+"page": 608,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q3(e)(ii)-(iii)",
+"page": 609,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q3(c)(i)-(ii)",
+"page": 609,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q3(b)(i)",
+"page": 609,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 17/P21/Q3(a)(iv)",
+"page": 610,
+"unit": 11,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 17/P22/Q3(b)(iv)",
+"page": 611,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q2(a)",
+"page": 612,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q2(b)",
+"page": 612,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q2(c)",
+"page": 613,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q2(d)",
+"page": 613,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q2(a)(iii)",
+"page": 614,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q2(b)(ii)",
+"page": 614,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 16/P22/Q2(c)",
+"page": 615,
+"unit": 11,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q2(a)",
+"page": 632,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q2(c)(i)",
+"page": 632,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q2(a)(ii)",
+"page": 632,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q2(c)",
+"page": 633,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q3(a)(ii)",
+"page": 633,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 24/P22/Q3(a)(i)-(iii)",
+"page": 633,
+"unit": 12,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P22/Q3(b)(iii)",
+"page": 634,
+"unit": 12,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P22/Q3(f)(ii)",
+"page": 634,
+"unit": 12,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 24/P23/Q1(a)(i)",
+"page": 634,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q2(d)",
+"page": 635,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q4(b)(ii)",
+"page": 635,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q3(a)",
+"page": 635,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q3(b)",
+"page": 636,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q2(d)",
+"page": 636,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q2(e)(ii)-(iii)",
+"page": 637,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q5(b)",
+"page": 637,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q1(c)(ii)",
+"page": 638,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q2(b)",
+"page": 638,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q2(c)",
+"page": 638,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q2(d)(i)-(ii)",
+"page": 639,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q3(a)(ii)",
+"page": 639,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q2(b)(iii)",
+"page": 640,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q2(b)(iii)",
+"page": 640,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q4(a)",
+"page": 640,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q1(c)(ii)",
+"page": 641,
+"unit": 12,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 19/P22/Q3(b)(i)",
+"page": 641,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q4(a)",
+"page": 641,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q4(b)(ii)-(iv)",
+"page": 642,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q1(a)",
+"page": 642,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q1(c)",
+"page": 642,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 18/P21/Q1(c)(i)",
+"page": 643,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 18/P21/Q2(a)(i)",
+"page": 643,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 18/P21/Q2(b)",
+"page": 643,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 18/P21/Q2(d)(ii)",
+"page": 644,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q2(e)",
+"page": 644,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q1(c)(i)",
+"page": 644,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q2(a)(i)",
+"page": 645,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q2(b)",
+"page": 645,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q2(d)(ii)",
+"page": 645,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "M/J 18/P22/Q3(d)(ii)-(iii)",
+"page": 646,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "M/J 17/P22/Q2(a)",
+"page": 646,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "M/J 17/P22/Q2(b)",
+"page": 646,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q4(c)",
+"page": 647,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 15/P21/Q2(c)",
+"page": 647,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 15/P22/Q3(c)",
+"page": 647,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "O/N 15/P23/Q2(c)",
+"page": 647,
+"unit": 12,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q5(a)",
+"page": 655,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q5(c)",
+"page": 655,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q5(a)",
+"page": 656,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q5(b)(i)-(ii)",
+"page": 657,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q6(a)",
+"page": 657,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q6(b)(ii)",
+"page": 658,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q4(c)(i)-(ii)",
+"page": 659,
+"unit": 13,
+"issues": [
+[
+"dangling Fig.",
+"4.1"
+]
+]
+},
+{
+"ref": "M/J 26/P23/Q5(a)(i)",
+"page": 660,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q5(c)",
+"page": 660,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q2(a)(i)",
+"page": 660,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q3(b)",
+"page": 661,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q4(d)",
+"page": 661,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q3(b)",
+"page": 663,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q3(c)(i)",
+"page": 664,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q4(b)(ii)",
+"page": 664,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q4(c)(i)",
+"page": 664,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q3(a)",
+"page": 665,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q3(d)(i)",
+"page": 665,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q4(a)(iii)-(v)",
+"page": 666,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 25/P23/Q3(b)",
+"page": 667,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 25/P23/Q3(c)(i)",
+"page": 667,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 25/P23/Q4(b)(ii)",
+"page": 667,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 25/P23/Q4(c)(i)",
+"page": 668,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q3(a)(iv)",
+"page": 668,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q3(a)(i)",
+"page": 669,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q4(c)(i)",
+"page": 669,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q5(b)(i)",
+"page": 669,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q6(a)(i)",
+"page": 670,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q4(a)",
+"page": 670,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q5(a)-(b)",
+"page": 670,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q5(c)",
+"page": 671,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q6(a)(iii)",
+"page": 671,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 25/P22/Q1(c)(i)",
+"page": 671,
+"unit": 13,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 25/P22/Q4(b)(iii)",
+"page": 671,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 24/P21/Q1(d)(ii)-(iv)",
+"page": 672,
+"unit": 13,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P21/Q2(b)(i)",
+"page": 672,
+"unit": 13,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P21/Q4(a)(ii)",
+"page": 673,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 24/P23/Q1(d)(ii)-(iv)",
+"page": 674,
+"unit": 13,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P23/Q2(b)(i)",
+"page": 674,
+"unit": 13,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P23/Q4(a)(ii)",
+"page": 675,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q5(b)",
+"page": 675,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q5(c)(i)",
+"page": 675,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q6(a)",
+"page": 676,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 24/P22/Q4(a)",
+"page": 676,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 24/P22/Q4(e)",
+"page": 677,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q4(e)(iii)",
+"page": 677,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q4(a)",
+"page": 678,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 23/P21/Q3(e)(iii)",
+"page": 678,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q2(e)(i)",
+"page": 679,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q4(a)(i)-(ii)",
+"page": 679,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 23/P23/Q3(e)(iii)",
+"page": 680,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q4(b)(iii)",
+"page": 680,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q3(a)(ii)",
+"page": 681,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q3(c)",
+"page": 681,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q4(d)",
+"page": 682,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q5(a)",
+"page": 682,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q5(c)",
+"page": 683,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q5(c)",
+"page": 684,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q6(c)",
+"page": 684,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q6(d)",
+"page": 685,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q3(a)(i)-(iii)",
+"page": 685,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q3(c)",
+"page": 686,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q3(a)(ii)-(iv)",
+"page": 687,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q3(a)",
+"page": 688,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q4(c)(iii)",
+"page": 689,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q4(a)",
+"page": 690,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q4(b)(i)-(ii)",
+"page": 690,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q3(b)",
+"page": 690,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q4(a)(ii)",
+"page": 692,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 21/P21/Q3(c)",
+"page": 692,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q3(a)",
+"page": 694,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q3(b)",
+"page": 694,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q3(c)",
+"page": 694,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q3(e)(iv)",
+"page": 695,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 21/P23/Q3(c)",
+"page": 696,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q5(a)(i)",
+"page": 697,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q6(c)",
+"page": 697,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q4(a)",
+"page": 698,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q5(a)",
+"page": 698,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q5(b)(i)",
+"page": 698,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q4(a)(i)",
+"page": 699,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q5(c)",
+"page": 699,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q5(d)",
+"page": 700,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q4(a)",
+"page": 700,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q3(c)(ii)",
+"page": 701,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q4(b)(i)",
+"page": 702,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q5(b)(ii)",
+"page": 702,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q6(a)",
+"page": 703,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q6(g)(i)",
+"page": 703,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 20/P22/Q3(a)",
+"page": 704,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 20/P22/Q3(b)",
+"page": 704,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 20/P22/Q4(c)(iii)-(iv)",
+"page": 705,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q3(a)(iv)",
+"page": 705,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q3(c)(i)",
+"page": 705,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q3(d)(i)",
+"page": 706,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q4(a)",
+"page": 706,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q4(c)(iii)-(iv)",
+"page": 707,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q4(d)(i)",
+"page": 708,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q4(a)",
+"page": 709,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q4(c)(iii)-(iv)",
+"page": 710,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q4(a)",
+"page": 710,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q4(b)",
+"page": 711,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q4(c)(i)",
+"page": 711,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q5(b)",
+"page": 712,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q1(a)",
+"page": 712,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q4(d)(i)-(ii)",
+"page": 712,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q4(d)(v)",
+"page": 713,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q5(c)(i)",
+"page": 713,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q6(a)(iii)",
+"page": 713,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q3(c)",
+"page": 714,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q4(a)",
+"page": 714,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q4(b)",
+"page": 715,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 18/P22/Q4(a)(ii)",
+"page": 715,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 18/P22/Q4(b)",
+"page": 716,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 18/P22/Q4(d)(ii)-(iii)",
+"page": 717,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q2(a)",
+"page": 718,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q2(b)(i)",
+"page": 718,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q2(b)(iii)",
+"page": 718,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q4(a)(i)",
+"page": 719,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q4(b)",
+"page": 719,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q2(b)(i)",
+"page": 719,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q3(b)(ii)",
+"page": 720,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 17/P21/Q3(c)(i)",
+"page": 720,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 17/P21/Q3(d)(i)-(ii)",
+"page": 721,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 17/P21/Q3(d)(iv)-(v)",
+"page": 722,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q4(c)(i)",
+"page": 723,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q4(d)(i)",
+"page": 723,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 17/P23/Q3(c)(i)",
+"page": 724,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 17/P23/Q3(d)(i)-(ii)",
+"page": 725,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 17/P23/Q3(d)(iv)-(v)",
+"page": 726,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 17/P21/Q1(b)(iv)",
+"page": 727,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 17/P21/Q4(a)",
+"page": 728,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 17/P21/Q4(d)(i)",
+"page": 728,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 17/P22/Q4(a)(i)",
+"page": 729,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 17/P22/Q4(a)(iii)-(iv)",
+"page": 729,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 17/P22/Q4(c)(iii)",
+"page": 729,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q1(a)",
+"page": 730,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q1(b)(iv)",
+"page": 730,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q4(b)",
+"page": 731,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q4(c)(i)",
+"page": 731,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q4(d)(i)-(iii)",
+"page": 732,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q4(e)(i)",
+"page": 732,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q4(a)",
+"page": 733,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q4(b)(i)",
+"page": 733,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q4(c)(i)",
+"page": 733,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q5(a)",
+"page": 733,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 16/P22/Q5(a)(ii)",
+"page": 734,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q4(a)",
+"page": 734,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q4(b)(i)",
+"page": 734,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q4(c)(i)",
+"page": 734,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q5(a)",
+"page": 735,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q4(a)",
+"page": 735,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q4(b)",
+"page": 735,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q4(c)",
+"page": 736,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q4(d)",
+"page": 736,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q5(e)(ii)",
+"page": 737,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 16/P22/Q4(a)",
+"page": 737,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 16/P22/Q4(b)(i)",
+"page": 738,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 16/P22/Q5(c)(ii)",
+"page": 738,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 16/P23/Q4(a)",
+"page": 739,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 16/P23/Q4(d)(ii)-(iv)",
+"page": 739,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q4(a)",
+"page": 740,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q5(a)(ii)",
+"page": 740,
+"unit": 13,
+"issues": [
+[
+"label used once",
+"S"
+],
+[
+"label used once",
+"T"
+],
+[
+"label used once",
+"R"
+],
+[
+"label used once",
+"Q"
+]
+]
+},
+{
+"ref": "O/N 15/P21/Q3(a)",
+"page": 741,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 15/P22/Q4(a)(ii)-(iii)",
+"page": 741,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 15/P22/Q4(a)(v)-(vi)",
+"page": 742,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "O/N 15/P23/Q3(a)",
+"page": 742,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 15/P22/Q3(b)(i)",
+"page": 743,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 15/P22/Q4(a)",
+"page": 744,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q3(a)(ii)",
+"page": 745,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q3(b)(i)",
+"page": 745,
+"unit": 13,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q5(b)",
+"page": 772,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q5(d)",
+"page": 772,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q5(b)(iii)-(iv)",
+"page": 773,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q5(c)",
+"page": 774,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q6(b)(i)",
+"page": 775,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q5(a)(ii)",
+"page": 775,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q5(b)(ii)-(iii)",
+"page": 776,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q5(a)",
+"page": 776,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q5(b)(iii)",
+"page": 777,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q5(d)",
+"page": 777,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q3(c)",
+"page": 778,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q3(c)(ii)-(iii)",
+"page": 778,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q3(d)(i)",
+"page": 779,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q3(e)(i)",
+"page": 779,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q3(b)",
+"page": 779,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q3(c)",
+"page": 780,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q3(e)(i)",
+"page": 780,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q3(e)(iii)",
+"page": 781,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q4(a)(i)-(ii)",
+"page": 781,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 25/P23/Q3(c)(ii)-(iii)",
+"page": 782,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 25/P23/Q3(d)(i)",
+"page": 782,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 25/P23/Q3(e)(i)",
+"page": 783,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q4(a)",
+"page": 783,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q4(b)(iv)",
+"page": 785,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q3(a)(ii)-(iii)",
+"page": 786,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q3(e)",
+"page": 786,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q3(a)(i)",
+"page": 786,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q3(b)(i)",
+"page": 786,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q6(b)",
+"page": 787,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q5(d)",
+"page": 787,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 25/P22/Q3(d)",
+"page": 788,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 24/P21/Q2(b)(ii)-(iii)",
+"page": 789,
+"unit": 14,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P22/Q2(b)(iii)",
+"page": 789,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 24/P23/Q2(b)(ii)-(iii)",
+"page": 789,
+"unit": 14,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 24/P21/Q5(c)(ii)",
+"page": 790,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q6(b)(ii)",
+"page": 791,
+"unit": 14,
+"issues": [
+[
+"label used once",
+"T"
+]
+]
+},
+{
+"ref": "M/J 24/P23/Q5(a)",
+"page": 792,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q5(b)(ii)",
+"page": 792,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q1(d)(ii)",
+"page": 793,
+"unit": 14,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "MAR 24/P22/Q2(d)(i)",
+"page": 794,
+"unit": 14,
+"issues": [
+[
+"dangling Fig.",
+"2.2"
+]
+]
+},
+{
+"ref": "MAR 24/P22/Q4(b)(i)",
+"page": 795,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q3(c)(i)",
+"page": 795,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q4(b)(i)",
+"page": 796,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q3(d)",
+"page": 797,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q5(a)",
+"page": 797,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q4(c)(ii)-(iii)",
+"page": 798,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q4(c)(vi)",
+"page": 799,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 22/P21/Q5(a)(i)",
+"page": 800,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 22/P23/Q5(a)(i)",
+"page": 801,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q3(b)",
+"page": 802,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q3(c)(ii)-(iii)",
+"page": 803,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q4(a)",
+"page": 804,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q5(a)(i)",
+"page": 804,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q3(e)(i)-(ii)",
+"page": 805,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 21/P21/Q3(d)",
+"page": 805,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 21/P21/Q4(a)(iii)",
+"page": 806,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q1(g)",
+"page": 807,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q3(d)(i)",
+"page": 807,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 21/P23/Q3(d)",
+"page": 808,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 21/P23/Q4(a)(iii)",
+"page": 808,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q5(b)",
+"page": 809,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q5(c)(ii)",
+"page": 809,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q6(a)",
+"page": 809,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q6(b)",
+"page": 809,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q6(d)",
+"page": 810,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q4(b)",
+"page": 810,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q2(g)(i)-(ii)",
+"page": 811,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q2(g)(iv)-(vi)",
+"page": 812,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q4(d)(iii)",
+"page": 813,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q4(b)(ii)",
+"page": 813,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q3(c)(iii)",
+"page": 814,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q4(b)(ii)",
+"page": 814,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q5(a)(i)-(ii)",
+"page": 815,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q5(b)(i)",
+"page": 815,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q5(d)",
+"page": 815,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q6(b)",
+"page": 816,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q6(c)",
+"page": 816,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q3(c)(iii)",
+"page": 817,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q3(d)(ii)",
+"page": 818,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q1(e)",
+"page": 818,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q3(a)(i)",
+"page": 818,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q3(a)(iii)",
+"page": 819,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q4(c)(i)",
+"page": 819,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q4(e)(iv)",
+"page": 820,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q1(e)",
+"page": 820,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q3(a)(i)",
+"page": 820,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q3(a)(iii)",
+"page": 821,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q4(c)(ii)",
+"page": 821,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q4(b)",
+"page": 821,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q4(d)(iii)-(iv)",
+"page": 822,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q6(a)(i)-(ii)",
+"page": 823,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q1(e)",
+"page": 824,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q4(b)(i)-(iii)",
+"page": 825,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q4(c)(i)",
+"page": 826,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q4(d)",
+"page": 826,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 18/P21/Q4(b)(iii)-(iv)",
+"page": 827,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q4(d)",
+"page": 827,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q4(b)(iii)-(iv)",
+"page": 829,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 18/P21/Q2(b)",
+"page": 829,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 18/P21/Q2(c)(i)",
+"page": 830,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 18/P22/Q3(a)",
+"page": 830,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q2(b)(ii)",
+"page": 830,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q2(c)(i)",
+"page": 831,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q4(a)",
+"page": 832,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q4(c)(i)",
+"page": 833,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 17/P21/Q3(d)(iii)",
+"page": 833,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q4(e)",
+"page": 834,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 17/P23/Q3(d)(iii)",
+"page": 834,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 17/P21/Q4(b)",
+"page": 835,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 17/P22/Q4(a)(v)-(vi)",
+"page": 835,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q4(a)",
+"page": 836,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q4(c)(ii)",
+"page": 836,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q4(d)(iv)",
+"page": 836,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 17/P23/Q4(e)(ii)",
+"page": 837,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q3(c)(i)",
+"page": 837,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q3(c)(iii)",
+"page": 838,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q4(b)(ii)-(iii)",
+"page": 838,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q4(c)(ii)-(iii)",
+"page": 839,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 16/P22/Q5(a)(i)",
+"page": 839,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q4(b)(ii)-(iii)",
+"page": 840,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q4(c)(ii)-(iii)",
+"page": 840,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q5(e)(i)",
+"page": 841,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q4(b)",
+"page": 841,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 15/P21/Q3(b)",
+"page": 842,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 15/P21/Q3(c)",
+"page": 842,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 15/P22/Q4(b)(iv)",
+"page": 843,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 15/P22/Q4(b)(vi)-(viii)",
+"page": 844,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 15/P23/Q3(b)",
+"page": 845,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "O/N 15/P23/Q3(c)",
+"page": 845,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 15/P22/Q3(b)(iii)",
+"page": 845,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q4(a)",
+"page": 846,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q4(b)",
+"page": 847,
+"unit": 14,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q5(e)",
+"page": 870,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q3(a)",
+"page": 870,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q3(d)",
+"page": 871,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q4(c)",
+"page": 872,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q4(b)",
+"page": 872,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q3(b)(ii)-(iii)",
+"page": 873,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q4(b)(i)",
+"page": 874,
+"unit": 15,
+"issues": [
+[
+"dangling part ref",
+"part (a)(v)"
+]
+]
+},
+{
+"ref": "M/J 25/P22/Q4(b)(ii)",
+"page": 874,
+"unit": 15,
+"issues": [
+[
+"label used once",
+"T"
+]
+]
+},
+{
+"ref": "M/J 25/P23/Q6(c)(i)",
+"page": 875,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "MAR 25/P22/Q1(c)(ii)",
+"page": 875,
+"unit": 15,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P21/Q2(c)(iv)",
+"page": 875,
+"unit": 15,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P23/Q2(c)(iv)",
+"page": 875,
+"unit": 15,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 24/P22/Q4(b)",
+"page": 876,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 24/P22/Q4(d)",
+"page": 876,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q4(c)",
+"page": 876,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q4(d)",
+"page": 877,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q4(e)(i)-(ii)",
+"page": 878,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q4(f)",
+"page": 878,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q5(b)(i)",
+"page": 879,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q2(d)(ii)",
+"page": 880,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q4(b)(ii)",
+"page": 881,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q3(e)",
+"page": 881,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q3(a)(i)",
+"page": 881,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q4(a)(i)",
+"page": 882,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q4(b)(i)",
+"page": 883,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q4(c)(i)",
+"page": 884,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q1(e)",
+"page": 885,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q5(a)",
+"page": 886,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q5(b)",
+"page": 887,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q5(c)(i)",
+"page": 888,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q4(b)(i)-(iii)",
+"page": 889,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q4(b)(v)",
+"page": 890,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q3(e)(iii)",
+"page": 890,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q6(e)",
+"page": 891,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q3(c)",
+"page": 891,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q3(d)",
+"page": 892,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q5(b)(iii)",
+"page": 892,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q5(c)(ii)",
+"page": 892,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 20/P22/Q4(a)(i)-(ii)",
+"page": 893,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 20/P22/Q4(b)",
+"page": 893,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 20/P22/Q4(c)(i)-(ii)",
+"page": 893,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q2(e)(iv)",
+"page": 894,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q3(c)(iv)",
+"page": 894,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q4(a)",
+"page": 895,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q4(e)(ii)",
+"page": 895,
+"unit": 15,
+"issues": [
+[
+"label used once",
+"I"
+]
+]
+},
+{
+"ref": "M/J 19/P23/Q5(a)(ii)-(iv)",
+"page": 896,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q5(c)",
+"page": 896,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q4(c)(iii)",
+"page": 897,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 18/P21/Q4(b)(v)",
+"page": 898,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q4(b)(v)",
+"page": 899,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q4(c)",
+"page": 900,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q4(d)",
+"page": 901,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q4(e)",
+"page": 901,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q4(b)",
+"page": 902,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 17/P21/Q3(a)",
+"page": 902,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 17/P21/Q3(b)",
+"page": 903,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 17/P21/Q3(c)(ii)",
+"page": 904,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q4(b)",
+"page": 904,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q4(c)(ii)",
+"page": 905,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 17/P23/Q3(a)",
+"page": 905,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 17/P23/Q3(b)",
+"page": 906,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 17/P23/Q3(c)(ii)",
+"page": 907,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q3(a)(i)",
+"page": 907,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q3(b)",
+"page": 908,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q5(a)",
+"page": 908,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q4(e)",
+"page": 909,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 15/P21/Q4(a)(i)",
+"page": 909,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 15/P21/Q4(b)",
+"page": 910,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 15/P22/Q4(a)(i)",
+"page": 910,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 15/P22/Q4(a)(iv)",
+"page": 910,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 15/P22/Q4(b)(ii)-(iii)",
+"page": 911,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 15/P23/Q4(a)(i)",
+"page": 911,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "O/N 15/P23/Q4(b)",
+"page": 912,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 15/P22/Q3(b)(ii)",
+"page": 912,
+"unit": 15,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q4(a)(i)",
+"page": 925,
+"unit": 16,
+"issues": [
+[
+"label used once",
+"W"
+]
+]
+},
+{
+"ref": "M/J 26/P21/Q4(b)(i)",
+"page": 926,
+"unit": 16,
+"issues": [
+[
+"label used once",
+"W"
+]
+]
+},
+{
+"ref": "M/J 26/P21/Q4(b)(iii)",
+"page": 927,
+"unit": 16,
+"issues": [
+[
+"label used once",
+"W"
+]
+]
+},
+{
+"ref": "M/J 26/P22/Q4(a)",
+"page": 928,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q4(b)(i)",
+"page": 928,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q4(a)(i)-(ii)",
+"page": 929,
+"unit": 16,
+"issues": [
+[
+"dangling Fig.",
+"4.1"
+]
+]
+},
+{
+"ref": "M/J 26/P23/Q4(b)",
+"page": 930,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q4(c)(iii)",
+"page": 931,
+"unit": 16,
+"issues": [
+[
+"dangling Fig.",
+"4.1"
+]
+]
+},
+{
+"ref": "M/J 26/P23/Q4(d)(i)",
+"page": 932,
+"unit": 16,
+"issues": [
+[
+"dangling Fig.",
+"4.1"
+]
+]
+},
+{
+"ref": "M/J 26/P24/Q4(a)",
+"page": 932,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q4(b)",
+"page": 933,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q3(e)",
+"page": 933,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q4(a)",
+"page": 935,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q4(c)",
+"page": 935,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 25/P23/Q4(a)",
+"page": 936,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q2(c)(ii)",
+"page": 936,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q3(a)(i)-(iii)",
+"page": 937,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q3(b)(i)",
+"page": 938,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q5(c)(ii)",
+"page": 938,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q5(d)(ii)",
+"page": 939,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q5(e)(iii)",
+"page": 939,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q6(c)(iii)",
+"page": 940,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q4(b)(i)",
+"page": 940,
+"unit": 16,
+"issues": [
+[
+"label used once",
+"T"
+]
+]
+},
+{
+"ref": "M/J 25/P22/Q4(c)(ii)-(iii)",
+"page": 940,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q4(d)",
+"page": 941,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 24/P22/Q2(b)(iv)",
+"page": 941,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q6(c)(iii)",
+"page": 941,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 23/P21/Q3(e)(i)-(ii)",
+"page": 942,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q3(c)(ii)",
+"page": 943,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q4(b)(ii)",
+"page": 944,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 23/P23/Q3(e)(i)-(ii)",
+"page": 945,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q4(b)(i)",
+"page": 946,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q4(c)",
+"page": 947,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q3(b)",
+"page": 947,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q6(b)(iii)",
+"page": 948,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q6(f)(i)",
+"page": 948,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q4(a)(iii)",
+"page": 949,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q4(b)(ii)",
+"page": 950,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 22/P21/Q3(c)",
+"page": 950,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 22/P23/Q3(c)",
+"page": 951,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q3(d)(i)-(ii)",
+"page": 951,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q4(b)(iv)",
+"page": 952,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q5(a)(ii)",
+"page": 953,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 21/P21/Q4(a)(i)-(ii)",
+"page": 953,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q3(e)(v)",
+"page": 954,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 21/P23/Q4(a)(i)-(ii)",
+"page": 955,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q4(c)",
+"page": 955,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q4(d)",
+"page": 956,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q5(b)(ii)",
+"page": 956,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q4(b)",
+"page": 957,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q5(b)(ii)",
+"page": 957,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q4(c)",
+"page": 958,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q3(c)",
+"page": 958,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q4(b)(i)",
+"page": 960,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q4(a)(i)-(iii)",
+"page": 960,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q4(a)(v)",
+"page": 961,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q3(c)",
+"page": 961,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q4(b)(i)",
+"page": 963,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q2(e)(ii)-(iii)",
+"page": 964,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q3(a)(i)",
+"page": 964,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q3(c)(i)-(ii)",
+"page": 964,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q4(b)",
+"page": 965,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q4(c)(iii)",
+"page": 966,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q6(b)",
+"page": 967,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q4(b)(iv)",
+"page": 967,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q4(a)(iii)-(iv)",
+"page": 968,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q4(a)(ii)",
+"page": 968,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q4(a)",
+"page": 969,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 17/P22/Q4(b)(i)",
+"page": 970,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q3(c)(ii)",
+"page": 970,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q3(c)(iv)-(v)",
+"page": 971,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q5(b)",
+"page": 972,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q5(c)",
+"page": 972,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q5(b)",
+"page": 972,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q5(c)",
+"page": 973,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q5(c)",
+"page": 973,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 16/P22/Q5(a)",
+"page": 974,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 16/P22/Q5(b)",
+"page": 975,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 16/P23/Q4(b)",
+"page": 975,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 16/P23/Q4(d)(i)",
+"page": 976,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 15/P21/Q4(a)(ii)",
+"page": 976,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 15/P21/Q4(c)",
+"page": 977,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 15/P22/Q4(b)(v)",
+"page": 977,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 15/P23/Q4(a)(ii)",
+"page": 977,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "O/N 15/P23/Q4(c)",
+"page": 978,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q3(b)(ii)",
+"page": 978,
+"unit": 16,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q4(b)(ii)",
+"page": 992,
+"unit": 17,
+"issues": [
+[
+"label used once",
+"W"
+]
+]
+},
+{
+"ref": "M/J 26/P22/Q6(c)(iii)",
+"page": 993,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q4(a)(iii)",
+"page": 994,
+"unit": 17,
+"issues": [
+[
+"dangling Fig.",
+"4.1"
+]
+]
+},
+{
+"ref": "M/J 25/P21/Q6(a)",
+"page": 994,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q6(b)",
+"page": 994,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q6(c)(i)-(ii)",
+"page": 995,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "MAR 25/P22/Q4(b)(i)",
+"page": 995,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 24/P21/Q4(a)(i)",
+"page": 996,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 24/P21/Q4(c)",
+"page": 997,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 24/P21/Q4(d)",
+"page": 997,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 24/P21/Q4(e)",
+"page": 998,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 24/P23/Q4(a)(i)",
+"page": 999,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 24/P23/Q4(c)",
+"page": 1000,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 24/P23/Q4(d)",
+"page": 1000,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 24/P23/Q4(e)",
+"page": 1001,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q6(b)(i)",
+"page": 1002,
+"unit": 17,
+"issues": [
+[
+"label used once",
+"U"
+]
+]
+},
+{
+"ref": "M/J 24/P21/Q6(c)(ii)",
+"page": 1003,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q1(d)(iii)-(iv)",
+"page": 1004,
+"unit": 17,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "M/J 23/P21/Q4(a)",
+"page": 1005,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q5(b)",
+"page": 1006,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q5(b)",
+"page": 1007,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q5(d)",
+"page": 1008,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q6(b)(i)-(ii)",
+"page": 1009,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q3(b)",
+"page": 1009,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 22/P21/Q5(a)(ii)-(iii)",
+"page": 1011,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 22/P23/Q5(a)(ii)-(iii)",
+"page": 1012,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q3(c)(i)",
+"page": 1013,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q4(c)(i)-(ii)",
+"page": 1014,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q3(c)",
+"page": 1015,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q4(a)(i)",
+"page": 1016,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q3(d)(ii)",
+"page": 1016,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q3(e)(i)",
+"page": 1017,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q3(e)(iii)",
+"page": 1018,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q4(a)(ii)-(iii)",
+"page": 1019,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q4(b)",
+"page": 1019,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q4(d)(i)-(ii)",
+"page": 1020,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 20/P21/Q4(c)",
+"page": 1020,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q3(c)(i)",
+"page": 1022,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q4(a)(iv)",
+"page": 1022,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q4(b)(ii)-(iv)",
+"page": 1023,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 20/P23/Q4(c)",
+"page": 1024,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q5(c)(i)",
+"page": 1025,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q6(d)",
+"page": 1025,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 20/P22/Q5(b)(i)",
+"page": 1026,
+"unit": 17,
+"issues": [
+[
+"label used once",
+"W"
+]
+]
+},
+{
+"ref": "MAR 20/P22/Q3(a)(ii)-(iii)",
+"page": 1027,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q4(b)(i)",
+"page": 1027,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q4(b)(iii)",
+"page": 1028,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q4(c)(i)-(ii)",
+"page": 1028,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q4(c)(vii)-(viii)",
+"page": 1029,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q4(b)(i)",
+"page": 1030,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q4(b)(iii)",
+"page": 1030,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q4(c)(i)-(ii)",
+"page": 1031,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q4(c)(vii)-(viii)",
+"page": 1032,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q4(d)(i)",
+"page": 1033,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q5(a)",
+"page": 1033,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q3(b)",
+"page": 1033,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 18/P21/Q4(c)",
+"page": 1034,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q4(c)",
+"page": 1035,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 18/P22/Q4(a)(i)",
+"page": 1035,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 18/P22/Q4(c)",
+"page": 1036,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 18/P22/Q4(d)(i)",
+"page": 1037,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 17/P21/Q4(c)",
+"page": 1038,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 17/P21/Q4(d)(ii)",
+"page": 1038,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 17/P22/Q4(c)(i)-(ii)",
+"page": 1039,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q5(d)",
+"page": 1039,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 16/P22/Q5(b)",
+"page": 1040,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q5(d)",
+"page": 1040,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 16/P22/Q5(c)(i)",
+"page": 1041,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 16/P22/Q5(c)(iii)",
+"page": 1042,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q3(d)",
+"page": 1042,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q5(a)(iii)",
+"page": 1043,
+"unit": 17,
+"issues": [
+[
+"label used once",
+"Q"
+],
+[
+"label used once",
+"S"
+],
+[
+"label used once",
+"R"
+]
+]
+},
+{
+"ref": "M/J 15/P22/Q4(b)",
+"page": 1043,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q3(a)(i)",
+"page": 1044,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q3(a)(iii)",
+"page": 1044,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 15/P23/Q3(c)",
+"page": 1044,
+"unit": 17,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q4(c)",
+"page": 1059,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q4(d)(i)",
+"page": 1059,
+"unit": 18,
+"issues": [
+[
+"label used once",
+"R"
+]
+]
+},
+{
+"ref": "O/N 25/P24/Q4(b)(iii)",
+"page": 1060,
+"unit": 18,
+"issues": [
+[
+"dangling part ref",
+"part (a)(v)"
+]
+]
+},
+{
+"ref": "M/J 25/P21/Q5(a)",
+"page": 1061,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q5(b)",
+"page": 1061,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q5(c)(i)",
+"page": 1061,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q5(e)(i)-(ii)",
+"page": 1062,
+"unit": 18,
+"issues": [
+[
+"label used once",
+"E"
+]
+]
+},
+{
+"ref": "M/J 25/P22/Q4(a)",
+"page": 1062,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q5(b)(ii)-(iv)",
+"page": 1063,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q4(b)",
+"page": 1064,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q4(c)",
+"page": 1064,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q4(d)(ii)",
+"page": 1065,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q5(d)(iii)-(iv)",
+"page": 1065,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "O/N 23/P21/Q2(c)",
+"page": 1067,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q3(c)(iii)",
+"page": 1068,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q3(d)(i)",
+"page": 1068,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "O/N 23/P23/Q2(c)",
+"page": 1069,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q5(c)",
+"page": 1070,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q3(a)(iv)",
+"page": 1071,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q5(d)(i)-(iii)",
+"page": 1071,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q3(c)(i)",
+"page": 1072,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "O/N 22/P21/Q5(a)(iv)",
+"page": 1072,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "O/N 22/P23/Q5(a)(iv)",
+"page": 1073,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q4(b)(i)",
+"page": 1073,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q5(c)(iii)-(iv)",
+"page": 1074,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q6(a)",
+"page": 1074,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q6(c)(iii)",
+"page": 1075,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q4(b)(i)",
+"page": 1076,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "O/N 21/P21/Q4(c)",
+"page": 1076,
+"unit": 18,
+"issues": [
+[
+"needs Data Booklet",
+""
+]
+]
+},
+{
+"ref": "O/N 21/P23/Q4(c)",
+"page": 1078,
+"unit": 18,
+"issues": [
+[
+"needs Data Booklet",
+""
+]
+]
+},
+{
+"ref": "M/J 21/P21/Q5(c)(i)",
+"page": 1079,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q5(a)",
+"page": 1080,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q5(a)(iii)",
+"page": 1080,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q6(f)",
+"page": 1081,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q6(g)(ii)",
+"page": 1081,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q3(a)(v)",
+"page": 1082,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q4(b)(iv)",
+"page": 1083,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q4(d)(iii)",
+"page": 1084,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q4(b)(iv)",
+"page": 1085,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q5(a)(i)-(iii)",
+"page": 1086,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q5(d)",
+"page": 1086,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q4(c)(ii)",
+"page": 1087,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q4(c)(iv)",
+"page": 1088,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "O/N 18/P21/Q4(d)(ii)",
+"page": 1088,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q4(e)(i)",
+"page": 1089,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q4(d)(ii)",
+"page": 1089,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 17/P22/Q4(b)(ii)",
+"page": 1090,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q3(d)(i)",
+"page": 1090,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q5(b)(i)",
+"page": 1091,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q5(d)",
+"page": 1092,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 16/P22/Q4(b)(ii)",
+"page": 1092,
+"unit": 18,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q4(d)(ii)",
+"page": 1101,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "MAR 26/P22/Q4(a)(iv)",
+"page": 1101,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "O/N 25/P24/Q4(b)(ii)",
+"page": 1102,
+"unit": 19,
+"issues": [
+[
+"dangling part ref",
+"part (a)(v)"
+]
+]
+},
+{
+"ref": "M/J 25/P22/Q4(b)(iii)-(iv)",
+"page": 1102,
+"unit": 19,
+"issues": [
+[
+"label used once",
+"T"
+]
+]
+},
+{
+"ref": "M/J 25/P23/Q6(c)(ii)-(iii)",
+"page": 1103,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q4(d)(i)",
+"page": 1103,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "MAR 25/P22/Q4(b)(ii)",
+"page": 1103,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "O/N 24/P21/Q4(b)",
+"page": 1104,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "O/N 24/P22/Q2(b)(ii)",
+"page": 1104,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "O/N 24/P23/Q4(b)",
+"page": 1105,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q5(d)(i)-(ii)",
+"page": 1105,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q4(b)(iii)",
+"page": 1106,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q3(a)(iii)",
+"page": 1107,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q6(e)",
+"page": 1107,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q6(f)(ii)",
+"page": 1107,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q4(c)(ii)",
+"page": 1108,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q5(c)(ii)",
+"page": 1109,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q5(b)(iv)",
+"page": 1109,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q3(d)",
+"page": 1110,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "M/J 20/P22/Q5(b)(ii)",
+"page": 1111,
+"unit": 19,
+"issues": [
+[
+"label used once",
+"W"
+]
+]
+},
+{
+"ref": "O/N 19/P22/Q4(e)(iii)",
+"page": 1112,
+"unit": 19,
+"issues": [
+[
+"label used once",
+"I"
+]
+]
+},
+{
+"ref": "M/J 19/P21/Q5(c)",
+"page": 1112,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q5(a)(i)",
+"page": 1112,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "M/J 19/P23/Q5(b)",
+"page": 1113,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "O/N 18/P21/Q4(b)(i)-(ii)",
+"page": 1113,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q4(a)(i)-(ii)",
+"page": 1114,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q4(b)(i)-(ii)",
+"page": 1114,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "O/N 15/P22/Q4(b)(i)",
+"page": 1115,
+"unit": 19,
+"issues": []
+},
+{
+"ref": "M/J 26/P21/Q5(f)",
+"page": 1120,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q5(b)(i)-(ii)",
+"page": 1120,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q4(b)(i)",
+"page": 1120,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q4(b)(iii)-(iv)",
+"page": 1121,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "O/N 25/P23/Q4(b)(i)",
+"page": 1121,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "O/N 25/P23/Q4(b)(iii)-(iv)",
+"page": 1122,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q5(b)(vi)",
+"page": 1123,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q5(c)",
+"page": 1123,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q2(d)(iii)",
+"page": 1124,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q6(a)",
+"page": 1124,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q4(a)(ii)",
+"page": 1125,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q3(b)",
+"page": 1125,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q4(c)",
+"page": 1126,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q4(b)(ii)",
+"page": 1126,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q3(e)(vi)-(vii)",
+"page": 1127,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "M/J 21/P21/Q5(d)-(e)",
+"page": 1128,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q3(c)(ii)",
+"page": 1129,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q4(c)(ii)",
+"page": 1129,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "O/N 18/P21/Q3(c)(i)-(ii)",
+"page": 1129,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "O/N 18/P21/Q3(c)(iv)",
+"page": 1130,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q4(c)",
+"page": 1130,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q3(c)(i)-(ii)",
+"page": 1131,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q3(c)(iv)",
+"page": 1131,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "M/J 18/P21/Q2(c)(ii)-(iv)",
+"page": 1132,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "M/J 18/P23/Q2(b)(ii)",
+"page": 1133,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "O/N 17/P22/Q4(d)(ii)-(iii)",
+"page": 1134,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q3(a)(iii)",
+"page": 1134,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "O/N 16/P21/Q4(b)(iv)",
+"page": 1135,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "O/N 16/P23/Q4(b)(iv)",
+"page": 1135,
+"unit": 20,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q4(d)(i)",
+"page": 1142,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q5(d)(i)",
+"page": 1142,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q5(a)(ii)",
+"page": 1143,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q4(d)(iii)",
+"page": 1144,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "MAR 25/P22/Q4(a)",
+"page": 1145,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "M/J 24/P22/Q4(c)",
+"page": 1146,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q4(b)(iii)",
+"page": 1147,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q3(a)(i)",
+"page": 1148,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q3(d)",
+"page": 1149,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q4(b)(iv)",
+"page": 1150,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "O/N 21/P21/Q2(d)(ii)",
+"page": 1151,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "O/N 21/P23/Q2(d)(ii)",
+"page": 1152,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q4(c)",
+"page": 1152,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "M/J 21/P23/Q5(b)(i)",
+"page": 1154,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q4(c)",
+"page": 1155,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "M/J 20/P22/Q5(a)",
+"page": 1156,
+"unit": 21,
+"issues": [
+[
+"label used once",
+"W"
+]
+]
+},
+{
+"ref": "O/N 19/P21/Q4(c)(vi)",
+"page": 1157,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q4(c)(vi)",
+"page": 1157,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "M/J 19/P21/Q4(d)(ii)",
+"page": 1158,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "M/J 19/P22/Q5(c)(ii)",
+"page": 1159,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "O/N 18/P21/Q4(a)",
+"page": 1160,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q4(a)",
+"page": 1161,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q3(d)",
+"page": 1161,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q3(a)(ii)",
+"page": 1163,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q5(a)(i)",
+"page": 1163,
+"unit": 21,
+"issues": []
+},
+{
+"ref": "MAR 16/P22/Q5(b)",
+"page": 1164,
+"unit": 21,
+"issues": [
+[
+"label used once",
+"S"
+],
+[
+"label used once",
+"T"
+],
+[
+"label used once",
+"R"
+],
+[
+"label used once",
+"Q"
+]
+]
+},
+{
+"ref": "M/J 26/P21/Q5(g)",
+"page": 1173,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 26/P22/Q6(c)(i)-(ii)",
+"page": 1174,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 26/P23/Q5(c)",
+"page": 1175,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 26/P24/Q4(c)",
+"page": 1176,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q3(e)(ii)",
+"page": 1177,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 25/P21/Q4(c)(ii)-(iii)",
+"page": 1179,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 25/P22/Q4(d)(ii)-(iii)",
+"page": 1179,
+"unit": 22,
+"issues": [
+[
+"label used once",
+"R"
+]
+]
+},
+{
+"ref": "O/N 25/P23/Q3(e)(ii)",
+"page": 1181,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 25/P23/Q4(c)(ii)-(iii)",
+"page": 1183,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 25/P21/Q4(c)",
+"page": 1184,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 25/P22/Q5(b)(iii)",
+"page": 1184,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 25/P23/Q5(b)(v)",
+"page": 1186,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 25/P24/Q6(c)",
+"page": 1188,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "MAR 25/P22/Q1(d)",
+"page": 1189,
+"unit": 22,
+"issues": [
+[
+"mentions Periodic Table",
+""
+]
+]
+},
+{
+"ref": "O/N 24/P21/Q4(f)",
+"page": 1189,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 24/P23/Q4(f)",
+"page": 1191,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q6(c)(i)",
+"page": 1193,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 24/P21/Q6(c)(iv)",
+"page": 1194,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 24/P23/Q5(c)",
+"page": 1194,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "MAR 24/P22/Q4(c)",
+"page": 1196,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q3(c)(iv)",
+"page": 1198,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 23/P22/Q3(d)(ii)",
+"page": 1199,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 23/P21/Q3(f)",
+"page": 1200,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 23/P22/Q5(d)(iv)",
+"page": 1200,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q1(c)",
+"page": 1202,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 23/P23/Q6(b)(iv)",
+"page": 1202,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "MAR 23/P22/Q4(d)",
+"page": 1204,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 22/P21/Q5(b)",
+"page": 1206,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 22/P21/Q5(c)",
+"page": 1207,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 22/P22/Q3(c)",
+"page": 1207,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 22/P23/Q5(b)",
+"page": 1210,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 22/P23/Q5(c)",
+"page": 1211,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 22/P21/Q4(d)",
+"page": 1212,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 22/P22/Q6(c)(i)-(ii)",
+"page": 1213,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 22/P23/Q5(b)",
+"page": 1214,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "MAR 22/P22/Q4(b)(iii)",
+"page": 1215,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 21/P22/Q3(d)(iii)",
+"page": 1216,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 21/P22/Q5(b)(v)",
+"page": 1217,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "MAR 21/P22/Q3(c)",
+"page": 1218,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 20/P22/Q4(d)",
+"page": 1218,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 20/P21/Q6(e)",
+"page": 1220,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "MAR 20/P22/Q3(d)(iii)",
+"page": 1221,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q3(a)(iv)",
+"page": 1221,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 19/P21/Q4(c)(v)",
+"page": 1222,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 19/P22/Q4(e)(i)",
+"page": 1223,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q3(a)(iv)",
+"page": 1223,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 19/P23/Q4(c)(v)",
+"page": 1224,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "MAR 19/P22/Q3(d)",
+"page": 1225,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 18/P21/Q4(d)(i)",
+"page": 1226,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 18/P22/Q3(c)(ii)-(iii)",
+"page": 1227,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "O/N 18/P23/Q4(d)(i)",
+"page": 1228,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "MAR 18/P22/Q4(c)(ii)",
+"page": 1229,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 17/P22/Q4(d)",
+"page": 1230,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "MAR 17/P22/Q3(d)(ii)",
+"page": 1231,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 16/P21/Q5(b)(ii)",
+"page": 1233,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 16/P22/Q4(c)",
+"page": 1234,
+"unit": 22,
+"issues": []
+},
+{
+"ref": "M/J 16/P23/Q4(c)",
+"page": 1235,
+"unit": 22,
+"issues": []
+}
+]

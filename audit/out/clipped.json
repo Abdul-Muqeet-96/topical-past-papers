@@ -1,0 +1,546 @@
+[
+{
+"ref": "M/J 24/P22/Q2(b)",
+"side": "Q",
+"src": "9701_s24_qp_22.pdf",
+"srcpage": 5,
+"word": "5",
+"vfrac": 0.57,
+"hfrac": 1,
+"bookpages": [
+279
+]
+},
+{
+"ref": "M/J 25/P24/Q3(b)",
+"side": "Q",
+"src": "9701_s25_qp_24.pdf",
+"srcpage": 6,
+"word": "\u012c\u00d1\u010a\u00ae\u0120\u00b4\u00ed\u00c8\u00f5\u00cf\u012a\u00c5\u010a\u00de\u00f9\u00b5\u00fe\u00d7",
+"vfrac": 0.38,
+"hfrac": 1,
+"bookpages": [
+354
+]
+},
+{
+"ref": "M/J 24/P22/Q3(b)",
+"side": "Q",
+"src": "9701_s24_qp_22.pdf",
+"srcpage": 7,
+"word": "7",
+"vfrac": 0.57,
+"hfrac": 1,
+"bookpages": [
+358
+]
+},
+{
+"ref": "M/J 24/P22/Q3(b)",
+"side": "Q",
+"src": "9701_s24_qp_22.pdf",
+"srcpage": 8,
+"word": "8",
+"vfrac": 0.57,
+"hfrac": 1,
+"bookpages": [
+358
+]
+},
+{
+"ref": "MAR 20/P22/Q1(f)",
+"side": "Q",
+"src": "9701_m20_qp_22.pdf",
+"srcpage": 3,
+"word": "[Turn",
+"vfrac": 0.83,
+"hfrac": 1,
+"bookpages": [
+376
+]
+},
+{
+"ref": "MAR 20/P22/Q1(f)",
+"side": "Q",
+"src": "9701_m20_qp_22.pdf",
+"srcpage": 3,
+"word": "over",
+"vfrac": 0.83,
+"hfrac": 1,
+"bookpages": [
+376
+]
+},
+{
+"ref": "M/J 19/P22/Q1(c)",
+"side": "Q",
+"src": "9701_s19_qp_22.pdf",
+"srcpage": 3,
+"word": "amount",
+"vfrac": 1.0,
+"hfrac": 0.7,
+"bookpages": [
+378
+]
+},
+{
+"ref": "M/J 19/P22/Q1(c)",
+"side": "Q",
+"src": "9701_s19_qp_22.pdf",
+"srcpage": 3,
+"word": "mol",
+"vfrac": 1.0,
+"hfrac": 0.64,
+"bookpages": [
+378
+]
+},
+{
+"ref": "M/J 23/P22/Q4(c)(iv)-(v)",
+"side": "Q",
+"src": "9701_s23_qp_22.pdf",
+"srcpage": 9,
+"word": "[2]",
+"vfrac": 0.31,
+"hfrac": 1,
+"bookpages": [
+425
+]
+},
+{
+"ref": "M/J 24/P22/Q1(d)-(e)",
+"side": "Q",
+"src": "9701_s24_qp_22.pdf",
+"srcpage": 3,
+"word": "3",
+"vfrac": 0.57,
+"hfrac": 1,
+"bookpages": [
+473
+]
+},
+{
+"ref": "MAR 20/P22/Q2(d)(ii)",
+"side": "Q",
+"src": "9701_m20_qp_22.pdf",
+"srcpage": 7,
+"word": "[Turn",
+"vfrac": 0.83,
+"hfrac": 1,
+"bookpages": [
+602
+]
+},
+{
+"ref": "MAR 20/P22/Q2(d)(ii)",
+"side": "Q",
+"src": "9701_m20_qp_22.pdf",
+"srcpage": 7,
+"word": "over",
+"vfrac": 0.83,
+"hfrac": 1,
+"bookpages": [
+602
+]
+},
+{
+"ref": "O/N 21/P22/Q3(e)(iv)",
+"side": "Q",
+"src": "9701_w21_qp_22.pdf",
+"srcpage": 12,
+"word": "[2]",
+"vfrac": 0.73,
+"hfrac": 1,
+"bookpages": [
+695
+]
+},
+{
+"ref": "MAR 20/P22/Q3(c)(iii)",
+"side": "Q",
+"src": "9701_m20_qp_22.pdf",
+"srcpage": 9,
+"word": "[Turn",
+"vfrac": 0.83,
+"hfrac": 1,
+"bookpages": [
+817
+]
+},
+{
+"ref": "MAR 20/P22/Q3(c)(iii)",
+"side": "Q",
+"src": "9701_m20_qp_22.pdf",
+"srcpage": 9,
+"word": "over",
+"vfrac": 0.83,
+"hfrac": 1,
+"bookpages": [
+817
+]
+},
+{
+"ref": "MAR 20/P22/Q3(c)(iii)",
+"side": "Q",
+"src": "9701_m20_qp_22.pdf",
+"srcpage": 11,
+"word": "[Turn",
+"vfrac": 0.83,
+"hfrac": 1,
+"bookpages": [
+817,
+818
+]
+},
+{
+"ref": "MAR 20/P22/Q3(c)(iii)",
+"side": "Q",
+"src": "9701_m20_qp_22.pdf",
+"srcpage": 11,
+"word": "over",
+"vfrac": 0.83,
+"hfrac": 1,
+"bookpages": [
+817,
+818
+]
+},
+{
+"ref": "MAR 24/P22/Q4(b)(ii)",
+"side": "A",
+"src": "9701_m24_ms_22.pdf",
+"srcpage": 9,
+"word": "molecule",
+"vfrac": 0.16,
+"hfrac": 1,
+"bookpages": [
+915
+]
+},
+{
+"ref": "MAR 24/P22/Q4(b)(ii)",
+"side": "A",
+"src": "9701_m24_ms_22.pdf",
+"srcpage": 9,
+"word": "P",
+"vfrac": 0.16,
+"hfrac": 1,
+"bookpages": [
+915
+]
+},
+{
+"ref": "MAR 24/P22/Q4(b)(ii)",
+"side": "A",
+"src": "9701_m24_ms_22.pdf",
+"srcpage": 9,
+"word": "Q",
+"vfrac": 0.16,
+"hfrac": 1,
+"bookpages": [
+915
+]
+},
+{
+"ref": "MAR 24/P22/Q4(b)(ii)",
+"side": "A",
+"src": "9701_m24_ms_22.pdf",
+"srcpage": 9,
+"word": "R",
+"vfrac": 0.16,
+"hfrac": 1,
+"bookpages": [
+915
+]
+},
+{
+"ref": "MAR 24/P22/Q4(b)(ii)",
+"side": "A",
+"src": "9701_m24_ms_22.pdf",
+"srcpage": 9,
+"word": "S",
+"vfrac": 0.16,
+"hfrac": 1,
+"bookpages": [
+915
+]
+},
+{
+"ref": "O/N 21/P22/Q3(e)(v)",
+"side": "Q",
+"src": "9701_w21_qp_22.pdf",
+"srcpage": 12,
+"word": "[2]",
+"vfrac": 0.27,
+"hfrac": 1,
+"bookpages": [
+954
+]
+},
+{
+"ref": "MAR 20/P22/Q3(a)(v)",
+"side": "Q",
+"src": "9701_m20_qp_22.pdf",
+"srcpage": 9,
+"word": "[Turn",
+"vfrac": 0.83,
+"hfrac": 1,
+"bookpages": [
+1082
+]
+},
+{
+"ref": "MAR 20/P22/Q3(a)(v)",
+"side": "Q",
+"src": "9701_m20_qp_22.pdf",
+"srcpage": 9,
+"word": "over",
+"vfrac": 0.83,
+"hfrac": 1,
+"bookpages": [
+1082
+]
+},
+{
+"ref": "M/J 22/P22/Q6(c)(iii)",
+"side": "A",
+"src": "9701_s22_qp_22.pdf",
+"srcpage": 6,
+"word": "[1]",
+"vfrac": 0.84,
+"hfrac": 1,
+"bookpages": [
+1096
+]
+},
+{
+"ref": "M/J 24/P22/Q4(c)",
+"side": "Q",
+"src": "9701_s24_qp_22.pdf",
+"srcpage": 10,
+"word": "\u012c\u00d1\u0109\u00af\u0120\u00b3\u00ed\u00c7\u00fb\u00d9\u0101\u00cd\u012a\u00b8\u00fc\u00d8\u011e\u00d7",
+"vfrac": 0.74,
+"hfrac": 1,
+"bookpages": [
+1146
+]
+},
+{
+"ref": "M/J 24/P22/Q4(c)",
+"side": "Q",
+"src": "9701_s24_qp_22.pdf",
+"srcpage": 11,
+"word": "11",
+"vfrac": 0.57,
+"hfrac": 1,
+"bookpages": [
+1146
+]
+},
+{
+"ref": "M/J 25/P23/Q5(b)(v)",
+"side": "Q",
+"src": "9701_s25_qp_23.pdf",
+"srcpage": 10,
+"word": "500",
+"vfrac": 1.0,
+"hfrac": 0.47,
+"bookpages": [
+1186,
+1187
+]
+},
+{
+"ref": "M/J 25/P23/Q5(b)(v)",
+"side": "Q",
+"src": "9701_s25_qp_23.pdf",
+"srcpage": 10,
+"word": "transmittance",
+"vfrac": 1.0,
+"hfrac": 0.84,
+"bookpages": [
+1186,
+1187
+]
+},
+{
+"ref": "MAR 24/P22/Q4(c)",
+"side": "A",
+"src": "9701_m24_qp_22.pdf",
+"srcpage": 1,
+"word": "No",
+"vfrac": 1.0,
+"hfrac": 0.74,
+"bookpages": [
+1239
+]
+},
+{
+"ref": "MAR 24/P22/Q4(c)",
+"side": "A",
+"src": "9701_m24_qp_22.pdf",
+"srcpage": 1,
+"word": "\u25cf",
+"vfrac": 1.0,
+"hfrac": 0.44,
+"bookpages": [
+1239
+]
+},
+{
+"ref": "MAR 24/P22/Q4(c)",
+"side": "A",
+"src": "9701_m24_qp_22.pdf",
+"srcpage": 1,
+"word": "\u25cf",
+"vfrac": 1.0,
+"hfrac": 0.44,
+"bookpages": [
+1239
+]
+},
+{
+"ref": "MAR 24/P22/Q4(c)",
+"side": "A",
+"src": "9701_m24_qp_22.pdf",
+"srcpage": 1,
+"word": "\u25cf",
+"vfrac": 1.0,
+"hfrac": 0.44,
+"bookpages": [
+1239
+]
+},
+{
+"ref": "MAR 24/P22/Q4(c)",
+"side": "A",
+"src": "9701_m24_qp_22.pdf",
+"srcpage": 1,
+"word": "\u25cf",
+"vfrac": 1.0,
+"hfrac": 0.44,
+"bookpages": [
+1239
+]
+},
+{
+"ref": "MAR 24/P22/Q4(c)",
+"side": "A",
+"src": "9701_m24_qp_22.pdf",
+"srcpage": 1,
+"word": "\u25cf",
+"vfrac": 0.27,
+"hfrac": 1,
+"bookpages": [
+1239
+]
+},
+{
+"ref": "MAR 24/P22/Q4(c)",
+"side": "A",
+"src": "9701_m24_qp_22.pdf",
+"srcpage": 1,
+"word": "Do",
+"vfrac": 0.27,
+"hfrac": 1,
+"bookpages": [
+1239
+]
+},
+{
+"ref": "MAR 24/P22/Q4(c)",
+"side": "A",
+"src": "9701_m24_qp_22.pdf",
+"srcpage": 1,
+"word": "not",
+"vfrac": 0.26,
+"hfrac": 1,
+"bookpages": [
+1239
+]
+},
+{
+"ref": "MAR 24/P22/Q4(c)",
+"side": "A",
+"src": "9701_m24_qp_22.pdf",
+"srcpage": 1,
+"word": "use",
+"vfrac": 0.27,
+"hfrac": 1,
+"bookpages": [
+1239
+]
+},
+{
+"ref": "MAR 24/P22/Q4(c)",
+"side": "A",
+"src": "9701_m24_qp_22.pdf",
+"srcpage": 1,
+"word": "an",
+"vfrac": 0.27,
+"hfrac": 1,
+"bookpages": [
+1239
+]
+},
+{
+"ref": "MAR 24/P22/Q4(c)",
+"side": "A",
+"src": "9701_m24_qp_22.pdf",
+"srcpage": 1,
+"word": "erasable",
+"vfrac": 0.27,
+"hfrac": 1,
+"bookpages": [
+1239
+]
+},
+{
+"ref": "MAR 24/P22/Q4(c)",
+"side": "A",
+"src": "9701_m24_qp_22.pdf",
+"srcpage": 1,
+"word": "pen",
+"vfrac": 0.27,
+"hfrac": 1,
+"bookpages": [
+1239
+]
+},
+{
+"ref": "MAR 24/P22/Q4(c)",
+"side": "A",
+"src": "9701_m24_qp_22.pdf",
+"srcpage": 1,
+"word": "or",
+"vfrac": 0.27,
+"hfrac": 1,
+"bookpages": [
+1239
+]
+},
+{
+"ref": "MAR 24/P22/Q4(c)",
+"side": "A",
+"src": "9701_m24_qp_22.pdf",
+"srcpage": 1,
+"word": "correction",
+"vfrac": 0.27,
+"hfrac": 1,
+"bookpages": [
+1239
+]
+},
+{
+"ref": "MAR 24/P22/Q4(c)",
+"side": "A",
+"src": "9701_m24_qp_22.pdf",
+"srcpage": 1,
+"word": "fluid.",
+"vfrac": 0.27,
+"hfrac": 1,
+"bookpages": [
+1239
+]
+}
+]

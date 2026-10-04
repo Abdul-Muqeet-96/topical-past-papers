@@ -1,0 +1,4168 @@
+[
+{
+"file": "data/9701_m16_qp_22.pdf",
+"series": "m",
+"year": 16,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 16,
+"textlen": 1014,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"February/March",
+"March"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m16_ms_22.pdf",
+"series": "m",
+"year": 16,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 8,
+"textlen": 996,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"March"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m17_qp_22.pdf",
+"series": "m",
+"year": 17,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 16,
+"textlen": 1017,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"February/March",
+"March"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m17_ms_22.pdf",
+"series": "m",
+"year": 17,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 5,
+"textlen": 1047,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"March"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m18_qp_22.pdf",
+"series": "m",
+"year": 18,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1017,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"February/March",
+"March"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m18_ms_22.pdf",
+"series": "m",
+"year": 18,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 7,
+"textlen": 1083,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"March"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m19_qp_22.pdf",
+"series": "m",
+"year": 19,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 16,
+"textlen": 1026,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"February/March",
+"March"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m19_ms_22.pdf",
+"series": "m",
+"year": 19,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 9,
+"textlen": 1048,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"March"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m20_qp_22.pdf",
+"series": "m",
+"year": 20,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 16,
+"textlen": 966,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"February/March",
+"March"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m20_ms_22.pdf",
+"series": "m",
+"year": 20,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 10,
+"textlen": 978,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"March"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m21_qp_22.pdf",
+"series": "m",
+"year": 21,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 918,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"February/March",
+"March"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m21_ms_22.pdf",
+"series": "m",
+"year": 21,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 9,
+"textlen": 977,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"March"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m22_qp_22.pdf",
+"series": "m",
+"year": 22,
+"variant": 22,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1010,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"February/March",
+"March"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m22_ms_22.pdf",
+"series": "m",
+"year": 22,
+"variant": 22,
+"type": "ms",
+"phase": 1,
+"pages": 9,
+"textlen": 995,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"February/March",
+"March"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m23_qp_22.pdf",
+"series": "m",
+"year": 23,
+"variant": 22,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1047,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"February/March",
+"March"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m23_ms_22.pdf",
+"series": "m",
+"year": 23,
+"variant": 22,
+"type": "ms",
+"phase": 1,
+"pages": 10,
+"textlen": 996,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"February/March",
+"March"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m24_qp_22.pdf",
+"series": "m",
+"year": 24,
+"variant": 22,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1047,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"February/March",
+"March"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m24_ms_22.pdf",
+"series": "m",
+"year": 24,
+"variant": 22,
+"type": "ms",
+"phase": 1,
+"pages": 10,
+"textlen": 1030,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"February/March",
+"March"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m25_qp_22.pdf",
+"series": "m",
+"year": 25,
+"variant": 22,
+"type": "qp",
+"phase": 1,
+"pages": 12,
+"textlen": 1107,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"February/March",
+"March"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m25_ms_22.pdf",
+"series": "m",
+"year": 25,
+"variant": 22,
+"type": "ms",
+"phase": 1,
+"pages": 9,
+"textlen": 1029,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"February/March",
+"March"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m26_qp_22.pdf",
+"series": "m",
+"year": 26,
+"variant": 22,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1563,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"February/March",
+"March"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_m26_ms_22.pdf",
+"series": "m",
+"year": 26,
+"variant": 22,
+"type": "ms",
+"phase": 1,
+"pages": 11,
+"textlen": 1395,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"February/March",
+"March"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s15_qp_21.pdf",
+"series": "s",
+"year": 15,
+"variant": 21,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1005,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s15_ms_21.pdf",
+"series": "s",
+"year": 15,
+"variant": 21,
+"type": "ms",
+"phase": 2,
+"pages": 5,
+"textlen": 1042,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s15_qp_22.pdf",
+"series": "s",
+"year": 15,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 8,
+"textlen": 988,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s15_ms_22.pdf",
+"series": "s",
+"year": 15,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 4,
+"textlen": 1042,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s15_qp_23.pdf",
+"series": "s",
+"year": 15,
+"variant": 23,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1006,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s15_ms_23.pdf",
+"series": "s",
+"year": 15,
+"variant": 23,
+"type": "ms",
+"phase": 2,
+"pages": 5,
+"textlen": 1041,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s16_qp_21.pdf",
+"series": "s",
+"year": 16,
+"variant": 21,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 990,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s16_ms_21.pdf",
+"series": "s",
+"year": 16,
+"variant": 21,
+"type": "ms",
+"phase": 2,
+"pages": 7,
+"textlen": 1094,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s16_qp_22.pdf",
+"series": "s",
+"year": 16,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1007,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s16_ms_22.pdf",
+"series": "s",
+"year": 16,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 7,
+"textlen": 1094,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s16_qp_23.pdf",
+"series": "s",
+"year": 16,
+"variant": 23,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1007,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s16_ms_23.pdf",
+"series": "s",
+"year": 16,
+"variant": 23,
+"type": "ms",
+"phase": 2,
+"pages": 5,
+"textlen": 1094,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s17_qp_21.pdf",
+"series": "s",
+"year": 17,
+"variant": 21,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1011,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s17_ms_21.pdf",
+"series": "s",
+"year": 17,
+"variant": 21,
+"type": "ms",
+"phase": 2,
+"pages": 7,
+"textlen": 1074,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s17_qp_22.pdf",
+"series": "s",
+"year": 17,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1011,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s17_ms_22.pdf",
+"series": "s",
+"year": 17,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 9,
+"textlen": 1074,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s17_qp_23.pdf",
+"series": "s",
+"year": 17,
+"variant": 23,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 994,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s17_ms_23.pdf",
+"series": "s",
+"year": 17,
+"variant": 23,
+"type": "ms",
+"phase": 2,
+"pages": 8,
+"textlen": 1074,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s18_qp_21.pdf",
+"series": "s",
+"year": 18,
+"variant": 21,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1011,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s18_ms_21.pdf",
+"series": "s",
+"year": 18,
+"variant": 21,
+"type": "ms",
+"phase": 2,
+"pages": 9,
+"textlen": 1108,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s18_qp_22.pdf",
+"series": "s",
+"year": 18,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1012,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s18_ms_22.pdf",
+"series": "s",
+"year": 18,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 10,
+"textlen": 1109,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s18_qp_23.pdf",
+"series": "s",
+"year": 18,
+"variant": 23,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1011,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s18_ms_23.pdf",
+"series": "s",
+"year": 18,
+"variant": 23,
+"type": "ms",
+"phase": 2,
+"pages": 10,
+"textlen": 1109,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s19_qp_21.pdf",
+"series": "s",
+"year": 19,
+"variant": 21,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1020,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s19_ms_21.pdf",
+"series": "s",
+"year": 19,
+"variant": 21,
+"type": "ms",
+"phase": 2,
+"pages": 9,
+"textlen": 1075,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s19_qp_22.pdf",
+"series": "s",
+"year": 19,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1020,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s19_ms_22.pdf",
+"series": "s",
+"year": 19,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 12,
+"textlen": 1076,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s19_qp_23.pdf",
+"series": "s",
+"year": 19,
+"variant": 23,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1019,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s19_ms_23.pdf",
+"series": "s",
+"year": 19,
+"variant": 23,
+"type": "ms",
+"phase": 2,
+"pages": 9,
+"textlen": 1075,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s20_qp_21.pdf",
+"series": "s",
+"year": 20,
+"variant": 21,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 959,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s20_ms_21.pdf",
+"series": "s",
+"year": 20,
+"variant": 21,
+"type": "ms",
+"phase": 2,
+"pages": 10,
+"textlen": 1467,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s20_qp_22.pdf",
+"series": "s",
+"year": 20,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 959,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s20_ms_22.pdf",
+"series": "s",
+"year": 20,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 12,
+"textlen": 1467,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s20_qp_23.pdf",
+"series": "s",
+"year": 20,
+"variant": 23,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 959,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s20_ms_23.pdf",
+"series": "s",
+"year": 20,
+"variant": 23,
+"type": "ms",
+"phase": 2,
+"pages": 11,
+"textlen": 1467,
+"code_ok": true,
+"paper2": false,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": true,
+"status": "HEADER_MISMATCH"
+},
+{
+"file": "data/9701_s21_qp_21.pdf",
+"series": "s",
+"year": 21,
+"variant": 21,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 944,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s21_ms_21.pdf",
+"series": "s",
+"year": 21,
+"variant": 21,
+"type": "ms",
+"phase": 2,
+"pages": 10,
+"textlen": 984,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s21_qp_22.pdf",
+"series": "s",
+"year": 21,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 944,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s21_ms_22.pdf",
+"series": "s",
+"year": 21,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 12,
+"textlen": 984,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s21_qp_23.pdf",
+"series": "s",
+"year": 21,
+"variant": 23,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 944,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s21_ms_23.pdf",
+"series": "s",
+"year": 21,
+"variant": 23,
+"type": "ms",
+"phase": 2,
+"pages": 9,
+"textlen": 983,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s22_qp_21.pdf",
+"series": "s",
+"year": 22,
+"variant": 21,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1035,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s22_ms_21.pdf",
+"series": "s",
+"year": 22,
+"variant": 21,
+"type": "ms",
+"phase": 1,
+"pages": 10,
+"textlen": 1004,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s22_qp_22.pdf",
+"series": "s",
+"year": 22,
+"variant": 22,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1035,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s22_ms_22.pdf",
+"series": "s",
+"year": 22,
+"variant": 22,
+"type": "ms",
+"phase": 1,
+"pages": 14,
+"textlen": 1004,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s22_qp_23.pdf",
+"series": "s",
+"year": 22,
+"variant": 23,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1035,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s22_ms_23.pdf",
+"series": "s",
+"year": 22,
+"variant": 23,
+"type": "ms",
+"phase": 1,
+"pages": 12,
+"textlen": 1004,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s23_qp_21.pdf",
+"series": "s",
+"year": 23,
+"variant": 21,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1041,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s23_ms_21.pdf",
+"series": "s",
+"year": 23,
+"variant": 21,
+"type": "ms",
+"phase": 1,
+"pages": 10,
+"textlen": 1004,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s23_qp_22.pdf",
+"series": "s",
+"year": 23,
+"variant": 22,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1041,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s23_ms_22.pdf",
+"series": "s",
+"year": 23,
+"variant": 22,
+"type": "ms",
+"phase": 1,
+"pages": 12,
+"textlen": 1004,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s23_qp_23.pdf",
+"series": "s",
+"year": 23,
+"variant": 23,
+"type": "qp",
+"phase": 1,
+"pages": 20,
+"textlen": 1041,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s23_ms_23.pdf",
+"series": "s",
+"year": 23,
+"variant": 23,
+"type": "ms",
+"phase": 1,
+"pages": 12,
+"textlen": 1004,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s24_qp_21.pdf",
+"series": "s",
+"year": 24,
+"variant": 21,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1041,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s24_ms_21.pdf",
+"series": "s",
+"year": 24,
+"variant": 21,
+"type": "ms",
+"phase": 1,
+"pages": 12,
+"textlen": 1038,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s24_qp_22.pdf",
+"series": "s",
+"year": 24,
+"variant": 22,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1132,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s24_ms_22.pdf",
+"series": "s",
+"year": 24,
+"variant": 22,
+"type": "ms",
+"phase": 1,
+"pages": 13,
+"textlen": 1038,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s24_qp_23.pdf",
+"series": "s",
+"year": 24,
+"variant": 23,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1010,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s24_ms_23.pdf",
+"series": "s",
+"year": 24,
+"variant": 23,
+"type": "ms",
+"phase": 1,
+"pages": 11,
+"textlen": 1038,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s25_qp_21.pdf",
+"series": "s",
+"year": 25,
+"variant": 21,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1133,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s25_ms_21.pdf",
+"series": "s",
+"year": 25,
+"variant": 21,
+"type": "ms",
+"phase": 1,
+"pages": 12,
+"textlen": 1018,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s25_qp_22.pdf",
+"series": "s",
+"year": 25,
+"variant": 22,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1133,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s25_ms_22.pdf",
+"series": "s",
+"year": 25,
+"variant": 22,
+"type": "ms",
+"phase": 1,
+"pages": 14,
+"textlen": 1018,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s25_qp_23.pdf",
+"series": "s",
+"year": 25,
+"variant": 23,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1132,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s25_ms_23.pdf",
+"series": "s",
+"year": 25,
+"variant": 23,
+"type": "ms",
+"phase": 1,
+"pages": 11,
+"textlen": 1018,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s26_qp_21.pdf",
+"series": "s",
+"year": 26,
+"variant": 21,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1555,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s26_ms_21.pdf",
+"series": "s",
+"year": 26,
+"variant": 21,
+"type": "ms",
+"phase": 1,
+"pages": 23,
+"textlen": 1850,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s26_qp_22.pdf",
+"series": "s",
+"year": 26,
+"variant": 22,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1556,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s26_ms_22.pdf",
+"series": "s",
+"year": 26,
+"variant": 22,
+"type": "ms",
+"phase": 1,
+"pages": 24,
+"textlen": 1850,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s26_qp_23.pdf",
+"series": "s",
+"year": 26,
+"variant": 23,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1556,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s26_ms_23.pdf",
+"series": "s",
+"year": 26,
+"variant": 23,
+"type": "ms",
+"phase": 1,
+"pages": 19,
+"textlen": 1850,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w15_qp_21.pdf",
+"series": "w",
+"year": 15,
+"variant": 21,
+"type": "qp",
+"phase": 2,
+"pages": 8,
+"textlen": 995,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w15_ms_21.pdf",
+"series": "w",
+"year": 15,
+"variant": 21,
+"type": "ms",
+"phase": 2,
+"pages": 6,
+"textlen": 1053,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w15_qp_22.pdf",
+"series": "w",
+"year": 15,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1015,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w15_ms_22.pdf",
+"series": "w",
+"year": 15,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 7,
+"textlen": 1053,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w15_qp_23.pdf",
+"series": "w",
+"year": 15,
+"variant": 23,
+"type": "qp",
+"phase": 2,
+"pages": 8,
+"textlen": 996,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w15_ms_23.pdf",
+"series": "w",
+"year": 15,
+"variant": 23,
+"type": "ms",
+"phase": 2,
+"pages": 6,
+"textlen": 1053,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w16_qp_21.pdf",
+"series": "w",
+"year": 16,
+"variant": 21,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1018,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w16_ms_21.pdf",
+"series": "w",
+"year": 16,
+"variant": 21,
+"type": "ms",
+"phase": 2,
+"pages": 8,
+"textlen": 1104,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w16_qp_22.pdf",
+"series": "w",
+"year": 16,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1016,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w16_ms_22.pdf",
+"series": "w",
+"year": 16,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 8,
+"textlen": 1110,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w16_qp_23.pdf",
+"series": "w",
+"year": 16,
+"variant": 23,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1017,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w16_ms_23.pdf",
+"series": "w",
+"year": 16,
+"variant": 23,
+"type": "ms",
+"phase": 2,
+"pages": 8,
+"textlen": 1104,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w17_qp_21.pdf",
+"series": "w",
+"year": 17,
+"variant": 21,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1018,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w17_ms_21.pdf",
+"series": "w",
+"year": 17,
+"variant": 21,
+"type": "ms",
+"phase": 2,
+"pages": 7,
+"textlen": 1098,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w17_qp_22.pdf",
+"series": "w",
+"year": 17,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1020,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w17_ms_22.pdf",
+"series": "w",
+"year": 17,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 7,
+"textlen": 1099,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w17_qp_23.pdf",
+"series": "w",
+"year": 17,
+"variant": 23,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1019,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w17_ms_23.pdf",
+"series": "w",
+"year": 17,
+"variant": 23,
+"type": "ms",
+"phase": 2,
+"pages": 7,
+"textlen": 1098,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w18_qp_21.pdf",
+"series": "w",
+"year": 18,
+"variant": 21,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1001,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w18_ms_21.pdf",
+"series": "w",
+"year": 18,
+"variant": 21,
+"type": "ms",
+"phase": 2,
+"pages": 9,
+"textlen": 1064,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w18_qp_22.pdf",
+"series": "w",
+"year": 18,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 16,
+"textlen": 1020,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w18_ms_22.pdf",
+"series": "w",
+"year": 18,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 10,
+"textlen": 1065,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w18_qp_23.pdf",
+"series": "w",
+"year": 18,
+"variant": 23,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1002,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w18_ms_23.pdf",
+"series": "w",
+"year": 18,
+"variant": 23,
+"type": "ms",
+"phase": 2,
+"pages": 9,
+"textlen": 1064,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w19_qp_21.pdf",
+"series": "w",
+"year": 19,
+"variant": 21,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1027,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w19_ms_21.pdf",
+"series": "w",
+"year": 19,
+"variant": 21,
+"type": "ms",
+"phase": 2,
+"pages": 9,
+"textlen": 1064,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w19_qp_22.pdf",
+"series": "w",
+"year": 19,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 16,
+"textlen": 1028,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w19_ms_22.pdf",
+"series": "w",
+"year": 19,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 10,
+"textlen": 1065,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w19_qp_23.pdf",
+"series": "w",
+"year": 19,
+"variant": 23,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 1027,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w19_ms_23.pdf",
+"series": "w",
+"year": 19,
+"variant": 23,
+"type": "ms",
+"phase": 2,
+"pages": 9,
+"textlen": 1064,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w20_qp_21.pdf",
+"series": "w",
+"year": 20,
+"variant": 21,
+"type": "qp",
+"phase": 2,
+"pages": 16,
+"textlen": 947,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w20_ms_21.pdf",
+"series": "w",
+"year": 20,
+"variant": 21,
+"type": "ms",
+"phase": 2,
+"pages": 11,
+"textlen": 1015,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w20_qp_22.pdf",
+"series": "w",
+"year": 20,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 16,
+"textlen": 947,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w20_ms_22.pdf",
+"series": "w",
+"year": 20,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 11,
+"textlen": 1015,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w20_qp_23.pdf",
+"series": "w",
+"year": 20,
+"variant": 23,
+"type": "qp",
+"phase": 2,
+"pages": 16,
+"textlen": 947,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w20_ms_23.pdf",
+"series": "w",
+"year": 20,
+"variant": 23,
+"type": "ms",
+"phase": 2,
+"pages": 11,
+"textlen": 1015,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w21_qp_21.pdf",
+"series": "w",
+"year": 21,
+"variant": 21,
+"type": "qp",
+"phase": 2,
+"pages": 16,
+"textlen": 950,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w21_ms_21.pdf",
+"series": "w",
+"year": 21,
+"variant": 21,
+"type": "ms",
+"phase": 2,
+"pages": 10,
+"textlen": 994,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w21_qp_22.pdf",
+"series": "w",
+"year": 21,
+"variant": 22,
+"type": "qp",
+"phase": 2,
+"pages": 12,
+"textlen": 920,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w21_ms_22.pdf",
+"series": "w",
+"year": 21,
+"variant": 22,
+"type": "ms",
+"phase": 2,
+"pages": 11,
+"textlen": 994,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w21_qp_23.pdf",
+"series": "w",
+"year": 21,
+"variant": 23,
+"type": "qp",
+"phase": 2,
+"pages": 16,
+"textlen": 951,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w21_ms_23.pdf",
+"series": "w",
+"year": 21,
+"variant": 23,
+"type": "ms",
+"phase": 2,
+"pages": 10,
+"textlen": 994,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w22_qp_21.pdf",
+"series": "w",
+"year": 22,
+"variant": 21,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1011,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w22_ms_21.pdf",
+"series": "w",
+"year": 22,
+"variant": 21,
+"type": "ms",
+"phase": 1,
+"pages": 11,
+"textlen": 994,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w22_qp_22.pdf",
+"series": "w",
+"year": 22,
+"variant": 22,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1043,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w22_ms_22.pdf",
+"series": "w",
+"year": 22,
+"variant": 22,
+"type": "ms",
+"phase": 1,
+"pages": 13,
+"textlen": 994,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w22_qp_23.pdf",
+"series": "w",
+"year": 22,
+"variant": 23,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1012,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w22_ms_23.pdf",
+"series": "w",
+"year": 22,
+"variant": 23,
+"type": "ms",
+"phase": 1,
+"pages": 11,
+"textlen": 994,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w23_qp_21.pdf",
+"series": "w",
+"year": 23,
+"variant": 21,
+"type": "qp",
+"phase": 1,
+"pages": 20,
+"textlen": 1046,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w23_ms_21.pdf",
+"series": "w",
+"year": 23,
+"variant": 21,
+"type": "ms",
+"phase": 1,
+"pages": 15,
+"textlen": 994,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w23_qp_22.pdf",
+"series": "w",
+"year": 23,
+"variant": 22,
+"type": "qp",
+"phase": 1,
+"pages": 20,
+"textlen": 1049,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w23_ms_22.pdf",
+"series": "w",
+"year": 23,
+"variant": 22,
+"type": "ms",
+"phase": 1,
+"pages": 9,
+"textlen": 993,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w23_qp_23.pdf",
+"series": "w",
+"year": 23,
+"variant": 23,
+"type": "qp",
+"phase": 1,
+"pages": 20,
+"textlen": 1049,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w23_ms_23.pdf",
+"series": "w",
+"year": 23,
+"variant": 23,
+"type": "ms",
+"phase": 1,
+"pages": 15,
+"textlen": 994,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w24_qp_21.pdf",
+"series": "w",
+"year": 24,
+"variant": 21,
+"type": "qp",
+"phase": 1,
+"pages": 20,
+"textlen": 1133,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w24_ms_21.pdf",
+"series": "w",
+"year": 24,
+"variant": 21,
+"type": "ms",
+"phase": 1,
+"pages": 11,
+"textlen": 1028,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w24_qp_22.pdf",
+"series": "w",
+"year": 24,
+"variant": 22,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1109,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w24_ms_22.pdf",
+"series": "w",
+"year": 24,
+"variant": 22,
+"type": "ms",
+"phase": 1,
+"pages": 11,
+"textlen": 1028,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w24_qp_23.pdf",
+"series": "w",
+"year": 24,
+"variant": 23,
+"type": "qp",
+"phase": 1,
+"pages": 20,
+"textlen": 1140,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w24_ms_23.pdf",
+"series": "w",
+"year": 24,
+"variant": 23,
+"type": "ms",
+"phase": 1,
+"pages": 11,
+"textlen": 1028,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w25_qp_21.pdf",
+"series": "w",
+"year": 25,
+"variant": 21,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1139,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w25_ms_21.pdf",
+"series": "w",
+"year": 25,
+"variant": 21,
+"type": "ms",
+"phase": 1,
+"pages": 12,
+"textlen": 1028,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w25_qp_22.pdf",
+"series": "w",
+"year": 25,
+"variant": 22,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1145,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w25_ms_22.pdf",
+"series": "w",
+"year": 25,
+"variant": 22,
+"type": "ms",
+"phase": 1,
+"pages": 10,
+"textlen": 1028,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w25_qp_23.pdf",
+"series": "w",
+"year": 25,
+"variant": 23,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1144,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w25_ms_23.pdf",
+"series": "w",
+"year": 25,
+"variant": 23,
+"type": "ms",
+"phase": 1,
+"pages": 12,
+"textlen": 1028,
+"code_ok": true,
+"paper2": true,
+"title": [
+false,
+true,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s25_qp_24.pdf",
+"series": "s",
+"year": 25,
+"variant": 24,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1126,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s25_ms_24.pdf",
+"series": "s",
+"year": 25,
+"variant": 24,
+"type": "ms",
+"phase": 1,
+"pages": 11,
+"textlen": 1018,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s26_qp_24.pdf",
+"series": "s",
+"year": 26,
+"variant": 24,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1524,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_s26_ms_24.pdf",
+"series": "s",
+"year": 26,
+"variant": 24,
+"type": "ms",
+"phase": 1,
+"pages": 23,
+"textlen": 1850,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"May/June"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w25_qp_24.pdf",
+"series": "w",
+"year": 25,
+"variant": 24,
+"type": "qp",
+"phase": 1,
+"pages": 16,
+"textlen": 1144,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": false,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+},
+{
+"file": "data/9701_w25_ms_24.pdf",
+"series": "w",
+"year": 25,
+"variant": 24,
+"type": "ms",
+"phase": 1,
+"pages": 11,
+"textlen": 1034,
+"code_ok": true,
+"paper2": true,
+"title": [
+true,
+false,
+true
+],
+"series_ok": true,
+"series_txt": [
+"October/November"
+],
+"is_ms": true,
+"type_ok": true,
+"paper3": false,
+"status": "OK"
+}
+]

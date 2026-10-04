@@ -1,0 +1,26 @@
+[
+{
+"ref": "M/J 22/P23/Q3(b)",
+"side": "Q",
+"src": "9701_s22_qp_23.pdf",
+"srcpage": 6,
+"cut_src_y": 117.1,
+"book_pages": [
+690,
+691
+],
+"crossing_px": 8
+},
+{
+"ref": "MAR 16/P22/Q5(a)(i)",
+"side": "Q",
+"src": "9701_m16_qp_22.pdf",
+"srcpage": 12,
+"cut_src_y": 493.3,
+"book_pages": [
+1163,
+1164
+],
+"crossing_px": 338
+}
+]

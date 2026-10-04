@@ -1,0 +1,32 @@
+[
+{
+"ref": "M/J 23/P22/Q4(c)(iv)-(v)",
+"src": "9701_s23_qp_22.pdf",
+"srcpage": 9,
+"word": "[2]",
+"inside": 0.31,
+"bookpages": [
+425
+]
+},
+{
+"ref": "O/N 21/P22/Q3(e)(iv)",
+"src": "9701_w21_qp_22.pdf",
+"srcpage": 12,
+"word": "[2]",
+"inside": 0.73,
+"bookpages": [
+695
+]
+},
+{
+"ref": "O/N 21/P22/Q3(e)(v)",
+"src": "9701_w21_qp_22.pdf",
+"srcpage": 12,
+"word": "[2]",
+"inside": 0.27,
+"bookpages": [
+954
+]
+}
+]
