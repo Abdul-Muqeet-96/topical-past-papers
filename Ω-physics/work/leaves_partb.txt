@@ -1,0 +1,1064 @@
+## m24_22 Q1 [6] STEM: 
+  (a) [1] Table 1.1 lists some SI quantities. Complete the table by indicating with a tick (✓) which rows are SI base quantities. Table 1.1 quantity base quantity current energy force mass [1]
+  (b) [2] Use the definition of power to determine its SI base units. SI base units [2]
+  (c) [3] A light meter is used to measure the intensity of light in a classroom. Daylight is incident normally on the sensor of the meter. The sensor has an area of 2.2 cm2. The reading on the meter is 950 W m–2. Calculate the power of the daylight incident on the sensor. power = W [3]
+## m24_22 Q2 [11] STEM: 
+  (a) [1] Define acceleration. [1]
+  (b) [3] An Olympic diver stands on a platform above a pool of water, as shown in Fig. 2.1. 5.9 m s–1 diver 60° horizontal platform 9.0 m surface of water 1.2 m Fig. 2.1 (not to scale) When the diver is on the platform his centre of gravity is a vertical height of 9.0 m above the surface of the water. The di
+  (c) intro: The diver in (b) enters the water and decelerates.
+  (c)(i) [2] Describe and explain the variation of the viscous drag force acting on the diver in the water as he moves downwards. [2]
+  (c)(ii) [1] The diver has a volume of 7.5 × 10–2 m3 . The density of the water is 1.0 × 103 kg m–3 . Show that the upthrust acting on the diver when he is entirely underwater is 740 N. [1]
+  (c)(iii) [4] At a particular instant when the diver is entirely underwater his horizontal velocity is zero. The viscous drag force acting on him at this instant is 950 N vertically upwards. The diver has mass 78 kg. Determine the magnitude and direction of the acceleration of the diver. acceleration = m s–2 dire
+## m24_22 Q3 [8] STEM: A thin metal wire X, of diameter 1.2 × 10–3 m, is used to suspend a model planet, as shown in Fig. 3.1. wire X model planet Fig. 3.1 (not to scale) The variation with strain of the stress for wire X is shown in Fig. 3.2. 1.0 0.8 stress / GPa 0.6 0.4 0.2 0 0 2 
+  (a) intro: The strain in X is 5.4 × 10–3.
+  (a)(i) [3] Use Fig. 3.2 to calculate the force exerted on the wire by the model planet. force = N [3]
+  (a)(ii) [3] The elastic potential energy of X is 0.31 J. Calculate the original length of the wire before the model planet was attached. original length = m [3]
+  (b) [2] Wire X is replaced by a new wire, Y, with the same original length and diameter but double the Young modulus of X. Wire Y also obeys Hooke’s law. On Fig. 3.2, draw a line representing the variation with strain of the stress for Y. [2]
+## m24_22 Q4 [6] STEM: A nucleus P undergoes α-decay to form nucleus Q.
+  (a) [2] Complete the equation for this decay. ___ ___ 215 84 P ___ Q + ___ α [2]
+  (b)(i) [2] State the principle of conservation of momentum. [2]
+  (b)(ii) [2] Before the decay, nucleus P has a speed of 3.2 × 105 m s–1. After the decay, nucleus Q is stationary. Calculate the speed of the alpha particle after the decay. speed = m s–1 [2]
+## m24_22 Q5 [5] STEM: 
+  (a) [1] By reference to the direction of propagation of energy, state what is meant by a transverse wave. [1]
+  (b) [1] A space telescope is designed to detect electromagnetic radiation with wavelengths in the range 12 μm to 28 μm. State the region of the electromagnetic spectrum for this radiation. [1]
+  (c) [3] A detector on another space telescope detects an electromagnetic wave. The signal from the detector is transmitted to Earth and displayed on an oscilloscope as shown in Fig. 5.1. The frequency of the signal displayed on the oscilloscope is equal to the frequency of the detected electromagnetic wave.
+## m24_22 Q6 [10] STEM: 
+  (a) intro: Coherent visible light of a single frequency is incident normally on a double slit. This produces a pattern of bright and dark interference fringes on a screen, as illustrated in Fig. 6.1. fringe pattern on screen screen
+  (a)(i) [3] Explain how the pattern of bright and dark interference fringes is formed. [3]
+  (a)(ii) [3] The distance between the centres of bright fringe X and bright fringe Y in the pattern is 10.2 mm. The slit spacing is 1.2 mm. The distance from the slits to the screen is 3.1 m. Calculate the wavelength of the light incident on the slits. wavelength = m [3]
+  (a)(iii) [1] The light is replaced by different visible light with a shorter wavelength. State how the new fringe separation will compare to the original fringe separation. [1]
+  (b) intro: A stationary wave is formed on a stretched string AB, as shown in Fig. 6.2. string P Q mean position of string A B R Fig. 6.2 P, Q and R are points on the string.
+  (b)(i) [1] On Fig. 6. 2, draw a cross (×) to show the position of a node. [1]
+  (b)(ii) [1] State the phase difference between P and Q. phase difference = ° [1]
+  (b)(iii) [1] State the phase difference between P and R. phase difference = ° [1]
+## m24_22 Q7 [8] STEM: 
+  (a) [1] Define electric potential difference. [1]
+  (b) [3] A cell of electromotive force (e.m.f.) 1.8 V and internal resistance r is connected in parallel with a resistor of resistance 6.0 Ω and a filament lamp, as shown in Fig. 7.1. 1.8 V r A 6.0 Ω S Fig. 7.1 The switch S is open. The ammeter reading is 0.25 A. Determine the internal resistance r of the ce
+  (c) intro: At time t1 switch S in Fig. 7.1 is closed. Fig. 7.2 shows the variation with time t of the ammeter reading I. I 0 t1 0 t Fig. 7.2
+  (c)(i) [1] State whether the e.m.f. of the cell after t1 is greater than, less than or the same as it was before t1. [1]
+  (c)(ii) [3] By considering the effect of the lamp on the total resistance of the circuit, explain the variation of the ammeter reading shown in Fig. 7.2. [3]
+## m24_22 Q8 [6] STEM: 
+  (a) [1] State the name of the class (group) of fundamental particles that contains a neutrino. [1]
+  (b) intro: A hadron P has a charge of +1e, where e is the elementary charge. The hadron P is composed of a down antiquark and only one other quark.
+  (b)(i) [1] Identify a possible flavour for this other quark. [1]
+  (b)(ii) [1] State what type of hadron is P. [1]
+  (c) intro: Nucleus Q undergoes radioactive decay to form nucleus R, emitting an antineutrino and another particle X, as shown in the decay equation. Q R + X + ν
+  (c)(i) [1] State what particle is represented by X. [1]
+  (c)(ii) [1] Compare the nucleon numbers of Q and R. [1]
+  (c)(iii) [1] Compare the charges of Q and R. [1]
+## m25_22 Q1 [7] STEM: 
+  (a) [1] Explain what is meant by the accuracy of a measured value. [1]
+  (b) intro: Two solid cubes, A and B, are measured to determine the density of their materials. Table 1.1 shows the measurements for cube A. Table 1.1 quantity measurement length of side (1.53 ± 0.01) cm mass (31.3 ± 0.5) g
+  (b)(i) [2] Show that the calculated density of the material of cube A is 8.7 × 103 kg m–3. [2]
+  (b)(ii) [2] Calculate the percentage uncertainty in the density of the material of cube A. percentage uncertainty = % [2]
+  (b)(iii) [2] The density of the material of cube B is determined to be 9.2 × 103 kg m–3 ± 6%. State and explain whether cube A and cube B could be made from the same material. [2]
+## m25_22 Q2 [10] STEM: 
+  (a) [2] State the principle of moments. [2]
+  (b) intro: A solid plastic cylinder floats in water. It is used to support one end of a horizontal uniform beam AB as shown in Fig. 2.1. 6.0 m 5.0 m x hinge A B P uniform beam, cylinder weight 1700 N ground water Fig. 2.1 (not to s
+  (b)(i) [3] By taking moments about end A, determine the distance x from A to P. distance = m [3]
+  (b)(ii) [1] The bottom of the cylinder is submerged in the water to depth y as shown in Fig. 2.2. The beam is still attached to the cylinder but not shown. force from beam, 1300 N cylinder, mass 11 kg y 0.78 m water Fig. 2.2 (not to scale) The cylinder has mass 11 kg and diameter 0.78 m. The beam exerts a verti
+  (b)(iii) [2] The water has density 990 kg m–3. Calculate the depth y. y = m [2]
+  (b)(iv) [2] The person can stand anywhere between A and B. On Fig. 2.3, sketch the variation of the depth of the bottom of the cylinder with the distance of the person from A, for distances between 0 and 6.0 m. Numerical values are not required. depth / m 0 0 6.0 distance from A / m Fig. 2.3 [2]
+## m25_22 Q3 [10] STEM: 
+  (a) intro: A truck R of mass 9400 kg moves with constant acceleration in a straight line down a slope, as illustrated in Fig. 3.1. R A 180 m B Fig. 3.1 At point A the speed of the truck is 13 m s–1 and at point B the speed of the t
+  (a)(i) [2] Calculate the acceleration of the truck between A and B. acceleration = m s–2 [2]
+  (a)(ii) [3] Determine the gain in kinetic energy of the truck between A and B. gain in kinetic energy = J [3]
+  (b) intro: A short time after passing point B truck R moves in a straight line on horizontal ground. The driver of the truck applies the brakes. Fig. 3.2 shows the variation with time of the momentum of the truck. 25 20 momentum / 
+  (b)(i) [1] Define force. [1]
+  (b)(ii) [1] Show that the average resultant force F acting on truck R between time t = 0 and t = 15 s is –1.2 × 104 N. [1]
+  (b)(iii) [3] An identical truck S has the same initial momentum as truck R. Truck S experiences a constant force equal to the force F in (b)(ii). State and explain whether truck S will take more, less or the same amount of time to come to rest as truck R. [3]
+## m25_22 Q4 [8] STEM: A device containing a microwave emitter and receiver is placed in front of a large metal sheet in a vacuum as shown in Fig. 4.1. X P Q Y microwave emitter and receiver metal sheet Fig. 4.1 (not to scale) The line XY is perpendicular to the metal sheet. The dev
+  (a) [4] When the device is at position P, a stationary wave is formed between the device and the sheet. Explain how the stationary wave, including the nodes and the antinodes, is formed. [4]
+  (b)(i) [2] Calculate the wavelength of the microwaves. wavelength = m [2]
+  (b)(ii) [1] At point P the receiver detects a maximum amplitude of the stationary wave. The device is moved slowly from point P along the line XY and the receiver detects a series of minimum and maximum amplitudes. The first time a minimum amplitude is detected by the receiver is when the device is at point Q. 
+  (b)(iii) [1] The intensity of the microwaves emitted by the device is increased. The frequency of the microwaves is unchanged. The device is moved slowly along the line XY from point Q until the next maximum amplitude is detected at point R. State and explain whether the distance QR is greater than, less than or
+## m25_22 Q5 [5] STEM: A stationary loudspeaker emits sound of constant frequency. A microphone is placed near to the loudspeaker and connected to a cathode-ray oscilloscope (CRO). The trace on the screen of the CRO is shown in Fig. 5.1. 1 cm 1 cm Fig. 5.1 The time-base of the CRO i
+  (a) [3] The speed of the sound emitted by the loudspeaker is 330 m s–1. Determine the wavelength of the sound. wavelength = m [3]
+  (b) [2] The loudspeaker now moves in a straight line while emitting the same sound of constant frequency. The period of the trace on the CRO increases continuously. Describe the motion of the loudspeaker. [2]
+## m25_22 Q6 [13] STEM: A cylindrical copper wire P of length 0.24 m is shown in Fig. 6.1. 0.24 m 0.85 A Fig. 6.1 (not to scale) The current in the wire is 0.85 A. The resistance of the wire is 3.3 mΩ. The total number of charge carriers N in the wire is 2.6 × 1022. The resistivity o
+  (a) [2] Calculate the potential difference between the two ends of the wire. potential difference = V [2]
+  (b)(i) [2] Show that the cross-sectional area of the wire is 1.3 × 10–6 m2. [2]
+  (b)(ii) [1] Show that the number density of charge carriers in the wire is 8.3 × 1028 m–3. [1]
+  (b)(iii) [2] Calculate the average drift speed of the charge carriers (electrons) in the wire. average drift speed = m s–1 [2]
+  (c) intro: A different copper wire Q has the same volume as wire P, but non-uniform radius, as shown in Fig. 6.2. X r1 r2 Fig. 6.2 (not to scale) The radius r1 at end X of wire Q is the same as the radius of wire P. Radius r2 is le
+  (c)(i) [4] State and explain how the resistance of wire Q compares with the resistance of wire P. [4]
+  (c)(ii) [2] On Fig. 6.3, sketch a graph of the variation of the average drift speed of the charge carriers with distance from end X of wire Q. average drift speed 0 0 distance from X Fig. 6.3 [2]
+## m25_22 Q7 [7] STEM: An isolated stationary nucleus Q decays into nucleus R and an α-particle. The α-particle has speed 1.5 × 107 m s–1.
+  (a) [1] Complete the equation for this decay. 222 4 88 Q R + 2 α [1]
+  (b) [3] By considering momentum, calculate the speed of nucleus R after the decay. speed = m s–1 [3]
+  (c) [3] State three quantities that are conserved during the decay.    [3]
+## m26_22 Q1 [4] STEM: 
+  (a) [1] Define force. [1]
+  (b) [1] Use the definition in 1(a) to show that the SI base units of force are kg m s–2. [1]
+  (c) [2] A student is investigating the relationship between the force applied to the piston of a syringe and the velocity of fluid exiting the syringe. The student wishes to use the equation v = Fk mA where: v is the velocity of fluid exiting the syringe F is the force applied to the piston k is a constant 
+## m26_22 Q2 [11] STEM: 
+  (a) [2] State the principle of conservation of momentum. [2]
+  (b) intro: A stationary boat of mass 160 kg floats on water. The mast of the boat is vertical. A sack of mass 23 kg is thrown at the boat, as shown in Figure 2.1. mast of boat 3.4 m s–1 sack boat water Figure 2.1 Immediately before
+  (b)(i) [2] Calculate the horizontal speed v of the sack and boat immediately after the collision. v = m s–1 [2]
+  (b)(ii) [3] The total kinetic energy of the sack and boat immediately before the collision is E1. The total kinetic energy of the sack and boat immediately after the collision is E2. E2 Determine the ratio . E1 ratio = [3]
+  (b)(iii) [1] State and explain whether the collision between the sack and boat is elastic or inelastic. [1]
+  (c) intro: After a short time, the boat in 2(b) is at rest again.
+  (c)(i) [1] Show that the upthrust acting on the boat with the sack is 1800 N. [1]
+  (c)(ii) [2] The boat displaces water with a volume of 1.80 × 105 cm3. Calculate the density of the water. Give your answer to 3 significant figures. density = kg m–3 [2]
+## m26_22 Q3 [6] STEM: A rollercoaster carriage of mass 280 kg travels a raised section of track, as illustrated in Figure 3.1. Y track Δh carriage, mass 280 kg X Z not to scale Figure 3.1 At position X, the carriage has kinetic energy 16.1 kJ. At position Y, the carriage has kineti
+  (a)(i) [2] Calculate the average resistive force acting on the carriage between X and Y. average force = N [2]
+  (a)(ii) [3] Calculate the change in height Δh between X and Y. Δh = m [3]
+  (b) [1] The carriage travels further along the track to point Z. State and explain whether the speed of the carriage at Z is greater than, less than or the same as the speed of the carriage at X. [1]
+## m26_22 Q4 [11] STEM: A uniform square picture is attached to a wire and hangs in equilibrium from a pin at point P, as shown in Figure 4.1. P T T wire θ θ picture centre of gravity 19 N of picture not to scale Figure 4.1 The picture has weight 19 N and its centre of gravity is dir
+  (a)(i) [1] Define the moment of a force about a point. [1]
+  (a)(ii) [1] Explain why the moment of the weight about P is zero. [1]
+  (a)(iii) [2] Calculate θ. θ = ° [2]
+  (a)(iv) [3] The wire has diameter 0.80 mm and is made of a metal with Young modulus 9.3 × 1010 Pa. The wire obeys Hooke’s Law. Calculate the strain ε in the wire. ε = [3]
+  (b) intro: The bottom side of the picture shown in Figure 4.1 is 1.6 m above the ground. The pin at P breaks, and the picture falls vertically downwards. Resistive forces acting on the picture are negligible.
+  (b)(i) [2] Calculate the time taken for the bottom side of the picture to hit the ground. time = s [2]
+  (b)(ii) [2] On Figure 4.2, sketch the variation of the speed of the picture with the distance fallen from its initial position. speed 0 0 1.6 distance / m Figure 4.2 [2]
+## m26_22 Q5 [12] STEM: 
+  (a) intro: For a progressive wave, state what is meant by:
+  (a)(i) [1] period [1]
+  (a)(ii) [1] amplitude. [1]
+  (b) intro: A stretched string is fixed at both ends and made to vibrate with a frequency of 25 Hz. A stationary wave is formed on the string. The distance between the fixed ends of the string is 0.96 m. Figure 5.1 shows the string 
+  (b)(i) [1] On Figure 5.1, draw a cross (×) at the position of an antinode. [1]
+  (b)(ii) [3] Show that the speed of a progressive wave on the string is 16 m s–1. [3]
+  (b)(iii) [2] The frequency of the vibrations is increased to 30 Hz. The speed of the wave on the string does not change. State and explain whether a stationary wave is formed. [2]
+  (c) intro: A beam of light of wavelength 4.5 × 10–7 m is incident normally on a diffraction grating with 6.7 × 105 lines per metre. The light passes through the grating and forms a pattern of bright spots on a screen that is parall
+  (c)(i) [3] Calculate the order n of the bright spot formed at X. n = [3]
+  (c)(ii) [1] The diffraction grating is replaced by a grating with fewer lines per metre. State whether the distance between adjacent bright spots on the screen increases, decreases or remains the same. [1]
+## m26_22 Q6 [10] STEM: 
+  (a) [1] State what is meant by an electric current. [1]
+  (b) [2] A cell has electromotive force (e.m.f.) 1.50 V and internal resistance 0.75 Ω. On Figure 6.1, draw the variation of the terminal potential difference (p.d.) with current in the cell for current between 0 A and 1.6 A. 2.0 1.5 terminal 1.0 p.d. / V 0.5 0 0 0.4 0.8 1.2 1.6 current / A Figure 6.1 [2]
+  (c) intro: A metal wire X has length 6.8 m and cross‑sectional area 2.0 × 10–7 m2. The resistance of the wire is 0.82 Ω. The wire is connected to a circuit containing the cell in 6(b) and a fixed resistor of resistance R, as shown 
+  (c)(i) [2] Calculate the resistivity ρ of the metal from which wire X is made. ρ = Ω m [2]
+  (c)(ii) [3] Calculate R. R = Ω [3]
+  (c)(iii) [2] Calculate the power dissipated in the internal resistance of the cell. power = W [2]
+## m26_22 Q7 [6] STEM: 
+  (a) [2] Describe the structure of a nuclear atom. [2]
+  (b) intro: P and Q are radioactive nuclei. P has 94 protons. Q has 91 protons. Each nucleus decays to form a nucleus with 92 protons.
+  (b)(i) [1] State the type of radioactive decay experienced by P. [1]
+  (b)(ii) [1] State the type of radioactive decay experienced by Q. [1]
+  (c) [2] Particle X has a ratio of charge mass equal to +1.76 × 1011 C kg–1. Identify particle X. Show your working. particle X [2]
+## s24_21 Q1 [10] STEM: The drag force FD acting on an object falling through air is given by FD = 1 2 CρAv 2 where A is the cross-sectional area of the object, v is the velocity of the object in the air, ρ is the density of the air and C is a constant called the drag coefficient.
+  (a) [3] Use SI base units to show that the drag coefficient has no units. [3]
+  (b) [2] Fig. 1.1 shows a sphere falling at terminal velocity in air. sphere terminal velocity Fig. 1.1 Assume that the upthrust on the sphere is negligible. On Fig. 1.1, draw and label arrows to show the directions of the two forces acting on the sphere. [2]
+  (c) [2] The mass of the sphere is 49 g. Calculate the drag force FD acting on the sphere. FD = N [2]
+  (d) [3] The sphere is falling in air at a terminal velocity of 25 in SI base units. The density of the air is 1.2 in SI base units. The diameter of the sphere is 0.060 in SI base units. Use your answer in (c) to calculate the drag coefficient C for the sphere. C = [3]
+## s24_21 Q2 [7] STEM: 
+  (a) [1] Define velocity. [1]
+  (b) intro: A student throws a ball a vertical wall of height h, as shown in Fig. 2.1. path of ball wall 22 m s–1 ball 40° horizontal h ground 1.2 m 36 m Fig. 2.1 (not to scale) The ball leaves the hand of the student at a height of
+  (b)(i) [2] Determine the time taken for the ball to reach the wall. time taken = s [2]
+  (b)(ii) [1] Calculate the vertical component u of the initial velocity of the ball. u = m s–1 [1]
+  (b)(iii) [3] The ball just goes the wall. Calculate the height h of the wall. h = m [3]
+## s24_21 Q3 [9] STEM: 
+  (a) [2] State the principle of conservation of momentum. [2]
+  (b) [4] An object of mass 2m is travelling at a speed of 5.0 m s–1 in a straight line. It collides with an object of mass 3m which is initially stationary, as shown in Fig. 3.1. 5.0 m s–1 object, mass 2m object, mass 3m Fig. 3.1 After the collision, the object of mass 2m moves with velocity v at an angle of
+  (c) [3] An object of mass 4.2 kg is travelling in a straight line at a speed of 6.0 m s–1. The object is brought to rest in a distance of 0.050 m by a constant force. Calculate the magnitude of this force. force = N [3]
+## s24_21 Q4 [8] STEM: 
+  (a) [1] Define strain. [1]
+  (b) intro: A copper wire of length 4.0 m has a uniform cross-sectional area of 4.5 × 10–7 m2. A tensile force of 18 N is applied to the wire. This causes the wire to extend by 1.4 mm up to its limit of proportionality.
+  (b)(i) [3] Calculate the Young modulus of the wire. Young modulus = Pa [3]
+  (b)(ii) [2] On Fig. 4.1, draw a line to show how the stress varies with the strain for the wire up to its limit of proportionality. 5 stress / 107 Pa 4 3 2 1 0 0 1 2 3 4 5 strain / 10 – 4 Fig. 4.1 [2]
+  (c) [2] A second copper wire has the same length as the wire in (b) but a larger diameter. Both wires are subjected to a tensile force of 18 N. By placing a tick (3) in each row, complete Table 4.1 to compare the stress and strain of the two wires. Table 4.1 greater in less in the same in second wire second
+## s24_21 Q5 [8] STEM: A stretched string PQ has length 1.2 m. One end of the string is attached to a vibration generator and the other end is attached to a wall, as shown in Fig. 5.1. wall 1.2 m vibration generator Q P string Fig. 5.1 The vibration generator is switched on and a st
+  (a) [2] Explain how a stationary wave is formed between the vibration generator and the wall. [2]
+  (b) [1] Calculate the wavelength of the stationary wave shown in Fig. 5.2. wavelength = m [1]
+  (c) [2] Fig. 5.3 shows the stationary wave at time t = 0 when all points on the wave are at their maximum displacements. P Q Fig. 5.3 The period of the wave is 0.16 s. On Fig. 5.3, sketch the shape of the stationary wave at time t = 0.24 s. [2]
+  (d) [1] Points R and T on the string are a horizontal distance of 0.30 m apart and in the positions shown in Fig. 5.4. 0.30 m R T Fig. 5.4 State the phase difference between the oscillations of points R and T. phase difference = ° [1]
+  (e) [2] Calculate the speed of the progressive waves on the stretched string. speed = m s–1 [2]
+## s24_21 Q6 [10] STEM: 
+  (a) [1] State Kirchhoff’s first law. [1]
+  (b) [2] A cell with internal resistance r is connected to two resistors of resistances R1 and R2 as shown in Fig. 6.1. r I R1 R2 Fig. 6.1 The potential differences (p.d.s) across R1 and R2 are V1 and V2 respectively. The terminal p.d. across the cell is V. The current in the circuit is I. Use Kirchhoff’s la
+  (c) [3] The electromotive force (e.m.f.) of the cell in Fig. 6.1 is 1.50 V. The values of R1 and R2 are 10 Ω and 15 Ω respectively. The terminal p.d. of the cell is 1.35 V. Calculate the internal resistance r of the cell. r = Ω [3]
+  (d) intro: A resistor of resistance R3 is added to the circuit in Fig. 6.1, so that the circuit is as shown in Fig. 6.2. r R1 R2 R3 Fig. 6.2 State and explain the effect, if any, of this change on:
+  (d)(i) [2] the current in the cell [2]
+  (d)(ii) [2] the terminal p.d. of the cell. [2]
+## s24_21 Q7 [8] STEM: Nuclei of an isotope of copper (Cu) each have 29 protons and 37 neutrons. This isotope is a β– emitter.
+  (a) [1] State the nuclide notation in the form A ZX for this nucleus of copper. [1]
+  (b) intro: The energy spectrum of the β– radiation emitted by a sample of this isotope is shown in Fig. 7.1. number of β– particles 0 0 kinetic energy of β– particle Fig. 7.1
+  (b)(i) [3] Use Fig. 7.1 to explain why other particles apart from the β– particles must be emitted during this decay. [3]
+  (b)(ii) [1] State the name of the other particle emitted during the decay of this isotope. [1]
+  (b)(iii) [3] The copper isotope decays to an isotope of zinc (Zn). Give the radioactive decay equation for this decay. Include the nucleon and proton numbers of all the particles involved. [3]
+## s24_22 Q1 [10] STEM: 
+  (a) [1] The list below shows some SI quantities. Underline the quantity that is not an SI base quantity. charge current length time [1]
+  (b) intro: A square solar panel with sides of length 1300 mm is shown in Fig. 1.1. incident light solar panel 1300 mm 1300 mm Fig. 1.1 (not to scale) Light is incident normally on the solar panel.
+  (b)(i) [3] The power of the light incident on the solar panel is 750 W. Calculate the intensity of the light. intensity = W m–2 [3]
+  (b)(ii) [2] The percentage uncertainty in the incident power is ± 3%. The uncertainty in the length of each side is ± 5 mm. Calculate the percentage uncertainty in the intensity of the light. percentage uncertainty = % [2]
+  (b)(iii) [1] The useful power output of the solar panel is 160 W. Calculate the percentage efficiency of the solar panel. efficiency = % [1]
+  (b)(iv) [3] Another square solar panel is placed so that light of the same intensity is incident normally on it. The new panel has shorter sides than the original panel. The new panel has the same power output as the original panel. State and explain whether the efficiency of the new panel is greater than, less
+## s24_22 Q2 [10] STEM: A skydiver jumps from an aircraft at time t = 0 and falls vertically downwards. The variation with t of her velocity v is shown in Fig. 2.1. 45 40 v / m s–1 35 30 25 20 15 10 5 0 0 5 10 15 20 25 30 t / s Fig. 2.1
+  (a)(i) [1] Using Fig. 2.1, state the terminal velocity of the skydiver. terminal velocity = m s–1 [1]
+  (a)(ii) [2] By drawing a suitable line on Fig. 2.1, determine the acceleration of the skydiver at time t = 9.0 s. acceleration = m s–2 [2]
+  (b) [3] The mass of the skydiver and her equipment is 68 kg. The upthrust on the skydiver is negligible. After reaching terminal velocity, the skydiver opens her parachute at time t1. A total drag force of 1800 N acts on the skydiver. Determine the magnitude and direction of the acceleration of the skydiver
+  (c) intro: The parachute is fully open at time t2. At a later time t3 the skydiver reaches a constant velocity of 5.7 m s–1.
+  (c)(i) [2] Describe and explain the variation with time of the magnitude of her acceleration between time t2 and time t3. [2]
+  (c)(ii) [2] Calculate the change in momentum of the skydiver between time t1 and time t3. change in momentum = N s [2]
+## s24_22 Q3 [11] STEM: Lightning occurs when charge builds up in the atmosphere, creating a potential difference between the ground and the atmosphere. During a lightning strike there is an average current of 3.3 × 10 4 A for a time of 2.6 × 10 –5 s.
+  (a) [2] Calculate the charge transferred during the lightning strike. charge = C [2]
+  (b) [2] The potential difference between the ground and the atmosphere is 3.0 × 107 V. Calculate the average power, in GW, transferred during the lightning strike. power = GW [2]
+  (c) intro: A lightning rod is attached to a tall building to conduct charge safely to the ground. The lightning rod is modelled as a uniform cylindrical copper cable of total length 95 m that runs from the ground to the top of the 
+  (c)(i) [3] The resistance of the lightning rod is 9.6 Ω. The resistivity of copper is 1.7 × 10 –8 Ω m. Determine the radius of the lightning rod. radius = m [3]
+  (c)(ii) [1] The radius of the copper lightning rod is doubled with no change to its length. State the effect of this change on the resistance of the lightning rod. [1]
+  (d) [3] A section of the lightning rod of length 0.12 m is removed for testing. A tensile stress of 1.9 × 106 Pa is applied, as shown in Fig. 3.2. lightning rod fixed support tensile stress 1.9 × 106 Pa 0.12 m Fig. 3.2 (not to scale) The section of the rod obeys Hooke’s law. The Young modulus of copper is 1
+## s24_22 Q4 [11] STEM: A pinball machine uses a spring to launch a small metal ball of mass 4.5 × 10 –2 kg up a ramp. The spring is compressed by 8.0 × 10 –2 m and held in equilibrium, as shown in Fig. 4.1. original length 8.0 × 10–2 m ramp spring fixed end ball, mass 4.5 × 10–2 kg 
+  (a) [2] The spring obeys Hooke’s law and has a spring constant of 29 N m–1. Calculate the elastic potential energy in the compressed spring. elastic potential energy = J [2]
+  (b) intro: The spring is released and expands quickly back to its original length.
+  (b)(i) [3] Calculate the increase in gravitational potential energy of the ball when the spring returns to its original length. increase in gravitational potential energy = J [3]
+  (b)(ii) [3] The ball leaves the spring when the spring reaches its original length. Assume that all the elastic potential energy of the spring is transferred to the ball. Calculate the speed of the ball as it leaves the spring. speed = m s–1 [3]
+  (c) intro: The ball comes to rest on a horizontal trapdoor of negligible mass at a distance d from its pivot. A force F acts vertically downwards at a distance of 2.0 cm from the pivot, as shown in Fig. 4.2. 2.0 cm d ball F pivot t
+  (c)(i) [2] The trapdoor is in equilibrium when F is 1.7 N. Calculate d. d = m [2]
+  (c)(ii) [1] Force F is decreased from 1.7 N. State the direction of the resultant moment about the pivot on the trapdoor. [1]
+## s24_22 Q5 [9] STEM: 
+  (a) [1] State Kirchhoff’s second law. [1]
+  (b) intro: A battery of electromotive force (e.m.f.) 9.0 V and negligible internal resistance is connected in series with a variable resistor X and a thermistor Y as shown in Fig. 5.1. X 9.0 V Y Fig. 5.1 Fig. 5.2 shows the relation
+  (b)(i) [2] The current in the circuit is 1.1 × 10–2 A. The potential difference across Y is 4.0 V. Calculate the resistance of X. resistance = Ω [2]
+  (b)(ii) [3] The temperature of Y is changed to 190 °C. The resistance of X remains unchanged. Determine the new potential difference across Y. potential difference = V [3]
+  (b)(iii) [3] The resistance of X is increased. The temperature of Y remains at 190 °C. By reference to the current in the circuit, state and explain the effect of this change, if any, on the potential difference across Y. [3]
+## s24_22 Q6 [6] STEM: Light of a single frequency is incident normally on a diffraction grating. An interference pattern of bright and dark fringes forms on the semicircular screen shown in Fig. 6.1. light semicircular screen diffraction grating Fig. 6.1 (not to scale) The light ha
+  (a) [3] Determine the total number of bright fringes formed on the screen. number of bright fringes = [3]
+  (b) intro: The light is replaced with red light of a single frequency.
+  (b)(i) [1] State whether the frequency of the red light is greater than, less than or the same as the frequency of the original light. [1]
+  (b)(ii) [2] State and explain the effect of this change on the number of bright fringes formed on the screen. A calculation is not required. [2]
+## s24_22 Q7 [3] STEM: A particle Q and a particle R are each composed of one quark and one antiquark.
+  (a) [1] State the name of the class (group) of particles that includes Q and R. [1]
+  (b) [2] Q has a charge of –1e, where e is the elementary charge. R has a charge of 0. Complete Table 7.1 to show a possible second quark in each of Q and R. Table 7.1 charge first quark second quark Q –1e strange R 0 anti-up [2]
+## s24_23 Q1 [10] STEM: The drag force FD acting on a sphere falling through a liquid is given by FD = 6πηr v where r is the radius of the sphere, v is the speed of the sphere in the liquid and η is a property of the liquid called the viscosity.
+  (a) [2] Show that the SI base units of viscosity are kg m–1 s–1. [2]
+  (b) [2] The sphere has a radius of 3.0 cm and is falling vertically downwards at a terminal velocity of 2.0 m s–1 through the liquid. The drag force acting on the sphere is 0.096 N. Calculate the viscosity of the liquid. viscosity = kg m–1 s–1 [2]
+  (c) [2] The sphere is shown in Fig. 1.1. sphere liquid Fig. 1.1 On Fig. 1.1, draw and label arrows to represent the directions of the three forces acting on the sphere as it falls at terminal velocity through the liquid. [2]
+  (d)(i) [2] The density of the liquid is 920 kg m–3. Show that the upthrust acting on the sphere is 1.0 N. [2]
+  (d)(ii) [2] Calculate the mass of the sphere. mass = kg [2]
+## s24_23 Q2 [11] STEM: 
+  (a) [1] Define displacement from a point. [1]
+  (b) intro: An object is projected horizontally at a speed of 6.0 m s–1 from a slope, as shown in Fig. 2.1. 6.0 m s–1 object slope θ horizontal Fig. 2.1 (not to scale) The slope is at an angle θ to the horizontal. Air resistance is 
+  (b)(i) [1] Determine the horizontal distance travelled by the object. distance = m [1]
+  (b)(ii) [2] Determine the vertical distance travelled by the object. distance = m [2]
+  (b)(iii) [2] Use your answers in (b)(i) and (b)(ii) to calculate θ. θ = ° [2]
+  (b)(iv) [2] Determine the magnitude of the displacement of the object from its original position. displacement = m [2]
+  (b)(v) [3] By considering energy, calculate the speed of the object just before it lands. speed = m s–1 [3]
+## s24_23 Q3 [12] STEM: 
+  (a) [1] State Hooke’s law. [1]
+  (b) intro: The variation of the applied force with the extension for a sample of a material is shown in Fig. 3.1. 10 force / N 8 X 6 4 2 0 0 40 80 120 160 200 extension / mm Fig. 3.1 The sample behaves elastically up to an extensio
+  (b)(i) [1] On the line in Fig. 3.1, draw a cross (×) to show the limit of proportionality. Label this cross with the letter P. [1]
+  (b)(ii) [1] On the line in Fig. 3.1, draw a cross (×) to show the elastic limit. Label this cross with the letter E. [1]
+  (c) intro: The sample in (b) has a cross-sectional area of 0.40 mm2 and an initial length of 3.2 m. For deformations within the limit of proportionality of the sample, determine:
+  (c)(i) [2] the spring constant of the sample spring constant = N m–1 [2]
+  (c)(ii) [3] the Young modulus of the material from which the sample is made. Young modulus = Pa [3]
+  (d) [2] Determine an estimate of the work done on the sample as it is extended from zero extension to its breaking point. Explain your reasoning. work done = J [2]
+  (e) [2] A second sample of the same material has a larger cross-sectional area than the original sample but the same initial length. The two samples are each deformed with the limit of proportionality. State and explain qualitatively how the spring constant of the second sample compares with that of the ori
+## s24_23 Q4 [8] STEM: A progressive transverse wave travelling from left to right is shown at an instant in time in Fig. 4.1. R wave direction of travel T Fig. 4.1 R and T are points on the wave.
+  (a) [1] State the phase difference between the points R and T. phase difference = ° [1]
+  (b) [1] On Fig. 4.1, draw an arrow at point T to show the direction of movement of point T at the instant shown. [1]
+  (c) [3] The horizontal distance between R and T is 0.62 cm, as shown in Fig. 4.2. 0.62 cm R T Fig. 4.2 (not to scale) The speed of the wave is 0.27 m s–1. Calculate the frequency of the wave. frequency = Hz [3]
+  (d) [3] The wave is a water wave produced by a dipper S1 attached to a vibrator in a ripple tank. An identical dipper S2 is attached to the same vibrator. The two dippers produce an interference pattern on the water in the tank, as shown in Fig. 4.3. water P wave crests wave troughs S1 S2 Fig. 4.3 (not to s
+## s24_23 Q5 [11] STEM: 
+  (a)(i) [1] State Kirchhoff’s second law. [1]
+  (a)(ii) [1] State the conservation law that gives rise to Kirchhoff’s second law. [1]
+  (b) intro: A circuit contains a cell of internal resistance r and two resistors of resistances R1 and R2, as shown in Fig. 5.1. r R1 I R2 V Fig. 5.1 The potential difference (p.d.) across the two resistors is V. The current in the 
+  (b)(i) [2] Use Kirchhoff’s laws to show that the total resistance RT of the external circuit is given by 1 = 1 + 1 RT R1 R2 . [2]
+  (b)(ii) [3] The electromotive force (e.m.f.) of the cell is 1.50 V. When the values of R1 and R2 are 10 Ω and 15 Ω respectively, the p.d. measured by the voltmeter is 1.38 V. Calculate the internal resistance r of the cell. r = Ω [3]
+  (c) intro: A third resistor is added in parallel with R1 and R2 in the circuit in Fig. 5.1. State and explain the effect, if any, of this change on:
+  (c)(i) [2] the current in the cell [2]
+  (c)(ii) [2] the p.d. measured by the voltmeter. [2]
+## s24_23 Q6 [8] STEM: Nuclei of an isotope of samarium (Sm) each contain 62 protons and 85 neutrons.
+  (a) [1] State the nuclide notation in the form A ZX for this isotope of samarium. [1]
+  (b) intro: This isotope of samarium is radioactive and decays by emitting particles. Gamma-radiation is not emitted. The energy spectrum of the emitted particles is shown in Fig. 6.1. number of particles 0 0 kinetic energy of parti
+  (b)(i) [2] Explain how Fig. 6.1 shows that this isotope of samarium emits α-particles and does not emit β-particles. [2]
+  (b)(ii) [2] This isotope of samarium decays to an isotope of neodymium (Nd). Give the radioactive decay equation for this decay. Include the nucleon and proton numbers of all the particles involved. [2]
+  (c) intro: A baryon is composed of three quarks which all have different flavours. The baryon has a charge of 0. Two of the quarks in the baryon are an up quark and a bottom quark.
+  (c)(i) [2] Determine, in terms of the elementary charge e, the charge on the third quark in the baryon. charge = e [2]
+  (c)(ii) [1] State a possible flavour for the third quark in the baryon. [1]
+## s25_21 Q1 [9] STEM: 
+  (a) [1] Define acceleration. [1]
+  (b) intro: In an experiment, two objects A and B are released from the side of a building, as shown in Fig. 1.1. building A 14 m u B 3.6 m ground Fig. 1.1 (not to scale) Object A is released from rest at a height of 14 m above the 
+  (b)(i) [2] Calculate the time taken for object A to reach the ground. time = s [2]
+  (b)(ii) [2] Use your answer in (b)(i) to calculate u. u = m s−1 [2]
+  (c) intro: In a second experiment, object B is released from the same height and given the same initial speed as in (b) but at a release angle θ to the vertical, as shown in Fig. 1.2. building θ u B Fig. 1.2
+  (c)(i) [2] State and explain whether the time taken for object B to reach the ground is less than, the same as or greater than the time in (b)(i). [2]
+  (c)(ii) [2] By considering energy, state and explain the effect of the change in release angle on the speed at which B reaches the ground. [2]
+## s25_21 Q2 [10] STEM: 
+  (a) [2] State the principle of moments. [2]
+  (b) [3] Three objects A, B and C are placed on a horizontal beam. The beam is in equilibrium, as shown in Fig. 2.1. A beam B C pivot x 6.0 m Fig. 2.1 (not to scale) The beam is uniform and has length 6.0 m. The pivot is at the midpoint of the beam. Object A has mass 60 kg and is at one end of the beam. Obje
+  (c) intro: The beam is 0.80 m above horizontal ground. Object A is removed and replaced by a spring connected to the ground and the beam, as shown in Fig. 2.2. beam B C spring 0.80 m ground pivot Fig. 2.2 After the change, the beam
+  (c)(i) [3] Calculate the spring constant of the spring. spring constant = N m–1 [3]
+  (c)(ii) [2] Calculate the elastic potential energy of the spring. elastic potential energy = J [2]
+## s25_21 Q3 [10] STEM: 
+  (a) [1] Define power. [1]
+  (b) intro: An electric car is powered by a motor. The car is travelling at a constant speed of 35 m s−1 along a straight horizontal road, as shown in Fig. 3.1. 35 m s–1 car 1750 N road Fig. 3.1 There is a total resistive force of 1
+  (b)(i) [2] Calculate the power transmitted to the wheels of the car by the motor. power = W [2]
+  (b)(ii) [2] Calculate the useful work done by the motor when the car travels a distance of 17 km. work done = J [2]
+  (b)(iii) [3] The potential difference (p.d.) across the motor has a constant value of 600 V and the motor has an efficiency of 85%. Calculate the current in the motor. current = A [3]
+  (c) intro: The car in (b) now reaches a slope, as shown in Fig. 3.2. car 35 m s–1 road Fig. 3.2 The car continues down the slope at the same speed as in (b). State and explain the effect, if any, of the slope on:
+  (c)(i) [1] the air resistance acting on the car [1]
+  (c)(ii) [1] the current in the motor. [1]
+## s25_21 Q4 [8] STEM: 
+  (a) [2] State the principle of superposition. [2]
+  (b) intro: Light of wavelength 7.2 × 10−7 m is incident normally on a double slit, as shown in Fig. 4.1. screen 0.16 mm light, wavelength 7.2 × 10−7 m D double slit Fig. 4.1 (not to scale) A screen is at a distance D from the doubl
+  (b)(i) [3] Calculate D. D = m [3]
+  (b)(ii) [3] The slit separation is now gradually decreased from 0.16 mm to 0.04 mm. The distance between the centres of adjacent dark fringes is x. On Fig. 4.3, sketch the variation of x with slit separation. 1.6 1.2 x / cm 0.8 0.4 0 0 0.04 0.08 0.12 0.16 slit separation / mm Fig. 4.3 [3]
+## s25_21 Q5 [6] STEM: 
+  (a) [2] Use the definitions of speed v, frequency f and wavelength λ to derive the wave equation v = f λ . [2]
+  (b) intro: A source of sound waves of frequency 236 Hz is travelling at a constant velocity of 20 m s−1. A stationary observer has a microphone connected to a cathode-ray oscilloscope (CRO). The microphone detects the sound waves a
+  (b)(i) [2] Calculate the frequency of the sound waves detected by the microphone. frequency = Hz [2]
+  (b)(ii) [2] Determine the speed of the sound in air. speed of sound = m s−1 [2]
+## s25_21 Q6 [9] STEM: A nichrome wire X of length 45 cm and cross-sectional area 4.7 × 10−7 m2 is connected into the circuit shown in Fig. 6.1. A X Fig. 6.1 The resistance of X is 1.1 Ω. The cell has electromotive force (e.m.f.) 1.3 V and negligible internal resistance.
+  (a)(i) [1] Calculate the current in X. current = A [1]
+  (a)(ii) [2] The number density of charge carriers (electrons) in nichrome is 8.5 × 1028 m−3. Calculate the average drift speed of the charge carriers in X. average drift speed = m s−1 [2]
+  (a)(iii) [3] Calculate the resistivity of the nichrome. resistivity = Ω m [3]
+  (b) intro: Wire Y is identical to wire X. Wire Y is added to the circuit in parallel with wire X, as shown in Fig. 6.2. A X Y Fig. 6.2 State and explain the effect, if any, of this change on:
+  (b)(i) [2] the reading on the ammeter [2]
+  (b)(ii) [1] the average drift speed of the charge carriers in X. [1]
+## s25_21 Q7 [8] STEM: 
+  (a) [3] Nitrogen-12 (12 7N) is an unstable isotope of nitrogen that decays by the emission of radiation to carbon-12 (12 6C). Complete the full nuclear equation for the decay, including all the particles involved.  7N [3]
+  (b) intro: Hydrogen-1 (1 1H) is an isotope of hydrogen. An atom of hydrogen-1 comprises a proton with an orbiting electron. An antiparticle equivalent of hydrogen-1 comprises an antiproton with an orbiting positron. The antiquarks 
+  (b)(i) [1] State the charge on the positron in terms of the elementary charge e. charge = e [1]
+  (b)(ii) [1] State the group (class) of fundamental particle to which the positron belongs. [1]
+  (b)(iii) [3] In Table 7.1, state the flavour and charge of the three antiquarks that comprise the antiproton. Table 7.1 flavour charge / e [3]
+## s25_22 Q1 [10] STEM: 
+  (a) [2] Table 1.1 lists some physical quantities. Identify with ticks (✓) which quantities are vectors and which are scalars. Table 1.1 quantity scalar vector acceleration displacement gravitational potential energy speed temperature [2]
+  (b) intro: A constant resultant force F acts on a car of mass m. The car moves from rest with constant acceleration a along horizontal ground. When the car has displacement s, the speed of the car is v.
+  (b)(i) [3] Using the concept of work done on the car, show that the kinetic energy EK of the car is given by the equation EK = 1 2 mv2. [3]
+  (b)(ii) [1] The mass of the car is 920 kg. At time t = 0, the car is at rest. At time t = 5.8 s, its velocity is 17 m s–1. Calculate the kinetic energy of the car at time t = 5.8 s. kinetic energy = J [1]
+  (b)(iii) [3] Between time t = 0 and time t = 5.8 s, the work done against resistive forces is 4.7 × 104 J. Determine the average output power of the car during this time. power = W [3]
+  (b)(iv) [1] At time t = 5.8 s, the speed of the car becomes constant. State and explain whether the output power of the car is greater than, less than or the same as the output power just before t = 5.8 s. [1]
+## s25_22 Q2 [8] STEM: 
+  (a) [1] Define the moment of a force about a point. [1]
+  (b) intro: A tree of mass 270 kg grows out of sloping ground and is supported by a post, as shown in Fig. 2.1. centre of gravity of tree P F, 1800 N support post θ ground Q 1.2 m 1.6 m Fig. 2.1 (not to scale) The ground applies a t
+  (b)(i) [3] By taking moments about point Q, show that θ is 25°. [3]
+  (b)(ii) [2] On Fig. 2.2, draw a labelled scale vector triangle to represent the forces acting on the tree. The weight of the tree has been drawn to scale. weight Fig. 2.2 [2]
+  (b)(iii) [2] The tree exerts a pressure of 150 kPa on the top of the post. Determine the surface area of the tree in contact with the post. area = m2 [2]
+## s25_22 Q3 [8] STEM: Two progressive water waves X and Y travel along a straight line from point A to point B. The variation of displacement of the waves with distance from A at an instant in time is shown in Fig. 3.1. 20 displacement / cm 10 wave X 0 0 0.2 0.4 0.6 0.8 1.0 distanc
+  (a) [1] State the amplitude of wave X. amplitude = cm [1]
+  (b) intro: Both waves have frequency 16 Hz.
+  (b)(i) [2] Determine the speed of wave X. speed = m s–1 [2]
+  (b)(ii) [1] State and explain whether X and Y are coherent. [1]
+  (c) [2] Wave X and wave Y superpose to form a resultant wave. On Fig. 3.2, sketch the variation of displacement of the resultant wave with distance from A at the instant of time shown in Fig. 3.1. 20 displacement / cm 10 0 0 0.2 0.4 0.6 0.8 1.0 distance from A / m –10 –20 Fig. 3.2 [2]
+  (d) [2] The intensity of wave X is IX. The intensity of wave Y is IY. IX Use Fig. 3.1 to determine the ratio . IY ratio = [2]
+## s25_22 Q4 [8] STEM: A small ball is dropped from rest from height h1 above the ground and falls vertically downwards. The ball collides with the ground and bounces back vertically upwards, reaching a maximum height h2. Fig. 4.1 shows the ball just before and just after hitting th
+  (a) [1] State and explain whether the collision is elastic or inelastic. [1]
+  (b)(i) [2] Calculate the change in momentum of the ball during the collision with the ground. change in momentum = kg m s–1 [2]
+  (b)(ii) [2] Determine the average force on the ball during the collision with the ground. force = N [2] h2
+  (c) [3] Calculate the ratio . h1 ratio = [3]
+## s25_22 Q5 [7] STEM: 
+  (a) [1] Define the Young modulus. [1]
+  (b) intro: A wire of unstretched length 0.81 m is made of a metal with Young modulus 95 GPa. The wire obeys Hooke’s law and has a constant cross-sectional area. Fig. 5.1 shows the force–extension graph for the wire. 500 400 force /
+  (b)(i) [3] Determine the cross-sectional area of the wire. area = m2 [3]
+  (b)(ii) [3] The extension of the wire is initially 2.0 × 10–3 m. Determine the work done to increase the extension of the wire to 3.0 × 10–3 m. work done = J [3]
+## s25_22 Q6 [10] STEM: 
+  (a) [1] Define electric potential difference across a component. [1]
+  (b) intro: A circuit contains four resistors and a battery of electromotive force (e.m.f.) 8.0 V with negligible internal resistance. When the variable resistor has resistance R, the currents in the circuit are 0.030 A, I1 and I2, 
+  (b)(i) [2] Determine the charge passing through the battery in a time of 4.0 minutes. charge = C [2]
+  (b)(ii) [2] Calculate I1. I1 = A [2]
+  (b)(iii) [1] Calculate I2. I2 = A [1]
+  (b)(iv) [2] Determine R. R = Ω [2]
+  (c) [2] The variable resistor in (b) is fitted with a scale so that its resistance can be accurately determined. The resistor of resistance 240 Ω is now replaced by a new resistor X of unknown resistance. A galvanometer is connected as shown in Fig. 6.2. 8.0 V 210 Ω 430 Ω X Fig. 6.2 With reference to ratios
+## s25_22 Q7 [9] STEM: 
+  (a) [1] State what is meant by a fundamental particle. [1]
+  (b) intro: A nucleus X has 14 nucleons and p protons. The ratio of charge to mass for nucleus X is 4.1 × 107 C kg–1.
+  (b)(i) [3] Determine p. p = [3]
+  (b)(ii) [3] Nucleus X undergoes β– decay to form nucleus Z. Complete the equation representing this decay. 14X  Z +   +   [3]
+  (c) [2] A sample of a radioactive substance emits particles that are positively charged and have a continuous range of kinetic energies. State and explain whether the nuclei in the sample are undergoing α-decay, β+ decay or β– decay. [2]
+## s25_23 Q1 [8] STEM: 
+  (a) [1] Define velocity. [1]
+  (b) [3] In an experiment, two objects A and B are released from the side of a building, as shown in Fig. 1.1. building A 10.0 m 3.0 m s–1 B h ground Fig. 1.1 (not to scale) Object A is released from rest at a height of 10.0 m above horizontal ground. Object B is released with an initial upward velocity of 3
+  (c) intro: In a second experiment, object B is released from the same height as in (b) but with a speed of 6.0 m s−1 at an angle of 60° to the vertical, as shown in Fig. 1.2. 60° building 6.0 m s–1 B Fig. 1.2
+  (c)(i) [2] State and explain whether the time taken for object B to reach the ground is less than, the same as, or greater than the time taken in the first experiment. [2]
+  (c)(ii) [2] By considering energy, state and explain whether the speed at which object B reaches the ground is less than, the same as, or greater than in the first experiment. [2]
+## s25_23 Q2 [9] STEM: 
+  (a) [1] Define the moment of a force about a pivot. [1]
+  (b) intro: Three objects A, B and C are placed on a horizontal beam. The beam is in equilibrium, as shown in Fig. 2.1. A beam B C pivot 3.0 m 9.0 m Fig. 2.1 (not to scale) The beam is uniform and has length 9.0 m. A pivot is at the
+  (b)(i) [3] Calculate m. m = kg [3]
+  (b)(ii) [3] Object A is removed and replaced by a wire fixed to the end of the beam and to the ground, as shown in Fig. 2.2. beam B C wire ground pivot Fig. 2.2 After the change, the beam is again horizontal and in equilibrium. The positions of B and C are unchanged. The wire has a diameter of 1.8 × 10−3 m and 
+  (b)(iii) [2] Object B is now moved to a new position closer to the pivot without passing it. The beam is again horizontal and in equilibrium. State and explain the effect, if any, that this has on the strain in the wire. [2]
+## s25_23 Q3 [8] STEM: A car of mass 1500 kg is travelling along a straight horizontal road at constant velocity v. The car is subject to a total resistive force F, as shown in Fig. 3.1. v car, mass 1500 kg F horizontal road Fig. 3.1
+  (a) [2] Show that the power P developed by the engine in overcoming the total resistive force is given by the equation P = Fv . [2]
+  (b) intro: The car now moves up a slope at a constant speed of 30 m s−1. The slope is at an angle to the horizontal of 6.0°, as shown in Fig. 3.2. 30 m s–1 car road 6.0° Fig. 3.2 The total resistive force acting on the car is 1600 
+  (b)(i) [2] Show that the increase in gravitational potential energy of the car in a time of 1.0 s is 000 J. [2]
+  (b)(ii) [2] Use the information in (b)(i) to determine the power developed by the engine to move the car up the slope. power = W [2]
+  (c) intro: The car picks up a passenger and then continues up the slope at the same speed as in (b). State and explain the effect, if any, that the passenger has on:
+  (c)(i) [1] the air resistance acting on the car [1]
+  (c)(ii) [1] the power developed by the engine. [1]
+## s25_23 Q4 [6] STEM: 
+  (a) [2] State the principle of conservation of momentum. [2]
+  (b) intro: An object A of mass 4.0 kg travels at a velocity of 6.0 m s−1 to the right on a horizontal frictionless surface. It moves towards a second object B of mass 2.0 kg that is moving at a velocity of 3.0 m s−1 in the same dir
+  (b)(i) [2] velocity v v = m s−1 [2]
+  (b)(ii) [2] the percentage of the total initial kinetic energy of the two objects that is transferred to other forms of energy during the collision. percentage = % [2]
+## s25_23 Q5 [8] STEM: 
+  (a) [1] State why sound waves cannot be polarised. [1]
+  (b) intro: A plane-polarised light wave is incident on a polarising filter as shown in Fig. 5.1. polarising filter light wave, intensity I0 Fig. 5.1 The intensity of the light incident on the filter is I0. The light is incident nor
+  (b)(i) [3] On Fig. 5.2, sketch the variation of the intensity I of the transmitted light with the angle of rotation α as the filter is rotated through 360° from its initial position. I0 I I0 2 0 0 90 180 270 360 α / ° Fig. 5.2 [3]
+  (b)(ii) [4] The amplitude of the incident light wave is A0 when the intensity of the wave is I0. Use Malus’s law to determine, in terms of A0, the amplitude of the transmitted wave when α = 20°. amplitude = A0 [4]
+## s25_23 Q6 [8] STEM: 
+  (a) [1] State what is meant by diffraction. [1]
+  (b) intro: Light of wavelength 720 nm in a vacuum is incident normally on a diffraction grating as shown in Fig. 6.1. second-order maxima light, wavelength 720 nm 52° diffraction grating screen Fig. 6.1 (not to scale) A screen is p
+  (b)(i) [2] Calculate the frequency of the light. frequency = Hz [2]
+  (b)(ii) [3] Calculate the number of lines per unit length in the diffraction grating. number per unit length = m−1 [3]
+  (b)(iii) [2] The light in Fig. 6.1 is now replaced with light of a different wavelength λ. It is observed that the third-order maxima of this light are at the same positions as the second-order maxima of the light in Fig. 6.1. Calculate, in nm, the wavelength λ. λ = nm [2]
+## s25_23 Q7 [8] STEM: A nichrome resistance wire has length 150 cm, cross-sectional area 2.45 × 10−7 m2 and resistivity 1.12 × 10−6 Ω m.
+  (a) [3] Calculate, to three significant figures, the resistance of the wire. resistance = Ω [3]
+  (b) intro: The nichrome wire forms part of a potentiometer circuit together with a cell of electromotive force (e.m.f.) 1.2 V and negligible internal resistance, as shown in Fig. 7.1. 1.2 V 150 cm 64 cm nichrome wire cell X Fig. 7.
+  (b)(i) [1] Explain what is meant by a null method. [1]
+  (b)(ii) [2] Calculate the e.m.f. of cell X. e.m.f. = V [2]
+  (b)(iii) [2] The cell of e.m.f. 1.2 V is replaced by a new cell with the same e.m.f. but with an internal resistance that is not negligible. State and explain the effect, if any, of the internal resistance of the new cell on the position of the null point. [2]
+## s25_23 Q8 [5] STEM: 
+  (a) [3] An antiparticle equivalent of the neutron is called the antineutron. The quarks in the antineutron are the antiparticles of the quarks in a neutron. The elementary charge is e. In Table 8.1, state the flavour and charge of the three antiquarks that comprise the antineutron. Table 8.1 flavour charge 
+  (b) [2] In β− decay, a neutron decays to form a proton. Theory predicts that an antineutron should decay to form an antiproton. A particle and an antiparticle should also be observed. Suggest the names of the particle and the antiparticle. particle: antiparticle: [2]
+## s25_24 Q1 [6] STEM: 
+  (a) [1] Define the moment of a force. [1]
+  (b) intro: A trapdoor has a hinge at end A, as shown in Fig. 1.1. F B 80 cm trapdoor 75 N hinge 42° horizontal A Fig. 1.1 (not to scale) The trapdoor has length 80 cm and weight 75 N. The mass of the trapdoor is uniformly distribut
+  (b)(i) [2] State the principle of moments. [2]
+  (b)(ii) [1] Calculate the component of the weight that is perpendicular to the trapdoor. component of weight = N [1]
+  (b)(iii) [2] Calculate the magnitude of the force F. F = N [2]
+## s25_24 Q2 [10] STEM: An object of constant mass moves in a straight line. The variation with time t of the momentum p of the object is shown in Fig. 2.1. 3 p / kg m s–1 2 1 0 0 2 4 6 8 12 10t / s –1 –2 Fig. 2.1
+  (a) [1] Define momentum. [1]
+  (b) [1] Calculate the change in momentum of the object from time t = 0 to t = 12 s. change in momentum = kg m s–1 [1]
+  (c) [2] Calculate the magnitude of the resultant force acting on the object. force = N [2]
+  (d) [1] Describe the variation of the speed of the object from time t = 0 to t = 8.0 s. [1]
+  (e) [2] By reference to Fig. 2.1, explain why the resultant force acting on the object during the first 8.0 s of its motion cannot be due to air resistance. [2]
+  (f) [3] At time t = 0 the displacement d of the object is zero. On Fig. 2.2, sketch the variation of d with time t from t = 0 to t = 12 s. Numerical values of d are not required. d 0 0 2 4 6 8 10 12 t / s Fig. 2.2 [3]
+## s25_24 Q3 [11] STEM: The lower end of a vertical spring is fixed to a horizontal surface, as shown in Fig. 3.1. block, mass 5.5 kg spring horizontal surface Fig. 3.1 The mass of the spring is negligible. A block of mass 5.5 kg drops vertically onto the spring and is brought to res
+  (a) [2] The block has kinetic energy 110 J as it makes contact with the spring. Calculate the speed of the block as it makes contact with the spring. speed = m s–1 [2]
+  (b) [2] The gravitational potential energy of the block decreases by 20 J as the spring is compressed to its maximum compression x0. Show that x0 is 0.37 m. [2]
+  (c) [1] Assume that, as the spring compresses, all of the energy lost by the block is converted into the elastic potential energy of the spring. Use the data from (a) and (b) to determine the maximum elastic potential energy of the spring. Show your working. maximum elastic potential energy = J [1]
+  (d) [2] The variation of the force F acting on the spring with the compression x of the spring is shown in Fig. 3.2. F F0 0 x 0 x0 Fig. 3.2 Use the information in (b) and your answer in (c) to show that the maximum force F0 exerted on the spring by the block is 700 N. [2]
+  (e) intro: Use the information in (d) to determine, for the instant that the block is first brought to rest by the spring, the magnitude of:
+  (e)(i) [2] the resultant force acting on the block resultant force = N [2]
+  (e)(ii) [2] the acceleration of the block. acceleration = m s–2 [2]
+## s25_24 Q4 [12] STEM: 
+  (a) intro: A source oscillates with frequency f to produce a progressive wave of wavelength λ. The source takes time t to produce n complete oscillations.
+  (a)(i) [1] State what is meant by a progressive wave. [1]
+  (a)(ii) [2] State expressions, in terms of some or all of f, λ and n, for: ● the distance moved by a wavefront in time t distance = ● time t. time t = [2]
+  (a)(iii) [1] Use your answers in (ii) to determine an expression for the speed v of the wave in terms of f and λ. [1]
+  (b) intro: Two identical microwave sources X and Y emit waves in phase. The sources are separated by a distance of 30 cm, as shown in Fig. 4.1. X P 30 cm Y Q 72 cm Fig. 4.1 (not to scale) The intensity of the microwaves is to be in
+  (b)(i) [2] Calculate the frequency, in GHz, of the microwaves. frequency = GHz [2]
+  (b)(ii) [1] Show that the difference between the path lengths XQ and YQ is 6 cm. [1]
+  (b)(iii) [3] State and explain what may be deduced about the intensity of the microwaves at point Q. [3]
+  (b)(iv) [2] A microwave detector is positioned at P and connected to a cathode-ray oscilloscope (CRO). The controls of the CRO are adjusted so that a waveform is shown on the screen. Describe the changes to the amplitude of the waveform as the detector is moved from P to Q. [2]
+## s25_24 Q5 [8] STEM: 
+  (a)(i) [1] State and explain the effect, if any, on the resistance of a filament wire in a lamp as the current in the wire decreases. [1]
+  (a)(ii) [2] On Fig. 5.1, sketch the I–V characteristic of a filament lamp. I 0 0 V Fig. 5.1 [2]
+  (b) intro: A battery of electromotive force (e.m.f.) E and negligible internal resistance is connected in parallel with two filament lamps A and B, as shown in Fig. 5.2. E 3.3 A A 18 W 1.5 A B Fig. 5.2 The current in the battery is
+  (b)(i) [2] Calculate the e.m.f. E of the battery. E = V [2]
+  (b)(ii) [3] The filament wire of lamp B has a cross-sectional area of 1.4 × 10–9 m2. The number of free (conduction) electrons per unit volume in the metal of the filament wire is 3.4 × 1028 m–3. Calculate the average drift speed of the free electrons in the filament wire of lamp B. average drift speed = m s–1 
+## s25_24 Q6 [8] STEM: A battery of electromotive force (e.m.f.) 6.0 V and negligible internal resistance is connected in series with a variable resistor and a uniform resistance wire XY, as shown in Fig. 6.1. 6.0 V R uniform wire of resistance 8.0 Ω X Y 2.00 m Fig. 6.1 Wire XY has 
+  (a) [2] Determine R. R = Ω [2]
+  (b) [2] Explain why the potential difference V between any two points on wire XY is proportional to the distance L between those points. [2]
+  (c) intro: A cell of e.m.f. E and internal resistance r is connected to the circuit, as shown in Fig. 6.2. 6.0 V R P X Y E r Fig. 6.2 Resistance R is unchanged. The movable connection P is positioned on wire XY so that the galvanom
+  (c)(i) [2] Calculate E. E = V [2]
+  (c)(ii) [2] The value of R is now decreased. State and explain the change that must be made to the position of P on wire XY so that the galvanometer reads zero again. [2]
+## s25_24 Q7 [5] STEM: 
+  (a) [2] State the names of two different leptons.   [2]
+  (b) [1] In the following list, underline all the particles that are hadrons. antineutrino beta-plus meson neutron [1]
+  (c) [2] By reference to quark composition, show that the charge of a proton is +1.6 × 10–19 C. [2]
+## s26_22 Q1 [11] STEM: 
+  (a) [2] By placing one tick (3) in each row, complete Table 1.1 to identify whether each of the listed quantities is a scalar or a vector. Table 1.1 quantity scalar vector amplitude force momentum power [2]
+  (b) intro: A car moves in a straight line along a road. Figure 1.1 shows the variation with time t of the velocity v of the car.   v / m s–1   10 20 30 40 50 60 70 80 t / s –5 –10 –15 Figure 1.1
+  (b)(i) [1] State the feature of the graph that represents the distance travelled by the car between t = 0 and t = 40 s. [1]
+  (b)(ii) [1] Calculate the distance travelled by the car between t = 0 and t = 40 s. distance = m [1]
+  (b)(iii) [2] Determine the maximum magnitude of the acceleration of the car. acceleration = m s–2 [2]
+  (b)(iv) [2] At t = 25 s, the car is at a point P. At t = 40 s, the car is at a distance of 150 m from P. After t = 40 s, the car travels with a constant acceleration of –0.25 m s–2 until the car is again at point P. Calculate the speed of the car when it is at point P for the second time. speed = m s–1 [2]
+  (b)(v) [3] At t = 0, the displacement of the car is zero. On Figure 1.2, sketch the variation of the displacement of the car with t from t = 0 to t = 80 s. Values for displacement are not required. displacement 0 0 10 35 40 80 t / s Figure 1.2 [3]
+## s26_22 Q2 [8] STEM: 
+  (a) [2] State the conditions required for an object to be in equilibrium. [2]
+  (b) intro: A block rests in equilibrium on the centre of a uniform horizontal plank. The block is attached to two ropes, each of which passes a fixed pulley and then attaches to an end of the plank as shown in Figure 2.1. pulleys n
+  (b)(i) [2] Use Figure 2.2 to show that R + WP = WB – R. [2]
+  (b)(ii) [2] Use the equation in 2(b)(i) to calculate the magnitude of R. R = N [2]
+  (c) intro: The extension of each rope in 2(b) is proportional to the force applied to it.
+  (c)(i) [1] State the name of the law that describes this behaviour. [1]
+  (c)(ii) [1] The ropes have elastic deformation. State what is meant by elastic deformation. [1]
+## s26_22 Q3 [10] STEM: Two oscillating dippers are used to create progressive transverse water waves on the surface of a lake. The waves are shown from above in Figure 3.1. crest trough not to scale P A B dippers Figure 3.1 Wave crests are represented by a solid line. Wave troughs a
+  (a) [1] State what is meant by a progressive wave. [1]
+  (b)(i) [1] Calculate the period of the waves. period = s [1]
+  (b)(ii) [3] Points A and B are at the centre of the dippers. Point P is shown on Figure 3.1. The distance from A to P is 3.9 m. The distance from B to P is 2.4 m. Determine the speed of the waves. speed = m s–1 [3]
+  (c) intro: A ball of mass 0.44 kg is placed at P, where it floats on the surface of the lake. The amplitude of the vertical oscillation of the ball is 15 cm.
+  (c)(i) [3] Calculate the difference in the gravitational potential energy ΔE of the ball between its highest and lowest points. ΔE = J [3]
+  (c)(ii) [2] The frequency of oscillation of the dippers is increased to 4.0 Hz without changing their amplitude of oscillation. The ball remains at the same position on the surface of the lake. State and explain whether the amplitude of the oscillation of the ball increases, decreases or remains the same. [2]
+## s26_22 Q4 [10] STEM: An electric train of mass 1.5 × 104 kg travels up a slope at a constant speed as shown in Figure 4.1. Y train X Figure 4.1 At point X, the train has gravitational potential energy 7.4 MJ. At point Y, the train has gravitational potential energy 13.0 MJ. The tr
+  (a) [3] Calculate the speed of the train. speed = m s–1 [3]
+  (b) intro: The train is powered by an electric motor. The useful output power of the motor is 1.1 × 105 W.
+  (b)(i) [1] Define power. [1]
+  (b)(ii) [3] Determine the resistive force F acting on the train as it moves from point X to point Y. F = N [3]
+  (b)(iii) [3] The current in the motor is 95 A. The potential difference (p.d.) across the motor is 1400 V. Calculate the percentage efficiency of the motor. percentage efficiency = % [3]
+## s26_22 Q5 [12] STEM: 
+  (a) [2] Three resistors of resistances R1, R2 and R3 are connected in a network in parallel as shown in Figure 5.1. V I1 R1 IT I2 R2 I3 R3 Figure 5.1 The currents in the resistors are I1, I2 and I3 respectively. The total current entering the network is IT. The potential difference (p.d.) across the resisto
+  (b) intro: Two identical resistance wires, each of resistance 2.8 Ω, are connected in parallel to a battery with negligible internal resistance and electromotive force (e.m.f.) 12 V as shown in Figure 5.2. 12 V resistance wires Fig
+  (b)(i) [2] Calculate the current in the battery. current = A [2]
+  (b)(ii) [2] Each resistance wire has a cross-sectional area of 6.1 × 10–6 m2. The wires are made from a metal with a number density of charge carriers (free electrons) of 8.5 × 1028 m–3. Calculate the average drift speed of the charge carriers in the wires. speed = m s–1 [2]
+  (c) intro: A component X is added to the circuit in 5(b) as shown in Figure 5.3. 12 V 5.0 A X resistance wires Figure 5.3 The current in the battery is now 5.0 A. The resistance of each resistance wire remains 2.8 Ω.
+  (c)(i) [1] State the name of component X. [1]
+  (c)(ii) [3] Determine the resistance of component X. resistance = Ω [3]
+  (c)(iii) [2] A change in the environment of component X causes the current in the battery to decrease. The resistance of the resistance wires remains constant. State and explain how the environment of X has changed. [2]
+## s26_22 Q6 [9] STEM: 
+  (a) [1] One of the conclusions from the α-particle scattering experiment was that the atom is mostly empty space. State the observation from the experiment that provides evidence for this conclusion. [1]
+  (b) intro: An α-particle travelling with a speed of 5.60 × 106 m s–1 collides with a stationary gold nucleus of mass 197 u. After the collision, the α-particle is travelling with a speed of 5.38 × 106 m s–1 in the opposite directio
+  (b)(i) [2] Show that the momentum of the α-particle before the collision is 3.72 × 10–20 kg m s–1. [2]
+  (b)(ii) [2] Use conservation of momentum to calculate the speed of the gold nucleus after the collision. speed = m s–1 [2]
+  (b)(iii) [2] The absolute uncertainty in each of the measured speeds of the α-particle is ± 5 × 104 m s–1. Calculate the percentage uncertainty in the change in velocity of the α-particle. percentage uncertainty = % [2]
+  (c) [1] Determine the number of up quarks in a nucleus of 2 1H. number = [1]
+  (d) [1] Describe the general quark composition of a meson. [1]
+## s26_23 Q1 [13] STEM: 
+  (a) [1] Define momentum. [1]
+  (b) intro: A ball X of mass 0.15 kg moves along a horizontal frictionless surface. The ball collides elastically with ball Y that is initially stationary. Balls X and Y have equal diameters but different masses. Figure 1.1 shows th
+  (b)(i) [2] Determine the magnitude of the acceleration of ball X during the collision. acceleration = m s–2 [2]
+  (b)(ii) [2] Determine the magnitude of the change in momentum of ball X due to the collision. change in momentum = kg m s–1 [2]
+  (b)(iii) [2] Determine the total distance travelled by ball X during the collision. distance = m [2]
+  (c)(i) [2] By considering relative speeds, explain why the velocity of ball Y after the collision must be +0.80 m s–1. [2]
+  (c)(ii) [2] On Figure 1.1, sketch the variation of the velocity of ball Y with time between time = 0 and time = 0.20 s. [2]
+  (c)(iii) [2] Calculate the mass of ball Y. mass = kg [2]
+## s26_23 Q2 [12] STEM: 
+  (a) [1] Define the Young modulus of a material. [1]
+  (b) intro: A long, thin thread of high-density polythene has a uniform cross-section. The thread is suspended from one end so that it hangs vertically. The thread has a mass of 0.018 kg and a cross-sectional area of 2.6 × 10–6 m2. 
+  (b)(i) [2] Show that the length of the thread is 7.2 m. [2]
+  (b)(ii) [2] Show that the stress at the top of the thread due to its own weight is 6.8 × 104 Pa. [2]
+  (b)(iii) [2] Figure 2.1 shows the variation with distance from the top of the thread of the stress in the thread due to its own weight. 8 stress / 104 Pa 4 0 0 4 8 distance / m Figure 2.1 Suggest an explanation for the fact that the variation shown in Figure 2.1 is linear. [2]
+  (c) intro: The thread in 2(b) is now laid horizontally on a frictionless bench. A tensile force is applied to the ends of the thread so that there is a uniform stress throughout the thread of 6.8 × 104 Pa.
+  (c)(i) [2] Calculate the extension of the thread. extension = m [2]
+  (c)(ii) [2] Calculate the elastic potential energy of the thread. elastic potential energy = J [2]
+  (d) [1] Suggest, with a reason, whether the total extension of the vertically suspended thread in 2(b) is less than, equal to or greater than the answer in 2(c)(i). [1]
+## s26_23 Q3 [14] STEM: 
+  (a) [2] State the principle of superposition. [2]
+  (b) intro: Parallel rays of coherent light of wavelength 560 nm are incident normally in free space on two narrow slits as shown in Figure 3.1. screen double slit Y coherent light, 1.4 × 10–5 m X wavelength 560 nm 0.43 m not to sca
+  (b)(i) [1] State what is meant by coherent. [1]
+  (b)(ii) [1] State what happens to the light at the point where it passes through the slits. [1]
+  (b)(iii) [3] At point X on the screen, there is a central bright fringe. Explain how this bright fringe is formed. [3]
+  (b)(iv) [3] At point Y on the screen, the dark fringe closest to point X is formed. Calculate the distance XY. distance = m [3]
+  (c) intro: On the screen in Figure 3.1:
+  (c)(i) [1] draw a cross (×) labelled with the letter B at the position of another bright fringe [1]
+  (c)(ii) [1] draw a cross (×) labelled with the letter D at the position of another dark fringe. [1]
+  (d) [2] Calculate the frequency of the light in 3(b). frequency = Hz [2]
+## s26_23 Q4 [11] STEM: A light-dependent resistor (LDR) is connected across the terminals of a cell that has internal resistance. A voltmeter is connected across the LDR.
+  (a) [3] Draw a circuit diagram to show this arrangement. [3]
+  (b) intro: The cell has an electromotive force (e.m.f.) of 4.90 V. At a particular light intensity, the LDR has a resistance of 230 Ω and a potential difference (p.d.) across it of 4.78 V.
+  (b)(i) [1] Identify one possible source of systematic error in measuring the p.d. across the LDR using a digital voltmeter. [1]
+  (b)(ii) [2] Calculate the power dissipated in the LDR. power = W [2]
+  (b)(iii) [2] Determine the internal resistance of the cell. internal resistance = Ω [2]
+  (b)(iv) [3] The intensity of the light illuminating the LDR is gradually decreased. By placing one tick (3) in each row, complete Table 4.1 to show what happens to the quantities indicated as the light intensity decreases. Table 4.1 decreases unchanged increases resistance of LDR current in cell p.d. across LDR
+## s26_23 Q5 [10] STEM: 
+  (a) [1] State what is meant by a meson. [1]
+  (b) [3] The elementary charge is e. Explain, in terms of quark composition, how a baryon may have an overall charge of: • –1e • +2e [3]
+  (c) intro: The nuclide 18 8X undergoes β+ decay to produce nuclide P QY and one other particle Z, as shown in the equation 18 P 8X QY + R S β+ + 0 0Z.
+  (c)(i) [2] State the values of P, Q, R and S. P = Q = R = S = [2]
+  (c)(ii) [1] State the name of particle Z. [1]
+  (c)(iii) [1] State the net change in quark composition as nuclide X turns into nuclide Y. [1]
+  (c)(iv) [2] Explain why the emission of particle Z results in the β+ particles from the decays of different nuclei of 18 8X having a continuous range of kinetic energies. [2]
+## s26_24 Q1 [10] STEM: 
+  (a) [1] Underline all the vector quantities in the following list: distance displacement speed velocity acceleration. [1]
+  (b) intro: A car of mass 1400 kg is initially travelling horizontally in a straight line at a constant speed of 15 m s−1. The brakes are applied and the car decelerates uniformly to rest in a distance of 35 m. Calculate:
+  (b)(i) [2] the initial kinetic energy of the car kinetic energy = J [2]
+  (b)(ii) [2] the acceleration of the car acceleration = m s−2 [2]
+  (b)(iii) [2] the resultant force on the decelerating car. force = N [2]
+  (c) intro: The initial speed of the car in 1(b) is now doubled to 30 m s−1. The brakes of the car are then applied and the car comes to rest. The resultant force on the car remains the same as in 1(b)(iii). Describe and explain the
+  (c)(i) [1] the magnitude of the acceleration of the car [1]
+  (c)(ii) [2] the distance travelled by the car in coming to rest. [2]
+## s26_24 Q2 [10] STEM: 
+  (a) [1] State Hooke’s law. [1]
+  (b) intro: In an experiment to determine the spring constant of a spring X, a student measures the original length of the spring. The student then suspends an object in equilibrium from the spring and measures the final length of t
+  (b)(i) [1] the extension, in cm, of spring X together with its absolute uncertainty extension = ( ± ) cm [1]
+  (b)(ii) [3] the spring constant of spring X spring constant = N m−1 [3]
+  (b)(iii) [2] the percentage uncertainty in the value of the spring constant calculated in 2(b)(ii) due to the uncertainties in the measurements. percentage uncertainty = % [2]
+  (c) intro: An identical object to the one in 2(b) is suspended in equilibrium from a spring Y that has a greater spring constant than spring X. Spring Y does not extend beyond its limit of proportionality. Describe and explain any 
+  (c)(i) [1] the extension of the springs [1]
+  (c)(ii) [2] the elastic potential energy of the springs. [2]
+## s26_24 Q3 [8] STEM: A stretched string is attached to two fixed points and a vibration generator as shown in Figure 3.1. 1.8 m fixed point fixed point string vibration generator Figure 3.1 The vibration generator oscillates vertically and a stationary wave is formed on the string
+  (a) [2] Explain how the stationary wave is formed on the string. [2]
+  (b) [1] On Figure 3.1, draw one cross (×) at the position of a node. [1]
+  (c) [3] The distance between the fixed points is 1.8 m. The vibration generator oscillates at a frequency of 26 Hz. Calculate the speed of progressive waves on the string. speed = m s−1 [3]
+  (d) [2] The frequency of the vibration generator is now halved and a new stationary wave is formed on the string. The speed of progressive waves on the string is unchanged. On Figure 3.2, draw the string at an instant when it has maximum displacement. 1.8 m fixed point fixed point Figure 3.2 [2]
+## s26_24 Q4 [7] STEM: An object is held at rest just below the surface of a liquid of uniform density as shown in Figure 4.1. liquid object Figure 4.1 The object is released and accelerates downwards until it reaches terminal velocity. The magnitude of the weight of the object is W
+  (a) [3] By placing one tick (3) in each row, complete Table 4.1 to show what happens to the magnitude of the three forces acting on the object as it accelerates. Table 4.1 force increases stays the same decreases W D U [3]
+  (b) [1] State an expression, in terms of W, D and U, that shows the relationship between the forces acting on the object when the object is at its terminal velocity. [1]
+  (c) [3] The object has a mass of 0.070 kg and a volume of 1.0 × 10−5 m3. The density of the liquid is 1100 kg m–3. Calculate D when the object is at terminal velocity. D = N [3]
+## s26_24 Q5 [10] STEM: The I–V characteristic of an electrical component X is shown in Figure 5.1. 40 30 I / mA 20 10 0 0 0.2 0.4 0.6 0.8 V / V Figure 5.1
+  (a) [1] State the name of electrical component X. [1]
+  (b) [2] A metallic conductor has a constant resistance of 40 Ω. On Figure 5.1, sketch the I–V characteristic of this conductor between V = 0 and V = 0.80 V. [2]
+  (c) [3] Component X is connected in a circuit with a resistor of resistance 20 Ω as shown in Figure 5.2. A X 20 Ω Figure 5.2 The current in the ammeter is 5.0 mA and the cell has negligible internal resistance. Show that the electromotive force (e.m.f.) of the cell is 0.80 V. [3]
+  (d) [1] The terminals of the cell in 5(c) are now reversed without making any other changes to the circuit. State the reading on the ammeter. reading on ammeter = A [1]
+  (e) [3] The resistor of resistance 20 Ω and component X are now connected in parallel to the cell in 5(c) in the circuit shown in Figure 5.3. 0.80 V A X 20 Ω Figure 5.3 The current in component X is not negligible. Use Figure 5.1 to determine the current in the ammeter. current = A [3]
+## s26_24 Q6 [7] STEM: A nichrome wire of cross‑sectional area 5.7 × 10−8 m2 is connected to a power supply. The potential difference (p.d.) across the wire is 230 V. The power dissipated in the wire is 1.0 kW.
+  (a) [2] Show that the resistance of the wire is 53 Ω. [2]
+  (b) [2] The resistivity of nichrome is 1.3 × 10−6 Ω m. Calculate the length of the wire. length = m [2]
+  (c) [3] The average drift speed of the charge carriers (free electrons) in the nichrome wire is 5.4 × 10−3 m s–1. Calculate the number density of charge carriers of nichrome. number density = m–3 [3]
+## s26_24 Q7 [8] STEM: 
+  (a)(i) [2] State what is meant by isotopes. [2]
+  (a)(ii) [2] A thorium‑232 nucleus (23 2 9 0Th) undergoes radioactive decay to form another nucleus. A sequence of further decays occurs until a nucleus is formed that is another isotope of thorium. In each decay, either a single α‑particle or a single β– particle is emitted. Determine the minimum numbers of α‑p
+  (a)(iii) [2] Complete Figure 7.1 to show the nucleon number and proton number of the thorium isotope formed by the sequence of decays. Th Figure 7.1 [2]
+  (b)(i) [1] State the quark composition of a proton. [1]
+  (b)(ii) [1] Describe the change to the quark composition of the proton when it undergoes β+ decay. [1]
+## w23_21 Q1 [5] STEM: 
+  (a) [2] Compare scalar and vector quantities. [2]
+  (b) intro: The radius of a small sphere is determined from a measurement of the volume of the sphere. The sphere is submerged in water, displacing some of the water into a measuring cylinder as shown in Fig. 1.1. measuring cylinder
+  (b)(i) [1] the radius, in cm, of the sphere radius = cm [1]
+  (b)(ii) [2] the percentage uncertainty in the radius of the sphere. percentage uncertainty = % [2]
+## w23_21 Q2 [16] STEM: A hot-air balloon floats just above the ground. The balloon is stationary and is held in place by a vertical rope, as shown in Fig. 2.1. balloon rope ground Fig. 2.1 The balloon has a weight W of 3.39 × 104 N. The tension T in the rope is 4.00 × 102 N. Upthrus
+  (a)(i) [2] On Fig. 2.1, draw labelled arrows to show the directions of the three forces acting on the balloon. [2]
+  (a)(ii) [3] Calculate the volume, to three significant figures, of the balloon. volume = m3 [3]
+  (a)(iii) [3] The balloon is released from the rope. Calculate the initial acceleration of the balloon. acceleration = m s–2 [3]
+  (b) [3] The balloon is stationary at a height of 500 m above the ground. A tennis ball is released from rest and falls vertically from the balloon. A passenger in the balloon uses the equation v2 = u2 + 2as to calculate that the ball will be travelling at a speed of approximately 100 m s–1 when it hits the 
+  (c) intro: Before the balloon is released, the rope holding the balloon has a strain of 2.4 × 10–5. The rope has an unstretched length of 2.5 m. The rope obeys Hooke’s law.
+  (c)(i) [1] Show that the extension of the rope is 6.0 × 10–5 m. [1]
+  (c)(ii) [2] Calculate the elastic potential energy EP of the rope. EP = J [2]
+  (c)(iii) [2] The rope holding the balloon is replaced with a new one of the same original length and cross-sectional area. The tension is unchanged and the new rope also obeys Hooke’s law. The new rope is made from a material of a lower Young modulus. State and explain the effect of the lower Young modulus on th
+## w23_21 Q3 [9] STEM: A trolley A moves along a horizontal surface at a constant velocity towards another trolley B which is moving at a lower constant speed in the same direction. Fig. 3.1 shows the trolleys at time t = 0. A B horizontal surface Fig. 3.1 Table 3.1 shows data for t
+  (a) [1] State what is represented by the area under a velocity–time graph. [1]
+  (b) intro: Use Table 3.1 and Fig. 3.2 to determine:
+  (b)(i) [2] the acceleration of trolley B during the collision acceleration of B = m s–2 [2]
+  (b)(ii) [3] the magnitude and direction of the final velocity of trolley A. magnitude = m s–1 direction [3]
+  (c) [3] On Fig. 3.2, sketch the variation of the velocity of trolley A with time t from t = 0 to t = 0.50 s. [3]
+## w23_21 Q4 [9] STEM: 
+  (a) [2] State the principle of superposition. [2]
+  (b) [3] Coherent light is incident normally on two identical slits X and Y. The diffracted light emerging from the slits superposes to produce an interference pattern on a screen positioned at a distance of 1.9 m from the slits. Fig. 4.1 shows the arrangement and the central part of the interference pattern
+  (c) intro: Light waves from slits X and Y in (b) arrive at a point between adjacent bright fringes on the screen. Fig. 4.2 shows the variation of displacement with time for the waves arriving at the point where they meet. wave from
+  (c)(i) [1] Explain how statement 1 is correct. [1]
+  (c)(ii) [1] State and explain whether statement 2 is correct. [1]
+  (d) [2] The width of each slit in (b) is decreased by the same amount. There is no change to the separation of the slits. Describe and explain the effect, if any, of this change on the appearance of the interference pattern. [2]
+## w23_21 Q5 [4] STEM: A train travels at a constant high speed along a straight horizontal track towards an observer standing adjacent to the track, as shown in Fig. 5.1. train observer track Fig. 5.1 The train sounds its horn continuously as it approaches the observer, from time t
+  (a) [1] On Fig. 5.2, sketch the variation of the frequency of sound heard by the observer with time t, from time t = 0 to t = t2. frequency fS 0 0 t1 t2 t Fig. 5.2 [1]
+  (b) [3] At a particular time, the sound waves at the observer have an intensity of 4.7 × 10–3 W m–2. The waves at the observer are incident at right angles on a circular detector of radius 2.8 cm. Calculate the power P of the waves incident on the detector. P = W [3]
+## w23_21 Q6 [9] STEM: A battery is connected in a circuit with a light-dependent resistor (LDR), two fixed resistors and a voltmeter, as shown in Fig. 6.1. 25 V 320 Ω V 240 Ω Fig. 6.1 The battery has an electromotive force (e.m.f.) of 25 V and negligible internal resistance. The re
+  (a) intro: The voltmeter displays a reading of 16 V.
+  (a)(i) [1] Show that the current in the battery is 0.050 A. [1]
+  (a)(ii) [3] Calculate the resistance of the LDR. resistance = Ω [3]
+  (a)(iii) [2] Determine the ratio power dissipated in the LDR power dissipated in the 240 Ω resistor . ratio = [2]
+  (b) [3] The intensity of the light incident on the LDR increases. State and explain what happens to the voltmeter reading. [3]
+## w23_21 Q7 [8] STEM: 
+  (a) [2] The results of the α-particle scattering experiment led to the development of the nuclear model for the atom. State the results that suggested that most of the mass of the atom is concentrated in a very small region and most of the atom is empty space. [2]
+  (b) [1] State the composition of γ-radiation. [1]
+  (c) [2] Table 7.1 lists the names of three particles and possible classifications for them. Table 7.1 classification particle name baryon hadron lepton neutrino neutron positron Complete Table 7.1 by placing ticks (3) in the boxes to indicate the classifications that apply to each particle. [2]
+  (d) intro: The discovery of a particle with an unusual charge was an important step in the development of the theory of quarks. The particle is a hadron with a mass of 2.19 × 10–27 kg and a charge of +2e, where e is the elementary 
+  (d)(i) [1] Calculate the mass, in u, of the particle. Give your answer to three significant figures. mass = u [1]
+  (d)(ii) [2] Determine a possible quark composition of a hadron with a charge of +2e. Explain your reasoning. [2]
+## w23_22 Q1 [9] STEM: 
+  (a) [1] In the following list, underline all quantities that are SI base quantities. charge electric current force time [1]
+  (b) [2] Under certain conditions, the distance s moved in a straight line by an object in time t is given by s = 1 2at 2 where a is the acceleration of the object. State two conditions under which the above expression applies to the motion of the object.   [2]
+  (c) intro: The variation with time t of the velocity v of a car that is moving in a straight line is shown in Fig. 1.1. 25 20 15 v / m s–1 10 5 0 0 2 4 6 8 10 12 14 16 t / s –5 –10 –15 Fig. 1.1
+  (c)(i) [2] Compare, qualitatively, the acceleration of the car at time t = 8.0 s and at time t = 14.0 s in terms of: ● magnitude ● direction. [2]
+  (c)(ii) [2] Determine the magnitude of the acceleration of the car at time t = 4.0 s. acceleration = m s–2 [2]
+  (c)(iii) [2] The car is at point X at time t = 0. Determine the magnitude of the displacement of the car from X at time t = 12.0 s. displacement = m [2]
+## w23_22 Q2 [8] STEM: A high‑altitude balloon is stationary in still air. A solid sphere is suspended from the balloon by a string, as shown in Fig. 2.1. balloon string sphere Fig. 2.1 (not to scale) The volume of the balloon is 7.5 m3. The total weight of the balloon, string and s
+  (a) [2] Calculate the density of the air surrounding the balloon. density = kg m–3 [2]
+  (b) intro: The string breaks, releasing the sphere.
+  (b)(i) [1] State the magnitude of the acceleration of the sphere immediately after the string breaks. acceleration = m s–2 [1]
+  (b)(ii) [3] State and explain the variation, if any, in the magnitude of the acceleration of the sphere when it is moving downwards before it reaches terminal (constant) velocity. [3]
+  (c) [2] The sphere has a mass of 4.0 kg. Calculate the total resistive force acting on the sphere at the instant when its acceleration is 1.9 m s–2. resistive force = N [2]
+## w23_22 Q3 [10] STEM: A vertical rod is fixed to the horizontal surface of a table, as shown in Fig. 3.1. rod surface of spring table Fig. 3.1 (not to scale) A spring of mass 7.5 g is able to slide along the full length of the rod. The spring is first pushed against the surface of 
+  (a) [2] By using the initial elastic potential energy of the compressed spring, calculate its spring constant. spring constant = N m–1 [2]
+  (b) [2] Calculate the speed of the spring as it leaves the surface of the table. speed = m s–1 [2]
+  (c) intro: The spring rises to its maximum height up the rod from the surface of the table. This causes the gravitational potential energy of the spring to increase by 0.039 J.
+  (c)(i) [2] Calculate, for this movement of the spring, the increase in height of the spring after leaving the surface of the table. increase in height = m [2]
+  (c)(ii) [2] Calculate the average frictional force exerted by the rod on the spring as it rises. average frictional force = N [2]
+  (d) [2] The rod is replaced by another rod that exerts negligible frictional force on the moving spring. The initial compression x of the spring is now varied in order to vary the maximum increase in height Δh of the spring after leaving the surface of the table. Assume that the spring obeys Hooke’s law for
+## w23_22 Q4 [6] STEM: 
+  (a) intro: A ball Y moves along a horizontal frictionless surface and collides with a ball Z, as illustrated in the views from above in Fig. 4.1 and Fig. 4.2. 0.25 kg 3.7 m s–1 Y 27° P Y Z Q P Q 44° 0.25 kg mZ Z 5.5 m s–1 mZ BEFORE
+  (a)(i) [2] Calculate the component of the final momentum of ball Y in the direction perpendicular to line PQ. component of momentum = N s [2]
+  (a)(ii) [1] By considering the component of the final momentum of each ball in the direction perpendicular to line PQ, calculate mZ. mZ = kg [1]
+  (a)(iii) [2] During the collision, the average force exerted on Y by Z is FY and the average force exerted on Z by Y is FZ. Compare the magnitudes and directions of FY and FZ. Numerical values are not required. magnitudes: directions: [2]
+  (b) [1] Two blocks, A and B, move directly towards each other along a horizontal frictionless surface, as shown in the view from above in Fig. 4.3. 4 m s–1 6 m s–1 A B Fig. 4.3 The blocks collide perfectly elastically. Before the collision, block A has a speed of 4 m s–1 and block B has a speed of 6 m s–1. 
+## w23_22 Q5 [10] STEM: 
+  (a) intro: A beam of vertically polarised light is incident normally on a polarising filter, as shown in Fig. 5.1. vertically polarised transmitted incident light beam light beam transmission filter axis of filter Fig. 5.1
+  (a)(i) [2] The transmission axis of the filter is initially vertical. The filter is then rotated through an angle of 360° while the plane of the filter remains perpendicular to the beam. On Fig. 5.2, sketch a graph to show the variation of the intensity of the light in the transmitted beam with the angle throu
+  (a)(ii) [2] The intensity of the light in the incident beam is 7.6 W m–2. When the transmission axis of the filter is at angle θ to the vertical, the light intensity of the transmitted beam is 4.2 W m–2. Calculate angle θ. θ = ° [2]
+  (b) [2] State what is meant by the diffraction of a wave. [2]
+  (c) intro: A beam of light of wavelength 4.3 × 10–7 m is incident normally on a diffraction grating in air, as shown in Fig. 5.3. third order beam of light, 68° wavelength 68° 4.3 × 10–7 m diffraction third order grating Fig. 5.3 (
+  (c)(i) [2] Calculate the line spacing d of the diffraction grating. d = m [2]
+  (c)(ii) [2] Determine a different wavelength of visible light that will also produce a diffraction maximum at an angle of 68°. wavelength = m [2]
+## w23_22 Q6 [12] STEM: 
+  (a) [2] A metal wire has a resistance per unit length of 0.92 Ω m–1. The wire has a uniform cross‑sectional area of 5.3 × 10–7 m2. Calculate the resistivity of the metal of the wire. resistivity = Ω m [2]
+  (b) intro: A battery of electromotive force (e.m.f.) E and negligible internal resistance is connected in series with a fixed resistor and a light‑dependent resistor (LDR), as shown in Fig. 6.1. E 1400 Ω V 1600 Ω Fig. 6.1 The resis
+  (b)(i) [1] Show that the current in the LDR is 4.0 × 10–3 A. [1]
+  (b)(ii) [2] Calculate the number of free electrons passing through the LDR in a time of 3.2 minutes. number of free electrons = [2]
+  (b)(iii) [2] Calculate the e.m.f. E. E = V [2]
+  (b)(iv) [2] Determine the ratio power dissipated in LDR . power dissipated in fixed resistor ratio = [2]
+  (c) intro: The environmental conditions change causing a decrease in the resistance of the LDR in (b). The temperature of the environment does not change. State whether there is a decrease, increase or no change to:
+  (c)(i) [1] the intensity of the light illuminating the LDR [1]
+  (c)(ii) [1] the current in the battery [1]
+  (c)(iii) [1] the reading of the voltmeter. [1]
+## w23_22 Q7 [5] STEM: 
+  (a) [1] In the following list, underline all the particles that are not fundamental. antineutrino baryon nucleon positron [1]
+  (b) [2] A nucleus of thorium‑230 (230 90Th) decays in stages, by emitting α‑particles and β– particles, to form a nucleus of lead‑206 (206 82Pb). Determine the total number of α‑particles and the total number of β– particles that are emitted during the sequence of decays that form the nucleus of lead‑206 fr
+  (c) [2] A meson has a charge of –1e, where e is the elementary charge. The quark composition of the meson includes a charm antiquark. State and explain a possible flavour (type) of the other quark in the meson. [2]
+## w23_23 Q1 [6] STEM: 
+  (a) [1] Table 1.1 lists some physical quantities. Complete the table by placing a tick (✓) next to the scalar quantities. Table 1.1 acceleration charge momentum power upthrust [1]
+  (b) intro: A uniform cylinder has diameter D, length L and mass M. The density ρ of the cylinder is given by ρ = 4M . π D2 L Table 1.2 shows the data obtained from an experiment to determine the density of the cylinder. Table 1.2 q
+  (b)(i) [1] Calculate the percentage uncertainties in D and L. Write your answers in Table 1.2. [1]
+  (b)(ii) [2] Calculate the density of the cylinder. Give your answer to three significant figures. density = kg m–3 [2]
+  (b)(iii) [2] Calculate the percentage uncertainty in the density. percentage uncertainty = % [2]
+## w23_23 Q2 [6] STEM: A ball on horizontal ground is kicked towards a vertical wall. Fig. 2.1 shows the path of the ball. path of ball horizontal h u ground wall 38° 9.0 m ball Fig. 2.1 (not to scale) The ball has an initial velocity u at an angle of 38° to the ground. The ball tra
+  (a)(i) [1] Show that the time t for the ball to reach the wall is 0.95 s. [1]
+  (a)(ii) [2] Calculate the vertical component uV of the initial velocity of the ball. m s–1 [2] uV =
+  (a)(iii) [2] Determine h. h = m [2]
+  (b) [1] The speed of the ball just after striking the wall is less than its speed just before striking the wall. State what this indicates about the nature of the collision of the ball with the wall. [1]
+## w23_23 Q3 [11] STEM: 
+  (a) [2] State the conditions for a system to be in equilibrium. [2]
+  (b) intro: Fig. 3.1 shows an airship in flight. The airship is propelled by identical fans that can be angled to control the motion of the airship. airship fans Fig. 3.1 The upthrust on the airship is 93 000 N. The density of the s
+  (b)(i) [1] Calculate the volume of air displaced by the airship. volume = m3 [1]
+  (b)(ii) [2] When fully loaded, the weight of the airship is greater than the upthrust. To maintain horizontal flight, the fans provide a total vertical force of 3.0 × 103 N upwards on the airship. Calculate the mass of the airship. mass = kg [2]
+  (c) intro: At a certain time, the airship in (b) is stationary. The thrust force exerted by a fan on the airship is 2800 N. To produce this force, a mass of 64 kg of air is propelled through the blades of the fan in a time of 0.50 
+  (c)(i) [2] the change in momentum ∆p of the air propelled through the fan blades in this time ∆p = kg m s–1 [2]
+  (c)(ii) [2] the speed of the air as it leaves the fan speed = m s–1 [2]
+  (c)(iii) [2] the total kinetic energy of this air due to its movement through the fan. kinetic energy = J [2]
+## w23_23 Q4 [9] STEM: Fig. 4.1 shows the variation with extension x of the tensile force F for two wires, G and H, made from the same material. 3.5 H 3.0 G F / N 2.5 2.0 1.5 1.0 0.5 0 0 0.1 0.2 0.3 0.4 0.5 0.6 x / mm Fig. 4.1 The elastic limit has not been exceeded for G or H.
+  (a) intro: For the lines in Fig. 4.1:
+  (a)(i) [1] state what is represented by the gradient [1]
+  (a)(ii) [2] explain why the area under the line represents the elastic potential energy of the wire. [2]
+  (b) intro: Wires G and H are joined together end‑to‑end to form a composite wire of negligible weight. The composite wire hangs vertically from a fixed support. A block of weight of 2.0 N is attached to the end of the wire, as show
+  (b)(i) [1] Use Fig. 4.1 to determine: ● the extension xG of wire G xG = mm ● the extension xH of wire H. xH = mm [1]
+  (b)(ii) [2] Calculate the total elastic potential energy EP of the composite wire due to the weight of the block. EP = J [2]
+  (b)(iii) [3] The original length of wire G is L and the original length of wire H is 1.5 L. Calculate the ratio cross‑sectional area of wire G cross‑sectional area of wire H. ratio = [3]
+## w23_23 Q5 [6] STEM: Two point sources, A and B, produce coherent electromagnetic waves. The waves from A and B are emitted in phase and have wavelength λ, as shown in Fig. 5.1. λ A B Fig. 5.1 (not to scale) The lines on Fig. 5.1 represent wavefronts. All the points on a wavefront
+  (a) intro: On Fig. 5.1, mark with a cross (×):
+  (a)(i) [1] the position of an interference maximum (label this cross Y) [1]
+  (a)(ii) [1] the position of an interference minimum (label this cross Z). [1]
+  (b) intro: The waves in air have a wavelength of 2.9 × 10–5 m. An interference pattern is detected along a line parallel to AB and at a perpendicular distance of 140 m from AB. The spacing between adjacent interference maxima is 1.
+  (b)(i) [3] Calculate the separation a of the sources A and B. a = m [3]
+  (b)(ii) [1] State the principal region of the electromagnetic spectrum to which the waves belong. [1]
+## w23_23 Q6 [5] STEM: A train travels at constant speed along a straight horizontal track towards an observer standing adjacent to the track, as shown in Fig. 6.1. train observer track Fig. 6.1 The train sounds its horn continuously as it approaches the observer. The horn emits a s
+  (a) [2] Calculate the speed of the train. speed = m s–1 [2]
+  (b) intro: The train approaches and then passes the observer. The intensity I of the sound heard by the observer varies with the distance d of the horn from the observer. When the horn is at a distance x0 from the observer, the int
+  (b)(i) [1] State the relationship between amplitude A and intensity I for a progressive wave. [1]
+  (b)(ii) [2] On Fig. 6.3, sketch the variation with d / x0 of A / A0. [2]
+## w23_23 Q7 [11] STEM: 
+  (a) [2] State Ohm’s law. [2]
+  (b) intro: A battery of electromotive force (e.m.f.) 6.2 V and negligible internal resistance is connected in a circuit to a uniform resistance wire, a voltmeter, a fixed resistor and a switch, as shown in Fig. 7.1. 6.2 V S wire of
+  (b)(i) [2] Calculate the resistivity ρ of the material of the resistance wire. ρ = Ω m [2]
+  (b)(ii) [1] The switch is open. State the reading on the voltmeter. voltmeter reading = V [1]
+  (b)(iii) [2] The switch is now closed. State whether there is an increase, decrease or no change to: ● the current in the battery ● the voltmeter reading. [2]
+  (b)(iv) [1] The switch remains closed. The slider S is moved along the resistance wire so that the voltmeter reading is 3.1 V. On Fig. 7.1, draw a cross (×) on the resistance wire to show a possible new position of the slider. [1]
+  (c) intro: The circuit in (b) is altered by changing the battery for one of a different e.m.f. The switch is open. A student records the following data for the resistance wire: current in the wire 0.93 A mean drift speed of charge 
+  (c)(i) [2] Determine the charge q of a charge carrier in the wire suggested by this data. q = C [2]
+  (c)(ii) [1] With reference to the value of q, explain why the data recorded by the student cannot be correct. [1]
+## w23_23 Q8 [6] STEM: 
+  (a) intro: The nuclide 23 12Mg is an isotope of magnesium that undergoes β+ decay to form a new nuclide X according to the equation 23 X + β+ + 0 12Mg 0ν. Four numbers are missing from the equation.
+  (a)(i) [2] For the nuclide 23 12Mg, state what is represented by the numbers 23 and 12. represents: represents: [2]
+  (a)(ii) [2] Complete the equation by inserting the missing numbers. [2]
+  (a)(iii) [1] State the name of the group (class) of fundamental particles to which the positron and neutrino belong. [1]
+  (b) [1] A radioactive source emits particles from its nuclei when it decays. Fig. 8.1 shows, for the source, the variation with kinetic energy of the number of particles emitted. number of particles emitted 0 0 kinetic energy of emitted particles Fig. 8.1 State how Fig. 8.1 shows that these nuclei do not un
+## w24_21 Q1 [7] STEM: 
+  (a) [1] Define density. [1]
+  (b) intro: Fig. 1.1 shows a cuboidal glass block. y z x Fig. 1.1 (not to scale) A student measures the mass m of the block and the side lengths x, y and z. The measurements are shown in Table 1.1. Table 1.1 quantity measurement m (
+  (b)(i) [2] Determine the density of the glass. density = kg m–3 [2]
+  (b)(ii) [3] Calculate the percentage uncertainty in the density. percentage uncertainty = % [3]
+  (c) [1] The true value of the density of the glass is different from the answer in (b)(i) because of a systematic error in the measurements. Suggest one possible cause of this systematic error. [1]
+## w24_21 Q2 [11] STEM: 
+  (a) [1] Define linear momentum. [1]
+  (b) intro: A car of mass 1800 kg is moving in a straight line. Fig. 2.1 shows the variation with time t of the momentum p of the car. 8 p / 104 N s 6 4 2 0 0 2 4 6 8 10 12 t / s Fig. 2.1
+  (b)(i) [1] Calculate the maximum speed reached by the car. maximum speed = m s–1 [1]
+  (b)(ii) [2] Calculate the maximum kinetic energy of the car. maximum kinetic energy = J [2]
+  (b)(iii) [2] Show that the acceleration of the car at time t = 4.0 s is 5.0 m s–2. [2]
+  (b)(iv) [2] Determine the distance travelled by the car between times t = 0 and t = 12.0 s. distance = m [2]
+  (c) [3] On Fig. 2.2, sketch the variation with time t of the acceleration a of the car in (b) from t = 0 to t = 12.0 s. 10 a / m s−2 5 0 0 2 4 6 8 10 12 t / s −5 −10 Fig. 2.2 [3]
+## w24_21 Q3 [11] STEM: 
+  (a) [1] State what is meant by the work done by a force. [1]
+  (b) [2] A block of mass m is raised vertically at constant speed. The vertical height gained by the block is Δh, as shown in Fig. 3.1. block, mass m Δh Fig. 3.1 Derive an expression, in terms of m and Δh, for the change in gravitational potential energy ΔEP of the block. State the meaning of any other symbo
+  (c) intro: An electric motor has an input power of 900 W. The motor takes 1.0 minute to lift a load of weight 240 N at constant speed through a vertical height of 150 m. Resistive forces are negligible.
+  (c)(i) [1] Show that the work done by the motor on the load in 1.0 minute is 36 kJ. [1]
+  (c)(ii) [2] Determine the useful output power of the motor. power = W [2]
+  (c)(iii) [2] Use your answer in (c)(ii) to determine the efficiency of the motor. efficiency = [2]
+  (c)(iv) [3] Some of the power wasted in the motor is dissipated by the resistance of its coil. This dissipated power is 280 W. The coil of the motor is made from wire of total length 23 m. The wire has a cross- sectional area of 2.6 × 10–8 m2 and is made from metal of resistivity 1.7 × 10–8 Ω m. Calculate the c
+## w24_21 Q4 [7] STEM: 
+  (a) [1] Define the Young modulus of a material. [1]
+  (b) intro: A metal wire P that obeys Hooke’s law is stretched within its limit of proportionality.
+  (b)(i) [1] On Fig. 4.1, sketch the variation of tensile force F in the wire with its extension x. F 0 0 x Fig. 4.1 [1]
+  (b)(ii) [1] State the name of the quantity represented by the gradient of the line in Fig. 4.1. [1]
+  (b)(iii) [1] State the name of the quantity represented by the area under the line in Fig. 4.1. [1]
+  (c) [3] Another wire Q is made from a metal that has twice the Young modulus of the metal of wire P in (b). Wire Q has the same volume as wire P but has double the cross-sectional area of wire P. The two wires are extended by equal tensile forces within their limits of proportionality. State and explain how
+## w24_21 Q5 [7] STEM: 
+  (a) intro: Potassium-40 (40 19K) undergoes β– decay to form a nuclide of element X. Particle Z is emitted during the decay. The equation for the decay is shown. 40 P 19K Q X + R S β– + Z
+  (a)(i) [2] State the values of P, Q, R and S. P = R = Q = S = [2]
+  (a)(ii) [1] State the name of particle Z. [1]
+  (a)(iii) [1] State the name of the class of fundamental particle to which both the β– particle and particle Z belong. [1]
+  (b) [3] Determine the quark composition of an alpha-particle. quark composition [3]
+## w24_21 Q6 [9] STEM: Two coherent sources X and Y of microwaves of frequency 2.5 × 1010 Hz are a distance of 0.18 m apart in a vacuum, as shown in Fig. 6.1. P 2.3 m X A 0.18 m O Y Q Fig. 6.1 (not to scale) There is a phase difference of 90° between the waves emitted at the two sou
+  (a)(i) [2] Explain why the position of greatest intensity is not at point O. [2]
+  (a)(ii) [2] On Fig. 6.1, draw a cross (×) to show the position of the point on line PQ where the intensity minimum that is the closest to point O occurs. Label this point B. [2]
+  (b)(i) [2] Show that the wavelength of the microwaves is 0.012 m. [2]
+  (b)(ii) [1] For point A on line PQ, determine the difference in the distances Δx travelled by the microwaves from X and the microwaves from Y. Δx = m [1]
+  (b)(iii) [2] Use the formula for the double-slit interference of light to calculate the distance between adjacent intensity maxima on line PQ. distance = m [2]
+## w24_21 Q7 [8] STEM: 
+  (a) intro: Fig. 7.1 shows two resistors connected in series with a cell of electromotive force (e.m.f.) 1.50 V and internal resistance 0.28 Ω. 1.50 V 0.28 Ω I 1.0 Ω R Fig. 7.1 One of the resistors has resistance 1.0 Ω. The other re
+  (a)(i) [2] Show that the current I in the circuit is 0.50 A. [2]
+  (a)(ii) [2] Calculate the combined resistance of the two resistors. resistance = Ω [2]
+  (a)(iii) [1] Use your answer in (a)(ii) to determine resistance R. R = Ω [1]
+  (b) intro: The circuit in Fig. 7.1 is disconnected and the two resistors are reconnected to the cell, now in parallel with each other.
+  (b)(i) [1] On Fig. 7.2, complete the circuit diagram to show this arrangement. 1.50 V 0.28 Ω Fig. 7.2 [1]
+  (b)(ii) [2] Explain, without calculation, whether the terminal p.d. across the cell is now less than, equal to or greater than 1.36 V. [2]
+## w24_22 Q1 [7] STEM: 
+  (a) [1] State what is meant by a vector quantity. [1]
+  (b) intro: A sphere falls vertically through a liquid that has density 830 kg m–3. The sphere has radius r and constant velocity v, as shown in Fig. 1.1. liquid sphere, radius r v Fig. 1.1
+  (b)(i) [3] The drag force D acting on the sphere is given by D = 6πrηv where η is a property of the liquid. Determine the SI base units of η. SI base units [3]
+  (b)(ii) [1] State an equation showing the relationship between the magnitudes of the weight W, drag force D and upthrust U acting on the sphere. [1]
+  (b)(iii) [2] The volume of the sphere is 4.6 cm3. The drag force D is 0.32 N. Calculate the weight of the sphere. weight = N [2]
+## w24_22 Q2 [10] STEM: 
+  (a) [1] Define momentum. [1]
+  (b) [2] A child stands on a scooter on horizontal ground. The combined mass of the child and the scooter is 16 kg. The child starts from rest and pushes once on the ground with her foot which causes her to accelerate. The push lasts for a time of 1.1 s. The speed of the child and the scooter after the push 
+  (c) [2] Later, the child in (b) travels down a slope at a constant angle to the horizontal, as shown in Fig. 2.1. A B x Fig. 2.1 (not to scale) At point A her speed is 0.60 m s–1. She has a constant acceleration of 0.85 m s–2 parallel to the slope. After a time of 3.7 s, she reaches point B. Calculate the d
+  (d) intro: At point B, the child in (c) applies the brake with a constant force to maintain a constant velocity. Point C is 18 m from point B, as shown in Fig. 2.2. 18 m A B C Fig. 2.2 (not to scale) The work done by the braking fo
+  (d)(i) [2] Determine the magnitude of the braking force. force = N [2]
+  (d)(ii) [3] On Fig. 2.3, sketch the variation of the kinetic energy of the child and scooter with distance travelled from point A to point C. Numerical values for kinetic energy are not required. kinetic energy 0 0 x x + 18 m distance from A Fig. 2.3 [3]
+## w24_22 Q3 [12] STEM: 
+  (a) intro: The variation of stress with strain for a metal P is shown in Fig. 3.1. 30 E stress / 107 Pa 20 10 0 0 0.5 1.0 1.5 strain (%) Fig. 3.1 Point E is the elastic limit of the metal.
+  (a)(i) [2] Use Fig. 3.1 to determine the Young modulus for P. Young modulus = Pa [2]
+  (a)(ii) [1] On the line in Fig. 3.1, draw a cross (×) to show the limit of proportionality. Label this point Q. [1]
+  (b) [2] State the conditions necessary for an object to be in equilibrium. [2]
+  (c) intro: A wire is used to hold a uniform shelf AB horizontally in equilibrium as shown in Fig. 3.2. wire wall cup shelf hinge 50° A B 0.12 m 0.65 m Fig. 3.2 (not to scale) The wire is connected to the midpoint of shelf AB at an 
+  (c)(i) [3] By taking moments about A, determine the tension in the wire. tension = N [3]
+  (c)(ii) [2] The stress in the wire is 1.5 × 107 Pa. Determine the radius of the wire. radius = m [2]
+  (c)(iii) [2] More items are added to the shelf, doubling the stress in the wire. The wire is made of the metal P from (a). Use Fig. 3.1 to state and explain whether the wire will behave plastically or elastically as the stress doubles. [2]
+## w24_22 Q4 [8] STEM: 
+  (a) [2] With reference to the direction of transfer of energy, compare the oscillations of transverse and longitudinal progressive waves. [2]
+  (b) intro: A pipe is open at one end and closed at the other with a piston. The piston can slide freely and is at a distance of 4.5 × 10–2 m from the open end of the pipe. A loudspeaker is positioned near the open end of the pipe a
+  (b)(i) [1] On Fig. 4.1, draw a letter A at the position of an antinode. [1]
+  (b)(ii) [3] The speed of sound in air is 340 m s–1. Determine the frequency of the sound wave. frequency = Hz [3]
+  (b)(iii) [2] The piston is moved to the left. The frequency of the sound wave emitted by the loudspeaker is then changed so that a stationary wave is formed with same number of antinodes as in Fig. 4.1. State and explain the change that is made to the frequency of the sound wave. [2]
+## w24_22 Q5 [12] STEM: 
+  (a) [1] Define electric potential difference (p.d.). [1]
+  (b) intro: A power supply, three resistors and a component X are connected in the circuit shown in Fig. 5.1. 230 V 7.0 A + – 0.86 Ω 2.4 Ω X I1 I2 170 Ω Fig. 5.1 The power supply has an electromotive force (e.m.f.) of 230 V and negl
+  (b)(i) [1] Identify component X. [1]
+  (b)(ii) [1] Show that the p.d. across the resistor of resistance 0.86 Ω is 6.0 V. [1]
+  (b)(iii) [2] Determine the current I1. I1 = A [2]
+  (b)(iv) [2] Calculate the p.d. across component X. p.d. = V [2]
+  (b)(v) [2] Calculate the power dissipated in component X. power = W [2]
+  (b)(vi) [2] The purpose of the circuit is to provide power to component X. Determine the percentage efficiency of the circuit. efficiency = % [2]
+  (b)(vii) [1] The resistor of resistance 170 Ω is removed, leaving an open circuit in the lower branch of the circuit. There is no change to the resistance of component X. State whether the current in the power supply increases, decreases or remains the same. [1]
+## w24_22 Q6 [11] STEM: 
+  (a) [3] Compare an α‑particle with a β+ particle in terms of their masses and charges. [3]
+  (b) intro: Nucleus P undergoes α‑decay to form nucleus Q. Nucleus Q then undergoes a further decay to form nucleus R. The proton and nucleon numbers of P and R are shown in Fig. 6.1. 220 218 nucleon number 216 P 214 212 R 210 78 80
+  (b)(i) [1] On Fig. 6.1, draw a cross (×) to show the proton number and nucleon number of Q. Label your cross Q. [1]
+  (b)(ii) [2] State the names of the particles emitted as Q decays to form R. [2]
+  (c) intro: Before the α‑decay, P is travelling at a constant velocity. After the decay, Q has a velocity of 1.3 × 105 m s–1 at an angle of 68° to the original path of P. The α‑particle has a velocity of 150 × 105 m s–1 at an angle 
+  (c)(i) [3] Use the principle of conservation of momentum to determine θ. θ = ° [3]
+  (c)(ii) [2] Calculate the kinetic energy of the α‑particle. kinetic energy = J [2]
+## w24_23 Q1 [7] STEM: 
+  (a) [1] Define acceleration. [1]
+  (b) intro: A small aircraft is flying horizontally at a speed of 42 m s–1 at a height of 63 m above horizontal ground, as shown in Fig. 1.1. speed 42 m s–1 m ground Fig. 1.1 The aircraft drops a small parcel. The parcel is released
+  (b)(i) [1] On Fig. 1.1, draw a line to show the path of the parcel as it falls from the aircraft to the ground. [1]
+  (b)(ii) [2] Calculate the time taken from the instant of release to the instant the parcel reaches the ground. time = s [2]
+  (b)(iii) [1] Calculate the vertical component of the velocity of the parcel immediately before it reaches the ground. vertical component of velocity = m s–1 [1]
+  (b)(iv) [2] Determine the speed at which the parcel reaches the ground. speed = m s–1 [2]
+## w24_23 Q2 [11] STEM: 
+  (a) [2] State the principle of conservation of momentum. [2]
+  (b) intro: A ball X has mass 240 g and moves in a straight line on a horizontal frictionless surface with an initial speed of 16 m s–1. The ball collides with a stationary ball Y that has mass 480 g. After the collision, ball X is 
+  (b)(i) [1] Show that the speed v of ball Y after the collision is 8.0 m s–1. [1]
+  (b)(ii) [3] Calculate the change in the total kinetic energy ∆EK of the balls due to the collision. ∆EK = J [3]
+  (c) intro: The collision in (b) lasts for a time of 2.0 ms. Assume that the contact force between the balls is constant during this time.
+  (c)(i) [3] Determine the magnitude and direction of the force exerted on ball X by ball Y during the collision. magnitude = N direction [3]
+  (c)(ii) [2] Compare the magnitude and direction of the force exerted on ball Y by ball X during the collision with the answers in (c)(i). No further calculations are required. [2]
+## w24_23 Q3 [9] STEM: 
+  (a) [1] State the principle of moments. [1]
+  (b) intro: A rigid uniform beam rests on a pivot at its centre, as shown in Fig. 3.1. beam x 0.40 m wooden cylinder, weight 4.0 N pivot container h load, weight 2.6 N water Fig. 3.1 (not to scale) A load of weight 2.6 N is suspende
+  (b)(i) [2] Use the principle of moments to show that the upthrust U exerted by the water on the cylinder is 1.4 N. [2]
+  (b)(ii) [3] The density of the water is 1.0 × 103 kg m–3. Calculate the area A of the circular cross-section of the cylinder. A = m2 [3]
+  (c) [3] More water is gradually added to the container in (b), so that depth h in Fig. 3.1 gradually increases. The length x is continuously adjusted so that the system remains in equilibrium. On Fig. 3.2, sketch the variation of x with h. Use the space below for any working. 0.8 0.6 x / m 0.4 0.2 0 0.10 0.
+## w24_23 Q4 [7] STEM: 
+  (a) intro: Define:
+  (a)(i) [1] stress [1]
+  (a)(ii) [1] strain. [1]
+  (b) intro: Two wires X and Y, with equal unstretched lengths of 0.84 m, are suspended from fixed points that are at the same horizontal level. The lower ends of the wires are attached to a beam of negligible mass. The beam is horiz
+  (b)(i) [3] Determine the cross-sectional area of wire X. cross-sectional area = m2 [3]
+  (b)(ii) [2] Wire Y has a greater diameter than wire X. Explain, without calculation, whether the Young modulus of the metal from which wire Y is made is less than, the same as or greater than 1.9 × 109 Pa. [2]
+## w24_23 Q5 [8] STEM: 
+  (a) intro: A stationary wave is formed on a string XY that has a length of 0.48 m. Fig. 5.1 shows the string at one instant in time. 0.48 m X Y Fig. 5.1 The speed of the wave on the string is 1400 m s–1.
+  (a)(i) [1] On Fig. 5.1, draw a cross (×) at one position that is a node and another cross at one position that is an antinode. Label the node N and the antinode A. [1]
+  (a)(ii) [1] Show that the wavelength of the wave produced is 0.32 m. Explain your reasoning. [1]
+  (a)(iii) [2] Calculate the frequency of the wave. frequency = Hz [2]
+  (b) intro: A source of sound waves of frequency 780 Hz is on a rotating platform. The speed of the source is 39 m s–1. The sound is detected by an observer that is a large distance from the rotating platform, as shown in Fig. 5.2. 
+  (b)(i) [2] The speed of sound in air is 320 m s–1. Calculate the maximum frequency of the sound detected by the observer. maximum frequency = Hz [2]
+  (b)(ii) [2] At time t = 0, the observer detects the sound emitted by the source when it was in the position shown in Fig. 5.2. On Fig. 5.3, sketch the variation with t of the frequency f of the sound detected by the observer for one complete rotation of the platform. Calculations are not required. f 0 t Fig. 5.
+## w24_23 Q6 [10] STEM: 
+  (a) [1] Define resistance. [1]
+  (b) intro: A cylindrical metal wire of length 2.4 m and cross-sectional area 8.0 × 10–6 m2 has a resistance of 0.33 Ω. There is a current in the wire of 4.7 A.
+  (b)(i) [2] Determine the resistivity of the metal from which the wire is made. resistivity = Ω m [2]
+  (b)(ii) [2] Calculate the charge that passes through the wire in a time of 5.0 minutes. charge = C [2]
+  (b)(iii) [2] The free electrons (charge carriers) in the wire have an average drift speed of 0.16 mm s–1. Determine the number density of charge carriers in the metal. number density = m–3 [2]
+  (c) intro: The wire in (b) may be considered to be a fixed resistor. It is connected in series with a thermistor to a battery that has negligible internal resistance.
+  (c)(i) [1] Use circuit symbols to complete Fig. 6.1 to show the circuit diagram of this arrangement. Fig. 6.1 [1]
+  (c)(ii) [2] Explain, without calculation, how the power dissipated in the wire changes as the temperature of the thermistor is increased. [2]
+## w24_23 Q7 [8] STEM: 
+  (a) [3] Complete Table 7.1 to show the charges, in terms of the elementary charge e, on each of the flavours of quark and antiquark shown. Table 7.1 charge / e flavour quark antiquark up down strange [3]
+  (b)(i) [1] State the name of the class (group) of fundamental particles to which baryons and mesons belong. [1]
+  (b)(ii) [2] Compare baryons and mesons in terms of their constituent particles. [2]
+  (c) [2] Describe β+ decay in terms of the fundamental particles involved. [2]
+## w25_21 Q1 [10] STEM: 
+  (a) [1] Define acceleration. [1]
+  (b) intro: A rocket is launched vertically from the surface of the Earth. Fig. 1.1 shows the variation of the velocity of the rocket with time for the first 20 s after its launch. 400 velocity / m s–1 200 0 0 5 10 15 20 time / s Fi
+  (b)(i) [1] Determine the acceleration of the rocket. acceleration = m s–2 [1]
+  (b)(ii) [2] Show that the height of the rocket above the surface of the Earth at a time of 20 s after launch is 3.2 km. [2]
+  (c) intro: The mass of the rocket in (b) is 2.9 × 106 kg. Assume that this mass remains constant. For this rocket, from launch to its height at a time of 20 s after launch:
+  (c)(i) [2] calculate the gain in gravitational potential energy ΔEP ΔEP = J [2]
+  (c)(ii) [2] calculate the gain in kinetic energy ΔEK ΔEK = J [2]
+  (c)(iii) [2] determine the average power output of the rocket engines. Assume that resistive forces are negligible. power = W [2]
+## w25_21 Q2 [12] STEM: 
+  (a)(i) [1] Define pressure. [1]
+  (a)(ii) [2] Explain how hydrostatic pressure results in an upthrust force acting on a solid object immersed in a liquid. [2]
+  (b) intro: A small steel ball of radius r and mass m falls vertically at terminal speed v through oil. The viscous drag force D that acts on the ball is given by D = 6πη r v where η is a property of the oil called its viscosity.
+  (b)(i) [3] On Fig. 2.1, draw labelled arrows from the ball to show the directions of the three forces that act on the ball as it falls. Fig. 2.1 [3]
+  (b)(ii) [2] Determine the SI base units of η. base units [2]
+  (c) intro: The oil in (b) has a density of 920 kg m–3 and a viscosity of 4.7 in SI units. The steel ball has a mass of 2.4 × 10–3 kg and a radius of 4.2 × 10–3 m.
+  (c)(i) [1] Show that the upthrust force acting on the ball is 2.8 × 10–3 N. [1]
+  (c)(ii) [3] Determine the terminal speed v of the ball. v = m s–1 [3]
+## w25_21 Q3 [9] STEM: A wire has length L and cross-sectional area A. The wire is made from a metal that has Young modulus E and resistivity ρ.
+  (a) [1] Define the Young modulus of a material. [1]
+  (b)(i) [1] State an expression, in terms of some or all of L, A, E and ρ, for the resistance R0 of the wire. R0 = [1]
+  (b)(ii) [2] Show that the spring constant k0 of the wire is given by k0 = EA L . [2]
+  (c) intro: The wire is stretched, within the limit of proportionality, by a tensile force F. Assume that any changes in the cross-sectional area of the wire are negligible.
+  (c)(i) [1] On Fig. 3.1, sketch the variation with F of the resistance R of the wire. R R0 0 0 F Fig. 3.1 [1]
+  (c)(ii) [1] On Fig. 3.2, sketch the variation with F of the spring constant k of the wire. k k0 0 0 F Fig. 3.2 [1]
+  (d) intro: Copper has a resistivity of 1.8 × 10–8 Ω m and a Young modulus of 1.3 × 1011 Pa. A copper wire of diameter 1.6 mm has a resistance of 0.034 Ω.
+  (d)(i) [1] Show that the length of the wire is 3.8 m. [1]
+  (d)(ii) [2] Use the equation in (b)(ii) to determine the spring constant of the wire. spring constant = N m–1 [2]
+## w25_21 Q4 [10] STEM: 
+  (a) [2] State what is meant by diffraction of a wave. [2]
+  (b) intro: A beam of vertically polarised light of wavelength 540 nm is incident normally on a diffraction grating, as shown in Fig. 4.1. screen diffraction grating P polarised light beam θ O X Fig. 4.1 (not to scale) The diffracti
+  (b)(i) [2] Show that the angle θ at which the first-order bright fringe is formed is 6.2°. [2]
+  (b)(ii) [1] Determine the value of θ at which the second-order bright fringe is formed. θ = ° [1]
+  (b)(iii) [3] On Fig. 4.2, sketch the variation of the intensity I with θ for values of θ from –15° to +15°. 2I0 I I0 0 –15 –10 –5 0 5 10 15 θ / ° Fig. 4.2 [3]
+  (c) [2] A polarising filter is placed in the path of the light beam that is incident on the diffraction grating in Fig. 4.1. The transmission axis of the filter is at 45° to the vertical. Suggest how the variation of intensity with θ for the light on the screen compares with the answer in (b)(iii). [2]
+## w25_21 Q5 [10] STEM: 
+  (a) [1] State Kirchhoff’s first law. [1]
+  (b) intro: Fig. 5.1 shows a circuit containing a thermistor T that has a negative temperature coefficient. E r R T Fig. 5.1
+  (b)(i) [2] The thermistor has resistance R0 at a temperature of 0 °C. On Fig. 5.2, sketch a possible variation of the resistance of the thermistor with temperature between 0 °C and 100 °C. resistance R0 0 0 100 temperature / °C Fig. 5.2 [2]
+  (b)(ii) [3] With reference to the current in the cell, explain why the current in resistor R decreases with increasing temperature of the thermistor. [3]
+  (c) intro: The electromotive force (e.m.f.) E of the cell in Fig. 5.1 is 1.50 V. The internal resistance r of the cell is 0.12 Ω. Resistor R has a resistance of 6.00 Ω. At a particular temperature of the thermistor, the current in 
+  (c)(i) [2] the current in the cell current = A [2]
+  (c)(ii) [2] the resistance of the thermistor. resistance = Ω [2]
+## w25_21 Q6 [9] STEM: The nuclide 3 1H is an isotope of hydrogen that is called tritium.
+  (a)(i) [2] Determine the numbers of protons, neutrons and electrons in a neutral atom of tritium. number of protons = number of neutrons = number of electrons = [2]
+  (a)(ii) [2] Draw a labelled diagram to represent a simple model of the arrangement of the protons, neutrons and electrons in a tritium atom. [2]
+  (b) intro: Tritium is radioactive and undergoes β– decay to form an isotope of helium (He). Gamma radiation is not emitted during this decay.
+  (b)(i) [2] Complete the equation to represent the radioactive decay of tritium. 3 0 1H 0X  He +  β + [2]
+  (b)(ii) [1] State the name of particle X. [1]
+  (c) [2] Determine the quark composition of a tritium nucleus. [2]
+## w25_22 Q1 [11] STEM: Scientists are investigating the variation in air pressure at different locations on a mountain.
+  (a) [2] The scientists take measurements of several physical quantities at each location. Complete Table 1.1 by stating the SI base unit for each quantity and identifying with a tick (3) whether each quantity is a scalar or a vector. Use the space for any working. Table 1.1 quantity measured SI base unit sc
+  (b)(i) [2] At one location, the density of the air is 1.1 kg m–3. A spherical weather balloon is filled with a gas and released from rest. The balloon has radius 0.90 m. Calculate the upthrust acting on the balloon when it is released. upthrust = N [2]
+  (b)(ii) [2] Explain why an upthrust acts on the balloon. [2]
+  (b)(iii) [3] The balloon has weight 19 N. Calculate the magnitude of the initial acceleration of the balloon. acceleration = m s–2 [3]
+  (c) [2] A quantity c relating to the motion of the balloon is calculated from three measured quantities k, F and v using the formula 2kF v 2 . c = The percentage uncertainties in the measured quantities are given in Table 1.2. Table 1.2 measured quantity percentage uncertainty k 5% F 3% v 4% The calculated 
+## w25_22 Q2 [12] STEM: A spacecraft in deep space uses jets of hot gas from its thrusters to change its velocity. Fig. 2.1 shows a side view of the spacecraft and some of its thrusters. upwards thruster C 0.40 m centre of gravity thruster A thruster B 1.6 m leftwards Fig. 2.1 (not t
+  (a)(i) [2] Thruster A is activated, producing a force of 60 N upwards on the spacecraft. Thruster C is also activated, producing a force of 220 N in the leftwards direction on the spacecraft. Calculate the resultant moment due to these forces about the centre of gravity. resultant moment = N m [2]
+  (a)(ii) [1] State and explain whether the forces from A and C are a couple. [1]
+  (b) [2] Thrusters A and C are now switched off and the spacecraft is stationary. Thruster B is activated at time t1, producing a constant force on the spacecraft until the fuel runs out at time t2. As the fuel is used, the total mass of the spacecraft decreases. On Fig. 2.2, sketch the variation of speed of
+  (c) intro: The spacecraft now splits apart into a carrier and a payload as shown in Fig. 2.3. payload upwards carrier Fig. 2.3 During the split, an average force of 5500 N acts on the payload for a time of 0.36 s. The velocity of t
+  (c)(i) [2] State the principle of conservation of momentum. [2]
+  (c)(ii) [2] Show that the mass of the payload is 230 kg. [2]
+  (c)(iii) [3] Calculate the magnitude of the change in velocity of the carrier. change in velocity = m s–1 [3]
+## w25_22 Q3 [9] STEM: A spring is fixed at one end and attached to the frame of a pulley at the other end. A cable is passed around the wheel of the pulley. The spring is stretched to a fixed length using the cable and pulley. Fig. 3.1 shows the view from above of the spring, cable
+  (a) [2] On Fig. 3.2, draw labelled arrows to show the directions of the forces acting on the pulley. Fig. 3.2 [2]
+  (b) intro: The force F is 110 N.
+  (b)(i) [1] Determine T. T = N [1]
+  (b)(ii) [2] Calculate the extension of the spring. extension = m [2]
+  (c) intro: A second identical spring with the same spring constant of 250 N m–1 is now also connected to the pulley, as shown in Fig. 3.3. springs fixed end Fig. 3.3 The tension in the cable is kept the same. The pulley is again in
+  (c)(i) [2] Determine the extension of the springs. extension = m [2]
+  (c)(ii) [2] The elastic potential energy stored in the spring in Fig. 3.1 is E1. The total elastic potential energy stored in the two springs in Fig. 3.3 is E2. Calculate the ratio E1 . E2 ratio = [2]
+## w25_22 Q4 [8] STEM: A laser emits visible light of a single frequency in a vacuum. The light is incident normally on a double slit and then forms a pattern of bright and dark fringes on a screen, as shown in Fig. 4.1. screen fringe pattern on screen double slit dark fringe 3.3 mm
+  (a) [3] Explain how the pattern of bright and dark fringes is formed. [3]
+  (b) [4] Calculate the frequency of the light emitted by the laser. frequency = Hz [4]
+  (c) [1] The double slit is removed. A second laser is placed beside the first laser. The second laser produces visible light of a different frequency from that of the first laser. The beams of light from the two lasers overlap on the screen. Explain why a steady pattern of bright and dark fringes is not for
+## w25_22 Q5 [11] STEM: Fig. 5.1 shows a circuit containing a battery, two fixed resistors X and Y, and a light-dependent resistor (LDR) Z. 5.0 V 4.7 Ω 100 Ω I1 X Z I2 Y Fig. 5.1 The battery has electromotive force (e.m.f.) 5.0 V and internal resistance 4.7 Ω. The current in X is I1 
+  (a) [1] State Kirchhoff’s first law. [1]
+  (b) intro: The intensity of light incident on Z is 130 W m–2. The current in the battery is 38 mA.
+  (b)(i) [2] Show that the terminal potential difference of the battery is 4.8 V. [2]
+  (b)(ii) [3] Calculate the current I2 in Y. I2 = A [3]
+  (b)(iii) [2] Calculate the power dissipated in Y. power = W [2]
+  (b)(iv) [3] The intensity of the light incident on Z decreases. State and explain the effect on the terminal potential difference of the battery. [3]
+## w25_22 Q6 [9] STEM: 
+  (a) [1] State what is meant by a fundamental particle. [1]
+  (b)(i) [2] Particle Q is a meson with a charge of 0. Determine a possible quark composition for Q. [2]
+  (b)(ii) [3] Particle Q has a mass of 0.67 u and a kinetic energy of 2.1 × 10–16 J. Calculate the speed of particle Q. speed = m s–1 [3]
+  (c) intro: Radium-228 (228 88Ra) is a radioactive nuclide.
+  (c)(i) [1] State the number of electrons in a neutral atom of radium-228. number of electrons = [1]
+  (c)(ii) [2] A nucleus of radium-228 undergoes a series of decays to form nucleus X. During the process, 5 α-particles and 4 β– particles are emitted. Determine the number of protons and the number of neutrons in nucleus X. number of protons = number of neutrons = [2]
+## w25_23 Q1 [10] STEM: 
+  (a) [1] Define acceleration. [1]
+  (b) intro: A rocket is launched vertically from the surface of the Earth. Fig. 1.1 shows the variation of the velocity of the rocket with time for the first 20 s after its launch. 400 velocity / m s–1 200 0 0 5 10 15 20 time / s Fi
+  (b)(i) [1] Determine the acceleration of the rocket. acceleration = m s–2 [1]
+  (b)(ii) [2] Show that the height of the rocket above the surface of the Earth at a time of 20 s after launch is 3.2 km. [2]
+  (c) intro: The mass of the rocket in (b) is 2.9 × 106 kg. Assume that this mass remains constant. For this rocket, from launch to its height at a time of 20 s after launch:
+  (c)(i) [2] calculate the gain in gravitational potential energy ΔEP ΔEP = J [2]
+  (c)(ii) [2] calculate the gain in kinetic energy ΔEK ΔEK = J [2]
+  (c)(iii) [2] determine the average power output of the rocket engines. Assume that resistive forces are negligible. power = W [2]
+## w25_23 Q2 [12] STEM: 
+  (a)(i) [1] Define pressure. [1]
+  (a)(ii) [2] Explain how hydrostatic pressure results in an upthrust force acting on a solid object immersed in a liquid. [2]
+  (b) intro: A small steel ball of radius r and mass m falls vertically at terminal speed v through oil. The viscous drag force D that acts on the ball is given by D = 6πη r v where η is a property of the oil called its viscosity.
+  (b)(i) [3] On Fig. 2.1, draw labelled arrows from the ball to show the directions of the three forces that act on the ball as it falls. Fig. 2.1 [3]
+  (b)(ii) [2] Determine the SI base units of η. base units [2]
+  (c) intro: The oil in (b) has a density of 920 kg m–3 and a viscosity of 4.7 in SI units. The steel ball has a mass of 2.4 × 10–3 kg and a radius of 4.2 × 10–3 m.
+  (c)(i) [1] Show that the upthrust force acting on the ball is 2.8 × 10–3 N. [1]
+  (c)(ii) [3] Determine the terminal speed v of the ball. v = m s–1 [3]
+## w25_23 Q3 [9] STEM: A wire has length L and cross-sectional area A. The wire is made from a metal that has Young modulus E and resistivity ρ.
+  (a) [1] Define the Young modulus of a material. [1]
+  (b)(i) [1] State an expression, in terms of some or all of L, A, E and ρ, for the resistance R0 of the wire. R0 = [1]
+  (b)(ii) [2] Show that the spring constant k0 of the wire is given by k0 = EA L . [2]
+  (c) intro: The wire is stretched, within the limit of proportionality, by a tensile force F. Assume that any changes in the cross-sectional area of the wire are negligible.
+  (c)(i) [1] On Fig. 3.1, sketch the variation with F of the resistance R of the wire. R R0 0 0 F Fig. 3.1 [1]
+  (c)(ii) [1] On Fig. 3.2, sketch the variation with F of the spring constant k of the wire. k k0 0 0 F Fig. 3.2 [1]
+  (d) intro: Copper has a resistivity of 1.8 × 10–8 Ω m and a Young modulus of 1.3 × 1011 Pa. A copper wire of diameter 1.6 mm has a resistance of 0.034 Ω.
+  (d)(i) [1] Show that the length of the wire is 3.8 m. [1]
+  (d)(ii) [2] Use the equation in (b)(ii) to determine the spring constant of the wire. spring constant = N m–1 [2]
+## w25_23 Q4 [10] STEM: 
+  (a) [2] State what is meant by diffraction of a wave. [2]
+  (b) intro: A beam of vertically polarised light of wavelength 540 nm is incident normally on a diffraction grating, as shown in Fig. 4.1. screen diffraction grating P polarised light beam θ O X Fig. 4.1 (not to scale) The diffracti
+  (b)(i) [2] Show that the angle θ at which the first-order bright fringe is formed is 6.2°. [2]
+  (b)(ii) [1] Determine the value of θ at which the second-order bright fringe is formed. θ = ° [1]
+  (b)(iii) [3] On Fig. 4.2, sketch the variation of the intensity I with θ for values of θ from –15° to +15°. 2I0 I I0 0 –15 –10 –5 0 5 10 15 θ / ° Fig. 4.2 [3]
+  (c) [2] A polarising filter is placed in the path of the light beam that is incident on the diffraction grating in Fig. 4.1. The transmission axis of the filter is at 45° to the vertical. Suggest how the variation of intensity with θ for the light on the screen compares with the answer in (b)(iii). [2]
+## w25_23 Q5 [10] STEM: 
+  (a) [1] State Kirchhoff’s first law. [1]
+  (b) intro: Fig. 5.1 shows a circuit containing a thermistor T that has a negative temperature coefficient. E r R T Fig. 5.1
+  (b)(i) [2] The thermistor has resistance R0 at a temperature of 0 °C. On Fig. 5.2, sketch a possible variation of the resistance of the thermistor with temperature between 0 °C and 100 °C. resistance R0 0 0 100 temperature / °C Fig. 5.2 [2]
+  (b)(ii) [3] With reference to the current in the cell, explain why the current in resistor R decreases with increasing temperature of the thermistor. [3]
+  (c) intro: The electromotive force (e.m.f.) E of the cell in Fig. 5.1 is 1.50 V. The internal resistance r of the cell is 0.12 Ω. Resistor R has a resistance of 6.00 Ω. At a particular temperature of the thermistor, the current in 
+  (c)(i) [2] the current in the cell current = A [2]
+  (c)(ii) [2] the resistance of the thermistor. resistance = Ω [2]
+## w25_23 Q6 [9] STEM: The nuclide 3 1H is an isotope of hydrogen that is called tritium.
+  (a)(i) [2] Determine the numbers of protons, neutrons and electrons in a neutral atom of tritium. number of protons = number of neutrons = number of electrons = [2]
+  (a)(ii) [2] Draw a labelled diagram to represent a simple model of the arrangement of the protons, neutrons and electrons in a tritium atom. [2]
+  (b) intro: Tritium is radioactive and undergoes β– decay to form an isotope of helium (He). Gamma radiation is not emitted during this decay.
+  (b)(i) [2] Complete the equation to represent the radioactive decay of tritium. 3 0 1H 0X  He +  β + [2]
+  (b)(ii) [1] State the name of particle X. [1]
+  (c) [2] Determine the quark composition of a tritium nucleus. [2]
+## w25_24 Q1 [11] STEM: A child kicks a ball so that it leaves horizontal ground with a velocity of 28 m s–1 at an angle of 34° to the horizontal, as shown in Fig. 1.1. 28 m s–1 34° ground Fig. 1.1 Air resistance is negligible. The ball leaves the ground at time t = 0.
+  (a)(i) [2] Calculate the horizontal component vH and the vertical component vV of the velocity of the ball immediately after it has left the ground. m s–1 vH = m s–1 vV = [2]
+  (a)(ii) [1] Show that the ball reaches its maximum height at time t = 1.6 s. [1]
+  (a)(iii) [1] On Fig. 1.2, sketch the variation of vH with time t between t = 0 and t = 3.2 s. Label your line H. 30 velocity / m s–1 20 10 0 0 0.8 1.6 2.4 3.2 t / s –10 –20 –30 Fig. 1.2 [1]
+  (a)(iv) [3] On Fig. 1.2, sketch the variation of vV with time t between t = 0 and t = 3.2 s. Assume that velocity in the upward direction is positive. Label your line V. [3]
+  (b) intro: The total change in momentum of the ball between leaving the ground at t = 0 and landing on the ground at t = 3.2 s is 13 kg m s–1.
+  (b)(i) [1] Define momentum. [1]
+  (b)(ii) [2] Calculate the force that acts on the ball while it is in the air. force = N [2]
+  (b)(iii) [1] Determine the mass of the ball. mass = kg [1]
+## w25_24 Q2 [10] STEM: Fig. 2.1 shows a square metal sheet of non-uniform density, with a thin wooden rod fixed at its centre. One of the corners of the sheet is labelled X. X metal sheet rod Fig. 2.1 The rod has negligible mass. The mass of the metal sheet is 2.8 kg. The rod is sup
+  (a) [2] Define the torque of a couple. [2]
+  (b) [1] When the rod is supported in such a way that it can rotate freely within its support, the sheet hangs in equilibrium with point X vertically above the rod, as shown in Fig. 2.2. X rod metal sheet Fig. 2.2 On Fig. 2.2, draw a line to indicate the range of possible positions for the centre of gravity 
+  (c) intro: When a torque of 3.3 N m is applied to the rod, the sheet is held in equilibrium with two of its edges horizontal, as shown in Fig. 2.3. Point X is at the top-left corner. X metal sheet rod Fig. 2.3
+  (c)(i) [1] Explain whether the torque applied to the rod to hold the sheet in equilibrium is clockwise or anticlockwise. [1]
+  (c)(ii) [1] Show that the centre of gravity of the sheet has a horizontal displacement of 0.12 m from the rod. [1]
+  (d) [3] The square metal sheet has an average density of 3000 kg m–3 and a uniform thickness of 4.0 mm. Show that the side length of the sheet is 0.48 m. [3]
+  (e) [2] Use the answer in (b) and the information in (c) and (d) to determine the position of the centre of gravity of the sheet. Indicate this position on Fig. 2.3 with a point labelled Y. [2]
+## w25_24 Q3 [10] STEM: A bungee jumper of mass 64 kg secures one end of an elastic rope to a bridge. The other end is attached to the bungee jumper. The jumper falls from rest from the bridge and descends into the valley below, as shown in Fig. 3.1. rope h jumper Fig. 3.1 (not to sc
+  (a) [1] The rope obeys Hooke’s law. State Hooke’s law. [1]
+  (b)(i) [1] Determine the unstretched length of the rope. length = m [1]
+  (b)(ii) [2] Determine the spring constant k of the rope. k = N m–1 [2]
+  (c) intro: For the position of the bungee jumper at a distance of 120 m below the bridge:
+  (c)(i) [2] show that the loss of gravitational potential energy since leaving the bridge is 75 kJ [2]
+  (c)(ii) [2] show that the elastic potential energy in the rope is 75 kJ. [2]
+  (d) [2] Explain what can be deduced from the information in (c) about the speed of the bungee jumper when at a distance of 120 m below the bridge. [2]
+## w25_24 Q4 [9] STEM: 
+  (a) [2] State the principle of superposition. [2]
+  (b) intro: An electromagnetic wave of wavelength 0.026 m in free space is incident normally on an aluminium sheet, as shown in Fig. 4.1. transmitter aluminium sheet electromagnetic wave Fig. 4.1 The wave reflects at the aluminium s
+  (b)(i) [3] Explain how the stationary wave, including its nodes and antinodes, is formed. [3]
+  (b)(ii) [2] Calculate the frequency of the electromagnetic wave. frequency = Hz [2]
+  (b)(iii) [1] State the principal region of the electromagnetic spectrum to which the wave belongs. [1]
+  (b)(iv) [1] Determine the distance between a node and an adjacent antinode. distance = m [1]
+## w25_24 Q5 [10] STEM: A student uses a circuit containing an ammeter, a voltmeter and a cell to take measurements to determine the resistance of a length of nichrome wire.
+  (a)(i) [1] Define resistance. [1]
+  (a)(ii) [2] Draw a circuit diagram to show how the components should be connected. Use the symbol for a resistor to represent the nichrome wire. [2]
+  (b) intro: The student also measures the length and the diameter of the wire. Table 5.1 shows the measurements recorded for each quantity. Table 5.1 quantity measurement length (0.864 ± 0.001) m diameter (0.496 ± 0.002) mm voltmete
+  (b)(i) [1] Show that the resistance of the wire is 5.00 Ω. [1]
+  (b)(ii) [3] Calculate, to three significant figures, the resistivity ρ of the nichrome. ρ = Ω m [3]
+  (b)(iii) [2] Calculate the percentage uncertainty in ρ. percentage uncertainty = % [2]
+  (b)(iv) [1] Determine the absolute uncertainty in ρ. absolute uncertainty = Ω m [1]
+## w25_24 Q6 [10] STEM: Fig. 6.1 shows four alpha particles W, X, Y and Z moving towards a gold nucleus that is in thin gold foil. gold nucleus W X Y Z Fig. 6.1 (not to scale)
+  (a)(i) [3] The paths of particles X and Z are shown. Complete Fig. 6.1 to show possible paths for particles W and Y. [3]
+  (a)(ii) [1] Describe what may be inferred about the structure of an atom from the path of particle X. [1]
+  (a)(iii) [1] When a beam containing many alpha particles is incident on thin gold foil, nearly all of the alpha particles follow paths that are similar to the path of particle Z. Describe what may be inferred from this about the structure of an atom. [1]
+  (b) [2] State the mass and the charge, in terms of the atomic mass unit u and the elementary charge e, of an alpha particle. mass = u charge = e [2]
+  (c) intro: There are two types of hadron. The hadrons that are in alpha particles are each composed of three quarks.
+  (c)(i) [1] State the name of this type of hadron. [1]
+  (c)(ii) [2] Show, by reference to their constituent quarks, that the hadrons in an alpha particle have charges of either zero or +1e. [2]

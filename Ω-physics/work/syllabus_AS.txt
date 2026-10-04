@@ -15,7 +15,7 @@
 1.4.1 understand the difference between scalar and vector quantities and give examples of scalar and vector quantities included in the syllabus
 1.4.2 add and subtract coplanar vectors
 1.4.3 represent a vector as two perpendicular components
-1.4.2 Kinematics
+# 2 Kinematics
 ## 2.1 Equations of motion
 2.1.1 define and use distance, displacement, speed, velocity and acceleration
 2.1.2 use graphical methods to represent distance, displacement, speed, velocity and acceleration
@@ -43,7 +43,7 @@
 3.3.2 apply the principle of conservation of momentum to solve simple problems, including elastic and inelastic interactions between objects in both one and two dimensions (knowledge of the concept of coefficient of restitution is not required)
 3.3.3 recall that, for an elastic collision, total kinetic energy is conserved and the relative speed of approach is equal to the relative speed of separation
 3.3.4 understand that, while momentum of a system is always conserved in interactions between objects, some change in kinetic energy may take place
-3.3.4 Forces, density and pressure
+# 4 Forces, density and pressure
 ## 4.1 Turning effects of forces
 4.1.1 understand that the weight of an object may be taken as acting at a single point known as its centre of gravity
 4.1.2 define and apply the moment of a force
@@ -74,7 +74,7 @@
 5.2.2 recall and use the formula ∆EP = mg∆h for gravitational potential energy changes in a uniform gravitational field
 5.2.3 derive, using the equations of motion, the formula for kinetic energy EK = 2 1 mv2
 5.2.4 recall and use EK = 2 1 mv2
-5.2.6 Deformation of solids
+# 6 Deformation of solids
 ## 6.1 Stress and strain
 6.1.1 understand that deformation is caused by tensile or compressive forces (forces and deformations will be assumed to be in one dimension only)
 6.1.2 understand and use the terms load, extension, compression and limit of proportionality
@@ -109,7 +109,7 @@
 ## 7.5 Polarisation
 7.5.1 understand that polarisation is a phenomenon associated with transverse waves
 7.5.2 recall and use Malus’s law (I = I0 cos2θ ) to calculate the intensity of a plane-polarised electromagnetic wave after transmission through a polarising filter or a series of polarising filters (calculation of the effect of a polarising filter on the intensity of an unpolarised wave is not required)
-7.5.8 Superposition
+# 8 Superposition
 ## 8.1 Stationary waves
 8.1.1 explain and use the principle of superposition
 8.1.2 show an understanding of experiments that demonstrate stationary waves using microwaves, stretched strings and air columns (it will be assumed that end corrections are negligible; knowledge of the concept of end corrections is not required)
@@ -126,7 +126,7 @@
 ## 8.4 The diffraction grating
 8.4.1 recall and use d sin θ = nλ
 8.4.2 describe the use of a diffraction grating to determine the wavelength of light (the structure and use of the spectrometer are not included)
-8.4.9 Electricity
+# 9 Electricity
 ## 9.1 Electric current
 9.1.1 understand that an electric current is a flow of charge carriers
 9.1.2 understand that the charge on charge carriers is quantised
@@ -145,7 +145,7 @@
 9.3.6 recall and use R = ρL / A
 9.3.7 understand that the resistance of a light-dependent resistor (LDR) decreases as the light intensity increases
 9.3.8 understand that the resistance of a thermistor decreases as the temperature increases (it will be assumed that thermistors have a negative temperature coefficient)
-9.3.10 D.C. circuits
+# 10 D.C. circuits
 ## 10.1 Practical circuits
 10.1.1 recall and use the circuit symbols shown in section 6 of this syllabus
 10.1.2 draw and interpret circuit diagrams containing the circuit symbols shown in section 6 of this syllabus
@@ -165,7 +165,7 @@
 10.3.2 recall and use the principle of the potentiometer as a means of comparing potential differences
 10.3.3 understand the use of a galvanometer in null methods
 10.3.4 explain the use of thermistors and light-dependent resistors in potential dividers to provide a potential difference that is dependent on temperature and light intensity
-10.3.11 Particle physics
+# 11 Particle physics
 ## 11.1 Atoms, nuclei and radiation
 11.1.1 infer from the results of the α-particle scattering experiment the existence and small size of the nucleus
 11.1.2 describe a simple model for the nuclear atom to include protons, neutrons and orbital electrons
@@ -177,10 +177,7 @@
 11.1.8 understand that an antiparticle has the same mass but opposite charge to the corresponding particle, and that a positron is the antiparticle of an electron
 11.1.9 state that (electron) antineutrinos are produced during β– decay and (electron) neutrinos are produced during β+ decay
 11.1.10 understand that α-particles have discrete energies but that β-particles have a continuous range of energies because (anti)neutrinos are emitted in β-decay
-11.1.11 represent α- and β-decay by a radioactive decay equation of the form U Th
-11.1.92 238
-11.1.90 234
-11.1.4 " + α
+11.1.11 represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α
 11.1.12 use the unified atomic mass unit (u) as a unit of mass
 ## 11.2 Fundamental particles
 11.2.1 understand that a quark is a fundamental particle and that there are six flavours (types) of quark: up, down, strange, charm, top and bottom

@@ -1,10 +1,10 @@
 """Stage 3: paper-level verification for every downloaded paper of a phase.
 Writes work/checks_<phase>.json; prints counts only."""
-import json, os, sys
+import json, os, re, sys
 from collections import Counter
 sys.path.insert(0, os.path.dirname(__file__))
 import parse
-from parse import load, parse_qp, ms_rows, paper_ref, fix_ms_rows
+from parse import load, parse_qp, ms_rows, paper_ref, fix_ms_rows, fix_or_rows
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 SNAME = {"m": "MAR", "s": "M/J", "w": "O/N"}
@@ -24,9 +24,11 @@ def check(pid, ent):
         return res
     qs = parse_qp(qd)
     parse.MS_TYPOS.clear()
+    parse.OR_ROWS.clear()
     rows = ms_rows(md)
     res["ms_label_fixes"] = [[a, b] for a, b in parse.MS_TYPOS] + \
         [[o, n] for _, o, n in fix_ms_rows(rows, qs)]
+    res["or_alternatives"] = [list(x) for x in fix_or_rows(rows, qs)]
     nums = [q["n"] for q in qs]
     # 1. every question once (parser only accepts sequential numbers; check vs MS)
     if not nums:
@@ -66,13 +68,29 @@ def main():
     phase = sys.argv[1]
     man = json.load(open(os.path.join(ROOT, "Ω-physics", "work", "manifest_physics.json")))
     out = {}
-    for pid, ent in sorted(man.items()):
+    seen = {}      # normalised question-paper text -> pid (identical papers issued under two codes)
+    for pid, ent in sorted(man.items(), key=lambda kv: (kv[1]["year"], kv[1]["series"], kv[1]["variant"])):
         if ent["phase"] != phase or ent["status"] != "ok":
             continue
         try:
             out[pid] = check(pid, ent)
         except Exception as e:  # unreadable -> exclude, report
             out[pid] = {"pid": pid, "ref": None, "paper_excluded": f"parse error: {e!r}", "questions": {}}
+            continue
+        if not out[pid]["paper_excluded"]:
+            qd = load(os.path.join(ROOT, "data", ent["qp"]["file"]))
+            txt = re.sub(r"[^a-z0-9]+", "", " ".join(w[4] for p in range(1, qd.page_count)
+                                                  if not parse.special_page(qd[p])
+                                                  for ws in parse.page_lines(qd[p]) for w in ws).lower())
+            txt = re.sub(r"9702\d\d(?:on|mj|fm)\d\d|ucles20\d\d|cambridgeuniversitypressassessment20\d\d", "", txt)
+            key = txt[:20000]
+            if key in seen:
+                o = out[seen[key]]
+                out[pid]["paper_excluded"] = (f"question paper identical to {o['ref']} (same text for every question; "
+                                              f"official files carry different codes) - duplicate not repeated")
+                out[pid]["duplicate_of"] = seen[key]
+            else:
+                seen[key] = pid
     os.makedirs(os.path.join(ROOT, "Ω-physics", "work"), exist_ok=True)
     json.dump(out, open(os.path.join(ROOT, "Ω-physics", "work", f"checks_{phase}.json"), "w"), indent=1)
     exc = [p for p, r in out.items() if r["paper_excluded"]]

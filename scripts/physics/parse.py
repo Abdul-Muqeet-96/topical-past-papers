@@ -17,6 +17,7 @@ RE_MARK = re.compile(r"(?:^|[.…_ ])\[(\d+)\]$")
 RE_TOTAL = re.compile(r"\[Total:\s*(\d+)\]")
 RE_MS_TYPO = re.compile(r"^(\d{1,2})\(?([a-h])\)?(?:\(?(i|ii|iii|iv|v|vi|vii|viii|ix|x)\)?)?$")
 MS_TYPOS = []   # (original token, normalised label) seen while reading mark schemes
+OR_ROWS = []    # (label, all marks, first-method marks) where an 'OR' alternative was not counted
 
 
 def fix_label(tok):
@@ -396,11 +397,15 @@ def ms_rows(doc):
                     continue
                 seg = pymupdf.Rect(tx0, top - 0.5, table_x1 + 1, end + 0.5)
                 m = RE_MS_LABEL.match(lab)
+                info = {}
                 row = {"label": lab, "q": int(m.group(1)), "part": m.group(2) + m.group(3),
-                       "segs": [(pno, seg)], "marks": _marks_in(words, seg, mx0, mx1, bo, None if bo else mk[2] - 1),
+                       "segs": [(pno, seg)], "marks": _marks_in(words, seg, mx0, mx1, bo, None if bo else mk[2] - 1,
+                                                                info),
                        "na": any(w2[4] == "N/A" for w2 in words if w2[0] >= mx0 and w2[2] <= mx1
                                  and seg.y0 - 1 <= w2[1] <= seg.y1),
                        "guidance": gd, "total_col": bo}
+                if info.get("first_method"):
+                    row["marks_first_method"] = info["first_method"]
                 rows.append(row)
                 open_row = row
     # older layouts print the question total after the last part's marks:
@@ -439,7 +444,7 @@ def ms_rows(doc):
     return rows
 
 
-def _marks_in(words, rect, mx0, mx1, bracket_only=False, pt_x=None):
+def _marks_in(words, rect, mx0, mx1, bracket_only=False, pt_x=None, info=None):
     """Mark values in the marks column of a row: one value per text line
     (older PDFs carry hidden duplicates). With bracket_only (old 'Total'
     column layout) bare numbers are question totals and are ignored.
@@ -462,6 +467,27 @@ def _marks_in(words, rect, mx0, mx1, bracket_only=False, pt_x=None):
         if tot:
             return [int(w[4]) for w in tot]
     out, lines = [], set()
+    # Physics mark schemes give marks as codes B1 / C1 / M1 / A1 (B2, B3 = 2, 3 marks) in the
+    # Marks column; codes in brackets, e.g. '(C1)', belong to an alternative method and are
+    # not counted (they repeat the marks of the main method).
+    codes = [w for w in inrow if mx0 - 1 <= w[0] <= mx1 and re.fullmatch(r"[BCMA][1-9]", w[4])]
+    # an 'OR' line on its own starts an alternative method whose codes are not brackets:
+    # only the marks of the first method count
+    ors = [w for w in inrow if w[4] == "OR" and w[2] < mx0 and
+           not any(v is not w and abs(v[1] - w[1]) < 2 and v[2] < mx0 for v in inrow)]
+    if codes and ors and info is not None:
+        y_or = min(w[1] for w in ors)
+        first = [w for w in codes if w[1] < y_or - 1]
+        if first:
+            info["first_method"] = [int(w[4][1]) for w in first]
+    if codes:
+        for w in codes:
+            if round(w[1]) not in lines:
+                lines.add(round(w[1]))
+                out.append(int(w[4][1]))
+        return out
+    if any(mx0 - 1 <= w[0] <= mx1 and re.fullmatch(r"\([BCMA][1-9]\)", w[4]) for w in inrow):
+        return out
     for w in inrow:
         if w[0] >= mx0 - 1 and w[0] <= mx1:
             if not bracket_only and re.fullmatch(r"\d(?:\+\d)+", w[4]) and round(w[1]) not in lines:
@@ -532,4 +558,26 @@ def fix_ms_rows(rows, qs):
             r["label"] = f"{q['n']}{missing[0]}"
             r["relabelled_from"] = old
             fixed.append((q["n"], old, r["label"]))
+    return fixed
+
+
+def fix_or_rows(rows, qs):
+    """A row whose answer holds an 'OR' line followed by a second method with its own (unbracketed)
+    codes: when the marks of all codes differ from the QP marks of that part but the marks of the
+    first method equal them, the second method is an alternative and is not counted (logged)."""
+    fixed = []
+    for q in qs:
+        qp = {}
+        for m in q["marks"]:
+            qp[m["label"]] = qp.get(m["label"], 0) + m["value"]
+        for r in rows:
+            if r["q"] != q["n"] or not r.get("marks_first_method"):
+                continue
+            want = qp.get(r["part"])
+            if want is not None and sum(r["marks"]) != want and sum(r["marks_first_method"]) == want:
+                OR_ROWS.append((r["label"], sum(r["marks"]), want))
+                fixed.append((r["label"], sum(r["marks"]), want))
+                r["marks_all_methods"] = r["marks"]
+                r["marks"] = r["marks_first_method"]
+                r["mark_total"] = sum(r["marks"])
     return fixed

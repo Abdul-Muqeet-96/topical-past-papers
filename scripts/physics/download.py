@@ -73,7 +73,7 @@ def verify(path, s, yy, v, kind):
 
 def main():
     phase = sys.argv[1]
-    sel_papers = papers(phase) if phase == "partb" else parse_pids(sys.argv[2:])
+    sel_papers = parse_pids(sys.argv[2:]) if len(sys.argv) > 2 else papers(phase)
     kinds_for = ("qp",) if phase == "check" else ("qp", "ms")
     mpath = os.path.join(ROOT, "Ω-physics", "work", "manifest_physics.json")
     man = json.load(open(mpath)) if os.path.exists(mpath) else {}

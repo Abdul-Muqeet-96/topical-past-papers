@@ -975,5 +975,68 @@
    "notes": []
   },
   "status": "ok"
+ },
+ "w23_21": {
+  "phase": "partb",
+  "series": "w",
+  "year": 2023,
+  "variant": 21,
+  "qp": {
+   "file": "9702_w23_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_w23_ms_21.pdf",
+   "pages": 14,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w23_22": {
+  "phase": "partb",
+  "series": "w",
+  "year": 2023,
+  "variant": 22,
+  "qp": {
+   "file": "9702_w23_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_w23_ms_22.pdf",
+   "pages": 12,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
+ },
+ "w23_23": {
+  "phase": "partb",
+  "series": "w",
+  "year": 2023,
+  "variant": 23,
+  "qp": {
+   "file": "9702_w23_qp_23.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "ms": {
+   "file": "9702_w23_ms_23.pdf",
+   "pages": 12,
+   "status": "ok",
+   "issues": [],
+   "notes": []
+  },
+  "status": "ok"
  }
 }

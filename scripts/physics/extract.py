@@ -8,12 +8,13 @@ Regions are lists of [page, y0, y1] on the de-rotated question paper.
 import json, os, re, sys
 from collections import defaultdict
 sys.path.insert(0, os.path.dirname(__file__))
-from parse import load, parse_qp, ms_rows, fix_ms_rows, page_lines, special_page, data_cut, ROMANS
+from parse import load, parse_qp, ms_rows, fix_ms_rows, fix_or_rows, page_lines, special_page, data_cut, ROMANS
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 TOP = 52
 RE_DOTS = re.compile(r"^[.…·_ ]{6,}$")
-RE_CAP = re.compile(r"^(Table|Fig\.|Figure)\s*(\d+\.\d+)(?:\s*\[\d+\])?$")
+RE_CAP = re.compile(r"^(Table|Fig\.|Figure)\s*(\d+\.\d+)(?:\s*\(?not (?:drawn )?to scale\)?)?(?:\s*\[\d+\])?$")
+RE_CAP_ANY = re.compile(r"(Table|Fig\.|Figure)\s*(\d+\.\d+)(?:\s*\(?not (?:drawn )?to scale\)?)?")
 RE_TREF = re.compile(r"(Table|Fig\.|Figure)\s*(\d+\.\d+)")
 RE_PREF = re.compile(r"\(([a-h])\)(?:\s*\((i|ii|iii|iv|v|vi|vii|viii|ix|x)\))?|(?<![a-z)])\((i|ii|iii|iv|v|vi|vii|viii|ix|x)\)")
 RE_NREF = re.compile(r"\b(reaction|equation|step|stage|process|experiment|route|sample|test)\s+(\d+)\b", re.I)
@@ -77,6 +78,12 @@ def captions(doc, region):
         m = RE_CAP.match(t.strip())
         if m:
             caps[f"{_norm(m.group(1))} {m.group(2)}"] = (p, min(w[1] for w in ws), max(w[3] for w in ws))
+            continue
+        # side-by-side figures: several captions on one line ("Fig. 4.1 (not to scale) Fig. 4.2 (not to scale)")
+        many = list(RE_CAP_ANY.finditer(t))
+        if len(many) > 1 and not RE_CAP_ANY.sub("", t).strip():
+            for m in many:
+                caps[f"{_norm(m.group(1))} {m.group(2)}"] = (p, min(w[1] for w in ws), max(w[3] for w in ws))
     return caps
 
 
@@ -376,6 +383,7 @@ def main():
         qs = parse_qp(qd)
         rows = ms_rows(md)
         fix_ms_rows(rows, qs)
+        fix_or_rows(rows, qs)
         paper = {"pid": pid, "ref": chk["ref"], "year": ent["year"], "series": ent["series"],
                  "variant": ent["variant"], "qp": ent["qp"]["file"], "ms": ent["ms"]["file"],
                  "questions": []}

@@ -53,6 +53,19 @@ SECTIONS = {
     "11.1": "Atoms, nuclei and radiation",
     "11.2": "Fundamental particles",
 }
+LOS = {}
+for _l in open(os.path.join(ROOT, "Ω-physics", "work", "syllabus_AS.txt")):
+    _m = re.match(r"^(\d+\.\d+\.\d+) (.*)", _l.strip())
+    if _m:
+        LOS[_m.group(1)] = _m.group(2)
+
+
+def justification(code):
+    """'3.1.4 Momentum and Newton's laws of motion: define and use force as rate of change of momentum'"""
+    sec = ".".join(code.split(".")[:2])
+    return f"{code} {SECTIONS.get(sec, '')}: {LOS.get(code, 'no clear syllabus match')}"
+
+
 SERIES_ORDER = {"w": 3, "s": 2, "m": 1}
 MAX_CTX_H = 700
 
@@ -96,6 +109,26 @@ class Ctx:
         return Flow.bands_height(bands(doc, region), 1.0) if region else 0
 
 
+def ctx_height(cx, qd, Q, ctx_parts, ctx_blocks, extra=()):
+    """Height of the context as it is laid out: the union of the context regions (a figure
+    inside a context part is not counted twice), cropped like the book."""
+    regs = []
+    for c in ctx_parts:
+        regs += unit_region(Q, c) or []
+    for b in ctx_blocks:
+        regs += Q["blocks"][b] or []
+    for e in extra:
+        regs += e or []
+    regs = sorted([list(r) for r in regs], key=lambda r: (r[0], r[1]))
+    out = []
+    for p, y0, y1 in regs:
+        if out and out[-1][0] == p and y0 <= out[-1][2] + 0.5:
+            out[-1][2] = max(out[-1][2], y1)
+        else:
+            out.append([p, y0, y1])
+    return cx.height(qd, out)
+
+
 def leaf_info(Q, L, T, pid):
     out = []
     if L["romans"]:
@@ -133,7 +166,7 @@ def assemble(phase):
                 for lab, code, mk in lv:
                     topics.append({"ref": ref_units(p['ref'], Q['n'], [lab]), "paper": pid, "q": Q["n"], "part": lab,
                                    "topic": topic_of(code), "section": code,
-                                   "justification": f"{code} {SECTIONS.get(code, 'no clear syllabus match')}",
+                                   "justification": justification(code),
                                    "marks": mk})
                 xs = [l for l, c, _ in lv if c == "X"]
                 if xs and (len(xs) == len(lv) or not L["romans"]):
@@ -174,9 +207,7 @@ def assemble(phase):
                     if ms is None or qp != ms:
                         ok, why = False, f"marks for {g[0]} not attributable ({qp} vs {ms})"
                         break
-                    h = sum(cx.height(qd, unit_region(Q, c)) for c in r["ctx_parts"]) + \
-                        sum(cx.height(qd, Q["blocks"][b]) for b in r["ctx_blocks"]) + cx.height(qd, Q["stem"]) + \
-                        cx.height(qd, L["intro"])
+                    h = ctx_height(cx, qd, Q, r["ctx_parts"], r["ctx_blocks"], extra=[Q["stem"], L["intro"]])
                     if h > MAX_CTX_H:
                         ok, why = False, f"context for {g[0]} exceeds one page"
                         break
@@ -214,8 +245,7 @@ def assemble(phase):
                     us = [x for g in grp for x in g[0]]
                     r = resolve(Q, us)
                     qp, ms = marks(Q, us)
-                    h = (sum(cx.height(qd, unit_region(Q, c)) for c in r["ctx_parts"]) +
-                         sum(cx.height(qd, Q["blocks"][b]) for b in r["ctx_blocks"])) if r["ok"] else 0
+                    h = ctx_height(cx, qd, Q, r["ctx_parts"], r["ctx_blocks"]) if r["ok"] else 0
                     if r["ok"] and ms is not None and qp == ms and h <= MAX_CTX_H:
                         by = {}
                         for g in grp:
@@ -253,8 +283,7 @@ def assemble(phase):
                     log["excluded"].append({"ref": ref, "issue": f"item [marks] {qp} != MS marks {ms}",
                                             "action": "excluded"})
                     continue
-                h = sum(cx.height(qd, unit_region(Q, c)) for c in r["ctx_parts"]) + \
-                    sum(cx.height(qd, Q["blocks"][b]) for b in r["ctx_blocks"])
+                h = ctx_height(cx, qd, Q, r["ctx_parts"], r["ctx_blocks"])
                 if h > MAX_CTX_H:
                     log["excluded"].append({"ref": ref, "issue": f"context exceeds one page ({h:.0f} pt)",
                                             "action": "excluded"})

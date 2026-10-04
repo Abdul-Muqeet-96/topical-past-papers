@@ -1,5 +1,6 @@
-"""Parse work/tags_<phase>.txt ("pid Qn: a.i=3.5 b=?") into a dict and check
-coverage against work/parts_<phase>.json. Usage: tags.py phase [--unknown]"""
+"""Parse Ω-physics/work/tags.txt ("pid Qn: a.i=3.1.4 b=6.1.5": 2025-27 AS learning outcome
+topic.section.outcome per lowest-level part) into a dict and check coverage against
+work/parts_<phase>.json. Usage: tags.py phase [--unknown]"""
 import json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -17,7 +18,7 @@ def key2lab(k):
 
 def load(phase):
     tags = {}
-    for line in open(os.path.join(ROOT, "Ω-physics", "work", f"tags_{phase}.txt")):
+    for line in open(os.path.join(ROOT, "Ω-physics", "work", "tags.txt")):
         line = line.strip()
         if not line:
             continue
