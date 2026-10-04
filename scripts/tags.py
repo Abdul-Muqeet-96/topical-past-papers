@@ -17,7 +17,7 @@ def key2lab(k):
 
 def load(phase):
     tags = {}
-    for line in open(os.path.join(ROOT, "work", f"tags_{phase}.txt")):
+    for line in open(os.path.join(ROOT, "Δ-chemistry", "work", f"tags_{phase}.txt")):
         line = line.strip()
         if not line:
             continue
@@ -39,7 +39,7 @@ def leaves(P):
 
 if __name__ == "__main__":
     phase = sys.argv[1]
-    P = json.load(open(os.path.join(ROOT, "work", f"parts_{phase}.json")))
+    P = json.load(open(os.path.join(ROOT, "Δ-chemistry", "work", f"parts_{phase}.json")))
     T = load(phase)
     lv = {(pid, Q["n"], lab) for pid, Q, L, lab in leaves(P)}
     missing = sorted(lv - set(T))

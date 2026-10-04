@@ -30,7 +30,7 @@ and Claude Code teaching the student, so every item must have readable text
   tried, what state_physics.json says is done) and end.
 - Never retype or reconstruct question content. OCR text is only an invisible
   text layer over the original scan, never a replacement for it.
-- Commit and push after every stage; progress in `state_physics.json` so a new
+- Commit and push after every stage; progress in `Ω-physics/state_physics.json` so a new
   session can resume.
 
 ## Quality first (cost is not a constraint)
@@ -46,7 +46,7 @@ and Claude Code teaching the student, so every item must have readable text
 
 ## Part A: the booklet
 1. OCR every page (tesseract 300 dpi, `--oem 1 --psm 3 -l eng`, 4 jobs in
-   parallel). Save word boxes (TSV) in `work/physics/ocr/`. Write
+   parallel). Save word boxes (TSV) in `Ω-physics/work/ocr/`. Write
    `Ω-physics/booklet-ocr.pdf`: the original page images with the words added as
    invisible text (PyMuPDF `insert_text`, render_mode 3, sized to each word box).
    All Part A crops come from this file, so they carry the text layer.
@@ -86,7 +86,7 @@ Checked to exist (qp and ms): m24 v22; s24 v21-23; w24 v21-23; m25 v22;
 s25 v21-24; w25 v21-24; m26 v22; s26 v22-24. s26 v21 has a QP but no MS:
 exclude and report. Re-verify by download; page-1 header must show
 9702/<variant>, "Paper 2 AS Level Structured Questions" and the series.
-Downloads go to `data/` (gitignored); manifest `data/manifest_physics.json`.
+Downloads go to `data/` (gitignored); manifest `Ω-physics/work/manifest_physics.json`.
 
 Follow `Δ-chemistry/CLAUDE-chemistry.md` for Part B except where this file
 differs. Already-fixed behaviour of the copied scripts (keep it):

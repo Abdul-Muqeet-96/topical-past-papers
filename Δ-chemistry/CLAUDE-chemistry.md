@@ -1,5 +1,9 @@
 # Cambridge 9701 Chemistry Paper 2 — part-level topical workbook
 
+(Finished. Files now live in `Δ-chemistry/`: report.md, SUMMARY.md, topics.json,
+layout.md, state-chemistry.json, work/ (intermediates and manifest.json), and
+p2-topical-workbook/ (the book). Paths below refer to those.)
+
 Goal: one PDF workbook of 9701 Paper 2 (AS Level Structured Questions, 60
 marks). Each question PART is a separate item filed under its own syllabus
 topic, with enough official context to be solvable alone, and an Answers

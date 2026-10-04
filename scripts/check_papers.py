@@ -64,7 +64,7 @@ def check(pid, ent):
 
 def main():
     phase = sys.argv[1]
-    man = json.load(open(os.path.join(ROOT, "data", "manifest.json")))
+    man = json.load(open(os.path.join(ROOT, "Δ-chemistry", "work", "manifest.json")))
     out = {}
     for pid, ent in sorted(man.items()):
         if ent["phase"] != phase or ent["status"] != "ok":
@@ -73,8 +73,8 @@ def main():
             out[pid] = check(pid, ent)
         except Exception as e:  # unreadable -> exclude, report
             out[pid] = {"pid": pid, "ref": None, "paper_excluded": f"parse error: {e!r}", "questions": {}}
-    os.makedirs(os.path.join(ROOT, "work"), exist_ok=True)
-    json.dump(out, open(os.path.join(ROOT, "work", f"checks_{phase}.json"), "w"), indent=1)
+    os.makedirs(os.path.join(ROOT, "Δ-chemistry", "work"), exist_ok=True)
+    json.dump(out, open(os.path.join(ROOT, "Δ-chemistry", "work", f"checks_{phase}.json"), "w"), indent=1)
     exc = [p for p, r in out.items() if r["paper_excluded"]]
     badq = [(p, n) for p, r in out.items() if not r["paper_excluded"]
             for n, q in r["questions"].items() if not q["ok"]]

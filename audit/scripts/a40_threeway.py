@@ -6,7 +6,7 @@ from collections import Counter
 bi=json.load(open('audit/out/book_items.json'))
 Q=[i for i in bi if i['side']=='Q']; A=[i for i in bi if i['side']=='A']
 idx=list(csv.DictReader(open('Δ-chemistry/p2-topical-workbook/index.csv')))
-js=json.load(open('work/items_phase1.json'))+json.load(open('work/items_phase2.json'))
+js=json.load(open('Δ-chemistry/work/items_phase1.json'))+json.load(open('Δ-chemistry/work/items_phase2.json'))
 F=[]
 def fail(kind,ref,page,detail): F.append({'kind':kind,'ref':ref,'page':page,'detail':detail})
 # A: book Q vs index.csv

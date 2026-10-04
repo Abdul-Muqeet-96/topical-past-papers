@@ -263,8 +263,8 @@ def build(outdir, phases):
     docs = Docs()
     items, parts = [], {}
     for ph in phases:
-        items += json.load(open(os.path.join(ROOT, "work", f"items_{ph}.json")))
-        parts.update(json.load(open(os.path.join(ROOT, "work", f"parts_{ph}.json"))))
+        items += json.load(open(os.path.join(ROOT, "Δ-chemistry", "work", f"items_{ph}.json")))
+        parts.update(json.load(open(os.path.join(ROOT, "Δ-chemistry", "work", f"parts_{ph}.json"))))
     by_unit = defaultdict(list)
     for it in items:
         by_unit[it["topic"]].append(it)
@@ -399,7 +399,7 @@ def build(outdir, phases):
                                  "text": text_of(docs(P["qp"]), item_regions(it, Q))},
                                 ensure_ascii=False) + "\n")
     json.dump({"pages": out.page_count, "ref_pages": ref_pages, "unit_ranges": unit_ranges,
-               "contents": rows}, open(os.path.join(ROOT, "work", "build_info.json"), "w"), indent=0)
+               "contents": rows}, open(os.path.join(ROOT, "Δ-chemistry", "work", "build_info.json"), "w"), indent=0)
     print(f"book pages {out.page_count}, items {len(items)}, size {os.path.getsize(book)/1e6:.1f} MB")
 
 

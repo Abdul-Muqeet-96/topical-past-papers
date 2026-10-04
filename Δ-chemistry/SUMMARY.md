@@ -70,9 +70,9 @@ Papers excluded: s20 v23 (MS header says "Paper 3"; decision D5).
 | Δ-chemistry/p2-topical-workbook/units/Unit-22-Analytical-techniques.pdf | 8.2 MB |
 | Δ-chemistry/p2-topical-workbook/index.csv | 42 KB |
 | Δ-chemistry/p2-topical-workbook/items.jsonl | 0.8 MB |
-| topics.json | 0.8 MB |
-| report.md | 18 KB |
-| layout.md | 3 KB |
+| Δ-chemistry/topics.json | 0.8 MB |
+| Δ-chemistry/report.md | 18 KB |
+| Δ-chemistry/layout.md | 3 KB |
 
 No file exceeds 95 MB, so everything is pushed. Per-unit PDFs keep the full book's page numbers (so they match index.csv).
 

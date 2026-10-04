@@ -18,14 +18,14 @@ either: scripts do the heavy lifting, and you print only counts and short
 summaries.
 
 ## Setup
-1. `git fetch origin claude/audit-fixes` and check it out. Then create the
+1. `git fetch origin main` and check it out. Then create the
    branch `claude/cs-9618-booklets` from it.
    - Work and push only there: `git push -u origin claude/cs-9618-booklets`.
      On network errors, retry 4 times with waits of 2, 4, 8 and 16 s.
    - Do not open a pull request.
    - Do not touch `main`, or the Chemistry or Physics files.
 2. Install what is missing: `pip install pymupdf numpy`, and qpdf.
-3. Create `state_cs.json` and update it after every stage.
+3. Create `λ-cs/state_cs.json` and update it after every stage.
 
 ## Stages (commit and push after each)
 0. **Tooling.** Copy `scripts/` to `scripts/cs/` and adapt it:
@@ -35,17 +35,17 @@ summaries.
    - two books, with filing by topic across them;
    - remove the chemistry-only rules (Periodic Table, data block, Data
      Booklet).
-   Then read `layout.md` and the Chemistry book's code. The CS layout is the
+   Then read `Δ-chemistry/layout.md` and the Chemistry book's code. The CS layout is the
    same, with CS names.
 1. **Downloads.** Download Phase 1 (9618) QPs, MSs and inserts; verify the
-   headers; write `data/manifest_cs.json`. Print a count table, including
+   headers; write `λ-cs/work/manifest_cs.json`. Print a count table, including
    unavailable papers.
 2. **Paper checks** (the spec's paper-level verification). Log every failure
    in `λ-cs/report.md`.
 3. **Parts and tags.** Split into parts and resolve context, including the
    identifier rule and the inserts. Tag every lowest-level part with a unit,
    section and learning outcome, by reading the extracted text, in compact
-   files under `work/cs/`. Check every unit's tags against the syllabus wording.
+   files under `λ-cs/work/`. Check every unit's tags against the syllabus wording.
 4. **Phase 1 books.** Build both books, the unit PDFs, the index files,
    report.md and SUMMARY.md. Render sample pages (cover, contents, a P1 page,
    a P2 page with pseudocode, an answers page) and fix what is wrong. Commit

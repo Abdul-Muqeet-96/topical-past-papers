@@ -15,13 +15,13 @@ BOOK = os.path.join(ROOT, "Δ-chemistry", "p2-topical-workbook", "Chemistry-9701
 def main(phases):
     res = {"coverage_unexplained": [], "coverage_dupes": [], "selfcontained_fail": [], "ctx_mismatch": [],
            "marks_fail": [], "ref_not_on_page": [], "answers_missing": []}
-    info = json.load(open(os.path.join(ROOT, "work", "build_info.json")))
+    info = json.load(open(os.path.join(ROOT, "Δ-chemistry", "work", "build_info.json")))
     book = pymupdf.open(BOOK)
     n_items = 0
     for ph in phases:
-        P = json.load(open(os.path.join(ROOT, "work", f"parts_{ph}.json")))
-        I = json.load(open(os.path.join(ROOT, "work", f"items_{ph}.json")))
-        L = json.load(open(os.path.join(ROOT, "work", f"log_{ph}.json")))
+        P = json.load(open(os.path.join(ROOT, "Δ-chemistry", "work", f"parts_{ph}.json")))
+        I = json.load(open(os.path.join(ROOT, "Δ-chemistry", "work", f"items_{ph}.json")))
+        L = json.load(open(os.path.join(ROOT, "Δ-chemistry", "work", f"log_{ph}.json")))
         excluded = {e["ref"] for e in L["excluded"] + L["out_of_syllabus"]}
         seen = defaultdict(list)
         for it in I:
@@ -69,7 +69,7 @@ def main(phases):
     for ref in info["ref_pages"]:
         if text_count[ref] < 3:      # question, answer, index
             res["answers_missing"].append(ref)
-    json.dump(res, open(os.path.join(ROOT, "work", "final_checks.json"), "w"), indent=1)
+    json.dump(res, open(os.path.join(ROOT, "Δ-chemistry", "work", "final_checks.json"), "w"), indent=1)
     print("items checked", n_items, {k: len(v) for k, v in res.items()})
 
 
