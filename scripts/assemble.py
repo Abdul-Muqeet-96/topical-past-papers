@@ -60,13 +60,24 @@ def topic_of(code):
 
 
 def ref_units(paper_ref, q, units):
-    labs = [u.replace("#intro", "") for u in units]
-    if len(labs) == 1:
-        return f"{paper_ref}/Q{q}{labs[0]}"
-    a, b = labs[0], labs[-1]
-    if letter_of(a) == letter_of(b) and re.match(r"\([a-z]\)\(", a) and re.match(r"\([a-z]\)\(", b):
-        return f"{paper_ref}/Q{q}{a}-{b[3:]}"
-    return f"{paper_ref}/Q{q}{a}-{b}"
+    """Reference in the Physics-booklet style (audit A-027, decision D1):
+    Q5/b, Q5/b(ii), Q3/b(ii,iii), Q3/a,b,c, Q6/a,b(i,ii,iii)."""
+    groups = []          # [letter, [romans]] in paper order
+    for u in units:
+        lab = u.replace("#intro", "")
+        m = re.match(r"\(([a-z])\)(?:\(([ivx]+)\))?$", lab)
+        if not m:
+            m2 = re.match(r"\(([ivx]+)\)$", lab)
+            letter, roman = (None, m2.group(1)) if m2 else (None, None)
+        else:
+            letter, roman = m.group(1), m.group(2)
+        if groups and groups[-1][0] == letter and roman:
+            groups[-1][1].append(roman)
+        else:
+            groups.append([letter, [roman] if roman else []])
+    parts = [(g[0] or "") + (f"({','.join(g[1])})" if g[1] else "") for g in groups]
+    parts = [p for p in parts if p]
+    return f"{paper_ref}/Q{q}" + ("/" + ",".join(parts) if parts else "")
 
 
 class Ctx:
@@ -118,13 +129,13 @@ def assemble(phase):
             for L in Q["letters"]:
                 lv = leaf_info(Q, L, T, pid)
                 for lab, code, mk in lv:
-                    topics.append({"ref": f"{p['ref']}/Q{Q['n']}{lab}", "paper": pid, "q": Q["n"], "part": lab,
+                    topics.append({"ref": ref_units(p['ref'], Q['n'], [lab]), "paper": pid, "q": Q["n"], "part": lab,
                                    "topic": topic_of(code), "section": code,
                                    "justification": f"{code} {SECTIONS.get(code, 'no clear syllabus match')}",
                                    "marks": mk})
                 xs = [l for l, c, _ in lv if c == "X"]
                 if xs and (len(xs) == len(lv) or not L["romans"]):
-                    log["out_of_syllabus"].append({"ref": f"{p['ref']}/Q{Q['n']}{L['label']}",
+                    log["out_of_syllabus"].append({"ref": ref_units(p['ref'], Q['n'], [L['label']]),
                                                    "issue": "no clear match in current learning outcomes",
                                                    "action": "excluded"})
                     continue
@@ -175,10 +186,10 @@ def assemble(phase):
                                                            "action": "excluded (rest of the lettered part kept)"})
                             continue
                         units.append((g[0], g[1], {g[1]: g[2]}, ["split"]))
-                    log["split"].append({"ref": f"{p['ref']}/Q{Q['n']}{L['label']}",
+                    log["split"].append({"ref": ref_units(p['ref'], Q['n'], [L['label']]),
                                          "groups": [[ref_units(p['ref'], Q['n'], g[0]), g[1]] for g in groups]})
                 elif xs:
-                    log["out_of_syllabus"].append({"ref": f"{p['ref']}/Q{Q['n']}{L['label']}",
+                    log["out_of_syllabus"].append({"ref": ref_units(p['ref'], Q['n'], [L['label']]),
                                                    "issue": f"contains out-of-syllabus sub-part(s) {xs} that cannot "
                                                             f"be separated ({why})", "action": "excluded"})
                     continue
@@ -187,26 +198,46 @@ def assemble(phase):
                     flags = ["tie"] if tie else []
                     units.append(([L["label"]], t, by, flags))
                     if tie:
-                        log["auto"].append({"ref": f"{p['ref']}/Q{Q['n']}{L['label']}",
+                        log["auto"].append({"ref": ref_units(p['ref'], Q['n'], [L['label']]),
                                             "issue": f"topic marks tie {by}",
                                             "action": f"filed under topic {t} (topic of first sub-part)"})
-                    log["kept_whole"].append({"ref": f"{p['ref']}/Q{Q['n']}{L['label']}", "why": why, "by": by})
-            # merge dependent adjacent units in the same topic
+                    log["kept_whole"].append({"ref": ref_units(p['ref'], Q['n'], [L['label']]), "why": why, "by": by})
+            # one item per question per unit (audit A-029, decision D3): all parts of a
+            # question filed in the same unit form one item with one stem; if that item
+            # fails a check, fall back to merging only dependent adjacent parts
             merged = []
-            for u in units:
-                if merged and merged[-1][1] == u[1]:
-                    r = resolve(Q, u[0])
-                    prev = merged[-1][0]
-                    dep = r["ok"] and any(c.replace("#intro", "") in prev or
-                                          any(c.replace("#intro", "").startswith(pv) for pv in prev)
-                                          for c in r["ctx_parts"])
-                    if dep:
-                        by = dict(merged[-1][2])
-                        for k, v in u[2].items():
-                            by[k] = by.get(k, 0) + v
-                        merged[-1] = (prev + u[0], u[1], by, merged[-1][3] + u[3] + ["merged"])
+            for t in dict.fromkeys(u[1] for u in units):
+                grp = [u for u in units if u[1] == t]
+                if len(grp) > 1:
+                    us = [x for g in grp for x in g[0]]
+                    r = resolve(Q, us)
+                    qp, ms = marks(Q, us)
+                    h = (sum(cx.height(qd, unit_region(Q, c)) for c in r["ctx_parts"]) +
+                         sum(cx.height(qd, Q["blocks"][b]) for b in r["ctx_blocks"])) if r["ok"] else 0
+                    if r["ok"] and ms is not None and qp == ms and h <= MAX_CTX_H:
+                        by = {}
+                        for g in grp:
+                            for k, v in g[2].items():
+                                by[k] = by.get(k, 0) + v
+                        merged.append((us, t, by, [f for g in grp for f in g[3]] + ["merged"]))
                         continue
-                merged.append(u)
+                    log["auto"].append({"ref": ref_units(p["ref"], Q["n"], us), "issue": "same-unit parts could "
+                                        "not be merged into one item", "action": "kept as separate items"})
+                for u in grp:
+                    if merged and merged[-1][1] == u[1]:
+                        r = resolve(Q, u[0])
+                        prev = merged[-1][0]
+                        dep = r["ok"] and any(c.replace("#intro", "") in prev or
+                                              any(c.replace("#intro", "").startswith(pv) for pv in prev)
+                                              for c in r["ctx_parts"])
+                        if dep:
+                            by = dict(merged[-1][2])
+                            for k, v in u[2].items():
+                                by[k] = by.get(k, 0) + v
+                            merged[-1] = (prev + u[0], u[1], by, merged[-1][3] + u[3] + ["merged"])
+                            continue
+                    merged.append(u)
+            merged.sort(key=lambda m: _order_key(Q, m[0][0]))
             for us, t, by, flags in merged:
                 ref = ref_units(p["ref"], Q["n"], us)
                 if t is None:
@@ -234,6 +265,7 @@ def assemble(phase):
                               "topic": t, "marks": qp, "by_topic": {str(k): v for k, v in by.items()},
                               "also": {str(k): v for k, v in also.items()}, "intros": r["intros"],
                               "ctx_parts": r["ctx_parts"], "ctx_blocks": r["ctx_blocks"], "flags": flags,
+                              "deps": r["deps"], "data_booklet": r["data_booklet"],
                               "sort": [p["year"], SERIES_ORDER[p["series"]], -p["variant"], -Q["n"],
                                        -_order_key(Q, us[0])]})
     return items, topics, log

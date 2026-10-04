@@ -3,7 +3,8 @@ Writes work/checks_<phase>.json; prints counts only."""
 import json, os, sys
 from collections import Counter
 sys.path.insert(0, os.path.dirname(__file__))
-from parse import load, parse_qp, ms_rows, paper_ref
+import parse
+from parse import load, parse_qp, ms_rows, paper_ref, fix_ms_rows
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SNAME = {"m": "MAR", "s": "M/J", "w": "O/N"}
@@ -22,7 +23,10 @@ def check(pid, ent):
         res["paper_excluded"] = f"MS header reference '{paper_ref(md)}' != QP '{ref}'"
         return res
     qs = parse_qp(qd)
+    parse.MS_TYPOS.clear()
     rows = ms_rows(md)
+    res["ms_label_fixes"] = [[a, b] for a, b in parse.MS_TYPOS] + \
+        [[o, n] for _, o, n in fix_ms_rows(rows, qs)]
     nums = [q["n"] for q in qs]
     # 1. every question once (parser only accepts sequential numbers; check vs MS)
     if not nums:

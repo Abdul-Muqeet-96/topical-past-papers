@@ -6,6 +6,7 @@ from collections import defaultdict
 import pymupdf
 sys.path.insert(0, os.path.dirname(__file__))
 from items import resolve, marks, find_letter, letter_of
+from assemble import ref_units
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BOOK = os.path.join(ROOT, "Δ-chemistry", "p2-topical-workbook", "Chemistry-9701-P2-Topical-Workbook.pdf")
@@ -51,12 +52,13 @@ def main(phases):
                             if len(seen[k]) > 1:
                                 res["coverage_dupes"].append([p["ref"], Q["n"], lab, seen[k]])
                             continue
-                        ref = f"{p['ref']}/Q{Q['n']}{lab}"
-                        lref = f"{p['ref']}/Q{Q['n']}{Lt['label']}"
-                        if not any(e == ref or e == lref or (e.startswith(lref) and lab[3:] in e) for e in excluded):
-                            # also accept grouped refs like Q3(c)(i)-(ii)
-                            if not any(e.startswith(f"{p['ref']}/Q{Q['n']}{Lt['label']}") for e in excluded):
-                                res["coverage_unexplained"].append(ref)
+                        ref = ref_units(p["ref"], Q["n"], [lab])
+                        lref = ref_units(p["ref"], Q["n"], [Lt["label"]])
+                        rom = lab[3:].strip("()")
+                        if not any(e == ref or e == lref or (e.startswith(lref + "(") and
+                                                              rom in e[len(lref) + 1:-1].split(","))
+                                   for e in excluded):
+                            res["coverage_unexplained"].append(ref)
     # every item has an answer: check the answers section contains each ref twice (question + answer)
     text_count = defaultdict(int)
     for pg in book:

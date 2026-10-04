@@ -38,23 +38,37 @@ def unit_ms_rows(Q, u):
     return R["ms_rows"]
 
 
-def item_blocks(it, Q, qd):
-    """Ordered list of (label, bands) for the question side of an item."""
-    out = []
-    if Q["stem"]:
-        out.append(("Context", bands(qd, Q["stem"])))
+def item_regions(it, Q):
+    """All source regions of an item (stem, context figures/tables, context
+    parts, lettered intros, the item's own parts), merged in paper order, so the
+    item reads like the paper with no generated labels and nothing shown twice
+    (audit A-028/A-022, decision D2)."""
+    regs = list(Q["stem"])
     for b in it["ctx_blocks"]:
-        out.append((f"Context: {b}", bands(qd, Q["blocks"][b])))
+        regs += Q["blocks"][b]
     for c in it["ctx_parts"]:
-        lab = c.replace("#intro", "")
-        txt = f"Context: part {lab}" + (" (introduction)" if c.endswith("#intro") else "")
-        out.append((txt, bands(qd, unit_region(Q, c))))
+        regs += unit_region(Q, c) or []
     for i in it["intros"]:
-        L = find_letter(Q, letter_of(i))
-        out.append((f"Context: part {i} (introduction)", bands(qd, L["intro"])))
+        regs += find_letter(Q, letter_of(i))["intro"]
     for u in it["units"]:
-        out.append((None, bands(qd, unit_region(Q, u))))
+        regs += unit_region(Q, u)
+    regs = sorted([list(r) for r in regs], key=lambda r: (r[0], r[1]))
+    out = []
+    for p, y0, y1 in regs:
+        if out and out[-1][0] == p and y0 <= out[-1][2] + 0.5:
+            out[-1][2] = max(out[-1][2], y1)
+        else:
+            out.append([p, y0, y1])
     return out
+
+
+def item_blocks(it, Q, qd):
+    bs = bands(qd, item_regions(it, Q))
+    for b in bs:      # bands of one figure/table stay on one page (audit A-014)
+        for k, reg in Q["blocks"].items():
+            if reg and any(p == b.page and y0 - 1 <= b.y0 and b.y1 <= y1 + 1 for p, y0, y1 in reg):
+                b.grp = k
+    return [(None, bs)]
 
 
 def also_text(it):
@@ -68,15 +82,15 @@ def also_text(it):
 
 def est_height(blocks):
     h = 18
-    for lab, bs in blocks:
-        if not bs:
-            continue
-        h += Flow.bands_height(bs, min(1.0, TW / (X1 - X0))) + (12 if lab else 4)
+    allb = [b for _, bs in blocks for b in bs]
+    if allb:
+        w = max(b.x1 for b in allb) - min(b.x0 for b in allb)
+        h += Flow.bands_height(allb, min(1.0, TW / w)) + 4
     return h
 
 
 def place_item(f, num, it, blocks, ref_pages):
-    h = est_height(blocks) + (10 if it["also"] else 0)
+    h = est_height(blocks) + (10 if it["also"] else 0) + (10 if it.get("data_booklet") else 0)
     avail = H - MB - MT - 30
     if h > f.room() and h <= avail:
         f.new_page(f.header)
@@ -87,15 +101,14 @@ def place_item(f, num, it, blocks, ref_pages):
     at = also_text(it)
     if at:
         f.text(at, size=7.5, color=GREY, gap=3)
+    if it.get("data_booklet"):
+        f.text("Data Booklet needed", size=7.5, color=GREY, gap=3)
+    allb = [b for _, bs in blocks for b in bs]
+    x0 = min([b.x0 for b in allb] or [X0])
+    x1 = max([b.x1 for b in allb] or [X1])
     for lab, bs in blocks:
-        if not bs:
-            continue
-        if lab:
-            placed = f.place_bands(f.cur_src, bs, label=lab)
-            f.context_rule(placed)
-            f.y += 6
-        else:
-            f.place_bands(f.cur_src, bs)
+        if bs:
+            f.place_bands(f.cur_src, bs, x0=x0, x1=x1)
             f.y += 2
     f.y += 14
 
@@ -105,7 +118,7 @@ def place_answer(f, num, it, Q, md):
     for u in it["units"]:
         rows += [(None, r) for r in unit_ms_rows(Q, u)]
     ctx = []
-    for c in it["ctx_parts"]:
+    for c in it.get("deps", []):          # parts whose answer the item uses (decision D2)
         rr = unit_ms_rows(Q, c)
         if rr:
             ctx.append((c, rr))
@@ -124,8 +137,7 @@ def place_answer(f, num, it, Q, md):
         cs = [s for r in rr for s in r["segs"]]
         cbs = [Band(p, r[1], r[3]) for p, r in cs if r[3] - r[1] > 2]
         f.y += 6
-        placed = f.place_bands(f.cur_ms, cbs, x0=x0, x1=x1, label=f"Answer for context part {c}")
-        f.context_rule(placed)
+        f.place_bands(f.cur_ms, cbs, x0=x0, x1=x1)
     f.y += 14
     return True
 
@@ -346,6 +358,17 @@ def build(outdir, phases):
     f.page.show_pdf_page(dest, qd, pt.number, clip=clip, rotate=rot)
     rows.append(("APPENDIX", ("The Periodic Table of Elements", True), app_page))
     contents(out, front, rows)
+    # bookmarks (audit A-016)
+    toc = [[1, "Contents", front[0] + 1]]
+    for t in TOPICS:
+        r = [x for x in rows if x[0] == f"UNIT {t}"]
+        if r:
+            toc.append([1, f"Unit {t}: {TOPICS[t]}", r[0][2]])
+            ai = rows.index(r[0]) + 1
+            toc.append([2, f"Unit {t}: Answers Section", rows[ai][2]])
+    toc.append([1, "Topic index", idx_page])
+    toc.append([1, "Appendix: The Periodic Table of Elements", app_page])
+    out.set_toc(toc)
     os.makedirs(outdir, exist_ok=True)
     book = os.path.join(outdir, "Chemistry-9701-P2-Topical-Workbook.pdf")
     out.subset_fonts()
@@ -355,6 +378,9 @@ def build(outdir, phases):
     for t, (a, b) in unit_ranges.items():
         u = pymupdf.open()
         u.insert_pdf(out, from_page=a, to_page=b)
+        ai = [x for x in rows if x[0] == f"UNIT {t}"][0]
+        ap = rows[rows.index(ai) + 1][2]
+        u.set_toc([[1, f"Unit {t}: {TOPICS[t]}", 1], [2, "Answers Section", ap - a]])
         u.subset_fonts()
         u.save(os.path.join(unit_dir, f"Unit-{t:02d}-{TOPICS[t].replace(':', '').replace(' ', '-')}.pdf"),
                garbage=4, deflate=True, deflate_fonts=True)
@@ -362,6 +388,16 @@ def build(outdir, phases):
         w = csv.DictWriter(fh, fieldnames=["reference", "unit", "marks", "page", "also_topics", "context_parts"])
         w.writeheader()
         w.writerows(csvrows)
+    # items.jsonl: each item's question text from the source text layer (audit A-020)
+    from extract import text_of
+    with open(os.path.join(outdir, "items.jsonl"), "w") as fh:
+        for it in idx:
+            P = parts[it["paper"]]
+            Q = next(q for q in P["questions"] if q["n"] == it["q"])
+            fh.write(json.dumps({"reference": it["ref"], "unit": it["topic"], "marks": it["marks"],
+                                 "page": ref_pages[it["ref"]], "data_booklet": it.get("data_booklet", False),
+                                 "text": text_of(docs(P["qp"]), item_regions(it, Q))},
+                                ensure_ascii=False) + "\n")
     json.dump({"pages": out.page_count, "ref_pages": ref_pages, "unit_ranges": unit_ranges,
                "contents": rows}, open(os.path.join(ROOT, "work", "build_info.json"), "w"), indent=0)
     print(f"book pages {out.page_count}, items {len(items)}, size {os.path.getsize(book)/1e6:.1f} MB")

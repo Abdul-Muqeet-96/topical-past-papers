@@ -108,15 +108,31 @@ class Flow:
         placed = []
         prev = None
         first = True
-        for b in bands:
+        maxh = H - MB - MT - 20
+        for i, b in enumerate(bands):
             gap = _gap(prev, b) * scale if prev is not None else 0
             h = b.h * scale
             s = scale
-            maxh = H - MB - MT - 20
             if h > maxh:     # oversize band: shrink to fit a page
                 s = scale * maxh / h
                 h = maxh
-            if gap + h > self.room():
+            # keep a figure with its label line above and its caption below (audit A-014)
+            need = gap + h
+            k = i
+            while k + 1 < len(bands) and _together(bands[k], bands[k + 1]):
+                need += _gap(bands[k], bands[k + 1]) * scale + min(bands[k + 1].h * scale, maxh)
+                k += 1
+            if b.grp is not None and (prev is None or prev.grp != b.grp):
+                k = i
+                need = gap + h
+                while k + 1 < len(bands) and bands[k + 1].grp == b.grp:
+                    need += _gap(bands[k], bands[k + 1]) * scale + min(bands[k + 1].h * scale, maxh)
+                    k += 1
+            if need > self.room() and need - gap <= maxh and prev is not None and \
+                    not _together(prev, b) and not (b.grp is not None and prev.grp == b.grp):
+                self.new_page(self.header)
+                gap = 0
+            elif gap + h > self.room():
                 self.new_page(self.header)
                 gap = 0
             self.y += gap
@@ -148,6 +164,17 @@ class Flow:
             a[0], a[1] = min(a[0], r.y0), max(a[1], r.y1)
         for pno, (y0, y1) in by_page.items():
             self.doc[pno].draw_line((ML - 6, y0 - 8), (ML - 6, y1), color=ACCENT, width=1.2)
+
+
+def _together(a, b):
+    """Bands a, b (consecutive, same source page) that must stay on one page:
+    a short label line directly above a figure, or a figure and its caption /
+    the label line directly below it."""
+    if getattr(a, "grp", None) is not None and a.grp == getattr(b, "grp", None):
+        return True
+    if a.page != b.page or b.y0 - a.y1 > 14:
+        return False
+    return (a.h < 18 and b.h > 30) or (a.h > 30 and b.h < 18)
 
 
 def _gap(prev, b):

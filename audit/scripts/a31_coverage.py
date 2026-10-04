@@ -10,6 +10,12 @@ def pkey(ref):
 def expand(q,suf,leaves):
     """leaves: list of labels of question q, e.g. '3(b)(ii)'. Return the subset covered by suffix."""
     L=[x for x in leaves]
+    if suf.startswith('/'):   # Physics-booklet style (fix branch): /a,b(i,ii)
+        out=[]
+        for l,rs in re.findall(r'([a-z])(?:\(([ivx,]+)\))?',suf[1:]):
+            if rs: out+=[x for x in L if any(x==f'{q}({l})({r})' for r in rs.split(','))]
+            else: out+=[x for x in L if x==f'{q}({l})' or x.startswith(f'{q}({l})(')]
+        return out
     m=re.fullmatch(r'\(([a-z])\)-\(([a-z])\)',suf)
     if m: a,b=m.groups(); return [x for x in L if re.match(rf'{q}\(([a-z])\)',x) and a<=re.match(rf'{q}\(([a-z])\)',x).group(1)<=b]
     m=re.fullmatch(r'\(([a-z])\)\(([ivx]+)\)-\(([ivx]+)\)',suf)
