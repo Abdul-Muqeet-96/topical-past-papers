@@ -12047,21 +12047,6 @@
 "hfrac": 1
 },
 {
-"ref": "M/J 25/P22/Q4/c",
-"side": "Q",
-"unit": 5,
-"n": 10,
-"src": "9702_s25_qp_22.pdf",
-"srcpage": 11,
-"bookpages": [
-368
-],
-"booklet": false,
-"word": "h2",
-"vfrac": 0.43,
-"hfrac": 1
-},
-{
 "ref": "O/N 14/P21/Q5",
 "side": "Q",
 "unit": 5,

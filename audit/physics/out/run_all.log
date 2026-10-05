@@ -22,12 +22,12 @@ appendix_has_data_and_formulae : True
 contents_fail : []
 == pc05_bands
 bands 5252
-source pages placed 1033 ; low-overlap mappings 1 [(25560, {'match': ('/home/user/topical-past-papers/Ω-physics/booklet-ocr.pdf', 111), 'overlap': 0.338})]
+source pages placed 1033 ; low-overlap mappings 1 [(25559, {'match': ('/home/user/topical-past-papers/Ω-physics/booklet-ocr.pdf', 111), 'overlap': 0.338})]
 bands without item 0 (appendix)
 == pc06_crops
-{'cutfig': 578, 'clipped': 399, 'marks': 18, 'sidecut': 18, 'space': 1, 'edgeink': 1029, 'dropped': 1}
+{'cutfig': 578, 'clipped': 398, 'marks': 18, 'sidecut': 18, 'space': 1, 'edgeink': 1029, 'dropped': 1}
 cutfig 578 in 9 items/answers [(1, 24, 'Q', 'O/N 23/P23/Q2/a(ii)'), (2, 20, 'Q', 'O/N 23/P23/Q2/a(i,iii)'), (2, 43, 'Q', 'O/N 15/P21/Q3'), (3, 33, 'Q', 'O/N 23/P23/Q2/b'), (5, 6, 'Q', 'O/N 25/P24/Q3/c(i),d'), (6, 7, 'Q', 'O/N 25/P24/Q3/a,b,c(ii)'), (6, 16, 'A', 'M/J 24/P22/Q3/d'), (6, 18, 'Q', 'M/J 24/P23/Q3/a,b,c,d,e'), (6, 43, 'Q', 'O/N 18/P23/Q1')]
-clipped 399 in 139 items/answers [(1, 27, 'A', 'MAR 23/P22/Q1'), (1, 28, 'Q', 'MAR 22/P22/Q1'), (1, 30, 'Q', 'O/N 22/P21/Q1'), (1, 31, 'A', 'O/N 22/P23/Q1'), (1, 49, 'A', 'M/J 18/P22/Q1'), (1, 55, 'A', 'M/J 17/P21/Q1'), (1, 55, 'Q', 'M/J 17/P21/Q1'), (1, 60, 'A', 'O/N 16/P21/Q1'), (3, 46, 'Q', 'O/N 19/P23/Q4/a'), (3, 53, 'Q', 'M/J 18/P22/Q3'), (3, 61, 'A', 'M/J 16/P21/Q3'), (3, 61, 'Q', 'M/J 16/P21/Q3')]
+clipped 398 in 138 items/answers [(1, 27, 'A', 'MAR 23/P22/Q1'), (1, 28, 'Q', 'MAR 22/P22/Q1'), (1, 30, 'Q', 'O/N 22/P21/Q1'), (1, 31, 'A', 'O/N 22/P23/Q1'), (1, 49, 'A', 'M/J 18/P22/Q1'), (1, 55, 'A', 'M/J 17/P21/Q1'), (1, 55, 'Q', 'M/J 17/P21/Q1'), (1, 60, 'A', 'O/N 16/P21/Q1'), (3, 46, 'Q', 'O/N 19/P23/Q4/a'), (3, 53, 'Q', 'M/J 18/P22/Q3'), (3, 61, 'A', 'M/J 16/P21/Q3'), (3, 61, 'Q', 'M/J 16/P21/Q3')]
 marks 18 in 18 items/answers [(1, 65, 'Q', 'O/N 15/P23/Q1'), (1, 76, 'Q', 'M/J 14/P22/Q2'), (3, 45, 'Q', 'O/N 19/P22/Q3'), (3, 61, 'Q', 'M/J 16/P21/Q3'), (4, 44, 'Q', 'O/N 19/P22/Q4'), (4, 49, 'Q', 'M/J 18/P22/Q5'), (5, 33, 'Q', 'M/J 21/P22/Q3'), (6, 32, 'A', 'M/J 21/P23/Q3'), (7, 32, 'Q', 'MAR 21/P22/Q5'), (7, 39, 'Q', 'M/J 16/P22/Q4'), (8, 40, 'Q', 'O/N 19/P21/Q5'), (8, 54, 'Q', 'M/J 17/P23/Q5')]
 sidecut 18 in 18 items/answers [(4, 59, 'A', 'M/J 15/P22/Q3'), (6, 33, 'A', 'MAR 21/P22/Q3'), (6, 34, 'A', 'O/N 20/P22/Q3'), (6, 48, 'A', 'O/N 17/P21/Q4'), (8, 42, 'A', 'M/J 19/P22/Q4'), (9, 31, 'Q', 'MAR 21/P22/Q6/a,b(i,ii,iii)'), (9, 47, 'A', 'M/J 16/P21/Q6'), (9, 48, 'A', 'M/J 16/P23/Q6'), (10, 34, 'A', 'M/J 20/P22/Q6'), (10, 40, 'A', 'M/J 19/P23/Q6'), (10, 50, 'A', 'M/J 16/P22/Q7'), (11, 34, 'A', 'MAR 22/P22/Q7')]
 space 1 in 0 items/answers []
@@ -36,12 +36,12 @@ dropped 1 in 1 items/answers [(11, 3, None, 'M/J 26/P24/Q7/a,b')]
 == pc07_selfcontained
 official items 260 with issues 0
 == pc08_files
-Physics-9702-P2-Topical-Workbook.pdf|qpdf:errors that qpdf cannot detect|fonts:501|not_embedded:32|bytes:36257774|pages:930
+Physics-9702-P2-Topical-Workbook.pdf|qpdf:errors that qpdf cannot detect|fonts:501|not_embedded:32|bytes:36257616|pages:930
 Unit-01-Physical-quantities-and-units.pdf|qpdf:errors that qpdf cannot detect|fonts:182|not_embedded:21|bytes:6424531|pages:84
 Unit-02-Kinematics.pdf|qpdf:errors that qpdf cannot detect|fonts:203|not_embedded:24|bytes:6842704|pages:86
 Unit-03-Dynamics.pdf|qpdf:errors that qpdf cannot detect|fonts:265|not_embedded:25|bytes:8164554|pages:101
-Unit-04-Forces-density-and-pressure.pdf|qpdf:errors that qpdf cannot detect|fonts:194|not_embedded:24|bytes:7135795|pages:86
-Unit-05-Work-energy-and-power.pdf|qpdf:errors that qpdf cannot detect|fonts:168|not_embedded:19|bytes:5762742|pages:82
+Unit-04-Forces-density-and-pressure.pdf|qpdf:errors that qpdf cannot detect|fonts:194|not_embedded:24|bytes:7135798|pages:86
+Unit-05-Work-energy-and-power.pdf|qpdf:errors that qpdf cannot detect|fonts:168|not_embedded:19|bytes:5762583|pages:82
 Unit-06-Deformation-of-solids.pdf|qpdf:errors that qpdf cannot detect|fonts:259|not_embedded:26|bytes:8117977|pages:92
 Unit-07-Waves.pdf|qpdf:errors that qpdf cannot detect|fonts:204|not_embedded:25|bytes:5689119|pages:61
 Unit-08-Superposition.pdf|qpdf:errors that qpdf cannot detect|fonts:214|not_embedded:24|bytes:7075828|pages:84

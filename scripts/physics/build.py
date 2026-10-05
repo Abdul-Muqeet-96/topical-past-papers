@@ -164,6 +164,26 @@ def booklet_bands(bd, regions, wos):
             a[max(0, int((r.y0 - y0) * z)):max(0, int((r.y1 - y0) * z)),
               max(0, int((r.x0 - BX0) * z)):max(0, int((r.x1 - BX0) * z))] = False
         cols = np.flatnonzero(a.sum(axis=0) >= 3)
+        if len(cols):
+            # scan blobs in the left margin (binding shadow): a dense ink cluster at the left end, 8 pt or
+            # more clear of the content, inside the outer 45 pt, at least 10 pt tall, holding no OCR word,
+            # is whited out and left out of the crop width (physics fix). The right margin is never
+            # touched: the answer pages print their marks there, and OCR misses some single digits.
+            ws = [q for q in bd[p0].get_text("words") if q[1] < y1 and q[3] > y0]
+            groups = np.split(cols, np.flatnonzero(np.diff(cols) > 8 * z) + 1)
+            while len(groups) > 1:
+                g = groups[0]
+                gx0, gx1 = BX0 + g[0] / z, BX0 + (g[-1] + 1) / z
+                sub = a[:, g[0]:g[-1] + 1]
+                rr = np.flatnonzero(sub.any(axis=1))
+                box = sub[rr[0]:rr[-1] + 1] if len(rr) else sub[:0]
+                if not (gx1 < 45 and len(rr) and (rr[-1] - rr[0] + 1) / z >= 10 and box.mean() >= 0.2
+                        and not any(q[0] < gx1 + 1 and q[2] > gx0 - 1 for q in ws)):
+                    break
+                w.append(pymupdf.Rect(gx0 - 1.5, y0 - 1, gx1 + 1.5, y1 + 1))
+                MARGIN_BLOBS.append((p0, round(y0), round(gx0), round(gx1)))
+                groups.pop(0)
+            cols = np.concatenate(groups)
         x0 = BX0 + cols[0] / z - 2 if len(cols) else 40
         x1 = BX0 + (cols[-1] + 1) / z + 2 if len(cols) else 556
         b = Band(p0, y0, y1, w, x0=max(BX0, x0), x1=min(BX1, x1))
@@ -177,6 +197,7 @@ def booklet_bands(bd, regions, wos):
 
 
 BUILD_DOCS = {}
+MARGIN_BLOBS = []
 
 
 def booklet_build_docs():
@@ -739,6 +760,11 @@ def build(outdir):
               open(os.path.join(WORK, "build_info.json"), "w"), indent=0)
     print(f"book pages {out.page_count}, items {len(items)} official + {len(bitems)} booklet, "
           f"size {os.path.getsize(book)/1e6:.1f} MB")
+    import crops
+    mb = sorted(set(MARGIN_BLOBS))
+    print(f"booklet margin blobs whited out: {len(mb)}", mb)
+    te = sorted({(id(None), p, y, tuple(w)) for p, y, w in crops.TOP_EXT})
+    print(f"region tops raised over a first-line fraction/superscript: {len(te)}", [t[1:] for t in te][:30])
 
 
 if __name__ == "__main__":

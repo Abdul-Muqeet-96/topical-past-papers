@@ -78,6 +78,7 @@ def bottom_furniture(page):
 
 
 _CACHE = OrderedDict()
+TOP_EXT = []          # (page, old top, words) where a region top was raised over its first line
 
 
 def _gray(page):
@@ -166,6 +167,15 @@ def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
         return []
     wos = [r for r in bottom_furniture(page) if r.y0 < ry1]
     words = page.get_text("words")
+    # words of this region's first line whose box starts above the top edge (the numerator of a fraction
+    # printed on the "(c)" line) belong to this region: start above them, never white them out (physics fix)
+    first = [w for w in words if ry0 - 0.5 <= w[1] < ry0 + 15 and XMIN <= w[0] and w[2] <= XMAX]
+    up = [w for w in words if XMIN <= w[0] and w[2] <= XMAX and w[1] < ry0 - 0.5 and w[3] > ry0 + 2
+          and w[1] > max(top, ry0 - 14)
+          and any(min(w[3], n[3]) - max(w[1], n[1]) > 2 and n[1] > w[1] for n in first)]
+    if up:
+        TOP_EXT.append((p, round(ry0, 1), [w[4] for w in up]))
+        ry0 = max(top, min(w[1] for w in up) - 1)
     # text cut by the region edges: a word of the previous part straddling the
     # top edge is whited out; a word of this part straddling the bottom edge
     # extends the region, and words of the next part inside the extension are
