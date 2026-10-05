@@ -83,5 +83,25 @@
   "item": "items.jsonl",
   "issue": "The book serves a student and Claude teaching the student",
   "action": "Besides the Chemistry fields, each line also has the sections, learning-outcome ids, answer page and the answer text from the mark scheme's text layer"
+ },
+ {
+  "item": "Tagging conventions (Paper 2 topics)",
+  "issue": "Many Paper 2 parts touch several learning outcomes at once (a module that reads a file into an array with string functions)",
+  "action": "One rule for every part and for the blind re-tag: a part that writes or completes a module is tagged by the first that applies: text-file handling 10.3.2; array processing 10.2.3 / 10.2.4 (search, sort); stack, queue or linked list 10.4.x; otherwise procedure 11.3.1 or function 11.3.4. Trace tables / dry runs 12.3.4; flowchart from a description 9.2.7; pseudocode from a flowchart or numbered steps 9.2.6; an algorithm described in steps or structured English 9.2.5; complete algorithm from a description 9.2.4; evaluating or completing expressions with built-in functions 11.1.3, with operators only 11.1.2; a logic statement written from a problem condition 9.2.9"
+ },
+ {
+  "item": "Tagging: good programming practice",
+  "issue": "Parts asking for features that make code easier to read (meaningful names, indentation, comments) have no learning outcome of their own",
+  "action": "Tagged 9.2.2 (use suitable identifier names), the nearest outcome; kept in the Paper 2 book"
+ },
+ {
+  "item": "Tagging: Paper 2 parts on Paper 1 topics",
+  "issue": "Some Paper 2 parts test a unit 1-8 outcome: IDE debugging features (5.2.4), validation checks and check digits (6.2.2)",
+  "action": "Tagged with that outcome and filed in the Paper 1 book (spec: a part is filed by its topic, not its paper); each is listed under \"Parts filed by topic in the other paper's book\". Library routines in Paper 2 stay under 11.1.3 (use built-in functions and library routines)"
+ },
+ {
+  "item": "Identical variant papers",
+  "issue": "In 2021 the variant 1 and variant 3 papers have the same text: M/J 21 P11 = P13, M/J 21 P21 = P23, O/N 21 P11 = P13, O/N 21 P21 = P23",
+  "action": "Both papers of each pair are kept (each is a separate official paper with its own reference); their parts carry the same tags, so their items sit next to each other in a unit"
  }
 ]

@@ -130,6 +130,9 @@ def main():
             R += ["", nc]
         R.append("")
 
+    nt = read("notes_tags.md")
+    if nt:
+        R += ["## Tagging", "", nt, ""]
     if logs:
         # ---------- item exclusions ----------
         R += ["## Item exclusions", "", "| Item | Issue | Action |", "|---|---|---|"]

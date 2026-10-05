@@ -96,6 +96,20 @@ def _drop_wm_blocks(st):
     return b"".join(out), k
 
 
+_UID = [0]
+
+
+def doc_key(doc):
+    """A key for per-document caches that is never reused. (id(doc) is reused
+    by Python once a document has been freed, which would hand one paper the
+    cached pages of another.)"""
+    k = getattr(doc, "_uid", None)
+    if k is None:
+        _UID[0] += 1
+        k = doc._uid = _UID[0]
+    return k
+
+
 A4 = pymupdf.Rect(0, 0, 595.28, 841.89)
 RE_DOTRUN = re.compile(r"[.…]{5,}")
 
@@ -260,7 +274,12 @@ def page_lines(page, top=46, bottom=798.5, left=25, right=572):
     words = [w for w in allw
              if w[1] >= top and (w[3] <= bottom or (w[3] <= bottom + 1.5 and w[1] < bottom - 8))
              and w[0] >= left and w[2] <= right
-             and (w[3] - w[1]) >= 6.5 and w[4] not in ("[Turn", "over")]
+             and (w[3] - w[1]) >= 6.5]
+    # the footer's "[Turn over" (the word "over" beside "[Turn" only: "over" is also
+    # an ordinary word of question text)
+    turn = [w for w in words if w[4] == "[Turn"]
+    words = [w for w in words if w[4] != "[Turn" and not (
+        w[4] == "over" and any(abs(t[1] - w[1]) < 3 and 0 <= w[0] - t[2] < 12 for t in turn))]
     lines = {}
     for w in words:
         lines.setdefault((w[5], w[6]), []).append(w)

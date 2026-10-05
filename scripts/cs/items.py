@@ -18,7 +18,7 @@ Context sources (λ-cs/CLAUDE-cs.md):
 import re
 from extract import refs_in, anaphora, GENERIC, NOUNS
 
-MAX_CONTEXT_H = 700   # ~ one page of context
+MAX_CONTEXT_H = 744   # one page of the book (page height less margins)
 
 
 def letter_of(lab):
@@ -183,6 +183,13 @@ def resolve(Q, units):
             if site is None or _site_covered(site, units, ctx_parts, intros):
                 continue
             if _not_before(Q, site, where, units):
+                continue
+            # already shown by an earlier part of the item (e.g. the part it refers to)?
+            name = key[2:]
+            if key.startswith("I:") and any(
+                    re.search(rf"(?<![A-Za-z0-9_]){re.escape(name)}(?![A-Za-z0-9_])", unit_text(Q, c) or "")
+                    and not _not_before(Q, c, where, units)
+                    for c in list(units) + ctx_parts + [i + "#intro" for i in intros] if c != where):
                 continue
             add(site, why)
         # scenario nouns the item never introduces ("the algorithm" printed in part (a))

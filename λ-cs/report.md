@@ -23,8 +23,15 @@ All failures, exclusions and AUTO-DECIDED items, grouped by type, for both books
 | Figures | The spec asks that code, tables, trace tables and diagrams never split across pages; CS papers print no captions | A figure is a run of consecutive monospace lines or a cluster of drawings/images with the text inside it; all its crop bands are kept on one page. Only a figure taller than a page can break |
 | Tags | The spec asks for unit, section and learning outcome per part | Learning outcomes are the "Candidates should be able to" statements of `λ-cs/cs-syllabus.pdf`, extracted by `scripts/cs/syllabus.py` and numbered in print order (1.2.3 = third outcome of section 1.2). A tag is one such id |
 | items.jsonl | The book serves a student and Claude teaching the student | Besides the Chemistry fields, each line also has the sections, learning-outcome ids, answer page and the answer text from the mark scheme's text layer |
+| Tagging conventions (Paper 2 topics) | Many Paper 2 parts touch several learning outcomes at once (a module that reads a file into an array with string functions) | One rule for every part and for the blind re-tag: a part that writes or completes a module is tagged by the first that applies: text-file handling 10.3.2; array processing 10.2.3 / 10.2.4 (search, sort); stack, queue or linked list 10.4.x; otherwise procedure 11.3.1 or function 11.3.4. Trace tables / dry runs 12.3.4; flowchart from a description 9.2.7; pseudocode from a flowchart or numbered steps 9.2.6; an algorithm described in steps or structured English 9.2.5; complete algorithm from a description 9.2.4; evaluating or completing expressions with built-in functions 11.1.3, with operators only 11.1.2; a logic statement written from a problem condition 9.2.9 |
+| Tagging: good programming practice | Parts asking for features that make code easier to read (meaningful names, indentation, comments) have no learning outcome of their own | Tagged 9.2.2 (use suitable identifier names), the nearest outcome; kept in the Paper 2 book |
+| Tagging: Paper 2 parts on Paper 1 topics | Some Paper 2 parts test a unit 1-8 outcome: IDE debugging features (5.2.4), validation checks and check digits (6.2.2) | Tagged with that outcome and filed in the Paper 1 book (spec: a part is filed by its topic, not its paper); each is listed under "Parts filed by topic in the other paper's book". Library routines in Paper 2 stay under 11.1.3 (use built-in functions and library routines) |
+| Identical variant papers | In 2021 the variant 1 and variant 3 papers have the same text: M/J 21 P11 = P13, M/J 21 P21 = P23, O/N 21 P11 = P13, O/N 21 P21 = P23 | Both papers of each pair are kept (each is a separate official paper with its own reference); their parts carry the same tags, so their items sit next to each other in a unit |
 | 3 downloaded MS files | Page 1 reads title variant 'Paper 2 Problem Solving & Programming Skills' instead of the spec's wording; code, paper number, series and document type match | Accepted and logged (spec: Header check) |
 | 6 downloaded MS files | Page 1 reads title variant 'Paper 2 Problem Solving & Programming' instead of the spec's wording; code, paper number, series and document type match | Accepted and logged (spec: Header check) |
+| M/J 21/P22/Q1/a | topic marks tie {10: 4, 11: 4} | filed under topic 10 (topic of first sub-part) |
+| M/J 26/P21/Q2/b | topic marks tie {5: 1, 12: 1} | filed under topic 5 (topic of first sub-part) |
+| M/J 26/P23/Q2/d | topic marks tie {5: 1, 12: 1} | filed under topic 5 (topic of first sub-part) |
 
 ## Downloads and header checks
 
@@ -66,4 +73,116 @@ Checks: (1) every question number exactly once; (2) part [marks] add up to the c
 
 Causes (inspected):
 - M/J 25/P12 Q7: the mark-scheme row 7(b)(ii) prints no value in its Marks column (source defect), so the MS marks of Q7 are 7 against 8 in the question paper. The question is excluded and nothing is patched.
+
+## Tagging
+
+- Every lowest-level part was tagged by reading its extracted text (`scripts/cs/dump_leaves.py`), with one learning-outcome id of `λ-cs/work/syllabus.json` (unit, section, outcome). Tags: `λ-cs/work/tags_phase1.txt`, `tags_phase2.txt`.
+- Unit and section names and numbers were checked against the syllabus PDF: the 12 units and 29 sections extracted by `scripts/cs/syllabus.py` are the ones the spec lists.
+- Check of every unit's tags against the syllabus wording (`scripts/cs/check_tags.py`): each part's words are compared with the wording of its outcome, its notes and its section name; parts that share no significant word with their outcome, and parts whose words fit an outcome of another unit much better, are listed and read. Phase 1: 1551 parts; 16 share no word with their outcome and 189 fit another unit's wording better by vocabulary; all were read; 1 tag was changed (M/J 26/P23 Q2(b) 11.1.2 to 9.2.9, to agree with the same question in P21). The rest are vocabulary effects (a module that searches an array says "module", not "array").
+- Outcomes with no Phase 1 part: 4.2.1, 6.1.2, 8.1.1, 8.3.1, 8.3.2, 8.3.3, 9.2.1, 10.4.1, 11.1.1.
+
+## Item exclusions
+
+| Item | Issue | Action |
+|---|---|---|
+| (none) | | |
+
+## Out of syllabus (not clearly covered by the 2027-29 learning outcomes)
+
+| Item | Issue | Action |
+|---|---|---|
+| (none) | | |
+
+## Parts that need pre-release material (9608 Paper 2)
+
+| Item | Issue | Action |
+|---|---|---|
+| (none) | | |
+
+## Parts filed by topic in the other paper's book
+
+A part is filed by its topic, not its paper (spec, Goal).
+
+| Item | Unit | Filed in |
+|---|---|---|
+| M/J 23/P21/Q1/a | 5 System Software | Paper 2 part filed in the Paper 1 book (unit 5) |
+| M/J 23/P22/Q5/c | 5 System Software | Paper 2 part filed in the Paper 1 book (unit 5) |
+| M/J 23/P23/Q2/b | 6 Security, privacy and data integrity | Paper 2 part filed in the Paper 1 book (unit 6) |
+| M/J 26/P21/Q2/b | 5 System Software | Paper 2 part filed in the Paper 1 book (unit 5) |
+| M/J 26/P23/Q2/d | 5 System Software | Paper 2 part filed in the Paper 1 book (unit 5) |
+| O/N 24/P22/Q1/b,c | 5 System Software | Paper 2 part filed in the Paper 1 book (unit 5) |
+| O/N 25/P21/Q1/c | 5 System Software | Paper 2 part filed in the Paper 1 book (unit 5) |
+| O/N 25/P21/Q6/a | 6 Security, privacy and data integrity | Paper 2 part filed in the Paper 1 book (unit 6) |
+
+## Multi-unit lettered parts kept whole (filed under the majority unit, tagged "also")
+
+| Item | Why not split | Marks by unit |
+|---|---|---|
+| M/J 21/P22/Q1/a | (a)(ii) depends on sibling ['(a)(i)'] | {'10': 4, '11': 4} |
+| M/J 21/P22/Q5/a | (a)(ii) depends on sibling ['(a)(i)'] | {'10': 6, '12': 3} |
+| M/J 25/P22/Q6/a | (a)(ii) depends on sibling ['(a)(i)'] | {'12': 4, '10': 3} |
+| M/J 26/P21/Q2/b | (b)(ii) depends on sibling ['(b)(i)'] | {'5': 1, '12': 1} |
+| M/J 26/P23/Q2/d | (d)(ii) depends on sibling ['(d)(i)'] | {'5': 1, '12': 1} |
+| M/J 26/P23/Q8/a | (a)(iii) depends on sibling ['(a)(i)'] | {'10': 7, '12': 3} |
+| O/N 22/P22/Q2/a | (a)(ii) depends on sibling ['(a)(i)'] | {'9': 5, '10': 2} |
+
+## Lettered parts split by unit
+
+25 lettered parts were split into roman-level items because their sub-parts belong to different units and each is solvable alone:
+
+- M/J 21/P12/Q4/b: M/J 21/P12/Q4/b(i) → unit 1; M/J 21/P12/Q4/b(ii,iii) → unit 4
+- M/J 23/P11/Q3/d: M/J 23/P11/Q3/d(i,ii,iii,iv,v) → unit 1; M/J 23/P11/Q3/d(vi) → unit 4
+- M/J 23/P12/Q2/c: M/J 23/P12/Q2/c(i) → unit 6; M/J 23/P12/Q2/c(ii,iii) → unit 8
+- M/J 23/P23/Q3/b: M/J 23/P23/Q3/b(i) → unit 10; M/J 23/P23/Q3/b(ii) → unit 9
+- M/J 24/P11/Q5/c: M/J 24/P11/Q5/c(i) → unit 6; M/J 24/P11/Q5/c(ii) → unit 7
+- M/J 24/P22/Q5/a: M/J 24/P22/Q5/a(i) → unit 12; M/J 24/P22/Q5/a(ii) → unit 11
+- M/J 24/P23/Q6/b: M/J 24/P23/Q6/b(i) → unit 11; M/J 24/P23/Q6/b(ii) → unit 12
+- M/J 24/P23/Q7/a: M/J 24/P23/Q7/a(i) → unit 12; M/J 24/P23/Q7/a(ii) → unit 11
+- M/J 25/P11/Q6/a: M/J 25/P11/Q6/a(i) → unit 3; M/J 25/P11/Q6/a(ii,iii) → unit 4
+- M/J 25/P21/Q7/b: M/J 25/P21/Q7/b(i) → unit 10; M/J 25/P21/Q7/b(ii) → unit 12
+- M/J 25/P23/Q7/b: M/J 25/P23/Q7/b(i) → unit 10; M/J 25/P23/Q7/b(ii) → unit 11
+- M/J 26/P13/Q3/c: M/J 26/P13/Q3/c(i) → unit 1; M/J 26/P13/Q3/c(ii,iii) → unit 2
+- M/J 26/P21/Q2/a: M/J 26/P21/Q2/a(i) → unit 10; M/J 26/P21/Q2/a(ii,iii) → unit 9
+- M/J 26/P22/Q1/a: M/J 26/P22/Q1/a(i) → unit 10; M/J 26/P22/Q1/a(ii,iii) → unit 11
+- O/N 21/P11/Q4/b: O/N 21/P11/Q4/b(i) → unit 7; O/N 21/P11/Q4/b(ii) → unit 5
+- O/N 21/P13/Q4/b: O/N 21/P13/Q4/b(i) → unit 7; O/N 21/P13/Q4/b(ii) → unit 5
+- O/N 21/P22/Q6/c: O/N 21/P22/Q6/c(i) → unit 12; O/N 21/P22/Q6/c(ii) → unit 11
+- O/N 22/P23/Q5/b: O/N 22/P23/Q5/b(i) → unit 10; O/N 22/P23/Q5/b(ii) → unit 11
+- O/N 22/P23/Q7/b: O/N 22/P23/Q7/b(i) → unit 10; O/N 22/P23/Q7/b(ii) → unit 9
+- O/N 23/P13/Q3/a: O/N 23/P13/Q3/a(i,ii) → unit 2; O/N 23/P13/Q3/a(iii) → unit 6
+- O/N 23/P13/Q5/b: O/N 23/P13/Q5/b(i) → unit 1; O/N 23/P13/Q5/b(ii) → unit 5
+- O/N 23/P22/Q6/b: O/N 23/P22/Q6/b(i,ii) → unit 11; O/N 23/P22/Q6/b(iii) → unit 10
+- O/N 23/P23/Q7/b: O/N 23/P23/Q7/b(i) → unit 10; O/N 23/P23/Q7/b(ii) → unit 11
+- O/N 24/P22/Q2/b: O/N 24/P22/Q2/b(i) → unit 10; O/N 24/P22/Q2/b(ii) → unit 11
+- O/N 25/P12/Q8/b: O/N 25/P12/Q8/b(i) → unit 3; O/N 25/P12/Q8/b(ii) → unit 5
+
+## Insert
+
+| Item | Shown as | Why |
+|---|---|---|
+| M/J 21/P21/Q4/a,c | this paper's insert inline (1 page(s)) | uses UCASE (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix |
+| M/J 21/P21/Q4/b | this paper's insert inline (1 page(s)) | uses UCASE (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix |
+| M/J 21/P22/Q5/b | this paper's insert inline (1 page(s)) | uses LCASE (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix |
+| M/J 21/P23/Q4/a,c | this paper's insert inline (1 page(s)) | uses UCASE (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix |
+| M/J 21/P23/Q4/b | this paper's insert inline (1 page(s)) | uses UCASE (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix |
+| M/J 23/P22/Q2/a,b | this paper's insert inline (3 page(s)) | text refers to the insert; insert text differs from the Appendix |
+| M/J 24/P22/Q1/b | note "Uses the insert (Appendix)" | text refers to the insert |
+| M/J 24/P23/Q1/a,b | note "Uses the insert (Appendix)" | text refers to the insert |
+| M/J 25/P23/Q1/a,b | note "Uses the insert (Appendix)" | text refers to the insert |
+| O/N 21/P22/Q1/c,d | this paper's insert inline (3 page(s)) | text refers to the insert; insert text differs from the Appendix |
+| O/N 24/P21/Q6/b | this paper's insert inline (3 page(s)) | text refers to the insert; insert text differs from the Appendix |
+| O/N 24/P23/Q6 | this paper's insert inline (3 page(s)) | text refers to the insert; insert text differs from the Appendix |
+| O/N 25/P21/Q1/a | note "Uses the insert (Appendix)" | text refers to the insert |
+
+## Context added to items
+
+Besides the stem and the lettered introduction (always shown), earlier parts were added as context for these reasons (count of context parts):
+
+- part reference: 18
+- identifier rule: 13
+- scenario noun ("the ..."): 1
+
+## Thin units (< 5 items)
+
+- None.
 

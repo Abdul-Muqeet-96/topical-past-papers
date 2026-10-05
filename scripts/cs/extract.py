@@ -12,7 +12,8 @@ and another part that needs it gets that whole part as context.
 import json, os, re, sys
 from collections import defaultdict
 sys.path.insert(0, os.path.dirname(__file__))
-from parse import load, parse_qp, ms_rows, fix_ms_rows, page_lines, special_page, data_cut, ROMANS, RE_FOOT
+from parse import (load, parse_qp, ms_rows, fix_ms_rows, page_lines, special_page, data_cut, ROMANS, RE_FOOT,
+                   doc_key)
 from paths import DATA, MANIFEST, work, jload, jdump
 
 TOP = 52
@@ -25,6 +26,9 @@ RE_QPREF = re.compile(rf"(?<![\w.(])(\d{{1,2}})\s?\(([a-h])\)(?:\s*\(({RM})\))?"
 RE_QREF = re.compile(r"\b[Qq]uestions?\s+(\d{1,2})\b")
 RE_NAVLINE = re.compile(r"(continues|continued|begins|starts) on (the next )?page|^\s*(Please )?[Tt]urn over\s*$|"
                         r"^\s*BLANK PAGE\s*$", re.I)
+RE_BOILER = re.compile(r"Permission to reproduce|To avoid the issue of disclosure|Every reasonable effort|"
+                       r"Cambridge Assessment International Education is part|is a department of the University|"
+                       r"Cambridge International Examinations is part|copyright holders", re.I)
 RE_LAB = re.compile(r"(?<![A-Za-z0-9(\[–\-+=/'\"‘“&#])([A-Z])(?![A-Za-z0-9a-z+\-–=(\['\"’”])")
 
 # words that are never identifiers (pseudocode / SQL / assembly keywords, data
@@ -59,16 +63,37 @@ NOUNS = ("program|algorithm|pseudocode|code|function|procedure|module|subroutine
          "tables|arrays|files|records|functions|procedures|modules|programs|values|value|number|numbers|"
          "character|characters|string|strings|bitmap|photograph|photographs|video|document|software|"
          "language|interpreter|compiler|assembler|library|operating system")
-RE_ANA = re.compile(rf"\b(?:the|this|these|that|those)\s+(?:(?:same|following|given|above|original|new|completed|"
-                    rf"corrected|amended|modified)\s+)?({NOUNS})\b", re.I)
+RE_ANA = re.compile(rf"(\b\w+\s+)?\b(?:the|this|these|that|those)\s+(?:(?:same|above|original|completed|"
+                    rf"corrected|amended|modified|previous)\s+)?({NOUNS})\b(\s+\w+)?", re.I)
+# "Complete the table", "Write the pseudocode ..." name the thing to produce, not something shown earlier
+ANA_VERBS = {"complete", "write", "draw", "give", "state", "identify", "describe", "explain", "create", "produce",
+             "define", "declare", "outline", "suggest", "construct", "show", "calculate", "name"}
+# "the table below", "the pseudocode for ...", "the program that ..." point forward or are defined on the spot
+ANA_AFTER = {"below", "shown", "for", "to", "that", "which", "of", "used", "statement", "statements", "expression",
+             "expressions", "is", "are", "will", "contains", "contain", "given", "has", "have", "would", "should",
+             "can", "could", "must", "needs", "need", "called", "named", "above", "in", "from", "on", "structure",
+             "type", "types", "header", "headers", "name", "names", "life", "development", "code", "design",
+             "file", "segment", "extract", "clause", "function", "module", "procedure", "algorithm"}
+
+
+def noun_key(n):
+    """Singular form: 'robots' and 'robot' are the same thing."""
+    n = n.lower()
+    if n.endswith("ies"):
+        return n[:-3] + "y"
+    if n.endswith("sses") or n.endswith("xes"):
+        return n[:-2]
+    return n[:-1] if n.endswith("s") and not n.endswith("ss") else n
+
+
 # nouns so general that "the X" needs no antecedent
-GENERIC = {"data", "user", "computer", "value", "values", "number", "numbers", "text", "code", "system", "software",
+GENERIC = {noun_key(x) for x in {"pseudocode", "data", "user", "computer", "value", "values", "number", "numbers", "text", "code", "system", "software",
            "processor", "character", "characters", "string", "strings", "language", "operating system", "statement",
            "statements", "error", "errors", "solution", "test", "tests", "design", "identifier", "variable",
            "instruction", "instructions", "structure", "list", "loop", "interpreter", "compiler", "assembler",
            "register", "registers", "document", "table", "tables", "file", "files", "record", "records",
            "function", "functions", "procedure", "procedures", "module", "modules", "program", "programs",
-           "array", "arrays", "image", "sound", "message", "device", "library", "constant"}
+           "array", "arrays", "image", "sound", "message", "device", "library", "constant"}}
 
 
 def content_bottom(page):
@@ -127,7 +152,7 @@ def mono_lines(page):
     """Per visual line: (y0, y1, text of the monospace characters only). A
     character is monospace when its advance is 0.6 em (Courier); proportional
     fonts never give a whole word of such characters."""
-    key = (id(page.parent), page.number)
+    key = (doc_key(page.parent), page.number)
     if key in _MONO:
         return _MONO[key]
     rows = []
@@ -241,7 +266,8 @@ def refs_in(text, qn=None):
             if L == "A" and re.match(r"\s+(Level|level)\b", nxt):
                 continue
         labs.add(L)
-    your = bool(re.search(r"\b(use|using|from|in)\s+your\s+(answers?|values?|solution|algorithm|pseudocode|"
+    # "use your answer" (not "in your answer", which only says where to write)
+    your = bool(re.search(r"\b(use|uses|using|used|from)\s+your\s+(answers?|values?|solution|algorithm|pseudocode|"
                           r"program|table|design)\b", text, re.I))
     insert = bool(re.search(r"\b(?:the|an) insert\b|\bfrom the insert\b|\(from the insert\)", text, re.I))
     appendix = bool(re.search(r"\bAppendix\b", text))
@@ -250,15 +276,31 @@ def refs_in(text, qn=None):
 
 
 def anaphora(text):
-    """Scenario nouns used with 'the/this/these' -> [(noun, position)]."""
-    return [(m.group(1).lower(), m.start()) for m in RE_ANA.finditer(text)]
+    """Scenario nouns used with 'the/this/these' about something shown earlier
+    -> [(noun, position)]."""
+    out = []
+    for m in RE_ANA.finditer(text):
+        before = (m.group(1) or "").strip().lower()
+        after = (m.group(3) or "").strip().lower()
+        if before in ANA_VERBS or after in ANA_AFTER:
+            continue
+        out.append((noun_key(m.group(2)), m.start()))
+    return out
 
 
 def build_question(doc, q, nxt_start, rows_q, last):
     parts = q["parts"]
     end = nxt_start
     if last and q.get("last_mark"):
-        end = (q["last_mark"][0], q["last_mark"][1] + 3.0)
+        # the last question ends at the foot of the page that holds its last [mark]
+        # (above the small-print copyright paragraph, if that page carries it)
+        lp = q["last_mark"][0]
+        bot = content_bottom(doc[lp]) + 2.0
+        for b in doc[lp].get_text("dict")["blocks"]:
+            for l in b.get("lines", []):
+                if RE_BOILER.search("".join(sp["text"] for sp in l["spans"])) and l["bbox"][1] > q["last_mark"][1]:
+                    bot = min(bot, l["bbox"][1] - 2)
+        end = (lp, max(bot, q["last_mark"][1] + 3.0))
     first = parts[0]["start"] if parts else end
     stem = span(doc, q["start"], first) if parts and first != q["start"] else []
     if parts and first[0] == q["start"][0] and abs(first[1] - q["start"][1]) < 3:
@@ -335,14 +377,22 @@ def build_question(doc, q, nxt_start, rows_q, last):
         else:
             order.append((L["label"] or "Q", L["full_text"], L["full_ids"]))
     first_def = {}
+    all_ids = sorted({x for _, _, ids in order for x in ids})
     for where, t, ids in order:
-        for x in ids:
-            first_def.setdefault("I:" + x, where)
+        # an identifier is defined where its name first appears, in code or in ordinary text
+        for x in all_ids:
+            if "I:" + x in first_def:
+                continue
+            # a distinctive name (TwoHumps, WITH_UNDERSCORE, File.txt) also counts where it
+            # appears in ordinary text; a plain word (Name, Index) only where it is set as code
+            distinctive = bool(re.search(r"[a-z0-9][A-Z]|_|\.|\d", x)) or (x.isupper() and len(x) >= 3)
+            if x in ids or (distinctive and re.search(rf"(?<![A-Za-z0-9_]){re.escape(x)}(?![A-Za-z0-9_])", t)):
+                first_def["I:" + x] = where
         for lab in refs_in(t, qn)["labels"]:
             first_def.setdefault("L:" + lab, where)
         low = t.lower()
-        for n in set(re.findall(rf"\b({NOUNS})\b", low)):
-            first_def.setdefault("N:" + n, where)
+        for n in set(re.findall(rf"\b({NOUNS})(?:s|es)?\b", low)):
+            first_def.setdefault("N:" + noun_key(n), where)
     return {"n": qn, "total": q["total"], "stem": stem, "stem_text": stem_text, "stem_ids": stem_ids,
             "stem_refs": refs_in(stem_text, qn), "letters": letters, "captions": {}, "cap_site": {}, "blocks": {},
             "first_def": first_def,

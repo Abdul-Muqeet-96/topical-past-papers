@@ -24,7 +24,7 @@ SYL = jload(work("syllabus.json"))
 TOPICS = OrderedDict((int(k), v) for k, v in SYL["units"].items())
 SECTIONS = dict(SYL["sections"])
 LOS = SYL["los"]
-MAX_CTX_H = 700
+MAX_CTX_H = 744        # one page of the book ("about one page")
 EXCLUDE_CODES = {"X": "no clear match in the 2027-29 learning outcomes",
                  "PR": "needs the pre-release material (not part of the paper)"}
 

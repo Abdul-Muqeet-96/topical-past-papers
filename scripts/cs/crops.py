@@ -13,7 +13,7 @@ import re
 from collections import OrderedDict
 import numpy as np
 import pymupdf
-from parse import page_lines, GAP_MAX_W
+from parse import page_lines, GAP_MAX_W, doc_key
 from extract import content_bottom, RE_DOTS, mono_lines
 
 RE_DOTRUN = re.compile(r"[.…]{5,}")
@@ -76,7 +76,7 @@ _CACHE = OrderedDict()
 
 
 def _gray(page):
-    key = (id(page.parent), page.number)
+    key = (doc_key(page.parent), page.number)
     if key in _CACHE:
         _CACHE.move_to_end(key)
         return _CACHE[key]
@@ -256,7 +256,7 @@ def figure_spans(page):
     monospace lines), or a table / diagram (a cluster of drawings and images
     with the text inside it). Bands inside one range are never split across
     pages (λ-cs/CLAUDE-cs.md, CS-specific context rules)."""
-    key = (id(page.parent), page.number)
+    key = (doc_key(page.parent), page.number)
     if key in _FIG:
         return _FIG[key]
     top, bot = page_top(page), content_bottom(page)
