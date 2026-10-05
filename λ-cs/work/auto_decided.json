@@ -1,0 +1,87 @@
+[
+ {
+  "item": "Tooling",
+  "issue": "`pip` is not installed on this machine; PyMuPDF 1.28.2, numpy 2.5.3 and qpdf 12.4.2 are already present; Pillow is not",
+  "action": "Nothing to install. Page renders for inspection are made with PyMuPDF only (`scripts/cs/render_pages.py`)"
+ },
+ {
+  "item": "Fonts",
+  "issue": "Liberation Sans (used by the Chemistry book) is not installed",
+  "action": "Generated text (cover, headers, references, index) uses Noto Sans; `layout.py` picks Liberation Sans when it is present"
+ },
+ {
+  "item": "Downloads: series attempted",
+  "issue": "The spec lists s22, every March series and w26 as not on the site",
+  "action": "All of them were still requested (so each is logged as unavailable): m21-m26 (variants 12, 22), s22, w26. All answer with a redirect, not a PDF"
+ },
+ {
+  "item": "Downloads: w22",
+  "issue": "O/N 2022 (9618) is on the site although the spec's list of found series does not name it",
+  "action": "Downloaded, header-verified and included like the other series (spec: verify every paper by download)"
+ },
+ {
+  "item": "Download-site watermark",
+  "issue": "The 9618 PDFs carry the site's tiled logo and a footer block (rule, site name, invisible lines ending in a trace ID)",
+  "action": "Stripped in memory when a file is loaded (`parse.strip_watermark`); the files in data/ are left untouched"
+ },
+ {
+  "item": "Paper check 2",
+  "issue": "9618 papers print no [Total: n] per question",
+  "action": "The part [marks] must add up to the cover total (75); a printed [Total: n] would also be checked. A question ends where the next one starts; the last question ends just below its last [mark]"
+ },
+ {
+  "item": "Reading [marks]",
+  "issue": "Bracketed numbers also occur inside questions (array elements such as `Sales[4]`, trace-table headings)",
+  "action": "Only a `[n]` right-aligned at the right-hand margin counts as a mark"
+ },
+ {
+  "item": "Dotted lines",
+  "issue": "CS papers use dots both for answer lines and for gaps inside code, sentences and table cells that the candidate must fill",
+  "action": "Answer lines (a run at least 250 pt wide, or running to the right-hand margin on a line with little other text) are removed from the picture and the text layer. Short runs inside code, a sentence or a table cell are kept as printed"
+ },
+ {
+  "item": "Mark-scheme reader",
+  "issue": "The Chemistry reader treats the word \"Total\" in the answer column as a total row; CS answers contain identifiers named `Total`",
+  "action": "That rule is removed for CS (9618 mark schemes print no question totals)"
+ },
+ {
+  "item": "Identifier rule",
+  "issue": "The spec asks for the part that defines an identifier to be shown with any item that uses it",
+  "action": "Identifiers are found from the text layer: words set in the monospace font (character advance 0.6 em) that are not keywords, built-in functions or literals, plus `Name()`, CamelCase, `UPPER_SNAKE` and `File.txt` names in ordinary text. The definition site is the first part of the question, in paper order, that uses the name; an item using it gets that part as context (question crop only)"
+ },
+ {
+  "item": "Scenario nouns",
+  "issue": "Papers do not number figures or tables; a later part says \"the algorithm\", \"this flowchart\", \"the company\" about something an earlier part introduced",
+  "action": "When an item uses \"the/this/these <noun>\" for a noun that neither the stem nor the item introduces, the earlier part that first has the noun is added as context. Very general nouns (data, user, computer, program, table, file ...) are not treated this way"
+ },
+ {
+  "item": "Insert: which items",
+  "issue": "Every 9618 Paper 2 prints \"Refer to the insert for the list of pseudocode functions and operators\" once, above Question 1; that line is not part of any item",
+  "action": "The insert note or inline pages go to an item whose own text refers to the insert, and to an item that uses a function its own insert defines and the Appendix copy does not (LCASE, UCASE, NOW in 2021). All other items rely on the Appendix"
+ },
+ {
+  "item": "Insert: text comparison",
+  "issue": "The 2024-25 inserts differ from the 2026 insert only by a colon after one \"Example\" and a full stop after \"records\"",
+  "action": "\"Matches in text\" ignores punctuation at the end of a word (and white space, footers and the copyright paragraph). M/J 24, M/J 25, O/N 25 and M/J 26 inserts match the Appendix copy; 2021, 2022, 2023 and O/N 24 inserts differ"
+ },
+ {
+  "item": "Appendix (P2 book)",
+  "issue": "\"The insert of the newest paper\": the three M/J 26 inserts have the same text",
+  "action": "The insert of M/J 26/P23 is used (newest series, highest variant, as in the Chemistry build)"
+ },
+ {
+  "item": "Figures",
+  "issue": "The spec asks that code, tables, trace tables and diagrams never split across pages; CS papers print no captions",
+  "action": "A figure is a run of consecutive monospace lines or a cluster of drawings/images with the text inside it; all its crop bands are kept on one page. Only a figure taller than a page can break"
+ },
+ {
+  "item": "Tags",
+  "issue": "The spec asks for unit, section and learning outcome per part",
+  "action": "Learning outcomes are the \"Candidates should be able to\" statements of `λ-cs/cs-syllabus.pdf`, extracted by `scripts/cs/syllabus.py` and numbered in print order (1.2.3 = third outcome of section 1.2). A tag is one such id"
+ },
+ {
+  "item": "items.jsonl",
+  "issue": "The book serves a student and Claude teaching the student",
+  "action": "Besides the Chemistry fields, each line also has the sections, learning-outcome ids, answer page and the answer text from the mark scheme's text layer"
+ }
+]

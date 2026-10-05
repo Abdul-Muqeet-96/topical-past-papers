@@ -1,0 +1,8 @@
+{
+ "stages": {
+  "0": "done"
+ },
+ "notes": {
+  "0": "branch claude/cs-9618-booklets; PyMuPDF 1.28.2, numpy 2.5.3, qpdf 12.4.2 present (no pip on this machine, nothing to install); scripts/ copied to scripts/cs/ and adapted (codes 9618/9608, variants 1x/2x, inserts, paper total 75, two books, chemistry-only rules removed); syllabus LOs extracted to work/syllabus.json; λ-cs/layout.md written"
+ }
+}
