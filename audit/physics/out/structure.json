@@ -1,0 +1,27 @@
+{
+"contents_entries": 24,
+"contents_match": true,
+"unit_names": [
+"Physical quantities and units",
+"Kinematics",
+"Dynamics",
+"Forces, density and pressure",
+"Work, energy and power",
+"Deformation of solids",
+"Waves",
+"Superposition",
+"Electricity",
+"D.C. circuits",
+"Particle physics"
+],
+"pages_bad_header": 0,
+"bad_header_examples": [],
+"pages_bad_number": 0,
+"branding_hits": [],
+"newest_first_violations": 0,
+"order_examples": [],
+"bookmarks": 25,
+"bookmarks_ok": true,
+"appendix_has_data_and_formulae": true,
+"contents_fail": []
+}

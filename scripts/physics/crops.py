@@ -22,7 +22,7 @@ X0, X1 = 40, 556   # standard QP content clip
 XMIN, XMAX = 26, 574   # widest clip, used only where ink sits in the margins (A-004)
 TOP = 52
 Z = 2.0               # render zoom for ink analysis
-INK = 170             # grey level below which a pixel is ink
+INK = 235             # grey level below which a pixel is content (pale grey fills of figures count: physics fix)
 PAD = 2.0             # band padding (A-013)
 
 

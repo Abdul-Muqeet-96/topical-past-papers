@@ -124,8 +124,44 @@ def booklet_bands(bd, regions, wos):
         x0 = BX0 + cols[0] / z - 2 if len(cols) else 40
         x1 = BX0 + (cols[-1] + 1) / z + 2 if len(cols) else 556
         b = Band(p0, y0, y1, w, x0=max(BX0, x0), x1=min(BX1, x1))
+        if BUILD_DOCS:
+            # text layer without the whited-out words: own-heading tails whited out in this band -> copy
+            # with tails removed too; otherwise the copy with only the booklet headings removed
+            own_tail = any(r[5:] == ["t"] and r[0] == p0 and r[2] < y1 and r[4] > y0 for r in wos)
+            b.src = BUILD_DOCS["t" if own_tail else "h"]
         out.append(b)
     return out
+
+
+BUILD_DOCS = {}
+
+
+def booklet_build_docs():
+    """In-memory copies of booklet-ocr.pdf for cropping: the invisible OCR text of the booklet's own item
+    headings (always hidden in the book) is removed ("h"), and in the second copy also the words of a
+    previous item's mark that are whited out at the top of the next item ("t"). The scan is untouched."""
+    I = json.load(open(os.path.join(WORK, "booklet_items.json")))
+    rects = defaultdict(lambda: {"h": [], "t": []})
+    for it in I:
+        for r in it.get("whiteouts", []) + it.get("answer_whiteouts", []):
+            kind = r[5] if len(r) > 5 else "h"
+            # a thin band through the middle of the word: the invisible glyph boxes of the lines above
+            # and below (taller than the OCR word boxes) must not be touched
+            c = (r[2] + r[4]) / 2
+            rects[r[0]][kind].append(pymupdf.Rect(r[1] + 1.5, c - 1.0, r[3] - 1.5, c + 1.0))
+    for kind in ("h", "t"):
+        d = pymupdf.open(BOOKLET_PDF)
+        for p0, rr in rects.items():
+            use = rr["h"] + (rr["t"] if kind == "t" else [])
+            if not use:
+                continue
+            pg = d[p0]
+            for r in use:
+                pg.add_redact_annot(r)
+            pg.apply_redactions(images=pymupdf.PDF_REDACT_IMAGE_NONE, graphics=pymupdf.PDF_REDACT_LINE_ART_NONE,
+                                text=pymupdf.PDF_REDACT_TEXT_REMOVE)
+        BUILD_DOCS[kind] = d
+    return BUILD_DOCS
 
 
 def booklet_entries():
@@ -377,6 +413,7 @@ def item_text_booklet(it):
 def build(outdir):
     docs = Docs()
     bd = pymupdf.open(BOOKLET_PDF)
+    booklet_build_docs()
     items = json.load(open(os.path.join(WORK, "items_partb.json")))
     parts = json.load(open(os.path.join(WORK, "parts_partb.json")))
     for it in items:
@@ -395,7 +432,7 @@ def build(outdir):
     byears = sorted({i["year"] for i in bitems})
     stats = [f"Official papers: {len(papers)} ({papers[0][3]} to {papers[-1][3]}), {len(items)} items, "
              f"{sum(i['marks'] for i in items)} marks",
-             f"Booklet: {len(bitems)} items from {byears[0]}–{byears[-1]} papers (Read and Write booklet scan)",
+             f"Booklet: {len(bitems)} items from {byears[0]}–{byears[-1]} papers (scanned topical booklet)",
              f"{len(items) + len(bitems)} items across {len(by_unit)} units"]
     out = pymupdf.open()
     cover(out, stats)

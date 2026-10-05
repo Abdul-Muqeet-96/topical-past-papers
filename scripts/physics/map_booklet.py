@@ -15,7 +15,7 @@ from collections import defaultdict, Counter
 import numpy as np
 import pymupdf
 sys.path.insert(0, os.path.dirname(__file__))
-from booklet_lines import vlines
+from booklet_lines import vlines, words
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 SRC = os.path.join(ROOT, "Ω-physics", "Physics paper 2 9702 3.pdf")
@@ -209,9 +209,11 @@ def heading_candidates(pno, info):
         while len(ws) > 2 and re.fullmatch(r"[,;:|.'`]+", ws[-1]["text"]):
             ws.pop()
         txt = " ".join(w["text"] for w in ws)
-        tail = [w for w in l["words"] if w["x0"] > ws[-1]["x1"] + 30]     # previous item's mark / dots
+        # previous item's mark / dot leader printed on the heading line (a lone speck is not one)
+        tail = [w for w in l["words"] if w["x0"] > ws[-1]["x1"] + 30 and re.search(r"\d|[.…]{3,}", w["text"])]
         hx1 = ws[-1]["x1"]
         hy1 = max(w["y1"] for w in ws)
+        hwords = [[w["x0"], w["y0"], w["x1"], w["y1"]] for w in ws]
         m = RE_NUM.match(w0)
         if m and len(ws) == 1 and li + 1 < len(L) and L[li + 1]["y0"] - l["y1"] < 12 \
                 and parse_ref(L[li + 1]["text"]) and L[li + 1]["x0"] < l["x1"] + 40:
@@ -222,8 +224,11 @@ def heading_candidates(pno, info):
             consumed.add(li + 1)
             tail = [w for w in l["words"][1:] if w["x0"] > ws[0]["x1"] + 30] + \
                 [w for w in nl["words"] if w["x0"] > nl["x0"] + 200]
+            tail = [w for w in tail if re.search(r"\d|[.…]{3,}", w["text"])]
             hx1 = max(ws[0]["x1"], max([w["x1"] for w in nl["words"] if w["x0"] <= nl["x0"] + 200] or [0]))
             hy1 = max([ws[0]["y1"]] + [w["y1"] for w in nl["words"] if w["x0"] <= nl["x0"] + 200])
+            hwords = [[w["x0"], w["y0"], w["x1"], w["y1"]] for w in [ws[0]] + [w for w in nl["words"]
+                                                                              if w["x0"] <= nl["x0"] + 200]]
         elif m:
             n, rest = int(m.group(1)), " ".join(w["text"] for w in ws[1:])
         else:
@@ -238,7 +243,7 @@ def heading_candidates(pno, info):
             r0 = parse_ref(txt)
             if r0 and not r0["pre"] and l["x0"] <= left + 40 and re.match(r"^\S{1,4}\s*\d", txt):
                 out.append({"pdf": pno, "n": None, "y0": l["y0"], "y1": l["y1"], "x0": l["x0"], "x1": l["x1"],
-                            "ocr": txt, "parsed": r0, "no_number": True, "hx1": hx1, "hy1": hy1,
+                            "ocr": txt, "parsed": r0, "no_number": True, "hx1": hx1, "hy1": hy1, "hwords": hwords,
                             "tail": [[w["x0"], w["y0"], w["x1"], w["y1"]] for w in tail]})
             continue
         if l["x0"] > left + 22:          # skewed scans drift by up to ~15 pt down a page
@@ -247,7 +252,7 @@ def heading_candidates(pno, info):
         looks = bool(re.search(r"(M\s*\S?\s*/?\s*J|O\s*\S?\s*/?\s*N|MAR)\s*\S{2}\s*/|/\s*P\s*\S{2}|/\s*Q\s*\d", rest))
         if ref or looks:
             out.append({"pdf": pno, "n": n, "y0": l["y0"], "y1": l["y1"], "x0": l["x0"], "x1": l["x1"],
-                        "ocr": rest, "parsed": ref, "hx1": hx1, "hy1": hy1,
+                        "ocr": rest, "parsed": ref, "hx1": hx1, "hy1": hy1, "hwords": hwords,
                         "tail": [[w["x0"], w["y0"], w["x1"], w["y1"]] for w in tail]})
     return out
 
@@ -287,6 +292,9 @@ def main():
     for pg in pages:
         if pg.get("contents_unit"):
             pg["unit"], pg["role"] = pg["contents_unit"], pg["contents_role"]
+        ws = words(pg["pdf"])
+        if any(w["text"] == "BLANK" for w in ws) and any(w["text"] == "PAGE" for w in ws) and len(ws) < 25:
+            pg["role"] = "blank"            # a blank page of the booklet is never part of an item
     # headings
     secs = defaultdict(list)          # (unit, role) -> pages
     for pg in pages:
@@ -344,16 +352,38 @@ def main():
                     end = (pa, 842)
                     break
         wos = []
+        box = lambda b, pad=1.0: [b[0] - pad, b[1] - pad, b[2] + pad, b[3] + pad]
         nh = seq[i + 1] if i + 1 < len(seq) else None
         if nh is not None and nh.get("tail") and end == (nh["pdf"], nh["y0"] - 2):
             # the next heading's line also carries the end of this item (its last mark / dots):
             # take that line and white out the next heading itself
             ty1 = max(t[3] for t in nh["tail"]) + 1.5
             end = (nh["pdf"], ty1)
-            wos.append([nh["pdf"] - 1, 0, nh["y0"] - 2.5, nh.get("hx1", nh["x1"]) + 4, ty1 + 1])
-        # the crop starts below the booklet's own heading line ("n. reference"): the book prints its
-        # own number and the reference above the crop (one numbering per unit)
-        hstart = max(h.get("hy1", h["y1"]), max([t[3] for t in h.get("tail", [])] or [0])) + 1.0
+            wos += [[nh["pdf"] - 1] + box(b) + ["h"] for b in nh.get("hwords", [])]
+        elif nh is not None and end == (nh["pdf"], nh["y0"] - 2):
+            # last line of this item lower than the next heading's top (skewed scan): take its full
+            # height and white out the next heading's words that come inside
+            last = [w for w in words(nh["pdf"]) if (w["y0"] + w["y1"]) / 2 < nh["y0"] - 1 and w["y1"] > end[1]
+                    and w["y1"] - w["y0"] < 16 and w["y1"] <= nh["y0"] + 5
+                    and not any(abs(w["x0"] - b[0]) < 0.5 and abs(w["y0"] - b[1]) < 0.5 for b in nh.get("hwords", []))]
+            if last:
+                end = (nh["pdf"], max(w["y1"] for w in last) + 1.0)
+                wos += [[nh["pdf"] - 1] + box(b) + ["h"] for b in nh.get("hwords", []) if b[1] - 1 < end[1]]
+        # the crop starts at the first line under the booklet's own heading ("n. reference"); the heading
+        # (and a previous item's mark on its line) is whited out: the book prints its own number and the
+        # reference above the crop (one numbering per unit). Starting at the first line's own top keeps
+        # skewed lines whole.
+        base = max(h.get("hy1", h["y1"]), max([t[3] for t in h.get("tail", [])] or [0]))
+        hstart = base + 1.0
+        below = [w for w in words(h["pdf"]) if (w["y0"] + w["y1"]) / 2 > base + 1 and w["y0"] < base + 25]
+        if below:
+            c0 = min((w["y0"] + w["y1"]) / 2 for w in below)
+            first = [w for w in below if (w["y0"] + w["y1"]) / 2 < c0 + 7]
+            ftop = min(w["y0"] for w in first) - 1.0
+            if ftop < hstart:
+                hstart = ftop
+                wos += [[h["pdf"] - 1] + box(b) + ["h"] for b in h.get("hwords", [])]
+                wos += [[h["pdf"] - 1] + box(t) + ["t"] for t in h.get("tail", [])]
         regs = []
         for p in range(h["pdf"], end[0] + 1):
             if p not in pl:

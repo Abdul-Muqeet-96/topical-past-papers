@@ -1,0 +1,188 @@
+{
+"papers": {
+"m24_22": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"m25_22": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"m26_22": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {
+"5": [
+14,
+12
+]
+},
+"pipeline_excluded": null
+},
+"s24_21": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"s24_22": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"s24_23": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"s25_21": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"s25_22": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"s25_23": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"s25_24": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"s26_22": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"s26_23": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"s26_24": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"w23_21": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"w23_22": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"w23_23": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"w24_21": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"w24_22": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"w24_23": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"w25_21": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"w25_22": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+},
+"w25_23": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": "question paper identical to O/N 25/P21 (same text for every question; official files carry different codes) - duplicate not repeated"
+},
+"w25_24": {
+"seq_ok": true,
+"totals_ok": true,
+"grand": 60,
+"ms_mismatch": {},
+"pipeline_excluded": null
+}
+},
+"fail": [
+[
+"m26_22",
+"MS codes != QP total",
+{
+"5": [
+14,
+12
+]
+}
+]
+],
+"coverage": {
+"covered": 708
+},
+"missing": [],
+"dupes": [],
+"marks_fail": []
+}

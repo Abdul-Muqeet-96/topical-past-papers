@@ -145,7 +145,7 @@ class Flow:
             tx0 = ML + indent
             r = pymupdf.Rect(tx0, self.y, tx0 + (x1 - x0) * s, self.y + h)
             clip = pymupdf.Rect(x0, b.y0, x1, b.y1)
-            self.page.show_pdf_page(r, src, b.page, clip=clip)
+            self.page.show_pdf_page(r, getattr(b, "src", None) or src, b.page, clip=clip)
             for wo in b.whiteouts:
                 wr = pymupdf.Rect(tx0 + (wo.x0 - x0) * s, self.y + (wo.y0 - b.y0) * s,
                                   tx0 + (wo.x1 - x0) * s, self.y + (wo.y1 - b.y0) * s) & r
