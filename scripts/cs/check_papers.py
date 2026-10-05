@@ -62,6 +62,15 @@ def check(pid, ent):
         res["ms_text_layout"] = True
     res["ms_label_fixes"] = [[a, b] for a, b in parse.MS_TYPOS] + \
         [[o, n] for _, o, n in fix_ms_rows(rows, qs) if o != n]
+    # an MS row labelled one level deeper than the question paper goes ('5(a)(i)' where 5(a) has no
+    # sub-parts) is the answer of that part; logged, nothing is changed
+    for q in qs:
+        leaves = {m["label"] for m in q["marks"]}
+        for r in rows:
+            if r["q"] == q["n"] and r["part"] and r["part"] not in leaves:
+                up = [l for l in leaves if l and r["part"].startswith(l)]
+                if up:
+                    res.setdefault("ms_label_notes", []).append([r["label"], f"{q['n']}{up[0]}"])
     nums = [q["n"] for q in qs]
     if not nums:
         res["paper_excluded"] = "no questions found in QP text layer"

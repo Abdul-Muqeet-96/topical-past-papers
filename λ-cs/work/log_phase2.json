@@ -371,7 +371,7 @@
    "action": "excluded"
   },
   {
-   "ref": "O/N 16/P11/Q4/i",
+   "ref": "O/N 16/P11/Q4/(i)",
    "issue": "no clear match in the 2027-29 learning outcomes",
    "action": "excluded (rest of the lettered part kept)"
   },
@@ -396,7 +396,7 @@
    "action": "excluded"
   },
   {
-   "ref": "O/N 16/P13/Q4/i",
+   "ref": "O/N 16/P13/Q4/(i)",
    "issue": "no clear match in the 2027-29 learning outcomes",
    "action": "excluded (rest of the lettered part kept)"
   },
@@ -633,7 +633,7 @@
    "ref": "M/J 15/P21/Q4",
    "groups": [
     [
-     "M/J 15/P21/Q4/i",
+     "M/J 15/P21/Q4/(i)",
      11
     ],
     [
@@ -659,7 +659,7 @@
    "ref": "M/J 15/P22/Q4",
    "groups": [
     [
-     "M/J 15/P22/Q4/i",
+     "M/J 15/P22/Q4/(i)",
      11
     ],
     [
@@ -685,7 +685,7 @@
    "ref": "M/J 15/P23/Q3",
    "groups": [
     [
-     "M/J 15/P23/Q3/i",
+     "M/J 15/P23/Q3/(i)",
      12
     ],
     [
@@ -1152,7 +1152,7 @@
    "ref": "O/N 16/P11/Q4",
    "groups": [
     [
-     "O/N 16/P11/Q4/i",
+     "O/N 16/P11/Q4/(i)",
      null
     ],
     [
@@ -1169,7 +1169,7 @@
    "ref": "O/N 16/P13/Q4",
    "groups": [
     [
-     "O/N 16/P13/Q4/i",
+     "O/N 16/P13/Q4/(i)",
      null
     ],
     [
@@ -1465,6 +1465,21 @@
    "why": "'the programmer'"
   },
   {
+   "ref": "M/J 15/P23/Q5/b",
+   "part": "(a)#intro",
+   "why": "identifier ProductionData"
+  },
+  {
+   "ref": "M/J 15/P23/Q5/c",
+   "part": "(a)#intro",
+   "why": "identifier ProductionData"
+  },
+  {
+   "ref": "M/J 15/P23/Q5/c",
+   "part": "(b)",
+   "why": "identifier DailyHoursWorked"
+  },
+  {
    "ref": "M/J 16/P21/Q3/b(ii)",
    "part": "(a)",
    "why": "identifier NewChar"
@@ -1565,15 +1580,6 @@
    "by": {
     "9": 3,
     "10": 7
-   }
-  },
-  {
-   "ref": "M/J 15/P23/Q5/a,b,c",
-   "why": "context of M/J 15/P23/Q5/c would exceed one page (769 pt): kept with the parts it depends on",
-   "by": {
-    "10": 5,
-    "12": 8,
-    "11": 8
    }
   },
   {
@@ -1952,68 +1958,6 @@
    "ref": "O/N 19/P23/Q2/c",
    "unit": 5,
    "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  }
- ],
- "auto": [
-  {
-   "ref": "M/J 15/P23/Q5/a,b,c",
-   "issue": "topic marks tie {10: 5, 12: 8, 11: 8}",
-   "action": "filed under topic 12 (topic of first part)"
-  },
-  {
-   "ref": "M/J 18/P21/Q1/b",
-   "issue": "topic marks tie {11: 5, 10: 5}",
-   "action": "filed under topic 11 (topic of first sub-part)"
-  },
-  {
-   "ref": "M/J 18/P22/Q1/b",
-   "issue": "topic marks tie {11: 5, 10: 5}",
-   "action": "filed under topic 11 (topic of first sub-part)"
-  },
-  {
-   "ref": "M/J 18/P23/Q1/b",
-   "issue": "topic marks tie {11: 5, 10: 5}",
-   "action": "filed under topic 11 (topic of first sub-part)"
-  },
-  {
-   "ref": "M/J 19/P23/Q1/b",
-   "issue": "topic marks tie {11: 5, 10: 5}",
-   "action": "filed under topic 11 (topic of first sub-part)"
-  },
-  {
-   "ref": "M/J 20/P21/Q2/b",
-   "issue": "topic marks tie {12: 4, 11: 4}",
-   "action": "filed under topic 12 (topic of first sub-part)"
-  },
-  {
-   "ref": "9608 M/J 21/P21/Q2/a,b",
-   "issue": "same-unit parts could not be merged into one item",
-   "action": "kept as separate items"
-  },
-  {
-   "ref": "9608 M/J 21/P23/Q1/b",
-   "issue": "topic marks tie {11: 2, 10: 2}",
-   "action": "filed under topic 11 (topic of first sub-part)"
-  },
-  {
-   "ref": "O/N 15/P21/Q8/c,d",
-   "issue": "same-unit parts could not be merged into one item",
-   "action": "kept as separate items"
-  },
-  {
-   "ref": "O/N 15/P23/Q8/c,d",
-   "issue": "same-unit parts could not be merged into one item",
-   "action": "kept as separate items"
-  },
-  {
-   "ref": "O/N 18/P22/Q1/b",
-   "issue": "topic marks tie {10: 5, 11: 5}",
-   "action": "filed under topic 10 (topic of first sub-part)"
-  },
-  {
-   "ref": "O/N 18/P23/Q1/b",
-   "issue": "topic marks tie {10: 5, 11: 5}",
-   "action": "filed under topic 10 (topic of first sub-part)"
   }
  ],
  "insert": [
@@ -2444,6 +2388,18 @@
      "qp",
      "9608_s21_qp_21.pdf",
      22
+    ]
+   ]
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q2/a,b",
+   "mode": "inline",
+   "why": "uses LCASE (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s21_qp_21.pdf",
+     21
     ]
    ]
   },
@@ -2931,16 +2887,56 @@
    ]
   }
  ],
- "excluded": [
+ "auto": [
   {
-   "ref": "9608 M/J 21/P21/Q2/a",
-   "issue": "item [marks] 5 != MS marks 0",
-   "action": "excluded"
+   "ref": "M/J 18/P21/Q1/b",
+   "issue": "topic marks tie {11: 5, 10: 5}",
+   "action": "filed under topic 11 (topic of first sub-part)"
   },
   {
-   "ref": "9608 M/J 21/P21/Q2/b",
-   "issue": "context exceeds one page (1038 pt)",
-   "action": "excluded"
+   "ref": "M/J 18/P22/Q1/b",
+   "issue": "topic marks tie {11: 5, 10: 5}",
+   "action": "filed under topic 11 (topic of first sub-part)"
+  },
+  {
+   "ref": "M/J 18/P23/Q1/b",
+   "issue": "topic marks tie {11: 5, 10: 5}",
+   "action": "filed under topic 11 (topic of first sub-part)"
+  },
+  {
+   "ref": "M/J 19/P23/Q1/b",
+   "issue": "topic marks tie {11: 5, 10: 5}",
+   "action": "filed under topic 11 (topic of first sub-part)"
+  },
+  {
+   "ref": "M/J 20/P21/Q2/b",
+   "issue": "topic marks tie {12: 4, 11: 4}",
+   "action": "filed under topic 12 (topic of first sub-part)"
+  },
+  {
+   "ref": "9608 M/J 21/P23/Q1/b",
+   "issue": "topic marks tie {11: 2, 10: 2}",
+   "action": "filed under topic 11 (topic of first sub-part)"
+  },
+  {
+   "ref": "O/N 15/P21/Q8/c,d",
+   "issue": "same-unit parts could not be merged into one item",
+   "action": "kept as separate items"
+  },
+  {
+   "ref": "O/N 15/P23/Q8/c,d",
+   "issue": "same-unit parts could not be merged into one item",
+   "action": "kept as separate items"
+  },
+  {
+   "ref": "O/N 18/P22/Q1/b",
+   "issue": "topic marks tie {10: 5, 11: 5}",
+   "action": "filed under topic 10 (topic of first sub-part)"
+  },
+  {
+   "ref": "O/N 18/P23/Q1/b",
+   "issue": "topic marks tie {10: 5, 11: 5}",
+   "action": "filed under topic 10 (topic of first sub-part)"
   }
  ],
  "coverage_gaps": [
@@ -3370,16 +3366,6 @@
    "(b)"
   ],
   [
-   "9608_s21_21",
-   2,
-   "(a)"
-  ],
-  [
-   "9608_s21_21",
-   2,
-   "(b)"
-  ],
-  [
    "9608_w15_11",
    3,
    "(b)(ii)"
@@ -3671,5 +3657,6 @@
   ]
  ],
  "coverage_dupes": [],
+ "excluded": [],
  "pre_release": []
 }

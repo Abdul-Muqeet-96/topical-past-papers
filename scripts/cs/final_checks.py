@@ -6,7 +6,7 @@ from collections import defaultdict
 import pymupdf
 sys.path.insert(0, os.path.dirname(__file__))
 from items import resolve, marks, _L
-from assemble import ref_units
+from assemble import ref_units, register_roman_only
 from paths import OUT, BOOK_FILE, work, jload, jdump
 
 
@@ -19,6 +19,7 @@ def main(phases):
     n_items = 0
     for ph in phases:
         P = jload(work(f"parts_{ph}.json"))
+        register_roman_only(P)
         I = jload(work(f"items_{ph}.json"))
         L = jload(work(f"log_{ph}.json"))
         excluded = {e["ref"] for e in L["excluded"] + L["out_of_syllabus"] + L["pre_release"]}
@@ -66,6 +67,8 @@ def main(phases):
                                 ok = True
                             elif e.startswith(lref + "(") and rom in e[len(lref) + 1:-1].split(","):
                                 ok = True
+                            elif e.startswith(lref + "/(") and rom in e[len(lref) + 2:-1].split(","):
+                                ok = True          # romans directly under the question: Q4/(iii,iv)
                             elif e.startswith(lref.rsplit("/", 1)[0] + "/") and _covers(e, Lt["letter"], rom):
                                 ok = True
                         if not ok:

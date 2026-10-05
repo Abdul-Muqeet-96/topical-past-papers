@@ -349,7 +349,8 @@ def build_question(doc, q, nxt_start, rows_q, last):
         L["marks"] = sum(v for k, v in mk.items() if k.startswith(lab)) if lab else sum(mk.values())
         L["own_marks"] = mk.get(lab, 0)
         L["ms_marks"] = sum(v for k, v in msm.items() if k.startswith(lab)) if lab else sum(msm.values())
-        L["ms_rows"] = [r for k in sorted(msrows, key=lambda k: _order(k)) if (k.startswith(lab) if lab else True)
+        ro = not any(x["letter"] for x in letters)       # romans directly under the question number
+        L["ms_rows"] = [r for k in sorted(msrows, key=lambda k: _order(k, ro)) if (k.startswith(lab) if lab else True)
                         for r in msrows[k]]
         L["ms_letter_level"] = bool(lab) and lab in msrows and any(k != lab and k.startswith(lab) for k in mk)
         L["refs"] = refs_in(L["intro_text"], qn)
@@ -403,8 +404,8 @@ def build_question(doc, q, nxt_start, rows_q, last):
                                                                       for L in letters if L["label"]))}
 
 
-def _order(k):
-    m = re.match(r"\(([a-z])\)(?:\(([ivx]+)\))?", k)
+def _order(k, roman_only=False):
+    m = None if roman_only else re.match(r"\(([a-z])\)(?:\(([ivx]+)\))?", k)
     if not m:
         m2 = re.match(r"\(([ivx]+)\)", k)
         return (0, ROMANS.index(m2.group(1)) + 1 if m2 else 0)

@@ -49,17 +49,21 @@ All failures, exclusions and AUTO-DECIDED items, grouped by type, for both books
 | 3 downloaded MS files | Page 1 reads title variant 'Paper 2 Problem Solving & Programming Skills' instead of the spec's wording; code, paper number, series and document type match | Accepted and logged (spec: Header check) |
 | 6 downloaded MS files | Page 1 reads title variant 'Paper 2 Problem Solving & Programming' instead of the spec's wording; code, paper number, series and document type match | Accepted and logged (spec: Header check) |
 | 24 downloaded MS files | Page 1 reads title variant 'Paper 2 Written Paper' instead of the spec's wording; code, paper number, series and document type match | Accepted and logged (spec: Header check) |
+| M/J 20/P21 MS label "5(a)(i)" | The question paper has no sub-parts in 5(a) | The row is the answer of 5(a) (unambiguous) |
+| 9608 M/J 21/P21 MS label "2" | Typo in the mark scheme | Read as 2(a) (unambiguous) |
+| O/N 16/P11 MS label "5" | Typo in the mark scheme | Read as 5(i) (unambiguous) |
+| O/N 16/P13 MS label "5" | Typo in the mark scheme | Read as 5(i) (unambiguous) |
+| O/N 18/P22 MS label "1(a)(i)" | The question paper has no sub-parts in 1(a) | The row is the answer of 1(a) (unambiguous) |
+| O/N 18/P23 MS label "1(a)(i)" | The question paper has no sub-parts in 1(a) | The row is the answer of 1(a) (unambiguous) |
 | O/N 19/P13 MS label "3c" | Typo in the mark scheme | Read as 3(c) (unambiguous) |
 | M/J 21/P22/Q1/a | topic marks tie {10: 4, 11: 4} | filed under topic 10 (topic of first sub-part) |
 | M/J 26/P21/Q2/b | topic marks tie {5: 1, 12: 1} | filed under topic 5 (topic of first sub-part) |
 | M/J 26/P23/Q2/d | topic marks tie {5: 1, 12: 1} | filed under topic 5 (topic of first sub-part) |
-| M/J 15/P23/Q5/a,b,c | topic marks tie {10: 5, 12: 8, 11: 8} | filed under topic 12 (topic of first part) |
 | M/J 18/P21/Q1/b | topic marks tie {11: 5, 10: 5} | filed under topic 11 (topic of first sub-part) |
 | M/J 18/P22/Q1/b | topic marks tie {11: 5, 10: 5} | filed under topic 11 (topic of first sub-part) |
 | M/J 18/P23/Q1/b | topic marks tie {11: 5, 10: 5} | filed under topic 11 (topic of first sub-part) |
 | M/J 19/P23/Q1/b | topic marks tie {11: 5, 10: 5} | filed under topic 11 (topic of first sub-part) |
 | M/J 20/P21/Q2/b | topic marks tie {12: 4, 11: 4} | filed under topic 12 (topic of first sub-part) |
-| 9608 M/J 21/P21/Q2/a,b | same-unit parts could not be merged into one item | kept as separate items |
 | 9608 M/J 21/P23/Q1/b | topic marks tie {11: 2, 10: 2} | filed under topic 11 (topic of first sub-part) |
 | O/N 15/P21/Q8/c,d | same-unit parts could not be merged into one item | kept as separate items |
 | O/N 15/P23/Q8/c,d | same-unit parts could not be merged into one item | kept as separate items |
@@ -132,18 +136,15 @@ Checks: (1) every question number exactly once; (2) part [marks] add up to the c
 |---|---|---|---|
 | M/J 25/P12 | Q7 | MS marks 7 != QP marks 8 | question excluded |
 | M/J 15/P23 | Q1 | MS marks 7 != QP marks 9 | question excluded |
-| M/J 18/P21 | Q6 | MS marks 1 != QP marks 11 | question excluded |
-| M/J 18/P21 | Q7 | MS marks 0 != QP marks 7 | question excluded |
 | O/N 17/P21 | Q1 | MS marks 18 != QP marks 17 | question excluded |
 | O/N 17/P23 | Q1 | MS marks 18 != QP marks 17 | question excluded |
 
 - Phase 1 (9618): 60 papers checked, 60 pass, 0 excluded; 1 questions excluded.
-- Phase 2 (9608): 70 papers checked, 70 pass, 0 excluded; 5 questions excluded.
+- Phase 2 (9608): 70 papers checked, 70 pass, 0 excluded; 3 questions excluded.
 
 Causes (inspected):
 - M/J 25/P12 Q7 (9618): the mark-scheme row 7(b)(ii) prints no value in its Marks column (source defect), so the MS marks of Q7 are 7 against 8 in the question paper.
 - M/J 15/P23 Q1 (9608): the running-text mark scheme prints 7 marks for the question against 9 in the question paper (part (a) carries one [1] for a 3-mark part).
-- M/J 18/P21 Q6 and Q7 (9608): the rows 6(a)(i), 6(b) and 7 print no value in the Marks column.
 - O/N 17/P21 and P23 Q1 (9608, identical papers): the mark scheme prints 2 for part 1(a)(ii), the question paper [1].
 Nothing is patched: each of these questions is excluded.
 
@@ -158,8 +159,7 @@ Nothing is patched: each of these questions is excluded.
 
 | Item | Issue | Action |
 |---|---|---|
-| 9608 M/J 21/P21/Q2/a | item [marks] 5 != MS marks 0 | excluded |
-| 9608 M/J 21/P21/Q2/b | context exceeds one page (1038 pt) | excluded |
+| (none) | | |
 
 ## Out of syllabus (not clearly covered by the 2027-29 learning outcomes)
 
@@ -239,12 +239,12 @@ Nothing is patched: each of these questions is excluded.
 | O/N 15/P11/Q7/c | no clear match in the 2027-29 learning outcomes | excluded |
 | O/N 15/P13/Q3/b(ii) | no clear match in the 2027-29 learning outcomes | excluded (rest of the lettered part kept) |
 | O/N 15/P13/Q7/c | no clear match in the 2027-29 learning outcomes | excluded |
-| O/N 16/P11/Q4/i | no clear match in the 2027-29 learning outcomes | excluded (rest of the lettered part kept) |
+| O/N 16/P11/Q4/(i) | no clear match in the 2027-29 learning outcomes | excluded (rest of the lettered part kept) |
 | O/N 16/P11/Q4/(iii,iv) | no clear match in the 2027-29 learning outcomes | excluded (rest of the lettered part kept) |
 | O/N 16/P12/Q2/a | no clear match in the 2027-29 learning outcomes | excluded |
 | O/N 16/P12/Q2/b | no clear match in the 2027-29 learning outcomes | excluded |
 | O/N 16/P12/Q2/c | no clear match in the 2027-29 learning outcomes | excluded |
-| O/N 16/P13/Q4/i | no clear match in the 2027-29 learning outcomes | excluded (rest of the lettered part kept) |
+| O/N 16/P13/Q4/(i) | no clear match in the 2027-29 learning outcomes | excluded (rest of the lettered part kept) |
 | O/N 16/P13/Q4/(iii,iv) | no clear match in the 2027-29 learning outcomes | excluded (rest of the lettered part kept) |
 | O/N 16/P22/Q3/a | no clear match in the 2027-29 learning outcomes | excluded |
 | O/N 16/P22/Q3/b | no clear match in the 2027-29 learning outcomes | excluded |
@@ -342,7 +342,6 @@ A part is filed by its topic, not its paper (spec, Goal).
 | O/N 22/P22/Q2/a | (a)(ii) depends on sibling ['(a)(i)'] | {'9': 5, '10': 2} |
 | M/J 15/P21/Q5/e | context for ['(e)(i)'] exceeds one page | {'9': 3, '10': 7} |
 | M/J 15/P22/Q5/e | context for ['(e)(i)'] exceeds one page | {'9': 3, '10': 7} |
-| M/J 15/P23/Q5/a,b,c | context of M/J 15/P23/Q5/c would exceed one page (769 pt): kept with the parts it depends on | {'10': 5, '12': 8, '11': 8} |
 | M/J 16/P21/Q1/a | (a)(ii) depends on sibling ['(a)(i)'] | {'9': 6, '11': 8} |
 | M/J 16/P22/Q1/a | (a)(ii) depends on sibling ['(a)(i)'] | {'9': 6, '11': 8} |
 | M/J 16/P23/Q1/a | (a)(ii) depends on sibling ['(a)(i)'] | {'9': 6, '11': 8} |
@@ -406,11 +405,11 @@ A part is filed by its topic, not its paper (spec, Goal).
 - M/J 15/P11/Q5/c: M/J 15/P11/Q5/c(i) → unit 2; M/J 15/P11/Q5/c(ii) → unit None; M/J 15/P11/Q5/c(iii) → unit 2
 - M/J 15/P12/Q5/c: M/J 15/P12/Q5/c(i) → unit 2; M/J 15/P12/Q5/c(ii) → unit None; M/J 15/P12/Q5/c(iii) → unit 2
 - M/J 15/P21/Q1/b: M/J 15/P21/Q1/b(i) → unit 9; M/J 15/P21/Q1/b(ii) → unit 11
-- M/J 15/P21/Q4: M/J 15/P21/Q4/i → unit 11; M/J 15/P21/Q4/(ii) → unit 12
+- M/J 15/P21/Q4: M/J 15/P21/Q4/(i) → unit 11; M/J 15/P21/Q4/(ii) → unit 12
 - M/J 15/P22/Q1/b: M/J 15/P22/Q1/b(i) → unit 9; M/J 15/P22/Q1/b(ii) → unit 11
-- M/J 15/P22/Q4: M/J 15/P22/Q4/i → unit 11; M/J 15/P22/Q4/(ii) → unit 12
+- M/J 15/P22/Q4: M/J 15/P22/Q4/(i) → unit 11; M/J 15/P22/Q4/(ii) → unit 12
 - M/J 15/P23/Q2/b: M/J 15/P23/Q2/b(i) → unit 12; M/J 15/P23/Q2/b(ii) → unit 11
-- M/J 15/P23/Q3: M/J 15/P23/Q3/i → unit 12; M/J 15/P23/Q3/(ii) → unit 11
+- M/J 15/P23/Q3: M/J 15/P23/Q3/(i) → unit 12; M/J 15/P23/Q3/(ii) → unit 11
 - M/J 15/P23/Q4/b: M/J 15/P23/Q4/b(i) → unit 10; M/J 15/P23/Q4/b(ii) → unit 6; M/J 15/P23/Q4/b(iii,iv) → unit 10
 - M/J 16/P21/Q3/b: M/J 16/P21/Q3/b(i) → unit 10; M/J 16/P21/Q3/b(ii) → unit 11
 - M/J 16/P22/Q3/b: M/J 16/P22/Q3/b(i) → unit 10; M/J 16/P22/Q3/b(ii) → unit 11
@@ -445,8 +444,8 @@ A part is filed by its topic, not its paper (spec, Goal).
 - O/N 15/P22/Q5/a: O/N 15/P22/Q5/a(i) → unit 12; O/N 15/P22/Q5/a(ii) → unit 10; O/N 15/P22/Q5/a(iii) → unit 11
 - O/N 15/P22/Q6/b: O/N 15/P22/Q6/b(i) → unit 9; O/N 15/P22/Q6/b(ii) → unit 11
 - O/N 15/P22/Q7/b: O/N 15/P22/Q7/b(i) → unit 11; O/N 15/P22/Q7/b(ii) → unit 9
-- O/N 16/P11/Q4: O/N 16/P11/Q4/i → unit None; O/N 16/P11/Q4/(ii) → unit 3; O/N 16/P11/Q4/(iii,iv) → unit None
-- O/N 16/P13/Q4: O/N 16/P13/Q4/i → unit None; O/N 16/P13/Q4/(ii) → unit 3; O/N 16/P13/Q4/(iii,iv) → unit None
+- O/N 16/P11/Q4: O/N 16/P11/Q4/(i) → unit None; O/N 16/P11/Q4/(ii) → unit 3; O/N 16/P11/Q4/(iii,iv) → unit None
+- O/N 16/P13/Q4: O/N 16/P13/Q4/(i) → unit None; O/N 16/P13/Q4/(ii) → unit 3; O/N 16/P13/Q4/(iii,iv) → unit None
 - O/N 16/P22/Q5/b: O/N 16/P22/Q5/b(i) → unit 9; O/N 16/P22/Q5/b(ii,iii) → unit 10
 - O/N 16/P22/Q5/c: O/N 16/P22/Q5/c(i,ii) → unit 11; O/N 16/P22/Q5/c(iii) → unit 12
 - O/N 17/P22/Q1/a: O/N 17/P22/Q1/a(i,ii) → unit 10; O/N 17/P22/Q1/a(iii) → unit None
@@ -520,6 +519,7 @@ A part is filed by its topic, not its paper (spec, Goal).
 | M/J 20/P23/Q5/a,b(i) | this paper's insert inline (1 page(s)) | text refers to the Appendix; insert text differs from the Appendix |
 | 9608 M/J 21/P21/Q1/a | this paper's insert inline (2 page(s)) | text refers to the Appendix; insert text differs from the Appendix |
 | 9608 M/J 21/P21/Q1/c | this paper's insert inline (2 page(s)) | text refers to the Appendix; insert text differs from the Appendix |
+| 9608 M/J 21/P21/Q2/a,b | this paper's insert inline (1 page(s)) | uses LCASE (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix |
 | 9608 M/J 21/P21/Q4/a | this paper's insert inline (2 page(s)) | text refers to the Appendix; insert text differs from the Appendix |
 | 9608 M/J 21/P21/Q4/b | this paper's insert inline (2 page(s)) | text refers to the Appendix; insert text differs from the Appendix |
 | 9608 M/J 21/P21/Q4/c | this paper's insert inline (2 page(s)) | text refers to the Appendix; insert text differs from the Appendix |
@@ -559,7 +559,7 @@ A part is filed by its topic, not its paper (spec, Goal).
 
 Besides the stem and the lettered introduction (always shown), earlier parts were added as context for these reasons (count of context parts):
 
-- identifier rule: 25
+- identifier rule: 28
 - part reference: 24
 - scenario noun ("the ..."): 4
 
@@ -569,7 +569,7 @@ Besides the stem and the lettered introduction (always shown), earlier parts wer
 
 ## Final checks on the built books
 
-- Coverage: every lowest-level part of every included question appears in exactly one item, or is in an exclusion list above. Unexplained gaps: 4; duplicates: 0.
+- Coverage: every lowest-level part of every included question appears in exactly one item, or is in an exclusion list above. Unexplained gaps: 0; duplicates: 0.
 - Self-containment re-check (build resolver): 0 failures; context recomputed identically for every item (0 mismatches).
 - Marks re-check (item [marks] = MS marks): 0 failures.
 - Every item reference found on its indexed page: 0 misses; every item has an answer entry: 0 misses.

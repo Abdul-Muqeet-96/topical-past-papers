@@ -1,6 +1,6 @@
 [
 {
-"ref": "M/J 15/P11/Q1/i",
+"ref": "M/J 15/P11/Q1/(i)",
 "paper": "9608_s15_11",
 "q": 1,
 "part": "(i)",
@@ -384,7 +384,7 @@
 "code": "8.1.7"
 },
 {
-"ref": "M/J 15/P12/Q1/i",
+"ref": "M/J 15/P12/Q1/(i)",
 "paper": "9608_s15_12",
 "q": 1,
 "part": "(i)",
@@ -1236,7 +1236,7 @@
 "code": "12.2.1"
 },
 {
-"ref": "M/J 15/P21/Q4/i",
+"ref": "M/J 15/P21/Q4/(i)",
 "paper": "9608_s15_21",
 "q": 4,
 "part": "(i)",
@@ -1512,7 +1512,7 @@
 "code": "12.2.1"
 },
 {
-"ref": "M/J 15/P22/Q4/i",
+"ref": "M/J 15/P22/Q4/(i)",
 "paper": "9608_s15_22",
 "q": 4,
 "part": "(i)",
@@ -1680,7 +1680,7 @@
 "code": "11.2.1"
 },
 {
-"ref": "M/J 15/P23/Q3/i",
+"ref": "M/J 15/P23/Q3/(i)",
 "paper": "9608_s15_23",
 "q": 3,
 "part": "(i)",
@@ -6670,6 +6670,54 @@
 "justification": "10.3 Files: Write pseudocode to handle text files that consist of one or more lines",
 "marks": 9,
 "code": "10.3.2"
+},
+{
+"ref": "M/J 18/P21/Q6/a(i)",
+"paper": "9608_s18_21",
+"q": 6,
+"part": "(a)(i)",
+"unit": 10,
+"section": "10.2",
+"lo": "10.2.1",
+"justification": "10.2 Arrays: Use the technical terms associated with arrays",
+"marks": 2,
+"code": "10.2.1"
+},
+{
+"ref": "M/J 18/P21/Q6/a(ii)",
+"paper": "9608_s18_21",
+"q": 6,
+"part": "(a)(ii)",
+"unit": 10,
+"section": "10.2",
+"lo": "10.2.1",
+"justification": "10.2 Arrays: Use the technical terms associated with arrays",
+"marks": 1,
+"code": "10.2.1"
+},
+{
+"ref": "M/J 18/P21/Q6/b",
+"paper": "9608_s18_21",
+"q": 6,
+"part": "(b)",
+"unit": 10,
+"section": "10.2",
+"lo": "10.2.3",
+"justification": "10.2 Arrays: Write pseudocode for 1D and 2D arrays",
+"marks": 8,
+"code": "10.2.3"
+},
+{
+"ref": "M/J 18/P21/Q7",
+"paper": "9608_s18_21",
+"q": 7,
+"part": "",
+"unit": 11,
+"section": "11.3",
+"lo": "11.3.4",
+"justification": "11.3 Structured Programming: Define and use a function",
+"marks": 7,
+"code": "11.3.4"
 },
 {
 "ref": "M/J 18/P22/Q1/a",
@@ -12420,7 +12468,7 @@
 "code": "7.1.2"
 },
 {
-"ref": "O/N 15/P11/Q5/i",
+"ref": "O/N 15/P11/Q5/(i)",
 "paper": "9608_w15_11",
 "q": 5,
 "part": "(i)",
@@ -12732,7 +12780,7 @@
 "code": "7.1.2"
 },
 {
-"ref": "O/N 15/P13/Q5/i",
+"ref": "O/N 15/P13/Q5/(i)",
 "paper": "9608_w15_13",
 "q": 5,
 "part": "(i)",
@@ -12936,7 +12984,7 @@
 "code": "11.1.2"
 },
 {
-"ref": "O/N 15/P21/Q2/i",
+"ref": "O/N 15/P21/Q2/(i)",
 "paper": "9608_w15_21",
 "q": 2,
 "part": "(i)",
@@ -13260,7 +13308,7 @@
 "code": "12.3.8"
 },
 {
-"ref": "O/N 15/P22/Q1/i",
+"ref": "O/N 15/P22/Q1/(i)",
 "paper": "9608_w15_22",
 "q": 1,
 "part": "(i)",
@@ -13308,7 +13356,7 @@
 "code": "11.1.2"
 },
 {
-"ref": "O/N 15/P22/Q1/v",
+"ref": "O/N 15/P22/Q1/(v)",
 "paper": "9608_w15_22",
 "q": 1,
 "part": "(v)",
@@ -13620,7 +13668,7 @@
 "code": "11.1.2"
 },
 {
-"ref": "O/N 15/P23/Q2/i",
+"ref": "O/N 15/P23/Q2/(i)",
 "paper": "9608_w15_23",
 "q": 2,
 "part": "(i)",
@@ -14076,7 +14124,7 @@
 "code": "1.1.2"
 },
 {
-"ref": "O/N 16/P11/Q4/i",
+"ref": "O/N 16/P11/Q4/(i)",
 "paper": "9608_w16_11",
 "q": 4,
 "part": "(i)",
@@ -14124,7 +14172,7 @@
 "code": "X"
 },
 {
-"ref": "O/N 16/P11/Q5/i",
+"ref": "O/N 16/P11/Q5/(i)",
 "paper": "9608_w16_11",
 "q": 5,
 "part": "(i)",
@@ -14688,7 +14736,7 @@
 "code": "1.1.2"
 },
 {
-"ref": "O/N 16/P13/Q4/i",
+"ref": "O/N 16/P13/Q4/(i)",
 "paper": "9608_w16_13",
 "q": 4,
 "part": "(i)",
@@ -14736,7 +14784,7 @@
 "code": "X"
 },
 {
-"ref": "O/N 16/P13/Q5/i",
+"ref": "O/N 16/P13/Q5/(i)",
 "paper": "9608_w16_13",
 "q": 5,
 "part": "(i)",
@@ -15192,7 +15240,7 @@
 "code": "10.2.4"
 },
 {
-"ref": "O/N 16/P21/Q5/i",
+"ref": "O/N 16/P21/Q5/(i)",
 "paper": "9608_w16_21",
 "q": 5,
 "part": "(i)",
@@ -15240,7 +15288,7 @@
 "code": "11.1.2"
 },
 {
-"ref": "O/N 16/P21/Q5/v",
+"ref": "O/N 16/P21/Q5/(v)",
 "paper": "9608_w16_21",
 "q": 5,
 "part": "(v)",
@@ -15624,7 +15672,7 @@
 "code": "12.3.3"
 },
 {
-"ref": "O/N 16/P22/Q6/i",
+"ref": "O/N 16/P22/Q6/(i)",
 "paper": "9608_w16_22",
 "q": 6,
 "part": "(i)",
@@ -15672,7 +15720,7 @@
 "code": "11.1.2"
 },
 {
-"ref": "O/N 16/P22/Q6/v",
+"ref": "O/N 16/P22/Q6/(v)",
 "paper": "9608_w16_22",
 "q": 6,
 "part": "(v)",
@@ -15960,7 +16008,7 @@
 "code": "10.2.4"
 },
 {
-"ref": "O/N 16/P23/Q5/i",
+"ref": "O/N 16/P23/Q5/(i)",
 "paper": "9608_w16_23",
 "q": 5,
 "part": "(i)",
@@ -16008,7 +16056,7 @@
 "code": "11.1.2"
 },
 {
-"ref": "O/N 16/P23/Q5/v",
+"ref": "O/N 16/P23/Q5/(v)",
 "paper": "9608_w16_23",
 "q": 5,
 "part": "(v)",

@@ -104,13 +104,28 @@ def est_height(blocks):
     return h
 
 
+def _lead_height(bs):
+    """Height of the first band of a block, or of the figure it starts (bands of
+    one figure are placed together), at the scale the block is drawn at."""
+    w = max(b.x1 for b in bs) - min(b.x0 for b in bs)
+    sc = min(1.0, TW / w)
+    h, prev = 0.0, None
+    for b in bs:
+        if prev is not None and not (b.grp is not None and b.grp == bs[0].grp):
+            break
+        h += (min(b.y0 - prev.y1, 8) if prev is not None and prev.page == b.page else 0) * sc + b.h * sc
+        prev = b
+    return min(h, H - MB - MT - 20)
+
+
 def place_item(f, num, it, blocks, ref_pages):
     h = est_height(blocks) + (10 if it["also"] else 0) + (10 if it.get("insert") == "note" else 0)
     avail = H - MB - MT - 30
+    first = next((bs for _, _, bs in blocks if bs), [])
     if h > f.room() and h <= avail:
         f.new_page(f.header)
-    elif f.room() < 80:
-        f.new_page(f.header)
+    elif f.room() < 80 or (first and _lead_height(first) + 40 > f.room()):
+        f.new_page(f.header)          # the reference line must not be left alone at the foot of a page
     f.text(f"{num}.  {it['ref']}", size=10.5, bold=True, gap=2)
     ref_pages[it["ref"]] = f.page.number + 1
     at = also_text(it)
@@ -151,9 +166,9 @@ def place_answer(f, num, it, Q, md, ans_pages):
     x0 = min(s[1][0] for s in segs)
     x1 = max(s[1][2] for s in segs)
     bs = [Band(p, r[1], r[3]) for p, r in segs if r[3] - r[1] > 2]
-    first_h = (bs[0].h * min(1.0, TW / (x1 - x0))) if bs else 0
-    if f.room() < 30 + min(first_h, 200):
-        f.new_page(f.header)
+    first_h = min((bs[0].h * min(1.0, TW / (x1 - x0))) if bs else 0, H - MB - MT - 20)
+    if f.room() < 30 + first_h:
+        f.new_page(f.header)          # the reference line stays with the start of its answer
     f.text(f"{num}.  {it['ref']}", size=10.5, bold=True, gap=3)
     ans_pages[it["ref"]] = f.page.number + 1
     f.place_bands(md, bs, x0=x0, x1=x1)

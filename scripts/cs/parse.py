@@ -42,10 +42,19 @@ RE_MS_LABEL = re.compile(r"^(\d{1,2})((?:\([a-z]\))?)((?:\((?:i|ii|iii|iv|v|vi|v
 RE_WM = re.compile(rb"/FormXob\.pcm\s+Do")
 
 
+RE_WM_IMG = re.compile(rb"/QQAPIm\w+\s+Do")       # A-PDF Watermark images (corner ribbon, footer logo)
+RE_WM_I1 = re.compile(rb"/I1\s+Do")               # FPDF wrapper: the site's logo image
+
+
 def strip_watermark(d):
-    """Remove the download site's tiled watermark (Form XObject 'FormXob.pcm')
-    from every content stream, in memory only. Returns number of removals."""
+    """Remove the download site's marks from every content stream, in memory
+    only: the tiled watermark (Form XObject 'FormXob.pcm' and inline glyph
+    blocks), the footer block with the trace ID (9618 files), the corner ribbon
+    and footer logo images of the older files ('QQAPIm...' images; image 'I1'
+    drawn by the FPDF page wrapper). Returns number of removals."""
     n = 0
+    fpdf = (d.metadata.get("producer") or "").startswith("FPDF")
+    page_streams = {x for p in d for x in p.get_contents()} if fpdf else set()
     for x in range(1, d.xref_length()):
         try:
             if not d.xref_is_stream(x):
@@ -53,14 +62,20 @@ def strip_watermark(d):
             st = d.xref_stream(x)
         except Exception:
             continue
-        if not st or (b"FormXob.pcm" not in st and b"gRLs" not in st and b"Trace ID" not in st):
+        wrapper = fpdf and b"/I1" in st and (x in page_streams or re.match(rb"\s*2 J\s+0\.57 w", st))
+        if not st or (b"FormXob.pcm" not in st and b"gRLs" not in st and b"Trace ID" not in st
+                      and b"QQAPIm" not in st and not wrapper):
             continue
         new, k = RE_WM.subn(b"", st)
         new, k2 = _drop_wm_blocks(new)
         new, k3 = RE_WM_FOOT.subn(b"", new)
-        if k or k2 or k3:
+        new, k4 = RE_WM_IMG.subn(b"", new)
+        k5 = 0
+        if wrapper:          # the FPDF wrapper stream (page level or nested form)
+            new, k5 = RE_WM_I1.subn(b"", new)
+        if k or k2 or k3 or k4 or k5:
             d.update_stream(x, new)
-            n += k + k2 + k3
+            n += k + k2 + k3 + k4 + k5
     return n
 
 
@@ -891,7 +906,8 @@ def _marks_in(words, rect, mx0, mx1, bracket_only=False, pt_x=None):
                 lines.add(round(w[1]))
                 out.append(sum(int(x) for x in w[4].split("+")))
                 continue
-            m = re.fullmatch(r"\[(\d{1,2})\]" if bracket_only else r"\[?(\d{1,2})\]?", w[4])
+            # 'Max2' / 'MAX8' printed without a space is the row's mark too (9608 M/J 18 P21)
+            m = re.fullmatch(r"\[(\d{1,2})\]" if bracket_only else r"\[?(?:[Mm][Aa][Xx])?(\d{1,2})\]?", w[4])
             if m and round(w[1]) not in lines:
                 lines.add(round(w[1]))
                 out.append(int(m.group(1)))
@@ -950,6 +966,10 @@ def fix_ms_rows(rows, qs):
         bad = [r for r in rq if not known(r["part"])]
         missing = [l for l in qp if not any(r["part"] == l or l.startswith(r["part"]) and r["part"]
                                             or r["part"].startswith(l) for r in rq if known(r["part"]))]
+        # a row labelled with the question number alone although the question has parts: it is
+        # the one part that has no row of its own, when the marks agree (9608 M/J 21 P21 Q2)
+        if not bad and "" not in qp:
+            bad = [r for r in rq if r["part"] == "" and r["mark_total"] > 0]
         if len(bad) == 1 and len(missing) == 1 and bad[0]["mark_total"] == qp[missing[0]]:
             r = bad[0]
             old = r["label"]

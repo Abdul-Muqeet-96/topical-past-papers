@@ -64,6 +64,9 @@ def main():
         for pid, r in sorted(checks[ph].items()):
             for a, b in r.get("ms_label_fixes", []):
                 R.append(f"| {r['ref']} MS label \"{a}\" | Typo in the mark scheme | Read as {b} (unambiguous) |")
+            for a, b in r.get("ms_label_notes", []):
+                R.append(f"| {r['ref']} MS label \"{a}\" | The question paper has no sub-parts in {b} | "
+                         f"The row is the answer of {b} (unambiguous) |")
     for ph in logs:
         for a in logs[ph]["auto"]:
             R.append(f"| {a['ref']} | {a['issue']} | {a['action']} |")

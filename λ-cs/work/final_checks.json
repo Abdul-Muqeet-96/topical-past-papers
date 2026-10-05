@@ -1,10 +1,5 @@
 {
- "coverage_unexplained": [
-  "O/N 16/P11/Q4/(iii)",
-  "O/N 16/P11/Q4/(iv)",
-  "O/N 16/P13/Q4/(iii)",
-  "O/N 16/P13/Q4/(iv)"
- ],
+ "coverage_unexplained": [],
  "coverage_dupes": [],
  "selfcontained_fail": [],
  "ctx_mismatch": [],

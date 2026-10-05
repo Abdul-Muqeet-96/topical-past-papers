@@ -9915,7 +9915,7 @@
   "filed_unit": 12
  },
  {
-  "ref": "M/J 15/P21/Q4/i",
+  "ref": "M/J 15/P21/Q4/(i)",
   "paper": "9608_s15_21",
   "q": 4,
   "part": "(i)",
@@ -9926,7 +9926,7 @@
   "marks": 5,
   "code": "11.2.1",
   "phase": "phase2",
-  "item": "M/J 15/P21/Q4/i",
+  "item": "M/J 15/P21/Q4/(i)",
   "filed_unit": 11
  },
  {
@@ -10260,7 +10260,7 @@
   "filed_unit": 12
  },
  {
-  "ref": "M/J 15/P22/Q4/i",
+  "ref": "M/J 15/P22/Q4/(i)",
   "paper": "9608_s15_22",
   "q": 4,
   "part": "(i)",
@@ -10271,7 +10271,7 @@
   "marks": 5,
   "code": "11.2.1",
   "phase": "phase2",
-  "item": "M/J 15/P22/Q4/i",
+  "item": "M/J 15/P22/Q4/(i)",
   "filed_unit": 11
  },
  {
@@ -10470,7 +10470,7 @@
   "filed_unit": 11
  },
  {
-  "ref": "M/J 15/P23/Q3/i",
+  "ref": "M/J 15/P23/Q3/(i)",
   "paper": "9608_s15_23",
   "q": 3,
   "part": "(i)",
@@ -10481,7 +10481,7 @@
   "marks": 5,
   "code": "12.2.1",
   "phase": "phase2",
-  "item": "M/J 15/P23/Q3/i",
+  "item": "M/J 15/P23/Q3/(i)",
   "filed_unit": 12
  },
  {
@@ -10616,8 +10616,8 @@
   "marks": 2,
   "code": "10.2.1",
   "phase": "phase2",
-  "item": "M/J 15/P23/Q5/a,b,c",
-  "filed_unit": 12
+  "item": "M/J 15/P23/Q5/a",
+  "filed_unit": 10
  },
  {
   "ref": "M/J 15/P23/Q5/a(ii)",
@@ -10631,8 +10631,8 @@
   "marks": 1,
   "code": "10.2.1",
   "phase": "phase2",
-  "item": "M/J 15/P23/Q5/a,b,c",
-  "filed_unit": 12
+  "item": "M/J 15/P23/Q5/a",
+  "filed_unit": 10
  },
  {
   "ref": "M/J 15/P23/Q5/a(iii)",
@@ -10646,8 +10646,8 @@
   "marks": 2,
   "code": "10.2.3",
   "phase": "phase2",
-  "item": "M/J 15/P23/Q5/a,b,c",
-  "filed_unit": 12
+  "item": "M/J 15/P23/Q5/a",
+  "filed_unit": 10
  },
  {
   "ref": "M/J 15/P23/Q5/b",
@@ -10661,7 +10661,7 @@
   "marks": 8,
   "code": "12.3.4",
   "phase": "phase2",
-  "item": "M/J 15/P23/Q5/a,b,c",
+  "item": "M/J 15/P23/Q5/b",
   "filed_unit": 12
  },
  {
@@ -10676,8 +10676,8 @@
   "marks": 4,
   "code": "11.3.1",
   "phase": "phase2",
-  "item": "M/J 15/P23/Q5/a,b,c",
-  "filed_unit": 12
+  "item": "M/J 15/P23/Q5/c",
+  "filed_unit": 11
  },
  {
   "ref": "M/J 15/P23/Q5/c(ii)",
@@ -10691,8 +10691,8 @@
   "marks": 3,
   "code": "11.3.1",
   "phase": "phase2",
-  "item": "M/J 15/P23/Q5/a,b,c",
-  "filed_unit": 12
+  "item": "M/J 15/P23/Q5/c",
+  "filed_unit": 11
  },
  {
   "ref": "M/J 15/P23/Q5/c(iii)",
@@ -10706,8 +10706,8 @@
   "marks": 1,
   "code": "11.3.3",
   "phase": "phase2",
-  "item": "M/J 15/P23/Q5/a,b,c",
-  "filed_unit": 12
+  "item": "M/J 15/P23/Q5/c",
+  "filed_unit": 11
  },
  {
   "ref": "M/J 16/P21/Q1/a(i)",
@@ -12373,6 +12373,66 @@
   "phase": "phase2",
   "item": "M/J 18/P21/Q5/a,c",
   "filed_unit": 10
+ },
+ {
+  "ref": "M/J 18/P21/Q6/a(i)",
+  "paper": "9608_s18_21",
+  "q": 6,
+  "part": "(a)(i)",
+  "unit": 10,
+  "section": "10.2",
+  "lo": "10.2.1",
+  "justification": "10.2 Arrays: Use the technical terms associated with arrays",
+  "marks": 2,
+  "code": "10.2.1",
+  "phase": "phase2",
+  "item": "M/J 18/P21/Q6/a,b",
+  "filed_unit": 10
+ },
+ {
+  "ref": "M/J 18/P21/Q6/a(ii)",
+  "paper": "9608_s18_21",
+  "q": 6,
+  "part": "(a)(ii)",
+  "unit": 10,
+  "section": "10.2",
+  "lo": "10.2.1",
+  "justification": "10.2 Arrays: Use the technical terms associated with arrays",
+  "marks": 1,
+  "code": "10.2.1",
+  "phase": "phase2",
+  "item": "M/J 18/P21/Q6/a,b",
+  "filed_unit": 10
+ },
+ {
+  "ref": "M/J 18/P21/Q6/b",
+  "paper": "9608_s18_21",
+  "q": 6,
+  "part": "(b)",
+  "unit": 10,
+  "section": "10.2",
+  "lo": "10.2.3",
+  "justification": "10.2 Arrays: Write pseudocode for 1D and 2D arrays",
+  "marks": 8,
+  "code": "10.2.3",
+  "phase": "phase2",
+  "item": "M/J 18/P21/Q6/a,b",
+  "filed_unit": 10
+ },
+ {
+  "ref": "M/J 18/P21/Q7",
+  "paper": "9608_s18_21",
+  "q": 7,
+  "part": "",
+  "unit": 11,
+  "section": "11.3",
+  "lo": "11.3.4",
+  "justification": "11.3 Structured Programming: Define and use a function",
+  "marks": 7,
+  "code": "11.3.4",
+  "phase": "phase2",
+  "item": "M/J 18/P21/Q7",
+  "filed_unit": 11
  },
  {
   "ref": "M/J 18/P22/Q1/a",
@@ -14561,8 +14621,8 @@
   "marks": 5,
   "code": "9.2.7",
   "phase": "phase2",
-  "item": null,
-  "filed_unit": null
+  "item": "9608 M/J 21/P21/Q2/a,b",
+  "filed_unit": 9
  },
  {
   "ref": "9608 M/J 21/P21/Q2/b",
@@ -14576,8 +14636,8 @@
   "marks": 6,
   "code": "9.2.5",
   "phase": "phase2",
-  "item": null,
-  "filed_unit": null
+  "item": "9608 M/J 21/P21/Q2/a,b",
+  "filed_unit": 9
  },
  {
   "ref": "9608 M/J 21/P21/Q3/a",
@@ -15675,7 +15735,7 @@
   "filed_unit": 12
  },
  {
-  "ref": "O/N 15/P22/Q1/i",
+  "ref": "O/N 15/P22/Q1/(i)",
   "paper": "9608_w15_22",
   "q": 1,
   "part": "(i)",
@@ -15735,7 +15795,7 @@
   "filed_unit": 11
  },
  {
-  "ref": "O/N 15/P22/Q1/v",
+  "ref": "O/N 15/P22/Q1/(v)",
   "paper": "9608_w15_22",
   "q": 1,
   "part": "(v)",
@@ -16785,7 +16845,7 @@
   "filed_unit": 10
  },
  {
-  "ref": "O/N 16/P21/Q5/i",
+  "ref": "O/N 16/P21/Q5/(i)",
   "paper": "9608_w16_21",
   "q": 5,
   "part": "(i)",
@@ -16845,7 +16905,7 @@
   "filed_unit": 11
  },
  {
-  "ref": "O/N 16/P21/Q5/v",
+  "ref": "O/N 16/P21/Q5/(v)",
   "paper": "9608_w16_21",
   "q": 5,
   "part": "(v)",
@@ -17325,7 +17385,7 @@
   "filed_unit": 12
  },
  {
-  "ref": "O/N 16/P22/Q6/i",
+  "ref": "O/N 16/P22/Q6/(i)",
   "paper": "9608_w16_22",
   "q": 6,
   "part": "(i)",
@@ -17385,7 +17445,7 @@
   "filed_unit": 11
  },
  {
-  "ref": "O/N 16/P22/Q6/v",
+  "ref": "O/N 16/P22/Q6/(v)",
   "paper": "9608_w16_22",
   "q": 6,
   "part": "(v)",
@@ -17700,7 +17760,7 @@
   "filed_unit": 10
  },
  {
-  "ref": "O/N 16/P23/Q5/i",
+  "ref": "O/N 16/P23/Q5/(i)",
   "paper": "9608_w16_23",
   "q": 5,
   "part": "(i)",
@@ -17760,7 +17820,7 @@
   "filed_unit": 11
  },
  {
-  "ref": "O/N 16/P23/Q5/v",
+  "ref": "O/N 16/P23/Q5/(v)",
   "paper": "9608_w16_23",
   "q": 5,
   "part": "(v)",

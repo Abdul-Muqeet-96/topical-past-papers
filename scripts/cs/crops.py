@@ -156,6 +156,46 @@ def _dot_whiteouts(page, line_rect):
     return outs
 
 
+_BOX = {}
+
+
+def empty_boxes(page):
+    """Large bordered boxes with nothing inside: answer space for a drawing
+    (a flowchart, a diagram). They are empty writing space and are removed like
+    answer lines. A box with anything printed in it (labels, START/END, a grid)
+    is a figure or a table to complete and stays."""
+    key = (doc_key(page.parent), page.number)
+    if key in _BOX:
+        return _BOX[key]
+    a = _gray(page)
+    H, W = a.shape
+    out = []
+    for d in page.get_drawings():
+        r = d["rect"]
+        if r.width < 250 or r.height < 70 or r.width > 560 or r.x0 < XMIN or r.x1 > XMAX:
+            continue
+        if d.get("fill") not in (None, (1.0, 1.0, 1.0)):
+            continue
+        if len(d.get("items", [])) > 6:
+            continue          # not a plain rectangle
+        inset = 4
+        r0, r1 = int((r.y0 + inset) * Z), int((r.y1 - inset) * Z)
+        c0, c1 = int((r.x0 + inset) * Z), int((r.x1 - inset) * Z)
+        if r1 <= r0 or c1 <= c0 or r1 > H or c1 > W:
+            continue
+        if (a[r0:r1, c0:c1] < INK).any():
+            continue
+        # the border itself must be there (ink just outside the inset area)
+        edge = a[max(0, int((r.y0 - 2) * Z)):int((r.y0 + 2) * Z) + 1, c0:c1]
+        if not (edge < INK).any():
+            continue
+        out.append(pymupdf.Rect(r.x0 - 2, r.y0 - 2, r.x1 + 2, r.y1 + 2))
+    _BOX[key] = out
+    if len(_BOX) > 64:
+        _BOX.pop(next(iter(_BOX)))
+    return out
+
+
 def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
     page = doc[p]
     top, bot = page_top(page), content_bottom(page)
@@ -163,6 +203,7 @@ def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
     if ry1 - ry0 < 1:
         return []
     wos = [r for r in bottom_furniture(page) if r.y0 < ry1]
+    wos += [r for r in empty_boxes(page) if r.y0 < ry1 and r.y1 > ry0]
     words = page.get_text("words")
     # text cut by the region edges: a word of the previous part straddling the
     # top edge is whited out; a word of this part straddling the bottom edge

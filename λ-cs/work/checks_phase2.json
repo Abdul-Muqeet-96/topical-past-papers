@@ -1529,16 +1529,16 @@
    "6": {
     "total": null,
     "part_sum": 11,
-    "ms": 1,
-    "ok": false,
-    "why": "MS marks 1 != QP marks 11"
+    "ms": 11,
+    "ok": true,
+    "why": ""
    },
    "7": {
     "total": null,
     "part_sum": 7,
-    "ms": 0,
-    "ok": false,
-    "why": "MS marks 0 != QP marks 7"
+    "ms": 7,
+    "ok": true,
+    "why": ""
    }
   },
   "issues": [],
@@ -2367,6 +2367,12 @@
    ]
   },
   "ms_label_fixes": [],
+  "ms_label_notes": [
+   [
+    "5(a)(i)",
+    "5(a)"
+   ]
+  ],
   "question_numbers": [
    1,
    2,
@@ -2823,7 +2829,12 @@
    "unattached": [],
    "notes": []
   },
-  "ms_label_fixes": [],
+  "ms_label_fixes": [
+   [
+    "2",
+    "2(a)"
+   ]
+  ],
   "question_numbers": [
    1,
    2,
@@ -3471,7 +3482,12 @@
   },
   "issues": [],
   "ms_text_layout": true,
-  "ms_label_fixes": [],
+  "ms_label_fixes": [
+   [
+    "5",
+    "5(i)"
+   ]
+  ],
   "question_numbers": [
    1,
    2,
@@ -3637,7 +3653,12 @@
   },
   "issues": [],
   "ms_text_layout": true,
-  "ms_label_fixes": [],
+  "ms_label_fixes": [
+   [
+    "5",
+    "5(i)"
+   ]
+  ],
   "question_numbers": [
    1,
    2,
@@ -4410,6 +4431,12 @@
   },
   "issues": [],
   "ms_label_fixes": [],
+  "ms_label_notes": [
+   [
+    "1(a)(i)",
+    "1(a)"
+   ]
+  ],
   "question_numbers": [
    1,
    2,
@@ -4464,6 +4491,12 @@
   },
   "issues": [],
   "ms_label_fixes": [],
+  "ms_label_notes": [
+   [
+    "1(a)(i)",
+    "1(a)"
+   ]
+  ],
   "question_numbers": [
    1,
    2,

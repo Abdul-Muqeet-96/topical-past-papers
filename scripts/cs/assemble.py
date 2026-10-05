@@ -41,13 +41,25 @@ def topic_of(code):
     return None if code in EXCLUDE_CODES else int(code.split(".")[0])
 
 
+ROMAN_ONLY = set()     # (paper ref, question) whose sub-parts are romans directly under the question
+
+
+def register_roman_only(P):
+    for p in P.values():
+        for Q in p["questions"]:
+            if Q["letters"] and Q["letters"][0]["letter"] is None and Q["letters"][0]["romans"]:
+                ROMAN_ONLY.add((p["ref"], Q["n"]))
+
+
 def ref_units(paper_ref, q, units):
     """Reference in the Physics-booklet style (audit A-027, decision D1):
-    Q5/b, Q5/b(ii), Q3/b(ii,iii), Q3/a,b,c, Q6/a,b(i,ii,iii)."""
+    Q5/b, Q5/b(ii), Q3/b(ii,iii), Q3/a,b,c, Q6/a,b(i,ii,iii). A question whose
+    sub-parts are romans with no letter: Q4/(i), Q4/(iii,iv)."""
     groups = []          # [letter, [romans]] in paper order
+    ro = (paper_ref, q) in ROMAN_ONLY
     for u in units:
         lab = u.replace("#intro", "")
-        m = re.match(r"\(([a-z])\)(?:\(([ivx]+)\))?$", lab)
+        m = None if ro else re.match(r"\(([a-z])\)(?:\(([ivx]+)\))?$", lab)
         if not m:
             m2 = re.match(r"\(([ivx]+)\)$", lab)
             letter, roman = (None, m2.group(1)) if m2 else (None, None)
@@ -101,6 +113,7 @@ def majority(leaves):
 
 def assemble(phase):
     P = jload(work(f"parts_{phase}.json"))
+    register_roman_only(P)
     T = load_tags(phase)
     cx = Ctx()
     ins = inserts.Inserts()

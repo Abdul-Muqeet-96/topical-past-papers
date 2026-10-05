@@ -1478,7 +1478,7 @@
 ]
 },
 {
-"ref": "M/J 15/P21/Q4/i",
+"ref": "M/J 15/P21/Q4/(i)",
 "paper": "9608_s15_21",
 "paper_ref": "M/J 15/P21",
 "code": "9608",
@@ -1603,8 +1603,8 @@
 "9.2.2"
 ],
 "sections": [
-"10.2",
 "9.2",
+"10.2",
 "10.3"
 ],
 "insert": null,
@@ -1936,7 +1936,7 @@
 ]
 },
 {
-"ref": "M/J 15/P22/Q4/i",
+"ref": "M/J 15/P22/Q4/(i)",
 "paper": "9608_s15_22",
 "paper_ref": "M/J 15/P22",
 "code": "9608",
@@ -2061,8 +2061,8 @@
 "9.2.2"
 ],
 "sections": [
-"10.2",
 "9.2",
+"10.2",
 "10.3"
 ],
 "insert": null,
@@ -2259,7 +2259,7 @@
 ]
 },
 {
-"ref": "M/J 15/P23/Q3/i",
+"ref": "M/J 15/P23/Q3/(i)",
 "paper": "9608_s15_23",
 "paper_ref": "M/J 15/P23",
 "code": "9608",
@@ -2486,7 +2486,7 @@
 ]
 },
 {
-"ref": "M/J 15/P23/Q5/a,b,c",
+"ref": "M/J 15/P23/Q5/a",
 "paper": "9608_s15_23",
 "paper_ref": "M/J 15/P23",
 "code": "9608",
@@ -2496,40 +2496,26 @@
 "paper_no": 2,
 "q": 5,
 "units": [
-"(a)",
-"(b)",
-"(c)"
+"(a)"
 ],
 "book": 2,
-"topic": 12,
-"marks": 21,
+"topic": 10,
+"marks": 5,
 "by_topic": {
-"10": 5,
-"12": 8,
-"11": 8
+"10": 5
 },
-"also": {
-"10": 5,
-"11": 8
-},
+"also": {},
 "intros": [],
 "ctx_parts": [],
 "ctx_blocks": [],
-"flags": [
-"block"
-],
+"flags": [],
 "deps": [],
 "los": [
 "10.2.1",
-"10.2.3",
-"12.3.4",
-"11.3.1",
-"11.3.3"
+"10.2.3"
 ],
 "sections": [
-"10.2",
-"12.3",
-"11.3"
+"10.2"
 ],
 "insert": null,
 "insert_pages": [],
@@ -2540,6 +2526,96 @@
 -23,
 -5,
 0
+]
+},
+{
+"ref": "M/J 15/P23/Q5/b",
+"paper": "9608_s15_23",
+"paper_ref": "M/J 15/P23",
+"code": "9608",
+"year": 2015,
+"series": "s",
+"variant": 23,
+"paper_no": 2,
+"q": 5,
+"units": [
+"(b)"
+],
+"book": 2,
+"topic": 12,
+"marks": 8,
+"by_topic": {
+"12": 8
+},
+"also": {},
+"intros": [],
+"ctx_parts": [
+"(a)#intro"
+],
+"ctx_blocks": [],
+"flags": [],
+"deps": [],
+"los": [
+"12.3.4"
+],
+"sections": [
+"12.3"
+],
+"insert": null,
+"insert_pages": [],
+"sort": [
+2015,
+2,
+9608,
+-23,
+-5,
+-4
+]
+},
+{
+"ref": "M/J 15/P23/Q5/c",
+"paper": "9608_s15_23",
+"paper_ref": "M/J 15/P23",
+"code": "9608",
+"year": 2015,
+"series": "s",
+"variant": 23,
+"paper_no": 2,
+"q": 5,
+"units": [
+"(c)"
+],
+"book": 2,
+"topic": 11,
+"marks": 8,
+"by_topic": {
+"11": 8
+},
+"also": {},
+"intros": [],
+"ctx_parts": [
+"(a)#intro",
+"(b)"
+],
+"ctx_blocks": [],
+"flags": [],
+"deps": [],
+"los": [
+"11.3.1",
+"11.3.3"
+],
+"sections": [
+"11.3"
+],
+"insert": null,
+"insert_pages": [],
+"sort": [
+2015,
+2,
+9608,
+-23,
+-5,
+-5
 ]
 },
 {
@@ -8157,8 +8233,8 @@
 "10.1.1"
 ],
 "sections": [
-"11.1",
-"10.1"
+"10.1",
+"11.1"
 ],
 "insert": "inline",
 "insert_pages": [
@@ -8449,6 +8525,94 @@
 ]
 },
 {
+"ref": "M/J 18/P21/Q6/a,b",
+"paper": "9608_s18_21",
+"paper_ref": "M/J 18/P21",
+"code": "9608",
+"year": 2018,
+"series": "s",
+"variant": 21,
+"paper_no": 2,
+"q": 6,
+"units": [
+"(a)",
+"(b)"
+],
+"book": 2,
+"topic": 10,
+"marks": 11,
+"by_topic": {
+"10": 11
+},
+"also": {},
+"intros": [],
+"ctx_parts": [],
+"ctx_blocks": [],
+"flags": [
+"merged"
+],
+"deps": [],
+"los": [
+"10.2.1",
+"10.2.3"
+],
+"sections": [
+"10.2"
+],
+"insert": null,
+"insert_pages": [],
+"sort": [
+2018,
+2,
+9608,
+-21,
+-6,
+0
+]
+},
+{
+"ref": "M/J 18/P21/Q7",
+"paper": "9608_s18_21",
+"paper_ref": "M/J 18/P21",
+"code": "9608",
+"year": 2018,
+"series": "s",
+"variant": 21,
+"paper_no": 2,
+"q": 7,
+"units": [
+""
+],
+"book": 2,
+"topic": 11,
+"marks": 7,
+"by_topic": {
+"11": 7
+},
+"also": {},
+"intros": [],
+"ctx_parts": [],
+"ctx_blocks": [],
+"flags": [],
+"deps": [],
+"los": [
+"11.3.4"
+],
+"sections": [
+"11.3"
+],
+"insert": null,
+"insert_pages": [],
+"sort": [
+2018,
+2,
+9608,
+-21,
+-7,
+0
+]
+},
+{
 "ref": "M/J 18/P22/Q1/a",
 "paper": "9608_s18_22",
 "paper_ref": "M/J 18/P22",
@@ -8525,8 +8689,8 @@
 "10.1.1"
 ],
 "sections": [
-"11.1",
-"10.1"
+"10.1",
+"11.1"
 ],
 "insert": "inline",
 "insert_pages": [
@@ -9019,8 +9183,8 @@
 "10.1.1"
 ],
 "sections": [
-"11.1",
-"10.1"
+"10.1",
+"11.1"
 ],
 "insert": "inline",
 "insert_pages": [
@@ -11671,8 +11835,8 @@
 "10.1.1"
 ],
 "sections": [
-"11.1",
-"10.1"
+"10.1",
+"11.1"
 ],
 "insert": "inline",
 "insert_pages": [
@@ -13594,8 +13758,8 @@
 "11.2.1"
 ],
 "sections": [
-"12.2",
 "11.2",
+"12.2",
 "12.3"
 ],
 "insert": "inline",
@@ -16634,6 +16798,58 @@
 ]
 },
 {
+"ref": "9608 M/J 21/P21/Q2/a,b",
+"paper": "9608_s21_21",
+"paper_ref": "9608 M/J 21/P21",
+"code": "9608",
+"year": 2021,
+"series": "s",
+"variant": 21,
+"paper_no": 2,
+"q": 2,
+"units": [
+"(a)",
+"(b)"
+],
+"book": 2,
+"topic": 9,
+"marks": 11,
+"by_topic": {
+"9": 11
+},
+"also": {},
+"intros": [],
+"ctx_parts": [],
+"ctx_blocks": [],
+"flags": [
+"merged"
+],
+"deps": [],
+"los": [
+"9.2.7",
+"9.2.5"
+],
+"sections": [
+"9.2"
+],
+"insert": "inline",
+"insert_pages": [
+[
+"qp",
+"9608_s21_qp_21.pdf",
+21
+]
+],
+"sort": [
+2021,
+2,
+9608,
+-21,
+-2,
+0
+]
+},
+{
 "ref": "9608 M/J 21/P21/Q3/a,b",
 "paper": "9608_s21_21",
 "paper_ref": "9608 M/J 21/P21",
@@ -17725,8 +17941,8 @@
 ],
 "sections": [
 "11.1",
-"10.2",
-"11.2"
+"11.2",
+"10.2"
 ],
 "insert": "inline",
 "insert_pages": [
@@ -19827,8 +20043,8 @@
 ],
 "sections": [
 "11.1",
-"10.2",
 "11.2",
+"10.2",
 "11.3"
 ],
 "insert": null,
@@ -22438,8 +22654,8 @@
 "10.2.4"
 ],
 "sections": [
-"10.2",
 "12.2",
+"10.2",
 "10.3"
 ],
 "insert": null,
@@ -22594,8 +22810,8 @@
 "sections": [
 "11.1",
 "11.2",
-"12.3",
-"11.3"
+"11.3",
+"12.3"
 ],
 "insert": "inline",
 "insert_pages": [
@@ -23263,8 +23479,8 @@
 "10.2.4"
 ],
 "sections": [
-"10.2",
 "12.2",
+"10.2",
 "10.3"
 ],
 "insert": null,
@@ -24116,8 +24332,8 @@
 ],
 "sections": [
 "12.1",
-"10.2",
 "5.2",
+"10.2",
 "12.3"
 ],
 "insert": null,
@@ -24813,8 +25029,8 @@
 ],
 "sections": [
 "12.1",
-"10.2",
 "5.2",
+"10.2",
 "12.3"
 ],
 "insert": null,
@@ -26232,8 +26448,8 @@
 "11.1.3"
 ],
 "sections": [
-"11.1",
-"10.1"
+"10.1",
+"11.1"
 ],
 "insert": "inline",
 "insert_pages": [
@@ -26662,8 +26878,8 @@
 "11.1.3"
 ],
 "sections": [
-"11.1",
-"10.1"
+"10.1",
+"11.1"
 ],
 "insert": "inline",
 "insert_pages": [
