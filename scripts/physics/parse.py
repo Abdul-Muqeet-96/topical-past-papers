@@ -108,6 +108,11 @@ def content_scale(d):
     return k if abs(k - 1) > 0.03 else 1.0
 
 
+# runs of dots narrower than this are fill-in blanks of an equation, a nuclide or a table cell
+# ("......Th", "......%"), which show the student where to write; answer lines are far wider (physics fix)
+DOT_KEEP_W = 60
+
+
 def redact_dot_runs(d):
     """Remove answer-line glyphs (runs of 5+ dots) from the text layer itself,
     so the book's text layer holds no hidden '......' (audit A-020). Only the
@@ -123,6 +128,8 @@ def redact_dot_runs(d):
                     txt = "".join(c["c"] for c in cs)
                     for m in RE_DOTRUN.finditer(txt):
                         run = cs[m.start():m.end()]
+                        if run[-1]["bbox"][2] - run[0]["bbox"][0] < DOT_KEEP_W:
+                            continue        # a fill-in blank, not an answer line: kept (physics fix)
                         # a thin strip through the centres of the dot glyphs only: a box built from
                         # the glyph boxes (as tall as the line) can touch the boxes of a mark on the
                         # neighbouring line, which would then be removed too (physics fix)

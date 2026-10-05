@@ -13,7 +13,7 @@ import re
 from collections import OrderedDict
 import numpy as np
 import pymupdf
-from parse import page_lines
+from parse import page_lines, DOT_KEEP_W
 from extract import content_bottom, RE_DOTS
 
 RE_DOTRUN = re.compile(r"[.…]{5,}")
@@ -157,6 +157,8 @@ def _dot_whiteouts(page, line_rect):
                     cs = chars[m.start():m.end()]
                     x0 = min(c["bbox"][0] for c in cs)
                     x1 = max(c["bbox"][2] for c in cs)
+                    if x1 - x0 < DOT_KEEP_W:
+                        continue        # fill-in blank, kept (physics fix)
                     outs.append(pymupdf.Rect(x0 - 0.5, line_rect.y0 - 1, x1 + 0.5, line_rect.y1 + 1))
     return outs
 

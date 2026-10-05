@@ -146,7 +146,8 @@ for pg in range(1, idxp):
         if b['src'][0] != BOOKLET:
             tr = f.Rect(b['target'])
             for w in P.get_text('words', clip=tr):
-                if re.fullmatch(r'[.…]{6,}.*|.*[.…]{8,}', w[4]):
+                # fill-in blanks narrower than 60 pt (book scale) are kept on purpose (DOT_KEEP_W)
+                if re.fullmatch(r'[.…]{6,}.*|.*[.…]{8,}', w[4]) and w[2] - w[0] >= 60 * tr.width / (b['clip'][2] - b['clip'][0]):
                     ww = a[int(w[1] * Z):int(w[3] * Z), int(w[0] * Z):int(w[2] * Z)]
                     if ww.size and (ww < 160).mean() > 0.02:
                         R['dots'].append({'page': pg, 'ref': b['ref'], 'side': b['side'], 'word': w[4][:20]})

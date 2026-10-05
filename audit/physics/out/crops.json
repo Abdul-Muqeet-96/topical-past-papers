@@ -15602,66 +15602,6 @@
 "hfrac": 1
 },
 {
-"ref": "M/J 25/P22/Q7/a,b,c",
-"side": "Q",
-"unit": 11,
-"n": 9,
-"src": "9702_s25_qp_22.pdf",
-"srcpage": 17,
-"bookpages": [
-866
-],
-"booklet": false,
-"word": "......X",
-"vfrac": 0.85,
-"hfrac": 1
-},
-{
-"ref": "M/J 25/P22/Q7/a,b,c",
-"side": "Q",
-"unit": 11,
-"n": 9,
-"src": "9702_s25_qp_22.pdf",
-"srcpage": 17,
-"bookpages": [
-866
-],
-"booklet": false,
-"word": "...... Z",
-"vfrac": 0.85,
-"hfrac": 1
-},
-{
-"ref": "M/J 25/P22/Q7/a,b,c",
-"side": "Q",
-"unit": 11,
-"n": 9,
-"src": "9702_s25_qp_22.pdf",
-"srcpage": 17,
-"bookpages": [
-866
-],
-"booklet": false,
-"word": "...... .....",
-"vfrac": 0.85,
-"hfrac": 1
-},
-{
-"ref": "M/J 25/P22/Q7/a,b,c",
-"side": "Q",
-"unit": 11,
-"n": 9,
-"src": "9702_s25_qp_22.pdf",
-"srcpage": 17,
-"bookpages": [
-866
-],
-"booklet": false,
-"word": "...... .....",
-"vfrac": 0.85,
-"hfrac": 1
-},
-{
 "ref": "M/J 23/P22/Q8",
 "side": "Q",
 "unit": 11,
@@ -15764,36 +15704,6 @@
 "booklet": true,
 "word": "23/P22/Q7",
 "vfrac": 0.24,
-"hfrac": 1
-},
-{
-"ref": "O/N 22/P23/Q6",
-"side": "Q",
-"unit": 11,
-"n": 30,
-"src": "9702_w22_qp_23.pdf",
-"srcpage": 15,
-"bookpages": [
-883
-],
-"booklet": false,
-"word": ".......X",
-"vfrac": 0.87,
-"hfrac": 1
-},
-{
-"ref": "O/N 22/P23/Q6",
-"side": "Q",
-"unit": 11,
-"n": 30,
-"src": "9702_w22_qp_23.pdf",
-"srcpage": 15,
-"bookpages": [
-883
-],
-"booklet": false,
-"word": ".......e–",
-"vfrac": 0.86,
 "hfrac": 1
 },
 {
@@ -27338,18 +27248,24 @@
 "booklet": true
 }
 ],
-"dropped": [
+"dots": [
 {
-"ref": "M/J 26/P24/Q7/a,b",
-"unit": 11,
-"n": 3,
-"src": "9702_s26_qp_24.pdf",
-"srcpage": 16,
-"dropped_y": [
-417.0,
-436.0
-],
-"ink_px": 22
+"page": 862,
+"ref": "O/N 25/P21/Q6/a,b,c",
+"side": "Q",
+"word": "...... He"
+},
+{
+"page": 866,
+"ref": "M/J 25/P22/Q7/a,b,c",
+"side": "Q",
+"word": "...... ....."
+},
+{
+"page": 866,
+"ref": "M/J 25/P22/Q7/a,b,c",
+"side": "Q",
+"word": "...... ....."
 }
 ]
 }
