@@ -125,7 +125,7 @@ class Flow:
             if b.grp is not None and (prev is None or prev.grp != b.grp):
                 k = i
                 need = gap + h
-                while k + 1 < len(bands) and bands[k + 1].grp == b.grp:
+                while k + 1 < len(bands) and (bands[k + 1].grp == b.grp or _together(bands[k], bands[k + 1])):
                     need += _gap(bands[k], bands[k + 1]) * scale + min(bands[k + 1].h * scale, maxh)
                     k += 1
             if need > self.room() and need - gap <= maxh and prev is not None and \
@@ -178,7 +178,11 @@ def _together(a, b):
     the label line directly below it."""
     if getattr(a, "grp", None) is not None and a.grp == getattr(b, "grp", None):
         return True
-    if a.page != b.page or b.y0 - a.y1 > 14:
+    if a.page != b.page or b.y0 < a.y1:
+        return False
+    if a.h > 30 and getattr(b, "cap", False) and b.y0 - a.y1 <= 24:
+        return True         # a figure and its caption "Fig. n.m" (physics fix)
+    if b.y0 - a.y1 > 14:
         return False
     return (a.h < 18 and b.h > 30) or (a.h > 30 and b.h < 18)
 

@@ -23,13 +23,13 @@
 | 11 Particle physics | 23 (153) | 30 | 53 |
 | **Total** | **260 (1320)** | **366** | **626** |
 
-Book: 930 pages. Part B: 22 papers (24 attempted; s26 v21 has no mark scheme; O/N 25/P23 is identical to O/N 25/P21 and is not repeated).
+Book: 932 pages. Part B: 22 papers (24 attempted; s26 v21 has no mark scheme; O/N 25/P23 is identical to O/N 25/P21 and is not repeated).
 
 ## Files
 
 | File | Size |
 |---|---|
-| Ω-physics/p2-topical-workbook/Physics-9702-P2-Topical-Workbook.pdf (930 pages) | 36.3 MB |
+| Ω-physics/p2-topical-workbook/Physics-9702-P2-Topical-Workbook.pdf (932 pages) | 36.3 MB |
 | Ω-physics/p2-topical-workbook/units/Unit-01-Physical-quantities-and-units.pdf | 6.4 MB |
 | Ω-physics/p2-topical-workbook/units/Unit-02-Kinematics.pdf | 6.8 MB |
 | Ω-physics/p2-topical-workbook/units/Unit-03-Dynamics.pdf | 8.2 MB |

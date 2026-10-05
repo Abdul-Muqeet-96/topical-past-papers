@@ -32,6 +32,7 @@ class Band:
         self.whiteouts = whiteouts or []
         self.x0, self.x1 = x0, x1
         self.grp = None       # figure/table this band belongs to (kept on one page)
+        self.cap = False      # band opens with a figure/table caption
 
     @property
     def h(self):
@@ -252,6 +253,10 @@ def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
     for y0, y1, x0, x1 in ext_m:
         b = Band(p, y0, y1, x0=min(X0, x0 - 1.5), x1=max(X1, x1 + 1.5))
         b.whiteouts = [w for w in wos if w.y0 < b.y1 and w.y1 > b.y0]
+        # a band that opens with a figure/table caption ("Fig. 3.2", "Table 2.1") stays with the figure
+        # above it even when a mark on the next line makes it taller than one line (physics fix)
+        bw = sorted([w for w in wb if y0 <= (w[1] + w[3]) / 2 <= y1], key=lambda w: (round(w[1]), w[0]))
+        b.cap = bool(bw) and bw[0][4] in ("Fig.", "Figure", "Table") and b.h < 40
         if b.h > 1:
             out.append(b)
     return out

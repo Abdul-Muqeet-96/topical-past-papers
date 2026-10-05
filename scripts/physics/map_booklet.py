@@ -294,6 +294,7 @@ def heading_strip(h, first):
     return out
 
 
+INK_TAILS = []
 RE_MARKW = re.compile(r"[\[(|{]\s*\d{1,2}\s*[\])|}]?|\d{1,2}\s*[\])|}]")
 
 
@@ -454,6 +455,22 @@ def main():
             if last:
                 end = (nh["pdf"], max(w["y1"] for w in last) + 1.0)
                 wos += [[nh["pdf"] - 1] + box(b) + ["h"] for b in nh.get("hwords", []) if b[1] - 1 < end[1]]
+        if nh is not None and end[0] == nh["pdf"] and end[1] < nh["y0"]:
+            # ink right of the next heading that continues across this item's end (a mark '[n]' the OCR
+            # did not read, on the heading's line): take it whole and white out the next heading (physics fix)
+            rows(nh["pdf"])
+            g = gcache[nh["pdf"]][1]
+            x0 = max(nh.get("hx1", nh["x1"]), max([b[2] for b in nh.get("hwords", [])] or [0])) + 30
+            sub = (g[:, int(x0 * Z):int(XR * Z)] < INK).sum(axis=1) >= 3
+            r = int(end[1] * Z)
+            if r < len(sub) and sub[r - 1] and sub[r]:
+                while r < len(sub) and sub[r] and r / Z < nh["y1"] + 6:
+                    r += 1
+                if r / Z < nh["y1"] + 6:
+                    end = (nh["pdf"], r / Z + 1.0)
+                    wos += [[nh["pdf"] - 1] + box(b) + ["h"] for b in nh.get("hwords", [])
+                            if not any(w[:5] == [nh["pdf"] - 1] + box(b) for w in wos)]
+                    INK_TAILS.append((nh["pdf"], round(end[1], 1)))
         # the crop starts at the first line under the booklet's own heading ("n. reference"); the heading
         # (and a previous item's mark on its line) is whited out: the book prints its own number and the
         # reference above the crop (one numbering per unit). Starting at the first line's own top keeps
@@ -540,6 +557,7 @@ def main():
     print("headings: by OCR", sum(1 for s in seqs.values() for h in s if h.get("source") == "ocr"),
           "by image", sum(1 for s in seqs.values() for h in s if h.get("source") == "image"),
           "to read", len(to_read))
+    print("item ends extended over unread ink on the next heading's line:", len(INK_TAILS), INK_TAILS)
     print("sequence problems:", len(problems), "orphan answers:", len(orphan_answers),
           "items without answer:", sum(1 for it in items if "no_answer" in it["flags"]))
 
