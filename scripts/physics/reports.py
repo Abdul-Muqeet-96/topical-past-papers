@@ -86,6 +86,33 @@ def main():
     for a in log["auto"]:
         rows.append((a["ref"], a["issue"], a["action"]))
     rows += report_partA.auto_decided()
+    # ---------- final-audit fixes ----------
+    from build import MISFILED
+    for (u, n), why in MISFILED.items():
+        rows.append((f"Booklet Unit {u} #{n}", "The booklet files this question twice, once under an unrelated "
+                     "unit", f"Dropped the misfiled copy: {why}."))
+    gp = os.path.join(ROOT, "Ω-physics", "work", "gapfill.json")
+    if os.path.exists(gp):
+        G = json.load(open(gp))
+        for k, o in G["replace_q"].items():
+            rows.append((f"Booklet {k}", "Question runs into printed pages missing from the scan", "Question "
+                         f"cropped from the official paper ({o['qp']}, Q{o['q']}; header verified, part marks = "
+                         f"[Total] = MS marks = {o['marks']}); the booklet answer is kept. Grey note on the item."))
+        for k, o in G["replace_a"].items():
+            rows.append((f"Booklet {k}", "Answer missing from the scan or runs into missing pages", "Answer cropped "
+                         f"from the official mark scheme ({o['ms']}, Q{o['q']}, {o['marks']} marks; checks as "
+                         "above). Grey note on the answer."))
+        for o in G["lost"]:
+            rows.append((f"Booklet Unit {o['unit']} #{o['n']} {o['ref']}", "Question entirely on pages missing "
+                         "from the scan (only its answer survived)", f"Restored at its booklet position from the "
+                         f"official paper ({o['qp']}/{o['ms']}, Q{o['q']}, {o['marks']} marks; checks as above)."))
+        for f_ in G["failed"]:
+            rows.append((f"Booklet {f_[0]} {f_[1]}", "Gap could not be filled from the official paper", f_[3]))
+    rows.append(("Answer-line dot removal (2017-19 papers)", "The copied Chemistry rule removed dot glyphs with a "
+                 "box as tall as the line, which also removed some marks such as \"[2]\" on the next line in 11 "
+                 "physics papers", "Box narrowed to a thin strip through the dots' centres; every question paper "
+                 "now keeps all its non-dot text (checked on all 9702 and 9701 papers; the Chemistry book was not "
+                 "affected)."))
     R += [f"| {a} | {b} | {c} |" for a, b, c in rows]
     R.append("")
     # ---------- downloads ----------

@@ -248,14 +248,13 @@
 "pid": "w14_22",
 "printed": [
 1,
-1,
 2,
 1
 ],
-"printed_sum": 5,
+"printed_sum": 4,
 "official": 5,
 "official_q_total": null,
-"match": true
+"match": false
 },
 {
 "unit": 5,
@@ -548,12 +547,13 @@
 "printed": [
 2,
 1,
-3
+3,
+2
 ],
-"printed_sum": 6,
+"printed_sum": 8,
 "official": 8,
 "official_q_total": 8,
-"match": false
+"match": true
 },
 {
 "unit": 8,
@@ -730,12 +730,13 @@
 "printed": [
 1,
 3,
+2,
 2
 ],
-"printed_sum": 6,
+"printed_sum": 8,
 "official": 8,
 "official_q_total": 10,
-"match": false
+"match": true
 },
 {
 "unit": 10,
@@ -844,9 +845,9 @@
 2
 ],
 "printed_sum": 11,
-"official": 8,
+"official": 11,
 "official_q_total": 11,
-"match": false
+"match": true
 },
 {
 "unit": 11,
@@ -926,12 +927,13 @@
 "pid": "w20_21",
 "printed": [
 2,
+1,
 1
 ],
-"printed_sum": 3,
+"printed_sum": 4,
 "official": 4,
 "official_q_total": 7,
-"match": false
+"match": true
 },
 {
 "unit": 12,
@@ -946,9 +948,9 @@
 2
 ],
 "printed_sum": 7,
-"official": 5,
+"official": 7,
 "official_q_total": 7,
-"match": false
+"match": true
 },
 {
 "unit": 12,

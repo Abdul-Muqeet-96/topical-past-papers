@@ -23,29 +23,29 @@
 | 11 Particle physics | 23 (153) | 30 | 53 |
 | **Total** | **260 (1320)** | **366** | **626** |
 
-Book: 911 pages. Part B: 22 papers (24 attempted; s26 v21 has no mark scheme; O/N 25/P23 is identical to O/N 25/P21 and is not repeated).
+Book: 931 pages. Part B: 22 papers (24 attempted; s26 v21 has no mark scheme; O/N 25/P23 is identical to O/N 25/P21 and is not repeated).
 
 ## Files
 
 | File | Size |
 |---|---|
-| Ω-physics/p2-topical-workbook/Physics-9702-P2-Topical-Workbook.pdf (911 pages) | 31.3 MB |
+| Ω-physics/p2-topical-workbook/Physics-9702-P2-Topical-Workbook.pdf (931 pages) | 32.4 MB |
 | Ω-physics/p2-topical-workbook/units/Unit-01-Physical-quantities-and-units.pdf | 4.6 MB |
-| Ω-physics/p2-topical-workbook/units/Unit-02-Kinematics.pdf | 4.9 MB |
-| Ω-physics/p2-topical-workbook/units/Unit-03-Dynamics.pdf | 5.2 MB |
+| Ω-physics/p2-topical-workbook/units/Unit-02-Kinematics.pdf | 5.0 MB |
+| Ω-physics/p2-topical-workbook/units/Unit-03-Dynamics.pdf | 5.6 MB |
 | Ω-physics/p2-topical-workbook/units/Unit-04-Forces-density-and-pressure.pdf | 5.3 MB |
 | Ω-physics/p2-topical-workbook/units/Unit-05-Work-energy-and-power.pdf | 4.3 MB |
-| Ω-physics/p2-topical-workbook/units/Unit-06-Deformation-of-solids.pdf | 5.1 MB |
+| Ω-physics/p2-topical-workbook/units/Unit-06-Deformation-of-solids.pdf | 5.6 MB |
 | Ω-physics/p2-topical-workbook/units/Unit-07-Waves.pdf | 3.8 MB |
 | Ω-physics/p2-topical-workbook/units/Unit-08-Superposition.pdf | 5.1 MB |
 | Ω-physics/p2-topical-workbook/units/Unit-09-Electricity.pdf | 4.4 MB |
 | Ω-physics/p2-topical-workbook/units/Unit-10-DC-circuits.pdf | 4.6 MB |
-| Ω-physics/p2-topical-workbook/units/Unit-11-Particle-physics.pdf | 3.4 MB |
+| Ω-physics/p2-topical-workbook/units/Unit-11-Particle-physics.pdf | 3.6 MB |
 | Ω-physics/p2-topical-workbook/index.csv | 23 KB |
 | Ω-physics/p2-topical-workbook/items.jsonl | 1.1 MB |
 | Ω-physics/topics.json | 0.4 MB |
 | Ω-physics/booklet-ocr.pdf | 24.1 MB |
-| Ω-physics/report.md | 22 KB |
+| Ω-physics/report.md | 27 KB |
 
 No file exceeds 95 MB, so everything is pushed. Unit PDFs keep the book's page numbers (they match index.csv).
 

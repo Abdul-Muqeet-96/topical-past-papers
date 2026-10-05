@@ -1,1 +1,519 @@
-[]
+[
+{
+"kind": "in book not index.csv",
+"detail": [
+"O/N 15/P21/Q3",
+136,
+2,
+"official"
+]
+},
+{
+"kind": "in book not index.csv",
+"detail": [
+"O/N 15/P23/Q3",
+138,
+2,
+"official"
+]
+},
+{
+"kind": "in book not index.csv",
+"detail": [
+"M/J 19/P21/Q2",
+227,
+3,
+"official"
+]
+},
+{
+"kind": "in book not index.csv",
+"detail": [
+"MAR 19/P22/Q3",
+229,
+3,
+"official"
+]
+},
+{
+"kind": "in book not index.csv",
+"detail": [
+"O/N 18/P22/Q3",
+230,
+3,
+"official"
+]
+},
+{
+"kind": "in book not index.csv",
+"detail": [
+"O/N 18/P23/Q1",
+499,
+6,
+"official"
+]
+},
+{
+"kind": "in book not index.csv",
+"detail": [
+"M/J 18/P21/Q2",
+499,
+6,
+"official"
+]
+},
+{
+"kind": "in book not index.csv",
+"detail": [
+"MAR 23/P22/Q7",
+878,
+11,
+"official"
+]
+},
+{
+"kind": "in book not index.csv",
+"detail": [
+"O/N 22/P22/Q7",
+879,
+11,
+"official"
+]
+},
+{
+"kind": "in book not index.csv",
+"detail": [
+"O/N 22/P21/Q6",
+880,
+11,
+"official"
+]
+},
+{
+"kind": "in book not index.csv",
+"detail": [
+"O/N 22/P23/Q6",
+881,
+11,
+"official"
+]
+},
+{
+"kind": "in index.csv not book",
+"detail": [
+"MAR 23/P22/Q7",
+878,
+11,
+"booklet"
+]
+},
+{
+"kind": "in index.csv not book",
+"detail": [
+"O/N 22/P22/Q7",
+879,
+11,
+"booklet"
+]
+},
+{
+"kind": "in index.csv not book",
+"detail": [
+"O/N 22/P21/Q6",
+880,
+11,
+"booklet"
+]
+},
+{
+"kind": "in index.csv not book",
+"detail": [
+"O/N 22/P23/Q6",
+881,
+11,
+"booklet"
+]
+},
+{
+"kind": "in index.csv not book",
+"detail": [
+"M/J 19/P21/Q2",
+227,
+3,
+"booklet"
+]
+},
+{
+"kind": "in index.csv not book",
+"detail": [
+"MAR 19/P22/Q3",
+229,
+3,
+"booklet"
+]
+},
+{
+"kind": "in index.csv not book",
+"detail": [
+"O/N 18/P22/Q3",
+230,
+3,
+"booklet"
+]
+},
+{
+"kind": "in index.csv not book",
+"detail": [
+"O/N 18/P23/Q1",
+499,
+6,
+"booklet"
+]
+},
+{
+"kind": "in index.csv not book",
+"detail": [
+"M/J 18/P21/Q2",
+499,
+6,
+"booklet"
+]
+},
+{
+"kind": "in index.csv not book",
+"detail": [
+"O/N 15/P21/Q3",
+136,
+2,
+"booklet"
+]
+},
+{
+"kind": "in index.csv not book",
+"detail": [
+"O/N 15/P23/Q3",
+138,
+2,
+"booklet"
+]
+},
+{
+"kind": "in book not items.jsonl",
+"detail": [
+"O/N 15/P21/Q3",
+136,
+2,
+"official"
+]
+},
+{
+"kind": "in book not items.jsonl",
+"detail": [
+"O/N 15/P23/Q3",
+138,
+2,
+"official"
+]
+},
+{
+"kind": "in book not items.jsonl",
+"detail": [
+"M/J 19/P21/Q2",
+227,
+3,
+"official"
+]
+},
+{
+"kind": "in book not items.jsonl",
+"detail": [
+"MAR 19/P22/Q3",
+229,
+3,
+"official"
+]
+},
+{
+"kind": "in book not items.jsonl",
+"detail": [
+"O/N 18/P22/Q3",
+230,
+3,
+"official"
+]
+},
+{
+"kind": "in book not items.jsonl",
+"detail": [
+"O/N 18/P23/Q1",
+499,
+6,
+"official"
+]
+},
+{
+"kind": "in book not items.jsonl",
+"detail": [
+"M/J 18/P21/Q2",
+499,
+6,
+"official"
+]
+},
+{
+"kind": "in book not items.jsonl",
+"detail": [
+"MAR 23/P22/Q7",
+878,
+11,
+"official"
+]
+},
+{
+"kind": "in book not items.jsonl",
+"detail": [
+"O/N 22/P22/Q7",
+879,
+11,
+"official"
+]
+},
+{
+"kind": "in book not items.jsonl",
+"detail": [
+"O/N 22/P21/Q6",
+880,
+11,
+"official"
+]
+},
+{
+"kind": "in book not items.jsonl",
+"detail": [
+"O/N 22/P23/Q6",
+881,
+11,
+"official"
+]
+},
+{
+"kind": "in items.jsonl not book",
+"detail": [
+"MAR 23/P22/Q7",
+878,
+11,
+"booklet"
+]
+},
+{
+"kind": "in items.jsonl not book",
+"detail": [
+"O/N 22/P22/Q7",
+879,
+11,
+"booklet"
+]
+},
+{
+"kind": "in items.jsonl not book",
+"detail": [
+"O/N 22/P21/Q6",
+880,
+11,
+"booklet"
+]
+},
+{
+"kind": "in items.jsonl not book",
+"detail": [
+"O/N 22/P23/Q6",
+881,
+11,
+"booklet"
+]
+},
+{
+"kind": "in items.jsonl not book",
+"detail": [
+"M/J 19/P21/Q2",
+227,
+3,
+"booklet"
+]
+},
+{
+"kind": "in items.jsonl not book",
+"detail": [
+"MAR 19/P22/Q3",
+229,
+3,
+"booklet"
+]
+},
+{
+"kind": "in items.jsonl not book",
+"detail": [
+"O/N 18/P22/Q3",
+230,
+3,
+"booklet"
+]
+},
+{
+"kind": "in items.jsonl not book",
+"detail": [
+"O/N 18/P23/Q1",
+499,
+6,
+"booklet"
+]
+},
+{
+"kind": "in items.jsonl not book",
+"detail": [
+"M/J 18/P21/Q2",
+499,
+6,
+"booklet"
+]
+},
+{
+"kind": "in items.jsonl not book",
+"detail": [
+"O/N 15/P21/Q3",
+136,
+2,
+"booklet"
+]
+},
+{
+"kind": "in items.jsonl not book",
+"detail": [
+"O/N 15/P23/Q3",
+138,
+2,
+"booklet"
+]
+},
+{
+"kind": "booklet text not labelled OCR",
+"detail": "MAR 23/P22/Q7"
+},
+{
+"kind": "booklet text not labelled OCR",
+"detail": "O/N 22/P22/Q7"
+},
+{
+"kind": "booklet text not labelled OCR",
+"detail": "O/N 22/P21/Q6"
+},
+{
+"kind": "booklet text not labelled OCR",
+"detail": "O/N 22/P23/Q6"
+},
+{
+"kind": "booklet text not labelled OCR",
+"detail": "M/J 19/P21/Q2"
+},
+{
+"kind": "booklet text not labelled OCR",
+"detail": "MAR 19/P22/Q3"
+},
+{
+"kind": "booklet text not labelled OCR",
+"detail": "O/N 18/P22/Q3"
+},
+{
+"kind": "booklet text not labelled OCR",
+"detail": "O/N 18/P23/Q1"
+},
+{
+"kind": "booklet text not labelled OCR",
+"detail": "M/J 18/P21/Q2"
+},
+{
+"kind": "booklet text not labelled OCR",
+"detail": "O/N 15/P21/Q3"
+},
+{
+"kind": "booklet text not labelled OCR",
+"detail": "O/N 15/P23/Q3"
+},
+{
+"kind": "official item after booklet items",
+"detail": [
+2,
+"O/N 15/P21/Q3"
+]
+},
+{
+"kind": "official item after booklet items",
+"detail": [
+2,
+"O/N 15/P23/Q3"
+]
+},
+{
+"kind": "official item after booklet items",
+"detail": [
+3,
+"M/J 19/P21/Q2"
+]
+},
+{
+"kind": "official item after booklet items",
+"detail": [
+3,
+"MAR 19/P22/Q3"
+]
+},
+{
+"kind": "official item after booklet items",
+"detail": [
+3,
+"O/N 18/P22/Q3"
+]
+},
+{
+"kind": "official item after booklet items",
+"detail": [
+6,
+"O/N 18/P23/Q1"
+]
+},
+{
+"kind": "official item after booklet items",
+"detail": [
+6,
+"M/J 18/P21/Q2"
+]
+},
+{
+"kind": "official item after booklet items",
+"detail": [
+11,
+"MAR 23/P22/Q7"
+]
+},
+{
+"kind": "official item after booklet items",
+"detail": [
+11,
+"O/N 22/P22/Q7"
+]
+},
+{
+"kind": "official item after booklet items",
+"detail": [
+11,
+"O/N 22/P21/Q6"
+]
+},
+{
+"kind": "official item after booklet items",
+"detail": [
+11,
+"O/N 22/P23/Q6"
+]
+}
+]

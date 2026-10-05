@@ -123,10 +123,13 @@ def redact_dot_runs(d):
                     txt = "".join(c["c"] for c in cs)
                     for m in RE_DOTRUN.finditer(txt):
                         run = cs[m.start():m.end()]
-                        x0, x1 = run[0]["bbox"][0], run[-1]["bbox"][2]
-                        y0 = min(c["bbox"][1] for c in run)
-                        y1 = max(c["bbox"][3] for c in run)
-                        rects.append(pymupdf.Rect(x0 + 0.4, y0 + (y1 - y0) * 0.3, x1 - 0.4, y1 - (y1 - y0) * 0.1))
+                        # a thin strip through the centres of the dot glyphs only: a box built from
+                        # the glyph boxes (as tall as the line) can touch the boxes of a mark on the
+                        # neighbouring line, which would then be removed too (physics fix)
+                        cx0 = (run[0]["bbox"][0] + run[0]["bbox"][2]) / 2
+                        cx1 = (run[-1]["bbox"][0] + run[-1]["bbox"][2]) / 2
+                        cy = sum((c["bbox"][1] + c["bbox"][3]) / 2 for c in run) / len(run)
+                        rects.append(pymupdf.Rect(cx0, cy - 0.25, cx1, cy + 0.25))
         for r in rects:
             p.add_redact_annot(r)
         if rects:
@@ -182,7 +185,7 @@ def page_lines(page, top=46, bottom=798.5, left=25, right=572):
     if foot:
         bottom = min(foot) - 0.5
     words = [w for w in allw
-             if w[1] >= top and w[3] <= bottom and w[0] >= left and w[2] <= right
+             if w[1] >= top and w[1] < bottom - 3 and w[0] >= left and w[2] <= right
              and (w[3] - w[1]) >= 6.5 and w[4] not in ("[Turn", "over")]
     lines = {}
     for w in words:

@@ -42,10 +42,16 @@ def page_top(page):
     """Top of the content area: below the page number, barcode and corner marks
     (some papers print them lower, e.g. M/J 24/P22; audit A-006)."""
     top = TOP
-    for w in page.get_text("words"):
+    allw = page.get_text("words")
+    # first real text line below the page number (barcode-font glyphs must lie above it)
+    first_text = min([w[1] for w in allw if w[1] > 45 and w[3] - w[1] >= 6.5 and XMIN <= w[0] and w[2] <= XMAX
+                      and not (re.fullmatch(r"\d{1,3}", w[4]) and 270 < (w[0] + w[2]) / 2 < 325)] or [999])
+    for w in allw:
         if w[0] > XMAX - 4:
             continue
-        if (w[1] < 50 and w[3] < 64) or (w[3] < 62 and w[3] - w[1] < 6.5):
+        if (w[1] < 50 and w[3] < 64) or (w[3] < 62 and w[3] - w[1] < 6.5) or \
+                (w[1] < 80 and w[3] - w[1] < 6.5 and re.fullmatch(r"[,.;:'`]+", w[4])
+                 and w[3] < first_text):   # barcode-font glyphs
             top = max(top, w[3] + 1)   # page number, barcode glyphs
     for d in page.get_drawings():
         r = d["rect"]
@@ -165,8 +171,17 @@ def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
     # extends the region, and words of the next part inside the extension are
     # whited out (A-013)
     ext = ry1
+    # words that share a line with the next part's first line (e.g. the numerator of a fraction
+    # printed on the "(c)" line, whose box starts above the boundary) belong to that line
+    nxt = [w for w in words if ry1 - 0.5 <= w[1] < ry1 + 15 and XMIN <= w[0] and w[2] <= XMAX]
+    nextline = set()
     for w in words:
-        if w[0] < XMIN or w[2] > XMAX:
+        if XMIN <= w[0] and w[2] <= XMAX and w[1] < ry1 - 0.5 and w[3] > ry1 - 6 and \
+                any(min(w[3], n[3]) - max(w[1], n[1]) > 2 and n[1] > w[1] for n in nxt):
+            nextline.add(w)
+            wos.append(pymupdf.Rect(w[0] - 0.5, w[1] - 1.5, w[2] + 0.5, w[3] + 1))
+    for w in words:
+        if w[0] < XMIN or w[2] > XMAX or w in nextline:
             continue
         if ((w[1] + w[3]) / 2 < ry0 or w[1] < ry0 - 3) and w[3] > ry0 + 0.3:
             wos.append(pymupdf.Rect(w[0] - 0.5, ry0 - 1, w[2] + 0.5, w[3] + 0.5))

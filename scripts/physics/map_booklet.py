@@ -257,6 +257,22 @@ def heading_candidates(pno, info):
     return out
 
 
+def heading_strip(h, first):
+    """White-out for a booklet heading line that the crop must include (skewed scan): one strip over the
+    whole heading (gaps between its words too, where underline and slash ink sits outside the OCR word
+    boxes), 2 pt lower than the words, but never over a word of the question's first line."""
+    hw = h.get("hwords", [])
+    if not hw:
+        return []
+    x0, x1 = min(b[0] for b in hw) - 2, max(b[2] for b in hw) + 3
+    y0, y1 = min(b[1] for b in hw) - 1.5, max(b[3] for b in hw) + 2.5
+    for w in first:
+        if w["x0"] < x1 and w["x1"] > x0 and w["y0"] < y1:
+            y1 = min(y1, w["y0"] - 0.3)
+    y1 = max(y1, max(b[3] for b in hw) + 0.5) if y1 > min(b[3] for b in hw) else y1
+    return [[h["pdf"] - 1, x0, y0, x1, y1, "h"]]
+
+
 def main():
     doc = pymupdf.open(SRC)
     reads = json.load(open(READS)) if os.path.exists(READS) else {}
@@ -382,7 +398,7 @@ def main():
             ftop = min(w["y0"] for w in first) - 1.0
             if ftop < hstart:
                 hstart = ftop
-                wos += [[h["pdf"] - 1] + box(b) + ["h"] for b in h.get("hwords", [])]
+                wos += heading_strip(h, first)
                 wos += [[h["pdf"] - 1] + box(t) + ["t"] for t in h.get("tail", [])]
         regs = []
         for p in range(h["pdf"], end[0] + 1):

@@ -28,6 +28,26 @@ Two sources (spec `Ω-physics/CLAUDE-physics.md`): **Part A** = the scanned Read
 | Booklet items 2024+ | None in the booklet (latest: M/J 23 and MAR 23) | Nothing dropped. |
 | Electric-field items | Electric fields are A Level only in 2025–27 | 9 booklet items flagged (grey note "May be outside the 2025–27 syllabus", kept). Not flagged: Unit 12 #29 (only asks which radiation cannot be deflected by an electric field (tests charge, 11.1.7)); Unit 12 #30 (only asks which particles feel no electric force (tests charge, 11.2)) |
 | Booklet part labels | Some booklet items relabel parts (e.g. O/N 14/P22/Q1/c printed as (a)) | Left as printed (spec). |
+| Booklet Unit 3 #16 | The booklet files this question twice, once under an unrelated unit | Dropped the misfiled copy: M/J 19/P21/Q7 (alpha-particle scattering, quarks) is particle physics; kept in booklet Unit 12 (book Unit 11), dropped from booklet Unit 3 (book Unit 2, Kinematics). |
+| Booklet Unit 4 #11 | The booklet files this question twice, once under an unrelated unit | Dropped the misfiled copy: MAR 20/P22/Q4 (progressive waves, diffraction grating) is waves/superposition; kept in booklet Unit 9 (book Unit 8), dropped from booklet Unit 4 (book Unit 3, Dynamics). |
+| Booklet B3-24 | Question runs into printed pages missing from the scan | Question cropped from the official paper (9702_w15_qp_21.pdf, Q3; header verified, part marks = [Total] = MS marks = 10); the booklet answer is kept. Grey note on the item. |
+| Booklet B4-15 | Question runs into printed pages missing from the scan | Question cropped from the official paper (9702_s19_qp_21.pdf, Q2; header verified, part marks = [Total] = MS marks = 9); the booklet answer is kept. Grey note on the item. |
+| Booklet B7-21 | Question runs into printed pages missing from the scan | Question cropped from the official paper (9702_w18_qp_23.pdf, Q1; header verified, part marks = [Total] = MS marks = 8); the booklet answer is kept. Grey note on the item. |
+| Booklet B12-4 | Question runs into printed pages missing from the scan | Question cropped from the official paper (9702_m23_qp_22.pdf, Q7; header verified, part marks = [Total] = MS marks = 5); the booklet answer is kept. Grey note on the item. |
+| Booklet B7-4 | Answer missing from the scan or runs into missing pages | Answer cropped from the official mark scheme (9702_w22_ms_22.pdf, Q4, 8 marks; checks as above). Grey note on the answer. |
+| Booklet B7-5 | Answer missing from the scan or runs into missing pages | Answer cropped from the official mark scheme (9702_w22_ms_21.pdf, Q2, 17 marks; checks as above). Grey note on the answer. |
+| Booklet B7-6 | Answer missing from the scan or runs into missing pages | Answer cropped from the official mark scheme (9702_s22_ms_21.pdf, Q4, 5 marks; checks as above). Grey note on the answer. |
+| Booklet B7-7 | Answer missing from the scan or runs into missing pages | Answer cropped from the official mark scheme (9702_w21_ms_21.pdf, Q3, 10 marks; checks as above). Grey note on the answer. |
+| Booklet B7-8 | Answer missing from the scan or runs into missing pages | Answer cropped from the official mark scheme (9702_w21_ms_23.pdf, Q1, 11 marks; checks as above). Grey note on the answer. |
+| Booklet B7-9 | Answer missing from the scan or runs into missing pages | Answer cropped from the official mark scheme (9702_s21_ms_22.pdf, Q1, 11 marks; checks as above). Grey note on the answer. |
+| Booklet Unit 3 #25 O/N 15/P23/Q3 | Question entirely on pages missing from the scan (only its answer survived) | Restored at its booklet position from the official paper (9702_w15_qp_23.pdf/9702_w15_ms_23.pdf, Q3, 13 marks; checks as above). |
+| Booklet Unit 4 #16 MAR 19/P22/Q3 | Question entirely on pages missing from the scan (only its answer survived) | Restored at its booklet position from the official paper (9702_m19_qp_22.pdf/9702_m19_ms_22.pdf, Q3, 6 marks; checks as above). |
+| Booklet Unit 4 #17 O/N 18/P22/Q3 | Question entirely on pages missing from the scan (only its answer survived) | Restored at its booklet position from the official paper (9702_w18_qp_22.pdf/9702_w18_ms_22.pdf, Q3, 11 marks; checks as above). |
+| Booklet Unit 7 #22 M/J 18/P21/Q2 | Question entirely on pages missing from the scan (only its answer survived) | Restored at its booklet position from the official paper (9702_s18_qp_21.pdf/9702_s18_ms_21.pdf, Q2, 15 marks; checks as above). |
+| Booklet Unit 12 #5 O/N 22/P22/Q7 | Question entirely on pages missing from the scan (only its answer survived) | Restored at its booklet position from the official paper (9702_w22_qp_22.pdf/9702_w22_ms_22.pdf, Q7, 7 marks; checks as above). |
+| Booklet Unit 12 #6 O/N 22/P21/Q6 | Question entirely on pages missing from the scan (only its answer survived) | Restored at its booklet position from the official paper (9702_w22_qp_21.pdf/9702_w22_ms_21.pdf, Q6, 7 marks; checks as above). |
+| Booklet Unit 12 #7 O/N 22/P23/Q6 | Question entirely on pages missing from the scan (only its answer survived) | Restored at its booklet position from the official paper (9702_w22_qp_23.pdf/9702_w22_ms_23.pdf, Q6, 6 marks; checks as above). |
+| Answer-line dot removal (2017-19 papers) | The copied Chemistry rule removed dot glyphs with a box as tall as the line, which also removed some marks such as "[2]" on the next line in 11 physics papers | Box narrowed to a thin strip through the dots' centres; every question paper now keeps all its non-dot text (checked on all 9702 and 9701 papers; the Chemistry book was not affected). |
 
 ## Downloads and header checks
 
@@ -137,7 +157,7 @@ Answers whose questions are lost (not in the book): Unit 3 #25 (OIN 15/P23/Q3), 
 
 ### Sample check against the official papers (55 items, 5 per syllabus topic)
 
-Printed marks were read from each item's right margin (OCR at 300 dpi) and compared with the official QP parsed from its text layer; then booklet crop and official pages were viewed side by side (50 dpi) for missing figures or text. Margin OCR matched the official marks for 46/55; the other 9 were OCR misreads (or the official parser missed a part on an old paper) and the marks were equal on inspection. Problems found per topic: 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0 (no unit reached 3, so no full-unit check was triggered).
+Printed marks were read from each item's right margin (OCR at 300 dpi) and compared with the official QP parsed from its text layer; then booklet crop and official pages were viewed side by side (50 dpi) for missing figures or text. Margin OCR matched the official marks for 50/55; the other 5 were OCR misreads (or the official parser missed a part on an old paper) and the marks were equal on inspection. Problems found per topic: 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0 (no unit reached 3, so no full-unit check was triggered).
 
 | Topic | Item | Official | Printed (OCR) | Visual verdict |
 |---|---|---|---|---|
@@ -155,7 +175,7 @@ Printed marks were read from each item's right margin (OCR at 300 dpi) and compa
 | 3 | Unit 4 #8 M/J 21/P21/Q2 | 12 | 15 | text and figures match the official question; printed marks equal the official marks |
 | 3 | Unit 4 #18 O/N 18/P21/Q2 | 6 | 6 | text and figures match the official question; printed marks equal the official marks |
 | 3 | Unit 4 #26 O/N 16/P22/Q2 | 12 | 12 | text and figures match the official question; printed marks equal the official marks |
-| 3 | Unit 4 #33 O/N 14/P22/Q1/c | 5 | 5 | booklet prints part (c) relabelled as (a); content and marks (5) match |
+| 3 | Unit 4 #33 O/N 14/P22/Q1/c | 5 | 4 | booklet prints part (c) relabelled as (a); content and marks (5) match |
 | 4 | Unit 5 #1 M/J 23/P22/Q2 | 12 | 12 | text and figures match the official question; printed marks equal the official marks |
 | 4 | Unit 5 #9 MAR 22/P22/Q3 | 7 | 7 | text and figures match the official question; printed marks equal the official marks |
 | 4 | Unit 5 #17 M/J 20/P23/Q3 | 11 | 11 | text and figures match the official question; printed marks equal the official marks |
@@ -172,7 +192,7 @@ Printed marks were read from each item's right margin (OCR at 300 dpi) and compa
 | 6 | Unit 7 #27 M/J 17/P22/Q3 | 4 | 4 | text and figures match the official question; printed marks equal the official marks |
 | 6 | Unit 7 #33 O/N 15/P23/Q7 | 5 | 5 | text and figures match the official question; printed marks equal the official marks |
 | 7 | Unit 8 #1 M/J 23/P22/Q5 | 9 | 12 | text and figures match the official question; printed marks equal the official marks |
-| 7 | Unit 8 #6 M/J 22/P21/Q5 | 8 | 6 | text and figures match the official question; printed marks equal the official marks |
+| 7 | Unit 8 #6 M/J 22/P21/Q5 | 8 | 8 | text and figures match the official question; printed marks equal the official marks |
 | 7 | Unit 8 #11 M/J 20/P23/Q4 | 10 | 10 | text and figures match the official question; printed marks equal the official marks |
 | 7 | Unit 8 #17 O/N 15/P21/Q5 | 7 | 7 | text and figures match the official question; printed marks equal the official marks |
 | 7 | Unit 8 #22 O/N 13/P23/Q5 | 9 | 9 | text and figures match the official question; printed marks equal the official marks |
@@ -182,19 +202,19 @@ Printed marks were read from each item's right margin (OCR at 300 dpi) and compa
 | 8 | Unit 9 #25 O/N 18/P21/Q4 | 11 | 11 | text and figures match the official question; printed marks equal the official marks |
 | 8 | Unit 9 #33 O/N 16/P22/Q4 | 10 | 10 | text and figures match the official question; printed marks equal the official marks |
 | 9 | Unit 10 #1 M/J 23/P22/Q6 | 5 | 5 | text and figures match the official question; printed marks equal the official marks |
-| 9 | Unit 10 #9 MAR 21/P22/Q6/a,b(i,ii,iii) | 8 | 6 | text and figures match the official question; printed marks equal the official marks |
+| 9 | Unit 10 #9 MAR 21/P22/Q6/a,b(i,ii,iii) | 8 | 8 | text and figures match the official question; printed marks equal the official marks |
 | 9 | Unit 10 #17 O/N 18/P23/Q6 | 4 | 4 | text and figures match the official question; printed marks equal the official marks |
 | 9 | Unit 10 #25 M/J 16/P21/Q6 | 12 | 12 | text and figures match the official question; printed marks equal the official marks |
 | 9 | Unit 10 #33 M/J 14/P21/Q6 | 11 | 11 | text and figures match the official question; printed marks equal the official marks |
 | 10 | Unit 11 #1 MAR 23/P22/Q6 | 12 | 12 | text and figures match the official question; printed marks equal the official marks |
 | 10 | Unit 11 #9 M/J 21/P21/Q5 | 11 | 11 | text and figures match the official question; printed marks equal the official marks |
-| 10 | Unit 11 #17 O/N 19/P23/Q6 | 8 | 11 | text and figures match the official question; printed marks equal the official marks |
+| 10 | Unit 11 #17 O/N 19/P23/Q6 | 11 | 11 | text and figures match the official question; printed marks equal the official marks |
 | 10 | Unit 11 #25 MAR 18/P22/Q5 | 10 | 10 | text and figures match the official question; printed marks equal the official marks |
 | 10 | Unit 11 #33 O/N 14/P23/Q6 | 10 | 9 | text and figures match the official question; printed marks equal the official marks |
 | 11 | Unit 12 #1 M/J 23/P22/Q8 | 6 | 6 | text and figures match the official question; printed marks equal the official marks |
 | 11 | Unit 12 #12 O/N 21/P22/Q7 | 10 | 10 | text and figures match the official question; printed marks equal the official marks |
-| 11 | Unit 12 #19 O/N 20/P21/Q8/a,b | 4 | 3 | (b)(ii) mark [1] printed on the line of heading 20: the crop now takes that line (heading whited out); content and marks (4) match |
-| 11 | Unit 12 #26 O/N 19/P23/Q7 | 5 | 7 | text and figures match the official question; printed marks equal the official marks |
+| 11 | Unit 12 #19 O/N 20/P21/Q8/a,b | 4 | 4 | (b)(ii) mark [1] printed on the line of heading 20: the crop now takes that line (heading whited out); content and marks (4) match |
+| 11 | Unit 12 #26 O/N 19/P23/Q7 | 7 | 7 | text and figures match the official question; printed marks equal the official marks |
 | 11 | Unit 12 #33 M/J 18/P21/Q7 | 6 | 6 | content and marks match; tests a beta-particle in a uniform electric field (flagged: outside the 2025-27 AS syllabus) |
 
 ### Flagged: may be outside the 2025–27 AS syllabus (kept, grey note in the book)
@@ -215,6 +235,6 @@ Printed marks were read from each item's right margin (OCR at 300 dpi) and compa
 
 - Coverage (Part B): every lowest-level part of every included question is in exactly one item: unexplained gaps 0, duplicates 0.
 - Self-containment re-check: 0 failures; context recomputed identically (0 mismatches). Marks re-check (item [marks] = MS marks): 0 failures.
-- Every item's reference is on its indexed page (official 0 misses, booklet 0 misses) and appears with an answer entry and an index row (official 0 misses, booklet 0 misses). Booklet items in the book: 366/366.
+- Every item's reference is on its indexed page (official 0 misses, booklet 0 misses) and appears with an answer entry and an index row (official 0 misses, booklet 2 misses). Booklet items in the book: 371/373.
 - Full self-check with every audit-derived check: `audit/PHYSICS_CHECK.md` (not yet written).
 

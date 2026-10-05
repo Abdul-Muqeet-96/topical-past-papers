@@ -66,8 +66,51 @@ def item_regions(it, Q):
     return out
 
 
+_LABEL_DOCS = {}
+
+
+def lost_label_bands(it, Q, qd):
+    """A lettered part with no introduction prints its label on the line of its first sub-part, e.g.
+    "(c) (i) ...". If the item shows later sub-parts of that letter but not the first one, the label
+    would be lost and "(ii)" would read as part of the previous letter. Return a band showing only the
+    source's own label (the rest of that line is removed from a copy of the page), placed in paper order."""
+    shown = set(it["units"]) | {c.replace("#intro", "") for c in it["ctx_parts"]}
+    out = []
+    for L in Q["letters"]:
+        if not L["letter"] or not L["romans"] or L["label"] in shown or L["intro"]:
+            continue
+        rl = [R["label"] for R in L["romans"]]
+        if rl[0] in shown or not any(r in shown for r in rl):
+            continue
+        p, y0, y1 = L["romans"][0]["region"][0]
+        words = qd[p].get_text("words")
+        lw = [w for w in words if w[4] == L["label"] and w[0] < 110 and y0 - 2 <= w[1] <= y0 + 14]
+        if not lw:
+            continue
+        lw = lw[0]
+        line = [w for w in words if abs(w[1] - lw[1]) < 3 and w is not lw]
+        key = (id(qd), p, round(lw[1]))
+        if key not in _LABEL_DOCS:
+            d2 = pymupdf.open("pdf", qd.tobytes())
+            for w in line:
+                d2[p].add_redact_annot(pymupdf.Rect(w[:4]))
+            d2[p].apply_redactions(images=pymupdf.PDF_REDACT_IMAGE_NONE,
+                                   graphics=pymupdf.PDF_REDACT_LINE_ART_NONE, text=pymupdf.PDF_REDACT_TEXT_REMOVE)
+            _LABEL_DOCS[key] = d2
+        b = Band(p, lw[1] - 1.5, lw[3] + 1.5, [pymupdf.Rect(lw[2] + 1, lw[1] - 2, 600, lw[3] + 2)])
+        b.src = _LABEL_DOCS[key]
+        first = next(r for r in rl if r in shown)
+        b.before = unit_region(Q, first)[0]
+        out.append(b)
+    return out
+
+
 def item_blocks(it, Q, qd):
     bs = bands(qd, item_regions(it, Q))
+    for lb in lost_label_bands(it, Q, qd):
+        bp, by0 = lb.before[0], lb.before[1]
+        k = next((i for i, b in enumerate(bs) if (b.page, b.y0) >= (bp, by0 - 0.5)), len(bs))
+        bs.insert(k, lb)
     for b in bs:      # bands of one figure/table stay on one page (audit A-014)
         for k, reg in Q["blocks"].items():
             if reg and any(p == b.page and y0 - 1 <= b.y0 and b.y1 <= y1 + 1 for p, y0, y1 in reg):
@@ -164,6 +207,14 @@ def booklet_build_docs():
     return BUILD_DOCS
 
 
+# The booklet files two questions twice; one copy sits in a unit whose topic the question does not test.
+# That copy is dropped (the copy in the right unit stays): (booklet unit, number) -> reason
+MISFILED = {(3, 16): "M/J 19/P21/Q7 (alpha-particle scattering, quarks) is particle physics; kept in booklet "
+                     "Unit 12 (book Unit 11), dropped from booklet Unit 3 (book Unit 2, Kinematics)",
+            (4, 11): "MAR 20/P22/Q4 (progressive waves, diffraction grating) is waves/superposition; kept in "
+                     "booklet Unit 9 (book Unit 8), dropped from booklet Unit 4 (book Unit 3, Dynamics)"}
+
+
 def booklet_entries():
     """Booklet items with their notes, from work/booklet_items.json and the light check."""
     sys.path.insert(0, os.path.dirname(__file__))
@@ -171,26 +222,41 @@ def booklet_entries():
     I = json.load(open(os.path.join(WORK, "booklet_items.json")))
     C = json.load(open(os.path.join(WORK, "booklet_check.json")))
     outside = {(u, n) for u, n, _, _ in C["outside_syllabus"]}
-    dup = {}
+    dup, dupl = {}, {}
     for ref, locs in C["duplicates"]:
         for u, n in locs:
             dup[(u, n)] = [UNIT_TO_TOPIC[v] for v, m in locs if (v, m) != (u, n)]
+            dupl[(u, n)] = [(v, m) for v, m in locs if (v, m) != (u, n)]
+    gp = os.path.join(WORK, "gapfill.json")
+    G = json.load(open(gp)) if os.path.exists(gp) else {"replace_q": {}, "replace_a": {}, "lost": []}
     out = []
     for it in I:
         u, n = it["unit"], it["n"]
+        key = f"B{u}-{n}"
+        if (u, n) in MISFILED:
+            continue
         notes, anotes = ["booklet (scan + OCR)"], []
         if (u, n) in outside:
             notes.append("May be outside the 2025–27 syllabus")
+        oq, oa = G["replace_q"].get(key), G["replace_a"].get(key)
         for fl in it["flags"]:
             if fl.startswith("scan_gap_q"):
                 a, b = fl.split(":")[1].split("-")
-                notes.append(f"Incomplete in the scanned booklet: its printed pages {a}–{b} are missing")
+                notes.append(f"Question from the official paper: printed pages {a}–{b} of the scanned booklet "
+                             "are missing" if oq else
+                             f"Incomplete in the scanned booklet: its printed pages {a}–{b} are missing")
             elif fl.startswith("scan_gap_a"):
                 a, b = fl.split(":")[1].split("-")
-                anotes.append(f"Answer incomplete in the scanned booklet: its printed pages {a}–{b} are missing")
+                anotes.append(f"Answer from the official mark scheme: printed pages {a}–{b} of the scanned booklet "
+                              "are missing" if oa else
+                              f"Answer incomplete in the scanned booklet: its printed pages {a}–{b} are missing")
             elif fl == "no_answer":
-                anotes.append("Answer missing from the scanned booklet (printed pages 328–329 are missing)")
-        if (u, n) in dup:
+                anotes.append("Answer from the official mark scheme: printed pages 328–329 of the scanned booklet "
+                              "are missing" if oa else
+                              "Answer missing from the scanned booklet (printed pages 328–329 are missing)")
+        if oq:
+            notes[0] = "booklet selection; question from the official paper"
+        if (u, n) in dup and not any((v, m) in MISFILED for v, m in [x for x in dupl.get((u, n), [])]):
             notes.append("The booklet also files this question under Unit " + ", ".join(map(str, dup[(u, n)])))
         rp = it["ref_parsed"]
         out.append({"kind": "booklet", "key": f"B{u}-{n}", "ref": it["ref"], "topic": it["topic"],
@@ -198,7 +264,17 @@ def booklet_entries():
                     "regions": it["regions"], "whiteouts": it.get("whiteouts", []),
                     "answer_regions": it["answer_regions"], "answer_whiteouts": it.get("answer_whiteouts", []),
                     "notes": notes, "answer_notes": anotes, "flags": it["flags"],
+                    "official_q": oq, "official_a": oa,
                     "sort": (-(2000 + rp["yy"]), u, n)})
+    for o in G["lost"]:
+        u, n = o["unit"], o["n"]
+        out.append({"kind": "booklet", "key": f"B{u}-{n}", "ref": o["ref"], "topic": o["topic"],
+                    "booklet_unit": u, "booklet_n": n, "marks": None, "year": o["year"],
+                    "regions": [], "whiteouts": [], "answer_regions": [], "answer_whiteouts": [],
+                    "notes": ["booklet selection; question and answer from the official paper",
+                              "The scanned booklet lost this question (missing pages); only its answer survives"],
+                    "answer_notes": ["Answer from the official mark scheme"], "flags": ["lost_in_scan"],
+                    "official_q": o, "official_a": o, "sort": (-o["year"], u, n)})
     return out
 
 
@@ -222,10 +298,21 @@ def place_item(f, num, it, blocks, ref_pages, src):
         notes = it["notes"]
     h = est_height(blocks) + 10 * len(notes)
     avail = H - MB - MT - 30
+    allb0 = [b for _, bs in blocks for b in bs]
+    first = 0.0
+    if allb0:
+        sc = min(1.0, TW / (max(b.x1 for b in allb0) - min(b.x0 for b in allb0)))
+        g = allb0[0].grp
+        k = 0
+        first = allb0[0].h * sc
+        while g is not None and k + 1 < len(allb0) and allb0[k + 1].grp == g:   # a figure: keep whole
+            k += 1
+            first += allb0[k].h * sc + 4
+        first = min(first, avail)
     if h > f.room() and h <= avail:
         f.new_page(f.header)
-    elif f.room() < 80:
-        f.new_page(f.header)
+    elif f.room() < max(80, 22 + 10 * len(notes) + first):
+        f.new_page(f.header)        # never leave a heading alone at the foot of a page
     f.text(f"{num}.  {it['ref']}", size=10.5, bold=True, gap=2)
     ref_pages[it["key"]] = f.page.number + 1
     for n in notes:
@@ -249,6 +336,10 @@ def place_answer(f, num, it, Q, md):
         rr = unit_ms_rows(Q, c)
         if rr:
             ctx.append((c, rr))
+    from items import _order_key
+    labs = [(u, r) for u in it["units"] for r in unit_ms_rows(Q, u)] + [(c, r) for c, rr in ctx for r in rr]
+    labs.sort(key=lambda t: _order_key(Q, t[0]))       # answers in paper order, earlier parts included
+    rows, ctx = [(None, r) for _, r in labs], []
     segs = [s for _, r in rows for s in r["segs"]]
     if not segs:
         return False
@@ -265,6 +356,23 @@ def place_answer(f, num, it, Q, md):
         cbs = [Band(p, r[1], r[3]) for p, r in cs if r[3] - r[1] > 2]
         f.y += 6
         f.place_bands(md, cbs, x0=x0, x1=x1)
+    f.y += 14
+    return True
+
+
+def place_official_answer(f, num, it, md):
+    """A booklet item whose answer page is missing from the scan: the official MS rows of that question."""
+    segs = it["official_a"]["ms_segs"]
+    bs = [Band(p, r[1], r[3]) for p, r in segs if r[3] - r[1] > 2]
+    x0 = min(r[0] for _, r in segs)
+    x1 = max(r[2] for _, r in segs)
+    first_h = (bs[0].h * TW / (x1 - x0)) if bs else 0
+    if f.room() < 30 + 10 * len(it["answer_notes"]) + min(first_h, 200):
+        f.new_page(f.header)
+    f.text(f"{num}.  {it['ref']}", size=10.5, bold=True, gap=3)
+    for n in it["answer_notes"]:
+        f.text(n, size=7.5, color=GREY, gap=3)
+    f.place_bands(md, bs, x0=x0, x1=x1)
     f.y += 14
     return True
 
@@ -458,6 +566,9 @@ def build(outdir):
                 Q = next(q for q in P["questions"] if q["n"] == it["q"])
                 qd = docs(P["qp"])
                 place_item(f, k, it, item_blocks(it, Q, qd), ref_pages, qd)
+            elif it.get("official_q"):
+                o = it["official_q"]
+                place_item(f, k, it, [(None, bands(docs(o["qp"]), o["regions"]))], ref_pages, docs(o["qp"]))
             else:
                 place_item(f, k, it, [(None, booklet_bands(bd, it["regions"], it["whiteouts"]))], ref_pages, bd)
         f.new_page(f"Unit {t}: Answers Section")
@@ -468,6 +579,8 @@ def build(outdir):
                 P = parts[it["paper"]]
                 Q = next(q for q in P["questions"] if q["n"] == it["q"])
                 place_answer(f, k, it, Q, docs(P["ms"]))
+            elif it.get("official_a"):
+                place_official_answer(f, k, it, docs(it["official_a"]["ms"]))
             else:
                 place_booklet_answer(f, k, it, bd)
         unit_ranges[t] = (start, out.page_count - 1)
@@ -594,6 +707,19 @@ def build(outdir):
                        "text_note": "booklet item: text is OCR of the scanned page (may contain recognition "
                                     "errors; the page image is authoritative); marks not read",
                        "text": region_text(it["regions"]), "answer_text": region_text(it["answer_regions"])}
+                if it.get("official_q"):
+                    o = it["official_q"]
+                    rec["text"] = text_of(docs(o["qp"]), o["regions"])
+                if it.get("official_a"):
+                    o = it["official_a"]
+                    md = docs(o["ms"])
+                    rec["answer_text"] = "\n".join(md[p].get_text("text", clip=pymupdf.Rect(r)).strip()
+                                                    for p, r in o["ms_segs"])
+                if it.get("official_q") or it.get("official_a"):
+                    rec["text_note"] = ("question" if it.get("official_q") else "answer") + \
+                        (" and answer" if it.get("official_q") and it.get("official_a") else "") + \
+                        " from the official paper's text layer (booklet page missing from the scan); " + \
+                        ("" if it.get("official_q") else "question text is OCR of the scan")
             fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
     json.dump({"pages": out.page_count, "ref_pages": ref_pages, "numbers": numbers, "unit_ranges": unit_ranges,
                "contents": rows, "n_official": len(items), "n_booklet": len(bitems)},
