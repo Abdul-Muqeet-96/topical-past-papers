@@ -478,8 +478,14 @@ def main():
         hmk, hpv, hth = split_marks(h, pages[h["pdf"] - 1]["header_bottom"], key[1])
         base = max(h.get("hy1", h["y1"]), max([t[3] for t in hmk + hpv] or [0]))
         hstart = base + 1.0
-        below = [w for w in words(h["pdf"]) if (w["y0"] + w["y1"]) / 2 > base + 1 and w["y0"] < base + 25
-                 and not any(_same(w, b) for b in hth)]
+        hx = max([b[2] for b in h.get("hwords", [])] or [h.get("hx1", h["x1"])])
+        tails = hmk + hpv
+        below = [w for w in words(h["pdf"]) if w["y0"] < base + 25 and not any(_same(w, b) for b in hth)
+                 and ((w["y0"] + w["y1"]) / 2 > base + 1
+                      # skewed scan: the first line rises to the right of the heading, its words there
+                      # reach above the heading's bottom (physics fix)
+                      or (w["x0"] > hx + 10 and w["y1"] > base + 2 and w["y1"] - w["y0"] < 16
+                          and not any(_same(w, b) for b in tails)))]
         first = []
         if below:
             c0 = min((w["y0"] + w["y1"]) / 2 for w in below)
