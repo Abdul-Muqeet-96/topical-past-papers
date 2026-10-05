@@ -1,6 +1,6 @@
 # SUMMARY: Computer Science 9618 Paper 1 and Paper 2 part-level topical workbooks
 
-Stages finished: 0, 1 (see `λ-cs/state_cs.json`). Books contain: not built yet.
+Stages finished: 0, 1, 2 (see `λ-cs/state_cs.json`). Books contain: not built yet.
 
 ## Papers
 
