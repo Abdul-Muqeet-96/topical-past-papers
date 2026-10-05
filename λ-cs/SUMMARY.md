@@ -1,6 +1,6 @@
 # SUMMARY: Computer Science 9618 Paper 1 and Paper 2 part-level topical workbooks
 
-Stages finished: 0, 1, 2, 3 (see `λ-cs/state_cs.json`). Books contain: not built yet.
+Stages finished: 0, 1, 2, 3, 4 (see `λ-cs/state_cs.json`). Books contain: Phase 1 (9618).
 
 ## Papers
 
@@ -40,7 +40,36 @@ Stages finished: 0, 1, 2, 3 (see `λ-cs/state_cs.json`). Books contain: not buil
 | 12 Software Development | 30 | 85 | 427 |
 | **Total** | **30** | **366** | **2225** |
 
+## Files produced
+
+| File | Size |
+|---|---|
+| λ-cs/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf (528 pages) | 8.9 MB |
+| λ-cs/p1-topical-workbook/units/Unit-01-Information-representation.pdf | 3.3 MB |
+| λ-cs/p1-topical-workbook/units/Unit-02-Communication.pdf | 2.7 MB |
+| λ-cs/p1-topical-workbook/units/Unit-03-Hardware.pdf | 3.2 MB |
+| λ-cs/p1-topical-workbook/units/Unit-04-Processor-Fundamentals.pdf | 3.5 MB |
+| λ-cs/p1-topical-workbook/units/Unit-05-System-Software.pdf | 3.0 MB |
+| λ-cs/p1-topical-workbook/units/Unit-06-Security-privacy-and-data-integrity.pdf | 2.5 MB |
+| λ-cs/p1-topical-workbook/units/Unit-07-Ethics-and-Ownership.pdf | 1.9 MB |
+| λ-cs/p1-topical-workbook/units/Unit-08-Databases.pdf | 3.8 MB |
+| λ-cs/p1-topical-workbook/index.csv | 14 KB |
+| λ-cs/p1-topical-workbook/items.jsonl | 0.7 MB |
+| λ-cs/p1-topical-workbook/topics.json | 0.3 MB |
+| λ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf (686 pages) | 11.3 MB |
+| λ-cs/p2-topical-workbook/units/Unit-09-Algorithm-Design-and-Problem-solving.pdf | 5.0 MB |
+| λ-cs/p2-topical-workbook/units/Unit-10-Data-Types-and-Structures.pdf | 6.2 MB |
+| λ-cs/p2-topical-workbook/units/Unit-11-Programming.pdf | 5.7 MB |
+| λ-cs/p2-topical-workbook/units/Unit-12-Software-Development.pdf | 5.4 MB |
+| λ-cs/p2-topical-workbook/index.csv | 15 KB |
+| λ-cs/p2-topical-workbook/items.jsonl | 0.8 MB |
+| λ-cs/p2-topical-workbook/topics.json | 0.2 MB |
+| λ-cs/report.md | 19 KB |
+| λ-cs/layout.md | 2 KB |
+
+No file exceeds 95 MB, so everything is pushed. Per-unit PDFs keep the full book's page numbers (so they match index.csv).
+
 ## What is still open
 
-- The run is in progress; see the stage list above.
+- Phase 2 (9608) is not in the books yet; the self-check (audit/CS_CHECK.md) has not been run yet.
 

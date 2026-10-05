@@ -186,3 +186,16 @@ Besides the stem and the lettered introduction (always shown), earlier parts wer
 
 - None.
 
+## Final checks on the built books
+
+- Coverage: every lowest-level part of every included question appears in exactly one item, or is in an exclusion list above. Unexplained gaps: 0; duplicates: 0.
+- Self-containment re-check (build resolver): 0 failures; context recomputed identically for every item (0 mismatches).
+- Marks re-check (item [marks] = MS marks): 0 failures.
+- Every item reference found on its indexed page: 0 misses; every item has an answer entry: 0 misses.
+- Every item is in the book of its unit: 0 misses.
+
+## Layout and visual checks
+
+- Stage 0 (test build of 7 papers): cover, contents, unit title page, P1 item pages, P2 item pages with gap-fill pseudocode, an item with its insert inline, Answers pages with "write program code" rows running over two pages, and the Appendix were rendered at 60-80 dpi and viewed. Fixed after viewing: a block of table definitions and a block of gap-fill pseudocode were split across pages (figure grouping now treats consecutive monospace lines, including lines that are only a dotted gap, as one figure); the Appendix banner now takes its reference from the insert's own header.
+- Stage 4 (Phase 1 books): rendered and viewed at 62 dpi: both covers, both contents pages, P1 Answers pages (Unit 2), a P1 unit title page (Unit 4), P1 item pages with an assembly-language instruction table, the P1 Topic index, P2 item pages with a linked-list diagram, an array diagram and pseudocode (Units 10 and 11), a P2 Answers page with a program-code answer, and the P2 Appendix. Nothing needed fixing.
+

@@ -1,1 +1,1 @@
-- The run is in progress; see the stage list above.
+- Phase 2 (9608) is not in the books yet; the self-check (audit/CS_CHECK.md) has not been run yet.
