@@ -182,6 +182,8 @@ def _together(a, b):
         return False
     if a.h > 30 and getattr(b, "cap", False) and b.y0 - a.y1 <= 24:
         return True         # a figure and its caption "Fig. n.m" (physics fix)
+    if getattr(b, "mark_only", False) and b.y0 - a.y1 <= 120:
+        return True         # a lone mark "[n]" stays with the line(s) it belongs to (physics fix)
     if b.y0 - a.y1 > 14:
         return False
     return (a.h < 18 and b.h > 30) or (a.h > 30 and b.h < 18)

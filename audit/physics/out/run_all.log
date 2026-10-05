@@ -36,16 +36,16 @@ dropped 1 in 1 items/answers [(11, 3, None, 'M/J 26/P24/Q7/a,b')]
 == pc07_selfcontained
 official items 260 with issues 0
 == pc08_files
-Physics-9702-P2-Topical-Workbook.pdf|qpdf:errors that qpdf cannot detect|fonts:501|not_embedded:32|bytes:36260002|pages:932
+Physics-9702-P2-Topical-Workbook.pdf|qpdf:errors that qpdf cannot detect|fonts:501|not_embedded:32|bytes:36259995|pages:932
 Unit-01-Physical-quantities-and-units.pdf|qpdf:errors that qpdf cannot detect|fonts:182|not_embedded:21|bytes:6424314|pages:84
 Unit-02-Kinematics.pdf|qpdf:errors that qpdf cannot detect|fonts:203|not_embedded:24|bytes:6842704|pages:86
-Unit-03-Dynamics.pdf|qpdf:errors that qpdf cannot detect|fonts:265|not_embedded:25|bytes:8164554|pages:101
-Unit-04-Forces-density-and-pressure.pdf|qpdf:errors that qpdf cannot detect|fonts:194|not_embedded:24|bytes:7135798|pages:86
+Unit-03-Dynamics.pdf|qpdf:errors that qpdf cannot detect|fonts:265|not_embedded:25|bytes:8164557|pages:101
+Unit-04-Forces-density-and-pressure.pdf|qpdf:errors that qpdf cannot detect|fonts:194|not_embedded:24|bytes:7135799|pages:86
 Unit-05-Work-energy-and-power.pdf|qpdf:errors that qpdf cannot detect|fonts:168|not_embedded:19|bytes:5762583|pages:82
-Unit-06-Deformation-of-solids.pdf|qpdf:errors that qpdf cannot detect|fonts:259|not_embedded:26|bytes:8118135|pages:92
-Unit-07-Waves.pdf|qpdf:errors that qpdf cannot detect|fonts:204|not_embedded:25|bytes:5689119|pages:61
+Unit-06-Deformation-of-solids.pdf|qpdf:errors that qpdf cannot detect|fonts:259|not_embedded:26|bytes:8118129|pages:92
+Unit-07-Waves.pdf|qpdf:errors that qpdf cannot detect|fonts:204|not_embedded:25|bytes:5689113|pages:61
 Unit-08-Superposition.pdf|qpdf:errors that qpdf cannot detect|fonts:214|not_embedded:24|bytes:7076508|pages:85
 Unit-09-Electricity.pdf|qpdf:errors that qpdf cannot detect|fonts:203|not_embedded:24|bytes:6182329|pages:85
-Unit-10-DC-circuits.pdf|qpdf:errors that qpdf cannot detect|fonts:228|not_embedded:21|bytes:6584460|pages:94
+Unit-10-DC-circuits.pdf|qpdf:errors that qpdf cannot detect|fonts:228|not_embedded:21|bytes:6584461|pages:94
 Unit-11-Particle-physics.pdf|qpdf:errors that qpdf cannot detect|fonts:210|not_embedded:31|bytes:5828690|pages:63
 booklet-ocr.pdf|qpdf:errors that qpdf cannot detect|fonts:1|not_embedded:0|bytes:24092132|pages:550

@@ -33,6 +33,7 @@ class Band:
         self.x0, self.x1 = x0, x1
         self.grp = None       # figure/table this band belongs to (kept on one page)
         self.cap = False      # band opens with a figure/table caption
+        self.mark_only = False  # band holds only a mark "[n]"
 
     @property
     def h(self):
@@ -257,6 +258,10 @@ def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
         # above it even when a mark on the next line makes it taller than one line (physics fix)
         bw = sorted([w for w in wb if y0 <= (w[1] + w[3]) / 2 <= y1], key=lambda w: (round(w[1]), w[0]))
         b.cap = bool(bw) and bw[0][4] in ("Fig.", "Figure", "Table") and b.h < 40
+        # a band holding only a part's mark "[n]" (and answer dots) stays with the band above it, so a mark
+        # never opens a page alone (physics fix)
+        b.mark_only = bool(bw) and b.h < 18 and all(re.fullmatch(r"\[\d+\]|[.…]+", w[4]) for w in bw) and \
+            any(re.fullmatch(r"\[\d+\]", w[4]) for w in bw)
         if b.h > 1:
             out.append(b)
     return out
