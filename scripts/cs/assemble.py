@@ -219,6 +219,9 @@ def assemble(phase):
                                               any(c.replace("#intro", "").startswith(pv) for pv in prev)
                                               for c in r["ctx_parts"])
                         if dep:
+                            qp_, ms_ = marks(Q, prev + u[0])
+                            dep = ms_ is not None and qp_ == ms_      # else keep apart: one bad part must not
+                        if dep:                                       # take a good one with it
                             by = dict(merged[-1][2])
                             for k, v in u[2].items():
                                 by[k] = by.get(k, 0) + v
@@ -226,6 +229,52 @@ def assemble(phase):
                             continue
                     merged.append(u)
             merged.sort(key=lambda m: _order_key(Q, m[0][0]))
+            # an item whose context would exceed one page forms one unsplittable block with
+            # the parts it depends on: filed under the unit with most marks, tagged "also"
+            changed = True
+            while changed:
+                changed = False
+                for idx, (us, t, by, flags) in enumerate(merged):
+                    if t is None:
+                        continue
+                    r = resolve(Q, us)
+                    if not r["ok"]:
+                        continue
+                    h = sum(cx.height(qd, unit_region(Q, c)) for c in r["ctx_parts"])
+                    if h <= MAX_CTX_H:
+                        continue
+                    need = [c.replace("#intro", "") for c in r["ctx_parts"]]
+                    partners = [j for j, m in enumerate(merged) if j != idx and m[1] is not None and any(
+                        n == u2 or n.startswith(u2) or u2.startswith(n) for n in need for u2 in m[0])]
+                    if not partners:
+                        continue
+                    group = sorted([idx] + partners)
+                    new_us = sorted({u for j in group for u in merged[j][0]}, key=lambda u: _order_key(Q, u))
+                    qp_, ms_ = marks(Q, new_us)
+                    if ms_ is None or qp_ != ms_:
+                        continue
+                    new_by = {}
+                    for j in group:
+                        for k, v in merged[j][2].items():
+                            new_by[k] = new_by.get(k, 0) + v
+                    best = max(new_by.values())
+                    tops = [k for k, v in new_by.items() if v == best]
+                    first_t = next(merged[j][1] for j in group if merged[j][1] in tops)
+                    new_t = tops[0] if len(tops) == 1 else first_t
+                    new_flags = sorted({f for j in group for f in merged[j][3]} | {"block"})
+                    log["kept_whole"].append({"ref": ref_units(p["ref"], Q["n"], new_us),
+                                              "why": f"context of {ref_units(p['ref'], Q['n'], us)} would exceed one "
+                                                     f"page ({h:.0f} pt): kept with the parts it depends on",
+                                              "by": new_by})
+                    if len(tops) > 1:
+                        log["auto"].append({"ref": ref_units(p["ref"], Q["n"], new_us),
+                                            "issue": f"topic marks tie {new_by}",
+                                            "action": f"filed under topic {new_t} (topic of first part)"})
+                    merged = [m for j, m in enumerate(merged) if j not in group]
+                    merged.append((new_us, new_t, new_by, new_flags))
+                    merged.sort(key=lambda m: _order_key(Q, m[0][0]))
+                    changed = True
+                    break
             for us, t, by, flags in merged:
                 ref = ref_units(p["ref"], Q["n"], us)
                 if t is None:

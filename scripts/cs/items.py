@@ -34,7 +34,13 @@ def find_letter(Q, letter):
 
 
 def _L(Q, lab):
-    return find_letter(Q, letter_of(lab)) if letter_of(lab) else (Q["letters"][0] if Q["letters"] else None)
+    """The lettered part a label belongs to. A question whose sub-parts are
+    romans directly under the question number ("(i)", "(ii)") has one unnamed
+    lettered part; "(i)" is then a roman, not the letter i."""
+    L = find_letter(Q, letter_of(lab)) if letter_of(lab) else None
+    if L is None and Q["letters"] and Q["letters"][0]["letter"] is None:
+        return Q["letters"][0]
+    return L
 
 
 def unit_region(Q, lab):

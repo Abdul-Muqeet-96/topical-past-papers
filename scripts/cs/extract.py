@@ -12,8 +12,8 @@ and another part that needs it gets that whole part as context.
 import json, os, re, sys
 from collections import defaultdict
 sys.path.insert(0, os.path.dirname(__file__))
-from parse import (load, parse_qp, ms_rows, fix_ms_rows, page_lines, special_page, data_cut, ROMANS, RE_FOOT,
-                   doc_key)
+from parse import (load, parse_qp, ms_rows_any, fix_ms_rows, page_lines, special_page, data_cut, ROMANS, RE_FOOT,
+                   doc_key, boiler_top)
 from paths import DATA, MANIFEST, work, jload, jdump
 
 TOP = 52
@@ -99,6 +99,9 @@ GENERIC = {noun_key(x) for x in {"pseudocode", "data", "user", "computer", "valu
 def content_bottom(page):
     allw = page.get_text("words")
     foot = [w[1] for w in allw if w[1] > 740 and (w[4] == "©" or RE_FOOT.fullmatch(w[4]))]
+    bt = boiler_top(page)
+    if bt is not None:
+        foot.append(bt - 1.5)       # the small-print copyright paragraph is not question material
     return (min(foot) - 0.5) if foot else 794
 
 
@@ -421,7 +424,7 @@ def main():
         qd = load(os.path.join(DATA, ent["qp"]["file"]))
         md = load(os.path.join(DATA, ent["ms"]["file"]))
         qs = parse_qp(qd)
-        rows = ms_rows(md)
+        rows = ms_rows_any(md, qs)
         fix_ms_rows(rows, qs)
         paper = {"pid": pid, "ref": chk["ref"], "code": ent["code"], "year": ent["year"], "series": ent["series"],
                  "variant": ent["variant"], "paper": ent["paper"], "qp": ent["qp"]["file"], "ms": ent["ms"]["file"],

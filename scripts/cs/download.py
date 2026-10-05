@@ -75,6 +75,10 @@ def verify(path, code, s, yy, v, kind):
         m = re.search(alt, t, re.I)
         if m:
             notes.append(f"title variant '{m.group(0)}'")
+        elif re.search(rf"\bPaper {pn} (February/March|May/June|October/November) 20{yy:02d}", t):
+            # AUTO-DECIDED: "Paper 2" printed with no title words; the paper number,
+            # code/variant, series and document type all match
+            notes.append(f"title missing: 'Paper {pn}' only")
         else:
             issues.append("paper title not on page 1")
     full = f"{SERIES_NAME[s]} 20{yy:02d}"
@@ -127,8 +131,8 @@ def main():
         q, m = ent["qp"]["status"], ent["ms"]["status"]
         if q == "ok" and m == "ok":
             ent["status"] = "ok"
-        elif q == "unavailable" and m == "unavailable":
-            ent["status"] = "unavailable"
+        elif "unavailable" in (q, m):
+            ent["status"] = "unavailable"      # the QP, the MS or both are not on the site
         elif "download_failed" in (q, m):
             ent["status"] = "download_failed"
         else:

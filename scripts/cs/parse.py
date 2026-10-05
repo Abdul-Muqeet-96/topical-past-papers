@@ -265,14 +265,41 @@ def cover_total(doc):
 RE_FOOT = re.compile(rf"(?:{CODES})/\d\d/\S+")
 
 
+RE_BOILER = re.compile(r"Permission to reproduce|To avoid the issue of disclosure|Every reasonable effort|"
+                       r"Cambridge Assessment International Education is part|is a department of the University|"
+                       r"Cambridge International Examinations is part|copyright holders", re.I)
+_BOIL = {}
+
+
+def boiler_top(page):
+    """y of the top of the small-print copyright paragraph, if the page has one
+    in its lower half (it is not question material); else None."""
+    key = (doc_key(page.parent), page.number)
+    if key not in _BOIL:
+        top = None
+        for b in page.get_text("dict")["blocks"]:
+            for l in b.get("lines", []):
+                if l["bbox"][1] > page.rect.height * 0.5 and l["spans"] and l["spans"][0]["size"] < 9.5 \
+                        and RE_BOILER.search("".join(sp["text"] for sp in l["spans"])):
+                    top = l["bbox"][1] if top is None else min(top, l["bbox"][1])
+        _BOIL[key] = top
+        if len(_BOIL) > 400:
+            _BOIL.pop(next(iter(_BOIL)))
+    return _BOIL[key]
+
+
 def page_lines(page, top=46, bottom=798.5, left=25, right=572):
     """Text lines (list of word tuples) inside the content area, sorted by y."""
     allw = page.get_text("words")
     foot = [w[1] for w in allw if w[1] > 740 and (w[4] == "©" or RE_FOOT.fullmatch(w[4]))]
+    bt = boiler_top(page)
+    if bt is not None:
+        foot.append(bt - 1.5)
     if foot:
         bottom = min(foot) - 0.5
     words = [w for w in allw
-             if w[1] >= top and (w[3] <= bottom or (w[3] <= bottom + 1.5 and w[1] < bottom - 8))
+             if w[1] >= top and (w[3] <= bottom or (w[3] <= bottom + 5 and w[1] < bottom - 8
+                                                    and re.fullmatch(r"\[\d+\]", w[4])))
              and w[0] >= left and w[2] <= right
              and (w[3] - w[1]) >= 6.5]
     # the footer's "[Turn over" (the word "over" beside "[Turn" only: "over" is also
@@ -299,18 +326,39 @@ def page_lines(page, top=46, bottom=798.5, left=25, right=572):
     return merged
 
 
+_SPECIAL = {}
+
+
 def special_page(page):
     """'blank' for a BLANK PAGE; 'appendix' for the built-in function list that
     older papers print inside the question paper (reference material, not a
-    question)."""
-    t = page.get_text()
+    question), including its continuation pages."""
+    doc = page.parent
+    k = doc_key(doc)
+    if k not in _SPECIAL:
+        out = []
+        for p in doc:
+            kind = _special_one(p)
+            if kind is None and out and out[-1] == "appendix" and not _has_marks(p):
+                kind = "appendix"          # the list continues (operators, further functions)
+            out.append(kind)
+        _SPECIAL[k] = out
+    return _SPECIAL[k][page.number]
+
+
+def _has_marks(page):
+    return any(re.fullmatch(r"\[\d+\]", w[4]) and w[0] > 495 for w in page.get_text("words"))
+
+
+def _special_one(page):
+    t = re.sub(r"[‐‑‒–—]", "-", page.get_text())
     body = "\n".join(l for l in t.splitlines()
                      if l.strip() and "DO NOT WRITE" not in l and not re.search(r"©|UCLES|^\s*\*", l))
     if "BLANK PAGE" in t and len(body.strip()) < 900 and not re.search(r"\[\d+\]", body):
         return "blank"
     if page.number > 0 and re.search(r"^\s*Appendix\s*$", t, re.M) and \
-            re.search(r"built-in functions|Built-in functions|pseudocode functions|STRING Functions|"
-                      r"String and character functions|operators", t, re.I) and not re.search(r"\[\d+\]\s*$", body, re.M):
+            re.search(r"built-in functions|pseudocode functions|STRING Functions|"
+                      r"String and character functions|operators", t, re.I) and not _has_marks(page):
         return "appendix"
     return None
 
@@ -318,6 +366,46 @@ def special_page(page):
 def data_cut(page):
     """Kept for the shared region code: CS papers have no data block."""
     return None
+
+
+def _mono_word(page, w):
+    """Is the word set in a monospace font (a line number of a code listing,
+    not a question number)? Character advance of 0.6 em."""
+    for b in page.get_text("rawdict", clip=pymupdf.Rect(w[0] - 1, w[1] - 1, w[2] + 1, w[3] + 1))["blocks"]:
+        for l in b.get("lines", []):
+            for sp in l["spans"]:
+                cs = [c for c in sp["chars"] if not c["c"].isspace()]
+                if cs and all(abs((c["bbox"][2] - c["bbox"][0]) / (sp["size"] or 1) - 0.6) < 0.006 for c in cs):
+                    return True
+    return False
+
+
+def _join_marks(ws):
+    """A mark printed as two words ('[1' and ']') becomes one word."""
+    out = []
+    for w in ws:
+        if out and w[4] == "]" and re.search(r"\[\d+$", out[-1][4]) and 0 <= w[0] - out[-1][2] < 8:
+            p = out[-1]
+            out[-1] = (p[0], min(p[1], w[1]), w[2], max(p[3], w[3]), p[4] + "]") + tuple(p[5:])
+        else:
+            out.append(w)
+    return out
+
+
+def use_secondary_marks(qs, total):
+    """If the right-aligned marks do not reach the cover total but adding the
+    lone marks printed a little short of the margin does, accept those marks.
+    Returns the list of accepted marks."""
+    s1 = sum(m["value"] for q in qs for m in q["marks"])
+    extra = [(q, m) for q in qs for m in q.get("marks2", [])]
+    if total is None or s1 == total or not extra or s1 + sum(m["value"] for _, m in extra) != total:
+        return []
+    for q, m in extra:
+        q["marks"].append(m)
+        q["marks"].sort(key=lambda m: (m["pos"][0], m["pos"][1]))
+        if q.get("last_mark") is None or (m["pos"][0], m["pos"][2]) > tuple(q["last_mark"]):
+            q["last_mark"] = (m["pos"][0], m["pos"][2])
+    return [m for _, m in extra]
 
 
 def parse_qp(doc):
@@ -333,6 +421,7 @@ def parse_qp(doc):
             continue
         cut = data_cut(page)
         for ws in page_lines(page):
+            ws = _join_marks(ws)
             y0 = min(w[1] for w in ws)
             if cut is not None and y0 >= cut - 2:
                 break
@@ -342,7 +431,8 @@ def parse_qp(doc):
                 w = ws[i]
                 txt, x0 = w[4], w[0]
                 nxt_q = (cur_q["n"] + 1) if cur_q else 1
-                if i == 0 and re.fullmatch(r"\d{1,2}", txt) and x0 < 64 and int(txt) == nxt_q:
+                if i == 0 and re.fullmatch(r"[1-9]\d?", txt) and x0 < 64 and int(txt) == nxt_q \
+                        and not _mono_word(page, w):
                     cur_q = {"n": nxt_q, "start": (pno, y0), "parts": [], "marks": [],
                              "total": None, "total_pos": None}
                     qs.append(cur_q)
@@ -374,13 +464,24 @@ def parse_qp(doc):
                 break
             line = " ".join(w[4] for w in ws)
             if cur_q:
-                for w in ws:
+                for wi, w in enumerate(ws):
                     mm = RE_MARK.search(w[4])
-                    if mm and w[2] > 525 and w[0] > 495:      # right-aligned at the margin
+                    # a mark is right-aligned at the margin, or closes a dotted answer line
+                    # ("........[1]" beside a label in a diagram)
+                    dotted = bool(mm and re.fullmatch(r"[.…]{5,}\[\d+\]", w[4]))
+                    if mm and not (w[2] > 525 and w[0] > 495) and not dotted \
+                            and re.fullmatch(r"\[\d+\]", w[4]) \
+                            and not any(re.search(r"\[\d+\]", o[4]) for o in ws if o is not w):
+                        # a lone [n] ending a line short of the margin: kept aside; used
+                        # only if the paper total cannot be reached without it (see check_papers)
+                        lab = (f"({cur_l})" if cur_l else "") + (f"({cur_r})" if cur_r else "")
+                        cur_q.setdefault("marks2", []).append({"label": lab, "value": int(mm.group(1)),
+                                                               "pos": (pno, w[1], w[3])})
+                    if mm and ((w[2] > 525 and w[0] > 495) or dotted):
                         lab = (f"({cur_l})" if cur_l else "") + (f"({cur_r})" if cur_r else "")
                         cur_q["marks"].append({"label": lab, "value": int(mm.group(1)),
                                                "pos": (pno, w[1], w[3])})
-                    if mm and w[2] > 525 and w[0] > 495:
+                    if mm and ((w[2] > 525 and w[0] > 495) or dotted):
                         cur_q["last_mark"] = (pno, w[3])
                 mt = RE_TOTAL.search(line)
                 if mt:
@@ -389,6 +490,7 @@ def parse_qp(doc):
                         cur_q["total_pos"] = (pno, y0, y1)
                     else:
                         cur_q["total_dup"] = True
+    doc._marks2_used = use_secondary_marks(qs, cover_total(doc))
     return qs
 
 
@@ -535,8 +637,228 @@ def ms_rows(doc):
                     elif len(last["segs"]) > 1:
                         # the printed total is all that continues onto the next page (audit A-015)
                         last["segs"].pop()
+    # a row continued on the next page under the same label with the same mark
+    # printed again: the mark counts once (seen in 9608 2018 mark schemes)
+    for a, b in zip(rows, rows[1:]):
+        if a["label"] == b["label"] and b["segs"][0][0] > a["segs"][0][0] and a["marks"] and b["marks"] == a["marks"]:
+            b["repeated_marks"] = b["marks"]
+            b["marks"] = []
     for r in rows:
         r["mark_total"] = sum(r["marks"])
+    return rows
+
+
+RE_TL = re.compile(r"^\(([a-z])\)$")
+RE_TR = re.compile(r"^\((i|ii|iii|iv|v|vi|vii|viii|ix|x)\)$")
+
+
+def ms_rows_text(doc, qs):
+    """Rows of a mark scheme that is printed as running text, not as a table
+    (9608, 2015-2016): '2 (a) (i) Any one from: ... [1]'.
+
+    A row starts at a part label printed at the start of a line and runs to
+    the next label. Labels are accepted only in the order of the question
+    paper's own parts (qs). Marks are the [n] printed at the right-hand margin;
+    where a row prints 'max n', that is the row's mark."""
+    order = {}
+    for q in qs:
+        seq = [(p["letter"], p["roman"]) for p in q["parts"]]
+        order[q["n"]] = seq
+    rows = []
+    cur = None
+    cq, cl, cr = 0, None, None
+    for pno in range(1, doc.page_count):
+        page = doc[pno]
+        words = _dedupe(page.get_text("words"))
+        if not words:
+            continue
+        H = page.rect.height
+        foot = [w[1] for w in words if w[1] > H - 80 and (w[4].startswith("©") or w[4] == "UCLES")]
+        bottom = (min(foot) - 3) if foot else H - 45
+        head = [w[3] for w in words if w[1] < 70 and w[4] in ("Page", "Mark", "Syllabus", "Paper", "Scheme",
+                                                               "Cambridge", "International")]
+        top = (max(head) + 3) if head else 60
+        ws = sorted([w for w in words if top <= w[1] and w[3] <= bottom + 2], key=lambda w: (round(w[3]), w[0]))
+        lines = []
+        for w in ws:
+            if lines and abs(lines[-1][0][3] - w[3]) < 2.5:
+                lines[-1].append(w)
+            else:
+                lines.append([w])
+        if cur is not None:
+            cur["segs"].append((pno, pymupdf.Rect(40, top - 1, page.rect.width - 38, bottom)))
+        for ln in lines:
+            ln.sort(key=lambda w: w[0])
+            y0 = min(w[1] for w in ln)
+            i, started = 0, False
+            q, l, r = cq, cl, cr
+            if i < len(ln) and re.fullmatch(r"[1-9]\d?", ln[i][4]) and ln[i][0] < 66 and int(ln[i][4]) == cq + 1 \
+                    and (cq + 1) in order:
+                q, l, r = cq + 1, None, None
+                started = True
+                i += 1
+            seq = order.get(q, [])
+            letters = [a for a, b in seq if b is None]
+            if i < len(ln) and RE_TL.match(ln[i][4]) and ln[i][0] < (110 if i == 0 else 140):
+                L = RE_TL.match(ln[i][4]).group(1)
+                after = letters.index(L) > letters.index(l) if (L in letters and l in letters) else L in letters
+                if after and not (RE_TR.match(ln[i][4]) and (l, L) in seq and r is not None
+                                  and ROMANS.index(L) == ROMANS.index(r) + 1 if L in ROMANS and r in ROMANS else False):
+                    l, r = L, None
+                    started = True
+                    i += 1
+            if i < len(ln) and RE_TR.match(ln[i][4]) and ln[i][0] < (135 if i == 0 else 175):
+                R = RE_TR.match(ln[i][4]).group(1)
+                if (l, R) in seq and (r is None or ROMANS.index(R) > ROMANS.index(r)):
+                    r = R
+                    started = True
+                    i += 1
+            if started:
+                cq, cl, cr = q, l, r
+                if cur is not None:      # close the previous row just above this line
+                    pg, rc = cur["segs"][-1]
+                    if pg == pno:
+                        if y0 - 2 - rc.y0 > 3:
+                            cur["segs"][-1] = (pg, pymupdf.Rect(rc.x0, rc.y0, rc.x1, y0 - 2))
+                        else:
+                            cur["segs"].pop()
+                part = (f"({l})" if l else "") + (f"({r})" if r else "")
+                cur = {"label": f"{q}{part}", "q": q, "part": part, "marks": [], "na": False, "guidance": False,
+                       "total_col": False, "text_layout": True,
+                       "segs": [(pno, pymupdf.Rect(40, y0 - 2, page.rect.width - 38, bottom))], "_m": []}
+                rows.append(cur)
+            if cur is not None:
+                for k, w in enumerate(ln):
+                    m = re.fullmatch(r"\[(\d{1,2})\]", w[4])
+                    prev = ln[k - 1][4].lower().strip("([:") if k else ""
+                    if m and w[0] > 495:
+                        cur["_m"].append((int(m.group(1)), prev.strip(".") == "max"))
+                    m2 = re.fullmatch(r"(\d{1,2})\]", w[4])
+                    if m2 and k and ln[k - 1][4].lower().strip("[(.:") == "max" and w[2] > 500:
+                        cur["_m"].append((int(m2.group(1)), True))
+    for r in rows:
+        mx = [v for v, is_max in r["_m"] if is_max]
+        if len(mx) > 1 and len(set(mx)) == 1:
+            mx = mx[:1]          # the same 'max n' under alternative solutions: one mark
+        r["marks"] = mx if mx else [v for v, _ in r["_m"]]
+        del r["_m"]
+        r["segs"] = [(p, rc) for p, rc in r["segs"] if rc.height > 3]
+        r["mark_total"] = sum(r["marks"])
+    return [r for r in rows if r["segs"]]
+
+
+APX_NOTES = []      # appendix headings matched to a row with a different label
+RE_APX = re.compile(r"^\s*(?:Q(?:uestion)?\s*)?(\d{1,2})?\s*((?:\(\s*[a-h]\s*\))?\s*(?:\(\s*(?:i|ii|iii|iv|v|vi)\s*\))?)"
+                    r"\s*:\s*(Visual Basic|VB\.?\s?NET|VB|Pascal|Free Pascal|Python)\b.{0,25}$")
+RE_APX_LABEL = re.compile(r"^\s*Q(?:uestion)?\s*(\d{1,2})\s*((?:\(\s*[a-h]\s*\))?\s*(?:\(\s*(?:i|ii|iii|iv|v|vi)\s*\))?)"
+                          r"\s*:?\s*$")
+
+
+def attach_appendix(doc, rows):
+    """9608 Paper 2 mark schemes print the program-code solutions (Visual
+    Basic, Pascal, Python) in an appendix after the table, under headings such
+    as 'Q6 (a): Visual Basic'; the table row only says that the solutions
+    'appear in the Appendix'. The appendix section of a part is added to that
+    part's row, so the answer is whole. Returns (sections attached, rows that
+    refer to the Appendix but got no section)."""
+    need = []
+    for r in rows:
+        t = " ".join(doc[p].get_text("text", clip=rc) for p, rc in r["segs"])
+        if re.search(r"appear in the\s+Appendix|in the\s+Appendix", t):
+            need.append(r)
+    if not need:
+        return 0, []
+    last_row_page = max(r["segs"][0][0] for r in rows)      # page where the last row starts
+    heads = []      # (page, y0, q or None, part)
+    limits = {}
+    apx_start = None
+    for pno in range(1, doc.page_count):
+        page = doc[pno]
+        words = _dedupe(page.get_text("words"))
+        if not words:
+            continue
+        H = page.rect.height
+        foot = [w[1] for w in words if w[1] > H - 75 and (w[4].startswith("©") or w[4] in ("Page", "UCLES"))]
+        hd = [w[3] for w in words if w[1] < 58]
+        limits[pno] = ((max(hd) + 3) if hd else 50, (min(foot) - 3) if foot else H - 45)
+        ws = sorted(words, key=lambda w: (round(w[3]), w[0]))
+        lines = []
+        for w in ws:
+            if lines and abs(lines[-1][0][3] - w[3]) < 2.5:
+                lines[-1].append(w)
+            else:
+                lines.append([w])
+        for ln in lines:
+            ln.sort(key=lambda w: w[0])
+            t = " ".join(w[4] for w in ln)
+            if re.search(r"Program Code( Example)? Solutions|^\s*Appendix\b.*(code|solutions)|^\s*Appendix\s*$", t,
+                         re.I) and apx_start is None and pno >= last_row_page:
+                apx_start = (pno, min(w[1] for w in ln))
+            m = RE_APX.match(t) or RE_APX_LABEL.match(t)
+            if m and (m.group(1) or m.group(2).strip()) and ln[0][0] < 140:
+                part = re.sub(r"\s+", "", m.group(2))
+                heads.append((pno, min(w[1] for w in ln), int(m.group(1)) if m.group(1) else None, part))
+    if apx_start is None and heads:
+        after = [h for h in heads if h[0] >= last_row_page]
+        apx_start = after[0][:2] if after else None
+    heads = [h for h in heads if apx_start is not None and h[:2] >= apx_start]
+    if apx_start is not None:
+        # a running-text row must not run on into the appendix
+        for r in rows:
+            segs = []
+            for pg, rc in r["segs"]:
+                if pg > apx_start[0]:
+                    continue
+                if pg == apx_start[0] and rc.y1 > apx_start[1] - 3:
+                    rc = pymupdf.Rect(rc.x0, rc.y0, rc.x1, apx_start[1] - 3)
+                if rc.height > 3:
+                    segs.append((pg, rc))
+            r["segs"] = segs or r["segs"][:1]
+    groups = []
+    for h in heads:
+        if groups and groups[-1][2:] == h[2:]:
+            continue
+        groups.append(h)
+    attached, used = 0, set()
+    for gi, (pno, y0, q, part) in enumerate(groups):
+        cand = [r for r in need if id(r) not in used and r["part"] == part and (q is None or r["q"] == q)]
+        if not cand and q is not None:
+            # a slip in the appendix heading ("Q5(b)(i)" for 5(b)(ii)): the only row of that
+            # question and letter that says its solutions are in the Appendix
+            same_q = [r for r in need if id(r) not in used and r["q"] == q and r["part"][:3] == part[:3]]
+            if len({r["label"] for r in same_q}) == 1:
+                cand = same_q
+                APX_NOTES.append(f"appendix heading Q{q}{part} read as {same_q[0]['label']}")
+        if not cand and q is not None and not any(id(r) not in used and r["q"] == q for r in need):
+            # the row does not mention the Appendix but its solutions are printed there
+            cand = [r for r in rows if id(r) not in used and r["part"] == part and r["q"] == q][-1:]
+        if not cand:
+            continue
+        row = cand[0]
+        used.add(id(row))
+        end = groups[gi + 1][:2] if gi + 1 < len(groups) else (max(limits), None)
+        segs = []
+        for pg in range(pno, end[0] + 1):
+            if pg not in limits:
+                continue
+            top, bot = limits[pg]
+            a = (y0 - 3) if pg == pno else top
+            b = (end[1] - 3) if (pg == end[0] and end[1] is not None) else bot
+            if b - a > 6:
+                segs.append((pg, pymupdf.Rect(40, a, doc[pg].rect.width - 38, b)))
+        if segs:
+            row["segs"] = list(row["segs"]) + segs
+            row["appendix_segs"] = len(segs)
+            attached += 1
+    return attached, [r["label"] for r in need if id(r) not in used]
+
+
+def ms_rows_any(doc, qs):
+    """Table mark schemes (2017 on) or running-text mark schemes (2015-2016)."""
+    rows = ms_rows(doc)
+    if not rows:
+        rows = ms_rows_text(doc, qs)
+    doc._apx = attach_appendix(doc, rows)
     return rows
 
 

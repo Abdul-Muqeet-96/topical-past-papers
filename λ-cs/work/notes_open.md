@@ -1,1 +1,5 @@
-- Phase 2 (9608) is not in the books yet; the self-check (audit/CS_CHECK.md) has not been run yet.
+- The run stopped during stage 5 (usage limit). Stages 6 (self-check, audit/CS_CHECK.md) and 7 were not run.
+- Stage 5 state: both books are rebuilt with Phase 1 and Phase 2 together, but the Phase 2 pages have not been viewed yet (no render of a 9608 item, a 2015-16 running-text answer or an appended program-code appendix was inspected).
+- `final_checks.py` on the combined build reports 4 unexplained coverage gaps: O/N 16/P11 Q4 (iii), (iv) and O/N 16/P13 Q4 (iii), (iv) (tagged out of syllabus). Not yet investigated; all other final checks are zero.
+- The Phase 2 tag check list (203 flagged parts) was read and no tag changed, but this is not yet written into the Tagging section of report.md.
+- Phase 2 exclusions so far: 2 papers (O/N 17/P11 damaged file, O/N 18/P21 MS header), 5 questions (MS marks ≠ QP marks), 2 items (9608 M/J 21/P21 Q2 a, b), and the out-of-syllabus parts listed in report.md. For M/J 17/P22 the mark scheme file has no program-code appendix although rows 5(b) and 6(a) refer to it.

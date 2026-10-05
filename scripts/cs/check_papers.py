@@ -12,7 +12,7 @@ import os, re, sys
 from collections import Counter
 sys.path.insert(0, os.path.dirname(__file__))
 import parse
-from parse import load, parse_qp, ms_rows, paper_ref, fix_ms_rows, cover_total, special_page, page_lines
+from parse import load, parse_qp, ms_rows_any, paper_ref, fix_ms_rows, cover_total, special_page, page_lines
 from paths import DATA, MANIFEST, SERIES_REF, PAPER_TOTAL, work, jload, jdump
 
 
@@ -25,7 +25,7 @@ def margin_numbers(doc):
             continue
         for ws in page_lines(doc[pno]):
             w = ws[0]
-            if re.fullmatch(r"\d{1,2}", w[4]) and w[0] < 64:
+            if re.fullmatch(r"[1-9]\d?", w[4]) and w[0] < 64 and not parse._mono_word(doc[pno], w):
                 out.append(int(w[4]))
     return out
 
@@ -42,9 +42,24 @@ def check(pid, ent):
     if ref != paper_ref(md):
         res["paper_excluded"] = f"MS header reference '{paper_ref(md)}' != QP '{ref}'"
         return res
+    # AUTO-DECIDED: in 2021 both syllabuses sat papers with the same series and
+    # variant; a 9608 reference then carries the code so that references stay unique
+    twin = f"9618_{ent['series']}{ent['year'] % 100:02d}_{ent['variant']}"
+    if ent["code"] == "9608" and MAN.get(twin, {}).get("status") == "ok":
+        ref = res["ref"] = "9608 " + ref
+        res["ref_prefixed"] = True
     qs = parse_qp(qd)
+    if getattr(qd, "_marks2_used", None):
+        res["issues"].append(f"{len(qd._marks2_used)} mark(s) printed short of the right-hand margin were needed "
+                             f"to reach the cover total and are counted")
     parse.MS_TYPOS.clear()
-    rows = ms_rows(md)
+    parse.APX_NOTES.clear()
+    rows = ms_rows_any(md, qs)
+    apx = getattr(md, "_apx", (0, []))
+    if apx[0] or apx[1] or parse.APX_NOTES:
+        res["ms_appendix"] = {"attached": apx[0], "unattached": apx[1], "notes": list(parse.APX_NOTES)}
+    if rows and rows[0].get("text_layout"):
+        res["ms_text_layout"] = True
     res["ms_label_fixes"] = [[a, b] for a, b in parse.MS_TYPOS] + \
         [[o, n] for _, o, n in fix_ms_rows(rows, qs) if o != n]
     nums = [q["n"] for q in qs]
@@ -101,9 +116,13 @@ def check(pid, ent):
     return res
 
 
+MAN = {}
+
+
 def main():
     phase = sys.argv[1]
     man = jload(MANIFEST)
+    MAN.update(man)
     out = {}
     for pid, ent in sorted(man.items()):
         if ent["phase"] != phase or ent["status"] != "ok":

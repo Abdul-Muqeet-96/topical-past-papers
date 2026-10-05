@@ -1,0 +1,3675 @@
+{
+ "out_of_syllabus": [
+  {
+   "ref": "M/J 15/P11/Q2/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 15/P11/Q5/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 15/P11/Q5/c(ii)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "M/J 15/P11/Q6/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 15/P12/Q2/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 15/P12/Q5/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 15/P12/Q5/c(ii)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "M/J 15/P12/Q6/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 16/P11/Q6",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 16/P12/Q6",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 17/P11/Q2/a(ii)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "M/J 17/P11/Q7/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 17/P11/Q7/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 17/P11/Q7/c(i,ii,iii,iv)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "M/J 17/P12/Q2/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 17/P12/Q2/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 17/P12/Q6/c(i,ii,iii,iv)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "M/J 17/P13/Q2/a(ii)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "M/J 17/P13/Q7/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 17/P13/Q7/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 17/P13/Q7/c(i,ii,iii,iv)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "M/J 18/P11/Q5/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 18/P12/Q5/d",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 18/P12/Q6/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 18/P12/Q6/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 18/P12/Q6/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 18/P12/Q6/d",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 18/P13/Q1/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 18/P13/Q1/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 18/P13/Q1/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 18/P13/Q1/d",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 18/P13/Q6/e",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 19/P11/Q2/b(ii)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "M/J 19/P11/Q4/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 19/P11/Q4/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 19/P11/Q6/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 19/P11/Q6/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 19/P11/Q6/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 19/P12/Q1/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 19/P12/Q4/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 19/P13/Q5/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 19/P21/Q2/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 19/P21/Q2/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 19/P22/Q2/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 19/P23/Q3/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 20/P11/Q3/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 20/P11/Q3/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 20/P11/Q3/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 20/P11/Q8/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 20/P12/Q7/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 20/P13/Q7/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 20/P13/Q7/e",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "M/J 20/P22/Q1/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 M/J 21/P11/Q6/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 M/J 21/P11/Q6/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 M/J 21/P11/Q6/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 M/J 21/P11/Q6/d",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 M/J 21/P11/Q6/e",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 M/J 21/P12/Q5/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 M/J 21/P12/Q5/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 M/J 21/P12/Q5/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 M/J 21/P12/Q5/d",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 M/J 21/P12/Q5/e(i)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "9608 M/J 21/P12/Q5/f",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 M/J 21/P13/Q4/a(ii)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "9608 M/J 21/P13/Q5/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 M/J 21/P13/Q5/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 M/J 21/P13/Q5/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 M/J 21/P13/Q6/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 M/J 21/P13/Q9/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 15/P11/Q3/b(ii)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "O/N 15/P11/Q7/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 15/P13/Q3/b(ii)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "O/N 15/P13/Q7/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 16/P11/Q4/i",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "O/N 16/P11/Q4/(iii,iv)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "O/N 16/P12/Q2/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 16/P12/Q2/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 16/P12/Q2/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 16/P13/Q4/i",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "O/N 16/P13/Q4/(iii,iv)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "O/N 16/P22/Q3/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 16/P22/Q3/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 17/P12/Q4/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 17/P12/Q5/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 17/P12/Q6/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 17/P13/Q6/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 17/P21/Q4/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 17/P21/Q4/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 17/P22/Q1/a(iii)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "O/N 17/P22/Q1/b(ii)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "O/N 17/P23/Q4/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 17/P23/Q4/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 18/P11/Q1/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 18/P11/Q1/d",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 18/P11/Q1/e",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 18/P11/Q6/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 18/P11/Q6/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 18/P11/Q6/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 18/P11/Q6/d",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 18/P22/Q3/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 19/P11/Q2/a(iv)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "O/N 19/P11/Q4/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 19/P12/Q3/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 19/P12/Q3/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 19/P12/Q3/c",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 19/P12/Q3/d",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 19/P12/Q5/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 19/P12/Q6/d(ii)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "O/N 19/P12/Q6/e(iii)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "O/N 19/P13/Q2/b(iii)",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded (rest of the lettered part kept)"
+  },
+  {
+   "ref": "O/N 19/P13/Q6/a",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "O/N 19/P23/Q2/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 O/N 21/P11/Q2/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 O/N 21/P11/Q3",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 O/N 21/P11/Q4/b",
+   "issue": "no clear match in the 2027-29 learning outcomes",
+   "action": "excluded"
+  }
+ ],
+ "split": [
+  {
+   "ref": "M/J 15/P11/Q5/c",
+   "groups": [
+    [
+     "M/J 15/P11/Q5/c(i)",
+     2
+    ],
+    [
+     "M/J 15/P11/Q5/c(ii)",
+     null
+    ],
+    [
+     "M/J 15/P11/Q5/c(iii)",
+     2
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 15/P12/Q5/c",
+   "groups": [
+    [
+     "M/J 15/P12/Q5/c(i)",
+     2
+    ],
+    [
+     "M/J 15/P12/Q5/c(ii)",
+     null
+    ],
+    [
+     "M/J 15/P12/Q5/c(iii)",
+     2
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 15/P21/Q1/b",
+   "groups": [
+    [
+     "M/J 15/P21/Q1/b(i)",
+     9
+    ],
+    [
+     "M/J 15/P21/Q1/b(ii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 15/P21/Q4",
+   "groups": [
+    [
+     "M/J 15/P21/Q4/i",
+     11
+    ],
+    [
+     "M/J 15/P21/Q4/(ii)",
+     12
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 15/P22/Q1/b",
+   "groups": [
+    [
+     "M/J 15/P22/Q1/b(i)",
+     9
+    ],
+    [
+     "M/J 15/P22/Q1/b(ii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 15/P22/Q4",
+   "groups": [
+    [
+     "M/J 15/P22/Q4/i",
+     11
+    ],
+    [
+     "M/J 15/P22/Q4/(ii)",
+     12
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 15/P23/Q2/b",
+   "groups": [
+    [
+     "M/J 15/P23/Q2/b(i)",
+     12
+    ],
+    [
+     "M/J 15/P23/Q2/b(ii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 15/P23/Q3",
+   "groups": [
+    [
+     "M/J 15/P23/Q3/i",
+     12
+    ],
+    [
+     "M/J 15/P23/Q3/(ii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 15/P23/Q4/b",
+   "groups": [
+    [
+     "M/J 15/P23/Q4/b(i)",
+     10
+    ],
+    [
+     "M/J 15/P23/Q4/b(ii)",
+     6
+    ],
+    [
+     "M/J 15/P23/Q4/b(iii,iv)",
+     10
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 16/P21/Q3/b",
+   "groups": [
+    [
+     "M/J 16/P21/Q3/b(i)",
+     10
+    ],
+    [
+     "M/J 16/P21/Q3/b(ii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 16/P22/Q3/b",
+   "groups": [
+    [
+     "M/J 16/P22/Q3/b(i)",
+     10
+    ],
+    [
+     "M/J 16/P22/Q3/b(ii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 17/P11/Q2/a",
+   "groups": [
+    [
+     "M/J 17/P11/Q2/a(i)",
+     3
+    ],
+    [
+     "M/J 17/P11/Q2/a(ii)",
+     null
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 17/P11/Q4/d",
+   "groups": [
+    [
+     "M/J 17/P11/Q4/d(i)",
+     1
+    ],
+    [
+     "M/J 17/P11/Q4/d(ii)",
+     4
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 17/P11/Q7/c",
+   "groups": [
+    [
+     "M/J 17/P11/Q7/c(i,ii,iii,iv)",
+     null
+    ],
+    [
+     "M/J 17/P11/Q7/c(v)",
+     6
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 17/P12/Q5/c",
+   "groups": [
+    [
+     "M/J 17/P12/Q5/c(i)",
+     1
+    ],
+    [
+     "M/J 17/P12/Q5/c(ii)",
+     4
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 17/P12/Q6/c",
+   "groups": [
+    [
+     "M/J 17/P12/Q6/c(i,ii,iii,iv)",
+     null
+    ],
+    [
+     "M/J 17/P12/Q6/c(v)",
+     6
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 17/P13/Q2/a",
+   "groups": [
+    [
+     "M/J 17/P13/Q2/a(i)",
+     3
+    ],
+    [
+     "M/J 17/P13/Q2/a(ii)",
+     null
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 17/P13/Q4/d",
+   "groups": [
+    [
+     "M/J 17/P13/Q4/d(i)",
+     1
+    ],
+    [
+     "M/J 17/P13/Q4/d(ii)",
+     4
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 17/P13/Q7/c",
+   "groups": [
+    [
+     "M/J 17/P13/Q7/c(i,ii,iii,iv)",
+     null
+    ],
+    [
+     "M/J 17/P13/Q7/c(v)",
+     6
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 17/P21/Q1/b",
+   "groups": [
+    [
+     "M/J 17/P21/Q1/b(i)",
+     10
+    ],
+    [
+     "M/J 17/P21/Q1/b(ii,iii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 17/P23/Q1/b",
+   "groups": [
+    [
+     "M/J 17/P23/Q1/b(i)",
+     10
+    ],
+    [
+     "M/J 17/P23/Q1/b(ii,iii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 18/P22/Q2/c",
+   "groups": [
+    [
+     "M/J 18/P22/Q2/c(i)",
+     12
+    ],
+    [
+     "M/J 18/P22/Q2/c(ii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 18/P23/Q2/c",
+   "groups": [
+    [
+     "M/J 18/P23/Q2/c(i)",
+     12
+    ],
+    [
+     "M/J 18/P23/Q2/c(ii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 19/P11/Q2/b",
+   "groups": [
+    [
+     "M/J 19/P11/Q2/b(i)",
+     8
+    ],
+    [
+     "M/J 19/P11/Q2/b(ii)",
+     null
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 19/P12/Q5/b",
+   "groups": [
+    [
+     "M/J 19/P12/Q5/b(i)",
+     6
+    ],
+    [
+     "M/J 19/P12/Q5/b(ii,iii)",
+     8
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 19/P21/Q1/b",
+   "groups": [
+    [
+     "M/J 19/P21/Q1/b(i)",
+     11
+    ],
+    [
+     "M/J 19/P21/Q1/b(ii)",
+     10
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 19/P22/Q1/b",
+   "groups": [
+    [
+     "M/J 19/P22/Q1/b(i)",
+     11
+    ],
+    [
+     "M/J 19/P22/Q1/b(ii)",
+     10
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 20/P12/Q2/c",
+   "groups": [
+    [
+     "M/J 20/P12/Q2/c(i,ii)",
+     5
+    ],
+    [
+     "M/J 20/P12/Q2/c(iii)",
+     4
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 20/P21/Q6/c",
+   "groups": [
+    [
+     "M/J 20/P21/Q6/c(i)",
+     11
+    ],
+    [
+     "M/J 20/P21/Q6/c(ii)",
+     12
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 20/P22/Q2/b",
+   "groups": [
+    [
+     "M/J 20/P22/Q2/b(i)",
+     9
+    ],
+    [
+     "M/J 20/P22/Q2/b(ii)",
+     12
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 20/P22/Q6/a",
+   "groups": [
+    [
+     "M/J 20/P22/Q6/a(i)",
+     11
+    ],
+    [
+     "M/J 20/P22/Q6/a(ii,iii)",
+     12
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 20/P23/Q5/b",
+   "groups": [
+    [
+     "M/J 20/P23/Q5/b(i)",
+     10
+    ],
+    [
+     "M/J 20/P23/Q5/b(ii)",
+     12
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 20/P23/Q5/d",
+   "groups": [
+    [
+     "M/J 20/P23/Q5/d(i,ii)",
+     12
+    ],
+    [
+     "M/J 20/P23/Q5/d(iii)",
+     5
+    ]
+   ]
+  },
+  {
+   "ref": "9608 M/J 21/P12/Q5/e",
+   "groups": [
+    [
+     "9608 M/J 21/P12/Q5/e(i)",
+     null
+    ],
+    [
+     "9608 M/J 21/P12/Q5/e(ii)",
+     6
+    ]
+   ]
+  },
+  {
+   "ref": "9608 M/J 21/P13/Q4/a",
+   "groups": [
+    [
+     "9608 M/J 21/P13/Q4/a(i)",
+     5
+    ],
+    [
+     "9608 M/J 21/P13/Q4/a(ii)",
+     null
+    ],
+    [
+     "9608 M/J 21/P13/Q4/a(iii)",
+     5
+    ]
+   ]
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q5/a",
+   "groups": [
+    [
+     "9608 M/J 21/P21/Q5/a(i)",
+     11
+    ],
+    [
+     "9608 M/J 21/P21/Q5/a(ii)",
+     6
+    ]
+   ]
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q5/b",
+   "groups": [
+    [
+     "9608 M/J 21/P21/Q5/b(i,ii)",
+     12
+    ],
+    [
+     "9608 M/J 21/P21/Q5/b(iii)",
+     5
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 15/P11/Q3/b",
+   "groups": [
+    [
+     "O/N 15/P11/Q3/b(i)",
+     2
+    ],
+    [
+     "O/N 15/P11/Q3/b(ii)",
+     null
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 15/P13/Q3/b",
+   "groups": [
+    [
+     "O/N 15/P13/Q3/b(i)",
+     2
+    ],
+    [
+     "O/N 15/P13/Q3/b(ii)",
+     null
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 15/P22/Q5/a",
+   "groups": [
+    [
+     "O/N 15/P22/Q5/a(i)",
+     12
+    ],
+    [
+     "O/N 15/P22/Q5/a(ii)",
+     10
+    ],
+    [
+     "O/N 15/P22/Q5/a(iii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 15/P22/Q6/b",
+   "groups": [
+    [
+     "O/N 15/P22/Q6/b(i)",
+     9
+    ],
+    [
+     "O/N 15/P22/Q6/b(ii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 15/P22/Q7/b",
+   "groups": [
+    [
+     "O/N 15/P22/Q7/b(i)",
+     11
+    ],
+    [
+     "O/N 15/P22/Q7/b(ii)",
+     9
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 16/P11/Q4",
+   "groups": [
+    [
+     "O/N 16/P11/Q4/i",
+     null
+    ],
+    [
+     "O/N 16/P11/Q4/(ii)",
+     3
+    ],
+    [
+     "O/N 16/P11/Q4/(iii,iv)",
+     null
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 16/P13/Q4",
+   "groups": [
+    [
+     "O/N 16/P13/Q4/i",
+     null
+    ],
+    [
+     "O/N 16/P13/Q4/(ii)",
+     3
+    ],
+    [
+     "O/N 16/P13/Q4/(iii,iv)",
+     null
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 16/P22/Q5/b",
+   "groups": [
+    [
+     "O/N 16/P22/Q5/b(i)",
+     9
+    ],
+    [
+     "O/N 16/P22/Q5/b(ii,iii)",
+     10
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 16/P22/Q5/c",
+   "groups": [
+    [
+     "O/N 16/P22/Q5/c(i,ii)",
+     11
+    ],
+    [
+     "O/N 16/P22/Q5/c(iii)",
+     12
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 17/P22/Q1/a",
+   "groups": [
+    [
+     "O/N 17/P22/Q1/a(i,ii)",
+     10
+    ],
+    [
+     "O/N 17/P22/Q1/a(iii)",
+     null
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 17/P22/Q1/b",
+   "groups": [
+    [
+     "O/N 17/P22/Q1/b(i)",
+     1
+    ],
+    [
+     "O/N 17/P22/Q1/b(ii)",
+     null
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 18/P13/Q2/b",
+   "groups": [
+    [
+     "O/N 18/P13/Q2/b(i,ii,iii)",
+     1
+    ],
+    [
+     "O/N 18/P13/Q2/b(iv)",
+     4
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 18/P22/Q2/a",
+   "groups": [
+    [
+     "O/N 18/P22/Q2/a(i)",
+     9
+    ],
+    [
+     "O/N 18/P22/Q2/a(ii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 18/P22/Q4/a",
+   "groups": [
+    [
+     "O/N 18/P22/Q4/a(i)",
+     11
+    ],
+    [
+     "O/N 18/P22/Q4/a(ii)",
+     10
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 18/P23/Q2/a",
+   "groups": [
+    [
+     "O/N 18/P23/Q2/a(i)",
+     9
+    ],
+    [
+     "O/N 18/P23/Q2/a(ii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 18/P23/Q4/a",
+   "groups": [
+    [
+     "O/N 18/P23/Q4/a(i)",
+     11
+    ],
+    [
+     "O/N 18/P23/Q4/a(ii)",
+     10
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 18/P23/Q4/d",
+   "groups": [
+    [
+     "O/N 18/P23/Q4/d(i)",
+     10
+    ],
+    [
+     "O/N 18/P23/Q4/d(ii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 19/P11/Q2/a",
+   "groups": [
+    [
+     "O/N 19/P11/Q2/a(i,ii,iii)",
+     3
+    ],
+    [
+     "O/N 19/P11/Q2/a(iv)",
+     null
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 19/P12/Q6/d",
+   "groups": [
+    [
+     "O/N 19/P12/Q6/d(i)",
+     1
+    ],
+    [
+     "O/N 19/P12/Q6/d(ii)",
+     null
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 19/P12/Q6/e",
+   "groups": [
+    [
+     "O/N 19/P12/Q6/e(i,ii)",
+     2
+    ],
+    [
+     "O/N 19/P12/Q6/e(iii)",
+     null
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 19/P13/Q1/c",
+   "groups": [
+    [
+     "O/N 19/P13/Q1/c(i)",
+     2
+    ],
+    [
+     "O/N 19/P13/Q1/c(ii)",
+     6
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 19/P13/Q2/b",
+   "groups": [
+    [
+     "O/N 19/P13/Q2/b(i,ii)",
+     1
+    ],
+    [
+     "O/N 19/P13/Q2/b(iii)",
+     null
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 19/P21/Q1/b",
+   "groups": [
+    [
+     "O/N 19/P21/Q1/b(i)",
+     10
+    ],
+    [
+     "O/N 19/P21/Q1/b(ii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 19/P21/Q6/d",
+   "groups": [
+    [
+     "O/N 19/P21/Q6/d(i)",
+     10
+    ],
+    [
+     "O/N 19/P21/Q6/d(ii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 19/P22/Q1/b",
+   "groups": [
+    [
+     "O/N 19/P22/Q1/b(i)",
+     10
+    ],
+    [
+     "O/N 19/P22/Q1/b(ii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 19/P23/Q1/a",
+   "groups": [
+    [
+     "O/N 19/P23/Q1/a(i)",
+     10
+    ],
+    [
+     "O/N 19/P23/Q1/a(ii)",
+     11
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 19/P23/Q2/a",
+   "groups": [
+    [
+     "O/N 19/P23/Q2/a(i)",
+     11
+    ],
+    [
+     "O/N 19/P23/Q2/a(ii)",
+     9
+    ]
+   ]
+  }
+ ],
+ "context": [
+  {
+   "ref": "M/J 15/P11/Q6/b",
+   "part": "(a)",
+   "why": "part reference"
+  },
+  {
+   "ref": "M/J 15/P12/Q6/b",
+   "part": "(a)",
+   "why": "part reference"
+  },
+  {
+   "ref": "M/J 15/P21/Q5/c",
+   "part": "(b)#intro",
+   "why": "'the programmer'"
+  },
+  {
+   "ref": "M/J 15/P22/Q5/c",
+   "part": "(b)#intro",
+   "why": "'the programmer'"
+  },
+  {
+   "ref": "M/J 16/P21/Q3/b(ii)",
+   "part": "(a)",
+   "why": "identifier NewChar"
+  },
+  {
+   "ref": "M/J 16/P22/Q3/b(ii)",
+   "part": "(a)",
+   "why": "identifier NewChar"
+  },
+  {
+   "ref": "M/J 16/P23/Q3/b",
+   "part": "(a)",
+   "why": "identifier Index"
+  },
+  {
+   "ref": "M/J 18/P22/Q5/a,d",
+   "part": "(c)",
+   "why": "identifier GetNumber"
+  },
+  {
+   "ref": "M/J 19/P21/Q3/b",
+   "part": "(a)",
+   "why": "'the student'"
+  },
+  {
+   "ref": "M/J 19/P21/Q6/b",
+   "part": "(a)",
+   "why": "identifier FindCD"
+  },
+  {
+   "ref": "M/J 20/P22/Q4/b",
+   "part": "(a)",
+   "why": "part reference"
+  },
+  {
+   "ref": "M/J 20/P23/Q5/c",
+   "part": "(b)(i)",
+   "why": "identifier GetHours"
+  },
+  {
+   "ref": "9608 M/J 21/P23/Q5/b",
+   "part": "(a)",
+   "why": "identifier GroupNum"
+  },
+  {
+   "ref": "O/N 15/P21/Q7/c",
+   "part": "(b)",
+   "why": "identifier MyString"
+  },
+  {
+   "ref": "O/N 15/P23/Q7/c",
+   "part": "(b)",
+   "why": "identifier MyString"
+  },
+  {
+   "ref": "O/N 16/P22/Q4/d",
+   "part": "(b)",
+   "why": "part reference"
+  },
+  {
+   "ref": "O/N 16/P22/Q5/b(i)",
+   "part": "(a)",
+   "why": "part reference"
+  },
+  {
+   "ref": "O/N 16/P22/Q5/c(i,ii)",
+   "part": "(a)",
+   "why": "identifier PlayerScore"
+  },
+  {
+   "ref": "O/N 16/P22/Q5/c(iii)",
+   "part": "(a)",
+   "why": "identifier PlayerScore"
+  },
+  {
+   "ref": "O/N 17/P22/Q1/c,d",
+   "part": "(a)(ii)",
+   "why": "identifier MyGrade"
+  },
+  {
+   "ref": "O/N 17/P22/Q4/b",
+   "part": "(a)",
+   "why": "part reference"
+  }
+ ],
+ "kept_whole": [
+  {
+   "ref": "M/J 15/P21/Q5/e",
+   "why": "context for ['(e)(i)'] exceeds one page",
+   "by": {
+    "9": 3,
+    "10": 7
+   }
+  },
+  {
+   "ref": "M/J 15/P22/Q5/e",
+   "why": "context for ['(e)(i)'] exceeds one page",
+   "by": {
+    "9": 3,
+    "10": 7
+   }
+  },
+  {
+   "ref": "M/J 15/P23/Q5/a,b,c",
+   "why": "context of M/J 15/P23/Q5/c would exceed one page (769 pt): kept with the parts it depends on",
+   "by": {
+    "10": 5,
+    "12": 8,
+    "11": 8
+   }
+  },
+  {
+   "ref": "M/J 16/P21/Q1/a",
+   "why": "(a)(ii) depends on sibling ['(a)(i)']",
+   "by": {
+    "9": 6,
+    "11": 8
+   }
+  },
+  {
+   "ref": "M/J 16/P22/Q1/a",
+   "why": "(a)(ii) depends on sibling ['(a)(i)']",
+   "by": {
+    "9": 6,
+    "11": 8
+   }
+  },
+  {
+   "ref": "M/J 16/P23/Q1/a",
+   "why": "(a)(ii) depends on sibling ['(a)(i)']",
+   "by": {
+    "9": 6,
+    "11": 8
+   }
+  },
+  {
+   "ref": "M/J 18/P21/Q1/b",
+   "why": "(b)(ii) depends on sibling ['(b)(i)']",
+   "by": {
+    "11": 5,
+    "10": 5
+   }
+  },
+  {
+   "ref": "M/J 18/P22/Q1/b",
+   "why": "(b)(ii) depends on sibling ['(b)(i)']",
+   "by": {
+    "11": 5,
+    "10": 5
+   }
+  },
+  {
+   "ref": "M/J 18/P23/Q1/b",
+   "why": "(b)(ii) depends on sibling ['(b)(i)']",
+   "by": {
+    "11": 5,
+    "10": 5
+   }
+  },
+  {
+   "ref": "M/J 19/P23/Q1/b",
+   "why": "(b)(ii) depends on sibling ['(b)(i)']",
+   "by": {
+    "11": 5,
+    "10": 5
+   }
+  },
+  {
+   "ref": "M/J 20/P21/Q2/b",
+   "why": "context for ['(b)(i)', '(b)(ii)'] exceeds one page",
+   "by": {
+    "12": 4,
+    "11": 4
+   }
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q3/b",
+   "why": "context for ['(b)(i)'] exceeds one page",
+   "by": {
+    "11": 2,
+    "12": 3
+   }
+  },
+  {
+   "ref": "9608 M/J 21/P23/Q1/b",
+   "why": "(b)(ii) depends on sibling ['(b)(i)']",
+   "by": {
+    "11": 2,
+    "10": 2
+   }
+  },
+  {
+   "ref": "O/N 15/P21/Q6/c",
+   "why": "context for ['(c)(i)', '(c)(ii)', '(c)(iii)'] exceeds one page",
+   "by": {
+    "11": 5,
+    "10": 2
+   }
+  },
+  {
+   "ref": "O/N 15/P21/Q8/a,b,c",
+   "why": "context of O/N 15/P21/Q8/c would exceed one page (968 pt): kept with the parts it depends on",
+   "by": {
+    "11": 4,
+    "12": 7
+   }
+  },
+  {
+   "ref": "O/N 15/P22/Q4/a,b,c,d,e,f,g",
+   "why": "context of O/N 15/P22/Q4/f would exceed one page (862 pt): kept with the parts it depends on",
+   "by": {
+    "11": 14,
+    "10": 1
+   }
+  },
+  {
+   "ref": "O/N 15/P23/Q6/c",
+   "why": "context for ['(c)(i)', '(c)(ii)', '(c)(iii)'] exceeds one page",
+   "by": {
+    "11": 5,
+    "10": 2
+   }
+  },
+  {
+   "ref": "O/N 15/P23/Q8/a,b,c",
+   "why": "context of O/N 15/P23/Q8/c would exceed one page (968 pt): kept with the parts it depends on",
+   "by": {
+    "11": 4,
+    "12": 7
+   }
+  },
+  {
+   "ref": "O/N 16/P21/Q1/a,b",
+   "why": "context of O/N 16/P21/Q1/b would exceed one page (1106 pt): kept with the parts it depends on",
+   "by": {
+    "9": 6,
+    "12": 5
+   }
+  },
+  {
+   "ref": "O/N 16/P21/Q1/a,b,c",
+   "why": "context of O/N 16/P21/Q1/c would exceed one page (1106 pt): kept with the parts it depends on",
+   "by": {
+    "9": 6,
+    "12": 5,
+    "11": 3
+   }
+  },
+  {
+   "ref": "O/N 16/P21/Q4/c,d,e",
+   "why": "context of O/N 16/P21/Q4/d would exceed one page (1287 pt): kept with the parts it depends on",
+   "by": {
+    "10": 13,
+    "12": 4
+   }
+  },
+  {
+   "ref": "O/N 16/P22/Q1/a,b",
+   "why": "context of O/N 16/P22/Q1/b would exceed one page (800 pt): kept with the parts it depends on",
+   "by": {
+    "9": 9,
+    "12": 5
+   }
+  },
+  {
+   "ref": "O/N 16/P22/Q1/a,b,c",
+   "why": "context of O/N 16/P22/Q1/c would exceed one page (800 pt): kept with the parts it depends on",
+   "by": {
+    "9": 9,
+    "12": 5,
+    "11": 3
+   }
+  },
+  {
+   "ref": "O/N 16/P22/Q2/a,b,c,d",
+   "why": "context of O/N 16/P22/Q2/d would exceed one page (751 pt): kept with the parts it depends on",
+   "by": {
+    "11": 8,
+    "12": 7
+   }
+  },
+  {
+   "ref": "O/N 16/P23/Q1/a,b",
+   "why": "context of O/N 16/P23/Q1/b would exceed one page (1106 pt): kept with the parts it depends on",
+   "by": {
+    "9": 6,
+    "12": 5
+   }
+  },
+  {
+   "ref": "O/N 16/P23/Q1/a,b,c",
+   "why": "context of O/N 16/P23/Q1/c would exceed one page (1106 pt): kept with the parts it depends on",
+   "by": {
+    "9": 6,
+    "12": 5,
+    "11": 3
+   }
+  },
+  {
+   "ref": "O/N 16/P23/Q4/c,d,e",
+   "why": "context of O/N 16/P23/Q4/d would exceed one page (1287 pt): kept with the parts it depends on",
+   "by": {
+    "10": 13,
+    "12": 4
+   }
+  },
+  {
+   "ref": "O/N 17/P21/Q3/c",
+   "why": "context for ['(c)(i)'] exceeds one page",
+   "by": {
+    "12": 4,
+    "5": 3
+   }
+  },
+  {
+   "ref": "O/N 17/P21/Q3/a,b,c",
+   "why": "context of O/N 17/P21/Q3/c would exceed one page (1088 pt): kept with the parts it depends on",
+   "by": {
+    "10": 16,
+    "12": 4,
+    "5": 3
+   }
+  },
+  {
+   "ref": "O/N 17/P23/Q3/c",
+   "why": "context for ['(c)(i)'] exceeds one page",
+   "by": {
+    "12": 4,
+    "5": 3
+   }
+  },
+  {
+   "ref": "O/N 17/P23/Q3/a,b,c",
+   "why": "context of O/N 17/P23/Q3/c would exceed one page (1088 pt): kept with the parts it depends on",
+   "by": {
+    "10": 16,
+    "12": 4,
+    "5": 3
+   }
+  },
+  {
+   "ref": "O/N 18/P22/Q1/b",
+   "why": "(b)(ii) depends on sibling ['(b)(i)']",
+   "by": {
+    "10": 5,
+    "11": 5
+   }
+  },
+  {
+   "ref": "O/N 18/P23/Q1/b",
+   "why": "(b)(ii) depends on sibling ['(b)(i)']",
+   "by": {
+    "10": 5,
+    "11": 5
+   }
+  }
+ ],
+ "cross_filed": [
+  {
+   "ref": "M/J 15/P23/Q4/b(ii)",
+   "unit": 6,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 6)"
+  },
+  {
+   "ref": "M/J 18/P21/Q5/b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "M/J 18/P22/Q5/b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "M/J 18/P23/Q5/b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "M/J 19/P22/Q2/b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "M/J 19/P23/Q2/d",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "M/J 20/P22/Q1/d",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "M/J 20/P23/Q1/d",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "M/J 20/P23/Q5/d(iii)",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q1/a",
+   "unit": 1,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 1)"
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q4/b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q5/a(ii)",
+   "unit": 6,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 6)"
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q5/b(iii)",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "9608 M/J 21/P22/Q1/b",
+   "unit": 1,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 1)"
+  },
+  {
+   "ref": "9608 M/J 21/P22/Q5/a",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "O/N 15/P21/Q2",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "O/N 15/P21/Q7/c",
+   "unit": 6,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 6)"
+  },
+  {
+   "ref": "O/N 15/P23/Q2",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "O/N 15/P23/Q7/c",
+   "unit": 6,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 6)"
+  },
+  {
+   "ref": "O/N 16/P21/Q4/a,b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "O/N 16/P23/Q4/a,b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "O/N 17/P22/Q1/b(i)",
+   "unit": 1,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 1)"
+  },
+  {
+   "ref": "O/N 17/P22/Q4/b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "O/N 19/P21/Q2/b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "O/N 19/P22/Q2/b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "O/N 19/P23/Q2/c",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  }
+ ],
+ "auto": [
+  {
+   "ref": "M/J 15/P23/Q5/a,b,c",
+   "issue": "topic marks tie {10: 5, 12: 8, 11: 8}",
+   "action": "filed under topic 12 (topic of first part)"
+  },
+  {
+   "ref": "M/J 18/P21/Q1/b",
+   "issue": "topic marks tie {11: 5, 10: 5}",
+   "action": "filed under topic 11 (topic of first sub-part)"
+  },
+  {
+   "ref": "M/J 18/P22/Q1/b",
+   "issue": "topic marks tie {11: 5, 10: 5}",
+   "action": "filed under topic 11 (topic of first sub-part)"
+  },
+  {
+   "ref": "M/J 18/P23/Q1/b",
+   "issue": "topic marks tie {11: 5, 10: 5}",
+   "action": "filed under topic 11 (topic of first sub-part)"
+  },
+  {
+   "ref": "M/J 19/P23/Q1/b",
+   "issue": "topic marks tie {11: 5, 10: 5}",
+   "action": "filed under topic 11 (topic of first sub-part)"
+  },
+  {
+   "ref": "M/J 20/P21/Q2/b",
+   "issue": "topic marks tie {12: 4, 11: 4}",
+   "action": "filed under topic 12 (topic of first sub-part)"
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q2/a,b",
+   "issue": "same-unit parts could not be merged into one item",
+   "action": "kept as separate items"
+  },
+  {
+   "ref": "9608 M/J 21/P23/Q1/b",
+   "issue": "topic marks tie {11: 2, 10: 2}",
+   "action": "filed under topic 11 (topic of first sub-part)"
+  },
+  {
+   "ref": "O/N 15/P21/Q8/c,d",
+   "issue": "same-unit parts could not be merged into one item",
+   "action": "kept as separate items"
+  },
+  {
+   "ref": "O/N 15/P23/Q8/c,d",
+   "issue": "same-unit parts could not be merged into one item",
+   "action": "kept as separate items"
+  },
+  {
+   "ref": "O/N 18/P22/Q1/b",
+   "issue": "topic marks tie {10: 5, 11: 5}",
+   "action": "filed under topic 10 (topic of first sub-part)"
+  },
+  {
+   "ref": "O/N 18/P23/Q1/b",
+   "issue": "topic marks tie {10: 5, 11: 5}",
+   "action": "filed under topic 10 (topic of first sub-part)"
+  }
+ ],
+ "insert": [
+  {
+   "ref": "M/J 16/P21/Q1/a",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s16_qp_21.pdf",
+     17
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 16/P21/Q3/a,b(i)",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s16_qp_21.pdf",
+     17
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 16/P21/Q6/a,b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s16_qp_21.pdf",
+     17
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 16/P22/Q1/a",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s16_qp_22.pdf",
+     17
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 16/P22/Q3/a,b(i)",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s16_qp_22.pdf",
+     17
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 16/P22/Q6/a,b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s16_qp_22.pdf",
+     17
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 16/P23/Q1/a",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s16_qp_23.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 16/P23/Q2/a,b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s16_qp_23.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 16/P23/Q3/a",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s16_qp_23.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 16/P23/Q6/a,b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses LCASE, UCASE (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s16_qp_23.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 17/P21/Q3",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s17_qp_21.pdf",
+     13
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 17/P22/Q3",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s17_qp_22.pdf",
+     12
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 17/P23/Q3",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s17_qp_23.pdf",
+     13
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 18/P21/Q1/b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses MOD (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s18_qp_21.pdf",
+     14
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 18/P21/Q2/a",
+   "mode": "inline",
+   "why": "uses LCASE (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s18_qp_21.pdf",
+     14
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 18/P21/Q2/b",
+   "mode": "inline",
+   "why": "uses LCASE (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s18_qp_21.pdf",
+     14
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 18/P22/Q1/b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses MOD (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s18_qp_22.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 18/P23/Q1/b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses MOD (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s18_qp_23.pdf",
+     14
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 19/P21/Q1/b(i)",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s19_qp_21.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 19/P21/Q4/a,c",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s19_qp_21.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 19/P21/Q4/b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s19_qp_21.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 19/P21/Q5/b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s19_qp_21.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 19/P22/Q1/b(i)",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses NUM_TO_STRING, STRING_TO_NUM (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s19_qp_22.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 19/P22/Q4/a,b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses STRING_TO_NUM (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s19_qp_22.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 19/P23/Q1/b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses NUM_TO_STRING, STRING_TO_NUM (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s19_qp_23.pdf",
+     17
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 19/P23/Q5/a,b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s19_qp_23.pdf",
+     17
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 20/P21/Q2/a,b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s20_qp_21.pdf",
+     20
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 20/P21/Q3/b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses NUM_TO_STRING (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s20_qp_21.pdf",
+     20
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 20/P21/Q5/a,b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s20_qp_21.pdf",
+     20
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 20/P22/Q3",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s20_qp_22.pdf",
+     18
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 20/P22/Q4/a",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s20_qp_22.pdf",
+     18
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 20/P22/Q6/a(i)",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s20_qp_22.pdf",
+     18
+    ]
+   ]
+  },
+  {
+   "ref": "M/J 20/P23/Q5/a,b(i)",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s20_qp_23.pdf",
+     18
+    ]
+   ]
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q1/a",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s21_qp_21.pdf",
+     21
+    ],
+    [
+     "qp",
+     "9608_s21_qp_21.pdf",
+     22
+    ]
+   ]
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q1/c",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s21_qp_21.pdf",
+     21
+    ],
+    [
+     "qp",
+     "9608_s21_qp_21.pdf",
+     22
+    ]
+   ]
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q4/a",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s21_qp_21.pdf",
+     21
+    ],
+    [
+     "qp",
+     "9608_s21_qp_21.pdf",
+     22
+    ]
+   ]
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q4/b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s21_qp_21.pdf",
+     21
+    ],
+    [
+     "qp",
+     "9608_s21_qp_21.pdf",
+     22
+    ]
+   ]
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q4/c",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s21_qp_21.pdf",
+     21
+    ],
+    [
+     "qp",
+     "9608_s21_qp_21.pdf",
+     22
+    ]
+   ]
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q5/a(i)",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s21_qp_21.pdf",
+     21
+    ],
+    [
+     "qp",
+     "9608_s21_qp_21.pdf",
+     22
+    ]
+   ]
+  },
+  {
+   "ref": "9608 M/J 21/P22/Q1/d",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s21_qp_22.pdf",
+     17
+    ]
+   ]
+  },
+  {
+   "ref": "9608 M/J 21/P23/Q1/b,c",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s21_qp_23.pdf",
+     21
+    ],
+    [
+     "qp",
+     "9608_s21_qp_23.pdf",
+     22
+    ]
+   ]
+  },
+  {
+   "ref": "9608 M/J 21/P23/Q4/a,b,c",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s21_qp_23.pdf",
+     21
+    ],
+    [
+     "qp",
+     "9608_s21_qp_23.pdf",
+     22
+    ]
+   ]
+  },
+  {
+   "ref": "9608 M/J 21/P23/Q5/a",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_s21_qp_23.pdf",
+     21
+    ],
+    [
+     "qp",
+     "9608_s21_qp_23.pdf",
+     22
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 16/P21/Q3/a,b,c,d",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses CHARACTERCOUNT, SUBSTR (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w16_qp_21.pdf",
+     18
+    ],
+    [
+     "qp",
+     "9608_w16_qp_21.pdf",
+     19
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 16/P22/Q2/a,b,c,d",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses ONECHAR, TONUM (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w16_qp_22.pdf",
+     17
+    ],
+    [
+     "qp",
+     "9608_w16_qp_22.pdf",
+     18
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 16/P22/Q4/a,b,c",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses RND (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w16_qp_22.pdf",
+     17
+    ],
+    [
+     "qp",
+     "9608_w16_qp_22.pdf",
+     18
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 16/P22/Q4/d",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w16_qp_22.pdf",
+     17
+    ],
+    [
+     "qp",
+     "9608_w16_qp_22.pdf",
+     18
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 16/P23/Q3/a,b,c,d",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses CHARACTERCOUNT, SUBSTR (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w16_qp_23.pdf",
+     18
+    ],
+    [
+     "qp",
+     "9608_w16_qp_23.pdf",
+     19
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 17/P21/Q2/a,b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses MODULUS (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w17_qp_21.pdf",
+     13
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 17/P21/Q2/c",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses MODULUS (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w17_qp_21.pdf",
+     13
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 17/P21/Q5/a",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w17_qp_21.pdf",
+     13
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 17/P22/Q3",
+   "mode": "inline",
+   "why": "uses MODULUS (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w17_qp_22.pdf",
+     14
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 17/P22/Q5",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w17_qp_22.pdf",
+     14
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 17/P23/Q2/a,b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses MODULUS (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w17_qp_23.pdf",
+     13
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 17/P23/Q2/c",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses MODULUS (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w17_qp_23.pdf",
+     13
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 17/P23/Q5/a",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w17_qp_23.pdf",
+     13
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 18/P22/Q1/b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w18_qp_22.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 18/P22/Q2/a(i)",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w18_qp_22.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 18/P22/Q2/a(ii)",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w18_qp_22.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 18/P22/Q2/b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w18_qp_22.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 18/P23/Q1/b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w18_qp_23.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 18/P23/Q2/a(ii)",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w18_qp_23.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 19/P21/Q1/b(ii)",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses NUM_TO_STRING, STRING_TO_NUM (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w19_qp_21.pdf",
+     15
+    ],
+    [
+     "qp",
+     "9608_w19_qp_21.pdf",
+     16
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 19/P21/Q3",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w19_qp_21.pdf",
+     15
+    ],
+    [
+     "qp",
+     "9608_w19_qp_21.pdf",
+     16
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 19/P21/Q4/b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w19_qp_21.pdf",
+     15
+    ],
+    [
+     "qp",
+     "9608_w19_qp_21.pdf",
+     16
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 19/P22/Q1/b(ii)",
+   "mode": "inline",
+   "why": "text refers to the Appendix; uses NUM_TO_STRING (defined in this paper's insert, not in the Appendix); insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w19_qp_22.pdf",
+     17
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 19/P22/Q3/a,b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w19_qp_22.pdf",
+     17
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 19/P23/Q5",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w19_qp_23.pdf",
+     15
+    ]
+   ]
+  },
+  {
+   "ref": "O/N 19/P23/Q6/a,b",
+   "mode": "inline",
+   "why": "text refers to the Appendix; insert text differs from the Appendix",
+   "pages": [
+    [
+     "qp",
+     "9608_w19_qp_23.pdf",
+     15
+    ]
+   ]
+  }
+ ],
+ "excluded": [
+  {
+   "ref": "9608 M/J 21/P21/Q2/a",
+   "issue": "item [marks] 5 != MS marks 0",
+   "action": "excluded"
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q2/b",
+   "issue": "context exceeds one page (1038 pt)",
+   "action": "excluded"
+  }
+ ],
+ "coverage_gaps": [
+  [
+   "9608_s15_11",
+   2,
+   "(b)"
+  ],
+  [
+   "9608_s15_11",
+   5,
+   "(a)"
+  ],
+  [
+   "9608_s15_11",
+   5,
+   "(c)(ii)"
+  ],
+  [
+   "9608_s15_11",
+   6,
+   "(a)"
+  ],
+  [
+   "9608_s15_12",
+   2,
+   "(b)"
+  ],
+  [
+   "9608_s15_12",
+   5,
+   "(a)"
+  ],
+  [
+   "9608_s15_12",
+   5,
+   "(c)(ii)"
+  ],
+  [
+   "9608_s15_12",
+   6,
+   "(a)"
+  ],
+  [
+   "9608_s16_11",
+   6,
+   ""
+  ],
+  [
+   "9608_s16_12",
+   6,
+   ""
+  ],
+  [
+   "9608_s17_11",
+   2,
+   "(a)(ii)"
+  ],
+  [
+   "9608_s17_11",
+   7,
+   "(a)"
+  ],
+  [
+   "9608_s17_11",
+   7,
+   "(b)"
+  ],
+  [
+   "9608_s17_11",
+   7,
+   "(c)(i)"
+  ],
+  [
+   "9608_s17_11",
+   7,
+   "(c)(ii)"
+  ],
+  [
+   "9608_s17_11",
+   7,
+   "(c)(iii)"
+  ],
+  [
+   "9608_s17_11",
+   7,
+   "(c)(iv)"
+  ],
+  [
+   "9608_s17_12",
+   2,
+   "(a)"
+  ],
+  [
+   "9608_s17_12",
+   2,
+   "(b)(i)"
+  ],
+  [
+   "9608_s17_12",
+   2,
+   "(b)(ii)"
+  ],
+  [
+   "9608_s17_12",
+   6,
+   "(c)(i)"
+  ],
+  [
+   "9608_s17_12",
+   6,
+   "(c)(ii)"
+  ],
+  [
+   "9608_s17_12",
+   6,
+   "(c)(iii)"
+  ],
+  [
+   "9608_s17_12",
+   6,
+   "(c)(iv)"
+  ],
+  [
+   "9608_s17_13",
+   2,
+   "(a)(ii)"
+  ],
+  [
+   "9608_s17_13",
+   7,
+   "(a)"
+  ],
+  [
+   "9608_s17_13",
+   7,
+   "(b)"
+  ],
+  [
+   "9608_s17_13",
+   7,
+   "(c)(i)"
+  ],
+  [
+   "9608_s17_13",
+   7,
+   "(c)(ii)"
+  ],
+  [
+   "9608_s17_13",
+   7,
+   "(c)(iii)"
+  ],
+  [
+   "9608_s17_13",
+   7,
+   "(c)(iv)"
+  ],
+  [
+   "9608_s18_11",
+   5,
+   "(c)"
+  ],
+  [
+   "9608_s18_12",
+   5,
+   "(d)"
+  ],
+  [
+   "9608_s18_12",
+   6,
+   "(a)"
+  ],
+  [
+   "9608_s18_12",
+   6,
+   "(b)"
+  ],
+  [
+   "9608_s18_12",
+   6,
+   "(c)"
+  ],
+  [
+   "9608_s18_12",
+   6,
+   "(d)(i)"
+  ],
+  [
+   "9608_s18_12",
+   6,
+   "(d)(ii)"
+  ],
+  [
+   "9608_s18_13",
+   1,
+   "(a)"
+  ],
+  [
+   "9608_s18_13",
+   1,
+   "(b)"
+  ],
+  [
+   "9608_s18_13",
+   1,
+   "(c)"
+  ],
+  [
+   "9608_s18_13",
+   1,
+   "(d)"
+  ],
+  [
+   "9608_s18_13",
+   6,
+   "(e)"
+  ],
+  [
+   "9608_s19_11",
+   2,
+   "(b)(ii)"
+  ],
+  [
+   "9608_s19_11",
+   4,
+   "(a)"
+  ],
+  [
+   "9608_s19_11",
+   4,
+   "(b)"
+  ],
+  [
+   "9608_s19_11",
+   6,
+   "(a)"
+  ],
+  [
+   "9608_s19_11",
+   6,
+   "(b)"
+  ],
+  [
+   "9608_s19_11",
+   6,
+   "(c)"
+  ],
+  [
+   "9608_s19_12",
+   1,
+   "(c)"
+  ],
+  [
+   "9608_s19_12",
+   4,
+   "(b)"
+  ],
+  [
+   "9608_s19_13",
+   5,
+   "(b)(i)"
+  ],
+  [
+   "9608_s19_13",
+   5,
+   "(b)(ii)"
+  ],
+  [
+   "9608_s19_21",
+   2,
+   "(b)"
+  ],
+  [
+   "9608_s19_21",
+   2,
+   "(c)"
+  ],
+  [
+   "9608_s19_22",
+   2,
+   "(c)"
+  ],
+  [
+   "9608_s19_23",
+   3,
+   "(b)"
+  ],
+  [
+   "9608_s20_11",
+   3,
+   "(a)"
+  ],
+  [
+   "9608_s20_11",
+   3,
+   "(b)"
+  ],
+  [
+   "9608_s20_11",
+   3,
+   "(c)"
+  ],
+  [
+   "9608_s20_11",
+   8,
+   "(c)"
+  ],
+  [
+   "9608_s20_12",
+   7,
+   "(c)(i)"
+  ],
+  [
+   "9608_s20_12",
+   7,
+   "(c)(ii)"
+  ],
+  [
+   "9608_s20_13",
+   7,
+   "(a)"
+  ],
+  [
+   "9608_s20_13",
+   7,
+   "(e)(i)"
+  ],
+  [
+   "9608_s20_13",
+   7,
+   "(e)(ii)"
+  ],
+  [
+   "9608_s20_13",
+   7,
+   "(e)(iii)"
+  ],
+  [
+   "9608_s20_22",
+   1,
+   "(b)"
+  ],
+  [
+   "9608_s21_11",
+   6,
+   "(a)"
+  ],
+  [
+   "9608_s21_11",
+   6,
+   "(b)"
+  ],
+  [
+   "9608_s21_11",
+   6,
+   "(c)"
+  ],
+  [
+   "9608_s21_11",
+   6,
+   "(d)"
+  ],
+  [
+   "9608_s21_11",
+   6,
+   "(e)"
+  ],
+  [
+   "9608_s21_12",
+   5,
+   "(a)"
+  ],
+  [
+   "9608_s21_12",
+   5,
+   "(b)"
+  ],
+  [
+   "9608_s21_12",
+   5,
+   "(c)"
+  ],
+  [
+   "9608_s21_12",
+   5,
+   "(d)"
+  ],
+  [
+   "9608_s21_12",
+   5,
+   "(e)(i)"
+  ],
+  [
+   "9608_s21_12",
+   5,
+   "(f)"
+  ],
+  [
+   "9608_s21_13",
+   4,
+   "(a)(ii)"
+  ],
+  [
+   "9608_s21_13",
+   5,
+   "(a)"
+  ],
+  [
+   "9608_s21_13",
+   5,
+   "(b)"
+  ],
+  [
+   "9608_s21_13",
+   5,
+   "(c)"
+  ],
+  [
+   "9608_s21_13",
+   6,
+   "(a)"
+  ],
+  [
+   "9608_s21_13",
+   9,
+   "(b)"
+  ],
+  [
+   "9608_s21_21",
+   2,
+   "(a)"
+  ],
+  [
+   "9608_s21_21",
+   2,
+   "(b)"
+  ],
+  [
+   "9608_w15_11",
+   3,
+   "(b)(ii)"
+  ],
+  [
+   "9608_w15_11",
+   7,
+   "(c)"
+  ],
+  [
+   "9608_w15_13",
+   3,
+   "(b)(ii)"
+  ],
+  [
+   "9608_w15_13",
+   7,
+   "(c)"
+  ],
+  [
+   "9608_w16_11",
+   4,
+   "(i)"
+  ],
+  [
+   "9608_w16_11",
+   4,
+   "(iii)"
+  ],
+  [
+   "9608_w16_11",
+   4,
+   "(iv)"
+  ],
+  [
+   "9608_w16_12",
+   2,
+   "(a)"
+  ],
+  [
+   "9608_w16_12",
+   2,
+   "(b)"
+  ],
+  [
+   "9608_w16_12",
+   2,
+   "(c)(i)"
+  ],
+  [
+   "9608_w16_12",
+   2,
+   "(c)(ii)"
+  ],
+  [
+   "9608_w16_13",
+   4,
+   "(i)"
+  ],
+  [
+   "9608_w16_13",
+   4,
+   "(iii)"
+  ],
+  [
+   "9608_w16_13",
+   4,
+   "(iv)"
+  ],
+  [
+   "9608_w16_22",
+   3,
+   "(a)(i)"
+  ],
+  [
+   "9608_w16_22",
+   3,
+   "(a)(ii)"
+  ],
+  [
+   "9608_w16_22",
+   3,
+   "(a)(iii)"
+  ],
+  [
+   "9608_w16_22",
+   3,
+   "(a)(iv)"
+  ],
+  [
+   "9608_w16_22",
+   3,
+   "(b)(i)"
+  ],
+  [
+   "9608_w16_22",
+   3,
+   "(b)(ii)"
+  ],
+  [
+   "9608_w17_12",
+   4,
+   "(c)(i)"
+  ],
+  [
+   "9608_w17_12",
+   4,
+   "(c)(ii)"
+  ],
+  [
+   "9608_w17_12",
+   5,
+   "(b)"
+  ],
+  [
+   "9608_w17_12",
+   6,
+   "(a)"
+  ],
+  [
+   "9608_w17_13",
+   6,
+   "(b)"
+  ],
+  [
+   "9608_w17_21",
+   4,
+   "(a)"
+  ],
+  [
+   "9608_w17_21",
+   4,
+   "(b)"
+  ],
+  [
+   "9608_w17_22",
+   1,
+   "(a)(iii)"
+  ],
+  [
+   "9608_w17_22",
+   1,
+   "(b)(ii)"
+  ],
+  [
+   "9608_w17_23",
+   4,
+   "(a)"
+  ],
+  [
+   "9608_w17_23",
+   4,
+   "(b)"
+  ],
+  [
+   "9608_w18_11",
+   1,
+   "(c)"
+  ],
+  [
+   "9608_w18_11",
+   1,
+   "(d)(i)"
+  ],
+  [
+   "9608_w18_11",
+   1,
+   "(d)(ii)"
+  ],
+  [
+   "9608_w18_11",
+   1,
+   "(e)"
+  ],
+  [
+   "9608_w18_11",
+   6,
+   "(a)"
+  ],
+  [
+   "9608_w18_11",
+   6,
+   "(b)"
+  ],
+  [
+   "9608_w18_11",
+   6,
+   "(c)"
+  ],
+  [
+   "9608_w18_11",
+   6,
+   "(d)"
+  ],
+  [
+   "9608_w18_22",
+   3,
+   "(a)"
+  ],
+  [
+   "9608_w19_11",
+   2,
+   "(a)(iv)"
+  ],
+  [
+   "9608_w19_11",
+   4,
+   "(b)"
+  ],
+  [
+   "9608_w19_12",
+   3,
+   "(a)"
+  ],
+  [
+   "9608_w19_12",
+   3,
+   "(b)"
+  ],
+  [
+   "9608_w19_12",
+   3,
+   "(c)"
+  ],
+  [
+   "9608_w19_12",
+   3,
+   "(d)"
+  ],
+  [
+   "9608_w19_12",
+   5,
+   "(a)"
+  ],
+  [
+   "9608_w19_12",
+   6,
+   "(d)(ii)"
+  ],
+  [
+   "9608_w19_12",
+   6,
+   "(e)(iii)"
+  ],
+  [
+   "9608_w19_13",
+   2,
+   "(b)(iii)"
+  ],
+  [
+   "9608_w19_13",
+   6,
+   "(a)(i)"
+  ],
+  [
+   "9608_w19_13",
+   6,
+   "(a)(ii)"
+  ],
+  [
+   "9608_w19_13",
+   6,
+   "(a)(iii)"
+  ],
+  [
+   "9608_w19_13",
+   6,
+   "(a)(iv)"
+  ],
+  [
+   "9608_w19_23",
+   2,
+   "(b)"
+  ],
+  [
+   "9608_w21_11",
+   2,
+   "(b)"
+  ],
+  [
+   "9608_w21_11",
+   3,
+   ""
+  ],
+  [
+   "9608_w21_11",
+   4,
+   "(b)"
+  ]
+ ],
+ "coverage_dupes": [],
+ "pre_release": []
+}

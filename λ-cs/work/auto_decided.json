@@ -103,5 +103,80 @@
   "item": "Identical variant papers",
   "issue": "In 2021 the variant 1 and variant 3 papers have the same text: M/J 21 P11 = P13, M/J 21 P21 = P23, O/N 21 P11 = P13, O/N 21 P21 = P23",
   "action": "Both papers of each pair are kept (each is a separate official paper with its own reference); their parts carry the same tags, so their items sit next to each other in a unit"
+ },
+ {
+  "item": "Phase 2 downloads: series attempted",
+  "issue": "The spec lists the 9608 series found on the site",
+  "action": "All series 2015-2021 were requested, including March (variants 12, 22), w20 and the w15/w21 variants the spec lists as missing. Not on the site: every March series, w20 (all), w15 QP 12, w21 QPs 12, 13, 21, 22, 23 (their mark schemes exist but are not used)"
+ },
+ {
+  "item": "9608 MS headers",
+  "issue": "Many 9608 mark schemes print \"Paper 1 Written Paper\" / \"Paper 2 Written Paper\" (63 files), and two print \"Paper 2\" with no title (M/J 17 P21, P23)",
+  "action": "Accepted (paper number, code/variant, series and document type match); each wording is counted in the table below"
+ },
+ {
+  "item": "O/N 18/P21 (9608)",
+  "issue": "The mark scheme of 9608/21 prints \"Paper 1 Written Paper\": wrong paper number",
+  "action": "Paper excluded by the header rule (as Chemistry decision D5)"
+ },
+ {
+  "item": "O/N 17/P11 (9608)",
+  "issue": "The question paper file on the site is damaged (truncated at 475 136 bytes; the same on a second download; PyMuPDF and qpdf cannot read it)",
+  "action": "Paper excluded"
+ },
+ {
+  "item": "References of 9608 papers in 2021",
+  "issue": "In M/J 21 and O/N 21 both syllabuses sat papers with the same variant numbers, so \"M/J 21/P11/Q3/a\" would name two different parts",
+  "action": "The seven 9608 papers of 2021 carry the code from their header in the reference: \"9608 M/J 21/P11/Q3/a\". All other references are unchanged"
+ },
+ {
+  "item": "9608 mark schemes 2015-2016",
+  "issue": "They are printed as running text, not as a table (\"2 (a) (i) Any one from: ... [1]\")",
+  "action": "A second reader (`parse.ms_rows_text`): a row starts at a part label at the start of a line, in the order of the question paper's own parts, and runs to the next label; marks are the [n] at the right-hand margin; \"max n\" is the row's mark, counted once when it is repeated under alternative solutions. Every question still has to pass check 3 and every item the [marks] = MS marks check"
+ },
+ {
+  "item": "Marks not at the right-hand margin (9608)",
+  "issue": "A few 9608 papers print a mark beside a short answer line in the middle of the page, as two words (\"[1\" \"]\"), or level with the footer",
+  "action": "Split marks are joined; a mark that ends a dotted answer line counts; a lone [n] short of the margin counts only when the paper total cannot be reached without it (M/J 15 P21/P22: 1 mark; M/J 17 P12: 4 marks; logged per paper)"
+ },
+ {
+  "item": "Line numbers of code listings (9608)",
+  "issue": "Numbered pseudocode lines at the left margin look like question numbers",
+  "action": "A question number is never zero-padded and never set in the monospace font"
+ },
+ {
+  "item": "Repeated marks on continuation rows",
+  "issue": "Some 2018 mark schemes repeat a row's label and mark on the next page",
+  "action": "A mark repeated under the same label on a later page counts once"
+ },
+ {
+  "item": "In-paper Appendix (9608 Paper 2)",
+  "issue": "9608 Paper 2 prints the built-in functions as an \"Appendix\" inside the question paper (one or two pages) instead of an insert",
+  "action": "Those pages are not question material. They are treated as the paper's insert: an item whose text refers to the Appendix shows its own paper's Appendix page(s) inline under a grey note, because that text differs from the book's Appendix (the 2026 insert)"
+ },
+ {
+  "item": "\"Write program code\" parts (9608 Paper 2)",
+  "issue": "9608 asks for program code in Visual Basic, Pascal or Python; the 2027-29 Paper 2 outcomes speak of pseudocode",
+  "action": "Included and tagged by the skill tested (file handling, arrays, procedures, functions ...), as the spec's rule on \"Write program code\" answers implies. Where the mark scheme prints the program-code solutions in its own appendix (\"Q6 (a): Visual Basic\" ...), that appendix section is appended to the part's answer rows, so the answer is whole"
+ },
+ {
+  "item": "Out of syllabus (Phase 2)",
+  "issue": "Topics of 9608 with no clear match in the 2027-29 outcomes",
+  "action": "Excluded and listed: client- and server-side scripting (JavaScript, PHP, HTML), video (frame rate, interlaced/progressive encoding, spatial/temporal redundancy), features of sound- and graphics-editing software, devices not in the 3.1 list (keyboard, mouse, trackerball, scanner, inkjet printer), gateways, URL encoding characters, the three-level database schema, disk mirroring, assembler macros and directives, the named principles of the ACM/IEEE code of ethics, \"transferable skills\" and reading code in an unfamiliar language, numeric formatting masks, error detection and recovery as an OS task"
+ },
+ {
+  "item": "Pre-release material (9608 Paper 2)",
+  "issue": "The spec excludes parts that need pre-release material",
+  "action": "No part of the downloaded 9608 Paper 2 papers refers to pre-release material in its text; none was excluded for this reason"
+ },
+ {
+  "item": "Parts whose context would exceed one page",
+  "issue": "The spec says to keep the lettered part whole or exclude; in CS the context is often a whole earlier part (a flowchart, a module table)",
+  "action": "\"About one page\" is one page of the book (744 pt). A part whose context would be longer is merged with the parts it depends on into one block, filed under the unit with most marks and tagged \"also\" (listed under multi-unit parts kept whole). Excluded only if that is not possible"
+ },
+ {
+  "item": "Small-print copyright paragraph",
+  "issue": "Some papers print the copyright paragraph at the foot of a question page",
+  "action": "Treated as page furniture: not part of any crop or text"
  }
 ]

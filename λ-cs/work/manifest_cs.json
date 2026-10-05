@@ -2485,5 +2485,2939 @@
    "error": "HTTP 302 (not on the site)"
   },
   "status": "unavailable"
+ },
+ "9608_m15_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "m",
+  "year": 2015,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_m15_qp_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_m15_ms_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_m15_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_m15_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "m",
+  "year": 2015,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_m15_qp_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_m15_ms_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_m15_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_s15_11": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2015,
+  "variant": 11,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s15_qp_11.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 155531
+  },
+  "ms": {
+   "file": "9608_s15_ms_11.pdf",
+   "pages": 14,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 (Written Paper)'"
+   ],
+   "bytes": 211028
+  },
+  "in": {
+   "file": "9608_s15_in_11.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s15_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2015,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s15_qp_12.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 166767
+  },
+  "ms": {
+   "file": "9608_s15_ms_12.pdf",
+   "pages": 14,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 (Written Paper)'"
+   ],
+   "bytes": 211171
+  },
+  "in": {
+   "file": "9608_s15_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s15_13": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2015,
+  "variant": 13,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s15_qp_13.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 163369
+  },
+  "ms": {
+   "file": "9608_s15_ms_13.pdf",
+   "pages": 9,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 (Written Paper)'"
+   ],
+   "bytes": 149650
+  },
+  "in": {
+   "file": "9608_s15_in_13.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s15_21": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2015,
+  "variant": 21,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s15_qp_21.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 196096
+  },
+  "ms": {
+   "file": "9608_s15_ms_21.pdf",
+   "pages": 13,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 (Written Paper)'"
+   ],
+   "bytes": 232501
+  },
+  "in": {
+   "file": "9608_s15_in_21.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s15_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2015,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s15_qp_22.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 210585
+  },
+  "ms": {
+   "file": "9608_s15_ms_22.pdf",
+   "pages": 13,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 (Written Paper)'"
+   ],
+   "bytes": 252269
+  },
+  "in": {
+   "file": "9608_s15_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s15_23": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2015,
+  "variant": 23,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s15_qp_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 187338
+  },
+  "ms": {
+   "file": "9608_s15_ms_23.pdf",
+   "pages": 9,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 (Written Paper)'"
+   ],
+   "bytes": 172838
+  },
+  "in": {
+   "file": "9608_s15_in_23.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w15_11": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2015,
+  "variant": 11,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w15_qp_11.pdf",
+   "pages": 12,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 236447
+  },
+  "ms": {
+   "file": "9608_w15_ms_11.pdf",
+   "pages": 9,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 (Written Paper)'"
+   ],
+   "bytes": 169540
+  },
+  "in": {
+   "file": "9608_w15_in_11.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w15_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2015,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w15_qp_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_w15_ms_12.pdf",
+   "pages": 8,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 (Written Paper)'"
+   ],
+   "bytes": 113066
+  },
+  "in": {
+   "file": "9608_w15_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_w15_13": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2015,
+  "variant": 13,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w15_qp_13.pdf",
+   "pages": 12,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 218952
+  },
+  "ms": {
+   "file": "9608_w15_ms_13.pdf",
+   "pages": 9,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 (Written Paper)'"
+   ],
+   "bytes": 188655
+  },
+  "in": {
+   "file": "9608_w15_in_13.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w15_21": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2015,
+  "variant": 21,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w15_qp_21.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 331663
+  },
+  "ms": {
+   "file": "9608_w15_ms_21.pdf",
+   "pages": 10,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 (Written Paper)'"
+   ],
+   "bytes": 251034
+  },
+  "in": {
+   "file": "9608_w15_in_21.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w15_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2015,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w15_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 262279
+  },
+  "ms": {
+   "file": "9608_w15_ms_22.pdf",
+   "pages": 10,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 (Written Paper)'"
+   ],
+   "bytes": 271139
+  },
+  "in": {
+   "file": "9608_w15_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w15_23": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2015,
+  "variant": 23,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w15_qp_23.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 269760
+  },
+  "ms": {
+   "file": "9608_w15_ms_23.pdf",
+   "pages": 10,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 (Written Paper)'"
+   ],
+   "bytes": 208987
+  },
+  "in": {
+   "file": "9608_w15_in_23.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_m16_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "m",
+  "year": 2016,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_m16_qp_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_m16_ms_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_m16_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_m16_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "m",
+  "year": 2016,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_m16_qp_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_m16_ms_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_m16_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_s16_11": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2016,
+  "variant": 11,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s16_qp_11.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 521887
+  },
+  "ms": {
+   "file": "9608_s16_ms_11.pdf",
+   "pages": 10,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 158161
+  },
+  "in": {
+   "file": "9608_s16_in_11.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s16_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2016,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s16_qp_12.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 522410
+  },
+  "ms": {
+   "file": "9608_s16_ms_12.pdf",
+   "pages": 10,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 158155
+  },
+  "in": {
+   "file": "9608_s16_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s16_13": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2016,
+  "variant": 13,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s16_qp_13.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 522062
+  },
+  "ms": {
+   "file": "9608_s16_ms_13.pdf",
+   "pages": 7,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 146651
+  },
+  "in": {
+   "file": "9608_s16_in_13.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s16_21": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2016,
+  "variant": 21,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s16_qp_21.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 573895
+  },
+  "ms": {
+   "file": "9608_s16_ms_21.pdf",
+   "pages": 14,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 456811
+  },
+  "in": {
+   "file": "9608_s16_in_21.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s16_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2016,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s16_qp_22.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 573441
+  },
+  "ms": {
+   "file": "9608_s16_ms_22.pdf",
+   "pages": 14,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 456806
+  },
+  "in": {
+   "file": "9608_s16_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s16_23": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2016,
+  "variant": 23,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s16_qp_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 540303
+  },
+  "ms": {
+   "file": "9608_s16_ms_23.pdf",
+   "pages": 12,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 411514
+  },
+  "in": {
+   "file": "9608_s16_in_23.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w16_11": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2016,
+  "variant": 11,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w16_qp_11.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 507533
+  },
+  "ms": {
+   "file": "9608_w16_ms_11.pdf",
+   "pages": 10,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 181669
+  },
+  "in": {
+   "file": "9608_w16_in_11.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w16_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2016,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w16_qp_12.pdf",
+   "pages": 12,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 527948
+  },
+  "ms": {
+   "file": "9608_w16_ms_12.pdf",
+   "pages": 11,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 214670
+  },
+  "in": {
+   "file": "9608_w16_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w16_13": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2016,
+  "variant": 13,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w16_qp_13.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 508295
+  },
+  "ms": {
+   "file": "9608_w16_ms_13.pdf",
+   "pages": 10,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 181669
+  },
+  "in": {
+   "file": "9608_w16_in_13.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w16_21": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2016,
+  "variant": 21,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w16_qp_21.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 569472
+  },
+  "ms": {
+   "file": "9608_w16_ms_21.pdf",
+   "pages": 13,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 335226
+  },
+  "in": {
+   "file": "9608_w16_in_21.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w16_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2016,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w16_qp_22.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 557674
+  },
+  "ms": {
+   "file": "9608_w16_ms_22.pdf",
+   "pages": 15,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 240973
+  },
+  "in": {
+   "file": "9608_w16_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w16_23": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2016,
+  "variant": 23,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w16_qp_23.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 569481
+  },
+  "ms": {
+   "file": "9608_w16_ms_23.pdf",
+   "pages": 13,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 335305
+  },
+  "in": {
+   "file": "9608_w16_in_23.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_m17_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "m",
+  "year": 2017,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_m17_qp_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_m17_ms_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_m17_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_m17_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "m",
+  "year": 2017,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_m17_qp_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_m17_ms_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_m17_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_s17_11": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2017,
+  "variant": 11,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s17_qp_11.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2818965
+  },
+  "ms": {
+   "file": "9608_s17_ms_11.pdf",
+   "pages": 8,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 231234
+  },
+  "in": {
+   "file": "9608_s17_in_11.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s17_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2017,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s17_qp_12.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2602134
+  },
+  "ms": {
+   "file": "9608_s17_ms_12.pdf",
+   "pages": 7,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 202319
+  },
+  "in": {
+   "file": "9608_s17_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s17_13": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2017,
+  "variant": 13,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s17_qp_13.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2827835
+  },
+  "ms": {
+   "file": "9608_s17_ms_13.pdf",
+   "pages": 8,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 231232
+  },
+  "in": {
+   "file": "9608_s17_in_13.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s17_21": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2017,
+  "variant": 21,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s17_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2597490
+  },
+  "ms": {
+   "file": "9608_s17_ms_21.pdf",
+   "pages": 13,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title missing: 'Paper 2' only"
+   ],
+   "bytes": 232207
+  },
+  "in": {
+   "file": "9608_s17_in_21.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s17_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2017,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s17_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2465633
+  },
+  "ms": {
+   "file": "9608_s17_ms_22.pdf",
+   "pages": 8,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 222919
+  },
+  "in": {
+   "file": "9608_s17_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s17_23": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2017,
+  "variant": 23,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s17_qp_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2596967
+  },
+  "ms": {
+   "file": "9608_s17_ms_23.pdf",
+   "pages": 13,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title missing: 'Paper 2' only"
+   ],
+   "bytes": 232225
+  },
+  "in": {
+   "file": "9608_s17_in_23.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w17_11": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2017,
+  "variant": 11,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w17_qp_11.pdf",
+   "status": "header_mismatch",
+   "issues": [
+    "unreadable: RuntimeError('code=7: Invalid number of pages')"
+   ],
+   "notes": []
+  },
+  "ms": {
+   "file": "9608_w17_ms_11.pdf",
+   "pages": 7,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 190288
+  },
+  "in": {
+   "file": "9608_w17_in_11.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "excluded"
+ },
+ "9608_w17_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2017,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w17_qp_12.pdf",
+   "pages": 12,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2454157
+  },
+  "ms": {
+   "file": "9608_w17_ms_12.pdf",
+   "pages": 12,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 219591
+  },
+  "in": {
+   "file": "9608_w17_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w17_13": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2017,
+  "variant": 13,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w17_qp_13.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2722986
+  },
+  "ms": {
+   "file": "9608_w17_ms_13.pdf",
+   "pages": 7,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 190279
+  },
+  "in": {
+   "file": "9608_w17_in_13.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w17_21": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2017,
+  "variant": 21,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w17_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2447639
+  },
+  "ms": {
+   "file": "9608_w17_ms_21.pdf",
+   "pages": 12,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 296289
+  },
+  "in": {
+   "file": "9608_w17_in_21.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w17_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2017,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w17_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2351906
+  },
+  "ms": {
+   "file": "9608_w17_ms_22.pdf",
+   "pages": 12,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 257938
+  },
+  "in": {
+   "file": "9608_w17_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w17_23": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2017,
+  "variant": 23,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w17_qp_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2451505
+  },
+  "ms": {
+   "file": "9608_w17_ms_23.pdf",
+   "pages": 12,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 296288
+  },
+  "in": {
+   "file": "9608_w17_in_23.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_m18_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "m",
+  "year": 2018,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_m18_qp_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_m18_ms_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_m18_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_m18_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "m",
+  "year": 2018,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_m18_qp_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_m18_ms_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_m18_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_s18_11": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2018,
+  "variant": 11,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s18_qp_11.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2197106
+  },
+  "ms": {
+   "file": "9608_s18_ms_11.pdf",
+   "pages": 9,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 158295
+  },
+  "in": {
+   "file": "9608_s18_in_11.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s18_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2018,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s18_qp_12.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2238628
+  },
+  "ms": {
+   "file": "9608_s18_ms_12.pdf",
+   "pages": 9,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 171485
+  },
+  "in": {
+   "file": "9608_s18_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s18_13": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2018,
+  "variant": 13,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s18_qp_13.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2309796
+  },
+  "ms": {
+   "file": "9608_s18_ms_13.pdf",
+   "pages": 9,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 159676
+  },
+  "in": {
+   "file": "9608_s18_in_13.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s18_21": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2018,
+  "variant": 21,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s18_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2603425
+  },
+  "ms": {
+   "file": "9608_s18_ms_21.pdf",
+   "pages": 14,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 310099
+  },
+  "in": {
+   "file": "9608_s18_in_21.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s18_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2018,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s18_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2632710
+  },
+  "ms": {
+   "file": "9608_s18_ms_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 276816
+  },
+  "in": {
+   "file": "9608_s18_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s18_23": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2018,
+  "variant": 23,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s18_qp_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2627849
+  },
+  "ms": {
+   "file": "9608_s18_ms_23.pdf",
+   "pages": 13,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 255603
+  },
+  "in": {
+   "file": "9608_s18_in_23.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w18_11": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2018,
+  "variant": 11,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w18_qp_11.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2480506
+  },
+  "ms": {
+   "file": "9608_w18_ms_11.pdf",
+   "pages": 10,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 168505
+  },
+  "in": {
+   "file": "9608_w18_in_11.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w18_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2018,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w18_qp_12.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2477426
+  },
+  "ms": {
+   "file": "9608_w18_ms_12.pdf",
+   "pages": 11,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 181073
+  },
+  "in": {
+   "file": "9608_w18_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w18_13": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2018,
+  "variant": 13,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w18_qp_13.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2439512
+  },
+  "ms": {
+   "file": "9608_w18_ms_13.pdf",
+   "pages": 10,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 178912
+  },
+  "in": {
+   "file": "9608_w18_in_13.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w18_21": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2018,
+  "variant": 21,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w18_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2639129
+  },
+  "ms": {
+   "file": "9608_w18_ms_21.pdf",
+   "pages": 12,
+   "status": "header_mismatch",
+   "issues": [
+    "paper title not on page 1"
+   ],
+   "notes": [],
+   "bytes": 184765
+  },
+  "in": {
+   "file": "9608_w18_in_21.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "excluded"
+ },
+ "9608_w18_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2018,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w18_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2707004
+  },
+  "ms": {
+   "file": "9608_w18_ms_22.pdf",
+   "pages": 13,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 192098
+  },
+  "in": {
+   "file": "9608_w18_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w18_23": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2018,
+  "variant": 23,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w18_qp_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2698930
+  },
+  "ms": {
+   "file": "9608_w18_ms_23.pdf",
+   "pages": 13,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 179986
+  },
+  "in": {
+   "file": "9608_w18_in_23.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_m19_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "m",
+  "year": 2019,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_m19_qp_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_m19_ms_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_m19_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_m19_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "m",
+  "year": 2019,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_m19_qp_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_m19_ms_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_m19_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_s19_11": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2019,
+  "variant": 11,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s19_qp_11.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2386937
+  },
+  "ms": {
+   "file": "9608_s19_ms_11.pdf",
+   "pages": 9,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 197797
+  },
+  "in": {
+   "file": "9608_s19_in_11.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s19_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2019,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s19_qp_12.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2232110
+  },
+  "ms": {
+   "file": "9608_s19_ms_12.pdf",
+   "pages": 11,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 191132
+  },
+  "in": {
+   "file": "9608_s19_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s19_13": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2019,
+  "variant": 13,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s19_qp_13.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2238850
+  },
+  "ms": {
+   "file": "9608_s19_ms_13.pdf",
+   "pages": 10,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 175683
+  },
+  "in": {
+   "file": "9608_s19_in_13.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s19_21": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2019,
+  "variant": 21,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s19_qp_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2493912
+  },
+  "ms": {
+   "file": "9608_s19_ms_21.pdf",
+   "pages": 11,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 224310
+  },
+  "in": {
+   "file": "9608_s19_in_21.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s19_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2019,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s19_qp_22.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2553114
+  },
+  "ms": {
+   "file": "9608_s19_ms_22.pdf",
+   "pages": 15,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 234575
+  },
+  "in": {
+   "file": "9608_s19_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s19_23": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2019,
+  "variant": 23,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s19_qp_23.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2685822
+  },
+  "ms": {
+   "file": "9608_s19_ms_23.pdf",
+   "pages": 13,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 237687
+  },
+  "in": {
+   "file": "9608_s19_in_23.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w19_11": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2019,
+  "variant": 11,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w19_qp_11.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 283384
+  },
+  "ms": {
+   "file": "9608_w19_ms_11.pdf",
+   "pages": 8,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 176827
+  },
+  "in": {
+   "file": "9608_w19_in_11.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w19_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2019,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w19_qp_12.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 319345
+  },
+  "ms": {
+   "file": "9608_w19_ms_12.pdf",
+   "pages": 10,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 215917
+  },
+  "in": {
+   "file": "9608_w19_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w19_13": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2019,
+  "variant": 13,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w19_qp_13.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2285219
+  },
+  "ms": {
+   "file": "9608_w19_ms_13.pdf",
+   "pages": 9,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 211550
+  },
+  "in": {
+   "file": "9608_w19_in_13.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w19_21": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2019,
+  "variant": 21,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w19_qp_21.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 323245
+  },
+  "ms": {
+   "file": "9608_w19_ms_21.pdf",
+   "pages": 15,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 254234
+  },
+  "in": {
+   "file": "9608_w19_in_21.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w19_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2019,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w19_qp_22.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 299893
+  },
+  "ms": {
+   "file": "9608_w19_ms_22.pdf",
+   "pages": 13,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 253282
+  },
+  "in": {
+   "file": "9608_w19_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w19_23": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2019,
+  "variant": 23,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w19_qp_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2555360
+  },
+  "ms": {
+   "file": "9608_w19_ms_23.pdf",
+   "pages": 13,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 221882
+  },
+  "in": {
+   "file": "9608_w19_in_23.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_m20_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "m",
+  "year": 2020,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_m20_qp_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_m20_ms_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_m20_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_m20_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "m",
+  "year": 2020,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_m20_qp_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_m20_ms_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_m20_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_s20_11": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2020,
+  "variant": 11,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s20_qp_11.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2234954
+  },
+  "ms": {
+   "file": "9608_s20_ms_11.pdf",
+   "pages": 10,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 193065
+  },
+  "in": {
+   "file": "9608_s20_in_11.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s20_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2020,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s20_qp_12.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 997332
+  },
+  "ms": {
+   "file": "9608_s20_ms_12.pdf",
+   "pages": 9,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 200965
+  },
+  "in": {
+   "file": "9608_s20_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s20_13": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2020,
+  "variant": 13,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s20_qp_13.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 2238325
+  },
+  "ms": {
+   "file": "9608_s20_ms_13.pdf",
+   "pages": 9,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 1 Written Paper'"
+   ],
+   "bytes": 191152
+  },
+  "in": {
+   "file": "9608_s20_in_13.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s20_21": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2020,
+  "variant": 21,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s20_qp_21.pdf",
+   "pages": 24,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 3177707
+  },
+  "ms": {
+   "file": "9608_s20_ms_21.pdf",
+   "pages": 15,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 209768
+  },
+  "in": {
+   "file": "9608_s20_in_21.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s20_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2020,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s20_qp_22.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 993634
+  },
+  "ms": {
+   "file": "9608_s20_ms_22.pdf",
+   "pages": 15,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 209474
+  },
+  "in": {
+   "file": "9608_s20_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s20_23": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2020,
+  "variant": 23,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s20_qp_23.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 1020428
+  },
+  "ms": {
+   "file": "9608_s20_ms_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [
+    "title variant 'Paper 2 Written Paper'"
+   ],
+   "bytes": 215567
+  },
+  "in": {
+   "file": "9608_s20_in_23.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w20_11": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2020,
+  "variant": 11,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w20_qp_11.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_w20_ms_11.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_w20_in_11.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_w20_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2020,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w20_qp_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_w20_ms_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_w20_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_w20_13": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2020,
+  "variant": 13,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w20_qp_13.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_w20_ms_13.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_w20_in_13.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_w20_21": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2020,
+  "variant": 21,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w20_qp_21.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_w20_ms_21.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_w20_in_21.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_w20_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2020,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w20_qp_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_w20_ms_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_w20_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_w20_23": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2020,
+  "variant": 23,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w20_qp_23.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_w20_ms_23.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_w20_in_23.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_m21_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "m",
+  "year": 2021,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_m21_qp_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_m21_ms_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_m21_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_m21_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "m",
+  "year": 2021,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_m21_qp_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_m21_ms_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "in": {
+   "file": "9608_m21_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_s21_11": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2021,
+  "variant": 11,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s21_qp_11.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 1014022
+  },
+  "ms": {
+   "file": "9608_s21_ms_11.pdf",
+   "pages": 10,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 279837
+  },
+  "in": {
+   "file": "9608_s21_in_11.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s21_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2021,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s21_qp_12.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 261375
+  },
+  "ms": {
+   "file": "9608_s21_ms_12.pdf",
+   "pages": 10,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 257969
+  },
+  "in": {
+   "file": "9608_s21_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s21_13": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2021,
+  "variant": 13,
+  "paper": 1,
+  "qp": {
+   "file": "9608_s21_qp_13.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 266518
+  },
+  "ms": {
+   "file": "9608_s21_ms_13.pdf",
+   "pages": 9,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 249353
+  },
+  "in": {
+   "file": "9608_s21_in_13.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s21_21": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2021,
+  "variant": 21,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s21_qp_21.pdf",
+   "pages": 24,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 255116
+  },
+  "ms": {
+   "file": "9608_s21_ms_21.pdf",
+   "pages": 17,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 695159
+  },
+  "in": {
+   "file": "9608_s21_in_21.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s21_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2021,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s21_qp_22.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 214343
+  },
+  "ms": {
+   "file": "9608_s21_ms_22.pdf",
+   "pages": 20,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 820402
+  },
+  "in": {
+   "file": "9608_s21_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_s21_23": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "s",
+  "year": 2021,
+  "variant": 23,
+  "paper": 2,
+  "qp": {
+   "file": "9608_s21_qp_23.pdf",
+   "pages": 24,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 297299
+  },
+  "ms": {
+   "file": "9608_s21_ms_23.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 293964
+  },
+  "in": {
+   "file": "9608_s21_in_23.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w21_11": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2021,
+  "variant": 11,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w21_qp_11.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 974843
+  },
+  "ms": {
+   "file": "9608_w21_ms_11.pdf",
+   "pages": 10,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 241614
+  },
+  "in": {
+   "file": "9608_w21_in_11.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "ok"
+ },
+ "9608_w21_12": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2021,
+  "variant": 12,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w21_qp_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_w21_ms_12.pdf",
+   "pages": 9,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 232823
+  },
+  "in": {
+   "file": "9608_w21_in_12.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_w21_13": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2021,
+  "variant": 13,
+  "paper": 1,
+  "qp": {
+   "file": "9608_w21_qp_13.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_w21_ms_13.pdf",
+   "pages": 9,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 323676
+  },
+  "in": {
+   "file": "9608_w21_in_13.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_w21_21": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2021,
+  "variant": 21,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w21_qp_21.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_w21_ms_21.pdf",
+   "pages": 16,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 298613
+  },
+  "in": {
+   "file": "9608_w21_in_21.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_w21_22": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2021,
+  "variant": 22,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w21_qp_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_w21_ms_22.pdf",
+   "pages": 19,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 373589
+  },
+  "in": {
+   "file": "9608_w21_in_22.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
+ },
+ "9608_w21_23": {
+  "phase": "phase2",
+  "code": "9608",
+  "series": "w",
+  "year": 2021,
+  "variant": 23,
+  "paper": 2,
+  "qp": {
+   "file": "9608_w21_qp_23.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "ms": {
+   "file": "9608_w21_ms_23.pdf",
+   "pages": 17,
+   "status": "ok",
+   "issues": [],
+   "notes": [],
+   "bytes": 359379
+  },
+  "in": {
+   "file": "9608_w21_in_23.pdf",
+   "status": "unavailable",
+   "error": "HTTP 302 (not on the site)"
+  },
+  "status": "unavailable"
  }
 }
