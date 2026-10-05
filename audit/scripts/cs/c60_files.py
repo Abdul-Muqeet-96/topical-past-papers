@@ -8,6 +8,16 @@ from c00_common import *
 
 F = []
 rows = []
+# fonts that the source papers themselves do not embed (the books inherit them unchanged)
+src_ne = set()
+for r in jl("sources.json"):
+    if r["status"] != "OK":
+        continue
+    sd = f.open(os.path.join(DATA, r["file"]))
+    for p in sd:
+        for x in p.get_fonts(full=True):
+            if x[1] == "n/a":
+                src_ne.add(x[3])
 for book in (1, 2):
     pdfs = [BOOKS[book]] + sorted(glob.glob(os.path.join(BOOKDIR[book], "units", "*.pdf")))
     for fn in pdfs:
@@ -34,8 +44,13 @@ for book in (1, 2):
             F.append(("over 95 MB", row["file"], row["mb"]))
         if set(sizes) != {(595, 842)}:
             F.append(("page size", row["file"], dict(sizes)))
-        if notemb:
-            F.append(("font not embedded", row["file"], sorted(notemb)))
+        row["not_embedded_inherited"] = sorted(notemb & src_ne)
+        own = [n for n in fonts if "Noto" in n or "Liberation" in n]
+        row["own_fonts"] = sorted(own)
+        if notemb - src_ne:
+            F.append(("font not embedded (and not inherited from a source paper)", row["file"], sorted(notemb - src_ne)))
+        if not own or any(n in notemb for n in own):
+            F.append(("book font missing or not embedded", row["file"], own))
         if notext:
             F.append(("pages without text", row["file"], notext[:10]))
         if annots or d.is_encrypted:
@@ -58,7 +73,8 @@ for book in (1, 2):
     rows.append({"file": f"P{book} items.jsonl", "rows": len(js)})
     rows.append({"file": f"P{book} topics.json", "rows": len(tp)})
 big = subprocess.run("git ls-files -z | xargs -0 du -b 2>/dev/null | sort -rn | head -3", shell=True, capture_output=True, text=True, cwd=ROOT).stdout
-jd({"files": rows, "fail": F, "largest_tracked": big}, "files.json", 1)
+jd({"files": rows, "fail": F, "largest_tracked": big, "fonts_not_embedded_in_sources": sorted(src_ne)}, "files.json", 1)
+print("fonts the source papers do not embed:", sorted(src_ne))
 print("files checked", len(rows), "| failures", len(F))
 for r in rows:
     if "mb" in r:

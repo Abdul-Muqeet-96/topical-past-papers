@@ -26,7 +26,7 @@ def parse(path, book):
         m = re.match(r"\s*Unit (\d+)\n", txt)
         if i == 0 and "Part-level Topical Workbook" in txt:
             kind = "cover"
-        elif first == "Contents" or (kind == "contents" and not head):
+        elif first == "Contents" or (kind == "contents" and not head and not (m and "items ·" in txt)):
             kind = "contents"
         elif m and "items ·" in txt and "Syllabus sections in this unit" in txt:
             kind, unit, side = "unit_title", int(m.group(1)), None
@@ -95,15 +95,15 @@ def item_texts(path, o):
         pg = it["page"]
         while pg <= len(d) and o["pages"][pg - 1]["kind"] == ("question" if it["side"] == "Q" else "answers") \
                 and o["pages"][pg - 1]["unit"] == it["unit"]:
-            y0 = it["y"] + 6 if pg == it["page"] else 50
+            y0 = it["y"] + 8 if pg == it["page"] else 50
             y1 = nxt["y"] - 6 if nxt and nxt["page"] == pg else 842
             if y1 > y0:
                 out.append(d[pg - 1].get_text(clip=f.Rect(0, y0, 596, y1)))
-            if nxt is None or nxt["page"] == pg:
+            if nxt is not None and nxt["page"] == pg:
                 break
+            if pg + 1 > len(d) or o["pages"][pg]["kind"] != o["pages"][pg - 1]["kind"] or o["pages"][pg]["unit"] != it["unit"]:
+                break                     # the last item of a side runs to the end of that side
             pg += 1
-            if nxt and pg > nxt["page"]:
-                break
         it["end_page"] = pg if pg <= len(d) else len(d)
         it["text"] = "\n".join(out)
     return seq

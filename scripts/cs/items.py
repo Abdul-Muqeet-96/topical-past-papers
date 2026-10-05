@@ -140,7 +140,7 @@ def resolve(Q, units):
     def add(site, why, dep=False):
         """Add a part (or lettered intro) as context and queue its own text."""
         L = find_letter(Q, letter_of(site)) if letter_of(site) else None
-        if L is not None and site == L["label"] and L["romans"] and not dep and why != "part reference":
+        if L is not None and site == L["label"] and L["romans"] and not dep and not why.startswith("part reference"):
             site = site + "#intro"          # something defined in a lettered intro: that intro only
         if site in ctx_parts:
             return
@@ -174,7 +174,12 @@ def resolve(Q, units):
             if pr not in allleaves and find_letter(Q, letter_of(pr))["label"] != pr:
                 continue          # e.g. "(b)(iv)" that does not exist
             if _not_before(Q, pr, where, units):
-                continue          # a reference to a later part is not a dependency
+                # a reference to a later part is not a dependency, unless the text sends the
+                # reader there for material it needs ("the pseudocode which follows in part (b)")
+                lt = re.escape(letter_of(pr))
+                if re.search(rf"(which follows|that follows|follows|shown|given|described|below)\b[^.]{{0,40}}\bpart \({lt}\)", t):
+                    add(pr, "part reference (material printed in a later part)")
+                continue
             add(pr, "part reference", dep=True)
         if r["your"] and not r["parts"] and where in units:
             prev = _prev_leaf(Q, units[0])

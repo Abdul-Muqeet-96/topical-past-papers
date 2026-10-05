@@ -215,20 +215,45 @@ for book in (1, 2):
         else:
             ap = [p for p in P if p["kind"] == "appendix"]
             ban = ap[0]["banner"]
-            newest = max((r for r in jl("sources.json") if r["kind"] == "in" and r["status"] == "OK" and "_2" in r["file"][-7:]),
-                         key=lambda r: (int(r["pid"].split("_")[1][1:]), {"m": 0, "s": 1, "w": 2}[r["pid"].split("_")[1][0]],
-                                        -int(r["pid"].split("_")[2])))
-            info["appendix"] = {"pages": [p["i"] for p in ap], "banner": ban, "newest_insert": newest["file"]}
-            src = f.open(os.path.join(DATA, newest["file"]))
-            st = " ".join(pg.get_text() for pg in list(src)[1:])
-            tok = lambda s: set(re.findall(r"[A-Za-z_]{4,}", s))
-            at = " ".join(d[p["i"] - 1].get_text() for p in ap)
-            ov = len(tok(at) & tok(st)) / max(1, len(tok(st) - {"PapaCambridge", "papacambridge", "Downloaded", "Licensed", "hosting", "Trace", "Source"}))
-            info["appendix"]["token_overlap_with_newest_insert"] = round(ov, 3)
-            code, sy, v = newest["pid"].split("_")
-            wantref = f"{ {'s': 'M/J', 'w': 'O/N', 'm': 'MAR'}[sy[0]]} {sy[1:]}/P{v}"
-            if not ban or wantref not in ban[0] or ov < 0.9:
-                F.append(("appendix is not the newest insert", ban, wantref, ov))
+            ins = [r for r in jl("sources.json") if r["kind"] == "in" and r["status"] == "OK"]
+            skey = lambda r: (int(r["pid"].split("_")[1][1:]), {"m": 0, "s": 1, "w": 2}[r["pid"].split("_")[1][0]])
+            top = max(skey(r) for r in ins)
+            newest = [r for r in ins if skey(r) == top]        # every variant of the newest series
+            mm = re.search(r"\(from ((?:M/J|O/N|MAR) \d\d/P\d\d)\)", ban[0]) if ban else None
+            named = None
+            for r in newest:
+                code, sy, v = r["pid"].split("_")
+                if mm and mm.group(1) == f"{ {'s': 'M/J', 'w': 'O/N', 'm': 'MAR'}[sy[0]]} {sy[1:]}/P{v}":
+                    named = r
+            info["appendix"] = {"pages": [p["i"] for p in ap], "banner": ban, "newest_series_inserts": [r["file"] for r in newest],
+                                "named": named and named["file"]}
+            if not named:
+                F.append(("appendix is not an insert of the newest series", ban))
+            else:
+                src = f.open(os.path.join(DATA, named["file"]))
+                tok = lambda s_: Counter(re.findall(r"[A-Za-z_<>]{2,}|\d+", s_))
+                st = Counter()
+                for pg in list(src)[1:]:
+                    ws = pg.get_text("words")
+                    if any(w[4] == "BLANK" for w in ws) and len(ws) < 60:
+                        continue
+                    cut = min([w[1] for w in ws if w[4] == "Permission" and w[1] > 0.5 * pg.rect.height] +
+                              [w[1] for w in ws if ("UCLES" in w[4] or w[4] == "©") and w[1] > 0.8 * pg.rect.height] + [pg.rect.height - 30])
+                    body = [w for w in ws if 50 < w[1] < cut - 2]
+                    st += tok(" ".join(w[4] for w in body if not re.search(r"papacambridge", w[4], re.I)))
+                at = Counter()
+                for p in ap:
+                    t = d[p["i"] - 1].get_text(clip=f.Rect(0, 50, 596, 842))
+                    at += tok("\n".join(l for l in t.split("\n") if not l.startswith("Appendix: Insert")))
+                miss = sum((st - at).values())
+                extra = sum((at - st).values())
+                info["appendix"].update(source_tokens=sum(st.values()), missing=miss, extra=extra,
+                                        missing_examples=list((st - at))[:12], extra_examples=list((at - st))[:12])
+                if miss > 0.01 * sum(st.values()) or extra > 0.01 * sum(st.values()):
+                    F.append(("appendix text differs from the insert", miss, extra, list((st - at))[:10], list((at - st))[:10]))
+            n_app = sum(1 for p in P if p["banner"] and p["banner"][0].startswith("Appendix:"))
+            if n_app != 1:
+                F.append(("appendix banner count", n_app))
             if ap[-1]["i"] != len(P):
                 F.append(("appendix is not last",))
     out[f"P{book}"] = {"info": info, "fail": F}

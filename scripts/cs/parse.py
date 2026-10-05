@@ -129,6 +129,9 @@ A4 = pymupdf.Rect(0, 0, 595.28, 841.89)
 RE_DOTRUN = re.compile(r"[.…]{5,}")
 
 
+STD_COPY_X = 49.61   # x0 of the footer '©' on a paper printed at standard size (measured: 49.61 pt)
+
+
 def content_scale(d):
     """Scale of the printed content relative to a standard A4 paper, from the
     '©' footer word (x0 = 50 pt on standard pages; scaled about the origin).
@@ -137,7 +140,7 @@ def content_scale(d):
     for p in d:
         ws = [w for w in p.get_text("words") if w[4] == "©" and w[1] > p.rect.height * 0.8]
         if ws:
-            ks.append(ws[0][0] / 50.0)
+            ks.append(ws[0][0] / STD_COPY_X)
     if not ks:
         return 1.0
     ks.sort()
@@ -155,6 +158,9 @@ def visual_lines(page):
             if abs(l["dir"][0] - 1) > 0.01:
                 continue          # rotated margin text
             for s in l["spans"]:
+                size = s["size"] or 1
+                for c in s["chars"]:      # monospace: advance of 0.6 em (as in extract.mono_lines)
+                    c["mono"] = abs((c["bbox"][2] - c["bbox"][0]) / size - 0.6) < 0.006
                 chars += s["chars"]
     chars.sort(key=lambda c: (round(c["origin"][1]), c["origin"][0]))
     lines = []
@@ -169,58 +175,234 @@ def visual_lines(page):
 
 
 def dot_runs(page):
-    """Runs of 5+ dots on the page: [(Rect, is_answer_line)].
+    """Runs of 5+ dots on the page: [(Rect, is_answer_line, baseline)].
 
-    An answer line (removed from crops and from the text layer) is a run that
-    reaches the right-hand margin or is long, on a line with little other text.
-    A short run inside a line of code or a sentence is a gap the candidate must
-    fill ("DECLARE Pass : ........", "IF ........ (Pass) < 6") and is kept."""
+    An answer line is removed from crops and from the text layer; a gap the candidate must fill
+    inside a line of code or a sentence is kept.
+    - Text follows the run on its line ("PC <- ...... + 1", "DECLARE ...... : STRING",
+      "... will be of type ...... ."): a gap.
+    - The run ends its line: a gap after code or after an unfinished sentence or step, when it is
+      shorter than an answer line (GAP_MAX_W); an answer line when it stands alone or follows a
+      label ("Answer ......", "Line number: ......") or a finished sentence.
+    - A long run that ends a line of code is a gap when the statement is visibly unfinished (it
+      ends in an operator or a keyword: "WHILE ......", "DECLARE Found : ......") or when the
+      same block of code has other gaps (gap-fill pseudocode); otherwise it is an answer line
+      beside an identifier ("ItemStatus ......")."""
     out = []
-    for ln in visual_lines(page):
+    lines = visual_lines(page)
+    info = []           # per line: (baseline, is a line of code or dots only, indexes into out)
+    for ln in lines:
         txt = "".join(c["c"] for c in ln)
+        letters = [c for c in ln if c["c"].isalpha()]
+        codeish = (not letters) or sum(c["mono"] for c in letters) >= 0.5 * len(letters)
         runs = list(RE_DOTRUN.finditer(txt))
-        if not runs:
-            continue
-        rest = RE_DOTRUN.sub(" ", txt)
-        rest = re.sub(r"\[\d+\]\s*$", "", rest)
-        other = len(re.sub(r"[\s.…]", "", rest))
-        for m in runs:
+        idx = []
+        kinds = [None] * len(runs)
+        for k in range(len(runs) - 1, -1, -1):
+            m = runs[k]
+            run = ln[m.start():m.end()]
+            x0, x1 = run[0]["bbox"][0], run[-1]["bbox"][2]
+            seg = txt[m.end():runs[k + 1].start() if k + 1 < len(runs) else len(txt)]
+            seg = re.sub(r"\[\d+\]\s*$", "", seg).strip()
+            # a number or a part label there starts the next answer line ("1 ...... 2 ......")
+            after = bool(seg) and not re.fullmatch(r"\(?(\d{1,2}|[a-z]|[ivx]{1,4})\)?[.:]?", seg)
+            long_ = (x1 - x0) >= GAP_MAX_W
+            own = ln[(runs[k - 1].end() if k else 0):m.start()]
+            if k and not "".join(c["c"] for c in own).strip():
+                own = ln[:m.start()]
+            own_txt = "".join(c["c"] for c in own).strip()
+            if after and k + 1 < len(runs) and kinds[k + 1] == "answer" and _line_end_kind(own) == "answer" \
+                    and _line_end_kind(ln[m.end():runs[k + 1].start()]) == "answer":
+                kinds[k] = "answer"          # "Start time value ...... Duration value ......"
+            elif after and long_ and not own_txt and not re.search(r"[A-Za-z0-9]", seg):
+                kinds[k] = "answer"          # a full line of dots closed by ")" or "."
+            elif after:
+                kinds[k] = "gap"
+            else:
+                kd = _line_end_kind(own)
+                last = [c for c in own if not c["c"].isspace()]
+                if kd == "sentence" and last:
+                    # the text is in another column of a table when a wide space separates it from
+                    # the run, or from the number that labels the run ("... gate that   1 ......")
+                    j = len(last)
+                    while j and len(last) - j < 3 and (last[j - 1]["c"].isdigit() or (j == len(last) and last[j - 1]["c"] in ".)")):
+                        j -= 1
+                    num = last[j:] if j and j < len(last) and any(c["c"].isdigit() for c in last[j:]) else []
+                    if run[0]["bbox"][0] - last[-1]["bbox"][2] > 14 or \
+                            (num and num[0]["bbox"][0] - last[j - 1]["bbox"][2] > 7):
+                        kd = "answer"
+                if kd == "code":
+                    kinds[k] = "gap" if (not long_ or RE_OPEN_END.search(own_txt)) else "code_long"
+                else:
+                    kinds[k] = "gap" if (kd == "sentence" and not long_) else "answer"
+        for k, m in enumerate(runs):
             run = ln[m.start():m.end()]
             x0, x1 = run[0]["bbox"][0], run[-1]["bbox"][2]
             y0 = min(c["bbox"][1] for c in run)
             y1 = max(c["bbox"][3] for c in run)
-            after = len(re.sub(r"[\s.…]", "", re.sub(r"\[\d+\]\s*$", "", txt[m.end():])))
-            long_ = (x1 - x0) >= GAP_MAX_W
-            if after:
-                answer = long_ or other < 6
-            else:
-                answer = long_ or x1 > 500
-            out.append((pymupdf.Rect(x0, y0, x1, y1), answer, run[0]["origin"][1]))
-    return out
+            idx.append(len(out))
+            out.append([pymupdf.Rect(x0, y0, x1, y1), kinds[k], run[0]["origin"][1]])
+        info.append((ln[0]["origin"][1], codeish, idx))
+    # blocks of consecutive code lines: long runs after code follow the other runs of the block
+    blocks, cur = [], []
+    for y, codeish, idx in info:
+        if codeish and (not cur or y - cur[-1][0] <= 45):
+            cur.append((y, idx))
+        else:
+            if cur:
+                blocks.append(cur)
+            cur = [(y, idx)] if codeish else []
+    if cur:
+        blocks.append(cur)
+    for blk in blocks:
+        ids = [i for _, idx in blk for i in idx]
+        gap = any(out[i][1] == "gap" for i in ids)
+        for i in ids:
+            if out[i][1] == "code_long":
+                out[i][1] = "gap" if gap else "answer"
+    return [(r, k != "gap", y) for r, k, y in out]
+
+
+# a line of code that stops at an operator, an opening bracket or a keyword is unfinished
+RE_OPEN_END = re.compile(r"([←=+\-*/&,(:<>]|(?<![A-Za-z])(DECLARE|CONSTANT|IF|THEN|ELSE|FOR|TO|STEP|WHILE|UNTIL|RETURN|RETURNS|INPUT|"
+                         r"OUTPUT|CALL|CASE|OF|OPENFILE|READFILE|WRITEFILE|CLOSEFILE|OPEN|AND|OR|NOT|SELECT|FROM|"
+                         r"WHERE|SET|UPDATE|INSERT|INTO|VALUES|ORDER|GROUP|BY|JOIN|ON|LIKE|TABLE|KEY|REFERENCES))$")
 
 
 GAP_MAX_W = 250    # a dotted run at least this wide is an answer line, never a gap
+RE_PARTLABEL = re.compile(r"^\s*(\d{1,2}\s+)?(\(\s*[a-z]\s*\)\s*)?(\(\s*[ivx]{1,4}\s*\)\s*)?")
+FUNC_WORDS = set("the to until in from of is a an into with by as at on if then that than while and are be for".split())
 
 
-def redact_dot_runs(d):
+def _line_end_kind(chars):
+    """What a dotted run that ends its line is, from the characters printed before it:
+    'code' ("DECLARE Pass : ......", "SP <- ......") and 'sentence' (an unfinished sentence or
+    numbered step: "... can correct the error ......", "1. Open the file ......") are gaps;
+    'answer' when the run stands alone or follows a label ("Answer ......", "Line number: ......",
+    "Hours worked ......") or a finished sentence ("... a global variable. ...... [1]")."""
+    txt = "".join(c["c"] for c in chars)
+    lab = RE_PARTLABEL.match(txt).end()
+    body, bchars = txt[lab:], chars[lab:]
+    step = re.match(r"\s*(\d{1,2}\s*[.)]|Step\s+\d+\s*:?)\s+(?=\S)", body)
+    letters = [c for c in bchars if c["c"].isalpha()]
+    if not letters:
+        return "answer"                      # nothing, a number or a part label before the run
+    end = body.rstrip()
+    attached_colon = bool(re.search(r"\S:$", end))
+    if sum(c["mono"] for c in letters) >= 0.5 * len(letters) and not attached_colon:
+        return "code"                        # a line of code
+    if attached_colon or end[-1] in ".?":
+        return "answer"                      # a label, or a sentence that is complete
+    words = re.findall(r"[A-Za-z]+", body)
+    if step or any(w in FUNC_WORDS for w in words):
+        return "sentence"                    # a sentence or step the candidate completes
+    return "answer"                          # a label
+
+
+UNREDACTED = {}     # file name -> pages whose answer-line dots stay in the text layer
+
+
+def _body_chars(p):
+    """Every printed character of the page body that is not a dot: (char, x, y) of its origin.
+    The footer line is left out (it is never shown)."""
+    H = p.rect.height
+    foot = min([w[1] for w in p.get_text("words") if w[1] > H * 0.8 and ("UCLES" in w[4] or w[4] == "©")] or [H - 40]) - 2
+    out = []
+    for bl in p.get_text("rawdict")["blocks"]:
+        for l in bl.get("lines", []):
+            for sp in l["spans"]:
+                for c in sp["chars"]:
+                    if c["c"].strip() and c["c"] not in ".…" and c["origin"][1] < foot:
+                        out.append((c["c"], c["origin"][0], c["origin"][1]))
+    return out
+
+
+def _same_chars(a, b, tol=0.25):
+    if len(a) != len(b):
+        return False
+    key = lambda c: (c[0], round(c[2], 0), c[1])
+    for x, y in zip(sorted(a, key=key), sorted(b, key=key)):
+        if x[0] != y[0] or abs(x[1] - y[1]) > tol or abs(x[2] - y[2]) > tol:
+            return False
+    return True
+
+
+def redact_dot_runs(d, path=None):
     """Remove answer-line glyphs (runs of 5+ dots) from the text layer itself,
     so the book's text layer holds no hidden '......' (audit A-020). Only the
     dot characters are removed; every other glyph and all graphics stay.
-    Gaps to fill inside code or sentences are kept (see dot_runs)."""
+    Gaps to fill inside code or sentences are kept (see dot_runs).
+
+    The removal rewrites the text of the page. On a few pages that moves other
+    glyphs (text set with character spacing: a mark printed '[1 ]', a shifted
+    word). Every page is therefore compared before and after, character by
+    character; a page on which anything but the dots changed is put back as it
+    was (its dotted lines are then hidden by white-outs in the crops, and stay
+    in the text layer). Such pages are listed in UNREDACTED."""
     n = 0
+    bad = []
+    d._dots = {}        # page -> (answer-line runs, gap runs), each [(Rect, baseline)]: judged once, here
     for p in d:
+        runs = dot_runs(p)
+        if runs:
+            d._dots[p.number] = ([(r, base) for r, answer, base in runs if answer],
+                                 [(r, base) for r, answer, base in runs if not answer])
         # a thin band just above the baseline: it meets every dot of the run but not
         # the line below (a [mark] is often printed directly under a dotted line)
         rects = [pymupdf.Rect(r.x0 + 0.4, base - 4.0, r.x1 - 0.4, base - 1.0)
-                 for r, answer, base in dot_runs(p) if answer]
+                 for r, answer, base in runs if answer]
+        if not rects:
+            continue
+        before = _body_chars(p)
         for r in rects:
             p.add_redact_annot(r)
-        if rects:
-            p.apply_redactions(images=pymupdf.PDF_REDACT_IMAGE_NONE,
-                               graphics=pymupdf.PDF_REDACT_LINE_ART_NONE,
-                               text=pymupdf.PDF_REDACT_TEXT_REMOVE)
-            n += len(rects)
+        p.apply_redactions(images=pymupdf.PDF_REDACT_IMAGE_NONE,
+                           graphics=pymupdf.PDF_REDACT_LINE_ART_NONE,
+                           text=pymupdf.PDF_REDACT_TEXT_REMOVE)
+        n += len(rects)
+        if not _same_chars(before, _body_chars(p)):
+            bad.append(p.number)
+    if bad and path:
+        d0 = pymupdf.open(path)
+        strip_watermark(d0)
+        for p in d0:
+            if p.rotation:
+                p.remove_rotation()
+        for i in bad:
+            d.delete_page(i)
+            d.insert_pdf(d0, from_page=i, to_page=i, start_at=i)
+        UNREDACTED[os.path.basename(path)] = bad
+    d._unredacted = set(bad) if path else set()
     return n
+
+
+_ADOTS = {}
+
+
+def answer_dot_runs(page):
+    """Answer-line dot runs still present on a page (a page that was put back unredacted):
+    [(Rect, baseline)]."""
+    doc = page.parent
+    if hasattr(doc, "_dots"):
+        return doc._dots.get(page.number, ([], []))[0] if page.number in doc._unredacted else []
+    k = (doc_key(page.parent), page.number)
+    if k not in _ADOTS:
+        _ADOTS[k] = [(r, base) for r, answer, base in dot_runs(page) if answer]
+        if len(_ADOTS) > 256:
+            _ADOTS.pop(next(iter(_ADOTS)))
+    return _ADOTS[k]
+
+
+def gap_dot_runs(page):
+    """Dotted runs of a page that are gaps to fill and stay: [(Rect, baseline)]."""
+    doc = page.parent
+    if hasattr(doc, "_dots"):
+        return doc._dots.get(page.number, ([], []))[1]
+    return [(r, base) for r, answer, base in dot_runs(page) if not answer]
+
+
+def answer_dot_rects(page):
+    return [r for r, base in answer_dot_runs(page)]
 
 
 def normalise(d):
@@ -235,6 +417,10 @@ def normalise(d):
         clip = pymupdf.Rect(0, 0, A4.width * k, A4.height * k) & p.rect
         np.show_pdf_page(pymupdf.Rect(0, 0, clip.width / k, clip.height / k), d, p.number, clip=clip)
     out.scale_k = k
+    if hasattr(d, "_dots"):          # the dotted runs judged before the re-scaling, in the new coordinates
+        sc = lambda rs: [(pymupdf.Rect(r.x0 / k, r.y0 / k, r.x1 / k, r.y1 / k), base / k) for r, base in rs]
+        out._dots = {pno: (sc(a), sc(g)) for pno, (a, g) in d._dots.items()}
+        out._unredacted = set(getattr(d, "_unredacted", ()))
     return out
 
 
@@ -247,7 +433,7 @@ def load(path, redact=None):
     if redact is None:
         redact = "_qp_" in os.path.basename(path)   # inserts and mark schemes keep every glyph
     if redact:
-        redact_dot_runs(d)
+        redact_dot_runs(d, path)
     base = os.path.basename(path)
     return normalise(d) if ("_qp_" in base or "_in_" in base) else d
 
@@ -535,8 +721,10 @@ def ms_rows(doc):
                 heads.append((h, tot[0] if tot else max(mk, key=lambda w: w[0])))
         if not heads:
             continue
-        foot = [w for w in words if w[4] == "Page" and w[1] > page.rect.height - 70]
-        bottom = (min(w[1] for w in foot) - 4) if foot else page.rect.height - 50
+        foot = [w for w in words if w[1] > page.rect.height * 0.82 and
+                (w[4] == "Page" and any(abs(v[1] - w[1]) < 2 and v[4] == "of" and v[0] > w[0] for v in words)
+                 or w[4].startswith("©"))]
+        bottom = (min(w[1] for w in foot) - 1) if foot else page.rect.height - 50
         for hi, (h, mk) in enumerate(heads):
             hy = h[3]
             reg_end = heads[hi + 1][0][1] - 6 if hi + 1 < len(heads) else bottom
@@ -793,7 +981,11 @@ def attach_appendix(doc, rows):
         if not words:
             continue
         H = page.rect.height
-        foot = [w[1] for w in words if w[1] > H - 75 and (w[4].startswith("©") or w[4] in ("Page", "UCLES"))]
+        # the footer line ('© UCLES 2019   Page 14 of 15'); some mark schemes are printed at a
+        # reduced scale and carry it higher up the page
+        foot = [w[1] for w in words if w[1] > H * 0.82 and (w[4].startswith("©") or w[4] == "UCLES")]
+        foot += [w[1] for w in words if w[1] > H * 0.82 and w[4] == "Page"
+                 and any(abs(v[1] - w[1]) < 2 and v[4] == "of" and v[0] > w[0] for v in words)]
         hd = [w[3] for w in words if w[1] < 58]
         limits[pno] = ((max(hd) + 3) if hd else 50, (min(foot) - 3) if foot else H - 45)
         ws = sorted(words, key=lambda w: (round(w[3]), w[0]))
@@ -874,7 +1066,82 @@ def ms_rows_any(doc, qs):
     if not rows:
         rows = ms_rows_text(doc, qs)
     doc._apx = attach_appendix(doc, rows)
+    doc._tops = _text_row_tops(doc, rows)
+    _trim_segs_to_ink(doc, rows)
     return rows
+
+
+def _text_row_tops(doc, rows):
+    """A row of a running-text mark scheme starts just above its label line. Where a drawing
+    printed beside the label (the frame of a flowchart box) starts a little higher, the cut would
+    go through it: the cut is moved up to the nearest blank strip (at most 15 pt), and the row
+    before gives that strip up."""
+    import numpy as np
+    Z = 2.0
+    pix, moved = {}, []
+    for k, r in enumerate(rows):
+        if not r.get("text_layout") or not r["segs"]:
+            continue
+        pno, rc = r["segs"][0]
+        if pno not in pix:
+            pm = doc[pno].get_pixmap(matrix=pymupdf.Matrix(Z, Z), colorspace=pymupdf.csGRAY, alpha=False)
+            pix[pno] = np.frombuffer(pm.samples, dtype=np.uint8).reshape(pm.height, pm.stride)[:, :pm.width]
+        a = pix[pno]
+        c0, c1 = int(rc.x0 * Z), min(a.shape[1], int(rc.x1 * Z))
+        ink = (a[:, c0:c1] < 170).any(axis=1)
+        y = int(round(rc.y0 * Z))
+        if not ink[y - 1:y + 2].any():
+            continue
+        lo = max(0, y - int(15 * Z))
+        t = y
+        while t > lo and (ink[t] or ink[t - 1] or ink[t - 2]):
+            t -= 1
+        if t <= lo:
+            continue                     # no blank strip close by: leave the cut where it is
+        ny = (t - 1) / Z
+        r["segs"][0] = (pno, pymupdf.Rect(rc.x0, ny, rc.x1, rc.y1))
+        if k and rows[k - 1]["segs"]:
+            pp, prc = rows[k - 1]["segs"][-1]
+            if pp == pno and prc.y1 > ny:
+                if ny - prc.y0 > 3:
+                    rows[k - 1]["segs"][-1] = (pp, pymupdf.Rect(prc.x0, prc.y0, prc.x1, ny))
+                elif len(rows[k - 1]["segs"]) > 1:
+                    rows[k - 1]["segs"].pop()
+        moved.append((r["label"], pno + 1, round(rc.y0, 1), round(ny, 1)))
+    return moved
+
+
+def _trim_segs_to_ink(doc, rows):
+    """A row of a running-text mark scheme, and an appended appendix section, runs to the foot
+    of the page (or to the next label) whatever is printed there. Each such segment is cut back
+    to its ink, so that no blank strip (sometimes most of a page) goes into the book."""
+    import numpy as np
+    Z = 1.5
+    pix = {}
+
+    def ink_rows(pno, rc):
+        if pno not in pix:
+            pm = doc[pno].get_pixmap(matrix=pymupdf.Matrix(Z, Z), colorspace=pymupdf.csGRAY, alpha=False)
+            pix[pno] = np.frombuffer(pm.samples, dtype=np.uint8).reshape(pm.height, pm.stride)[:, :pm.width]
+        a = pix[pno]
+        r0, r1 = max(0, int(rc.y0 * Z)), min(a.shape[0], int(rc.y1 * Z) + 1)
+        c0, c1 = max(0, int(rc.x0 * Z)), min(a.shape[1], int(rc.x1 * Z) + 1)
+        rows_ = np.flatnonzero((a[r0:r1, c0:c1] < 170).any(axis=1))
+        if len(rows_) == 0:
+            return None
+        return (r0 + rows_[0]) / Z, (r0 + rows_[-1] + 1) / Z
+    for r in rows:
+        n = len(r["segs"])
+        k0 = 0 if r.get("text_layout") else n - r.get("appendix_segs", 0)
+        if k0 >= n:
+            continue
+        out = list(r["segs"][:k0])
+        for pno, rc in r["segs"][k0:]:
+            ir = ink_rows(pno, rc)
+            if ir is None:
+                continue
+            out.append((pno, pymupdf.Rect(rc.x0, max(rc.y0, ir[0] - 2.5), rc.x1, min(rc.y1, ir[1] + 2.5))))
+        r["segs"] = out or r["segs"][:1]
 
 
 def _marks_in(words, rect, mx0, mx1, bracket_only=False, pt_x=None):

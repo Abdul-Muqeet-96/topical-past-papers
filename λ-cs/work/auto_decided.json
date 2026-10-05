@@ -36,8 +36,8 @@
  },
  {
   "item": "Dotted lines",
-  "issue": "CS papers use dots both for answer lines and for gaps inside code, sentences and table cells that the candidate must fill",
-  "action": "Answer lines (a run at least 250 pt wide, or running to the right-hand margin on a line with little other text) are removed from the picture and the text layer. Short runs inside code, a sentence or a table cell are kept as printed"
+  "issue": "CS papers use dots both for answer lines and for gaps inside code and sentences that the candidate must fill",
+  "action": "Answer lines are removed from the picture and the text layer; gaps to fill are kept as printed. The rule that tells them apart is in the row \"Gaps to fill and answer lines\" below and in `parse.dot_runs`"
  },
  {
   "item": "Mark-scheme reader",
@@ -137,7 +137,7 @@
  {
   "item": "Marks not at the right-hand margin (9608)",
   "issue": "A few 9608 papers print a mark beside a short answer line in the middle of the page, as two words (\"[1\" \"]\"), or level with the footer",
-  "action": "Split marks are joined; a mark that ends a dotted answer line counts; a lone [n] short of the margin counts only when the paper total cannot be reached without it (M/J 15 P21/P22: 1 mark; M/J 17 P12: 4 marks; logged per paper)"
+  "action": "Split marks are joined; a mark that ends a dotted answer line counts; a lone [n] short of the margin counts only when the paper total cannot be reached without it (M/J 17 P11 and P13: 2 marks each; M/J 17 P12: 4 marks; logged per paper). Each such paper still adds up to its cover total and every question agrees with its mark scheme"
  },
  {
   "item": "Line numbers of code listings (9608)",
@@ -178,5 +178,85 @@
   "item": "Small-print copyright paragraph",
   "issue": "Some papers print the copyright paragraph at the foot of a question page",
   "action": "Treated as page furniture: not part of any crop or text"
+ },
+ {
+  "item": "Download-site watermark (2015-2019 files)",
+  "issue": "The older 9608 files carry the site's corner ribbon and footer logo as images (added by \"A-PDF Watermark\" and an FPDF wrapper), sometimes over question text or a mark",
+  "action": "The image draw operators are removed in memory at load (`parse.strip_watermark`); the text and marks underneath show again. The self-check compares every crop with its source pixel by pixel and finds no stamp left"
+ },
+ {
+  "item": "Empty drawing boxes",
+  "issue": "Some questions print a large empty bordered box as space for a drawing (a flowchart, a structure chart)",
+  "action": "An empty box is writing space and is removed like answer lines. A box with anything printed in it, or with labelled lines attached to its sides (the inputs and output of a logic circuit to draw), is a figure to complete and stays"
+ },
+ {
+  "item": "References of questions without lettered parts",
+  "issue": "Some 9608 questions have roman parts directly under the question number",
+  "action": "The reference names them in brackets: `O/N 16/P11/Q4/(i,ii)`"
+ },
+ {
+  "item": "Reference line and first crop",
+  "issue": "A reference line could fall alone at the foot of a page",
+  "action": "An item (and an answer) starts on a new page when its first crop or figure would not fit under its reference line"
+ },
+ {
+  "item": "Marks printed as \"Max2\" / \"MAX8\" (M/J 18/P21)",
+  "issue": "A few rows of the 9608 M/J 18/P21 mark scheme print the mark in the Marks column as one word with \"Max\"",
+  "action": "Read as the row's mark (found by the self-check: the questions had first been excluded for 'no mark printed'); Q6 and Q7 are in the books"
+ },
+ {
+  "item": "Removing answer-line dots from the text layer",
+  "issue": "On 26 of 2348 question-paper pages the removal (a PDF redaction) also moved other glyphs: text set with character spacing, e.g. a mark shown as \"[1 ]\"",
+  "action": "Every page is compared before and after, character by character. A page on which anything but the dots changed is used unchanged: its answer lines are hidden by white rectangles instead and stay in the PDF text layer (not in items.jsonl). The pages are listed below per paper"
+ },
+ {
+  "item": "Gaps to fill and answer lines",
+  "issue": "A dotted run can be an answer line (\"Answer ......\", \"Line number: ......\", a line of dots on its own) or a gap inside code or a sentence (\"DECLARE ...... : STRING\", \"PC ← ...... + 1\", \"The values ... will indicate ......\")",
+  "action": "Kept as a gap: a run followed by text on its line (any length); a run that ends a line of code and is shorter than an answer line (250 pt), or whose statement is visibly unfinished (it stops at an operator or keyword: \"WHILE ......\", \"NextChar ← ......\"), or that stands in a block of code with other gaps; a short run that ends an unfinished sentence or numbered step. Removed as an answer line: a run on its own, a run after a label (\"Answer\", \"Hours worked\", \"Logic gate:\"), after a finished sentence, after text in another table column, and a long run beside a bare identifier (\"ItemStatus ......\"). Code is recognised by its monospace font"
+ },
+ {
+  "item": "Mark printed on the footer line",
+  "issue": "The last mark of a page is sometimes printed level with \"[Turn over\" or the paper code",
+  "action": "The mark is kept; the footer words beside or under it are covered by white rectangles that start below the mark's own ink"
+ },
+ {
+  "item": "Papers printed at reduced scale",
+  "issue": "Nine 9608 question papers (M/J 21 P12-P23, O/N 19 P11-P22) are printed at 95.2 % of the standard size",
+  "action": "Their pages are re-scaled to standard size before any coordinate rule is applied; the scale is measured from the footer \"©\" (x = 49.61 pt on a standard paper). Crops are never enlarged beyond the standard size"
+ },
+ {
+  "item": "Barcode strips inside the type area",
+  "issue": "M/J 24 P13 and P23 print a barcode strip below the page number, at the height where other papers start their text",
+  "action": "Treated as page furniture (thin glyph rows without letters or digits above y = 73 pt)"
+ },
+ {
+  "item": "Running-text mark schemes: blank tails",
+  "issue": "A row of a 2015-16 mark scheme, and an appended program-code appendix section, runs to the foot of its page",
+  "action": "Each such segment is cut back to its ink, so no blank strip goes into the Answers Sections; the footer line of a mark-scheme page is never part of a segment"
+ },
+ {
+  "item": "Part that refers forward (O/N 15 P21/P23 Q5(a))",
+  "issue": "Part (a) says \"Study the incomplete pseudocode which follows in part (b)\"; (a) and (b) are filed under different units",
+  "action": "The later part is shown with the item as context (question crop only). A reference to a later part counts as a dependency only when the text sends the reader there for material (\"which follows in part\", \"shown/given/described in part\")"
+ },
+ {
+  "item": "Malformed stream in a source font",
+  "issue": "One compressed stream of a font carried over from the source papers does not end properly; viewers read it, `qpdf --check` warns",
+  "action": "The stream is stored again from its decoded bytes when a book or unit PDF is saved; its content is unchanged"
+ },
+ {
+  "item": "Running-text mark schemes: where a row starts",
+  "issue": "In four 2015 mark schemes (O/N 15 P11, P13: 8(b)(i); O/N 15 P21, P23: 4) a fraction or the frame of a flowchart box starts a few points above the line of the part label",
+  "action": "The cut between the two rows is moved up to the nearest blank strip (at most 15 pt), so the drawing stays whole and with its own row"
+ },
+ {
+  "item": "Hairline under a line of text",
+  "issue": "The bar under a binary addition (O/N 22/P12 Q2(b)) is a hairline too faint to count as ink, so it fell into the removed blank space",
+  "action": "A thin rule drawn up to 4.5 pt under a line of text and no wider than that line is kept with it"
+ },
+ {
+  "item": "Footer words under a figure",
+  "issue": "Where a figure or a mark reaches down to the footer line, the footer words beside it are covered by white rectangles; at the last pixel row of the crop a faint trace of them could remain",
+  "action": "A white rectangle that runs past the foot of a crop is drawn 0.6 pt beyond it (over blank paper)"
  }
 ]

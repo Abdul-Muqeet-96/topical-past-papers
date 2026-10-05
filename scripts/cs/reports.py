@@ -64,6 +64,11 @@ def main():
         for pid, r in sorted(checks[ph].items()):
             for a, b in r.get("ms_label_fixes", []):
                 R.append(f"| {r['ref']} MS label \"{a}\" | Typo in the mark scheme | Read as {b} (unambiguous) |")
+            if r.get("unredacted_pages"):
+                R.append(f"| {r['ref']} QP page(s) {', '.join(map(str, r['unredacted_pages']))} | Removing the answer-line dots "
+                         f"from the text layer moved other glyphs on the page (text set with character spacing) | "
+                         f"Page used unchanged: its dotted lines are hidden by white-outs and stay in the PDF text layer "
+                         f"(not in items.jsonl) |")
             for a, b in r.get("ms_label_notes", []):
                 R.append(f"| {r['ref']} MS label \"{a}\" | The question paper has no sub-parts in {b} | "
                          f"The row is the answer of {b} (unambiguous) |")

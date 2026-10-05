@@ -115,8 +115,9 @@ class Flow:
             prev = b
         return h
 
-    def place_bands(self, src, bands, x0=X0, x1=X1, scale=None, label=None, indent=0):
-        """Place bands (from one source doc) in flow; returns list of (page, rect)."""
+    def place_bands(self, src, bands, x0=X0, x1=X1, scale=None, label=None, indent=0, first_break=False):
+        """Place bands (from one source doc) in flow; returns list of (page, rect).
+        first_break: the first band may also start a new page (a later block of an item)."""
         avail = TW - indent
         if scale is None:
             scale = min(1.0, avail / (x1 - x0))
@@ -131,23 +132,18 @@ class Flow:
             if h > maxh:     # oversize band: shrink to fit a page
                 s = scale * maxh / h
                 h = maxh
-            # keep a figure with its label line above and its caption below (audit A-014)
-            need = gap + h
-            k = i
-            while k + 1 < len(bands) and _together(bands[k], bands[k + 1]):
-                need += _gap(bands[k], bands[k + 1]) * scale + min(bands[k + 1].h * scale, maxh)
-                k += 1
-            if b.grp is not None and (prev is None or prev.grp != b.grp):
-                k = i
-                need = gap + h
-                while k + 1 < len(bands) and bands[k + 1].grp == b.grp:
-                    need += _gap(bands[k], bands[k + 1]) * scale + min(bands[k + 1].h * scale, maxh)
-                    k += 1
-            if need > self.room() and need - gap <= maxh and prev is not None and \
-                    not _together(prev, b) and not (b.grp is not None and prev.grp == b.grp):
-                self.new_page(self.header)
-                gap = 0
-            elif gap + h > self.room():
+            in_grp = b.grp is not None and prev is not None and prev.grp == b.grp
+            chain, core, with_fig = keep_heights(bands, i, scale, maxh)
+            tog = prev is not None and _together(prev, b)
+            brk = False
+            if not in_grp and (prev is not None or first_break):
+                if gap + chain > self.room() and chain <= maxh and not tog:
+                    brk = True       # everything that belongs with this band fits on a fresh page
+                elif gap + core > self.room() and core <= maxh and (with_fig or not tog):
+                    brk = True       # a figure (with the label line above it) is never split
+            if not brk and gap + h > self.room():
+                brk = True
+            if brk:
                 self.new_page(self.header)
                 gap = 0
             self.y += gap
@@ -164,6 +160,10 @@ class Flow:
             for wo in b.whiteouts:
                 wr = pymupdf.Rect(tx0 + (wo.x0 - x0) * s, self.y + (wo.y0 - b.y0) * s,
                                   tx0 + (wo.x1 - x0) * s, self.y + (wo.y1 - b.y0) * s) & r
+                if not wr.is_empty and wo.y1 >= b.y1:
+                    # a white-out that runs past the foot of the band: the band's last pixel row
+                    # is only partly covered at the edge, so cover a little more (blank paper)
+                    wr.y1 += 0.6
                 if not wr.is_empty:
                     self.page.draw_rect(wr, color=None, fill=(1, 1, 1), overlay=True)
             placed.append((self.page.number, r))
@@ -181,14 +181,56 @@ class Flow:
             self.doc[pno].draw_line((ML - 6, y0 - 8), (ML - 6, y1), color=ACCENT, width=1.2)
 
 
+def keep_heights(bands, i, scale, maxh):
+    """Heights that must be free for band i to be placed where the flow stands:
+    chain: band i and every band linked to it (pairwise, see _together);
+    core:  band i with its figure: the whole figure when band i starts one, or the label line
+           (band i) plus the figure that starts directly below it; a trailing mark is included;
+    with_fig: core holds a figure."""
+    def bh(k):
+        return min(bands[k].h * scale, maxh)
+
+    def run(k, cond):
+        hh = 0.0
+        while k + 1 < len(bands) and cond(bands[k], bands[k + 1]):
+            hh += _gap(bands[k], bands[k + 1]) * scale + bh(k + 1)
+            k += 1
+        return hh, k
+
+    b = bands[i]
+    hh, _ = run(i, _together)
+    chain = bh(i) + hh
+    same = lambda a, c: a.grp is not None and a.grp == c.grp
+    core, k, with_fig = bh(i), i, False
+    if b.grp is not None:
+        hh, k = run(i, same)
+        core, with_fig = core + hh, True
+    elif i + 1 < len(bands) and _label_above(b, bands[i + 1]):
+        hh, k = run(i + 1, same)
+        core += _gap(b, bands[i + 1]) * scale + bh(i + 1) + hh
+        with_fig = True
+    if with_fig and k + 1 < len(bands) and bands[k + 1].mark_only:
+        core += _gap(bands[k], bands[k + 1]) * scale + bh(k + 1)
+    return chain, core, with_fig
+
+
+def _label_above(a, b):
+    """a is a short line directly above the first band of a figure b."""
+    return a.grp is None and b.grp is not None and a.page == b.page and 0 <= b.y0 - a.y1 <= 26 and a.h < 30
+
+
 def _together(a, b):
     """Bands a, b (consecutive, same source page) that must stay on one page:
     a short label line directly above a figure, or a figure and its caption /
     the label line directly below it."""
     if getattr(a, "grp", None) is not None and a.grp == getattr(b, "grp", None):
         return True
+    if getattr(b, "mark_only", False):
+        return True          # a [mark] on its own stays with the line it closes
     if a.page != b.page or b.y0 - a.y1 > 14:
         return False
+    if _label_above(a, b):
+        return True
     return (a.h < 18 and b.h > 30) or (a.h > 30 and b.h < 18)
 
 

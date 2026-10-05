@@ -35,6 +35,8 @@ def check(pid, ent):
     md = load(os.path.join(DATA, ent["ms"]["file"]))
     ref = paper_ref(qd)
     res = {"pid": pid, "ref": ref, "paper_excluded": None, "questions": {}, "issues": []}
+    if parse.UNREDACTED.get(ent["qp"]["file"]):
+        res["unredacted_pages"] = [i + 1 for i in parse.UNREDACTED[ent["qp"]["file"]]]
     exp = f"{SERIES_REF[ent['series']]} {ent['year'] % 100:02d}/P{ent['variant']}"
     if ref != exp:
         res["paper_excluded"] = f"reference from header '{ref}' != expected '{exp}'"

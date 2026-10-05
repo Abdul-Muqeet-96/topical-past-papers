@@ -10,9 +10,11 @@ blocks: a figure, table or block of code belongs to the part it is printed in,
 and another part that needs it gets that whole part as context.
 """
 import json, os, re, sys
+import pymupdf
 from collections import defaultdict
 sys.path.insert(0, os.path.dirname(__file__))
 from parse import (load, parse_qp, ms_rows_any, fix_ms_rows, page_lines, special_page, data_cut, ROMANS, RE_FOOT,
+                   answer_dot_rects,
                    doc_key, boiler_top)
 from paths import DATA, MANIFEST, work, jload, jdump
 
@@ -134,6 +136,18 @@ def text_of(doc, region, strip_labels=True):
     (redacted at load); gaps to fill inside code are kept as printed."""
     parts = []
     for p, ws in region_lines(doc, region):
+        # a page that was put back unredacted still carries its answer-line dots: drop them here
+        adots = answer_dot_rects(doc[p])
+        if adots:
+            kept = []
+            for w in ws:
+                if any(r.intersects(pymupdf.Rect(w[:4])) for r in adots):
+                    t = re.sub(r"[.…]{5,}", "", w[4])
+                    if not t:
+                        continue
+                    w = tuple(w[:4]) + (t,) + tuple(w[5:])
+                kept.append(w)
+            ws = kept
         words = [w[4] for w in ws]
         line = " ".join(words)
         if RE_NAVLINE.search(line) and len(words) <= 9:
@@ -176,6 +190,8 @@ def mono_lines(page):
         else:
             lines.append([r])
     out = []
+    full = []
+    nmono = []
     for ln in lines:
         ln.sort(key=lambda r: r[1])
         # a word counts as monospace only if every character of it is
@@ -195,10 +211,37 @@ def mono_lines(page):
         flush()
         ink = [r for r in ln if not r[2].isspace()] or ln      # spaces can carry tall boxes
         out.append((min(r[4] for r in ink), max(r[5] for r in ink), "".join(txt)))
+        full.append("".join(r[2] for r in ln))
+        nmono.append(sum(1 for r in ln if r[3] and not r[2].isspace()))
     _MONO[key] = out
+    _FULL[key] = full
+    _NMONO[key] = nmono
     if len(_MONO) > 64:
-        _MONO.pop(next(iter(_MONO)))
+        k0 = next(iter(_MONO))
+        _MONO.pop(k0)
+        _FULL.pop(k0, None)
+        _NMONO.pop(k0, None)
     return out
+
+
+_FULL = {}
+_NMONO = {}
+
+
+def line_mono_chars(page):
+    """Per visual line (as line_texts): how many of its characters are monospace, single letters
+    included ("n <- 0" has no monospace word of two letters, but is a line of code)."""
+    mono_lines(page)
+    return _NMONO[(doc_key(page.parent), page.number)]
+
+
+def line_texts(page):
+    """Per visual line: (y0, y1, monospace text, all the text of that line). The text is taken
+    from the characters on the line's own baseline: the boxes of Courier lines overlap their
+    neighbours, so a text box cut out by y would pick up parts of the lines above and below."""
+    rows = mono_lines(page)
+    full = _FULL[(doc_key(page.parent), page.number)]
+    return [(a, b, m, t) for (a, b, m), t in zip(rows, full)]
 
 
 def _clean_ident(tok):

@@ -11,9 +11,9 @@ from collections import defaultdict
 import pymupdf
 sys.path.insert(0, os.path.dirname(__file__))
 from parse import load, paper_ref
-from crops import bands, Band, X0, X1
+from crops import bands, Band, X0, X1, group_rows
 from items import find_letter, letter_of, unit_region, _L
-from layout import Flow, put, tlen, W, H, ML, MR, MT, MB, TW, DARK, GREY, ACCENT
+from layout import Flow, put, tlen, W, H, ML, MR, MT, MB, TW, DARK, GREY, ACCENT, keep_heights
 from assemble import TOPICS, SECTIONS, LOS, book_of
 from extract import text_of
 from paths import DATA, OUT, BOOK_FILE, TITLES, SERIES_ORDER, work, jload, jdump
@@ -80,10 +80,20 @@ def item_blocks(it, Q, qd, docs):
             bs = []
             for pg in pages:
                 bs += bands(d, [inserts.content_region(d, pg)])
-            for b in bs:
-                b.grp = None        # reference pages may break between lines
+            group_rows(d, bs)       # reference pages may break between rows, not inside one
             blocks.append((d, INSERT_INLINE_NOTE if kind == "in" else APPENDIX_INLINE_NOTE, bs))
     return blocks
+
+
+def insert_text(it, docs):
+    """Text of the paper's own insert / appendix pages that are printed with the item, or None."""
+    if it.get("insert") != "inline":
+        return None
+    out = []
+    for kind, f, pg in it["insert_pages"]:
+        d = docs(f)
+        out.append(text_of(d, [inserts.content_region(d, pg)], strip_labels=False))
+    return "\n".join(t for t in out if t.strip())
 
 
 def also_text(it):
@@ -105,17 +115,13 @@ def est_height(blocks):
 
 
 def _lead_height(bs):
-    """Height of the first band of a block, or of the figure it starts (bands of
-    one figure are placed together), at the scale the block is drawn at."""
+    """Height that the start of a block needs on its page: the first band with everything that
+    must stay with it (layout.keep_heights), at the scale the block is drawn at."""
     w = max(b.x1 for b in bs) - min(b.x0 for b in bs)
     sc = min(1.0, TW / w)
-    h, prev = 0.0, None
-    for b in bs:
-        if prev is not None and not (b.grp is not None and b.grp == bs[0].grp):
-            break
-        h += (min(b.y0 - prev.y1, 8) if prev is not None and prev.page == b.page else 0) * sc + b.h * sc
-        prev = b
-    return min(h, H - MB - MT - 20)
+    maxh = H - MB - MT - 20
+    chain, core, _ = keep_heights(bs, 0, sc, maxh)
+    return chain if chain <= maxh else (core if core <= maxh else min(bs[0].h * sc, maxh))
 
 
 def place_item(f, num, it, blocks, ref_pages):
@@ -137,11 +143,13 @@ def place_item(f, num, it, blocks, ref_pages):
         if not bs:
             continue
         if note:
+            if _lead_height(bs) + 20 > f.room():
+                f.new_page(f.header)          # the grey note stays with the start of its pages
             f.y += 4
             f.text(note, size=7.5, color=GREY, gap=3)
         x0 = min(b.x0 for b in bs)
         x1 = max(b.x1 for b in bs)
-        f.place_bands(src, bs, x0=x0, x1=x1)
+        f.place_bands(src, bs, x0=x0, x1=x1, first_break=bs is not first)
         f.y += 2
     f.y += 14
 
@@ -290,6 +298,29 @@ def contents(doc, front, rows):
         y += 16
 
 
+def fix_streams(doc):
+    """Some source PDFs carry a Flate stream that viewers read but that does not end properly
+    (qpdf --check: 'input stream is complete but output may still be valid'). Such a stream is
+    stored again from its decoded bytes; its content does not change."""
+    import zlib
+    n = 0
+    for x in range(1, doc.xref_length()):
+        if not doc.xref_is_stream(x) or doc.xref_get_key(x, "Filter")[1] != "/FlateDecode":
+            continue
+        z = zlib.decompressobj()
+        try:
+            z.decompress(doc.xref_stream_raw(x))
+            ok = z.eof
+        except Exception:
+            ok = False
+        if not ok:
+            data = doc.xref_stream(x)
+            if data is not None:
+                doc.update_stream(x, data)
+                n += 1
+    return n
+
+
 def unit_file(t):
     return f"Unit-{t:02d}-{re.sub(r'[^A-Za-z0-9]+', '-', TOPICS[t]).strip('-')}.pdf"
 
@@ -405,10 +436,9 @@ def build_book(book, items, parts, docs, ins, phases):
         d = docs(fn)
         for pg in pages:
             bs = bands(d, [inserts.content_region(d, pg)])
-            for b in bs:
-                b.grp = None
+            group_rows(d, bs)
             if bs:
-                f.place_bands(d, bs, x0=min(b.x0 for b in bs), x1=max(b.x1 for b in bs))
+                f.place_bands(d, bs, x0=min(b.x0 for b in bs), x1=max(b.x1 for b in bs), first_break=True)
                 f.y += 10
         rows.append(("APPENDIX", (app_name, True), app_page))
     contents(out, front, rows)
@@ -426,6 +456,7 @@ def build_book(book, items, parts, docs, ins, phases):
     os.makedirs(outdir, exist_ok=True)
     bookf = os.path.join(outdir, BOOK_FILE[book])
     out.subset_fonts()
+    fixed = fix_streams(out)
     out.save(bookf, garbage=4, deflate=True, deflate_fonts=True)
     unit_dir = os.path.join(outdir, "units")
     os.makedirs(unit_dir, exist_ok=True)
@@ -438,6 +469,7 @@ def build_book(book, items, parts, docs, ins, phases):
         ap = rows[rows.index(ai) + 1][2]
         u.set_toc([[1, f"Unit {t}: {TOPICS[t]}", 1], [2, "Answers Section", ap - a]])
         u.subset_fonts()
+        fix_streams(u)
         u.save(os.path.join(unit_dir, unit_file(t)), garbage=4, deflate=True, deflate_fonts=True)
     with open(os.path.join(outdir, "index.csv"), "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=["reference", "unit", "marks", "page", "also_topics", "context_parts",
@@ -458,6 +490,7 @@ def build_book(book, items, parts, docs, ins, phases):
                                  "also_units": it["also"], "context_parts": it["ctx_parts"],
                                  "insert": {"note": "appendix", "inline": "inline"}.get(it.get("insert")),
                                  "text": text_of(docs(P["qp"]), item_regions(it, Q)),
+                                 "insert_text": insert_text(it, docs),
                                  "answer_text": ms_text(docs(P["ms"]), it, Q)},
                                 ensure_ascii=False) + "\n")
     # topics.json: every lowest-level part filed in this book, with its syllabus justification
@@ -480,7 +513,8 @@ def build_book(book, items, parts, docs, ins, phases):
     jdump(tp, os.path.join(outdir, "topics.json"))
     info = {"book": book, "file": BOOK_FILE[book], "pages": out.page_count, "ref_pages": ref_pages,
             "ans_pages": ans_pages, "unit_ranges": {str(k): v for k, v in unit_ranges.items()}, "contents": rows,
-            "items": len(items), "front": front, "index_page": idx_page, "appendix_page": app_page}
+            "items": len(items), "front": front, "index_page": idx_page, "appendix_page": app_page,
+            "streams_rewritten": fixed}
     jdump(info, work(f"build_info_p{book}.json"), indent=0)
     print(f"P{book} book: pages {out.page_count}, items {len(items)}, marks {sum(i['marks'] for i in items)}, "
           f"size {os.path.getsize(bookf) / 1e6:.1f} MB")

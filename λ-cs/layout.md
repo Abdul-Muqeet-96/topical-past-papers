@@ -29,9 +29,13 @@ CS-specific:
   diagram (cluster of drawings) are figures: all their bands stay on one page
   (`crops.figure_spans`). A figure taller than a page is the only case that
   can break.
-- Dotted answer lines are removed. A short dotted run inside a line of code or
-  a sentence is a gap the candidate must fill and is kept, in the picture and
-  in the text layer.
+- Dotted answer lines are removed. A dotted run is kept, in the picture and in
+  the text layer, when it is a gap the candidate must fill inside a line of
+  code or a sentence: text follows it on its line; or it ends a line of code
+  (short, or after an operator or keyword, or in a block of code with other
+  gaps); or it is a short run ending an unfinished sentence or numbered step.
+  A run on its own, after a label ("Answer ......") or after a finished
+  sentence is an answer line (`parse.dot_runs`).
 - An item from a paper whose insert differs from the Appendix copy shows that
   paper's insert pages after its question crops, under a grey note.
 - Fonts: Liberation Sans as in the Chemistry book when installed, else Noto

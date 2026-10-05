@@ -13,8 +13,8 @@ import re
 from collections import OrderedDict
 import numpy as np
 import pymupdf
-from parse import page_lines, GAP_MAX_W, doc_key
-from extract import content_bottom, RE_DOTS, mono_lines
+from parse import page_lines, GAP_MAX_W, doc_key, answer_dot_runs, gap_dot_runs
+from extract import content_bottom, RE_DOTS, mono_lines, line_texts, line_mono_chars
 
 RE_DOTRUN = re.compile(r"[.…]{5,}")
 RE_NAV = re.compile(r"((continues|continued|begins|starts) on (the next )?page|\(on page \d+\)$|"
@@ -33,6 +33,7 @@ class Band:
         self.whiteouts = whiteouts or []
         self.x0, self.x1 = x0, x1
         self.grp = None       # figure/table this band belongs to (kept on one page)
+        self.mark_only = False
 
     @property
     def h(self):
@@ -46,8 +47,9 @@ def page_top(page):
     for w in page.get_text("words"):
         if w[0] > XMAX - 4:
             continue
-        if (w[1] < 50 and w[3] < 64) or (w[3] < 62 and w[3] - w[1] < 6.5):
-            top = max(top, w[3] + 1)   # page number, barcode glyphs
+        if (w[1] < 50 and w[3] < 64) or (w[3] < 62 and w[3] - w[1] < 6.5) or \
+                (w[3] < 73 and w[3] - w[1] < 6.5 and not re.search(r"[A-Za-z0-9]", w[4])):
+            top = max(top, w[3] + 1)   # page number, barcode glyphs (M/J 24 P13/P23 print them at y 64-69)
     for d in page.get_drawings():
         r = d["rect"]
         if r.y0 < 50 and r.height < 40:
@@ -117,6 +119,7 @@ def ink_runs(page, y0, y1, whiteouts, xa=XMIN, xb=XMAX):
         sub[max(0, rr0):max(0, rr1), max(0, cc0):max(0, cc1)] = False
     rows = sub.any(axis=1)
     out = []
+    gaps = gap_dot_runs(page)
     i, n = 0, len(rows)
     while i < n:
         if not rows[i]:
@@ -130,7 +133,10 @@ def ink_runs(page, y0, y1, whiteouts, xa=XMIN, xb=XMAX):
         xs = np.flatnonzero(cols)
         # a dotted answer line: long, or running to the right-hand margin; a short
         # dotted run is a gap to fill inside code or a diagram and is kept
-        if (j - i) <= 3.5 * Z and _is_dotted(cols) and \
+        gx0, gx1 = (c0 + xs[0]) / Z, (c0 + xs[-1] + 1) / Z
+        is_gap = any(base - 3.5 <= ya and yb <= base + 2.5 and min(g.x1, gx1) - max(g.x0, gx0) > 0.5 * g.width
+                     for g, base in gaps)     # a gap to fill, kept as printed (parse.dot_runs)
+        if (j - i) <= 3.5 * Z and _is_dotted(cols) and not is_gap and \
                 ((xs[-1] - xs[0]) / Z >= GAP_MAX_W or (c0 + xs[-1]) / Z > 500):
             whiteouts.append(pymupdf.Rect((c0 + xs[0]) / Z - 1, ya - 1, (c0 + xs[-1] + 1) / Z + 1, yb + 1))
         else:
@@ -189,11 +195,71 @@ def empty_boxes(page):
         edge = a[max(0, int((r.y0 - 2) * Z)):int((r.y0 + 2) * Z) + 1, c0:c1]
         if not (edge < INK).any():
             continue
+        # a frame with something attached to its sides (the labelled inputs and output of a
+        # logic circuit to draw) is a figure to complete, not plain writing space: it stays
+        left = a[r0:r1, max(0, int((r.x0 - 9) * Z)):max(0, int((r.x0 - 2.5) * Z))]
+        right = a[r0:r1, int((r.x1 + 2.5) * Z):min(W, int((r.x1 + 9) * Z))]
+        if (left < INK).any() or (right < INK).any():
+            continue
         out.append(pymupdf.Rect(r.x0 - 2, r.y0 - 2, r.x1 + 2, r.y1 + 2))
     _BOX[key] = out
     if len(_BOX) > 64:
         _BOX.pop(next(iter(_BOX)))
     return out
+
+
+def _ink_bottom(page, w):
+    """y just below the lowest ink of word w (its glyphs, not its box): the first blank pixel row
+    under the middle of the word, looked for within the columns of the word."""
+    a = _gray(page)
+    H, W = a.shape
+    c0, c1 = max(0, int(w[0] * Z)), min(W, int(np.ceil(w[2] * Z)))
+    r = int(((w[1] + w[3]) / 2) * Z)
+    last = min(H - 1, int((w[3] + 1.5) * Z))
+    while r <= last and (a[r, c0:c1] < INK).any():
+        r += 1
+    return min(r / Z, w[3] + 1.5)
+
+
+def _carve(page, rect, own):
+    """rect (a white-out for words of the line below) with the ink of the region's own words
+    cut out of it: beside such a word the rect is kept whole, under it the rect starts below
+    the word's lowest ink."""
+    hit = [w for w in own if w[0] < rect.x1 and w[2] > rect.x0 and w[3] > rect.y0 and w[1] < rect.y1]
+    if not hit:
+        return [rect]
+    out = []
+    x = rect.x0
+    for w in sorted(hit, key=lambda w: w[0]):
+        a, b = max(rect.x0, w[0] - 1), min(rect.x1, w[2] + 1)
+        if a > x:
+            out.append(pymupdf.Rect(x, rect.y0, a, rect.y1))
+        yb = max(rect.y0, _ink_bottom(page, w) + 0.2)
+        if yb < rect.y1:
+            out.append(pymupdf.Rect(a, yb, b, rect.y1))
+        x = max(x, b)
+    if x < rect.x1:
+        out.append(pymupdf.Rect(x, rect.y0, rect.x1, rect.y1))
+    return [r for r in out if r.width > 0.1 and r.height > 0.1]
+
+
+_HAIR = {}
+
+
+def _hairlines(page):
+    """Thin horizontal strokes of the page: [(x0, x1, y)]."""
+    key = (doc_key(page.parent), page.number)
+    if key not in _HAIR:
+        if len(_HAIR) > 64:
+            _HAIR.clear()
+        out = []
+        for d in page.get_drawings():
+            r = d["rect"]
+            if r.height < 1.2 and r.width >= 4 and d.get("dashes") in (None, "[] 0") and \
+                    not (d.get("fill") == (1.0, 1.0, 1.0) and not d.get("color")):
+                out.append((r.x0, r.x1, (r.y0 + r.y1) / 2))
+        _HAIR[key] = out
+    return _HAIR[key]
 
 
 def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
@@ -217,15 +283,19 @@ def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
             wos.append(pymupdf.Rect(w[0] - 0.5, ry0 - 1, w[2] + 0.5, w[3] + 0.5))
         if (w[1] + w[3]) / 2 >= ry0 and (w[1] + w[3]) / 2 < ry1 and w[3] > ry1 and w[3] - ry1 < 8:
             ext = max(ext, min(w[3] + 1, bot + 2.5))
+    # words of this region that reach down to the bottom edge (a [mark] on the last line): a
+    # white-out laid over the line below must not cover any of their ink
+    own = [w for w in words if ry0 <= (w[1] + w[3]) / 2 < ry1 and w[3] > ry1 - 6 and XMIN <= w[0] and w[2] <= XMAX]
     if ext > bot:
         # a [mark] printed level with the footer: keep it, white out the footer line
-        wos += [pymupdf.Rect(w[0] - 1, w[1] - 0.5, w[2] + 1, w[3] + 1) for w in words
-                if w[1] >= bot - 0.5 and w[1] < bot + 30 and XMIN <= w[0] and w[2] <= XMAX]
+        for w in words:
+            if w[1] >= bot - 0.5 and w[1] < bot + 30 and XMIN <= w[0] and w[2] <= XMAX and w not in own:
+                wos += _carve(page, pymupdf.Rect(w[0] - 1, w[1] - 0.5, w[2] + 1, w[3] + 1), own)
     # words of the next part whose box starts above the bottom edge (top of their
     # glyphs inside the region) are whited out, so no sliver of them shows
     for w in words:
         if (w[1] + w[3]) / 2 >= ry1 and w[1] < max(ext, ry1) and XMIN <= w[0] and w[2] <= XMAX:
-            wos.append(pymupdf.Rect(w[0] - 0.5, w[1] - 1.5, w[2] + 0.5, max(ext, ry1) + 1))
+            wos += _carve(page, pymupdf.Rect(w[0] - 0.5, w[1] - 1.5, w[2] + 0.5, max(ext, ry1) + 1), own)
     ry1 = max(ry1, ext)
     for ws in page_lines(page, bottom=bot):
         ly0 = min(w[1] for w in ws)
@@ -245,6 +315,11 @@ def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
                                         max(w[3] for w in ws) + 1))
         # (answer-line dots were removed from the page at load; the dotted runs still
         # present are gaps to fill and stay)
+    # a page that was put back unredacted still shows its answer-line dots: the same runs
+    # that the redaction would have removed are whited out here
+    for r, base in answer_dot_runs(page):
+        if r.y1 > ry0 - 2 and r.y0 < ry1 + 2:
+            wos.append(pymupdf.Rect(r.x0 - 0.4, base - 3.0, r.x1 + 0.4, base + 1.0))
     runs = ink_runs(page, ry0, ry1, wos)
     merged = []
     for y0, y1, x0, x1 in sorted(runs):
@@ -266,6 +341,11 @@ def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
             if y0 - 0.5 <= cy <= y1 + 0.5:
                 a, b2 = min(a, w[1] - 0.5), max(b2, w[3] + 0.5)
         a, b2 = max(ry0, a), min(ry1, b2)
+        # a hairline drawn just under a line of text and no wider than it (the bar under a sum)
+        # is too faint to count as ink: the band is extended over it
+        under = [h for h in _hairlines(page) if y1 - 0.5 <= h[2] <= b2 + 3.5 and h[0] >= x0 - 12 and h[1] <= x1 + 12]
+        if under and 15 <= max(h[1] for h in under) - min(h[0] for h in under) <= 300 and max(h[2] for h in under) + 0.8 <= ry1:
+            b2 = max(b2, max(h[2] for h in under) + 0.8)
         if ext_m and a <= ext_m[-1][1]:
             m = ext_m[-1]
             m[1], m[2], m[3] = max(m[1], b2), min(m[2], x0), max(m[3], x1)
@@ -275,6 +355,11 @@ def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
     for y0, y1, x0, x1 in ext_m:
         b = Band(p, y0, y1, x0=min(X0, x0 - 1.5), x1=max(X1, x1 + 1.5))
         b.whiteouts = [w for w in wos if w.y0 < b.y1 and w.y1 > b.y0]
+        inside = [w[4] for w in wb if y0 - 0.5 <= (w[1] + w[3]) / 2 <= y1 + 0.5
+                  and not any(pymupdf.Rect(w[:4]).intersects(o) and (pymupdf.Rect(w[:4]) & o).get_area() >
+                              0.5 * pymupdf.Rect(w[:4]).get_area() for o in b.whiteouts)]
+        # a band that holds nothing but a mark stays with the line before it (layout)
+        b.mark_only = bool(inside) and all(re.fullmatch(r"\[\d{1,2}\]", t) for t in inside) and x1 - x0 < 40
         if b.h > 1:
             out.append(b)
     return out
@@ -329,15 +414,18 @@ def figure_spans(page):
     # blocks of code: consecutive monospace lines; a line that is only a dotted gap
     # (a line of code to fill in) continues a block
     code = []
-    for ly0, ly1, mono in mono_lines(page):
+    for (ly0, ly1, mono, line), n_ch in zip(line_texts(page), line_mono_chars(page)):
         if ly0 < top or ly1 > bot + 3:
             continue
         n_mono = len(mono.replace(" ", ""))
-        full = "".join(c for c in page.get_textbox(pymupdf.Rect(XMIN, ly0 + 1, XMAX, ly1 - 1)) if not c.isspace())
+        full = "".join(c for c in line if not c.isspace())
         full = re.sub(r"\[\d+\]$", "", full)
         core = re.sub(r"[.…←→]", "", full)
         gap_line = not core and len(full) >= 5
         is_code = n_mono >= 3 and len(core) and n_mono / len(core) >= 0.6
+        # a short line of single-letter names ("n <- 0", "x <- n") continues a block of code
+        if not is_code and code and ly0 <= code[-1][1] + 20 and len(core) and n_ch / len(core) >= 0.6:
+            is_code = True
         if not (gap_line or is_code):
             continue
         if code and ly0 <= code[-1][1] + 20:
@@ -366,6 +454,47 @@ def group_figures(doc, bs):
         for k, (a, c) in enumerate(figure_spans(doc[b.page])):
             if mid1 > a and mid0 < c:
                 b.grp = (b.page, k)
+                break
+
+
+_ROWS = {}
+
+
+def row_spans(page):
+    """Ruled rows and boxes of a reference page (insert, appendix): [(y0, y1)]. A box is a drawn
+    rectangle; a table row is the strip between two horizontal rules joined by a vertical rule."""
+    key = (doc_key(page.parent), page.number)
+    if key not in _ROWS:
+        if len(_ROWS) > 64:
+            _ROWS.clear()
+        spans, hl, vl = [], [], []
+        for d in page.get_drawings():
+            r = d["rect"]
+            if d.get("fill") == (1.0, 1.0, 1.0) and not d.get("color"):
+                continue
+            if r.width > 200 and 10 < r.height < 400:
+                spans.append((r.y0, r.y1))
+            elif r.width > 200 and r.height <= 2:
+                hl.append((r.y0 + r.y1) / 2)
+            elif r.height > 8 and r.width <= 2:
+                vl.append((r.y0, r.y1))
+        hl = sorted(set(round(y, 1) for y in hl))
+        for a, b in zip(hl, hl[1:]):
+            if 8 < b - a < 400 and any(v0 <= a + 2 and v1 >= b - 2 for v0, v1 in vl):
+                spans.append((a, b))
+        _ROWS[key] = sorted(set((round(a, 1), round(b, 1)) for a, b in spans))
+    return _ROWS[key]
+
+
+def group_rows(doc, bs):
+    """Bands of a reference page: each ruled row or box is kept on one page; the page may break
+    between rows (a whole table of functions is longer than a page)."""
+    for b in bs:
+        b.grp = None
+        mid = (b.y0 + b.y1) / 2
+        for a, c in row_spans(doc[b.page]):
+            if a - 1 <= mid <= c + 1:
+                b.grp = ("row", b.page, a)
                 break
 
 
