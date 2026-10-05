@@ -113,6 +113,29 @@ def main():
                  "physics papers", "Box narrowed to a thin strip through the dots' centres; every question paper "
                  "now keeps all its non-dot text (checked on all 9702 and 9701 papers; the Chemistry book was not "
                  "affected)."))
+    rows += [
+        ("Final audit: booklet marks at item boundaries", "A mark \"[n]\" on the next heading's line was always "
+         "given to the previous item, so some answer marks were cut or shown with the wrong item; 14 marks the OCR "
+         "did not read were cut at the crop bottom", "Answer pages: the mark goes with the nearer text line; unread "
+         "marks detected from ink and taken whole, the next heading whited out (all changed boundaries checked by eye)."),
+        ("Final audit: skewed booklet first lines", "A first line rising to the right of the heading was cut at the "
+         "crop top (19 items)", "Words right of the heading that reach below it now set the crop top."),
+        ("Final audit: scan specks and margin blobs", "Specks at a region's end stretched crops over blank paper; "
+         "2 binding-shadow blobs in the left margin widened crops", "Specks under 6 pt left out; dense wordless "
+         "left-margin blobs whited out (right margin untouched, marks live there)."),
+        ("Final audit: fill-in blanks", "Dot runs under 60 pt (nuclide numbers '......Th', equation slots, "
+         "'......%' table cells) were removed with the answer lines (27 blanks, 6 papers)", "Kept in the scan and "
+         "the text layer; answer lines stay removed."),
+        ("Final audit: page breaks", "A figure caption (M/J 25/P22/Q3) and 6 lone marks '[n]' opened a page away "
+         "from their content; 1 answer heading was alone at a page foot", "Caption and mark-only bands stay with "
+         "the band above; answer headings keep room for their whole first block."),
+        ("Final audit: fraction at a crop top", "The numerator of h2/h1 in M/J 25/P22/Q4(c) was whited out", "A "
+         "first-line word starting above the region top raises the top (1 place in the book)."),
+        ("Final audit: font subsetting", "Subsetting the fonts turned the × sign into a box", "Subsetting removed "
+         "from the Physics build (the Chemistry build still subsets: not changed, reported)."),
+        ("Booklet's own errors kept", "Typos and stray marks printed in the booklet (e.g. 'perpendicula', a stray "
+         "'V [2]' in an answer)", "Kept as printed (never retype content)."),
+    ]
     R += [f"| {a} | {b} | {c} |" for a, b, c in rows]
     R.append("")
     # ---------- downloads ----------
@@ -188,11 +211,16 @@ def main():
     mk = Counter()
     for i in items:
         mk[i["topic"]] += i["marks"]
-    pb = Counter(b["topic"] for b in bk)
+    # booklet items as they are in the book (index.csv): mapped items, minus the misfiled ones, plus the items
+    # restored from the official papers
+    import csv as _csv
+    pb = Counter(int(r["unit"]) for r in _csv.DictReader(open(os.path.join(OUT, "index.csv")))
+                 if r["source"] == "booklet")
+    nb = sum(pb.values())
     for t, name in TOPICS.items():
         S.append(f"| {t} {name} | {per[t]} ({mk[t]}) | {pb[t]} | {per[t] + pb[t]} |")
-    S.append(f"| **Total** | **{sum(per.values())} ({sum(mk.values())})** | **{len(bk)}** | "
-             f"**{sum(per.values()) + len(bk)}** |")
+    S.append(f"| **Total** | **{sum(per.values())} ({sum(mk.values())})** | **{nb}** | "
+             f"**{sum(per.values()) + nb}** |")
     S += ["", f"Book: {info['pages']} pages. Part B: {len(parts)} papers "
           f"({sum(1 for e in man.values() if e['phase'] == 'partb')} attempted; s26 v21 has no mark scheme; "
           "O/N 25/P23 is identical to O/N 25/P21 and is not repeated).", ""]
@@ -212,8 +240,10 @@ def main():
           "(they match index.csv).", ""]
     gaps = ", ".join(f"{a}–{b}" for a, b in bchk["lost_in_scan"]["missing_printed_pages"])
     S += ["## Still open", "",
-          f"1. **Missing booklet pages.** The scan lacks printed pages {gaps}: 7 booklet items and 5 answers are "
-          "lost, 4 items and 1 answer are cut short (marked in the book). A complete scan would restore them.",
+          f"1. **Missing booklet pages.** The scan lacks printed pages {gaps}. Every gap is filled from the official "
+          "paper of the same question (work/gapfill.json: 7 lost items restored, 4 questions and 6 answers replaced, "
+          "0 failed), each marked with a grey note; checked by part marks = [Total] = mark-scheme marks. Two "
+          "booklet items filed under the wrong unit are left out (AUTO-DECIDED).",
           "2. **Booklet marks** are not in index.csv / items.jsonl (OCR of the margin is not reliable enough); "
           "the crops show them.",
           "3. **Booklet text layer** is OCR: good for search and for Claude, but formulas, subscripts and Greek "

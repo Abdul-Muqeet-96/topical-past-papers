@@ -12,16 +12,16 @@
 |---|---|---|---|
 | 1 Physical quantities and units | 24 (67) | 56 | 80 |
 | 2 Kinematics | 20 (95) | 32 | 52 |
-| 3 Dynamics | 34 (173) | 31 | 65 |
+| 3 Dynamics | 34 (173) | 32 | 66 |
 | 4 Forces, density and pressure | 26 (113) | 33 | 59 |
 | 5 Work, energy and power | 23 (114) | 31 | 54 |
-| 6 Deformation of solids | 22 (128) | 32 | 54 |
+| 6 Deformation of solids | 22 (128) | 33 | 55 |
 | 7 Waves | 23 (83) | 22 | 45 |
 | 8 Superposition | 22 (147) | 33 | 55 |
 | 9 Electricity | 22 (115) | 33 | 55 |
 | 10 D.C. circuits | 21 (132) | 33 | 54 |
-| 11 Particle physics | 23 (153) | 30 | 53 |
-| **Total** | **260 (1320)** | **366** | **626** |
+| 11 Particle physics | 23 (153) | 33 | 56 |
+| **Total** | **260 (1320)** | **371** | **631** |
 
 Book: 932 pages. Part B: 22 papers (24 attempted; s26 v21 has no mark scheme; O/N 25/P23 is identical to O/N 25/P21 and is not repeated).
 
@@ -45,13 +45,13 @@ Book: 932 pages. Part B: 22 papers (24 attempted; s26 v21 has no mark scheme; O/
 | Ω-physics/p2-topical-workbook/items.jsonl | 1.1 MB |
 | Ω-physics/topics.json | 0.4 MB |
 | Ω-physics/booklet-ocr.pdf | 24.1 MB |
-| Ω-physics/report.md | 27 KB |
+| Ω-physics/report.md | 29 KB |
 
 No file exceeds 95 MB, so everything is pushed. Unit PDFs keep the book's page numbers (they match index.csv).
 
 ## Still open
 
-1. **Missing booklet pages.** The scan lacks printed pages 96–97, 144–145, 313–314, 328–329, 534–535: 7 booklet items and 5 answers are lost, 4 items and 1 answer are cut short (marked in the book). A complete scan would restore them.
+1. **Missing booklet pages.** The scan lacks printed pages 96–97, 144–145, 313–314, 328–329, 534–535. Every gap is filled from the official paper of the same question (work/gapfill.json: 7 lost items restored, 4 questions and 6 answers replaced, 0 failed), each marked with a grey note; checked by part marks = [Total] = mark-scheme marks. Two booklet items filed under the wrong unit are left out (AUTO-DECIDED).
 2. **Booklet marks** are not in index.csv / items.jsonl (OCR of the margin is not reliable enough); the crops show them.
 3. **Booklet text layer** is OCR: good for search and for Claude, but formulas, subscripts and Greek letters are often misread. The page image is authoritative (items.jsonl says so per item).
 4. **Flagged booklet items** (9 on electric fields, outside the 2025–27 AS syllabus) are kept with a note; two booklet duplicates (filed twice by the booklet) are kept with a note.
