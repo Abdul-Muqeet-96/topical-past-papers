@@ -23,16 +23,16 @@
 | 11 Particle physics | 23 (153) | 30 | 53 |
 | **Total** | **260 (1320)** | **366** | **626** |
 
-Book: 912 pages. Part B: 22 papers (24 attempted; s26 v21 has no mark scheme; O/N 25/P23 is identical to O/N 25/P21 and is not repeated).
+Book: 911 pages. Part B: 22 papers (24 attempted; s26 v21 has no mark scheme; O/N 25/P23 is identical to O/N 25/P21 and is not repeated).
 
 ## Files
 
 | File | Size |
 |---|---|
-| Ω-physics/p2-topical-workbook/Physics-9702-P2-Topical-Workbook.pdf (912 pages) | 31.2 MB |
+| Ω-physics/p2-topical-workbook/Physics-9702-P2-Topical-Workbook.pdf (911 pages) | 31.3 MB |
 | Ω-physics/p2-topical-workbook/units/Unit-01-Physical-quantities-and-units.pdf | 4.6 MB |
 | Ω-physics/p2-topical-workbook/units/Unit-02-Kinematics.pdf | 4.9 MB |
-| Ω-physics/p2-topical-workbook/units/Unit-03-Dynamics.pdf | 5.3 MB |
+| Ω-physics/p2-topical-workbook/units/Unit-03-Dynamics.pdf | 5.2 MB |
 | Ω-physics/p2-topical-workbook/units/Unit-04-Forces-density-and-pressure.pdf | 5.3 MB |
 | Ω-physics/p2-topical-workbook/units/Unit-05-Work-energy-and-power.pdf | 4.3 MB |
 | Ω-physics/p2-topical-workbook/units/Unit-06-Deformation-of-solids.pdf | 5.1 MB |

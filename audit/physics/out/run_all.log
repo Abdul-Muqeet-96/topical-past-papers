@@ -1,10 +1,10 @@
 items checked 260 official + 366 booklet {'coverage_unexplained': 0, 'coverage_dupes': 0, 'selfcontained_fail': 0, 'ctx_mismatch': 0, 'marks_fail': 0, 'ref_not_on_page': 0, 'answers_missing': 0, 'booklet_ref_not_on_page': 0, 'booklet_answer_missing': 0, 'booklet_items_missing': 0}
 == pc01_book
-912 pages; 626 question headings ( 366 booklet ), 626 answer headings; unit titles [3, 87, 168, 268, 354, 438, 522, 583, 666, 750, 844]
+911 pages; 626 question headings ( 366 booklet ), 626 answer headings; unit titles [3, 87, 169, 267, 353, 435, 521, 582, 665, 750, 843]
 == pc02_threeway
 book Q 626 A 626 index rows 626 items.jsonl 626 | failures Counter()
 == pc03_partb
-papers 23 | fails 8 [('m26_22', 'MS codes != QP total', {5: (14, 12)}), ('s24_21', 'MS codes != QP total', {1: (None, 10), 2: (None, 7), 3: (None, 9), 4: (None, 8), 5: (None, 8), 6: (None, 10), 7: (None, 8)}), ('s24_22', 'MS codes != QP total', {1: (None, 10), 2: (None, 10), 3: (None, 11), 4: (None, 11), 5: (None, 9), 6: (None, 6), 7: (None, 3)}), ('s24_23', 'MS codes != QP total', {1: (None, 10), 2: (None, 11), 3: (None, 12), 4: (None, 8), 5: (None, 11), 6: (None, 8)}), ('s26_22', 'MS codes != QP total', {1: (None, 11), 2: (None, 8), 3: (None, 10), 4: (None, 10), 5: (None, 12), 6: (None, 9)}), ('s26_24', 'MS codes != QP total', {1: (None, 10), 2: (None, 10), 3: (None, 8), 4: (None, 7), 5: (None, 10), 6: (None, 7), 7: (None, 8)})]
+papers 23 | fails 1 [('m26_22', 'MS codes != QP total', {5: (14, 12)})]
 coverage {'covered': 708} missing [] dupes [] | item marks != my QP marks: 0 []
 == pc04_structure
 contents_entries : 24
@@ -21,37 +21,31 @@ bookmarks_ok : True
 appendix_has_data_and_formulae : True
 contents_fail : []
 == pc05_bands
-bands 5014
-source pages placed 992 ; low-overlap mappings 1 [(24842, {'match': ('/home/user/topical-past-papers/Ω-physics/booklet-ocr.pdf', 111), 'overlap': 0.338})]
+bands 5009
+source pages placed 991 ; low-overlap mappings 1 [(24795, {'match': ('/home/user/topical-past-papers/Ω-physics/booklet-ocr.pdf', 111), 'overlap': 0.338})]
 bands without item 0 (appendix)
 == pc06_crops
-{'cutfig': 43, 'clipped': 548, 'marks': 32, 'sidecut': 16, 'booklet_region_mismatch': 1, 'space': 3, 'edgeink': 1035, 'dropped': 1}
-cutfig 43 in 18 items/answers [(1, 15, 'Q', 'O/N 24/P22/Q1/a,b'), (1, 24, 'Q', 'O/N 23/P23/Q2/a(ii)'), (2, 20, 'Q', 'O/N 23/P23/Q2/a(i,iii)'), (3, 4, 'Q', 'M/J 26/P24/Q4/a,b'), (3, 6, 'Q', 'MAR 26/P22/Q2/a,b'), (3, 26, 'Q', 'M/J 24/P23/Q1/b,c,d(ii)'), (3, 33, 'Q', 'O/N 23/P23/Q2/b'), (4, 3, 'Q', 'M/J 26/P24/Q4/c'), (4, 4, 'Q', 'MAR 26/P22/Q2/c'), (4, 16, 'Q', 'MAR 25/P22/Q2/a,b'), (4, 18, 'Q', 'O/N 24/P22/Q3/b,c(i)'), (5, 6, 'Q', 'O/N 25/P24/Q3/c(i),d')]
-clipped 548 in 150 items/answers [(1, 27, 'A', 'MAR 23/P22/Q1'), (1, 28, 'Q', 'MAR 22/P22/Q1'), (1, 30, 'Q', 'O/N 22/P21/Q1'), (1, 31, 'A', 'O/N 22/P23/Q1'), (1, 49, 'A', 'M/J 18/P22/Q1'), (1, 55, 'A', 'M/J 17/P21/Q1'), (1, 55, 'Q', 'M/J 17/P21/Q1'), (1, 60, 'A', 'O/N 16/P21/Q1'), (1, 67, 'Q', 'M/J 15/P21/Q1'), (2, 44, 'Q', 'O/N 15/P21/Q3'), (3, 12, 'Q', 'M/J 25/P22/Q4/a,b'), (3, 47, 'Q', 'O/N 19/P23/Q4/a')]
+{'cutfig': 16, 'clipped': 494, 'marks': 32, 'sidecut': 11, 'space': 3, 'edgeink': 1006, 'dropped': 1}
+cutfig 16 in 7 items/answers [(1, 24, 'Q', 'O/N 23/P23/Q2/a(ii)'), (2, 20, 'Q', 'O/N 23/P23/Q2/a(i,iii)'), (3, 33, 'Q', 'O/N 23/P23/Q2/b'), (5, 6, 'Q', 'O/N 25/P24/Q3/c(i),d'), (6, 7, 'Q', 'O/N 25/P24/Q3/a,b,c(ii)'), (6, 16, 'A', 'M/J 24/P22/Q3/d'), (6, 18, 'Q', 'M/J 24/P23/Q3/a,b,c,d,e')]
+clipped 494 in 145 items/answers [(1, 27, 'A', 'MAR 23/P22/Q1'), (1, 28, 'Q', 'MAR 22/P22/Q1'), (1, 30, 'Q', 'O/N 22/P21/Q1'), (1, 31, 'A', 'O/N 22/P23/Q1'), (1, 49, 'A', 'M/J 18/P22/Q1'), (1, 55, 'A', 'M/J 17/P21/Q1'), (1, 55, 'Q', 'M/J 17/P21/Q1'), (1, 60, 'A', 'O/N 16/P21/Q1'), (2, 44, 'Q', 'O/N 15/P21/Q3'), (3, 12, 'Q', 'M/J 25/P22/Q4/a,b'), (3, 47, 'Q', 'O/N 19/P23/Q4/a'), (3, 49, 'Q', 'M/J 19/P21/Q2')]
 marks 32 in 32 items/answers [(1, 65, 'Q', 'O/N 15/P23/Q1'), (1, 76, 'Q', 'M/J 14/P22/Q2'), (3, 46, 'Q', 'O/N 19/P22/Q3'), (3, 60, 'Q', 'M/J 16/P21/Q3'), (4, 44, 'Q', 'O/N 19/P22/Q4'), (4, 49, 'Q', 'M/J 18/P22/Q5'), (5, 33, 'Q', 'M/J 21/P22/Q3'), (6, 32, 'A', 'M/J 21/P23/Q3'), (6, 33, 'A', 'MAR 21/P22/Q3'), (7, 32, 'Q', 'MAR 21/P22/Q5'), (7, 39, 'Q', 'M/J 16/P22/Q4'), (8, 25, 'A', 'M/J 22/P22/Q5')]
-sidecut 16 in 15 items/answers [(1, 67, 'Q', 'M/J 15/P21/Q1'), (3, 49, 'Q', 'M/J 19/P21/Q2'), (3, 55, 'A', 'M/J 17/P22/Q4'), (4, 42, 'Q', 'O/N 20/P23/Q2'), (4, 59, 'A', 'M/J 15/P22/Q3'), (6, 34, 'A', 'O/N 20/P22/Q3'), (6, 51, 'A', 'M/J 16/P22/Q3'), (8, 42, 'A', 'M/J 19/P22/Q4'), (9, 31, 'Q', 'MAR 21/P22/Q6/a,b(i,ii,iii)'), (10, 49, 'A', 'O/N 16/P22/Q5'), (11, 31, 'A', 'MAR 22/P22/Q7'), (11, 39, 'Q', 'O/N 20/P21/Q8/a,b')]
-booklet_region_mismatch 1 in 1 items/answers [(5, 54, 'A', 'M/J 13/P21/Q3')]
+sidecut 11 in 11 items/answers [(3, 49, 'Q', 'M/J 19/P21/Q2'), (4, 59, 'A', 'M/J 15/P22/Q3'), (6, 34, 'A', 'O/N 20/P22/Q3'), (8, 42, 'A', 'M/J 19/P22/Q4'), (9, 31, 'Q', 'MAR 21/P22/Q6/a,b(i,ii,iii)'), (10, 49, 'A', 'O/N 16/P22/Q5'), (11, 31, 'A', 'MAR 22/P22/Q7'), (11, 39, 'Q', 'O/N 20/P21/Q8/a,b'), (11, 43, 'Q', 'M/J 20/P23/Q7/b,c'), (11, 46, 'A', 'O/N 19/P23/Q7'), (11, 49, 'A', 'M/J 19/P23/Q7')]
 space 3 in 0 items/answers []
-edgeink 1035 in 399 items/answers [(1, 1, 'A', 'M/J 26/P22/Q1/a'), (1, 3, 'A', 'M/J 26/P23/Q4/b(i)'), (1, 4, 'A', 'M/J 26/P24/Q1/a'), (1, 5, 'A', 'M/J 26/P24/Q2/b'), (1, 6, 'A', 'MAR 26/P22/Q1/b,c'), (1, 7, 'A', 'O/N 25/P21/Q2/b(ii)'), (1, 8, 'A', 'O/N 25/P22/Q1/a,c'), (1, 9, 'A', 'O/N 25/P24/Q1/a(i)'), (1, 10, 'A', 'O/N 25/P24/Q5/b(iii,iv)'), (1, 11, 'A', 'M/J 25/P22/Q1/a'), (1, 12, 'A', 'M/J 25/P24/Q1/b(ii)'), (1, 13, 'A', 'MAR 25/P22/Q1/a,b(ii,iii)')]
+edgeink 1006 in 393 items/answers [(1, 1, 'A', 'M/J 26/P22/Q1/a'), (1, 3, 'A', 'M/J 26/P23/Q4/b(i)'), (1, 4, 'A', 'M/J 26/P24/Q1/a'), (1, 5, 'A', 'M/J 26/P24/Q2/b'), (1, 6, 'A', 'MAR 26/P22/Q1/b,c'), (1, 7, 'A', 'O/N 25/P21/Q2/b(ii)'), (1, 8, 'A', 'O/N 25/P22/Q1/a,c'), (1, 9, 'A', 'O/N 25/P24/Q1/a(i)'), (1, 10, 'A', 'O/N 25/P24/Q5/b(iii,iv)'), (1, 11, 'A', 'M/J 25/P22/Q1/a'), (1, 12, 'A', 'M/J 25/P24/Q1/b(ii)'), (1, 13, 'A', 'MAR 25/P22/Q1/a,b(ii,iii)')]
 dropped 1 in 1 items/answers [(11, 3, None, 'M/J 26/P24/Q7/a,b')]
 == pc07_selfcontained
-official items 260 with issues 4
-  O/N 25/P21/Q2/a,c(i) 4 6 [('dangling part ref', 'in (b)')]
-  M/J 26/P24/Q2/a,c 6 3 [('dangling part ref', 'in 2(b)')]
-  M/J 26/P24/Q5/a,b,d 9 3 [('dangling part ref', 'in 5(c)')]
-  MAR 26/P22/Q6/a,c(i,iii) 9 5 [('dangling part ref', 'in 6(b)')]
+official items 260 with issues 0
 == pc08_files
-Physics-9702-P2-Topical-Workbook.pdf|qpdf:errors that qpdf cannot detect|fonts:370|not_embedded:25|bytes:31313163|pages:912
-Unit-01-Physical-quantities-and-units.pdf|qpdf:errors that qpdf cannot detect|fonts:182|not_embedded:21|bytes:4602343|pages:84
-Unit-02-Kinematics.pdf|qpdf:errors that qpdf cannot detect|fonts:187|not_embedded:24|bytes:4865209|pages:81
-Unit-03-Dynamics.pdf|qpdf:errors that qpdf cannot detect|fonts:229|not_embedded:25|bytes:5269375|pages:100
-Unit-04-Forces-density-and-pressure.pdf|qpdf:errors that qpdf cannot detect|fonts:194|not_embedded:24|bytes:5295201|pages:86
-Unit-05-Work-energy-and-power.pdf|qpdf:errors that qpdf cannot detect|fonts:168|not_embedded:19|bytes:4285129|pages:84
-Unit-06-Deformation-of-solids.pdf|qpdf:errors that qpdf cannot detect|fonts:205|not_embedded:21|bytes:5112675|pages:84
-Unit-07-Waves.pdf|qpdf:errors that qpdf cannot detect|fonts:204|not_embedded:25|bytes:3770909|pages:61
-Unit-08-Superposition.pdf|qpdf:errors that qpdf cannot detect|fonts:214|not_embedded:24|bytes:5132292|pages:83
-Unit-09-Electricity.pdf|qpdf:errors that qpdf cannot detect|fonts:203|not_embedded:24|bytes:4379478|pages:84
-Unit-10-DC-circuits.pdf|qpdf:errors that qpdf cannot detect|fonts:228|not_embedded:21|bytes:4643121|pages:94
-Unit-11-Particle-physics.pdf|qpdf:errors that qpdf cannot detect|fonts:180|not_embedded:24|bytes:3429676|pages:58
+Physics-9702-P2-Topical-Workbook.pdf|qpdf:errors that qpdf cannot detect|fonts:370|not_embedded:25|bytes:31299252|pages:911
+Unit-01-Physical-quantities-and-units.pdf|qpdf:errors that qpdf cannot detect|fonts:182|not_embedded:21|bytes:4601777|pages:84
+Unit-02-Kinematics.pdf|qpdf:errors that qpdf cannot detect|fonts:187|not_embedded:24|bytes:4865723|pages:82
+Unit-03-Dynamics.pdf|qpdf:errors that qpdf cannot detect|fonts:228|not_embedded:25|bytes:5243525|pages:98
+Unit-04-Forces-density-and-pressure.pdf|qpdf:errors that qpdf cannot detect|fonts:194|not_embedded:24|bytes:5288288|pages:86
+Unit-05-Work-energy-and-power.pdf|qpdf:errors that qpdf cannot detect|fonts:168|not_embedded:19|bytes:4264932|pages:82
+Unit-06-Deformation-of-solids.pdf|qpdf:errors that qpdf cannot detect|fonts:205|not_embedded:21|bytes:5108267|pages:86
+Unit-07-Waves.pdf|qpdf:errors that qpdf cannot detect|fonts:204|not_embedded:25|bytes:3770632|pages:61
+Unit-08-Superposition.pdf|qpdf:errors that qpdf cannot detect|fonts:214|not_embedded:24|bytes:5131995|pages:83
+Unit-09-Electricity.pdf|qpdf:errors that qpdf cannot detect|fonts:203|not_embedded:24|bytes:4382639|pages:85
+Unit-10-DC-circuits.pdf|qpdf:errors that qpdf cannot detect|fonts:228|not_embedded:21|bytes:4641373|pages:93
+Unit-11-Particle-physics.pdf|qpdf:errors that qpdf cannot detect|fonts:180|not_embedded:24|bytes:3429380|pages:58
 booklet-ocr.pdf|qpdf:errors that qpdf cannot detect|fonts:1|not_embedded:0|bytes:24092132|pages:550
-FINISHED

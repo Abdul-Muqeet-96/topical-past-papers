@@ -97,15 +97,16 @@ def resolve(Q, units):
         if L and u != L["label"] and L["intro"] and L["label"] not in intros:
             intros.append(L["label"])
     ctx_parts, ctx_blocks, notes, deps = [], [], [], []
-    texts = [(Q["stem_text"], None)] + [(find_letter(Q, letter_of(i))["intro_text"], letter_of(i)) for i in intros] + \
-            [(unit_text(Q, u) or "", letter_of(u)) for u in units]
+    texts = [(Q["stem_text"], None, None)] + [(find_letter(Q, letter_of(i))["intro_text"], letter_of(i), i)
+                                               for i in intros] + \
+            [(unit_text(Q, u) or "", letter_of(u), u) for u in units]
     # Data Booklet items are kept with a note (audit A-017, decision D4)
     data_booklet = False      # Physics: no Data Booklet note (spec: no chemistry-specific rules)
     todo = list(texts)
     seen = set()
     allleaves = all_leaves(Q)
     while todo:
-        t, tl = todo.pop(0)
+        t, tl, tlab = todo.pop(0)
         if (t, tl) in seen:
             continue
         seen.add((t, tl))
@@ -126,7 +127,7 @@ def resolve(Q, units):
                 # no clean block: include the defining part as context
                 if site not in ctx_parts:
                     ctx_parts.append(site)
-                    todo.append((unit_text(Q, site) or "", letter_of(site)))
+                    todo.append((unit_text(Q, site) or "", letter_of(site), site.replace("#intro", "")))
                     notes.append(f"{k}: block not isolable, defining part {site} used as context")
         # part references
         for pr in r["parts"]:
@@ -141,20 +142,20 @@ def resolve(Q, units):
             if pr not in allleaves and not find_letter(Q, letter_of(pr)):
                 continue
             # reference to a later part (e.g. "in (c) you will...") is not a dependency
-            if _after(Q, pr, units):
+            if _after(Q, pr, units, tlab):
                 continue
             ctx_parts.append(pr)
-            deps.append(pr)
-            todo.append((unit_text(Q, pr) or "", letter_of(pr)))
+            if _uses_answer(t, pr):
+                deps.append(pr)
+            todo.append((unit_text(Q, pr) or "", letter_of(pr), pr))
         # "your answer" with no explicit reference -> previous leaf
-        if r["your"] and not r["parts"]:
-            first = units[0]
-            prev = _prev_leaf(Q, first)
+        if r["your"] and not r["parts"] and tlab:
+            prev = _prev_leaf(Q, tlab)       # the leaf before the text that says "your answer"
             if prev and not any(prev == c or prev.startswith(c) for c in ctx_parts) \
                     and not any(prev.startswith(u) for u in units):
                 ctx_parts.append(prev)
                 deps.append(prev)
-                todo.append((unit_text(Q, prev) or "", letter_of(prev)))
+                todo.append((unit_text(Q, prev) or "", letter_of(prev), prev))
                 notes.append(f"'your answer' -> previous part {prev}")
         # labels / numbered references defined elsewhere
         labs = [x for x in r["labels"] if x not in ELEMENT_LIKE or x in Q.get("labels_defined", [])]
@@ -162,14 +163,14 @@ def resolve(Q, units):
             site = Q["first_def"].get(key)
             if site is None or _site_covered(site, units, ctx_parts, intros):
                 continue
-            if _after(Q, site, units):
+            if _after(Q, site, units, tlab):
                 continue
             # a label defined in a lettered intro: include that intro only
             L = find_letter(Q, letter_of(site)) if letter_of(site) else None
             if L is not None and site == L["label"] and L["romans"]:
                 site = site + "#intro"
             ctx_parts.append(site)
-            todo.append((unit_text(Q, site) or "", letter_of(site)))
+            todo.append((unit_text(Q, site) or "", letter_of(site), site.replace("#intro", "")))
     # a sub-part shown as context comes with its lettered part's introduction,
     # which often holds what the reference points to (e.g. "the reaction described in (a)(i)")
     for c in list(ctx_parts):
@@ -210,9 +211,23 @@ def _order_labels(Q, labs):
     return out
 
 
-def _after(Q, lab, units):
-    first = min(_order_key(Q, u) for u in units)
-    return _order_key(Q, lab) > first
+def _uses_answer(t, pr):
+    """Does the text use the ANSWER of part pr (not just something described in it)?"""
+    lab = re.escape(pr[3:] if pr[:3] == pr[3:6] else pr)
+    for m in re.finditer(r"\d?" + re.escape(pr) + "|" + r"\(" + re.escape(pr.split(")(")[-1].strip("()")) + r"\)", t):
+        w = t[max(0, m.start() - 90):m.end() + 40]
+        if re.search(r"answer|calculat|determin|found|value|result|obtained|deduced|estimate|\buse\b|\busing\b", w, re.I):
+            return True
+    return False
+
+
+def _after(Q, lab, units, at=None):
+    """Is lab a later part than the text that mentions it? (A reference from the stem counts as
+    forward.) Physics fix: measured from the referencing text, not from the item's first unit, so
+    a merged item's later part may depend on a part between its units (e.g. "the oil in (b)")."""
+    if at is None:
+        return True
+    return _order_key(Q, lab) > _order_key(Q, at)
 
 
 def _prev_leaf(Q, lab):

@@ -501,12 +501,7 @@
 "ref": "O/N 25/P21/Q2/a,c(i)",
 "unit": 4,
 "n": 6,
-"issues": [
-[
-"dangling part ref",
-"in (b)"
-]
-]
+"issues": []
 },
 {
 "ref": "O/N 25/P22/Q1/b(i,ii)",
@@ -782,12 +777,7 @@
 "ref": "M/J 26/P24/Q2/a,c",
 "unit": 6,
 "n": 3,
-"issues": [
-[
-"dangling part ref",
-"in 2(b)"
-]
-]
+"issues": []
 },
 {
 "ref": "MAR 26/P22/Q4/a(iv)",
@@ -1189,12 +1179,7 @@
 "ref": "M/J 26/P24/Q5/a,b,d",
 "unit": 9,
 "n": 3,
-"issues": [
-[
-"dangling part ref",
-"in 5(c)"
-]
-]
+"issues": []
 },
 {
 "ref": "M/J 26/P24/Q6/a,b,c",
@@ -1206,12 +1191,7 @@
 "ref": "MAR 26/P22/Q6/a,c(i,iii)",
 "unit": 9,
 "n": 5,
-"issues": [
-[
-"dangling part ref",
-"in 6(b)"
-]
-]
+"issues": []
 },
 {
 "ref": "O/N 25/P21/Q3/b(i),c(i),d(i)",
