@@ -327,6 +327,19 @@ def place_item(f, num, it, blocks, ref_pages, src):
     f.y += 14
 
 
+def first_block_h(bs, scale):
+    """Height of the leading bands that place_bands keeps on one page (a band with its label/caption,
+    a figure group), capped at a page: a heading needs at least this much room under it."""
+    from layout import _together, _gap
+    if not bs:
+        return 0.0
+    h, k = bs[0].h * scale, 0
+    while k + 1 < len(bs) and (_together(bs[k], bs[k + 1]) or (bs[k].grp is not None and bs[k].grp == bs[k + 1].grp)):
+        h += (_gap(bs[k], bs[k + 1]) + bs[k + 1].h) * scale
+        k += 1
+    return min(h, H - MB - MT - 20)
+
+
 def place_answer(f, num, it, Q, md):
     rows = []
     for u in it["units"]:
@@ -346,9 +359,9 @@ def place_answer(f, num, it, Q, md):
     x0 = min(s[1][0] for s in segs)
     x1 = max(s[1][2] for s in segs)
     bs = [Band(p, r[1], r[3]) for p, r in segs if r[3] - r[1] > 2]
-    first_h = (bs[0].h * TW / (x1 - x0)) if bs else 0
-    if f.room() < 30 + min(first_h, 200):
-        f.new_page(f.header)
+    first_h = first_block_h(bs, min(1.0, TW / (x1 - x0)))
+    if f.room() < 30 + first_h:
+        f.new_page(f.header)        # never leave an answer heading alone at the foot of a page
     f.text(f"{num}.  {it['ref']}", size=10.5, bold=True, gap=3)
     f.place_bands(md, bs, x0=x0, x1=x1)
     for c, rr in ctx:
@@ -366,8 +379,8 @@ def place_official_answer(f, num, it, md):
     bs = [Band(p, r[1], r[3]) for p, r in segs if r[3] - r[1] > 2]
     x0 = min(r[0] for _, r in segs)
     x1 = max(r[2] for _, r in segs)
-    first_h = (bs[0].h * TW / (x1 - x0)) if bs else 0
-    if f.room() < 30 + 10 * len(it["answer_notes"]) + min(first_h, 200):
+    first_h = first_block_h(bs, min(1.0, TW / (x1 - x0)))
+    if f.room() < 30 + 10 * len(it["answer_notes"]) + first_h:
         f.new_page(f.header)
     f.text(f"{num}.  {it['ref']}", size=10.5, bold=True, gap=3)
     for n in it["answer_notes"]:
@@ -380,8 +393,8 @@ def place_official_answer(f, num, it, md):
 def place_booklet_answer(f, num, it, bd):
     bs = booklet_bands(bd, it["answer_regions"], it["answer_whiteouts"])
     notes = it["answer_notes"]
-    first_h = bs[0].h if bs else 0
-    if f.room() < 30 + 10 * len(notes) + min(first_h, 200):
+    first_h = first_block_h(bs, min(1.0, TW / (max(b.x1 for b in bs) - min(b.x0 for b in bs)))) if bs else 0
+    if f.room() < 30 + 10 * len(notes) + first_h:
         f.new_page(f.header)
     f.text(f"{num}.  {it['ref']}", size=10.5, bold=True, gap=3)
     for n in notes:
@@ -660,7 +673,8 @@ def build(outdir):
     out.set_toc(toc)
     os.makedirs(outdir, exist_ok=True)
     book = os.path.join(outdir, BOOKNAME)
-    out.subset_fonts()
+    # no font subsetting: PyMuPDF's subset_fonts drops glyphs that the source papers' fonts reach through
+    # unusual encodings (e.g. the multiplication sign in "2.1 × 10^11 Pa" became a box)
     out.save(book, garbage=4, deflate=True, deflate_fonts=True)
     unit_dir = os.path.join(outdir, "units")
     os.makedirs(unit_dir, exist_ok=True)
@@ -672,7 +686,6 @@ def build(outdir):
         ai = [x for x in rows if x[0] == f"UNIT {t}"][0]
         ap = rows[rows.index(ai) + 1][2]
         u.set_toc([[1, f"Unit {t}: {TOPICS[t]}", 1], [2, "Answers Section", ap - a]])
-        u.subset_fonts()
         u.save(os.path.join(unit_dir, f"Unit-{t:02d}-{TOPICS[t].replace(':', '').replace(' ', '-').replace('.', '').replace(',', '')}.pdf"),
                garbage=4, deflate=True, deflate_fonts=True)
     with open(os.path.join(outdir, "index.csv"), "w", newline="") as fh:

@@ -111,10 +111,12 @@ info = json.load(open(f'{WORK}/build_info.json'))
 BI = {f"B{i['unit']}-{i['n']}": i for i in json.load(open(f'{WORK}/booklet_items.json'))}
 num2key = {}
 for k, v in info['numbers'].items():
-    if k.startswith('B'):
+    if k.startswith('B') and k in BI:       # booklet items restored from official papers are not in BI
         num2key[(BI[k]['topic'], v)] = k
 for (ref, side, unit, n, fn, pi), bs in grp.items():
     if fn != BOOKLET:
+        continue
+    if (unit, n) not in num2key:
         continue
     it = BI[num2key[(unit, n)]]
     regs = it['regions'] if side == 'Q' else it['answer_regions']

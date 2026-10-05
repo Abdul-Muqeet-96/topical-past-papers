@@ -235,6 +235,6 @@ Printed marks were read from each item's right margin (OCR at 300 dpi) and compa
 
 - Coverage (Part B): every lowest-level part of every included question is in exactly one item: unexplained gaps 0, duplicates 0.
 - Self-containment re-check: 0 failures; context recomputed identically (0 mismatches). Marks re-check (item [marks] = MS marks): 0 failures.
-- Every item's reference is on its indexed page (official 0 misses, booklet 0 misses) and appears with an answer entry and an index row (official 0 misses, booklet 2 misses). Booklet items in the book: 371/373.
+- Every item's reference is on its indexed page (official 0 misses, booklet 0 misses) and appears with an answer entry and an index row (official 0 misses, booklet 0 misses). Booklet items in the book: 371/371.
 - Full self-check with every audit-derived check: `audit/PHYSICS_CHECK.md` (not yet written).
 

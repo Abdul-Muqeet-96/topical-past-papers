@@ -148,12 +148,27 @@ def ink_rows(a, x0=XL, x1=XR):
     return sub.sum(axis=1) >= 3
 
 
-def trim(rows, y0, y1):
-    """Shrink [y0, y1) to the first/last inked row; None if blank."""
+def trim(rows, y0, y1, a=None):
+    """Shrink [y0, y1) to the first/last inked row; None if blank. With the page image a, a scan speck at
+    either end (ink under 6 pt high and 30 pt wide, 40 pt or more away from the rest) is left out: it would
+    stretch the crop over blank paper and faint show-through from the next sheet (physics fix)."""
     r0, r1 = max(0, int(y0 * Z)), min(len(rows), int(np.ceil(y1 * Z)))
     idx = np.flatnonzero(rows[r0:r1])
     if len(idx) == 0:
         return None
+    if a is not None:
+        runs = np.split(idx, np.flatnonzero(np.diff(idx) > 40 * Z) + 1)
+
+        def speck(run):
+            if (run[-1] - run[0] + 1) / Z >= 6:
+                return False
+            cols = np.flatnonzero((a[r0 + run[0]:r0 + run[-1] + 1, int(XL * Z):int(XR * Z)] < INK).any(axis=0))
+            return len(cols) == 0 or (cols[-1] - cols[0] + 1) / Z < 30
+        while len(runs) > 1 and speck(runs[-1]):
+            runs.pop()
+        while len(runs) > 1 and speck(runs[0]):
+            runs.pop(0)
+        idx = np.concatenate(runs)
     return (r0 + idx[0]) / Z - 1.5, (r0 + idx[-1] + 1) / Z + 1.5
 
 
@@ -270,7 +285,57 @@ def heading_strip(h, first):
         if w["x0"] < x1 and w["x1"] > x0 and w["y0"] < y1:
             y1 = min(y1, w["y0"] - 0.3)
     y1 = max(y1, max(b[3] for b in hw) + 0.5) if y1 > min(b[3] for b in hw) else y1
-    return [[h["pdf"] - 1, x0, y0, x1, y1, "h"]]
+    out = [[h["pdf"] - 1, x0, y0, x1, y1, "h"]]
+    # heading words with no first-line word below them (the item number in the left margin): cover their
+    # glyphs' full depth, which on a skewed scan reaches below the strip (physics fix)
+    for b in hw:
+        if not any(w["x0"] < b[2] + 3 and w["x1"] > b[0] - 2 and w["y0"] < b[3] + 6 for w in first):
+            out.append([h["pdf"] - 1, b[0] - 2, b[1] - 1.5, b[2] + 3, b[3] + 4, "h"])
+    return out
+
+
+RE_MARKW = re.compile(r"[\[(|{]\s*\d{1,2}\s*[\])|}]?|\d{1,2}\s*[\])|}]")
+
+
+def _same(w, b):
+    return abs(w["x0"] - b[0]) < 0.5 and abs(w["y0"] - b[1]) < 0.5
+
+
+def line_marks(h):
+    """Marks '[n]' at the right margin on a heading's line. A mark there can end the previous item or
+    belong to the first part under the heading (physics fix: it was always given to the previous item)."""
+    top, bot = h["y0"] - 4, max(h.get("hy1", h["y1"]), h["y1"]) + 4
+    return [w for w in words(h["pdf"]) if w["x0"] > 400 and RE_MARKW.fullmatch(w["text"])
+            and top < (w["y0"] + w["y1"]) / 2 < bot]
+
+
+def mark_owner(h, m, header_bottom):
+    """'prev' or 'this': the mark goes with the nearer text line, the one above the heading (end of the
+    previous item) or the first line below it."""
+    hb = max(h.get("hy1", h["y1"]), h["y1"])
+    ws = [w for w in words(h["pdf"]) if w["x1"] < 400 and w["y1"] - w["y0"] < 16
+          and w["y0"] > (header_bottom or 0) and not any(_same(w, b) for b in h.get("hwords", []))]
+    mc = (m["y0"] + m["y1"]) / 2
+    above = [(w["y0"] + w["y1"]) / 2 for w in ws if (w["y0"] + w["y1"]) / 2 < h["y0"] - 1]
+    below = [(w["y0"] + w["y1"]) / 2 for w in ws if (w["y0"] + w["y1"]) / 2 > hb + 1]
+    pc = max(above) if above else -1e9
+    nc = min(below) if below else 1e9
+    return "prev" if mc - pc < nc - mc else "this"
+
+
+def split_marks(h, header_bottom, role):
+    """(non-mark tail boxes, marks owned by the previous item, marks owned by this item); boxes as lists.
+    On question pages a mark on a heading's line always ends the previous question (its answer space
+    comes before the mark); on answer pages it can be the first answer line's mark."""
+    tail = h.get("tail", [])
+    if role != "answers":
+        return tail, [], []
+    ms = line_marks(h)
+    nonmark = [t for t in tail if not any(_same(m, t) for m in ms)]
+    prev, this = [], []
+    for m in ms:
+        (prev if mark_owner(h, m, header_bottom) == "prev" else this).append([m["x0"], m["y0"], m["x1"], m["y1"]])
+    return nonmark, prev, this
 
 
 def main():
@@ -353,8 +418,9 @@ def main():
     gcache = {}
     def rows(p):
         if p not in gcache:
-            gcache[p] = ink_rows(gray(doc[p - 1]))
-        return gcache[p]
+            g = gray(doc[p - 1])
+            gcache[p] = (ink_rows(g), g)
+        return gcache[p][0]
     def span(key, i):
         seq = seqs[key]
         h = seq[i]
@@ -370,18 +436,21 @@ def main():
         wos = []
         box = lambda b, pad=1.0: [b[0] - pad, b[1] - pad, b[2] + pad, b[3] + pad]
         nh = seq[i + 1] if i + 1 < len(seq) else None
-        if nh is not None and nh.get("tail") and end == (nh["pdf"], nh["y0"] - 2):
+        nmk, npv, nth = split_marks(nh, pages[nh["pdf"] - 1]["header_bottom"], key[1]) if nh is not None else ([], [], [])
+        if nh is not None and (nmk or npv) and end == (nh["pdf"], nh["y0"] - 2):
             # the next heading's line also carries the end of this item (its last mark / dots):
-            # take that line and white out the next heading itself
-            ty1 = max(t[3] for t in nh["tail"]) + 1.5
+            # take that line and white out the next heading itself (and a mark of the next item there)
+            ty1 = max(t[3] for t in nmk + npv) + 1.5
             end = (nh["pdf"], ty1)
             wos += [[nh["pdf"] - 1] + box(b) + ["h"] for b in nh.get("hwords", [])]
+            wos += [[nh["pdf"] - 1] + box(b) + ["t"] for b in nth if b[1] < ty1]
         elif nh is not None and end == (nh["pdf"], nh["y0"] - 2):
             # last line of this item lower than the next heading's top (skewed scan): take its full
             # height and white out the next heading's words that come inside
             last = [w for w in words(nh["pdf"]) if (w["y0"] + w["y1"]) / 2 < nh["y0"] - 1 and w["y1"] > end[1]
                     and w["y1"] - w["y0"] < 16 and w["y1"] <= nh["y0"] + 5
-                    and not any(abs(w["x0"] - b[0]) < 0.5 and abs(w["y0"] - b[1]) < 0.5 for b in nh.get("hwords", []))]
+                    and not any(abs(w["x0"] - b[0]) < 0.5 and abs(w["y0"] - b[1]) < 0.5 for b in nh.get("hwords", []))
+                    and not any(_same(w, b) for b in nth)]
             if last:
                 end = (nh["pdf"], max(w["y1"] for w in last) + 1.0)
                 wos += [[nh["pdf"] - 1] + box(b) + ["h"] for b in nh.get("hwords", []) if b[1] - 1 < end[1]]
@@ -389,17 +458,23 @@ def main():
         # (and a previous item's mark on its line) is whited out: the book prints its own number and the
         # reference above the crop (one numbering per unit). Starting at the first line's own top keeps
         # skewed lines whole.
-        base = max(h.get("hy1", h["y1"]), max([t[3] for t in h.get("tail", [])] or [0]))
+        hmk, hpv, hth = split_marks(h, pages[h["pdf"] - 1]["header_bottom"], key[1])
+        base = max(h.get("hy1", h["y1"]), max([t[3] for t in hmk + hpv] or [0]))
         hstart = base + 1.0
-        below = [w for w in words(h["pdf"]) if (w["y0"] + w["y1"]) / 2 > base + 1 and w["y0"] < base + 25]
+        below = [w for w in words(h["pdf"]) if (w["y0"] + w["y1"]) / 2 > base + 1 and w["y0"] < base + 25
+                 and not any(_same(w, b) for b in hth)]
+        first = []
         if below:
             c0 = min((w["y0"] + w["y1"]) / 2 for w in below)
             first = [w for w in below if (w["y0"] + w["y1"]) / 2 < c0 + 7]
-            ftop = min(w["y0"] for w in first) - 1.0
-            if ftop < hstart:
-                hstart = ftop
-                wos += heading_strip(h, first)
-                wos += [[h["pdf"] - 1] + box(t) + ["t"] for t in h.get("tail", [])]
+        top = min(w["y0"] for w in first) - 1.0 if first else hstart
+        top = min([top] + [b[1] - 1.0 for b in hth])
+        if top < hstart:
+            # the first line (or a mark of this item printed on the heading's line) reaches above the
+            # heading's bottom: start there, white out the heading and the previous item's tail
+            hstart = top
+            wos += heading_strip(h, first)
+            wos += [[h["pdf"] - 1] + box(t) + ["t"] for t in hmk + hpv]
         regs = []
         for p in range(h["pdf"], end[0] + 1):
             if p not in pl:
@@ -407,7 +482,7 @@ def main():
             pg = pages[p - 1]
             y0 = hstart if p == h["pdf"] else (pg["header_bottom"] or 60) + 1
             y1 = end[1] if p == end[0] else 842
-            t = trim(rows(p), y0, y1)
+            t = trim(rows(p), y0, y1, gcache[p][1])
             if t and t[1] - t[0] > 3:
                 regs.append([p - 1, round(max(t[0], y0), 1), round(min(t[1], y1), 1)])
         return regs, [w for w in wos if any(r[0] == w[0] for r in regs)]

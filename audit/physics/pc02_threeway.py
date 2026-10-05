@@ -25,7 +25,7 @@ for r in idx:
 for r in jl:
     if not r['text'].strip():
         fail('empty text in items.jsonl', r['reference'])
-    if r['source'] == 'booklet' and 'OCR' not in r.get('text_note', ''):
+    if r['source'] == 'booklet' and 'OCR' not in r.get('text_note', '') and 'official paper' not in r.get('text_note', ''):
         fail('booklet text not labelled OCR', r['reference'])
 units = sorted({i['unit'] for i in Q})
 for u in units:

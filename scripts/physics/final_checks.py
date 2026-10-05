@@ -60,6 +60,8 @@ def main():
     count = Counter()
     refs = {it["ref"] for it in I}
     B = json.load(open(os.path.join(WORK, "booklet_items.json")))
+    from build import MISFILED       # misfiled duplicate copies dropped from the book on purpose
+    B = [it for it in B if (it["unit"], it["n"]) not in MISFILED]
     gp = os.path.join(WORK, "gapfill.json")
     if os.path.exists(gp):      # booklet items lost in the scan, restored from the official paper
         B = B + [{"unit": o["unit"], "n": o["n"], "ref": o["ref"]} for o in json.load(open(gp))["lost"]]

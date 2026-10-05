@@ -1,7 +1,7 @@
 """Every placed crop band (Form XObject wrapping a source page, BBox = clip) on every book page, mapped to
 its item (heading above it) and to its source page by text overlap: official QP/MS of the item's paper,
 or the booklet-ocr.pdf page for booklet items."""
-import bisect, json, re
+import bisect, json, os, re
 from collections import defaultdict
 import pymupdf as f
 from pc_common import BOOK, BOOKLET, ROOT, load, save, pkey
@@ -41,6 +41,13 @@ fptext, fpinfo = defaultdict(str), {}
 for b in bands:
     fptext[b['fp']] += ' ' + b['text']
     fpinfo.setdefault(b['fp'], (b['ref'], b['booklet'], b['page']))
+fpside = {}
+for b in bands:
+    fpside.setdefault(b['fp'], b['side'])
+_g = json.load(open(f'{ROOT}/Ω-physics/work/gapfill.json'))
+_bref = {f"B{i['unit']}-{i['n']}": i['ref'] for i in json.load(open(f'{ROOT}/Ω-physics/work/booklet_items.json'))}
+GAPFILLED = {(_bref[k], 'Q') for k in _g['replace_q']} | {(_bref[k], 'A') for k in _g['replace_a']} | \
+    {(o['ref'], sd) for o in _g['lost'] for sd in 'QA'}
 fpsrc = {}
 for fp, t in fptext.items():
     ref, bk, page = fpinfo[fp]
@@ -48,12 +55,12 @@ for fp, t in fptext.items():
     if ref is None or not T:
         fpsrc[fp] = None
         continue
-    if bk:
+    k, q, suf = pkey(ref)
+    s, v = k.split('_')
+    cands = [f'{ROOT}/data/9702_{s}_qp_{v}.pdf', f'{ROOT}/data/9702_{s}_ms_{v}.pdf']
+    # booklet items whose scan gap was filled from the official paper (work/gapfill.json) carry official crops
+    if bk and (ref, fpside[fp]) not in GAPFILLED:
         cands = [BOOKLET]
-    else:
-        k, q, suf = pkey(ref)
-        s, v = k.split('_')
-        cands = [f'{ROOT}/data/9702_{s}_qp_{v}.pdf', f'{ROOT}/data/9702_{s}_ms_{v}.pdf']
     best = (0, None)
     for fn in cands:
         for i, S in enumerate(words(fn)):

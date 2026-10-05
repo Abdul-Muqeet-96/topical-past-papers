@@ -7,18 +7,12 @@
  "ref_not_on_page": [],
  "answers_missing": [],
  "booklet_ref_not_on_page": [],
- "booklet_answer_missing": [
-  "B9-16",
-  "B12-28"
- ],
- "booklet_items_missing": [
-  "B3-16",
-  "B4-11"
- ],
+ "booklet_answer_missing": [],
+ "booklet_items_missing": [],
  "counts": {
   "official_items": 260,
-  "booklet_items": 373,
-  "book_pages": 931,
+  "booklet_items": 371,
+  "book_pages": 930,
   "booklet_in_book": 371
  }
 }

@@ -41,7 +41,7 @@ def parse(path):
             if mm:
                 nxt = ' '.join(w[4] for w in L[k + 1]['w']) if k + 1 < len(L) else ''
                 out['items'].append({'n': int(mm.group(1)), 'ref': mm.group(2), 'page': i + 1,
-                                     'y': round(l['c'], 1), 'booklet': nxt.startswith('booklet (scan + OCR)')})
+                                     'y': round(l['c'], 1), 'booklet': nxt.startswith('booklet')})
     ut = [p['i'] for p in out['pages'] if 'unit_title' in p]
     ab = [p['i'] for p in out['pages'] if p.get('answers_banner')]
     for it in out['items']:

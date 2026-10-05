@@ -150,6 +150,12 @@ class Flow:
                 wr = pymupdf.Rect(tx0 + (wo.x0 - x0) * s, self.y + (wo.y0 - b.y0) * s,
                                   tx0 + (wo.x1 - x0) * s, self.y + (wo.y1 - b.y0) * s) & r
                 if not wr.is_empty:
+                    # the clipped source page can bleed a fraction of a point past the band edge: a cover
+                    # that reaches a band edge is extended 1.2 pt beyond it (physics fix)
+                    if wo.y0 <= b.y0 + 0.5:
+                        wr.y0 -= 1.2
+                    if wo.y1 >= b.y1 - 0.5:
+                        wr.y1 += 1.2
                     self.page.draw_rect(wr, color=None, fill=(1, 1, 1), overlay=True)
             placed.append((self.page.number, r))
             self.y += h
