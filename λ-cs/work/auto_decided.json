@@ -212,7 +212,7 @@
  {
   "item": "Gaps to fill and answer lines",
   "issue": "A dotted run can be an answer line (\"Answer ......\", \"Line number: ......\", a line of dots on its own) or a gap inside code or a sentence (\"DECLARE ...... : STRING\", \"PC ← ...... + 1\", \"The values ... will indicate ......\")",
-  "action": "Kept as a gap: a run followed by text on its line (any length); a run that ends a line of code and is shorter than an answer line (250 pt), or whose statement is visibly unfinished (it stops at an operator or keyword: \"WHILE ......\", \"NextChar ← ......\"), or that stands in a block of code with other gaps; a short run that ends an unfinished sentence or numbered step. Removed as an answer line: a run on its own, a run after a label (\"Answer\", \"Hours worked\", \"Logic gate:\"), after a finished sentence, after text in another table column, and a long run beside a bare identifier (\"ItemStatus ......\"). Code is recognised by its monospace font"
+  "action": "Kept as a gap: a run followed by text on its line (any length); a run that ends a line of code whose statement is visibly unfinished (it stops at an operator, a keyword or an assignment arrow: \"WHILE ......\", \"NextChar ← ......\"), or that stands in a block of code with other gaps; a short run (under 250 pt) that ends an unfinished sentence or numbered step. Removed as an answer line: a run on its own; a run after a label (\"Answer\", \"Hours worked\", \"Logic gate:\"), after a finished sentence, or beside a name or a complete expression (\"ItemStatus ......\", \"CONCAT(\\\"Studio\\\", 54) ......\"); a run whose neighbouring text is in another cell of a table (a border lies between them). Code is recognised by its monospace font; an arrow that is a drawing is found by its ink"
  },
  {
   "item": "Mark printed on the footer line",
@@ -262,7 +262,7 @@
  {
   "item": "Page breaks: what stays together",
   "issue": "A figure can only be kept whole if the lines before it leave room; a mark printed after removed answer space, or the line that introduces a figure, could be left alone on the other side of a page break",
-  "action": "A figure (code block, table, diagram) moves to a new page whole whenever it fits on one; the short line printed last before it (at most 60 pt of blank answer space between them) moves with it; a band that holds nothing but a [mark] stays with the line before it. Only a figure taller than a page breaks"
+  "action": "A figure (code block, table, diagram) moves to a new page whole whenever it fits on one; the short line printed last before it (at most 60 pt of blank answer space between them) moves with it; a line that ends with a colon (\"... after execution of the instruction:\") stays with what it introduces (also where the paper itself turns the page after the colon); the one to three opening lines of an item that lead straight into a figure stay with it and with the item's reference line; a band that holds nothing but a [mark] stays with the line before it. Only a figure taller than a page breaks"
  },
  {
   "item": "Code blocks with single-letter names",

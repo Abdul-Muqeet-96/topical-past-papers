@@ -12,7 +12,7 @@ import pymupdf as f
 from c00_common import *
 
 ML, MR, MT, MB, W, H = 40, 40, 58, 40, 595.28, 841.89
-res = {k: [] for k in ("margin", "overlap", "orphan_heading", "orphan_mark", "split_figure", "empty_page", "wasted_space", "wasted_by_design", "scale")}
+res = {k: [] for k in ("margin", "overlap", "orphan_heading", "orphan_mark", "orphan_intro", "split_figure", "empty_page", "wasted_space", "wasted_by_design", "scale")}
 stats = Counter()
 cache = {}
 
@@ -152,6 +152,21 @@ for book in (1, 2):
                         res["split_figure"].append({"book": book, "page": pg, "ref": a["ref"], "src": fn, "srcpage": pi + 1, "y": round(ya),
                                                     "why": ("code block" if code else "") + (" drawing/table crosses the break" if cross else ""),
                                                     "fig_h": round(max([r.height for r in cross] + [0]))})
+            # a line that ends with a colon at the foot of a page, cut off from what it introduces
+            # (unless what follows fills a page of its own)
+            same_pg = a["src"] and a["src"] == b["src"] and 0 <= b["vclip"][1] - a["vclip"][3] <= 60
+            next_pg = a["src"] and b["src"] and a["src"][0] == b["src"][0] and b["src"][1] == a["src"][1] + 1
+            if a["ref"] == b["ref"] and a["side"] == b["side"] == "Q" and (same_pg or next_pg) \
+                    and (a["text"] or "").strip().endswith(":"):
+                blk2 = 0.0
+                for k, x in enumerate(nb):
+                    if k and x["target"][1] - nb[k - 1]["target"][3] > 8.6:
+                        break
+                    blk2 = x["target"][3] - nb[0]["target"][1]
+                if blk2 + (a["target"][3] - a["target"][1]) + 8 <= H - MB - MT - 20:
+                    res["orphan_intro"].append({"book": book, "page": pg, "ref": a["ref"], "line": (a["text"] or "").strip()[-60:], "next_block_h": round(blk2)})
+                else:
+                    stats["colon line before a block that fills a page"] += 1
             # a mark alone at the top of a page, cut off from the line it closes
             if a["ref"] == b["ref"] and a["side"] == b["side"] == "Q" and re.fullmatch(r"\s*\[\d{1,2}\]\s*", b["text"] or ""):
                 res["orphan_mark"].append({"book": book, "page": pg + 1, "ref": b["ref"], "mark": b["text"].strip()})

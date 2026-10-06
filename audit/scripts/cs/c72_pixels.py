@@ -58,6 +58,51 @@ def letters(fn, i):
     return _LET[(fn, i)]
 
 
+_HS = {}
+
+
+def hstrokes(fn, i):
+    """Horizontal strokes of a source page, at least 80 pt long: [(x0, x1, y)] (lines, and the top
+    and bottom sides of stroked rectangles)."""
+    if (fn, i) not in _HS:
+        if len(_HS) > 8:
+            _HS.clear()
+        out = []
+        for g in spage(fn, i).get_drawings():
+            col = g.get("color")
+            if col is None or min(col) > 0.9:
+                continue
+            for it in g["items"]:
+                if it[0] == "re" and it[1].width > 80:
+                    q = it[1]
+                    out += [(q.x0, q.x1, q.y0), (q.x0, q.x1, q.y1)]
+                elif it[0] == "l" and abs(it[1].y - it[2].y) < 0.6 and abs(it[1].x - it[2].x) > 80:
+                    out.append((min(it[1].x, it[2].x), max(it[1].x, it[2].x), it[1].y))
+        _HS[(fn, i)] = out
+    return _HS[(fn, i)]
+
+
+_VB = {}
+
+
+def vborders(fn, i):
+    """Vertical borders drawn on a source page: [(x, y0, y1)] (lines, and the sides of rectangles)."""
+    if (fn, i) not in _VB:
+        if len(_VB) > 8:
+            _VB.clear()
+        out = []
+        for g in spage(fn, i).get_drawings():
+            for it in g["items"]:
+                if it[0] == "re":
+                    q = it[1]
+                    if q.height > 6:
+                        out += [(q.x0, q.y0, q.y1), (q.x1, q.y0, q.y1)]
+                elif it[0] == "l" and abs(it[1].x - it[2].x) < 0.6 and abs(it[1].y - it[2].y) > 6:
+                    out.append((it[1].x, min(it[1].y, it[2].y), max(it[1].y, it[2].y)))
+        _VB[(fn, i)] = out
+    return _VB[(fn, i)]
+
+
 def expect_dots(fn, i, r, words):
     """What the layout rule makes of a dotted run, read from the raw page: 'gap' (kept), 'answer'
     (removed) or 'either'. Returns (kind, text left of it, text right of it) on its line."""
@@ -65,6 +110,14 @@ def expect_dots(fn, i, r, words):
     line = sorted([(r2, t2, k2) for r2, t2, k2 in words if abs((r2.y0 + r2.y1) / 2 - ym) < 4 and r2 != r], key=lambda x: x[0].x0)
     lw = [(r2, t2, k2) for r2, t2, k2 in line if r2.x1 <= r.x0 + 2]
     rw = [(r2, t2, k2) for r2, t2, k2 in line if r2.x0 >= r.x1 - 2 and r2.x0 < 560 and not re.fullmatch(r"\[\d+\]", t2)]
+    # a table border between the run and a word: that word is in another cell, not on the run's line
+    vr = vborders(fn, i)
+    cut_at = lambda xa, xb: any(xa - 0.5 < x < xb + 0.5 and y0 - 1 <= ym <= y1 + 1 for x, y0, y1 in vr)
+    while lw and lw[-1][2] == "text" and cut_at(lw[-1][0].x1, r.x0):
+        lw = []
+    k_ = next((j for j, x in enumerate(rw) if cut_at(r.x1, x[0].x0)), None)
+    if k_ is not None:
+        rw = rw[:k_]
     # only the text since the dotted run before this one
     cut = max([j for j, x in enumerate(lw) if x[2] != "text"], default=-1)
     own = lw[cut + 1:] if cut + 1 < len(lw) else []
@@ -82,7 +135,7 @@ def expect_dots(fn, i, r, words):
     is_label = lambda t: not re.search(r"[A-Za-z]", t) or not (
         any(w in FUNC for w in re.findall(r"[A-Za-z]+", t)) or re.match(r"\s*(\d{1,2}\s*[.)]|Step\s+\d+)", t)) or bool(re.search(r"(\S:|[.?])$", t))
     if right and not re.fullmatch(r"\(?(\d{1,2}|[a-z]|[ivx]{1,4})\)?[.:]?", right):
-        if more_dots and is_label(right) and is_label(lab) and not code:
+        if more_dots and (is_label(right) or not RE_OPENEND.search(right)) and (is_label(lab) or code):
             return "either", left, right          # "label ...... label ......": follows the last run
         if long_ and not left and not re.search(r"[A-Za-z0-9]", right):
             return "answer", left, right
@@ -91,7 +144,14 @@ def expect_dots(fn, i, r, words):
         return "answer", left, right
     attached = bool(re.search(r"\S:$", lab))
     if code and not attached:
-        if not long_ or RE_OPENEND.search(lab):
+        # an unfinished statement (it stops at an operator, a keyword or an assignment arrow, which
+        # may be a drawing) is a gap; a run beside a name or a complete expression goes with its block
+        arrow = False
+        if own and r.x0 - own[-1][0].x1 > 5.5:
+            pm = spage(fn, i).get_pixmap(matrix=f.Matrix(3, 3), clip=f.Rect(own[-1][0].x1 + 0.8, r.y1 - 8, r.x0 - 0.8, r.y1 - 0.5),
+                                         colorspace=f.csGRAY, alpha=False)
+            arrow = bool(pm.samples) and min(pm.samples) < 170
+        if RE_OPENEND.search(lab) or arrow:
             return "gap", left, right
         return "either", left, right
     if attached or lab[-1] in ".?":
@@ -172,7 +232,7 @@ def grow(mask):
     return m
 
 
-res = {k: [] for k in ("removed", "dots_visible", "gap_removed", "stamp_visible", "furniture_visible", "added", "edge", "mark_damaged")}
+res = {k: [] for k in ("removed", "dots_visible", "gap_removed", "stamp_visible", "furniture_visible", "added", "edge", "edge_rule", "mark_damaged")}
 stats = Counter()
 for pg in sorted(byp):
     bp = gray(d[pg - 1].get_pixmap(dpi=DPI, colorspace=f.csGRAY))
@@ -347,6 +407,18 @@ for pg in sorted(byp):
         if n_add >= 12:
             ys, xs = np.nonzero(added)
             res["added"].append(dict(base, px=n_add, y=round(vc.y0 + ys.mean() / sy), x=round(vc.x0 + xs.mean() / sx)))
+        # a stroked rule just outside the crop (the edge of a removed frame) must leave no trace
+        # on the crop's first or last pixel row
+        for x0h, x1h, yh in hstrokes(fn, pi):
+            for name, ye, row in (("top", vc.y0, bk[0, :]), ("bottom", vc.y1, bk[-1, :])):
+                outside = yh < ye if name == "top" else yh > ye
+                if outside and abs(yh - ye) <= 0.7 and min(x1h, vc.x1) - max(x0h, vc.x0) > 80:
+                    e0, e1 = int((max(x0h, vc.x0) - vc.x0) * sx), int((min(x1h, vc.x1) - vc.x0) * sx)
+                    seg = row[e0:e1]
+                    if len(seg) and float((seg < 245).mean()) > 0.5:
+                        res["edge_rule"].append(dict(base, edge=name, y=round(yh, 1), grey=int(seg.mean())))
+                    else:
+                        stats["rules just outside a crop edge, no trace"] += 1
         for edge, line in (("top", bd[0, :]), ("bottom", bd[-1, :]), ("left", bd[:, 0]), ("right", bd[:, -1])):
             # runs of ink along the edge: a table rule gives one long run (a row cut at its rule) or
             # 1-2 px dots (vertical rules); cut letters give several short runs

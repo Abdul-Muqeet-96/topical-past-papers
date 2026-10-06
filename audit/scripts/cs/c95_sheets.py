@@ -1,6 +1,6 @@
 """Visual review material.
   c95_sheets.py all <outdir>      contact sheets of every page of both books (8 pages per sheet)
-  c95_sheets.py sample <outdir>   per unit: 15 question items and 5 answers picked at random (seed
+  c95_sheets.py sample <outdir> [seed]  per unit: 15 question items and 5 answers picked at random (seed
                                   9618), each on its page(s) at 92 dpi, two pages per image
 Writes PNG files and an index (sheets.json / samples.json) into <outdir>."""
 import json, random, sys
@@ -39,7 +39,7 @@ if mode == "all":
     json.dump(idx, open(os.path.join(outdir, "sheets.json"), "w"))
     print(len(idx), "sheets")
 else:
-    random.seed(9618)
+    random.seed(int(sys.argv[3]) if len(sys.argv) > 3 else 9618)
     idx = []
     for book in (1, 2):
         bp = jl(f"book_parse_p{book}.json")

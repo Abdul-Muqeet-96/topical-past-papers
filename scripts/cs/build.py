@@ -121,7 +121,22 @@ def _lead_height(bs):
     sc = min(1.0, TW / w)
     maxh = H - MB - MT - 20
     chain, core, _ = keep_heights(bs, 0, sc, maxh)
-    return chain if chain <= maxh else (core if core <= maxh else min(bs[0].h * sc, maxh))
+    lead = chain if chain <= maxh else (core if core <= maxh else min(bs[0].h * sc, maxh))
+    # one to three opening lines that lead straight into a figure (a stem line, a reference to
+    # the Appendix, then the listing): the reference line of the item is not left behind with them
+    run = 0.0
+    for k in range(min(4, len(bs))):
+        if k:
+            run += min(bs[k].y0 - bs[k - 1].y1, 8) * sc if bs[k].page == bs[k - 1].page and bs[k].y0 >= bs[k - 1].y1 else 4
+        _, core_k, fig = keep_heights(bs, k, sc, maxh)
+        if fig:
+            if run + core_k <= maxh:
+                lead = max(lead, run + core_k)
+            break
+        if bs[k].h * sc > 30:
+            break                    # a paragraph, not an opening line
+        run += min(bs[k].h * sc, maxh)
+    return lead
 
 
 def place_item(f, num, it, blocks, ref_pages):

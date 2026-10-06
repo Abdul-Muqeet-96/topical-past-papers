@@ -164,6 +164,8 @@ class Flow:
                     # a white-out that runs past the foot of the band: the band's last pixel row
                     # is only partly covered at the edge, so cover a little more (blank paper)
                     wr.y1 += 0.6
+                if not wr.is_empty and wo.y0 <= b.y0:
+                    wr.y0 -= 0.6     # the same at the head of the band (the edge of a removed frame)
                 if not wr.is_empty:
                     self.page.draw_rect(wr, color=None, fill=(1, 1, 1), overlay=True)
             placed.append((self.page.number, r))
@@ -201,17 +203,31 @@ def keep_heights(bands, i, scale, maxh):
     hh, _ = run(i, _together)
     chain = bh(i) + hh
     same = lambda a, c: a.grp is not None and a.grp == c.grp
-    core, k, with_fig = bh(i), i, False
-    if b.grp is not None:
-        hh, k = run(i, same)
-        core, with_fig = core + hh, True
-    elif i + 1 < len(bands) and _label_above(b, bands[i + 1]):
-        hh, k = run(i + 1, same)
-        core += _gap(b, bands[i + 1]) * scale + bh(i + 1) + hh
-        with_fig = True
-    if with_fig and k + 1 < len(bands) and bands[k + 1].mark_only:
-        core += _gap(bands[k], bands[k + 1]) * scale + bh(k + 1)
+
+    def core_of(k, depth=0):
+        """(height, holds a figure) of band k with what it introduces"""
+        c = bands[k]
+        if c.grp is not None:
+            hh2, e = run(k, same)
+            hgt = bh(k) + hh2
+            if e + 1 < len(bands) and bands[e + 1].mark_only:
+                hgt += _gap(bands[e], bands[e + 1]) * scale + bh(e + 1)
+            return hgt, True
+        if k + 1 < len(bands) and depth < 3 and (_label_above(c, bands[k + 1]) or _introduces(c, bands[k + 1])):
+            nh, fig = core_of(k + 1, depth + 1)
+            return bh(k) + _gap(c, bands[k + 1]) * scale + nh, True
+        return bh(k), False
+
+    core, with_fig = core_of(i)
     return chain, core, with_fig
+
+
+def _introduces(a, b):
+    """a ends with a colon ("... the following instruction:") and b is what it introduces."""
+    if not getattr(a, "colon_end", False) or a.grp is not None:
+        return False
+    # on the same page of the paper, or the paper itself turns the page after the colon
+    return (a.page == b.page and 0 <= b.y0 - a.y1 <= 60) or b.page == a.page + 1
 
 
 def _label_above(a, b):
@@ -228,8 +244,8 @@ def _together(a, b):
         return True
     if getattr(b, "mark_only", False):
         return True          # a [mark] on its own stays with the line it closes
-    if _label_above(a, b):
-        return True          # the line that introduces a figure
+    if _label_above(a, b) or _introduces(a, b):
+        return True          # the line that introduces a figure, or that ends with a colon
     if a.page != b.page or b.y0 - a.y1 > 14:
         return False
     return (a.h < 18 and b.h > 30) or (a.h > 30 and b.h < 18)

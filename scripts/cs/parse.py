@@ -174,6 +174,63 @@ def visual_lines(page):
     return lines
 
 
+def _ink_between(page, chars, run):
+    """Is anything printed or drawn between the last character before a run and the run (an
+    assignment arrow that is a drawing, or a glyph without a text code)?"""
+    last = [c for c in chars if not c["c"].isspace()]
+    if not last:
+        return False
+    xa, xb, base = last[-1]["bbox"][2] + 0.8, run[0]["bbox"][0] - 0.8, run[0]["origin"][1]
+    if xb - xa < 4:
+        return False
+    pm = page.get_pixmap(matrix=pymupdf.Matrix(3, 3), clip=pymupdf.Rect(xa, base - 7, xb, base + 1),
+                         colorspace=pymupdf.csGRAY, alpha=False)
+    return min(pm.samples) < 170 if pm.samples else False
+
+
+def _unfinished(page, chars, run):
+    """A line of code that stops at an operator, an opening bracket, a keyword or an arrow."""
+    txt = "".join(c["c"] for c in chars).strip()
+    return bool(RE_OPEN_END.search(txt)) or _ink_between(page, chars, run)
+
+
+def _is_label(page, chars, run):
+    """The text before a run is a label of an answer line: ordinary label text, or code that is complete."""
+    kd = _line_end_kind(chars)
+    return kd == "answer" or (kd == "code" and not _unfinished(page, chars, run))
+
+
+_VRULES = {}
+
+
+def _vrules(page):
+    """Vertical rules of the page (table and box borders): [(x, y0, y1)]."""
+    key = (doc_key(page.parent), page.number)
+    if key not in _VRULES:
+        if len(_VRULES) > 32:
+            _VRULES.clear()
+        out = []
+        for g in page.get_drawings():
+            for it in g["items"]:
+                if it[0] == "re":
+                    r = it[1]
+                    if r.height > 6 and r.width > 6:
+                        out += [(r.x0, r.y0, r.y1), (r.x1, r.y0, r.y1)]
+                    elif r.height > 6:
+                        out.append(((r.x0 + r.x1) / 2, r.y0, r.y1))
+                elif it[0] == "l":
+                    a, b = it[1], it[2]
+                    if abs(a.x - b.x) < 0.6 and abs(a.y - b.y) > 6:
+                        out.append((a.x, min(a.y, b.y), max(a.y, b.y)))
+        _VRULES[key] = out
+    return _VRULES[key]
+
+
+def _rule_between(page, xa, xb, y):
+    """Is there a vertical rule between x = xa and x = xb at height y?"""
+    return any(xa - 0.5 < x < xb + 0.5 and y0 - 1 <= y - 3 and y - 3 <= y1 + 1 for x, y0, y1 in _vrules(page))
+
+
 def dot_runs(page):
     """Runs of 5+ dots on the page: [(Rect, is_answer_line, baseline)].
 
@@ -184,10 +241,11 @@ def dot_runs(page):
     - The run ends its line: a gap after code or after an unfinished sentence or step, when it is
       shorter than an answer line (GAP_MAX_W); an answer line when it stands alone or follows a
       label ("Answer ......", "Line number: ......") or a finished sentence.
-    - A long run that ends a line of code is a gap when the statement is visibly unfinished (it
-      ends in an operator or a keyword: "WHILE ......", "DECLARE Found : ......") or when the
-      same block of code has other gaps (gap-fill pseudocode); otherwise it is an answer line
-      beside an identifier ("ItemStatus ......")."""
+    - A run that ends a line of code is a gap when the statement is visibly unfinished (it stops
+      at an operator, a keyword or an assignment arrow: "WHILE ......", "DECLARE Found : ......",
+      "x <- ......") or when the same block of code has other gaps (gap-fill pseudocode);
+      otherwise it is an answer line beside a name or a complete expression ("ItemStatus ......",
+      "CONCAT("Studio", 54) ......")."""
     out = []
     lines = visual_lines(page)
     info = []           # per line: (baseline, is a line of code or dots only, indexes into out)
@@ -210,10 +268,18 @@ def dot_runs(page):
             own = ln[(runs[k - 1].end() if k else 0):m.start()]
             if k and not "".join(c["c"] for c in own).strip():
                 own = ln[:m.start()]
+            # text in the next or the previous cell of a table does not belong to the run
+            base = run[0]["origin"][1]
+            nxt = [c for c in ln[m.end():(runs[k + 1].start() if k + 1 < len(runs) else len(ln))] if not c["c"].isspace()]
+            if after and nxt and _rule_between(page, x1, nxt[0]["bbox"][0], base):
+                after = False
+            prv = [c for c in own if not c["c"].isspace()]
+            if prv and _rule_between(page, prv[-1]["bbox"][2], x0, base):
+                own = []
             own_txt = "".join(c["c"] for c in own).strip()
-            if after and k + 1 < len(runs) and kinds[k + 1] == "answer" and _line_end_kind(own) == "answer" \
-                    and _line_end_kind(ln[m.end():runs[k + 1].start()]) == "answer":
-                kinds[k] = "answer"          # "Start time value ...... Duration value ......"
+            if after and k + 1 < len(runs) and kinds[k + 1] in ("answer", "code_long") and _is_label(page, own, run) \
+                    and _is_label(page, ln[m.end():runs[k + 1].start()], ln[runs[k + 1].start():runs[k + 1].end()]):
+                kinds[k] = kinds[k + 1]      # "Start time value ...... Duration value ......": as the last run
             elif after and long_ and not own_txt and not re.search(r"[A-Za-z0-9]", seg):
                 kinds[k] = "answer"          # a full line of dots closed by ")" or "."
             elif after:
@@ -232,7 +298,9 @@ def dot_runs(page):
                             (num and num[0]["bbox"][0] - last[j - 1]["bbox"][2] > 7):
                         kd = "answer"
                 if kd == "code":
-                    kinds[k] = "gap" if (not long_ or RE_OPEN_END.search(own_txt)) else "code_long"
+                    # an unfinished statement ("x <- ......", "WHILE ......") is a gap; a run beside a
+                    # complete expression or a bare name ("Perimeter ......") follows its block of code
+                    kinds[k] = "gap" if _unfinished(page, own, run) else "code_long"
                 else:
                     kinds[k] = "gap" if (kd == "sentence" and not long_) else "answer"
         for k, m in enumerate(runs):

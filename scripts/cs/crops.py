@@ -34,6 +34,7 @@ class Band:
         self.x0, self.x1 = x0, x1
         self.grp = None       # figure/table this band belongs to (kept on one page)
         self.mark_only = False
+        self.colon_end = False
 
     @property
     def h(self):
@@ -355,11 +356,16 @@ def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
     for y0, y1, x0, x1 in ext_m:
         b = Band(p, y0, y1, x0=min(X0, x0 - 1.5), x1=max(X1, x1 + 1.5))
         b.whiteouts = [w for w in wos if w.y0 < b.y1 and w.y1 > b.y0]
-        inside = [w[4] for w in wb if y0 - 0.5 <= (w[1] + w[3]) / 2 <= y1 + 0.5
-                  and not any(pymupdf.Rect(w[:4]).intersects(o) and (pymupdf.Rect(w[:4]) & o).get_area() >
-                              0.5 * pymupdf.Rect(w[:4]).get_area() for o in b.whiteouts)]
+        iw = [w for w in wb if y0 - 0.5 <= (w[1] + w[3]) / 2 <= y1 + 0.5 and w[4].strip()
+              and not any(pymupdf.Rect(w[:4]).intersects(o) and (pymupdf.Rect(w[:4]) & o).get_area() >
+                          0.5 * pymupdf.Rect(w[:4]).get_area() for o in b.whiteouts)]
+        inside = [w[4] for w in iw]
         # a band that holds nothing but a mark stays with the line before it (layout)
         b.mark_only = bool(inside) and all(re.fullmatch(r"\[\d{1,2}\]", t) for t in inside) and x1 - x0 < 40
+        # a band whose last line ends with a colon introduces what follows and stays with it
+        text = [w for w in iw if not re.fullmatch(r"\[\d{1,2}\]", w[4])]
+        last = max(text, key=lambda w: (round(w[3] / 4), w[0]))[4] if text else ""
+        b.colon_end = last.endswith(":")
         if b.h > 1:
             out.append(b)
     return out

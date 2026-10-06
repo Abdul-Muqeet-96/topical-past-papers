@@ -32,10 +32,15 @@ CS-specific:
 - Dotted answer lines are removed. A dotted run is kept, in the picture and in
   the text layer, when it is a gap the candidate must fill inside a line of
   code or a sentence: text follows it on its line; or it ends a line of code
-  (short, or after an operator or keyword, or in a block of code with other
-  gaps); or it is a short run ending an unfinished sentence or numbered step.
-  A run on its own, after a label ("Answer ......") or after a finished
-  sentence is an answer line (`parse.dot_runs`).
+  whose statement is unfinished (operator, keyword or arrow before it), or
+  stands in a block of code with other gaps; or it is a short run ending an
+  unfinished sentence or numbered step. A run on its own, after a label
+  ("Answer ......"), after a finished sentence, beside a name or a complete
+  expression, or alone in a table cell is an answer line (`parse.dot_runs`).
+- Page breaks: a figure moves whole to a new page when it fits on one; the
+  short line before it, a line ending in a colon, a lone [mark] and an item's
+  opening lines stay with what they belong to (`layout.keep_heights`,
+  `layout._together`). Insert and appendix pages break between rows only.
 - An item from a paper whose insert differs from the Appendix copy shows that
   paper's insert pages after its question crops, under a grey note.
 - Fonts: Liberation Sans as in the Chemistry book when installed, else Noto
