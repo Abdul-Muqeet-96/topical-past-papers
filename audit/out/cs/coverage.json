@@ -1,0 +1,21 @@
+{
+ "leaves": 3296,
+ "classes": {
+  "in one item": 3133,
+  "out of syllabus": 143,
+  "question excluded (check 3)": 20
+ },
+ "gaps": [],
+ "dupes": [],
+ "listed_and_included": [],
+ "bad_refs": [],
+ "item_marks_vs_qp": [],
+ "item_marks_vs_ms": [],
+ "stale_report_rows": [],
+ "report_counts": {
+  "excluded_questions": 4,
+  "out_of_syllabus_rows": 116,
+  "pre_release_rows": 0,
+  "item_exclusion_rows": 0
+ }
+}

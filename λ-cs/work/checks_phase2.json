@@ -285,8 +285,9 @@
     "why": ""
    }
   },
-  "issues": [
-   "1 mark(s) printed short of the right-hand margin were needed to reach the cover total and are counted"
+  "issues": [],
+  "unredacted_pages": [
+   14
   ],
   "ms_text_layout": true,
   "ms_label_fixes": [],
@@ -342,8 +343,9 @@
     "why": ""
    }
   },
-  "issues": [
-   "1 mark(s) printed short of the right-hand margin were needed to reach the cover total and are counted"
+  "issues": [],
+  "unredacted_pages": [
+   14
   ],
   "ms_text_layout": true,
   "ms_label_fixes": [],
@@ -915,7 +917,9 @@
     "why": ""
    }
   },
-  "issues": [],
+  "issues": [
+   "2 mark(s) printed short of the right-hand margin were needed to reach the cover total and are counted"
+  ],
   "ms_label_fixes": [],
   "question_numbers": [
    1,
@@ -1049,7 +1053,9 @@
     "why": ""
    }
   },
-  "issues": [],
+  "issues": [
+   "2 mark(s) printed short of the right-hand margin were needed to reach the cover total and are counted"
+  ],
   "ms_label_fixes": [],
   "question_numbers": [
    1,
@@ -2226,6 +2232,9 @@
    }
   },
   "issues": [],
+  "unredacted_pages": [
+   13
+  ],
   "ms_label_fixes": [],
   "question_numbers": [
    1,
@@ -3324,6 +3333,9 @@
    }
   },
   "issues": [],
+  "unredacted_pages": [
+   2
+  ],
   "ms_text_layout": true,
   "ms_label_fixes": [],
   "question_numbers": [
@@ -3715,6 +3727,9 @@
    }
   },
   "issues": [],
+  "unredacted_pages": [
+   8
+  ],
   "ms_appendix": {
    "attached": 2,
    "unattached": [],
@@ -3782,6 +3797,9 @@
    }
   },
   "issues": [],
+  "unredacted_pages": [
+   6
+  ],
   "ms_appendix": {
    "attached": 3,
    "unattached": [],
@@ -3843,6 +3861,9 @@
    }
   },
   "issues": [],
+  "unredacted_pages": [
+   8
+  ],
   "ms_appendix": {
    "attached": 2,
    "unattached": [],

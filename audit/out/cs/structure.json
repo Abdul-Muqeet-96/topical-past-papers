@@ -1,0 +1,77 @@
+{
+ "P1": {
+  "info": {
+   "kinds": {
+    "cover": 1,
+    "contents": 1,
+    "unit_title": 8,
+    "question": 629,
+    "answers": 453,
+    "index": 11
+   },
+   "cover": {
+    "papers": 90,
+    "items": 664,
+    "marks": 4663,
+    "cross_filed": 34
+   },
+   "contents_entries": 17,
+   "bad_headers": 0,
+   "bad_numbers": 0,
+   "order_violations": 0,
+   "index_rows": 664,
+   "index_refs_truncated": 0
+  },
+  "fail": []
+ },
+ "P2": {
+  "info": {
+   "kinds": {
+    "cover": 1,
+    "contents": 1,
+    "unit_title": 4,
+    "question": 818,
+    "answers": 665,
+    "index": 11,
+    "appendix": 3
+   },
+   "cover": {
+    "papers": 65,
+    "items": 688,
+    "marks": 4692,
+    "cross_filed": 0
+   },
+   "contents_entries": 10,
+   "bad_headers": 0,
+   "bad_numbers": 0,
+   "order_violations": 0,
+   "index_rows": 688,
+   "index_refs_truncated": 0,
+   "appendix": {
+    "pages": [
+     1501,
+     1502,
+     1503
+    ],
+    "banner": [
+     "Appendix: Insert: pseudocode functions and operators (from M/J 26/P23)"
+    ],
+    "newest_series_inserts": [
+     "9618_s26_in_21.pdf",
+     "9618_s26_in_22.pdf",
+     "9618_s26_in_23.pdf"
+    ],
+    "named": "9618_s26_in_23.pdf",
+    "source_tokens": 780,
+    "missing": 2,
+    "extra": 0,
+    "missing_examples": [
+     "Turn",
+     "over"
+    ],
+    "extra_examples": []
+   }
+  },
+  "fail": []
+ }
+}

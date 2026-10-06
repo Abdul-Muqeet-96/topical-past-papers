@@ -44,28 +44,28 @@ Stages finished: 0, 1, 2, 3, 4 (see `λ-cs/state_cs.json`). Books contain: Phase
 
 | File | Size |
 |---|---|
-| λ-cs/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf (1118 pages) | 21.1 MB |
-| λ-cs/p1-topical-workbook/units/Unit-01-Information-representation.pdf | 8.0 MB |
+| λ-cs/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf (1103 pages) | 21.4 MB |
+| λ-cs/p1-topical-workbook/units/Unit-01-Information-representation.pdf | 7.9 MB |
 | λ-cs/p1-topical-workbook/units/Unit-02-Communication.pdf | 5.1 MB |
 | λ-cs/p1-topical-workbook/units/Unit-03-Hardware.pdf | 6.7 MB |
-| λ-cs/p1-topical-workbook/units/Unit-04-Processor-Fundamentals.pdf | 8.0 MB |
-| λ-cs/p1-topical-workbook/units/Unit-05-System-Software.pdf | 7.9 MB |
-| λ-cs/p1-topical-workbook/units/Unit-06-Security-privacy-and-data-integrity.pdf | 6.3 MB |
+| λ-cs/p1-topical-workbook/units/Unit-04-Processor-Fundamentals.pdf | 7.9 MB |
+| λ-cs/p1-topical-workbook/units/Unit-05-System-Software.pdf | 7.8 MB |
+| λ-cs/p1-topical-workbook/units/Unit-06-Security-privacy-and-data-integrity.pdf | 6.6 MB |
 | λ-cs/p1-topical-workbook/units/Unit-07-Ethics-and-Ownership.pdf | 3.9 MB |
 | λ-cs/p1-topical-workbook/units/Unit-08-Databases.pdf | 7.6 MB |
 | λ-cs/p1-topical-workbook/index.csv | 28 KB |
 | λ-cs/p1-topical-workbook/items.jsonl | 1.3 MB |
 | λ-cs/p1-topical-workbook/topics.json | 0.7 MB |
-| λ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf (1531 pages) | 25.0 MB |
+| λ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf (1503 pages) | 25.1 MB |
 | λ-cs/p2-topical-workbook/units/Unit-09-Algorithm-Design-and-Problem-solving.pdf | 12.9 MB |
-| λ-cs/p2-topical-workbook/units/Unit-10-Data-Types-and-Structures.pdf | 13.6 MB |
-| λ-cs/p2-topical-workbook/units/Unit-11-Programming.pdf | 13.4 MB |
-| λ-cs/p2-topical-workbook/units/Unit-12-Software-Development.pdf | 13.3 MB |
+| λ-cs/p2-topical-workbook/units/Unit-10-Data-Types-and-Structures.pdf | 13.5 MB |
+| λ-cs/p2-topical-workbook/units/Unit-11-Programming.pdf | 14.0 MB |
+| λ-cs/p2-topical-workbook/units/Unit-12-Software-Development.pdf | 13.2 MB |
 | λ-cs/p2-topical-workbook/index.csv | 29 KB |
-| λ-cs/p2-topical-workbook/items.jsonl | 1.6 MB |
+| λ-cs/p2-topical-workbook/items.jsonl | 1.8 MB |
 | λ-cs/p2-topical-workbook/topics.json | 0.5 MB |
-| λ-cs/report.md | 61 KB |
-| λ-cs/layout.md | 2 KB |
+| λ-cs/report.md | 73 KB |
+| λ-cs/layout.md | 3 KB |
 
 No file exceeds 95 MB, so everything is pushed. Per-unit PDFs keep the full book's page numbers (so they match index.csv).
 

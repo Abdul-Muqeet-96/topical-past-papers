@@ -1,0 +1,2852 @@
+[
+{
+"book": 1,
+"page": 12,
+"free_pt": 443,
+"next_starts_new_item": true,
+"next_block_h": 495,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 25/P13/Q1/a,b,c"
+},
+{
+"book": 1,
+"page": 15,
+"free_pt": 516,
+"next_starts_new_item": true,
+"next_block_h": 593,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 25/P11/Q3/a,b"
+},
+{
+"book": 1,
+"page": 20,
+"free_pt": 348,
+"next_starts_new_item": true,
+"next_block_h": 400,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 24/P13/Q6/a,b,c"
+},
+{
+"book": 1,
+"page": 26,
+"free_pt": 356,
+"next_starts_new_item": true,
+"next_block_h": 363,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 23/P12/Q3/a,b,c"
+},
+{
+"book": 1,
+"page": 39,
+"free_pt": 406,
+"next_starts_new_item": true,
+"next_block_h": 543,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 21/P12/Q4/a,b,c,d,e"
+},
+{
+"book": 1,
+"page": 43,
+"free_pt": 406,
+"next_starts_new_item": true,
+"next_block_h": 473,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "9608 O/N 21/P11/Q1/a,b,c"
+},
+{
+"book": 1,
+"page": 50,
+"free_pt": 479,
+"next_starts_new_item": true,
+"next_block_h": 498,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "9608 M/J 21/P11/Q2/a,b,c"
+},
+{
+"book": 1,
+"page": 53,
+"free_pt": 371,
+"next_starts_new_item": true,
+"next_block_h": 727,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "9608 M/J 21/P12/Q3/c"
+},
+{
+"book": 1,
+"page": 59,
+"free_pt": 361,
+"next_starts_new_item": true,
+"next_block_h": 596,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 20/P11/Q4/a,b,c"
+},
+{
+"book": 1,
+"page": 68,
+"free_pt": 369,
+"next_starts_new_item": true,
+"next_block_h": 636,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 19/P13/Q5/a,c"
+},
+{
+"book": 1,
+"page": 77,
+"free_pt": 346,
+"next_starts_new_item": true,
+"next_block_h": 519,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 18/P12/Q4/a,b"
+},
+{
+"book": 1,
+"page": 82,
+"free_pt": 428,
+"next_starts_new_item": true,
+"next_block_h": 565,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 17/P11/Q3/a,b"
+},
+{
+"book": 1,
+"page": 94,
+"free_pt": 337,
+"next_starts_new_item": true,
+"next_block_h": 686,
+"next_first_band_h": 27,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 16/P11/Q4/a,b"
+},
+{
+"book": 1,
+"page": 96,
+"free_pt": 390,
+"next_starts_new_item": true,
+"next_block_h": 686,
+"next_first_band_h": 27,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 16/P12/Q4/a,b"
+},
+{
+"book": 1,
+"page": 98,
+"free_pt": 392,
+"next_starts_new_item": false,
+"next_block_h": 724,
+"next_first_band_h": 14,
+"cause": "figure or block kept together",
+"ref": "O/N 15/P11/Q8/a,b"
+},
+{
+"book": 1,
+"page": 127,
+"free_pt": 424,
+"next_starts_new_item": true,
+"next_block_h": 505,
+"next_first_band_h": 505,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 23/P13/Q7/a"
+},
+{
+"book": 1,
+"page": 165,
+"free_pt": 653,
+"next_starts_new_item": true,
+"next_block_h": 728,
+"next_first_band_h": 671,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 15/P13/Q8/a,b"
+},
+{
+"book": 1,
+"page": 185,
+"free_pt": 339,
+"next_starts_new_item": true,
+"next_block_h": 426,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 23/P12/Q1/a,b,c,d,e"
+},
+{
+"book": 1,
+"page": 196,
+"free_pt": 421,
+"next_starts_new_item": true,
+"next_block_h": 657,
+"next_first_band_h": 42,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 20/P13/Q1/a,b,c"
+},
+{
+"book": 1,
+"page": 205,
+"free_pt": 371,
+"next_starts_new_item": true,
+"next_block_h": 358,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 18/P11/Q1"
+},
+{
+"book": 1,
+"page": 206,
+"free_pt": 370,
+"next_starts_new_item": true,
+"next_block_h": 339,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 18/P11/Q5/a,b"
+},
+{
+"book": 1,
+"page": 207,
+"free_pt": 390,
+"next_starts_new_item": true,
+"next_block_h": 454,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 17/P12/Q6/a,b"
+},
+{
+"book": 1,
+"page": 213,
+"free_pt": 457,
+"next_starts_new_item": true,
+"next_block_h": 496,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 15/P11/Q7/a,b"
+},
+{
+"book": 1,
+"page": 216,
+"free_pt": 457,
+"next_starts_new_item": true,
+"next_block_h": 496,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 15/P13/Q7/a,b"
+},
+{
+"book": 1,
+"page": 268,
+"free_pt": 445,
+"next_starts_new_item": true,
+"next_block_h": 553,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 25/P12/Q9/a,b"
+},
+{
+"book": 1,
+"page": 270,
+"free_pt": 591,
+"next_starts_new_item": true,
+"next_block_h": 572,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 25/P13/Q3/a,b"
+},
+{
+"book": 1,
+"page": 275,
+"free_pt": 356,
+"next_starts_new_item": true,
+"next_block_h": 724,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 25/P12/Q4/a,b"
+},
+{
+"book": 1,
+"page": 283,
+"free_pt": 412,
+"next_starts_new_item": true,
+"next_block_h": 700,
+"next_first_band_h": 16,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 24/P11/Q1/a,b"
+},
+{
+"book": 1,
+"page": 286,
+"free_pt": 384,
+"next_starts_new_item": true,
+"next_block_h": 497,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 24/P12/Q1/a,b"
+},
+{
+"book": 1,
+"page": 292,
+"free_pt": 337,
+"next_starts_new_item": true,
+"next_block_h": 408,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 23/P12/Q1/a,b,c"
+},
+{
+"book": 1,
+"page": 300,
+"free_pt": 530,
+"next_starts_new_item": true,
+"next_block_h": 679,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 22/P11/Q3/a,b"
+},
+{
+"book": 1,
+"page": 302,
+"free_pt": 542,
+"next_starts_new_item": false,
+"next_block_h": 634,
+"next_first_band_h": 17,
+"cause": "figure or block kept together",
+"ref": "O/N 22/P12/Q3/a,b,c"
+},
+{
+"book": 1,
+"page": 310,
+"free_pt": 563,
+"next_starts_new_item": true,
+"next_block_h": 540,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "9608 O/N 21/P11/Q4/a,c"
+},
+{
+"book": 1,
+"page": 313,
+"free_pt": 570,
+"next_starts_new_item": true,
+"next_block_h": 667,
+"next_first_band_h": 16,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 21/P12/Q3/a,b"
+},
+{
+"book": 1,
+"page": 331,
+"free_pt": 616,
+"next_starts_new_item": true,
+"next_block_h": 654,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 19/P13/Q5/a,b"
+},
+{
+"book": 1,
+"page": 333,
+"free_pt": 464,
+"next_starts_new_item": true,
+"next_block_h": 616,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 19/P12/Q6/a,b"
+},
+{
+"book": 1,
+"page": 345,
+"free_pt": 500,
+"next_starts_new_item": true,
+"next_block_h": 620,
+"next_first_band_h": 32,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 17/P13/Q2/a(i),b"
+},
+{
+"book": 1,
+"page": 429,
+"free_pt": 368,
+"next_starts_new_item": true,
+"next_block_h": 524,
+"next_first_band_h": 524,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 15/P12/Q7/a,b"
+},
+{
+"book": 1,
+"page": 432,
+"free_pt": 484,
+"next_starts_new_item": true,
+"next_block_h": 633,
+"next_first_band_h": 633,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 15/P13/Q4/a,b,c"
+},
+{
+"book": 1,
+"page": 439,
+"free_pt": 517,
+"next_starts_new_item": false,
+"next_block_h": 715,
+"next_first_band_h": 14,
+"cause": "figure or block kept together",
+"ref": "M/J 26/P11/Q3/a,b,c"
+},
+{
+"book": 1,
+"page": 448,
+"free_pt": 431,
+"next_starts_new_item": true,
+"next_block_h": 440,
+"next_first_band_h": 27,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 25/P11/Q8/a,b"
+},
+{
+"book": 1,
+"page": 453,
+"free_pt": 340,
+"next_starts_new_item": true,
+"next_block_h": 723,
+"next_first_band_h": 27,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 25/P13/Q5/a,b"
+},
+{
+"book": 1,
+"page": 458,
+"free_pt": 571,
+"next_starts_new_item": true,
+"next_block_h": 569,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 24/P12/Q3/a,b"
+},
+{
+"book": 1,
+"page": 462,
+"free_pt": 430,
+"next_starts_new_item": true,
+"next_block_h": 452,
+"next_first_band_h": 27,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 24/P13/Q7/a,b"
+},
+{
+"book": 1,
+"page": 479,
+"free_pt": 575,
+"next_starts_new_item": false,
+"next_block_h": 686,
+"next_first_band_h": 686,
+"cause": "figure or block kept together",
+"ref": "O/N 23/P12/Q9/a,b"
+},
+{
+"book": 1,
+"page": 486,
+"free_pt": 432,
+"next_starts_new_item": true,
+"next_block_h": 548,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 22/P11/Q5/a,b,c,d"
+},
+{
+"book": 1,
+"page": 492,
+"free_pt": 377,
+"next_starts_new_item": true,
+"next_block_h": 436,
+"next_first_band_h": 28,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 22/P12/Q7/a,b,c"
+},
+{
+"book": 1,
+"page": 512,
+"free_pt": 406,
+"next_starts_new_item": false,
+"next_block_h": 714,
+"next_first_band_h": 16,
+"cause": "figure or block kept together",
+"ref": "M/J 21/P11/Q3/a,b,c"
+},
+{
+"book": 1,
+"page": 514,
+"free_pt": 463,
+"next_starts_new_item": true,
+"next_block_h": 717,
+"next_first_band_h": 28,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 21/P12/Q4/a,b(ii,iii)"
+},
+{
+"book": 1,
+"page": 520,
+"free_pt": 406,
+"next_starts_new_item": false,
+"next_block_h": 714,
+"next_first_band_h": 16,
+"cause": "figure or block kept together",
+"ref": "M/J 21/P13/Q3/a,b,c"
+},
+{
+"book": 1,
+"page": 523,
+"free_pt": 485,
+"next_starts_new_item": false,
+"next_block_h": 743,
+"next_first_band_h": 17,
+"cause": "figure or block kept together",
+"ref": "9608 M/J 21/P11/Q3/a,b,d"
+},
+{
+"book": 1,
+"page": 528,
+"free_pt": 591,
+"next_starts_new_item": true,
+"next_block_h": 641,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "9608 M/J 21/P13/Q3/a,b,d"
+},
+{
+"book": 1,
+"page": 531,
+"free_pt": 563,
+"next_starts_new_item": true,
+"next_block_h": 553,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 20/P11/Q6/a,b"
+},
+{
+"book": 1,
+"page": 534,
+"free_pt": 373,
+"next_starts_new_item": false,
+"next_block_h": 717,
+"next_first_band_h": 29,
+"cause": "figure or block kept together",
+"ref": "M/J 20/P12/Q5/a,c"
+},
+{
+"book": 1,
+"page": 546,
+"free_pt": 564,
+"next_starts_new_item": false,
+"next_block_h": 678,
+"next_first_band_h": 678,
+"cause": "figure or block kept together",
+"ref": "O/N 18/P11/Q4/a,b,d"
+},
+{
+"book": 1,
+"page": 554,
+"free_pt": 485,
+"next_starts_new_item": false,
+"next_block_h": 673,
+"next_first_band_h": 673,
+"cause": "figure or block kept together",
+"ref": "O/N 18/P13/Q2/a,b(iv),c"
+},
+{
+"book": 1,
+"page": 572,
+"free_pt": 604,
+"next_starts_new_item": false,
+"next_block_h": 730,
+"next_first_band_h": 27,
+"cause": "figure or block kept together",
+"ref": "O/N 16/P11/Q8/a,b"
+},
+{
+"book": 1,
+"page": 575,
+"free_pt": 469,
+"next_starts_new_item": false,
+"next_block_h": 624,
+"next_first_band_h": 14,
+"cause": "figure or block kept together",
+"ref": "O/N 16/P12/Q5/a,b"
+},
+{
+"book": 1,
+"page": 578,
+"free_pt": 604,
+"next_starts_new_item": false,
+"next_block_h": 730,
+"next_first_band_h": 27,
+"cause": "figure or block kept together",
+"ref": "O/N 16/P13/Q8/a,b"
+},
+{
+"book": 1,
+"page": 580,
+"free_pt": 466,
+"next_starts_new_item": true,
+"next_block_h": 691,
+"next_first_band_h": 27,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 16/P11/Q9/a,b"
+},
+{
+"book": 1,
+"page": 584,
+"free_pt": 466,
+"next_starts_new_item": true,
+"next_block_h": 691,
+"next_first_band_h": 27,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 16/P12/Q9/a,b"
+},
+{
+"book": 1,
+"page": 590,
+"free_pt": 345,
+"next_starts_new_item": true,
+"next_block_h": 463,
+"next_first_band_h": 26,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 15/P11/Q2/a,b"
+},
+{
+"book": 1,
+"page": 597,
+"free_pt": 435,
+"next_starts_new_item": true,
+"next_block_h": 595,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 15/P13/Q5/a,b,c,d"
+},
+{
+"book": 1,
+"page": 608,
+"free_pt": 342,
+"next_starts_new_item": true,
+"next_block_h": 659,
+"next_first_band_h": 405,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 25/P13/Q5/a,b"
+},
+{
+"book": 1,
+"page": 623,
+"free_pt": 488,
+"next_starts_new_item": true,
+"next_block_h": 720,
+"next_first_band_h": 661,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 22/P11/Q6/a,b,c"
+},
+{
+"book": 1,
+"page": 632,
+"free_pt": 349,
+"next_starts_new_item": true,
+"next_block_h": 372,
+"next_first_band_h": 372,
+"cause": "next item kept whole or its start kept together",
+"ref": "9608 O/N 21/P11/Q8"
+},
+{
+"book": 1,
+"page": 639,
+"free_pt": 361,
+"next_starts_new_item": true,
+"next_block_h": 675,
+"next_first_band_h": 645,
+"cause": "next item kept whole or its start kept together",
+"ref": "9608 M/J 21/P12/Q3/a,b,d"
+},
+{
+"book": 1,
+"page": 643,
+"free_pt": 438,
+"next_starts_new_item": false,
+"next_block_h": 693,
+"next_first_band_h": 693,
+"cause": "figure or block kept together",
+"ref": "M/J 20/P12/Q5/a,c"
+},
+{
+"book": 1,
+"page": 666,
+"free_pt": 539,
+"next_starts_new_item": true,
+"next_block_h": 532,
+"next_first_band_h": 532,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 15/P11/Q3"
+},
+{
+"book": 1,
+"page": 668,
+"free_pt": 363,
+"next_starts_new_item": false,
+"next_block_h": 427,
+"next_first_band_h": 427,
+"cause": "figure or block kept together",
+"ref": "M/J 15/P11/Q8/a,b,c"
+},
+{
+"book": 1,
+"page": 671,
+"free_pt": 363,
+"next_starts_new_item": false,
+"next_block_h": 427,
+"next_first_band_h": 427,
+"cause": "figure or block kept together",
+"ref": "M/J 15/P12/Q8/a,b,c"
+},
+{
+"book": 1,
+"page": 676,
+"free_pt": 480,
+"next_starts_new_item": true,
+"next_block_h": 447,
+"next_first_band_h": 16,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 26/P12/Q7/a,b"
+},
+{
+"book": 1,
+"page": 688,
+"free_pt": 380,
+"next_starts_new_item": true,
+"next_block_h": 346,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 23/P11/Q6/a,b,c"
+},
+{
+"book": 1,
+"page": 691,
+"free_pt": 363,
+"next_starts_new_item": false,
+"next_block_h": 464,
+"next_first_band_h": 16,
+"cause": "figure or block kept together",
+"ref": "M/J 23/P12/Q7/a,b,c"
+},
+{
+"book": 1,
+"page": 694,
+"free_pt": 554,
+"next_starts_new_item": true,
+"next_block_h": 574,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 22/P12/Q1/a,b"
+},
+{
+"book": 1,
+"page": 696,
+"free_pt": 345,
+"next_starts_new_item": true,
+"next_block_h": 429,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 21/P11/Q4/b(ii),d"
+},
+{
+"book": 1,
+"page": 700,
+"free_pt": 530,
+"next_starts_new_item": true,
+"next_block_h": 562,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 21/P11/Q2/a,b"
+},
+{
+"book": 1,
+"page": 702,
+"free_pt": 419,
+"next_starts_new_item": true,
+"next_block_h": 562,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 21/P13/Q2/a,b"
+},
+{
+"book": 1,
+"page": 712,
+"free_pt": 358,
+"next_starts_new_item": true,
+"next_block_h": 367,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 19/P11/Q2/b,c,d"
+},
+{
+"book": 1,
+"page": 713,
+"free_pt": 362,
+"next_starts_new_item": true,
+"next_block_h": 466,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 19/P12/Q1/a,b"
+},
+{
+"book": 1,
+"page": 716,
+"free_pt": 349,
+"next_starts_new_item": true,
+"next_block_h": 413,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 19/P11/Q3/a,b"
+},
+{
+"book": 1,
+"page": 718,
+"free_pt": 357,
+"next_starts_new_item": true,
+"next_block_h": 644,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 19/P13/Q1/a,b"
+},
+{
+"book": 1,
+"page": 722,
+"free_pt": 366,
+"next_starts_new_item": true,
+"next_block_h": 622,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 18/P12/Q1/a,b"
+},
+{
+"book": 1,
+"page": 729,
+"free_pt": 699,
+"next_starts_new_item": true,
+"next_block_h": 661,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 17/P11/Q6/a,b"
+},
+{
+"book": 1,
+"page": 749,
+"free_pt": 398,
+"next_starts_new_item": false,
+"next_block_h": 572,
+"next_first_band_h": 424,
+"cause": "figure or block kept together",
+"ref": "M/J 24/P12/Q8/a,b,c"
+},
+{
+"book": 1,
+"page": 761,
+"free_pt": 358,
+"next_starts_new_item": true,
+"next_block_h": 510,
+"next_first_band_h": 347,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 21/P11/Q2/a,b"
+},
+{
+"book": 1,
+"page": 785,
+"free_pt": 439,
+"next_starts_new_item": false,
+"next_block_h": 681,
+"next_first_band_h": 629,
+"cause": "figure or block kept together",
+"ref": "O/N 17/P22/Q4/b"
+},
+{
+"book": 1,
+"page": 790,
+"free_pt": 382,
+"next_starts_new_item": true,
+"next_block_h": 558,
+"next_first_band_h": 558,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 16/P12/Q7"
+},
+{
+"book": 1,
+"page": 807,
+"free_pt": 438,
+"next_starts_new_item": true,
+"next_block_h": 413,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 25/P13/Q3/b"
+},
+{
+"book": 1,
+"page": 813,
+"free_pt": 423,
+"next_starts_new_item": true,
+"next_block_h": 411,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 23/P13/Q4/d"
+},
+{
+"book": 1,
+"page": 818,
+"free_pt": 354,
+"next_starts_new_item": true,
+"next_block_h": 433,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 21/P13/Q2/a,b,c"
+},
+{
+"book": 1,
+"page": 821,
+"free_pt": 418,
+"next_starts_new_item": true,
+"next_block_h": 498,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 21/P13/Q6/a,b,c"
+},
+{
+"book": 1,
+"page": 823,
+"free_pt": 412,
+"next_starts_new_item": true,
+"next_block_h": 499,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "9608 M/J 21/P12/Q5/e(ii)"
+},
+{
+"book": 1,
+"page": 825,
+"free_pt": 506,
+"next_starts_new_item": true,
+"next_block_h": 529,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "9608 M/J 21/P13/Q1/a,b"
+},
+{
+"book": 1,
+"page": 827,
+"free_pt": 455,
+"next_starts_new_item": true,
+"next_block_h": 479,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 20/P11/Q1/a,b"
+},
+{
+"book": 1,
+"page": 831,
+"free_pt": 360,
+"next_starts_new_item": true,
+"next_block_h": 683,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 18/P11/Q6/a,b,c,d"
+},
+{
+"book": 1,
+"page": 835,
+"free_pt": 369,
+"next_starts_new_item": true,
+"next_block_h": 488,
+"next_first_band_h": 32,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 17/P13/Q3/a,b"
+},
+{
+"book": 1,
+"page": 839,
+"free_pt": 443,
+"next_starts_new_item": false,
+"next_block_h": 723,
+"next_first_band_h": 127,
+"cause": "figure or block kept together",
+"ref": "M/J 17/P12/Q6/c(v)"
+},
+{
+"book": 1,
+"page": 854,
+"free_pt": 390,
+"next_starts_new_item": true,
+"next_block_h": 376,
+"next_first_band_h": 376,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 25/P12/Q5/e"
+},
+{
+"book": 1,
+"page": 898,
+"free_pt": 337,
+"next_starts_new_item": true,
+"next_block_h": 425,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 21/P12/Q2/a,b,c"
+},
+{
+"book": 1,
+"page": 900,
+"free_pt": 350,
+"next_starts_new_item": true,
+"next_block_h": 506,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "9608 M/J 21/P11/Q7/a,b,c"
+},
+{
+"book": 1,
+"page": 954,
+"free_pt": 440,
+"next_starts_new_item": true,
+"next_block_h": 485,
+"next_first_band_h": 27,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 24/P12/Q6/a,b"
+},
+{
+"book": 1,
+"page": 958,
+"free_pt": 388,
+"next_starts_new_item": true,
+"next_block_h": 560,
+"next_first_band_h": 33,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 24/P12/Q4/a,b,c,d"
+},
+{
+"book": 1,
+"page": 975,
+"free_pt": 379,
+"next_starts_new_item": true,
+"next_block_h": 518,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "9608 O/N 21/P11/Q9/a,b"
+},
+{
+"book": 1,
+"page": 1088,
+"free_pt": 512,
+"next_starts_new_item": false,
+"next_block_h": 663,
+"next_first_band_h": 541,
+"cause": "figure or block kept together",
+"ref": "M/J 15/P11/Q9/a,b,c"
+},
+{
+"book": 2,
+"page": 16,
+"free_pt": 346,
+"next_starts_new_item": true,
+"next_block_h": 394,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 24/P22/Q7/a,b"
+},
+{
+"book": 2,
+"page": 18,
+"free_pt": 468,
+"next_starts_new_item": true,
+"next_block_h": 589,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 24/P23/Q3/b,c"
+},
+{
+"book": 2,
+"page": 20,
+"free_pt": 346,
+"next_starts_new_item": true,
+"next_block_h": 397,
+"next_first_band_h": 16,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 24/P21/Q1/c"
+},
+{
+"book": 2,
+"page": 25,
+"free_pt": 534,
+"next_starts_new_item": false,
+"next_block_h": 663,
+"next_first_band_h": 642,
+"cause": "figure or block kept together",
+"ref": "M/J 24/P22/Q2/a,b"
+},
+{
+"book": 2,
+"page": 30,
+"free_pt": 665,
+"next_starts_new_item": false,
+"next_block_h": 713,
+"next_first_band_h": 14,
+"cause": "figure or block kept together",
+"ref": "M/J 24/P23/Q3/b"
+},
+{
+"book": 2,
+"page": 33,
+"free_pt": 433,
+"next_starts_new_item": true,
+"next_block_h": 715,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 23/P22/Q2/a"
+},
+{
+"book": 2,
+"page": 44,
+"free_pt": 466,
+"next_starts_new_item": true,
+"next_block_h": 698,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 22/P22/Q4/a"
+},
+{
+"book": 2,
+"page": 52,
+"free_pt": 444,
+"next_starts_new_item": true,
+"next_block_h": 424,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 21/P22/Q4/b"
+},
+{
+"book": 2,
+"page": 74,
+"free_pt": 606,
+"next_starts_new_item": false,
+"next_block_h": 603,
+"next_first_band_h": 29,
+"cause": "figure or block kept together",
+"ref": "M/J 20/P23/Q3/a"
+},
+{
+"book": 2,
+"page": 82,
+"free_pt": 423,
+"next_starts_new_item": true,
+"next_block_h": 414,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 19/P22/Q1/a"
+},
+{
+"book": 2,
+"page": 90,
+"free_pt": 368,
+"next_starts_new_item": false,
+"next_block_h": 608,
+"next_first_band_h": 19,
+"cause": "figure or block kept together",
+"ref": "M/J 18/P21/Q2/a"
+},
+{
+"book": 2,
+"page": 94,
+"free_pt": 517,
+"next_starts_new_item": true,
+"next_block_h": 645,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 18/P22/Q2/a"
+},
+{
+"book": 2,
+"page": 102,
+"free_pt": 415,
+"next_starts_new_item": true,
+"next_block_h": 466,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 17/P21/Q1/a"
+},
+{
+"book": 2,
+"page": 118,
+"free_pt": 372,
+"next_starts_new_item": false,
+"next_block_h": 447,
+"next_first_band_h": 26,
+"cause": "figure or block kept together",
+"ref": "O/N 16/P23/Q1/a,b,c"
+},
+{
+"book": 2,
+"page": 129,
+"free_pt": 368,
+"next_starts_new_item": false,
+"next_block_h": 685,
+"next_first_band_h": 668,
+"cause": "figure or block kept together",
+"ref": "O/N 15/P21/Q4"
+},
+{
+"book": 2,
+"page": 133,
+"free_pt": 433,
+"next_starts_new_item": false,
+"next_block_h": 728,
+"next_first_band_h": 712,
+"cause": "figure or block kept together",
+"ref": "O/N 15/P22/Q3"
+},
+{
+"book": 2,
+"page": 139,
+"free_pt": 368,
+"next_starts_new_item": false,
+"next_block_h": 685,
+"next_first_band_h": 668,
+"cause": "figure or block kept together",
+"ref": "O/N 15/P23/Q4"
+},
+{
+"book": 2,
+"page": 147,
+"free_pt": 505,
+"next_starts_new_item": true,
+"next_block_h": 537,
+"next_first_band_h": 537,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 25/P21/Q2"
+},
+{
+"book": 2,
+"page": 162,
+"free_pt": 464,
+"next_starts_new_item": true,
+"next_block_h": 602,
+"next_first_band_h": 602,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 24/P21/Q2/a"
+},
+{
+"book": 2,
+"page": 165,
+"free_pt": 404,
+"next_starts_new_item": true,
+"next_block_h": 610,
+"next_first_band_h": 610,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 24/P22/Q2/a,b"
+},
+{
+"book": 2,
+"page": 179,
+"free_pt": 368,
+"next_starts_new_item": true,
+"next_block_h": 689,
+"next_first_band_h": 689,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 22/P22/Q4/a"
+},
+{
+"book": 2,
+"page": 188,
+"free_pt": 433,
+"next_starts_new_item": true,
+"next_block_h": 646,
+"next_first_band_h": 646,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 21/P21/Q2/c"
+},
+{
+"book": 2,
+"page": 200,
+"free_pt": 471,
+"next_starts_new_item": true,
+"next_block_h": 483,
+"next_first_band_h": 483,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 20/P21/Q3/a"
+},
+{
+"book": 2,
+"page": 203,
+"free_pt": 479,
+"next_starts_new_item": true,
+"next_block_h": 493,
+"next_first_band_h": 493,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 20/P23/Q2/c"
+},
+{
+"book": 2,
+"page": 211,
+"free_pt": 616,
+"next_starts_new_item": true,
+"next_block_h": 627,
+"next_first_band_h": 627,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 19/P23/Q1/a"
+},
+{
+"book": 2,
+"page": 219,
+"free_pt": 355,
+"next_starts_new_item": true,
+"next_block_h": 552,
+"next_first_band_h": 552,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 18/P22/Q3"
+},
+{
+"book": 2,
+"page": 224,
+"free_pt": 549,
+"next_starts_new_item": true,
+"next_block_h": 655,
+"next_first_band_h": 554,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 17/P22/Q2/b"
+},
+{
+"book": 2,
+"page": 230,
+"free_pt": 560,
+"next_starts_new_item": true,
+"next_block_h": 650,
+"next_first_band_h": 650,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 16/P21/Q1/a,b,c"
+},
+{
+"book": 2,
+"page": 233,
+"free_pt": 672,
+"next_starts_new_item": true,
+"next_block_h": 705,
+"next_first_band_h": 634,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 16/P22/Q1/a,b,c"
+},
+{
+"book": 2,
+"page": 238,
+"free_pt": 445,
+"next_starts_new_item": false,
+"next_block_h": 470,
+"next_first_band_h": 12,
+"cause": "figure or block kept together",
+"ref": "M/J 16/P21/Q2/a,b"
+},
+{
+"book": 2,
+"page": 247,
+"free_pt": 470,
+"next_starts_new_item": true,
+"next_block_h": 500,
+"next_first_band_h": 500,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 15/P23/Q4"
+},
+{
+"book": 2,
+"page": 252,
+"free_pt": 429,
+"next_starts_new_item": true,
+"next_block_h": 503,
+"next_first_band_h": 27,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 26/P21/Q6/c"
+},
+{
+"book": 2,
+"page": 274,
+"free_pt": 400,
+"next_starts_new_item": true,
+"next_block_h": 652,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 25/P22/Q4/a,b"
+},
+{
+"book": 2,
+"page": 280,
+"free_pt": 419,
+"next_starts_new_item": true,
+"next_block_h": 584,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 25/P21/Q5"
+},
+{
+"book": 2,
+"page": 296,
+"free_pt": 397,
+"next_starts_new_item": true,
+"next_block_h": 548,
+"next_first_band_h": 27,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 24/P22/Q3/a,b"
+},
+{
+"book": 2,
+"page": 306,
+"free_pt": 571,
+"next_starts_new_item": true,
+"next_block_h": 654,
+"next_first_band_h": 16,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 24/P21/Q8/b"
+},
+{
+"book": 2,
+"page": 327,
+"free_pt": 362,
+"next_starts_new_item": true,
+"next_block_h": 486,
+"next_first_band_h": 33,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 23/P21/Q6"
+},
+{
+"book": 2,
+"page": 330,
+"free_pt": 389,
+"next_starts_new_item": true,
+"next_block_h": 650,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 23/P22/Q3/a"
+},
+{
+"book": 2,
+"page": 343,
+"free_pt": 394,
+"next_starts_new_item": true,
+"next_block_h": 437,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 22/P23/Q5/b(i)"
+},
+{
+"book": 2,
+"page": 357,
+"free_pt": 439,
+"next_starts_new_item": true,
+"next_block_h": 554,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 21/P23/Q5/a,c"
+},
+{
+"book": 2,
+"page": 360,
+"free_pt": 365,
+"next_starts_new_item": true,
+"next_block_h": 451,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 21/P21/Q3/a,b"
+},
+{
+"book": 2,
+"page": 364,
+"free_pt": 536,
+"next_starts_new_item": true,
+"next_block_h": 683,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 21/P22/Q8/a"
+},
+{
+"book": 2,
+"page": 372,
+"free_pt": 351,
+"next_starts_new_item": true,
+"next_block_h": 317,
+"next_first_band_h": 33,
+"cause": "next item kept whole or its start kept together",
+"ref": "9608 M/J 21/P22/Q4/b"
+},
+{
+"book": 2,
+"page": 383,
+"free_pt": 472,
+"next_starts_new_item": true,
+"next_block_h": 459,
+"next_first_band_h": 20,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 20/P22/Q5/b"
+},
+{
+"book": 2,
+"page": 388,
+"free_pt": 362,
+"next_starts_new_item": true,
+"next_block_h": 458,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 19/P21/Q1/b(i)"
+},
+{
+"book": 2,
+"page": 414,
+"free_pt": 449,
+"next_starts_new_item": true,
+"next_block_h": 589,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 18/P23/Q4/a(ii),d(i)"
+},
+{
+"book": 2,
+"page": 416,
+"free_pt": 425,
+"next_starts_new_item": true,
+"next_block_h": 576,
+"next_first_band_h": 32,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 18/P21/Q5/a,c"
+},
+{
+"book": 2,
+"page": 428,
+"free_pt": 393,
+"next_starts_new_item": true,
+"next_block_h": 386,
+"next_first_band_h": 21,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 17/P22/Q2/a"
+},
+{
+"book": 2,
+"page": 429,
+"free_pt": 343,
+"next_starts_new_item": true,
+"next_block_h": 626,
+"next_first_band_h": 32,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 17/P22/Q4/a"
+},
+{
+"book": 2,
+"page": 436,
+"free_pt": 619,
+"next_starts_new_item": true,
+"next_block_h": 684,
+"next_first_band_h": 32,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 17/P21/Q5"
+},
+{
+"book": 2,
+"page": 439,
+"free_pt": 619,
+"next_starts_new_item": true,
+"next_block_h": 684,
+"next_first_band_h": 32,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 17/P23/Q5"
+},
+{
+"book": 2,
+"page": 451,
+"free_pt": 641,
+"next_starts_new_item": true,
+"next_block_h": 691,
+"next_first_band_h": 27,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 16/P21/Q5/a,b"
+},
+{
+"book": 2,
+"page": 455,
+"free_pt": 641,
+"next_starts_new_item": true,
+"next_block_h": 691,
+"next_first_band_h": 27,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 16/P22/Q5/a,b"
+},
+{
+"book": 2,
+"page": 472,
+"free_pt": 529,
+"next_starts_new_item": false,
+"next_block_h": 584,
+"next_first_band_h": 584,
+"cause": "figure or block kept together",
+"ref": "M/J 26/P21/Q9/a,b,c"
+},
+{
+"book": 2,
+"page": 477,
+"free_pt": 457,
+"next_starts_new_item": false,
+"next_block_h": 611,
+"next_first_band_h": 611,
+"cause": "figure or block kept together",
+"ref": "M/J 26/P22/Q6/b"
+},
+{
+"book": 2,
+"page": 480,
+"free_pt": 339,
+"next_starts_new_item": true,
+"next_block_h": 341,
+"next_first_band_h": 341,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 26/P23/Q5/b"
+},
+{
+"book": 2,
+"page": 488,
+"free_pt": 433,
+"next_starts_new_item": true,
+"next_block_h": 464,
+"next_first_band_h": 464,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 25/P21/Q8/a,b"
+},
+{
+"book": 2,
+"page": 495,
+"free_pt": 490,
+"next_starts_new_item": true,
+"next_block_h": 642,
+"next_first_band_h": 642,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 25/P23/Q4"
+},
+{
+"book": 2,
+"page": 497,
+"free_pt": 361,
+"next_starts_new_item": false,
+"next_block_h": 511,
+"next_first_band_h": 511,
+"cause": "figure or block kept together",
+"ref": "O/N 25/P23/Q4"
+},
+{
+"book": 2,
+"page": 501,
+"free_pt": 511,
+"next_starts_new_item": true,
+"next_block_h": 561,
+"next_first_band_h": 561,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 25/P21/Q6/b"
+},
+{
+"book": 2,
+"page": 504,
+"free_pt": 377,
+"next_starts_new_item": true,
+"next_block_h": 564,
+"next_first_band_h": 564,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 25/P22/Q5/b"
+},
+{
+"book": 2,
+"page": 520,
+"free_pt": 415,
+"next_starts_new_item": false,
+"next_block_h": 532,
+"next_first_band_h": 532,
+"cause": "figure or block kept together",
+"ref": "O/N 24/P23/Q4/a,b"
+},
+{
+"book": 2,
+"page": 522,
+"free_pt": 377,
+"next_starts_new_item": true,
+"next_block_h": 540,
+"next_first_band_h": 540,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 24/P23/Q8/a,b,c"
+},
+{
+"book": 2,
+"page": 526,
+"free_pt": 387,
+"next_starts_new_item": true,
+"next_block_h": 490,
+"next_first_band_h": 490,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 24/P21/Q8/b"
+},
+{
+"book": 2,
+"page": 539,
+"free_pt": 376,
+"next_starts_new_item": false,
+"next_block_h": 464,
+"next_first_band_h": 464,
+"cause": "figure or block kept together",
+"ref": "O/N 23/P22/Q8/a,c"
+},
+{
+"book": 2,
+"page": 546,
+"free_pt": 461,
+"next_starts_new_item": true,
+"next_block_h": 487,
+"next_first_band_h": 487,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 23/P22/Q8/b"
+},
+{
+"book": 2,
+"page": 553,
+"free_pt": 405,
+"next_starts_new_item": true,
+"next_block_h": 448,
+"next_first_band_h": 448,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 22/P21/Q8/a,c"
+},
+{
+"book": 2,
+"page": 557,
+"free_pt": 445,
+"next_starts_new_item": true,
+"next_block_h": 420,
+"next_first_band_h": 420,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 22/P22/Q7/a,b,c"
+},
+{
+"book": 2,
+"page": 561,
+"free_pt": 503,
+"next_starts_new_item": true,
+"next_block_h": 657,
+"next_first_band_h": 657,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 22/P23/Q7/a,b(i)"
+},
+{
+"book": 2,
+"page": 579,
+"free_pt": 407,
+"next_starts_new_item": true,
+"next_block_h": 449,
+"next_first_band_h": 449,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 21/P21/Q5"
+},
+{
+"book": 2,
+"page": 587,
+"free_pt": 450,
+"next_starts_new_item": true,
+"next_block_h": 519,
+"next_first_band_h": 519,
+"cause": "next item kept whole or its start kept together",
+"ref": "9608 M/J 21/P21/Q4/a"
+},
+{
+"book": 2,
+"page": 589,
+"free_pt": 431,
+"next_starts_new_item": false,
+"next_block_h": 628,
+"next_first_band_h": 628,
+"cause": "figure or block kept together",
+"ref": "9608 M/J 21/P21/Q4/a"
+},
+{
+"book": 2,
+"page": 591,
+"free_pt": 445,
+"next_starts_new_item": false,
+"next_block_h": 488,
+"next_first_band_h": 488,
+"cause": "figure or block kept together",
+"ref": "9608 M/J 21/P21/Q6/a,b,c"
+},
+{
+"book": 2,
+"page": 597,
+"free_pt": 456,
+"next_starts_new_item": true,
+"next_block_h": 423,
+"next_first_band_h": 423,
+"cause": "next item kept whole or its start kept together",
+"ref": "9608 M/J 21/P22/Q4/b"
+},
+{
+"book": 2,
+"page": 606,
+"free_pt": 480,
+"next_starts_new_item": false,
+"next_block_h": 505,
+"next_first_band_h": 505,
+"cause": "figure or block kept together",
+"ref": "9608 M/J 21/P23/Q6/a,b,c"
+},
+{
+"book": 2,
+"page": 608,
+"free_pt": 482,
+"next_starts_new_item": false,
+"next_block_h": 548,
+"next_first_band_h": 548,
+"cause": "figure or block kept together",
+"ref": "9608 M/J 21/P23/Q6/a,b,c"
+},
+{
+"book": 2,
+"page": 614,
+"free_pt": 409,
+"next_starts_new_item": false,
+"next_block_h": 708,
+"next_first_band_h": 708,
+"cause": "figure or block kept together",
+"ref": "M/J 20/P21/Q6/a,b"
+},
+{
+"book": 2,
+"page": 619,
+"free_pt": 471,
+"next_starts_new_item": true,
+"next_block_h": 515,
+"next_first_band_h": 515,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 20/P22/Q6/c"
+},
+{
+"book": 2,
+"page": 622,
+"free_pt": 445,
+"next_starts_new_item": true,
+"next_block_h": 448,
+"next_first_band_h": 448,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 20/P23/Q5/a,b(i)"
+},
+{
+"book": 2,
+"page": 628,
+"free_pt": 509,
+"next_starts_new_item": false,
+"next_block_h": 664,
+"next_first_band_h": 664,
+"cause": "figure or block kept together",
+"ref": "O/N 19/P21/Q6/a,b,c,d(i)"
+},
+{
+"book": 2,
+"page": 631,
+"free_pt": 362,
+"next_starts_new_item": true,
+"next_block_h": 487,
+"next_first_band_h": 487,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 19/P22/Q6/a,b"
+},
+{
+"book": 2,
+"page": 633,
+"free_pt": 476,
+"next_starts_new_item": false,
+"next_block_h": 481,
+"next_first_band_h": 481,
+"cause": "figure or block kept together",
+"ref": "O/N 19/P22/Q6/a,b"
+},
+{
+"book": 2,
+"page": 636,
+"free_pt": 589,
+"next_starts_new_item": false,
+"next_block_h": 618,
+"next_first_band_h": 618,
+"cause": "figure or block kept together",
+"ref": "O/N 19/P23/Q6/a,b"
+},
+{
+"book": 2,
+"page": 638,
+"free_pt": 402,
+"next_starts_new_item": false,
+"next_block_h": 721,
+"next_first_band_h": 407,
+"cause": "figure or block kept together",
+"ref": "O/N 19/P23/Q6/a,b"
+},
+{
+"book": 2,
+"page": 641,
+"free_pt": 482,
+"next_starts_new_item": true,
+"next_block_h": 531,
+"next_first_band_h": 531,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 19/P21/Q5/b"
+},
+{
+"book": 2,
+"page": 647,
+"free_pt": 484,
+"next_starts_new_item": true,
+"next_block_h": 607,
+"next_first_band_h": 607,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 19/P23/Q6/a,b"
+},
+{
+"book": 2,
+"page": 654,
+"free_pt": 521,
+"next_starts_new_item": true,
+"next_block_h": 713,
+"next_first_band_h": 488,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 18/P22/Q5"
+},
+{
+"book": 2,
+"page": 657,
+"free_pt": 499,
+"next_starts_new_item": true,
+"next_block_h": 504,
+"next_first_band_h": 504,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 18/P23/Q5"
+},
+{
+"book": 2,
+"page": 663,
+"free_pt": 624,
+"next_starts_new_item": false,
+"next_block_h": 669,
+"next_first_band_h": 669,
+"cause": "figure or block kept together",
+"ref": "M/J 18/P22/Q5/a,d"
+},
+{
+"book": 2,
+"page": 666,
+"free_pt": 393,
+"next_starts_new_item": false,
+"next_block_h": 507,
+"next_first_band_h": 507,
+"cause": "figure or block kept together",
+"ref": "M/J 18/P22/Q6/a,b"
+},
+{
+"book": 2,
+"page": 671,
+"free_pt": 344,
+"next_starts_new_item": false,
+"next_block_h": 462,
+"next_first_band_h": 462,
+"cause": "figure or block kept together",
+"ref": "M/J 18/P23/Q6/a,b"
+},
+{
+"book": 2,
+"page": 677,
+"free_pt": 410,
+"next_starts_new_item": true,
+"next_block_h": 387,
+"next_first_band_h": 387,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 17/P21/Q5/a"
+},
+{
+"book": 2,
+"page": 681,
+"free_pt": 439,
+"next_starts_new_item": false,
+"next_block_h": 681,
+"next_first_band_h": 629,
+"cause": "figure or block kept together",
+"ref": "O/N 17/P22/Q4/a"
+},
+{
+"book": 2,
+"page": 688,
+"free_pt": 410,
+"next_starts_new_item": true,
+"next_block_h": 387,
+"next_first_band_h": 387,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 17/P23/Q5/a"
+},
+{
+"book": 2,
+"page": 692,
+"free_pt": 383,
+"next_starts_new_item": false,
+"next_block_h": 547,
+"next_first_band_h": 547,
+"cause": "figure or block kept together",
+"ref": "M/J 17/P21/Q5"
+},
+{
+"book": 2,
+"page": 697,
+"free_pt": 383,
+"next_starts_new_item": false,
+"next_block_h": 547,
+"next_first_band_h": 547,
+"cause": "figure or block kept together",
+"ref": "M/J 17/P23/Q5"
+},
+{
+"book": 2,
+"page": 700,
+"free_pt": 387,
+"next_starts_new_item": false,
+"next_block_h": 615,
+"next_first_band_h": 389,
+"cause": "figure or block kept together",
+"ref": "O/N 16/P21/Q4/c,d,e"
+},
+{
+"book": 2,
+"page": 706,
+"free_pt": 437,
+"next_starts_new_item": false,
+"next_block_h": 699,
+"next_first_band_h": 699,
+"cause": "figure or block kept together",
+"ref": "O/N 16/P22/Q5/a,b(ii,iii)"
+},
+{
+"book": 2,
+"page": 709,
+"free_pt": 387,
+"next_starts_new_item": false,
+"next_block_h": 615,
+"next_first_band_h": 389,
+"cause": "figure or block kept together",
+"ref": "O/N 16/P23/Q4/c,d,e"
+},
+{
+"book": 2,
+"page": 713,
+"free_pt": 489,
+"next_starts_new_item": false,
+"next_block_h": 615,
+"next_first_band_h": 600,
+"cause": "figure or block kept together",
+"ref": "M/J 16/P21/Q5/a,b"
+},
+{
+"book": 2,
+"page": 718,
+"free_pt": 489,
+"next_starts_new_item": false,
+"next_block_h": 615,
+"next_first_band_h": 600,
+"cause": "figure or block kept together",
+"ref": "M/J 16/P22/Q5/a,b"
+},
+{
+"book": 2,
+"page": 728,
+"free_pt": 346,
+"next_starts_new_item": false,
+"next_block_h": 699,
+"next_first_band_h": 699,
+"cause": "figure or block kept together",
+"ref": "M/J 15/P21/Q5/a,d,e"
+},
+{
+"book": 2,
+"page": 735,
+"free_pt": 346,
+"next_starts_new_item": false,
+"next_block_h": 699,
+"next_first_band_h": 699,
+"cause": "figure or block kept together",
+"ref": "M/J 15/P22/Q5/a,d,e"
+},
+{
+"book": 2,
+"page": 740,
+"free_pt": 485,
+"next_starts_new_item": false,
+"next_block_h": 611,
+"next_first_band_h": 611,
+"cause": "figure or block kept together",
+"ref": "M/J 15/P23/Q4/b(i,iii,iv),c"
+},
+{
+"book": 2,
+"page": 751,
+"free_pt": 344,
+"next_starts_new_item": true,
+"next_block_h": 427,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 25/P21/Q5/b"
+},
+{
+"book": 2,
+"page": 757,
+"free_pt": 358,
+"next_starts_new_item": true,
+"next_block_h": 377,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 25/P21/Q4/a"
+},
+{
+"book": 2,
+"page": 758,
+"free_pt": 351,
+"next_starts_new_item": true,
+"next_block_h": 511,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 25/P21/Q7/a"
+},
+{
+"book": 2,
+"page": 761,
+"free_pt": 397,
+"next_starts_new_item": true,
+"next_block_h": 407,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 25/P23/Q6/a"
+},
+{
+"book": 2,
+"page": 804,
+"free_pt": 341,
+"next_starts_new_item": true,
+"next_block_h": 544,
+"next_first_band_h": 33,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 23/P21/Q8/a"
+},
+{
+"book": 2,
+"page": 826,
+"free_pt": 393,
+"next_starts_new_item": true,
+"next_block_h": 671,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 21/P22/Q4/a,c"
+},
+{
+"book": 2,
+"page": 831,
+"free_pt": 362,
+"next_starts_new_item": true,
+"next_block_h": 521,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 21/P21/Q2/b"
+},
+{
+"book": 2,
+"page": 839,
+"free_pt": 362,
+"next_starts_new_item": true,
+"next_block_h": 521,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 21/P23/Q2/b"
+},
+{
+"book": 2,
+"page": 861,
+"free_pt": 349,
+"next_starts_new_item": true,
+"next_block_h": 468,
+"next_first_band_h": 42,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 20/P23/Q4/a,b"
+},
+{
+"book": 2,
+"page": 903,
+"free_pt": 415,
+"next_starts_new_item": true,
+"next_block_h": 420,
+"next_first_band_h": 32,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 18/P22/Q5/c"
+},
+{
+"book": 2,
+"page": 909,
+"free_pt": 488,
+"next_starts_new_item": true,
+"next_block_h": 459,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 17/P22/Q1/c,d"
+},
+{
+"book": 2,
+"page": 918,
+"free_pt": 377,
+"next_starts_new_item": true,
+"next_block_h": 360,
+"next_first_band_h": 21,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 17/P23/Q1/b(ii,iii),c"
+},
+{
+"book": 2,
+"page": 928,
+"free_pt": 622,
+"next_starts_new_item": false,
+"next_block_h": 637,
+"next_first_band_h": 17,
+"cause": "figure or block kept together",
+"ref": "O/N 16/P22/Q2/a,b,c,d"
+},
+{
+"book": 2,
+"page": 945,
+"free_pt": 491,
+"next_starts_new_item": false,
+"next_block_h": 692,
+"next_first_band_h": 692,
+"cause": "figure or block kept together",
+"ref": "M/J 16/P21/Q3/b(ii)"
+},
+{
+"book": 2,
+"page": 950,
+"free_pt": 491,
+"next_starts_new_item": false,
+"next_block_h": 692,
+"next_first_band_h": 692,
+"cause": "figure or block kept together",
+"ref": "M/J 16/P22/Q3/b(ii)"
+},
+{
+"book": 2,
+"page": 952,
+"free_pt": 453,
+"next_starts_new_item": false,
+"next_block_h": 605,
+"next_first_band_h": 14,
+"cause": "figure or block kept together",
+"ref": "M/J 16/P23/Q1/a"
+},
+{
+"book": 2,
+"page": 959,
+"free_pt": 393,
+"next_starts_new_item": false,
+"next_block_h": 729,
+"next_first_band_h": 14,
+"cause": "figure or block kept together",
+"ref": "O/N 15/P21/Q6/a,b,c,d"
+},
+{
+"book": 2,
+"page": 964,
+"free_pt": 466,
+"next_starts_new_item": false,
+"next_block_h": 725,
+"next_first_band_h": 14,
+"cause": "figure or block kept together",
+"ref": "O/N 15/P22/Q4/a,b,c,d,e,f,g"
+},
+{
+"book": 2,
+"page": 972,
+"free_pt": 393,
+"next_starts_new_item": false,
+"next_block_h": 729,
+"next_first_band_h": 14,
+"cause": "figure or block kept together",
+"ref": "O/N 15/P23/Q6/a,b,c,d"
+},
+{
+"book": 2,
+"page": 980,
+"free_pt": 386,
+"next_starts_new_item": true,
+"next_block_h": 354,
+"next_first_band_h": 13,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 15/P22/Q1/b(ii)"
+},
+{
+"book": 2,
+"page": 1004,
+"free_pt": 338,
+"next_starts_new_item": true,
+"next_block_h": 417,
+"next_first_band_h": 417,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 25/P23/Q5"
+},
+{
+"book": 2,
+"page": 1008,
+"free_pt": 484,
+"next_starts_new_item": false,
+"next_block_h": 505,
+"next_first_band_h": 505,
+"cause": "figure or block kept together",
+"ref": "O/N 24/P21/Q4/b,c"
+},
+{
+"book": 2,
+"page": 1017,
+"free_pt": 370,
+"next_starts_new_item": true,
+"next_block_h": 456,
+"next_first_band_h": 456,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 24/P21/Q8/a"
+},
+{
+"book": 2,
+"page": 1019,
+"free_pt": 387,
+"next_starts_new_item": true,
+"next_block_h": 376,
+"next_first_band_h": 376,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 24/P22/Q4"
+},
+{
+"book": 2,
+"page": 1023,
+"free_pt": 422,
+"next_starts_new_item": true,
+"next_block_h": 439,
+"next_first_band_h": 439,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 24/P23/Q4/a"
+},
+{
+"book": 2,
+"page": 1031,
+"free_pt": 344,
+"next_starts_new_item": true,
+"next_block_h": 464,
+"next_first_band_h": 464,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 23/P22/Q8/b"
+},
+{
+"book": 2,
+"page": 1033,
+"free_pt": 336,
+"next_starts_new_item": true,
+"next_block_h": 338,
+"next_first_band_h": 338,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 23/P23/Q6"
+},
+{
+"book": 2,
+"page": 1038,
+"free_pt": 363,
+"next_starts_new_item": true,
+"next_block_h": 594,
+"next_first_band_h": 594,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 23/P22/Q6"
+},
+{
+"book": 2,
+"page": 1042,
+"free_pt": 391,
+"next_starts_new_item": true,
+"next_block_h": 615,
+"next_first_band_h": 400,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 23/P23/Q6/a,b"
+},
+{
+"book": 2,
+"page": 1055,
+"free_pt": 561,
+"next_starts_new_item": true,
+"next_block_h": 585,
+"next_first_band_h": 585,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 21/P21/Q7/a,c"
+},
+{
+"book": 2,
+"page": 1059,
+"free_pt": 472,
+"next_starts_new_item": true,
+"next_block_h": 509,
+"next_first_band_h": 509,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 21/P22/Q8/b"
+},
+{
+"book": 2,
+"page": 1067,
+"free_pt": 403,
+"next_starts_new_item": false,
+"next_block_h": 548,
+"next_first_band_h": 548,
+"cause": "figure or block kept together",
+"ref": "9608 M/J 21/P22/Q5/b"
+},
+{
+"book": 2,
+"page": 1069,
+"free_pt": 414,
+"next_starts_new_item": false,
+"next_block_h": 595,
+"next_first_band_h": 595,
+"cause": "figure or block kept together",
+"ref": "9608 M/J 21/P22/Q5/b"
+},
+{
+"book": 2,
+"page": 1077,
+"free_pt": 349,
+"next_starts_new_item": true,
+"next_block_h": 614,
+"next_first_band_h": 614,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 20/P22/Q6/a(i)"
+},
+{
+"book": 2,
+"page": 1083,
+"free_pt": 447,
+"next_starts_new_item": false,
+"next_block_h": 585,
+"next_first_band_h": 585,
+"cause": "figure or block kept together",
+"ref": "M/J 20/P23/Q5/c"
+},
+{
+"book": 2,
+"page": 1086,
+"free_pt": 422,
+"next_starts_new_item": true,
+"next_block_h": 477,
+"next_first_band_h": 477,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 19/P22/Q4/a"
+},
+{
+"book": 2,
+"page": 1088,
+"free_pt": 468,
+"next_starts_new_item": true,
+"next_block_h": 518,
+"next_first_band_h": 518,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 19/P23/Q5"
+},
+{
+"book": 2,
+"page": 1107,
+"free_pt": 361,
+"next_starts_new_item": false,
+"next_block_h": 586,
+"next_first_band_h": 586,
+"cause": "figure or block kept together",
+"ref": "M/J 18/P22/Q5/c"
+},
+{
+"book": 2,
+"page": 1119,
+"free_pt": 472,
+"next_starts_new_item": true,
+"next_block_h": 588,
+"next_first_band_h": 588,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 17/P22/Q6/a"
+},
+{
+"book": 2,
+"page": 1122,
+"free_pt": 346,
+"next_starts_new_item": true,
+"next_block_h": 642,
+"next_first_band_h": 642,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 17/P23/Q6/a"
+},
+{
+"book": 2,
+"page": 1135,
+"free_pt": 356,
+"next_starts_new_item": false,
+"next_block_h": 730,
+"next_first_band_h": 513,
+"cause": "figure or block kept together",
+"ref": "O/N 16/P23/Q3/a,b,c,d"
+},
+{
+"book": 2,
+"page": 1142,
+"free_pt": 437,
+"next_starts_new_item": true,
+"next_block_h": 497,
+"next_first_band_h": 497,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 16/P22/Q3/b(ii)"
+},
+{
+"book": 2,
+"page": 1146,
+"free_pt": 354,
+"next_starts_new_item": true,
+"next_block_h": 334,
+"next_first_band_h": 334,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 16/P23/Q3/b"
+},
+{
+"book": 2,
+"page": 1147,
+"free_pt": 393,
+"next_starts_new_item": false,
+"next_block_h": 475,
+"next_first_band_h": 475,
+"cause": "figure or block kept together",
+"ref": "M/J 16/P23/Q3/b"
+},
+{
+"book": 2,
+"page": 1151,
+"free_pt": 335,
+"next_starts_new_item": false,
+"next_block_h": 497,
+"next_first_band_h": 497,
+"cause": "figure or block kept together",
+"ref": "O/N 15/P21/Q7/a,b"
+},
+{
+"book": 2,
+"page": 1159,
+"free_pt": 335,
+"next_starts_new_item": false,
+"next_block_h": 497,
+"next_first_band_h": 497,
+"cause": "figure or block kept together",
+"ref": "O/N 15/P23/Q7/a,b"
+},
+{
+"book": 2,
+"page": 1161,
+"free_pt": 352,
+"next_starts_new_item": false,
+"next_block_h": 345,
+"next_first_band_h": 345,
+"cause": "figure or block kept together",
+"ref": "M/J 15/P21/Q2/a,b,c,d"
+},
+{
+"book": 2,
+"page": 1173,
+"free_pt": 503,
+"next_starts_new_item": true,
+"next_block_h": 680,
+"next_first_band_h": 27,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 26/P23/Q3/a,b,c"
+},
+{
+"book": 2,
+"page": 1177,
+"free_pt": 386,
+"next_starts_new_item": false,
+"next_block_h": 580,
+"next_first_band_h": 14,
+"cause": "figure or block kept together",
+"ref": "O/N 25/P21/Q7/a,b"
+},
+{
+"book": 2,
+"page": 1181,
+"free_pt": 391,
+"next_starts_new_item": true,
+"next_block_h": 473,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 25/P22/Q7/a,b"
+},
+{
+"book": 2,
+"page": 1184,
+"free_pt": 365,
+"next_starts_new_item": false,
+"next_block_h": 490,
+"next_first_band_h": 26,
+"cause": "figure or block kept together",
+"ref": "O/N 25/P23/Q5/a"
+},
+{
+"book": 2,
+"page": 1190,
+"free_pt": 455,
+"next_starts_new_item": false,
+"next_block_h": 700,
+"next_first_band_h": 14,
+"cause": "figure or block kept together",
+"ref": "M/J 25/P21/Q4/b"
+},
+{
+"book": 2,
+"page": 1194,
+"free_pt": 392,
+"next_starts_new_item": true,
+"next_block_h": 684,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 25/P22/Q2/b"
+},
+{
+"book": 2,
+"page": 1203,
+"free_pt": 366,
+"next_starts_new_item": true,
+"next_block_h": 648,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 24/P21/Q7/a,b"
+},
+{
+"book": 2,
+"page": 1221,
+"free_pt": 441,
+"next_starts_new_item": false,
+"next_block_h": 492,
+"next_first_band_h": 492,
+"cause": "figure or block kept together",
+"ref": "O/N 23/P22/Q5"
+},
+{
+"book": 2,
+"page": 1229,
+"free_pt": 357,
+"next_starts_new_item": true,
+"next_block_h": 460,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 23/P21/Q7/b"
+},
+{
+"book": 2,
+"page": 1238,
+"free_pt": 462,
+"next_starts_new_item": true,
+"next_block_h": 512,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 22/P21/Q6/b"
+},
+{
+"book": 2,
+"page": 1241,
+"free_pt": 462,
+"next_starts_new_item": true,
+"next_block_h": 615,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 22/P21/Q8/d"
+},
+{
+"book": 2,
+"page": 1245,
+"free_pt": 360,
+"next_starts_new_item": false,
+"next_block_h": 446,
+"next_first_band_h": 29,
+"cause": "figure or block kept together",
+"ref": "O/N 22/P22/Q6/b"
+},
+{
+"book": 2,
+"page": 1251,
+"free_pt": 345,
+"next_starts_new_item": true,
+"next_block_h": 335,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 21/P22/Q2/b"
+},
+{
+"book": 2,
+"page": 1255,
+"free_pt": 345,
+"next_starts_new_item": true,
+"next_block_h": 325,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 21/P21/Q2/a"
+},
+{
+"book": 2,
+"page": 1256,
+"free_pt": 403,
+"next_starts_new_item": true,
+"next_block_h": 531,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 21/P21/Q4/a,c"
+},
+{
+"book": 2,
+"page": 1265,
+"free_pt": 597,
+"next_starts_new_item": true,
+"next_block_h": 634,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "9608 M/J 21/P21/Q3/a,b"
+},
+{
+"book": 2,
+"page": 1286,
+"free_pt": 433,
+"next_starts_new_item": true,
+"next_block_h": 660,
+"next_first_band_h": 17,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 20/P22/Q6/a(ii,iii),b"
+},
+{
+"book": 2,
+"page": 1292,
+"free_pt": 430,
+"next_starts_new_item": true,
+"next_block_h": 606,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 19/P21/Q5/a,b"
+},
+{
+"book": 2,
+"page": 1298,
+"free_pt": 381,
+"next_starts_new_item": true,
+"next_block_h": 503,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 19/P23/Q4/a,b,c"
+},
+{
+"book": 2,
+"page": 1304,
+"free_pt": 589,
+"next_starts_new_item": true,
+"next_block_h": 559,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 19/P22/Q3/a,b"
+},
+{
+"book": 2,
+"page": 1360,
+"free_pt": 425,
+"next_starts_new_item": true,
+"next_block_h": 494,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 15/P22/Q2/a"
+},
+{
+"book": 2,
+"page": 1365,
+"free_pt": 411,
+"next_starts_new_item": false,
+"next_block_h": 507,
+"next_first_band_h": 14,
+"cause": "figure or block kept together",
+"ref": "O/N 15/P23/Q8/a,b,c"
+},
+{
+"book": 2,
+"page": 1368,
+"free_pt": 425,
+"next_starts_new_item": true,
+"next_block_h": 393,
+"next_first_band_h": 13,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 15/P21/Q1/c"
+},
+{
+"book": 2,
+"page": 1373,
+"free_pt": 391,
+"next_starts_new_item": true,
+"next_block_h": 393,
+"next_first_band_h": 13,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 15/P22/Q1/c"
+},
+{
+"book": 2,
+"page": 1378,
+"free_pt": 391,
+"next_starts_new_item": true,
+"next_block_h": 562,
+"next_first_band_h": 27,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 15/P23/Q2/b(i)"
+},
+{
+"book": 2,
+"page": 1381,
+"free_pt": 521,
+"next_starts_new_item": false,
+"next_block_h": 695,
+"next_first_band_h": 14,
+"cause": "figure or block kept together",
+"ref": "M/J 15/P23/Q5/b"
+},
+{
+"book": 2,
+"page": 1444,
+"free_pt": 404,
+"next_starts_new_item": false,
+"next_block_h": 466,
+"next_first_band_h": 466,
+"cause": "figure or block kept together",
+"ref": "M/J 20/P22/Q2/a,b(ii)"
+},
+{
+"book": 2,
+"page": 1455,
+"free_pt": 459,
+"next_starts_new_item": true,
+"next_block_h": 725,
+"next_first_band_h": 591,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 19/P22/Q4/a,b"
+},
+{
+"book": 2,
+"page": 1488,
+"free_pt": 553,
+"next_starts_new_item": true,
+"next_block_h": 593,
+"next_first_band_h": 593,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 15/P23/Q5/b"
+}
+]

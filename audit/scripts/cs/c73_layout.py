@@ -12,7 +12,7 @@ import pymupdf as f
 from c00_common import *
 
 ML, MR, MT, MB, W, H = 40, 40, 58, 40, 595.28, 841.89
-res = {k: [] for k in ("margin", "overlap", "orphan_heading", "orphan_mark", "split_figure", "empty_page", "wasted_space", "scale")}
+res = {k: [] for k in ("margin", "overlap", "orphan_heading", "orphan_mark", "split_figure", "empty_page", "wasted_space", "wasted_by_design", "scale")}
 stats = Counter()
 cache = {}
 
@@ -108,8 +108,20 @@ for book in (1, 2):
             nh = sorted(heads.get(pg + 1, []), key=lambda h: h["y"])
             new_item = bool(nh) and (not nb or nh[0]["y"] < nb[0]["target"][1])
             first_h = (nb[0]["target"][3] - nb[0]["target"][1]) if nb else 0
-            res["wasted_space"].append({"book": book, "page": pg, "free_pt": round(H - MB - bottom), "next_starts_new_item": new_item,
-                                        "next_first_band_h": round(first_h), "ref": (nh[0]["ref"] if new_item else (bs[-1]["ref"] if bs else None))})
+            # height of what starts the next page and stays together there: its bands down to the
+            # first wider gap (a figure with its label line and mark is placed with gaps of 8 pt or less)
+            blk = 0.0
+            for k, x in enumerate(nb):
+                if k and x["target"][1] - nb[k - 1]["target"][3] > 8.6:
+                    break
+                blk = x["target"][3] - nb[0]["target"][1]
+            free = H - MB - bottom
+            cause = "next item kept whole or its start kept together" if new_item else \
+                ("figure or block kept together" if blk > free - 12 else "other")
+            stats["unused space: " + cause] += 1
+            res["wasted_space" if cause == "other" else "wasted_by_design"].append(
+                {"book": book, "page": pg, "free_pt": round(free), "next_starts_new_item": new_item, "next_block_h": round(blk),
+                 "next_first_band_h": round(first_h), "cause": cause, "ref": (nh[0]["ref"] if new_item else (bs[-1]["ref"] if bs else None))})
         # figures split at the page break: last band of this page / first band of the next, same item side
         nb = sorted(byp.get(pg + 1, []), key=lambda b: b["target"][1])
         if bs and nb:

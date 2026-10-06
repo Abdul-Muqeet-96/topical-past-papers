@@ -130,7 +130,12 @@ lst("Crop quality", "Added ink (in the book, not in the source) and ink on a cro
 lst("Crop quality", "Page splits: figure or code block split across pages, heading or mark left alone, overlap, margins, empty pages, enlarged crops",
     "c73_layout.py", ["layout_split_figure.json", "layout_orphan_heading.json", "layout_orphan_mark.json", "layout_overlap.json",
                       "layout_margin.json", "layout_empty_page.json", "layout_scale.json"])
-lst("Crop quality", "Pages with more than 45 % unused space", "c73_layout.py", ["layout_wasted_space.json"])
+if have("layout_wasted_space.json") and have("layout_wasted_by_design.json"):
+    wd = Counter(x["cause"] for x in jl("layout_wasted_by_design.json"))
+    lst("Crop quality", "Pages with more than 45 % unused space that no keep-together rule explains", "c73_layout.py", ["layout_wasted_space.json"],
+        "by rule: " + ", ".join(f"{v} pages: {k}" for k, v in wd.items()))
+else:
+    add("Crop quality", "Pages with more than 45 % unused space", "c73_layout.py", "NOT RUN", "")
 
 # 6 self-containment
 m = log("c80 self-contained", r"\{(.*)\}")
@@ -216,7 +221,7 @@ out += ["", "## Findings that were read and judged", "",
         "`audit/scripts/cs/judged.json` holds the verdicts; a verdict stops counting when the number of rows changes.", "",
         "| Output file | Rows | Verdict |", "|---|---|---|"]
 for k, v in J.items():
-    if have(k) and n_of(k):
+    if have(k) and n_of(k) and v["verdict"]:
         out.append(f"| `{k}` | {n_of(k)}{'' if n_of(k) == v['rows'] else ' (judged: ' + str(v['rows']) + ')'} | {v['verdict']} |")
 extra = os.path.join(os.path.dirname(os.path.abspath(__file__)), "check_notes.md")
 if os.path.exists(extra):

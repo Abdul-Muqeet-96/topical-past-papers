@@ -206,7 +206,7 @@
  },
  {
   "item": "Removing answer-line dots from the text layer",
-  "issue": "On 26 of 2348 question-paper pages the removal (a PDF redaction) also moved other glyphs: text set with character spacing, e.g. a mark shown as \"[1 ]\"",
+  "issue": "On 7 of 2348 question-paper pages the removal (a PDF redaction) also moved other glyphs: text set with character spacing, e.g. a mark shown as \"[1 ]\"",
   "action": "Every page is compared before and after, character by character. A page on which anything but the dots changed is used unchanged: its answer lines are hidden by white rectangles instead and stay in the PDF text layer (not in items.jsonl). The pages are listed below per paper"
  },
  {
@@ -258,5 +258,30 @@
   "item": "Footer words under a figure",
   "issue": "Where a figure or a mark reaches down to the footer line, the footer words beside it are covered by white rectangles; at the last pixel row of the crop a faint trace of them could remain",
   "action": "A white rectangle that runs past the foot of a crop is drawn 0.6 pt beyond it (over blank paper)"
+ },
+ {
+  "item": "Page breaks: what stays together",
+  "issue": "A figure can only be kept whole if the lines before it leave room; a mark printed after removed answer space, or the line that introduces a figure, could be left alone on the other side of a page break",
+  "action": "A figure (code block, table, diagram) moves to a new page whole whenever it fits on one; the short line printed last before it (at most 60 pt of blank answer space between them) moves with it; a band that holds nothing but a [mark] stays with the line before it. Only a figure taller than a page breaks"
+ },
+ {
+  "item": "Code blocks with single-letter names",
+  "issue": "A line such as \"n ← 0\" has no monospace word of two letters and was not counted as code, so a listing with such lines fell apart into several figures and could break across pages",
+  "action": "A line whose characters are monospace continues the block of code directly above it"
+ },
+ {
+  "item": "Insert and appendix pages: page breaks",
+  "issue": "The pages of an insert (or of a 9608 appendix) printed with an item, and the Appendix of the Paper 2 book, are longer than a page as a whole",
+  "action": "They may break between rows or boxes of the function tables, never inside one; a heading stays with the first row under it"
+ },
+ {
+  "item": "items.jsonl: insert pages",
+  "issue": "An item that shows its paper's own insert or appendix pages has that reference material in the book but not in the \"text\" field",
+  "action": "A field \"insert_text\" carries the text of those pages (null for every other item), so the item can be read from items.jsonl alone"
+ },
+ {
+  "item": "Footer words in the text layer",
+  "issue": "On 247 question-paper pages a mark or a figure reaches down to the footer line, so \"[Turn over\" or the barcode glyphs fall inside a crop: hidden by white rectangles, but still in the PDF text layer",
+  "action": "On those pages the footer words are removed from the text layer together with the answer-line dots, under the same before-and-after comparison. On 13 pages the comparison fails with the footer words included; there only the dots are removed and the footer words stay in the text layer under their white rectangle (never in items.jsonl)"
  }
 ]

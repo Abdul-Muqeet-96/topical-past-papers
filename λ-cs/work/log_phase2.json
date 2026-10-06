@@ -1525,9 +1525,19 @@
    "why": "identifier GroupNum"
   },
   {
+   "ref": "O/N 15/P21/Q5/a",
+   "part": "(b)",
+   "why": "part reference (material printed in a later part)"
+  },
+  {
    "ref": "O/N 15/P21/Q7/c",
    "part": "(b)",
    "why": "identifier MyString"
+  },
+  {
+   "ref": "O/N 15/P23/Q5/a",
+   "part": "(b)",
+   "why": "part reference (material printed in a later part)"
   },
   {
    "ref": "O/N 15/P23/Q7/c",
