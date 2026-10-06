@@ -342,38 +342,88 @@ def redact_dot_runs(d, path=None):
     n = 0
     bad = []
     d._dots = {}        # page -> (answer-line runs, gap runs), each [(Rect, baseline)]: judged once, here
-    for p in d:
+    fresh = []
+
+    def restore(i):
+        """Put page i back as it is in the file (watermark stripped, rotation removed)."""
+        if not fresh:
+            d0 = pymupdf.open(path)
+            strip_watermark(d0)
+            for q in d0:
+                if q.rotation:
+                    q.remove_rotation()
+            fresh.append(d0)
+        d.delete_page(i)
+        d.insert_pdf(fresh[0], from_page=i, to_page=i, start_at=i)
+
+    def attempt(pg, rects):
+        before = _body_chars(pg)
+        for r in rects:
+            pg.add_redact_annot(r)
+        pg.apply_redactions(images=pymupdf.PDF_REDACT_IMAGE_NONE,
+                            graphics=pymupdf.PDF_REDACT_LINE_ART_NONE,
+                            text=pymupdf.PDF_REDACT_TEXT_REMOVE)
+        return _same_chars(before, _body_chars(pg))
+
+    for i in range(d.page_count):
+        p = d[i]
         runs = dot_runs(p)
         if runs:
-            d._dots[p.number] = ([(r, base) for r, answer, base in runs if answer],
-                                 [(r, base) for r, answer, base in runs if not answer])
+            d._dots[i] = ([(r, base) for r, answer, base in runs if answer],
+                          [(r, base) for r, answer, base in runs if not answer])
         # a thin band just above the baseline: it meets every dot of the run but not
         # the line below (a [mark] is often printed directly under a dotted line)
         rects = [pymupdf.Rect(r.x0 + 0.4, base - 4.0, r.x1 - 0.4, base - 1.0)
                  for r, answer, base in runs if answer]
+        furn = _footer_words_in_reach(p)
+        if not rects and not furn:
+            continue
+        if furn and path:
+            # footer words beside a mark or under a figure get into a crop (hidden by white-outs):
+            # they are taken out of the text layer too, when that changes nothing else
+            if attempt(p, rects + furn):
+                n += len(rects)
+                continue
+            restore(i)
+            p = d[i]
         if not rects:
             continue
-        before = _body_chars(p)
-        for r in rects:
-            p.add_redact_annot(r)
-        p.apply_redactions(images=pymupdf.PDF_REDACT_IMAGE_NONE,
-                           graphics=pymupdf.PDF_REDACT_LINE_ART_NONE,
-                           text=pymupdf.PDF_REDACT_TEXT_REMOVE)
         n += len(rects)
-        if not _same_chars(before, _body_chars(p)):
-            bad.append(p.number)
+        if not attempt(p, rects):
+            bad.append(i)
+            if path:
+                restore(i)
     if bad and path:
-        d0 = pymupdf.open(path)
-        strip_watermark(d0)
-        for p in d0:
-            if p.rotation:
-                p.remove_rotation()
-        for i in bad:
-            d.delete_page(i)
-            d.insert_pdf(d0, from_page=i, to_page=i, start_at=i)
         UNREDACTED[os.path.basename(path)] = bad
     d._unredacted = set(bad) if path else set()
     return n
+
+
+def _footer_words_in_reach(p):
+    """Footer furniture ("[Turn over", the barcode glyphs) on a page where question material reaches
+    down to it: a mark printed level with the footer, or a figure that ends beside it. Returns thin
+    rectangles through those words, or [] when nothing reaches the footer."""
+    H = p.rect.height
+    words = p.get_text("words")
+    furn = [w for w in words if w[1] > H * 0.9 and 40 < w[0] and w[2] < 560 and
+            (sum(ord(ch) > 0x7f for ch in w[4]) >= 4 or w[4] in ("[Turn", "over"))]
+    if not furn:
+        return []
+    top = min(w[1] for w in furn)
+    other = [w for w in words if w not in furn and 40 < w[0] and w[2] < 560 and w[3] > top - 2 and w[1] < top
+             and not re.fullmatch(r"©|UCLES|20\d\d|\d{4}/\d\d/[A-Z]/[A-Z]/\d\d", w[4])]
+    reach = bool(other)
+    if not reach:
+        for g in p.get_drawings():
+            r = g["rect"]
+            if g.get("fill") == (1.0, 1.0, 1.0) and not g.get("color"):
+                continue
+            if 40 < r.x0 and r.x1 < 560 and r.width < 480 and r.y0 < top - 10 and r.y1 > top - 4:
+                reach = True
+                break
+    if not reach:
+        return []
+    return [pymupdf.Rect(w[0] + 0.3, (w[1] + w[3]) / 2 - 1.0, w[2] - 0.3, (w[1] + w[3]) / 2 + 1.0) for w in furn]
 
 
 _ADOTS = {}

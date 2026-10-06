@@ -14,6 +14,10 @@ TOK = re.compile(r"[A-Za-z0-9_]+|[^\sA-Za-z0-9_.…]")
 LABEL = re.compile(r"[()\[\]]|[a-h]|[ivx]{1,4}|\d{1,2}|J")     # part labels, marks; "J": the foot of "M/J" in the heading above a crop
 
 
+# the book's own grey note lines under a heading or above inline reference pages
+NOTE = re.compile(r"^(also [^\n]*this unit[^\n]*|Uses the insert.*|Insert of this paper:.*|Appendix of this paper:.*)$", re.M)
+
+
 def toks(t):
     t = re.sub(r"[.…]{3,}", " ", t)
     return Counter(x for x in TOK.findall(t) if not LABEL.fullmatch(x))
@@ -41,7 +45,7 @@ for book in (1, 2):
             if it is None:
                 res.append({"book": book, "ref": ref, "side": sd, "what": "item not in the book"})
                 continue
-            a, b = toks(j[key] + (" " + (j.get("insert_text") or "") if sd == "Q" else "")), toks(it["text"])
+            a, b = toks(j[key] + (" " + (j.get("insert_text") or "") if sd == "Q" else "")), toks(NOTE.sub(" ", it["text"]))
             ca, cb = cover(a, b), cover(b, a)
             stats[f"{sd} items"] += 1
             stats[f"{sd} tokens (jsonl)"] += sum(a.values())

@@ -215,8 +215,9 @@ def keep_heights(bands, i, scale, maxh):
 
 
 def _label_above(a, b):
-    """a is a short line directly above the first band of a figure b."""
-    return a.grp is None and b.grp is not None and a.page == b.page and 0 <= b.y0 - a.y1 <= 26 and a.h < 30
+    """a is the short line printed last before a figure b starts (only blank answer space lies
+    between them, at most 60 pt of it)."""
+    return a.grp is None and b.grp is not None and a.page == b.page and 0 <= b.y0 - a.y1 <= 60 and a.h < 30
 
 
 def _together(a, b):
@@ -227,10 +228,10 @@ def _together(a, b):
         return True
     if getattr(b, "mark_only", False):
         return True          # a [mark] on its own stays with the line it closes
+    if _label_above(a, b):
+        return True          # the line that introduces a figure
     if a.page != b.page or b.y0 - a.y1 > 14:
         return False
-    if _label_above(a, b):
-        return True
     return (a.h < 18 and b.h > 30) or (a.h > 30 and b.h < 18)
 
 

@@ -65,7 +65,7 @@ for book in (1, 2):
         except Exception as e:
             F.append(("items.jsonl line does not parse", book, n + 1))
     keys = {"reference", "syllabus_code", "book", "unit", "unit_name", "sections", "learning_outcomes", "marks", "page",
-            "answer_page", "also_units", "context_parts", "insert", "text", "answer_text"}
+            "answer_page", "also_units", "context_parts", "insert", "text", "insert_text", "answer_text"}
     if any(set(j) != keys for j in js):
         F.append(("items.jsonl keys", book))
     tp = json.load(open(os.path.join(BOOKDIR[book], "topics.json")))
