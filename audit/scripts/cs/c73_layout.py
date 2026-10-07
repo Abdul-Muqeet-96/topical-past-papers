@@ -192,7 +192,19 @@ for book in (1, 2):
                 while k < 2 and k + 1 < len(nb) and not figure_like(nb[k]) and nb[k]["target"][3] - nb[k]["target"][1] < 45 \
                         and nb[k + 1]["src"] == b["src"] and 0 <= nb[k + 1]["vclip"][1] - nb[k]["vclip"][3] <= 14:
                     k += 1
-                if (k == 0 or b["vclip"][1] - a["vclip"][3] <= 14) and figure_like(nb[k]):
+                # by the layout rule these stay where they are: an item of a bulleted or numbered list,
+                # a line set solid under the line above it (the end of a paragraph or list), a line of
+                # code or a small table of its own, and a line that closes a part with its mark
+                ta = (a["text"] or "").strip()
+                first = ta.split()[0] if ta.split() else ""
+                bullet = (len(first) == 1 and (not first.isalnum() or first == "o") and first not in "([\"'<“‘") or \
+                    bool(re.fullmatch(r"\d{1,2}[.)]", first)) or bool(re.search(r"(^|\n)\s*[•◦▪●○]", a["text"] or ""))
+                solid = len(bs) > 1 and bs[-2]["src"] == a["src"] and a["vclip"][1] - bs[-2]["vclip"][3] < 3
+                code_a = any(m[0] >= a["vclip"][1] - 2 and m[1] <= a["vclip"][3] + 2 for m in mono_lines(fn, pi))
+                closes = bool(re.search(r"\[\d{1,2}\]\s*$", ta))
+                if bullet or solid or code_a or closes or figure_like(a):
+                    stats["page ends with a list item, the end of a paragraph, code or a mark (by rule)"] += 1
+                elif (k == 0 or b["vclip"][1] - a["vclip"][3] <= 14) and figure_like(nb[k]):
                     need = nb[k]["target"][3] - nb[0]["target"][1] + (a["target"][3] - a["target"][1]) + 10
                     if need <= H - MB - MT - 20:
                         res["orphan_lead"].append({"book": book, "page": pg, "ref": a["ref"], "line": " ".join((a["text"] or "").split())[-70:],

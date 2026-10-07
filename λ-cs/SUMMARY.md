@@ -44,7 +44,7 @@ Stages finished: 0, 1, 2, 3, 4 (see `λ-cs/state_cs.json`). Books contain: Phase
 
 | File | Size |
 |---|---|
-| λ-cs/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf (1101 pages) | 21.3 MB |
+| λ-cs/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf (1099 pages) | 21.3 MB |
 | λ-cs/p1-topical-workbook/units/Unit-01-Information-representation.pdf | 7.9 MB |
 | λ-cs/p1-topical-workbook/units/Unit-02-Communication.pdf | 5.1 MB |
 | λ-cs/p1-topical-workbook/units/Unit-03-Hardware.pdf | 6.7 MB |
@@ -56,7 +56,7 @@ Stages finished: 0, 1, 2, 3, 4 (see `λ-cs/state_cs.json`). Books contain: Phase
 | λ-cs/p1-topical-workbook/index.csv | 28 KB |
 | λ-cs/p1-topical-workbook/items.jsonl | 1.3 MB |
 | λ-cs/p1-topical-workbook/topics.json | 0.7 MB |
-| λ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf (1516 pages) | 25.9 MB |
+| λ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf (1518 pages) | 25.9 MB |
 | λ-cs/p2-topical-workbook/units/Unit-09-Algorithm-Design-and-Problem-solving.pdf | 13.0 MB |
 | λ-cs/p2-topical-workbook/units/Unit-10-Data-Types-and-Structures.pdf | 13.5 MB |
 | λ-cs/p2-topical-workbook/units/Unit-11-Programming.pdf | 14.7 MB |

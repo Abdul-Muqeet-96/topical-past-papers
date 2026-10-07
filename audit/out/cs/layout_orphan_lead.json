@@ -1,0 +1,18 @@
+[
+{
+"book": 1,
+"page": 461,
+"ref": "O/N 24/P12/Q8/a,b",
+"line": "ACC 1 0 0 1 1 0 1 0",
+"lines_between": 2,
+"figure_h": 181
+},
+{
+"book": 1,
+"page": 947,
+"ref": "O/N 24/P11/Q2/a,b,c",
+"line": "REPAIR_PART(PartID, RepairNumber, Quantity)",
+"lines_between": 1,
+"figure_h": 64
+}
+]

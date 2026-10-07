@@ -3,10 +3,10 @@
   {
    "file": "λ-cs/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf",
    "mb": 21.3,
-   "pages": 1101,
+   "pages": 1099,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 1101
+    "(595, 842)": 1099
    },
    "not_embedded": [
     "Arial-BoldMT",
@@ -45,10 +45,10 @@
   {
    "file": "λ-cs/p1-topical-workbook/units/Unit-01-Information-representation.pdf",
    "mb": 7.9,
-   "pages": 168,
+   "pages": 169,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 168
+    "(595, 842)": 169
    },
    "not_embedded": [
     "Arial-BoldMT",
@@ -119,10 +119,10 @@
   {
    "file": "λ-cs/p1-topical-workbook/units/Unit-03-Hardware.pdf",
    "mb": 6.7,
-   "pages": 176,
+   "pages": 175,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 176
+    "(595, 842)": 175
    },
    "not_embedded": [
     "Arial-BoldMT",
@@ -193,10 +193,10 @@
   {
    "file": "λ-cs/p1-topical-workbook/units/Unit-05-System-Software.pdf",
    "mb": 7.8,
-   "pages": 125,
+   "pages": 124,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 125
+    "(595, 842)": 124
    },
    "not_embedded": [
     "Arial-BoldMT",
@@ -303,10 +303,10 @@
   {
    "file": "λ-cs/p1-topical-workbook/units/Unit-08-Databases.pdf",
    "mb": 7.6,
-   "pages": 154,
+   "pages": 153,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 154
+    "(595, 842)": 153
    },
    "not_embedded": [
     "Arial-BoldMT",
@@ -351,10 +351,10 @@
   {
    "file": "λ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf",
    "mb": 25.9,
-   "pages": 1516,
+   "pages": 1518,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 1516
+    "(595, 842)": 1518
    },
    "not_embedded": [
     "Arial-BoldItalicMT",
@@ -403,10 +403,10 @@
   {
    "file": "λ-cs/p2-topical-workbook/units/Unit-09-Algorithm-Design-and-Problem-solving.pdf",
    "mb": 13.0,
-   "pages": 244,
+   "pages": 243,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 244
+    "(595, 842)": 243
    },
    "not_embedded": [
     "Arial-BoldMT",
@@ -533,10 +533,10 @@
   {
    "file": "λ-cs/p2-topical-workbook/units/Unit-12-Software-Development.pdf",
    "mb": 13.4,
-   "pages": 320,
+   "pages": 323,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 320
+    "(595, 842)": 323
    },
    "not_embedded": [
     "Arial-BoldMT",
@@ -590,7 +590,7 @@
   }
  ],
  "fail": [],
- "largest_tracked": "29648890\tΔ-chemistry/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf\n25897829\tλ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf\n21766806\tΩ-physics/Physics paper 2 9702 3.pdf\n",
+ "largest_tracked": "29648890\tΔ-chemistry/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf\n25899835\tλ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf\n21766806\tΩ-physics/Physics paper 2 9702 3.pdf\n",
  "fonts_not_embedded_in_sources": [
   "Arial-BoldItalicMT",
   "Arial-BoldMT",

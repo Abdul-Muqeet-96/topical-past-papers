@@ -5,7 +5,7 @@
     "cover": 1,
     "contents": 1,
     "unit_title": 8,
-    "question": 628,
+    "question": 626,
     "answers": 452,
     "index": 11
    },
@@ -30,7 +30,7 @@
     "cover": 1,
     "contents": 1,
     "unit_title": 4,
-    "question": 831,
+    "question": 833,
     "answers": 665,
     "index": 11,
     "appendix": 3
@@ -49,9 +49,9 @@
    "index_refs_truncated": 0,
    "appendix": {
     "pages": [
-     1514,
-     1515,
-     1516
+     1516,
+     1517,
+     1518
     ],
     "banner": [
      "Appendix: Insert: pseudocode functions and operators (from M/J 26/P23)"

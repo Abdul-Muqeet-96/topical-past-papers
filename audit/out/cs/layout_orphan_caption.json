@@ -1,21 +1,51 @@
 [
 {
 "book": 1,
-"page": 534,
+"page": 452,
+"ref": "M/J 25/P12/Q1/a,b,c",
+"line": "Register"
+},
+{
+"book": 1,
+"page": 533,
 "ref": "O/N 19/P11/Q1/a,b,c",
 "line": "Bus 1"
 },
 {
 "book": 1,
-"page": 845,
+"page": 844,
 "ref": "O/N 15/P23/Q7/c",
 "line": "OUTPUT MyString, StringTotal"
 },
 {
 "book": 1,
-"page": 949,
+"page": 938,
+"ref": "M/J 26/P12/Q3/a,b,c",
+"line": "corrected line"
+},
+{
+"book": 1,
+"page": 940,
+"ref": "M/J 26/P13/Q4/a,b,c",
+"line": "corrected line"
+},
+{
+"book": 1,
+"page": 946,
+"ref": "M/J 25/P13/Q6/a,b,c,d",
+"line": "appropriate title."
+},
+{
+"book": 1,
+"page": 947,
 "ref": "O/N 24/P11/Q2/a,b,c",
 "line": "REPAIR_PART(PartID, RepairNumber, Quanti"
+},
+{
+"book": 2,
+"page": 284,
+"ref": "M/J 25/P23/Q2/a,b,c",
+"line": "PUSH 'Y'"
 },
 {
 "book": 2,
@@ -25,13 +55,13 @@
 },
 {
 "book": 2,
-"page": 757,
+"page": 756,
 "ref": "O/N 25/P23/Q5/b",
 "line": "Num[4] 3"
 },
 {
 "book": 2,
-"page": 1199,
+"page": 1198,
 "ref": "O/N 25/P23/Q5/a",
 "line": "Num[4] 3"
 }

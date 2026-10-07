@@ -22,40 +22,40 @@ build differences: 0 | repeated continuation rows counted once 3 | MS labelled o
 leaf differences explained (excluded question / logged label slip): 13 | unexplained: 0
 questions excluded by the build: 4 | of these the audit parsers also find QP != MS: 4 | not confirmed: [] | QP != MS but not excluded: []
 == c30 book parse
-P1: 1101 pages {'cover': 1, 'contents': 1, 'unit_title': 8, 'question': 628, 'answers': 452, 'index': 11}; headings Q 663 A 663; bands 10125; unit PDFs 8; toc 18
-P2: 1516 pages {'cover': 1, 'contents': 1, 'unit_title': 4, 'question': 831, 'answers': 665, 'index': 11, 'appendix': 3}; headings Q 688 A 688; bands 12394; unit PDFs 4; toc 11
+P1: 1099 pages {'cover': 1, 'contents': 1, 'unit_title': 8, 'question': 626, 'answers': 452, 'index': 11}; headings Q 663 A 663; bands 10125; unit PDFs 8; toc 18
+P2: 1518 pages {'cover': 1, 'contents': 1, 'unit_title': 4, 'question': 833, 'answers': 665, 'index': 11, 'appendix': 3}; headings Q 688 A 688; bands 12394; unit PDFs 4; toc 11
 == c31 coverage
 leaves in verified papers: 3296 {'in one item': 3133, 'out of syllabus': 143, 'question excluded (check 3)': 20}
 unexplained gaps: 0 | in more than one item: 0 | listed as excluded but in a book: 0 | index refs that match no paper part: 0 | report rows that match no part: 0
 items: 1351 | item marks != QP parts (audit): 0 | item marks != MS (audit; known label slips left out): 0
   bad refs [] stale []
 == c40 three-way
-{'P1 Q headings': 663, 'P1 A headings': 663, 'P1 index rows': 663, 'P1 jsonl rows': 663, 'P1 unit PDF pages': 1088, 'P2 Q headings': 688, 'P2 A headings': 688, 'P2 index rows': 688, 'P2 jsonl rows': 688, 'P2 unit PDF pages': 1500}
+{'P1 Q headings': 663, 'P1 A headings': 663, 'P1 index rows': 663, 'P1 jsonl rows': 663, 'P1 unit PDF pages': 1086, 'P2 Q headings': 688, 'P2 A headings': 688, 'P2 index rows': 688, 'P2 jsonl rows': 688, 'P2 unit PDF pages': 1502}
 three-way failures: 0 {}
 == c41 text layer
 {'Q items': 1351, 'Q tokens (jsonl)': 234915, 'A items': 1351, 'A tokens (jsonl)': 190913}
 items whose book text and jsonl text differ by more than 3 %: 0 {}
 == c50 structure
-P1: {'cover': {'papers': 89, 'items': 663, 'marks': 4661, 'cross_filed': 33}, 'contents_entries': 17, 'bad_headers': 0, 'bad_numbers': 0, 'order_violations': 0, 'index_rows': 663, 'index_refs_truncated': 0} | kinds {'cover': 1, 'contents': 1, 'unit_title': 8, 'question': 628, 'answers': 452, 'index': 11}
-P2: {'cover': {'papers': 65, 'items': 688, 'marks': 4694, 'cross_filed': 0}, 'contents_entries': 10, 'bad_headers': 0, 'bad_numbers': 0, 'order_violations': 0, 'index_rows': 688, 'index_refs_truncated': 0, 'appendix': {'pages': [1514, 1515, 1516], 'banner': ['Appendix: Insert: pseudocode functions and operators (from M/J 26/P23)'], 'newest_series_inserts': ['9618_s26_in_21.pdf', '9618_s26_in_22.pdf', '9618_s26_in_23.pdf'], 'named': '9618_s26_in_23.pdf', 'source_tokens': 780, 'missing': 2, 'extra': 0, 'missing_examples': ['Turn', 'over'], 'extra_examples': []}} | kinds {'cover': 1, 'contents': 
+P1: {'cover': {'papers': 89, 'items': 663, 'marks': 4661, 'cross_filed': 33}, 'contents_entries': 17, 'bad_headers': 0, 'bad_numbers': 0, 'order_violations': 0, 'index_rows': 663, 'index_refs_truncated': 0} | kinds {'cover': 1, 'contents': 1, 'unit_title': 8, 'question': 626, 'answers': 452, 'index': 11}
+P2: {'cover': {'papers': 65, 'items': 688, 'marks': 4694, 'cross_filed': 0}, 'contents_entries': 10, 'bad_headers': 0, 'bad_numbers': 0, 'order_violations': 0, 'index_rows': 688, 'index_refs_truncated': 0, 'appendix': {'pages': [1516, 1517, 1518], 'banner': ['Appendix: Insert: pseudocode functions and operators (from M/J 26/P23)'], 'newest_series_inserts': ['9618_s26_in_21.pdf', '9618_s26_in_22.pdf', '9618_s26_in_23.pdf'], 'named': '9618_s26_in_23.pdf', 'source_tokens': 780, 'missing': 2, 'extra': 0, 'missing_examples': ['Turn', 'over'], 'extra_examples': []}} | kinds {'cover': 1, 'contents': 
 structure failures: 0
 == c60 files
 fonts the source papers do not embed: ['Arial-BoldItalicMT', 'Arial-BoldMT', 'Arial-ItalicMT', 'ArialMT', 'Courier', 'Courier-Bold', 'Courier-Oblique', 'Helvetica', 'Helvetica-Bold', 'Helvetica-Oblique', 'Symbol', 'T1', 'T2', 'T3', 'T4', 'TimesNewRomanPS-BoldMT', 'TimesNewRomanPS-ItalicMT', 'TimesNewRomanPSMT', 'ZapfDingbats']
 files checked 20 | failures 0
-   λ-cs/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf 21.3 MB 1101 p qpdf ok
-   ical-workbook/units/Unit-01-Information-representation.pdf 7.9 MB 168 p qpdf ok
+   λ-cs/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf 21.3 MB 1099 p qpdf ok
+   ical-workbook/units/Unit-01-Information-representation.pdf 7.9 MB 169 p qpdf ok
    λ-cs/p1-topical-workbook/units/Unit-02-Communication.pdf 5.1 MB 90 p qpdf ok
-   λ-cs/p1-topical-workbook/units/Unit-03-Hardware.pdf 6.7 MB 176 p qpdf ok
+   λ-cs/p1-topical-workbook/units/Unit-03-Hardware.pdf 6.7 MB 175 p qpdf ok
    -topical-workbook/units/Unit-04-Processor-Fundamentals.pdf 7.9 MB 234 p qpdf ok
-   λ-cs/p1-topical-workbook/units/Unit-05-System-Software.pdf 7.8 MB 125 p qpdf ok
+   λ-cs/p1-topical-workbook/units/Unit-05-System-Software.pdf 7.8 MB 124 p qpdf ok
    book/units/Unit-06-Security-privacy-and-data-integrity.pdf 6.5 MB 88 p qpdf ok
    p1-topical-workbook/units/Unit-07-Ethics-and-Ownership.pdf 3.9 MB 53 p qpdf ok
-   λ-cs/p1-topical-workbook/units/Unit-08-Databases.pdf 7.6 MB 154 p qpdf ok
-   λ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf 25.9 MB 1516 p qpdf ok
-   ook/units/Unit-09-Algorithm-Design-and-Problem-solving.pdf 13.0 MB 244 p qpdf ok
+   λ-cs/p1-topical-workbook/units/Unit-08-Databases.pdf 7.6 MB 153 p qpdf ok
+   λ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf 25.9 MB 1518 p qpdf ok
+   ook/units/Unit-09-Algorithm-Design-and-Problem-solving.pdf 13.0 MB 243 p qpdf ok
    pical-workbook/units/Unit-10-Data-Types-and-Structures.pdf 13.5 MB 496 p qpdf ok
    λ-cs/p2-topical-workbook/units/Unit-11-Programming.pdf 14.7 MB 440 p qpdf ok
-   p2-topical-workbook/units/Unit-12-Software-Development.pdf 13.4 MB 320 p qpdf ok
+   p2-topical-workbook/units/Unit-12-Software-Development.pdf 13.4 MB 323 p qpdf ok
 == c70 bands
    weak mappings resolved by pixels: 2 of 2
 P1: bands 10125, source pages placed 1456, unmapped (no text) 0, low-overlap 0 {('Q', 'qp'): 8271, ('A', 'ms'): 1854}
@@ -74,7 +74,7 @@ empty_box: 25 rows in 24 item sides {'Q': 25}
 empty_box_kept: 0 rows in 0 item sides {}
 stamp: 0 rows in 0 item sides {}
 == c72 pixels P1
-P1 {'shift 0,0': 7109, 'bands': 10125, 'shift 0,1': 2008, 'answer lines removed': 2140, 'gaps in code or sentences kept': 192, 'footer furniture inside a clip, whited out': 23, 'shift 0,2': 63, 'shift 1,0': 643, 'shift 1,1': 299, 'bands under a site watermark image': 175, 'shift 1,2': 3, 'dotted runs after an identifier, long (kept or removed with their code block)': 18}
+P1 {'shift 0,0': 7116, 'bands': 10125, 'shift 0,1': 2005, 'answer lines removed': 2140, 'gaps in code or sentences kept': 192, 'footer furniture inside a clip, whited out': 23, 'shift 0,2': 62, 'shift 1,0': 638, 'shift 1,1': 301, 'bands under a site watermark image': 175, 'shift 1,2': 3, 'dotted runs after an identifier, long (kept or removed with their code block)': 18}
   removed: 0 rows in 0 item sides {}
   dots_visible: 0 rows in 0 item sides {}
   gap_removed: 0 rows in 0 item sides {}
@@ -85,7 +85,7 @@ P1 {'shift 0,0': 7109, 'bands': 10125, 'shift 0,1': 2008, 'answer lines removed'
   edge_rule: 0 rows in 0 item sides {}
   mark_damaged: 0 rows in 0 item sides {}
 == c72 pixels P2
-P2 {'shift 0,0': 9171, 'bands': 12394, 'shift 0,1': 2357, 'gaps in code or sentences kept': 242, 'answer lines removed': 1483, 'dotted runs after an identifier, long (kept or removed with their code block)': 105, 'footer furniture inside a clip, whited out': 59, 'shift 0,2': 99, 'shift 1,0': 459, 'rules just outside a crop edge, no trace': 14, 'bands under a site watermark image': 331, 'shift 1,1': 305, 'shift 1,2': 3}
+P2 {'shift 0,0': 9172, 'bands': 12394, 'shift 0,1': 2359, 'gaps in code or sentences kept': 242, 'answer lines removed': 1483, 'dotted runs after an identifier, long (kept or removed with their code block)': 105, 'footer furniture inside a clip, whited out': 59, 'shift 0,2': 96, 'shift 1,0': 457, 'rules just outside a crop edge, no trace': 14, 'bands under a site watermark image': 331, 'shift 1,1': 307, 'shift 1,2': 3}
   removed: 0 rows in 0 item sides {}
   dots_visible: 0 rows in 0 item sides {}
   gap_removed: 0 rows in 0 item sides {}
@@ -96,17 +96,18 @@ P2 {'shift 0,0': 9171, 'bands': 12394, 'shift 0,1': 2357, 'gaps in code or sente
   edge_rule: 0 rows in 0 item sides {}
   mark_damaged: 0 rows in 0 item sides {}
 == c73 layout
-{'body pages': 2579, 'unused space: next item kept whole or its start kept together': 209, 'page breaks inside a source page': 462, 'breaks between rows of a reference page': 67, 'unused space: figure or block kept together': 82}
+{'body pages': 2579, 'unused space: next item kept whole or its start kept together': 209, 'page breaks inside a source page': 413, 'breaks between rows of a reference page': 67, 'unused space: figure or block kept together': 82}
 margin: 0 {}
 overlap: 0 {}
 orphan_heading: 0 {}
 orphan_mark: 0 {}
 orphan_intro: 0 {}
-orphan_caption: 6 {1: 3, 2: 3}
+orphan_caption: 11 {1: 7, 2: 4}
+orphan_lead: 26 {1: 12, 2: 14}
 split_figure: 0 {}
 empty_page: 0 {}
 wasted_space: 0 {}
-wasted_by_design: 291 {1: 103, 2: 188}
+wasted_by_design: 291 {1: 100, 2: 191}
 scale: 0 {}
 == c74 marks
 {'marks in bands': 3162, "marks on these pages outside the item's bands": 180, 'marks under the site watermark in the source, clean in the book': 5, 'marks with a dotted line touching the top of their box (line removed, mark intact)': 10}
