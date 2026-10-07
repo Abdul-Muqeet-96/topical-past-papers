@@ -20,3 +20,5 @@ Found by the checks above or by viewing, and fixed in the build (each has a row 
 - the bar under a binary sum dropped; a trace of footer words or of a removed frame on the edge row of a crop;
 - page breaks: code listings split, a mark, an introducing line or an opening line separated from what it belongs to;
 - items.jsonl without the text of insert pages printed with an item; footer words left in the PDF text layer.
+- empty frames for drawings drawn with a hairline border left in the items; the rule above the copyright paragraph of a last page cropped with the last question;
+- self-containment: one introduction and three stems announcing pseudocode or a diagram that the item did not show (the part that holds it is now shown as context); one item ending with the lead-in sentence of a part that is not in the books.

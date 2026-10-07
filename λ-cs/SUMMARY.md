@@ -1,6 +1,6 @@
 # SUMMARY: Computer Science 9618 Paper 1 and Paper 2 part-level topical workbooks
 
-Stages finished: 0, 1, 2, 3, 4 (see `λ-cs/state_cs.json`). Books contain: Phase 1 (9618), Phase 2 (9608).
+Stages finished: 0, 1, 2, 3, 4, 5, 6, 7 (see `λ-cs/state_cs.json`). Books contain: Phase 1 (9618), Phase 2 (9608).
 
 ## Papers
 
