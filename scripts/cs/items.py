@@ -116,6 +116,12 @@ def _site_covered(site, units, ctx_parts, intros):
     return False
 
 
+RE_ANNOUNCE = re.compile(r"\b(pseudocode|program code|algorithm|flowchart)\b[^.:]{0,20}\bfollows\b[^.]*\.", re.I)
+# the first sub-part must really hold that material
+RE_ANNOUNCE_KIND = {"pseudocode": re.compile(r"pseudocode|[A-Z]{4,}\s|←"), "program code": re.compile(r"program code|[A-Z]{4,}\s|←"),
+                    "algorithm": re.compile(r"algorithm|pseudocode|[A-Z]{4,}\s|←"), "flowchart": re.compile(r"flowchart", re.I)}
+
+
 def resolve(Q, units):
     """Return dict(ok, why, intros, ctx_parts, ctx_blocks, notes, deps, insert, why_ctx)."""
     units = list(units)
@@ -149,6 +155,22 @@ def resolve(Q, units):
         if dep:
             deps.append(site)
         todo.append((unit_text(Q, site) or "", letter_of(site), unit_ids(Q, site), site))
+
+    # a lettered introduction that announces material ("Incomplete pseudocode follows ...")
+    # which is then printed inside its first sub-part: an item that shows the introduction
+    # without that sub-part gets the sub-part as context (question crop only)
+    for i in intros:
+        L = find_letter(Q, letter_of(i))
+        rom = L.get("romans") or []
+        if not rom:
+            continue
+        first = f"({L['letter']})({rom[0]['roman']})"
+        if any(first == u or first.startswith(u) for u in units):
+            continue
+        intro = (L.get("intro_text") or "").strip()
+        m = RE_ANNOUNCE.search(intro)
+        if m and len(intro) - m.end() < 140 and RE_ANNOUNCE_KIND[m.group(1).lower()].search(rom[0]["text"][:400]):
+            add(first, "material announced in the introduction is printed in the first sub-part")
 
     while todo:
         t, tl, ids, where = todo.pop(0)

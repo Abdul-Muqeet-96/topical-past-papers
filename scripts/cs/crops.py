@@ -35,6 +35,7 @@ class Band:
         self.grp = None       # figure/table this band belongs to (kept on one page)
         self.mark_only = False
         self.colon_end = False
+        self.caption = False
 
     @property
     def h(self):
@@ -193,8 +194,9 @@ def empty_boxes(page):
         if (a[r0:r1, c0:c1] < INK).any():
             continue
         # the border itself must be there (ink just outside the inset area)
+        # (a hairline frame renders lighter than ordinary ink)
         edge = a[max(0, int((r.y0 - 2) * Z)):int((r.y0 + 2) * Z) + 1, c0:c1]
-        if not (edge < INK).any():
+        if not (edge < 235).any():
             continue
         # a frame with something attached to its sides (the labelled inputs and output of a
         # logic circuit to draw) is a figure to complete, not plain writing space: it stays
@@ -364,8 +366,15 @@ def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
         b.mark_only = bool(inside) and all(re.fullmatch(r"\[\d{1,2}\]", t) for t in inside) and x1 - x0 < 40
         # a band whose last line ends with a colon introduces what follows and stays with it
         text = [w for w in iw if not re.fullmatch(r"\[\d{1,2}\]", w[4])]
-        last = max(text, key=lambda w: (round(w[3] / 4), w[0]))[4] if text else ""
+        last = ""
+        if text:
+            cy = max((w[1] + w[3]) / 2 for w in text)          # the last line: within 5 pt of the lowest word
+            last = max((w for w in text if (w[1] + w[3]) / 2 > cy - 5), key=lambda w: w[0])[4]
         b.colon_end = last.endswith(":")
+        # a caption or title: one to three words on one short line ("Stack" above a diagram)
+        b.caption = 1 <= len(text) <= 3 and (y1 - y0) < 18 and max(w[2] for w in text) - min(w[0] for w in text) < 150 \
+            and any(re.search(r"[A-Za-z]{3}", w[4]) for w in text) and not b.colon_end \
+            and not re.fullmatch(r"\(?[a-z]\)|\([ivx]+\)|\d{1,2}", text[0][4])
         if b.h > 1:
             out.append(b)
     return out

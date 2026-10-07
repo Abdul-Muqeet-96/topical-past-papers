@@ -262,7 +262,7 @@
  {
   "item": "Page breaks: what stays together",
   "issue": "A figure can only be kept whole if the lines before it leave room; a mark printed after removed answer space, or the line that introduces a figure, could be left alone on the other side of a page break",
-  "action": "A figure (code block, table, diagram) moves to a new page whole whenever it fits on one; the short line printed last before it (at most 60 pt of blank answer space between them) moves with it; a line that ends with a colon (\"... after execution of the instruction:\") stays with what it introduces (also where the paper itself turns the page after the colon); the one to three opening lines of an item that lead straight into a figure stay with it and with the item's reference line; a band that holds nothing but a [mark] stays with the line before it. Only a figure taller than a page breaks"
+  "action": "A figure (code block, table, diagram) moves to a new page whole whenever it fits on one; the short line printed last before it (at most 60 pt of blank answer space between them) moves with it; a line that ends with a colon (\"... after execution of the instruction:\") stays with what it introduces (also where the paper itself turns the page after the colon); the one to three opening lines of an item that lead straight into a figure stay with it and with the item's reference line; a caption or title of one to three words (\"Stack\") stays with what is printed directly under it; a band that holds nothing but a [mark] stays with the line before it. Only a figure taller than a page breaks"
  },
  {
   "item": "Code blocks with single-letter names",
@@ -283,5 +283,25 @@
   "item": "Footer words in the text layer",
   "issue": "On 247 question-paper pages a mark or a figure reaches down to the footer line, so \"[Turn over\" or the barcode glyphs fall inside a crop: hidden by white rectangles, but still in the PDF text layer",
   "action": "On those pages the footer words are removed from the text layer together with the answer-line dots, under the same before-and-after comparison. On 13 pages the comparison fails with the footer words included; there only the dots are removed and the footer words stay in the text layer under their white rectangle (never in items.jsonl)"
+ },
+ {
+  "item": "Material announced in an introduction",
+  "issue": "9608 M/J 15/P23 Q4(b): the introduction says \"Incomplete pseudocode follows\", but the pseudocode is printed inside sub-part (b)(i); item Q4/b(ii), filed in the Paper 1 book, showed the introduction without it",
+  "action": "Where a lettered introduction announces pseudocode, program code, an algorithm or a flowchart that \"follows\" and the first sub-part holds it, every other sub-part of that letter depends on the first one. One part is affected: 9608 M/J 15/P23 Q4(b). Its sub-part (b)(ii) (2 marks, Unit 6) can no longer be filed apart from (b)(i), so (b) is kept whole under the rule for parts that depend on a sibling: item M/J 15/P23/Q4/b,c in the Paper 2 book, Unit 10, with the note \"also Unit 6 (2 marks)\". The books now hold 1351 items (Paper 1 book 663, Paper 2 book 688)"
+ },
+ {
+  "item": "Rule above the copyright paragraph",
+  "issue": "The last page of a question paper prints a rule across the page above the small-print copyright paragraph; where the last question ends on that page, the rule was cropped with it",
+  "action": "The rule (up to 16 pt above the paragraph) is treated as part of the paragraph and left out"
+ },
+ {
+  "item": "Empty drawing boxes: hairline frames",
+  "issue": "Twelve empty frames for drawing a flowchart, a structure chart or a network diagram are drawn with a hairline that renders lighter than ordinary ink, so they were not recognised as empty boxes and stayed in the items",
+  "action": "A frame counts as drawn when any trace of its border is there; all 28 empty frames are now removed like other answer space. Frames with labelled inputs and outputs on their sides (logic circuits to draw) stay"
+ },
+ {
+  "item": "Lead-in of a part that is not shown",
+  "issue": "9608 M/J 21/P12 Q5: a sentence that introduces part (f) is printed at the top of the next page, after the mark of part (e)(ii); item Q5/e(ii) ended with that sentence although (f) is not in the books",
+  "action": "One to three lines of plain text printed at the top of a later page, after a part's last mark and directly above the label of the next part, are left out of an item that does not show that next part. One item is affected"
  }
 ]

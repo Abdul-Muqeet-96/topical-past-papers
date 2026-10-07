@@ -200,8 +200,13 @@ def keep_heights(bands, i, scale, maxh):
         return hh, k
 
     b = bands[i]
-    hh, _ = run(i, _together)
-    chain = bh(i) + hh
+    # the chain of linked bands, as far as it fits on one page (at least band i and the next one)
+    chain, k = bh(i), i
+    while k + 1 < len(bands) and _together(bands[k], bands[k + 1]):
+        nxt = chain + _gap(bands[k], bands[k + 1]) * scale + bh(k + 1)
+        if nxt > maxh and k > i:
+            break
+        chain, k = nxt, k + 1
     same = lambda a, c: a.grp is not None and a.grp == c.grp
 
     def core_of(k, depth=0):
@@ -213,7 +218,8 @@ def keep_heights(bands, i, scale, maxh):
             if e + 1 < len(bands) and bands[e + 1].mark_only:
                 hgt += _gap(bands[e], bands[e + 1]) * scale + bh(e + 1)
             return hgt, True
-        if k + 1 < len(bands) and depth < 3 and (_label_above(c, bands[k + 1]) or _introduces(c, bands[k + 1])):
+        if k + 1 < len(bands) and depth < 3 and (_label_above(c, bands[k + 1]) or _introduces(c, bands[k + 1])
+                                                 or _captions(c, bands[k + 1])):
             nh, fig = core_of(k + 1, depth + 1)
             return bh(k) + _gap(c, bands[k + 1]) * scale + nh, True
         return bh(k), False
@@ -222,9 +228,14 @@ def keep_heights(bands, i, scale, maxh):
     return chain, core, with_fig
 
 
+def _captions(a, b):
+    """a is a caption or title printed directly above b."""
+    return getattr(a, "caption", False) and a.grp is None and a.page == b.page and 0 <= b.y0 - a.y1 <= 14
+
+
 def _introduces(a, b):
     """a ends with a colon ("... the following instruction:") and b is what it introduces."""
-    if not getattr(a, "colon_end", False) or a.grp is not None:
+    if not getattr(a, "colon_end", False) or a.grp is not None or getattr(a, "mark_only", False):
         return False
     # on the same page of the paper, or the paper itself turns the page after the colon
     return (a.page == b.page and 0 <= b.y0 - a.y1 <= 60) or b.page == a.page + 1
@@ -233,7 +244,10 @@ def _introduces(a, b):
 def _label_above(a, b):
     """a is the short line printed last before a figure b starts (only blank answer space lies
     between them, at most 60 pt of it)."""
-    return a.grp is None and b.grp is not None and a.page == b.page and 0 <= b.y0 - a.y1 <= 60 and a.h < 30
+    if a.grp is not None or b.grp is None or a.h >= 30 or getattr(a, "mark_only", False):
+        return False                     # (a [mark] closes what is above it; it never labels a figure)
+    # on the same page of the paper, or the figure opens the paper's next page
+    return (a.page == b.page and 0 <= b.y0 - a.y1 <= 60) or (b.page == a.page + 1 and b.y0 < 130)
 
 
 def _together(a, b):
@@ -244,8 +258,8 @@ def _together(a, b):
         return True
     if getattr(b, "mark_only", False):
         return True          # a [mark] on its own stays with the line it closes
-    if _label_above(a, b) or _introduces(a, b):
-        return True          # the line that introduces a figure, or that ends with a colon
+    if _label_above(a, b) or _introduces(a, b) or _captions(a, b):
+        return True          # the line that introduces a figure, ends with a colon, or is a caption
     if a.page != b.page or b.y0 - a.y1 > 14:
         return False
     return (a.h < 18 and b.h > 30) or (a.h > 30 and b.h < 18)

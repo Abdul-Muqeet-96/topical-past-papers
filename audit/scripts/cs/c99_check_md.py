@@ -125,10 +125,11 @@ lst("Crop quality", "Dotted lines: answer lines still visible; gaps to fill remo
               for mm, mm2 in [(log(f"c72 pixels P{b}", r"'answer lines removed': (\d+)"), log(f"c72 pixels P{b}", r"'gaps in code or sentences kept': (\d+)"))] if mm and mm2))
 lst("Crop quality", "Dropped ink: words or drawings of the shown parts missing from the book; ink removed inside a crop", "c71_crops.py, c72_pixels.py",
     ["crop_dropped_words.json", "crop_dropped_draw.json", "crop_empty_box.json", "pix_removed_p1.json", "pix_removed_p2.json"], nb)
+lst("Crop quality", "Empty frames (answer space for a drawing) still shown", "c71_crops.py", ["crop_empty_box_kept.json"])
 lst("Crop quality", "Added ink (in the book, not in the source), ink on a crop edge, trace of a rule lying just outside a crop", "c72_pixels.py",
     ["pix_added_p1.json", "pix_added_p2.json", "pix_edge_p1.json", "pix_edge_p2.json", "pix_edge_rule_p1.json", "pix_edge_rule_p2.json"])
 lst("Crop quality", "Page splits: figure or code block split across pages, heading, mark or introducing line left alone, overlap, margins, empty pages, enlarged crops",
-    "c73_layout.py", ["layout_split_figure.json", "layout_orphan_heading.json", "layout_orphan_mark.json", "layout_orphan_intro.json", "layout_overlap.json",
+    "c73_layout.py", ["layout_split_figure.json", "layout_orphan_heading.json", "layout_orphan_mark.json", "layout_orphan_intro.json", "layout_orphan_caption.json", "layout_overlap.json",
                       "layout_margin.json", "layout_empty_page.json", "layout_scale.json"])
 if have("layout_wasted_space.json") and have("layout_wasted_by_design.json"):
     wd = Counter(x["cause"] for x in jl("layout_wasted_by_design.json"))
@@ -139,19 +140,21 @@ else:
 
 # 6 self-containment
 m = log("c80 self-contained", r"\{(.*)\}")
-lst("Self-containment", "Own parts shown; part, page, question, insert and Appendix references resolved; identifier rule (first use of a name is in the item)",
+lst("Self-containment", "Own parts shown; part, page, question, insert and Appendix references resolved; material announced as following is shown; identifier rule (first use of a name is in the item)",
     "c80_selfcontained.py", ["self_own_not_shown.json", "self_part_ref.json", "self_page_ref.json", "self_insert_ref.json",
-                             "self_appendix_ref.json", "self_question_ref.json", "self_identifier.json"], (m.group(1).replace("'", "") if m else ""))
+                             "self_appendix_ref.json", "self_question_ref.json", "self_announced.json", "self_identifier.json"], (m.group(1).replace("'", "") if m else ""))
 
 # 7 topics
 bd = os.path.join(OUT, "blind", "disagreements.json")
 if os.path.exists(bd):
-    m = log("c91 blind re-tag", r"items (\d+) \| blind-tagged (\d+).*\nsame unit: (\d+) \| filed unit is the second acceptable unit: (\d+) \| disagreements: (\d+) \| resolved by reading: (\d+) \| unresolved: (\d+)")
+    m = log("c91 blind re-tag", r"items (\d+) \| blind-tagged (\d+).*\n(?:items in the books now.*\n)?same unit: (\d+) \| filed unit is the second acceptable unit: (\d+) \| disagreements: (\d+) \| resolved by reading: (\d+) \| unresolved: (\d+)")
     if m:
         ok = m.group(1) == m.group(2) and m.group(7) == "0"
         add("Topics", "Blind re-tag of every item (unit hidden), every disagreement resolved by reading the item", "c90_blind_dump.py, c91_blind_compare.py",
             "PASS" if ok else "FAIL", f"{m.group(2)} of {m.group(1)} items re-tagged: {m.group(3)} same unit, {m.group(4)} filed under the second acceptable unit, "
-            f"{m.group(5)} disagreements, {m.group(6)} resolved by reading (blind/resolved.txt): all keep their tag; unresolved {m.group(7)}")
+            f"{m.group(5)} disagreements, {m.group(6)} resolved by reading (blind/resolved.txt): all keep their tag; unresolved {m.group(7)}" +
+            (lambda mm: f"; {mm.group(1)} item regrouped since the blind pass (its blind unit is named in the new item's also-note)" if mm and mm.group(1) != "0" else "")(
+                log("c91 blind re-tag", r"also-note: (\d+)")))
     else:
         add("Topics", "Blind re-tag of every item", "c91_blind_compare.py", "NOT RUN", "")
 else:

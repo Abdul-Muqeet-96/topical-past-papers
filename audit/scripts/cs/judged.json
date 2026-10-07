@@ -1,11 +1,11 @@
 {
  "crop_furniture.json": {
   "rows": 15,
-  "verdict": "The crop reaches into the footer zone because a mark or the last line of a figure is printed level with the footer (12 question crops), or a mark-scheme row ends low on its page (3 answer crops). The pixel check finds no footer ink in any of them (furniture visible: 0); the 3 answer crops and 2 question crops were viewed against their source"
+  "verdict": "The crop reaches into the footer zone because a mark or the last line of a figure is printed level with the footer (12 question crops), or a mark-scheme row ends low on its page (3 answer crops). The pixel comparison finds no footer ink in any of them (furniture visible: 0)"
  },
  "crop_empty_box.json": {
-  "rows": 18,
-  "verdict": "Empty frames for drawing a flowchart or a structure chart (answer space), removed by rule (AUTO-DECIDED, empty drawing boxes). All 16 source pages were viewed: each frame is blank"
+  "rows": 25,
+  "verdict": "Empty frames for drawing a flowchart, a structure chart or a network diagram (answer space), removed by rule (AUTO-DECIDED, empty drawing boxes). All 23 frames were viewed on their source pages, outlined: each is blank"
  },
  "self_identifier.json": {
   "rows": 3,

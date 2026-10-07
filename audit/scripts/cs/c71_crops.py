@@ -78,6 +78,12 @@ def zones(fn, i):
                 top = max(top or 0, r.y1)
         if r.y0 > H * 0.86 and (re.search(r"UCLES|Turn|^over|^\d{4}/\d\d/|^Page$|Cambridge|Assessment|papacambridge|Trace|Licensed|Downloaded", t)):
             bot = min(bot or H, r.y0)
+    # the small-print copyright paragraph of a last page, and the rule printed across the page above it
+    para = [r.y0 for r, t in ww if r.y0 > H * 0.5 and r.height < 9 and re.search(r"^Permission$|^acknowledgements$|^Acknowledgements$", t)]
+    if para:
+        y = min(para)
+        rules = [r.y0 for r, w_, white, typ in drawings(fn, i) if not white and r.height < 2 and r.width > 400 and y - 16 <= r.y0 < y + 2]
+        bot = min(bot or H, min(rules + [y]) - 1)
     return top, bot, H
 
 
@@ -132,7 +138,7 @@ def ink_cut(fn, pi, r, clips, Z=3.0):
     return int(sub.sum()) >= 3
 
 
-res = {k: [] for k in ("clipped", "marks_cut", "furniture", "furn_text", "cutfig", "dropped_words", "dropped_draw", "empty_box", "stamp")}
+res = {k: [] for k in ("clipped", "marks_cut", "furniture", "furn_text", "cutfig", "dropped_words", "dropped_draw", "empty_box", "empty_box_kept", "stamp")}
 stats = Counter()
 for book in (1, 2):
     o = jl(f"bands_p{book}.json")
@@ -207,6 +213,25 @@ for book in (1, 2):
                             stats["path boxes crossing a clip edge with no visible ink there"] += 1
                             continue
                         res["cutfig"].append(dict(base, edge=round(edge, 1), path=[round(x) for x in r], w=round(w, 1)))
+        # an empty frame (answer space for a drawing) that is still shown: a large stroked rectangle
+        # inside the shown parts with no word and no other drawing inside it, and no label on its sides
+        dr_all = drawings(fn, pi)
+        for r, w, white, typ in dr_all:
+            if side != "Q" or white or r.width < 250 or r.height < 70 or r.width > 560:
+                continue                      # (frames in a mark scheme outline parts of an answer)
+            if not any(a - 2 <= r.y0 and r.y1 <= b + 2 for a, b in iv):
+                continue
+            if any(r.x0 + 3 < r2.x0 and r2.x1 < r.x1 - 3 and r.y0 + 3 < r2.y0 and r2.y1 < r.y1 - 3 and t.strip() for r2, t in ww):
+                continue
+            if any(r2 != r and not wh2 and r.x0 + 3 < r2.x0 and r2.x1 < r.x1 - 3 and r.y0 + 3 < r2.y0 and r2.y1 < r.y1 - 3
+                   for r2, w2, wh2, t2 in dr_all):
+                continue
+            if any(t.strip() and r.y0 < (r2.y0 + r2.y1) / 2 < r.y1 and (r.x0 - 14 < r2.x1 <= r.x0 + 1 or r.x1 - 1 <= r2.x0 < r.x1 + 14) for r2, t in ww):
+                continue                      # labelled inputs / outputs: a circuit to draw, kept by rule
+            if any(not wh2 and r2.height < 3 and 4 < r2.width < 90 and r.y0 < r2.y0 < r.y1 and (abs(r2.x1 - r.x0) < 2 or abs(r2.x0 - r.x1) < 2)
+                   for r2, w2, wh2, t2 in dr_all):
+                continue                      # stubs of input / output lines on its sides
+            res["empty_box_kept"].append(dict(base, path=[round(x) for x in r]))
         # dropped ink between consecutive bands of this item on this source page
         for (a0, a1), (b0, b1) in zip(iv, iv[1:]):
             g0, g1 = a1, b0

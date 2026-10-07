@@ -110,6 +110,9 @@ def expect_dots(fn, i, r, words):
     line = sorted([(r2, t2, k2) for r2, t2, k2 in words if abs((r2.y0 + r2.y1) / 2 - ym) < 4 and r2 != r], key=lambda x: x[0].x0)
     lw = [(r2, t2, k2) for r2, t2, k2 in line if r2.x1 <= r.x0 + 2]
     rw = [(r2, t2, k2) for r2, t2, k2 in line if r2.x0 >= r.x1 - 2 and r2.x0 < 560 and not re.fullmatch(r"\[\d+\]", t2)]
+    first = min([(r2.x0, t2) for r2, t2, k2 in line if r2.x0 >= r.x1 - 2], default=None)
+    if first and re.fullmatch(r"\[\d{1,2}\]", first[1]):
+        rw = []                     # a mark directly after the run closes it
     # a table border between the run and a word: that word is in another cell, not on the run's line
     vr = vborders(fn, i)
     cut_at = lambda xa, xb: any(xa - 0.5 < x < xb + 0.5 and y0 - 1 <= ym <= y1 + 1 for x, y0, y1 in vr)

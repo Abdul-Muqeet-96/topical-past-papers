@@ -261,7 +261,9 @@ def dot_runs(page):
             run = ln[m.start():m.end()]
             x0, x1 = run[0]["bbox"][0], run[-1]["bbox"][2]
             seg = txt[m.end():runs[k + 1].start() if k + 1 < len(runs) else len(txt)]
-            seg = re.sub(r"\[\d+\]\s*$", "", seg).strip()
+            if re.match(r"\s*\[\d{1,2}\]", seg):
+                seg = ""         # a mark directly after the run closes it; what follows is another column
+            seg = re.sub(r"\[\s*\d{0,2}\s*\]?\s*$", "", seg).strip()
             # a number or a part label there starts the next answer line ("1 ...... 2 ......")
             after = bool(seg) and not re.fullmatch(r"\(?(\d{1,2}|[a-z]|[ivx]{1,4})\)?[.:]?", seg)
             long_ = (x1 - x0) >= GAP_MAX_W
@@ -601,6 +603,12 @@ def boiler_top(page):
                 if l["bbox"][1] > page.rect.height * 0.5 and l["spans"] and l["spans"][0]["size"] < 9.5 \
                         and RE_BOILER.search("".join(sp["text"] for sp in l["spans"])):
                     top = l["bbox"][1] if top is None else min(top, l["bbox"][1])
+        if top is not None:
+            # the rule printed across the page just above the paragraph belongs to it
+            for g in page.get_drawings():
+                r = g["rect"]
+                if r.height < 2 and r.width > 400 and top - 16 <= r.y0 < top:
+                    top = min(top, r.y0 - 1.5)
         _BOIL[key] = top
         if len(_BOIL) > 400:
             _BOIL.pop(next(iter(_BOIL)))

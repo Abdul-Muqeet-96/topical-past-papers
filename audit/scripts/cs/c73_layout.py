@@ -12,7 +12,7 @@ import pymupdf as f
 from c00_common import *
 
 ML, MR, MT, MB, W, H = 40, 40, 58, 40, 595.28, 841.89
-res = {k: [] for k in ("margin", "overlap", "orphan_heading", "orphan_mark", "orphan_intro", "split_figure", "empty_page", "wasted_space", "wasted_by_design", "scale")}
+res = {k: [] for k in ("margin", "overlap", "orphan_heading", "orphan_mark", "orphan_intro", "orphan_caption", "split_figure", "empty_page", "wasted_space", "wasted_by_design", "scale")}
 stats = Counter()
 cache = {}
 
@@ -167,6 +167,14 @@ for book in (1, 2):
                     res["orphan_intro"].append({"book": book, "page": pg, "ref": a["ref"], "line": (a["text"] or "").strip()[-60:], "next_block_h": round(blk2)})
                 else:
                     stats["colon line before a block that fills a page"] += 1
+            # a caption or title (one to three words on a short line) at the foot of a page, cut off
+            # from what is printed directly under it in the paper
+            words_a = (a["text"] or "").split()
+            if a["ref"] == b["ref"] and a["side"] == b["side"] == "Q" and a["src"] and a["src"] == b["src"] \
+                    and 1 <= len(words_a) <= 3 and a["vclip"][3] - a["vclip"][1] < 18 \
+                    and 0 <= b["vclip"][1] - a["vclip"][3] <= 14 and not re.fullmatch(r"\[\d{1,2}\]", " ".join(words_a)) \
+                    and re.search(r"[A-Za-z]{3}", " ".join(words_a)) and not re.fullmatch(r"\(?[a-z]\)|\([ivx]+\)|\d{1,2}", words_a[0]):
+                res["orphan_caption"].append({"book": book, "page": pg, "ref": a["ref"], "line": " ".join(words_a)[:40]})
             # a mark alone at the top of a page, cut off from the line it closes
             if a["ref"] == b["ref"] and a["side"] == b["side"] == "Q" and re.fullmatch(r"\s*\[\d{1,2}\]\s*", b["text"] or ""):
                 res["orphan_mark"].append({"book": book, "page": pg + 1, "ref": b["ref"], "mark": b["text"].strip()})

@@ -77,7 +77,7 @@ def appendix_pages(fn):
     return apx_cache[fn]
 
 
-res = {k: [] for k in ("own_not_shown", "part_ref", "page_ref", "insert_ref", "appendix_ref", "question_ref", "identifier")}
+res = {k: [] for k in ("own_not_shown", "part_ref", "page_ref", "insert_ref", "appendix_ref", "question_ref", "announced", "identifier")}
 stats = Counter()
 ctx_seen = {}
 for book in (1, 2):
@@ -200,6 +200,24 @@ for book in (1, 2):
         for m in re.finditer(r"\b[Qq]uestion (\d+)", text):
             if int(m.group(1)) != q:
                 res["question_ref"].append(dict(base, text=text[max(0, m.start() - 70):m.end() + 40]))
+        # e2. material announced as following ("Incomplete pseudocode follows ..."): the next printed
+        # lines of the question paper must be shown too
+        qlines = []
+        for w in sorted(allw, key=lambda w: (w[0], round(w[1] / 3), w[2])):
+            if qlines and qlines[-1][0] == w[0] and abs(qlines[-1][1] - w[1]) < 4:
+                qlines[-1][2].append(w[4])
+            else:
+                qlines.append([w[0], w[1], [w[4]]])
+        qlines = [x for x in qlines if re.search(r"[A-Za-z0-9]", " ".join(x[2]))
+                  and not (x[1] < 62 and re.fullmatch(r"\d{1,2}", " ".join(x[2]).strip()))        # page number
+                  and not (x[1] > 780 and re.search(r"UCLES|Turn over|\d{4}/\d\d/", " ".join(x[2])))]
+        for k, (pg, y, ws_) in enumerate(qlines):
+            if re.search(r"\b(pseudocode|program code|algorithm|flowchart)\b[^.:]{0,20}\bfollows\b", " ".join(ws_)) and is_shown(pg - 1, y):
+                stats["announcements ('... follows')"] += 1
+                nxt = qlines[k + 1:k + 4]
+                miss = [(a, round(b), " ".join(c)[:40]) for a, b, c in nxt if not is_shown(a - 1, b)]
+                if miss:
+                    res["announced"].append(dict(base, line=" ".join(ws_)[:90], not_shown=miss))
         # f. identifiers
         first = {}
         for w in allw:

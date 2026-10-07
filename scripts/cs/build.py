@@ -11,11 +11,11 @@ from collections import defaultdict
 import pymupdf
 sys.path.insert(0, os.path.dirname(__file__))
 from parse import load, paper_ref
-from crops import bands, Band, X0, X1, group_rows
-from items import find_letter, letter_of, unit_region, _L
+from crops import bands, Band, X0, X1, group_rows, figure_spans
+from items import find_letter, letter_of, unit_region, _L, all_leaves
 from layout import Flow, put, tlen, W, H, ML, MR, MT, MB, TW, DARK, GREY, ACCENT, keep_heights
 from assemble import TOPICS, SECTIONS, LOS, book_of
-from extract import text_of
+from extract import text_of, region_lines, RE_NAVLINE
 from paths import DATA, OUT, BOOK_FILE, TITLES, SERIES_ORDER, work, jload, jdump
 import inserts
 
@@ -46,17 +46,53 @@ def unit_ms_rows(Q, u):
     return R["ms_rows"]
 
 
-def item_regions(it, Q):
+def _without_lead_in(doc, Q, unit, shown):
+    """Region of a part without the lead-in of the NEXT part, when that next part is not shown in
+    the item: one to three lines of plain text printed at the top of a later page, after the
+    part's last [mark] and directly above the next label ("Cambridge International Holidays
+    allows customers ..." above part (f)). Anything else is left as it is."""
+    reg = [list(r) for r in (unit_region(Q, unit) or [])]
+    if unit.endswith("#intro") or len(reg) < 2:
+        return reg
+    leaves = all_leaves(Q)
+    mine = [k for k, x in enumerate(leaves) if x == unit or x.startswith(unit + "(")]
+    if not mine or mine[-1] + 1 >= len(leaves):
+        return reg                              # the last part of the question: what follows belongs to it
+    nxt = leaves[mine[-1] + 1]
+    if any(nxt == x or nxt.startswith(x + "(") for x in shown):
+        return reg
+    lines = region_lines(doc, reg)
+    is_mark = lambda ws: any(re.fullmatch(r"\[\d{1,2}\]", w[4]) and w[0] > 495 for w in ws)
+    marks = [k for k, (p, ws) in enumerate(lines) if is_mark(ws)]
+    if not marks or marks[-1] + 1 >= len(lines):
+        return reg
+    tail = [(p, ws) for p, ws in lines[marks[-1] + 1:]
+            if not (RE_NAVLINE.search(" ".join(w[4] for w in ws)) and len(ws) <= 9)]     # "Question 5 continues ..."
+    last_page = lines[marks[-1]][0]
+    if not (1 <= len(tail) <= 3) or any(p != reg[-1][0] or p <= last_page for p, ws in tail):
+        return reg
+    words = [w for p, ws in tail for w in ws]
+    if not any(re.search(r"[A-Za-z]{3}", w[4]) for w in words):
+        return reg
+    seg = reg[-1]
+    page = doc[seg[0]]
+    if any(a < seg[2] and c > seg[1] for a, c in figure_spans(page)):
+        return reg                              # a figure up there: not a plain lead-in sentence
+    return reg[:-1]
+
+
+def item_regions(it, Q, doc=None):
     """All source regions of an item (stem, context parts, lettered intros, the
     item's own parts), merged in paper order, so the item reads like the paper
     with no generated labels and nothing shown twice (decision D2)."""
     regs = list(Q["stem"])
+    shown = [c for c in it["ctx_parts"] if not c.endswith("#intro")] + list(it["units"])
     for c in it["ctx_parts"]:
-        regs += unit_region(Q, c) or []
+        regs += _without_lead_in(doc, Q, c, shown) if doc is not None else (unit_region(Q, c) or [])
     for i in it["intros"]:
         regs += find_letter(Q, letter_of(i))["intro"]
     for u in it["units"]:
-        regs += unit_region(Q, u)
+        regs += _without_lead_in(doc, Q, u, shown) if doc is not None else unit_region(Q, u)
     regs = sorted([list(r) for r in regs], key=lambda r: (r[0], r[1]))
     out = []
     for p, y0, y1 in regs:
@@ -70,7 +106,7 @@ def item_regions(it, Q):
 def item_blocks(it, Q, qd, docs):
     """[(source doc, grey note or None, bands)]: the question crops, then the
     paper's own insert / appendix pages when they are shown inline."""
-    blocks = [(qd, None, bands(qd, item_regions(it, Q)))]
+    blocks = [(qd, None, bands(qd, item_regions(it, Q, qd)))]
     if it.get("insert") == "inline":
         by_file = defaultdict(list)
         for kind, f, pg in it["insert_pages"]:
@@ -504,7 +540,7 @@ def build_book(book, items, parts, docs, ins, phases):
                                  "answer_page": ans_pages.get(it["ref"]),
                                  "also_units": it["also"], "context_parts": it["ctx_parts"],
                                  "insert": {"note": "appendix", "inline": "inline"}.get(it.get("insert")),
-                                 "text": text_of(docs(P["qp"]), item_regions(it, Q)),
+                                 "text": text_of(docs(P["qp"]), item_regions(it, Q, docs(P["qp"]))),
                                  "insert_text": insert_text(it, docs),
                                  "answer_text": ms_text(docs(P["ms"]), it, Q)},
                                 ensure_ascii=False) + "\n")
