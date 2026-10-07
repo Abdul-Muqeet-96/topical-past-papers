@@ -1,0 +1,2522 @@
+[
+{
+"file": "s1_u01_00.png",
+"book": 1,
+"unit": 1,
+"items": [
+{
+"ref": "M/J 15/P11/Q1",
+"side": "Q",
+"n": 120,
+"page": 102,
+"end_page": 102
+},
+{
+"ref": "M/J 25/P13/Q7/b,c",
+"side": "Q",
+"n": 19,
+"page": 18,
+"end_page": 19
+}
+]
+},
+{
+"file": "s1_u01_01.png",
+"book": 1,
+"unit": 1,
+"items": [
+{
+"ref": "O/N 22/P13/Q2/e",
+"side": "Q",
+"n": 48,
+"page": 37,
+"end_page": 37
+},
+{
+"ref": "O/N 19/P12/Q6/d(i)",
+"side": "Q",
+"n": 79,
+"page": 67,
+"end_page": 67
+}
+]
+},
+{
+"file": "s1_u01_02.png",
+"book": 1,
+"unit": 1,
+"items": [
+{
+"ref": "M/J 24/P13/Q1/a,b,c,d",
+"side": "Q",
+"n": 29,
+"page": 24,
+"end_page": 25
+},
+{
+"ref": "9608 M/J 21/P12/Q7/b,c",
+"side": "Q",
+"n": 66,
+"page": 56,
+"end_page": 57
+}
+]
+},
+{
+"file": "s1_u01_03.png",
+"book": 1,
+"unit": 1,
+"items": [
+{
+"ref": "O/N 21/P11/Q7/a,b",
+"side": "Q",
+"n": 51,
+"page": 39,
+"end_page": 40
+},
+{
+"ref": "M/J 18/P13/Q3/c",
+"side": "Q",
+"n": 96,
+"page": 80,
+"end_page": 81
+}
+]
+},
+{
+"file": "s1_u01_04.png",
+"book": 1,
+"unit": 1,
+"items": [
+{
+"ref": "M/J 24/P12/Q7/a,b,c",
+"side": "Q",
+"n": 28,
+"page": 23,
+"end_page": 24
+},
+{
+"ref": "O/N 18/P13/Q1/a,b,c",
+"side": "Q",
+"n": 90,
+"page": 75,
+"end_page": 76
+}
+]
+},
+{
+"file": "s1_u01_05.png",
+"book": 1,
+"unit": 1,
+"items": [
+{
+"ref": "M/J 21/P13/Q1/a,b,c",
+"side": "Q",
+"n": 61,
+"page": 50,
+"end_page": 52
+},
+{
+"ref": "M/J 26/P11/Q1/a,b,c,d",
+"side": "Q",
+"n": 1,
+"page": 4,
+"end_page": 5
+}
+]
+},
+{
+"file": "s1_u01_06.png",
+"book": 1,
+"unit": 1,
+"items": [
+{
+"ref": "M/J 26/P13/Q6/a,b,c,d",
+"side": "Q",
+"n": 7,
+"page": 9,
+"end_page": 10
+},
+{
+"ref": "M/J 21/P12/Q6/a,b,c",
+"side": "Q",
+"n": 60,
+"page": 49,
+"end_page": 50
+}
+]
+},
+{
+"file": "s1_u01_07.png",
+"book": 1,
+"unit": 1,
+"items": [
+{
+"ref": "O/N 16/P13/Q3/a,b",
+"side": "Q",
+"n": 110,
+"page": 93,
+"end_page": 93
+},
+{
+"ref": "O/N 24/P12/Q7/a,b",
+"side": "A",
+"n": 22,
+"page": 117,
+"end_page": 118
+}
+]
+},
+{
+"file": "s1_u01_08.png",
+"book": 1,
+"unit": 1,
+"items": [
+{
+"ref": "9608 O/N 21/P11/Q2/a",
+"side": "A",
+"n": 57,
+"page": 138,
+"end_page": 138
+},
+{
+"ref": "O/N 21/P13/Q1/a,b,c",
+"side": "A",
+"n": 54,
+"page": 136,
+"end_page": 137
+}
+]
+},
+{
+"file": "s1_u01_09.png",
+"book": 1,
+"unit": 1,
+"items": [
+{
+"ref": "M/J 25/P13/Q1/a,b,c",
+"side": "A",
+"n": 18,
+"page": 114,
+"end_page": 115
+},
+{
+"ref": "M/J 17/P13/Q3/a,b",
+"side": "A",
+"n": 104,
+"page": 158,
+"end_page": 158
+}
+]
+},
+{
+"file": "s1_u02_00.png",
+"book": 1,
+"unit": 2,
+"items": [
+{
+"ref": "M/J 26/P11/Q7/a,b,c",
+"side": "Q",
+"n": 1,
+"page": 173,
+"end_page": 173
+},
+{
+"ref": "M/J 24/P13/Q5/a,b,c,d",
+"side": "Q",
+"n": 16,
+"page": 182,
+"end_page": 183
+}
+]
+},
+{
+"file": "s1_u02_01.png",
+"book": 1,
+"unit": 2,
+"items": [
+{
+"ref": "O/N 22/P12/Q10/a,b",
+"side": "Q",
+"n": 24,
+"page": 189,
+"end_page": 189
+},
+{
+"ref": "M/J 16/P13/Q6/a,b,c,d,e",
+"side": "Q",
+"n": 54,
+"page": 212,
+"end_page": 213
+}
+]
+},
+{
+"file": "s1_u02_02.png",
+"book": 1,
+"unit": 2,
+"items": [
+{
+"ref": "M/J 25/P12/Q6/a,b,c,d,e",
+"side": "Q",
+"n": 9,
+"page": 177,
+"end_page": 177
+},
+{
+"ref": "O/N 25/P11/Q7/a,b,c",
+"side": "Q",
+"n": 4,
+"page": 174,
+"end_page": 175
+}
+]
+},
+{
+"file": "s1_u02_03.png",
+"book": 1,
+"unit": 2,
+"items": [
+{
+"ref": "M/J 25/P11/Q2/a,c",
+"side": "Q",
+"n": 8,
+"page": 176,
+"end_page": 177
+},
+{
+"ref": "O/N 21/P13/Q8/a,b,c",
+"side": "Q",
+"n": 28,
+"page": 192,
+"end_page": 192
+}
+]
+},
+{
+"file": "s1_u02_04.png",
+"book": 1,
+"unit": 2,
+"items": [
+{
+"ref": "M/J 24/P11/Q5/a",
+"side": "Q",
+"n": 13,
+"page": 179,
+"end_page": 180
+},
+{
+"ref": "O/N 24/P13/Q9/a,b,c,d",
+"side": "Q",
+"n": 11,
+"page": 178,
+"end_page": 179
+}
+]
+},
+{
+"file": "s1_u02_05.png",
+"book": 1,
+"unit": 2,
+"items": [
+{
+"ref": "9608 M/J 21/P13/Q6/b",
+"side": "Q",
+"n": 35,
+"page": 196,
+"end_page": 197
+},
+{
+"ref": "M/J 16/P12/Q7/a,b,c",
+"side": "Q",
+"n": 53,
+"page": 211,
+"end_page": 212
+}
+]
+},
+{
+"file": "s1_u02_06.png",
+"book": 1,
+"unit": 2,
+"items": [
+{
+"ref": "O/N 23/P12/Q7/a,b,c,d",
+"side": "Q",
+"n": 18,
+"page": 184,
+"end_page": 185
+},
+{
+"ref": "O/N 18/P12/Q2/a,b,c",
+"side": "Q",
+"n": 44,
+"page": 204,
+"end_page": 205
+}
+]
+},
+{
+"file": "s1_u02_07.png",
+"book": 1,
+"unit": 2,
+"items": [
+{
+"ref": "O/N 16/P13/Q6",
+"side": "Q",
+"n": 51,
+"page": 209,
+"end_page": 210
+},
+{
+"ref": "O/N 18/P11/Q2/a,b,c",
+"side": "A",
+"n": 43,
+"page": 249,
+"end_page": 250
+}
+]
+},
+{
+"file": "s1_u02_08.png",
+"book": 1,
+"unit": 2,
+"items": [
+{
+"ref": "M/J 16/P13/Q6/a,b,c,d,e",
+"side": "A",
+"n": 54,
+"page": 255,
+"end_page": 256
+},
+{
+"ref": "O/N 22/P11/Q8",
+"side": "A",
+"n": 23,
+"page": 236,
+"end_page": 236
+}
+]
+},
+{
+"file": "s1_u02_09.png",
+"book": 1,
+"unit": 2,
+"items": [
+{
+"ref": "M/J 18/P11/Q5/a,b",
+"side": "A",
+"n": 48,
+"page": 252,
+"end_page": 253
+},
+{
+"ref": "M/J 24/P12/Q3/b,c",
+"side": "A",
+"n": 15,
+"page": 228,
+"end_page": 229
+}
+]
+},
+{
+"file": "s1_u03_00.png",
+"book": 1,
+"unit": 3,
+"items": [
+{
+"ref": "M/J 25/P11/Q4/b",
+"side": "Q",
+"n": 17,
+"page": 275,
+"end_page": 276
+},
+{
+"ref": "M/J 15/P11/Q7/a,b",
+"side": "Q",
+"n": 106,
+"page": 355,
+"end_page": 357
+}
+]
+},
+{
+"file": "s1_u03_01.png",
+"book": 1,
+"unit": 3,
+"items": [
+{
+"ref": "O/N 21/P11/Q3/a,b,c",
+"side": "Q",
+"n": 53,
+"page": 307,
+"end_page": 309
+},
+{
+"ref": "M/J 21/P11/Q8",
+"side": "Q",
+"n": 60,
+"page": 314,
+"end_page": 315
+}
+]
+},
+{
+"file": "s1_u03_02.png",
+"book": 1,
+"unit": 3,
+"items": [
+{
+"ref": "M/J 20/P11/Q2/a,b",
+"side": "Q",
+"n": 67,
+"page": 320,
+"end_page": 321
+},
+{
+"ref": "O/N 19/P11/Q3/a,b",
+"side": "Q",
+"n": 74,
+"page": 326,
+"end_page": 328
+}
+]
+},
+{
+"file": "s1_u03_03.png",
+"book": 1,
+"unit": 3,
+"items": [
+{
+"ref": "O/N 23/P11/Q9/a,b",
+"side": "Q",
+"n": 37,
+"page": 293,
+"end_page": 294
+},
+{
+"ref": "O/N 19/P12/Q2/a,b",
+"side": "Q",
+"n": 75,
+"page": 328,
+"end_page": 329
+}
+]
+},
+{
+"file": "s1_u03_04.png",
+"book": 1,
+"unit": 3,
+"items": [
+{
+"ref": "O/N 15/P11/Q5",
+"side": "Q",
+"n": 103,
+"page": 354,
+"end_page": 354
+},
+{
+"ref": "O/N 22/P12/Q3/a,b,c",
+"side": "Q",
+"n": 49,
+"page": 303,
+"end_page": 305
+}
+]
+},
+{
+"file": "s1_u03_05.png",
+"book": 1,
+"unit": 3,
+"items": [
+{
+"ref": "O/N 22/P11/Q9/a,b",
+"side": "Q",
+"n": 48,
+"page": 303,
+"end_page": 303
+},
+{
+"ref": "M/J 26/P12/Q6/a,b,c",
+"side": "Q",
+"n": 2,
+"page": 264,
+"end_page": 264
+}
+]
+},
+{
+"file": "s1_u03_06.png",
+"book": 1,
+"unit": 3,
+"items": [
+{
+"ref": "O/N 24/P12/Q2/a,b,c",
+"side": "Q",
+"n": 24,
+"page": 282,
+"end_page": 282
+},
+{
+"ref": "O/N 16/P12/Q1/a,b",
+"side": "Q",
+"n": 97,
+"page": 350,
+"end_page": 351
+}
+]
+},
+{
+"file": "s1_u03_07.png",
+"book": 1,
+"unit": 3,
+"items": [
+{
+"ref": "M/J 24/P12/Q2/a,b,c",
+"side": "Q",
+"n": 32,
+"page": 289,
+"end_page": 290
+},
+{
+"ref": "O/N 16/P12/Q1/a,b",
+"side": "A",
+"n": 97,
+"page": 422,
+"end_page": 423
+}
+]
+},
+{
+"file": "s1_u03_08.png",
+"book": 1,
+"unit": 3,
+"items": [
+{
+"ref": "O/N 25/P11/Q9",
+"side": "A",
+"n": 8,
+"page": 365,
+"end_page": 365
+},
+{
+"ref": "M/J 20/P13/Q2/a,b",
+"side": "A",
+"n": 71,
+"page": 401,
+"end_page": 402
+}
+]
+},
+{
+"file": "s1_u03_09.png",
+"book": 1,
+"unit": 3,
+"items": [
+{
+"ref": "M/J 26/P13/Q8/a,b,c",
+"side": "A",
+"n": 5,
+"page": 363,
+"end_page": 364
+},
+{
+"ref": "M/J 15/P13/Q6/a,b,c",
+"side": "A",
+"n": 110,
+"page": 436,
+"end_page": 437
+}
+]
+},
+{
+"file": "s1_u04_00.png",
+"book": 1,
+"unit": 4,
+"items": [
+{
+"ref": "O/N 25/P12/Q3/a,b,c",
+"side": "Q",
+"n": 5,
+"page": 445,
+"end_page": 447
+},
+{
+"ref": "M/J 23/P12/Q3/a,b",
+"side": "Q",
+"n": 31,
+"page": 486,
+"end_page": 486
+}
+]
+},
+{
+"file": "s1_u04_01.png",
+"book": 1,
+"unit": 4,
+"items": [
+{
+"ref": "M/J 25/P13/Q2/a,b,c",
+"side": "Q",
+"n": 11,
+"page": 455,
+"end_page": 456
+},
+{
+"ref": "O/N 25/P13/Q2/c",
+"side": "Q",
+"n": 6,
+"page": 447,
+"end_page": 448
+}
+]
+},
+{
+"file": "s1_u04_02.png",
+"book": 1,
+"unit": 4,
+"items": [
+{
+"ref": "M/J 23/P12/Q4/d",
+"side": "Q",
+"n": 32,
+"page": 486,
+"end_page": 487
+},
+{
+"ref": "O/N 21/P11/Q6/a,b",
+"side": "Q",
+"n": 41,
+"page": 503,
+"end_page": 505
+}
+]
+},
+{
+"file": "s1_u04_03.png",
+"book": 1,
+"unit": 4,
+"items": [
+{
+"ref": "M/J 23/P13/Q7/b,c",
+"side": "Q",
+"n": 34,
+"page": 488,
+"end_page": 489
+},
+{
+"ref": "M/J 21/P13/Q3/a,b,c",
+"side": "Q",
+"n": 50,
+"page": 520,
+"end_page": 525
+}
+]
+},
+{
+"file": "s1_u04_04.png",
+"book": 1,
+"unit": 4,
+"items": [
+{
+"ref": "M/J 24/P13/Q3/a,b",
+"side": "Q",
+"n": 22,
+"page": 474,
+"end_page": 477
+},
+{
+"ref": "O/N 23/P13/Q9/a,b,c,d",
+"side": "Q",
+"n": 28,
+"page": 483,
+"end_page": 485
+}
+]
+},
+{
+"file": "s1_u04_05.png",
+"book": 1,
+"unit": 4,
+"items": [
+{
+"ref": "O/N 17/P13/Q4/a,b,c,d",
+"side": "Q",
+"n": 72,
+"page": 564,
+"end_page": 568
+},
+{
+"ref": "O/N 19/P11/Q1/a,b,c",
+"side": "Q",
+"n": 59,
+"page": 538,
+"end_page": 539
+}
+]
+},
+{
+"file": "s1_u04_06.png",
+"book": 1,
+"unit": 4,
+"items": [
+{
+"ref": "M/J 19/P13/Q4/a,b,c",
+"side": "Q",
+"n": 63,
+"page": 546,
+"end_page": 547
+},
+{
+"ref": "O/N 24/P13/Q8/c",
+"side": "Q",
+"n": 19,
+"page": 467,
+"end_page": 468
+}
+]
+},
+{
+"file": "s1_u04_07.png",
+"book": 1,
+"unit": 4,
+"items": [
+{
+"ref": "9608 M/J 21/P13/Q3/a,b,d",
+"side": "Q",
+"n": 54,
+"page": 531,
+"end_page": 534
+},
+{
+"ref": "M/J 15/P11/Q8/a,b,c",
+"side": "A",
+"n": 87,
+"page": 670,
+"end_page": 672
+}
+]
+},
+{
+"file": "s1_u04_08.png",
+"book": 1,
+"unit": 4,
+"items": [
+{
+"ref": "O/N 21/P12/Q8/a,b",
+"side": "A",
+"n": 43,
+"page": 632,
+"end_page": 633
+},
+{
+"ref": "M/J 23/P12/Q4/d",
+"side": "A",
+"n": 32,
+"page": 623,
+"end_page": 623
+}
+]
+},
+{
+"file": "s1_u04_09.png",
+"book": 1,
+"unit": 4,
+"items": [
+{
+"ref": "M/J 23/P12/Q3/a,b",
+"side": "A",
+"n": 31,
+"page": 622,
+"end_page": 623
+},
+{
+"ref": "O/N 18/P11/Q4/a,b,d",
+"side": "A",
+"n": 64,
+"page": 651,
+"end_page": 651
+}
+]
+},
+{
+"file": "s1_u05_00.png",
+"book": 1,
+"unit": 5,
+"items": [
+{
+"ref": "M/J 25/P13/Q3/a",
+"side": "Q",
+"n": 12,
+"page": 686,
+"end_page": 686
+},
+{
+"ref": "M/J 16/P11/Q1",
+"side": "Q",
+"n": 90,
+"page": 739,
+"end_page": 740
+}
+]
+},
+{
+"file": "s1_u05_01.png",
+"book": 1,
+"unit": 5,
+"items": [
+{
+"ref": "9608 O/N 21/P11/Q7/a,b,c",
+"side": "Q",
+"n": 36,
+"page": 701,
+"end_page": 702
+},
+{
+"ref": "M/J 19/P23/Q2/d",
+"side": "Q",
+"n": 68,
+"page": 722,
+"end_page": 723
+}
+]
+},
+{
+"file": "s1_u05_02.png",
+"book": 1,
+"unit": 5,
+"items": [
+{
+"ref": "O/N 24/P22/Q1/b,c",
+"side": "Q",
+"n": 16,
+"page": 687,
+"end_page": 688
+},
+{
+"ref": "O/N 25/P13/Q8/a,b,d",
+"side": "Q",
+"n": 9,
+"page": 685,
+"end_page": 685
+}
+]
+},
+{
+"file": "s1_u05_03.png",
+"book": 1,
+"unit": 5,
+"items": [
+{
+"ref": "M/J 18/P22/Q5/b",
+"side": "Q",
+"n": 73,
+"page": 726,
+"end_page": 727
+},
+{
+"ref": "9608 O/N 21/P11/Q10/a,b",
+"side": "Q",
+"n": 37,
+"page": 702,
+"end_page": 703
+}
+]
+},
+{
+"file": "s1_u05_04.png",
+"book": 1,
+"unit": 5,
+"items": [
+{
+"ref": "O/N 23/P11/Q6/a,b,c",
+"side": "Q",
+"n": 21,
+"page": 691,
+"end_page": 691
+},
+{
+"ref": "M/J 26/P13/Q5/a,b,c",
+"side": "Q",
+"n": 3,
+"page": 680,
+"end_page": 681
+}
+]
+},
+{
+"file": "s1_u05_05.png",
+"book": 1,
+"unit": 5,
+"items": [
+{
+"ref": "9608 M/J 21/P21/Q4/b",
+"side": "Q",
+"n": 45,
+"page": 708,
+"end_page": 710
+},
+{
+"ref": "M/J 26/P23/Q2/d",
+"side": "Q",
+"n": 5,
+"page": 682,
+"end_page": 684
+}
+]
+},
+{
+"file": "s1_u05_06.png",
+"book": 1,
+"unit": 5,
+"items": [
+{
+"ref": "M/J 21/P12/Q7/a,b",
+"side": "Q",
+"n": 39,
+"page": 704,
+"end_page": 705
+},
+{
+"ref": "O/N 16/P13/Q2/b,c",
+"side": "Q",
+"n": 86,
+"page": 736,
+"end_page": 737
+}
+]
+},
+{
+"file": "s1_u05_07.png",
+"book": 1,
+"unit": 5,
+"items": [
+{
+"ref": "9608 M/J 21/P11/Q8/a",
+"side": "Q",
+"n": 41,
+"page": 706,
+"end_page": 706
+},
+{
+"ref": "9608 M/J 21/P22/Q5/a",
+"side": "A",
+"n": 47,
+"page": 769,
+"end_page": 770
+}
+]
+},
+{
+"file": "s1_u05_08.png",
+"book": 1,
+"unit": 5,
+"items": [
+{
+"ref": "O/N 22/P11/Q7/a,b",
+"side": "A",
+"n": 30,
+"page": 759,
+"end_page": 760
+},
+{
+"ref": "M/J 17/P13/Q6/a,b",
+"side": "A",
+"n": 81,
+"page": 792,
+"end_page": 792
+}
+]
+},
+{
+"file": "s1_u05_09.png",
+"book": 1,
+"unit": 5,
+"items": [
+{
+"ref": "M/J 26/P13/Q5/a,b,c",
+"side": "A",
+"n": 3,
+"page": 744,
+"end_page": 745
+},
+{
+"ref": "M/J 20/P12/Q2/c(i,ii)",
+"side": "A",
+"n": 50,
+"page": 770,
+"end_page": 771
+}
+]
+},
+{
+"file": "s1_u06_00.png",
+"book": 1,
+"unit": 6,
+"items": [
+{
+"ref": "O/N 15/P13/Q9/a,b",
+"side": "Q",
+"n": 61,
+"page": 849,
+"end_page": 849
+},
+{
+"ref": "M/J 17/P12/Q6/c(v)",
+"side": "Q",
+"n": 53,
+"page": 843,
+"end_page": 844
+}
+]
+},
+{
+"file": "s1_u06_01.png",
+"book": 1,
+"unit": 6,
+"items": [
+{
+"ref": "O/N 15/P21/Q7/c",
+"side": "Q",
+"n": 63,
+"page": 849,
+"end_page": 851
+},
+{
+"ref": "M/J 24/P11/Q5/b,c(i)",
+"side": "Q",
+"n": 14,
+"page": 812,
+"end_page": 813
+}
+]
+},
+{
+"file": "s1_u06_02.png",
+"book": 1,
+"unit": 6,
+"items": [
+{
+"ref": "O/N 25/P12/Q1",
+"side": "Q",
+"n": 5,
+"page": 806,
+"end_page": 806
+},
+{
+"ref": "O/N 22/P12/Q4/a,b,c",
+"side": "Q",
+"n": 25,
+"page": 819,
+"end_page": 820
+}
+]
+},
+{
+"file": "s1_u06_03.png",
+"book": 1,
+"unit": 6,
+"items": [
+{
+"ref": "M/J 18/P12/Q3/a,b,c",
+"side": "Q",
+"n": 47,
+"page": 836,
+"end_page": 837
+},
+{
+"ref": "O/N 22/P11/Q2",
+"side": "Q",
+"n": 24,
+"page": 819,
+"end_page": 819
+}
+]
+},
+{
+"file": "s1_u06_04.png",
+"book": 1,
+"unit": 6,
+"items": [
+{
+"ref": "O/N 23/P13/Q3/a(iii),c",
+"side": "Q",
+"n": 18,
+"page": 815,
+"end_page": 816
+},
+{
+"ref": "M/J 21/P13/Q6/a,b,c",
+"side": "Q",
+"n": 32,
+"page": 825,
+"end_page": 826
+}
+]
+},
+{
+"file": "s1_u06_05.png",
+"book": 1,
+"unit": 6,
+"items": [
+{
+"ref": "O/N 25/P13/Q7/c,e",
+"side": "Q",
+"n": 9,
+"page": 807,
+"end_page": 809
+},
+{
+"ref": "O/N 21/P13/Q2/a,b,c",
+"side": "Q",
+"n": 29,
+"page": 822,
+"end_page": 823
+}
+]
+},
+{
+"file": "s1_u06_06.png",
+"book": 1,
+"unit": 6,
+"items": [
+{
+"ref": "M/J 18/P13/Q4/a,b,c",
+"side": "Q",
+"n": 48,
+"page": 837,
+"end_page": 838
+},
+{
+"ref": "M/J 15/P12/Q6/b",
+"side": "Q",
+"n": 68,
+"page": 853,
+"end_page": 854
+}
+]
+},
+{
+"file": "s1_u06_07.png",
+"book": 1,
+"unit": 6,
+"items": [
+{
+"ref": "O/N 17/P13/Q3/a,b",
+"side": "Q",
+"n": 50,
+"page": 839,
+"end_page": 840
+},
+{
+"ref": "O/N 22/P12/Q4/a,b,c",
+"side": "A",
+"n": 25,
+"page": 867,
+"end_page": 868
+}
+]
+},
+{
+"file": "s1_u06_08.png",
+"book": 1,
+"unit": 6,
+"items": [
+{
+"ref": "O/N 19/P13/Q1/c(ii)",
+"side": "A",
+"n": 41,
+"page": 873,
+"end_page": 873
+},
+{
+"ref": "M/J 26/P12/Q2/a,b,c",
+"side": "A",
+"n": 2,
+"page": 855,
+"end_page": 856
+}
+]
+},
+{
+"file": "s1_u06_09.png",
+"book": 1,
+"unit": 6,
+"items": [
+{
+"ref": "M/J 23/P13/Q6/a,b",
+"side": "A",
+"n": 22,
+"page": 865,
+"end_page": 866
+},
+{
+"ref": "M/J 18/P12/Q3/a,b,c",
+"side": "A",
+"n": 47,
+"page": 876,
+"end_page": 877
+}
+]
+},
+{
+"file": "s1_u07_00.png",
+"book": 1,
+"unit": 7,
+"items": [
+{
+"ref": "O/N 19/P12/Q5/c",
+"side": "Q",
+"n": 34,
+"page": 906,
+"end_page": 907
+},
+{
+"ref": "M/J 20/P13/Q4/c",
+"side": "Q",
+"n": 33,
+"page": 906,
+"end_page": 906
+}
+]
+},
+{
+"file": "s1_u07_01.png",
+"book": 1,
+"unit": 7,
+"items": [
+{
+"ref": "9608 M/J 21/P12/Q6/a,b,c",
+"side": "Q",
+"n": 30,
+"page": 904,
+"end_page": 905
+},
+{
+"ref": "O/N 24/P12/Q5/a,b",
+"side": "Q",
+"n": 12,
+"page": 895,
+"end_page": 896
+}
+]
+},
+{
+"file": "s1_u07_02.png",
+"book": 1,
+"unit": 7,
+"items": [
+{
+"ref": "M/J 20/P12/Q4/a,b",
+"side": "Q",
+"n": 32,
+"page": 905,
+"end_page": 906
+},
+{
+"ref": "O/N 15/P13/Q4",
+"side": "Q",
+"n": 49,
+"page": 916,
+"end_page": 916
+}
+]
+},
+{
+"file": "s1_u07_03.png",
+"book": 1,
+"unit": 7,
+"items": [
+{
+"ref": "M/J 23/P13/Q3/b",
+"side": "Q",
+"n": 19,
+"page": 898,
+"end_page": 898
+},
+{
+"ref": "O/N 17/P13/Q6/a",
+"side": "Q",
+"n": 44,
+"page": 913,
+"end_page": 913
+}
+]
+},
+{
+"file": "s1_u07_04.png",
+"book": 1,
+"unit": 7,
+"items": [
+{
+"ref": "O/N 25/P13/Q8/c",
+"side": "Q",
+"n": 6,
+"page": 893,
+"end_page": 893
+},
+{
+"ref": "M/J 23/P11/Q4/c",
+"side": "Q",
+"n": 17,
+"page": 897,
+"end_page": 898
+}
+]
+},
+{
+"file": "s1_u07_05.png",
+"book": 1,
+"unit": 7,
+"items": [
+{
+"ref": "M/J 25/P13/Q3/d",
+"side": "Q",
+"n": 9,
+"page": 894,
+"end_page": 894
+},
+{
+"ref": "M/J 21/P12/Q2/a,b,c",
+"side": "Q",
+"n": 26,
+"page": 901,
+"end_page": 901
+}
+]
+},
+{
+"file": "s1_u07_06.png",
+"book": 1,
+"unit": 7,
+"items": [
+{
+"ref": "O/N 21/P13/Q4/a,b(i),c",
+"side": "Q",
+"n": 24,
+"page": 900,
+"end_page": 900
+},
+{
+"ref": "O/N 18/P12/Q5/a,b,c",
+"side": "Q",
+"n": 40,
+"page": 910,
+"end_page": 911
+}
+]
+},
+{
+"file": "s1_u07_07.png",
+"book": 1,
+"unit": 7,
+"items": [
+{
+"ref": "M/J 16/P13/Q3/a,b,c",
+"side": "Q",
+"n": 47,
+"page": 914,
+"end_page": 915
+},
+{
+"ref": "O/N 24/P12/Q5/a,b",
+"side": "A",
+"n": 12,
+"page": 922,
+"end_page": 923
+}
+]
+},
+{
+"file": "s1_u07_08.png",
+"book": 1,
+"unit": 7,
+"items": [
+{
+"ref": "O/N 21/P13/Q4/a,b(i),c",
+"side": "A",
+"n": 24,
+"page": 928,
+"end_page": 929
+},
+{
+"ref": "M/J 20/P13/Q4/c",
+"side": "A",
+"n": 33,
+"page": 934,
+"end_page": 934
+}
+]
+},
+{
+"file": "s1_u07_09.png",
+"book": 1,
+"unit": 7,
+"items": [
+{
+"ref": "O/N 18/P13/Q5/a",
+"side": "A",
+"n": 42,
+"page": 939,
+"end_page": 939
+},
+{
+"ref": "M/J 16/P13/Q3/a,b,c",
+"side": "A",
+"n": 47,
+"page": 940,
+"end_page": 941
+}
+]
+},
+{
+"file": "s1_u08_00.png",
+"book": 1,
+"unit": 8,
+"items": [
+{
+"ref": "M/J 20/P12/Q6/a,b,c",
+"side": "Q",
+"n": 36,
+"page": 989,
+"end_page": 991
+},
+{
+"ref": "M/J 15/P11/Q9/a,b,c",
+"side": "Q",
+"n": 58,
+"page": 1019,
+"end_page": 1021
+}
+]
+},
+{
+"file": "s1_u08_01.png",
+"book": 1,
+"unit": 8,
+"items": [
+{
+"ref": "M/J 20/P13/Q6/a,b,c",
+"side": "Q",
+"n": 37,
+"page": 991,
+"end_page": 993
+},
+{
+"ref": "M/J 16/P11/Q8/a,b",
+"side": "Q",
+"n": 55,
+"page": 1015,
+"end_page": 1016
+}
+]
+},
+{
+"file": "s1_u08_02.png",
+"book": 1,
+"unit": 8,
+"items": [
+{
+"ref": "M/J 21/P13/Q7/a,b,c",
+"side": "Q",
+"n": 31,
+"page": 984,
+"end_page": 985
+},
+{
+"ref": "O/N 23/P12/Q2/a,b,c",
+"side": "Q",
+"n": 17,
+"page": 965,
+"end_page": 966
+}
+]
+},
+{
+"file": "s1_u08_03.png",
+"book": 1,
+"unit": 8,
+"items": [
+{
+"ref": "M/J 24/P13/Q4/a,b,c,d",
+"side": "Q",
+"n": 15,
+"page": 963,
+"end_page": 964
+},
+{
+"ref": "O/N 18/P11/Q7/a,b,c,d",
+"side": "Q",
+"n": 44,
+"page": 1001,
+"end_page": 1002
+}
+]
+},
+{
+"file": "s1_u08_04.png",
+"book": 1,
+"unit": 8,
+"items": [
+{
+"ref": "9608 O/N 21/P11/Q9/a,b",
+"side": "Q",
+"n": 28,
+"page": 980,
+"end_page": 981
+},
+{
+"ref": "O/N 21/P13/Q5/a,b,c",
+"side": "Q",
+"n": 27,
+"page": 978,
+"end_page": 980
+}
+]
+},
+{
+"file": "s1_u08_05.png",
+"book": 1,
+"unit": 8,
+"items": [
+{
+"ref": "M/J 19/P12/Q5/a,b(ii,iii)",
+"side": "Q",
+"n": 42,
+"page": 999,
+"end_page": 999
+},
+{
+"ref": "M/J 25/P11/Q5/a,b,c,d,e",
+"side": "Q",
+"n": 7,
+"page": 952,
+"end_page": 953
+}
+]
+},
+{
+"file": "s1_u08_06.png",
+"book": 1,
+"unit": 8,
+"items": [
+{
+"ref": "O/N 19/P11/Q4/d",
+"side": "Q",
+"n": 38,
+"page": 993,
+"end_page": 994
+},
+{
+"ref": "O/N 19/P13/Q3/a,b,c",
+"side": "Q",
+"n": 40,
+"page": 995,
+"end_page": 998
+}
+]
+},
+{
+"file": "s1_u08_07.png",
+"book": 1,
+"unit": 8,
+"items": [
+{
+"ref": "M/J 20/P11/Q7/a,b,c,d,e",
+"side": "Q",
+"n": 35,
+"page": 988,
+"end_page": 989
+},
+{
+"ref": "O/N 19/P11/Q4/d",
+"side": "A",
+"n": 38,
+"page": 1067,
+"end_page": 1068
+}
+]
+},
+{
+"file": "s1_u08_08.png",
+"book": 1,
+"unit": 8,
+"items": [
+{
+"ref": "M/J 21/P11/Q7/a,b,c",
+"side": "A",
+"n": 29,
+"page": 1056,
+"end_page": 1057
+},
+{
+"ref": "O/N 25/P11/Q2/a,b,c,d",
+"side": "A",
+"n": 4,
+"page": 1027,
+"end_page": 1028
+}
+]
+},
+{
+"file": "s1_u08_09.png",
+"book": 1,
+"unit": 8,
+"items": [
+{
+"ref": "O/N 16/P12/Q9/a,b,c",
+"side": "A",
+"n": 53,
+"page": 1084,
+"end_page": 1086
+},
+{
+"ref": "O/N 22/P13/Q2/a,b,c,d,f",
+"side": "A",
+"n": 24,
+"page": 1052,
+"end_page": 1053
+}
+]
+},
+{
+"file": "s2_u09_00.png",
+"book": 2,
+"unit": 9,
+"items": [
+{
+"ref": "O/N 25/P22/Q4/c",
+"side": "Q",
+"n": 11,
+"page": 10,
+"end_page": 11
+},
+{
+"ref": "O/N 15/P22/Q6/b(i)",
+"side": "Q",
+"n": 139,
+"page": 132,
+"end_page": 133
+}
+]
+},
+{
+"file": "s2_u09_01.png",
+"book": 2,
+"unit": 9,
+"items": [
+{
+"ref": "O/N 15/P22/Q3",
+"side": "Q",
+"n": 137,
+"page": 128,
+"end_page": 131
+},
+{
+"ref": "M/J 25/P23/Q3",
+"side": "Q",
+"n": 18,
+"page": 14,
+"end_page": 15
+}
+]
+},
+{
+"file": "s2_u09_02.png",
+"book": 2,
+"unit": 9,
+"items": [
+{
+"ref": "9608 M/J 21/P23/Q1/a",
+"side": "Q",
+"n": 76,
+"page": 66,
+"end_page": 66
+},
+{
+"ref": "O/N 19/P23/Q2/a(ii)",
+"side": "Q",
+"n": 91,
+"page": 76,
+"end_page": 77
+}
+]
+},
+{
+"file": "s2_u09_03.png",
+"book": 2,
+"unit": 9,
+"items": [
+{
+"ref": "M/J 17/P23/Q1/a",
+"side": "Q",
+"n": 120,
+"page": 103,
+"end_page": 103
+},
+{
+"ref": "M/J 25/P21/Q3",
+"side": "Q",
+"n": 14,
+"page": 13,
+"end_page": 13
+}
+]
+},
+{
+"file": "s2_u09_04.png",
+"book": 2,
+"unit": 9,
+"items": [
+{
+"ref": "M/J 26/P22/Q2/a,b,c",
+"side": "Q",
+"n": 3,
+"page": 5,
+"end_page": 6
+},
+{
+"ref": "M/J 25/P22/Q4",
+"side": "Q",
+"n": 17,
+"page": 14,
+"end_page": 14
+}
+]
+},
+{
+"file": "s2_u09_05.png",
+"book": 2,
+"unit": 9,
+"items": [
+{
+"ref": "M/J 24/P22/Q7/a",
+"side": "Q",
+"n": 31,
+"page": 29,
+"end_page": 29
+},
+{
+"ref": "O/N 16/P22/Q1/a,b,c",
+"side": "Q",
+"n": 124,
+"page": 110,
+"end_page": 113
+}
+]
+},
+{
+"file": "s2_u09_06.png",
+"book": 2,
+"unit": 9,
+"items": [
+{
+"ref": "M/J 25/P22/Q3",
+"side": "Q",
+"n": 16,
+"page": 13,
+"end_page": 14
+},
+{
+"ref": "M/J 23/P22/Q3/b",
+"side": "Q",
+"n": 44,
+"page": 40,
+"end_page": 41
+}
+]
+},
+{
+"file": "s2_u09_07.png",
+"book": 2,
+"unit": 9,
+"items": [
+{
+"ref": "O/N 16/P23/Q1/a,b,c",
+"side": "Q",
+"n": 126,
+"page": 114,
+"end_page": 119
+},
+{
+"ref": "O/N 15/P22/Q2/b",
+"side": "A",
+"n": 136,
+"page": 240,
+"end_page": 241
+}
+]
+},
+{
+"file": "s2_u09_08.png",
+"book": 2,
+"unit": 9,
+"items": [
+{
+"ref": "O/N 22/P22/Q4/a",
+"side": "A",
+"n": 52,
+"page": 176,
+"end_page": 177
+},
+{
+"ref": "M/J 21/P23/Q2/c",
+"side": "A",
+"n": 72,
+"page": 189,
+"end_page": 190
+}
+]
+},
+{
+"file": "s2_u09_09.png",
+"book": 2,
+"unit": 9,
+"items": [
+{
+"ref": "M/J 26/P21/Q4",
+"side": "A",
+"n": 2,
+"page": 140,
+"end_page": 141
+},
+{
+"ref": "M/J 19/P23/Q2/a,b",
+"side": "A",
+"n": 97,
+"page": 209,
+"end_page": 209
+}
+]
+},
+{
+"file": "s2_u10_00.png",
+"book": 2,
+"unit": 10,
+"items": [
+{
+"ref": "O/N 24/P21/Q6/a",
+"side": "Q",
+"n": 35,
+"page": 290,
+"end_page": 290
+},
+{
+"ref": "O/N 21/P23/Q1/b",
+"side": "Q",
+"n": 96,
+"page": 355,
+"end_page": 355
+}
+]
+},
+{
+"file": "s2_u10_01.png",
+"book": 2,
+"unit": 10,
+"items": [
+{
+"ref": "O/N 24/P23/Q8/a,b,c",
+"side": "Q",
+"n": 45,
+"page": 300,
+"end_page": 301
+},
+{
+"ref": "M/J 20/P23/Q5/a,b(i)",
+"side": "Q",
+"n": 126,
+"page": 386,
+"end_page": 389
+}
+]
+},
+{
+"file": "s2_u10_02.png",
+"book": 2,
+"unit": 10,
+"items": [
+{
+"ref": "M/J 19/P21/Q4/b",
+"side": "Q",
+"n": 136,
+"page": 401,
+"end_page": 403
+},
+{
+"ref": "O/N 22/P21/Q5",
+"side": "Q",
+"n": 80,
+"page": 338,
+"end_page": 339
+}
+]
+},
+{
+"file": "s2_u10_03.png",
+"book": 2,
+"unit": 10,
+"items": [
+{
+"ref": "O/N 19/P22/Q6/a,b",
+"side": "Q",
+"n": 132,
+"page": 395,
+"end_page": 397
+},
+{
+"ref": "O/N 22/P22/Q7/a,b,c",
+"side": "Q",
+"n": 83,
+"page": 341,
+"end_page": 342
+}
+]
+},
+{
+"file": "s2_u10_04.png",
+"book": 2,
+"unit": 10,
+"items": [
+{
+"ref": "M/J 17/P23/Q1/b(i)",
+"side": "Q",
+"n": 167,
+"page": 439,
+"end_page": 440
+},
+{
+"ref": "M/J 18/P21/Q6/a,b",
+"side": "Q",
+"n": 151,
+"page": 418,
+"end_page": 419
+}
+]
+},
+{
+"file": "s2_u10_05.png",
+"book": 2,
+"unit": 10,
+"items": [
+{
+"ref": "M/J 20/P22/Q5/b",
+"side": "Q",
+"n": 124,
+"page": 384,
+"end_page": 384
+},
+{
+"ref": "M/J 18/P22/Q6/a,b",
+"side": "Q",
+"n": 153,
+"page": 420,
+"end_page": 422
+}
+]
+},
+{
+"file": "s2_u10_06.png",
+"book": 2,
+"unit": 10,
+"items": [
+{
+"ref": "O/N 24/P22/Q2/b(i)",
+"side": "Q",
+"n": 38,
+"page": 293,
+"end_page": 294
+},
+{
+"ref": "O/N 24/P22/Q1/d",
+"side": "Q",
+"n": 37,
+"page": 292,
+"end_page": 293
+}
+]
+},
+{
+"file": "s2_u10_07.png",
+"book": 2,
+"unit": 10,
+"items": [
+{
+"ref": "M/J 24/P22/Q6/b",
+"side": "Q",
+"n": 51,
+"page": 306,
+"end_page": 307
+},
+{
+"ref": "9608 M/J 21/P22/Q4/b",
+"side": "A",
+"n": 117,
+"page": 598,
+"end_page": 600
+}
+]
+},
+{
+"file": "s2_u10_08.png",
+"book": 2,
+"unit": 10,
+"items": [
+{
+"ref": "M/J 18/P21/Q5/a,c",
+"side": "A",
+"n": 150,
+"page": 658,
+"end_page": 662
+},
+{
+"ref": "O/N 23/P21/Q1/d",
+"side": "A",
+"n": 56,
+"page": 531,
+"end_page": 532
+}
+]
+},
+{
+"file": "s2_u10_09.png",
+"book": 2,
+"unit": 10,
+"items": [
+{
+"ref": "O/N 24/P22/Q6/a",
+"side": "A",
+"n": 40,
+"page": 517,
+"end_page": 518
+},
+{
+"ref": "O/N 25/P21/Q5/a",
+"side": "A",
+"n": 15,
+"page": 488,
+"end_page": 489
+}
+]
+},
+{
+"file": "s2_u11_00.png",
+"book": 2,
+"unit": 11,
+"items": [
+{
+"ref": "9608 M/J 21/P21/Q1/c",
+"side": "Q",
+"n": 97,
+"page": 859,
+"end_page": 860
+},
+{
+"ref": "O/N 18/P23/Q4/a(i),b,c,d(ii)",
+"side": "Q",
+"n": 137,
+"page": 912,
+"end_page": 914
+}
+]
+},
+{
+"file": "s2_u11_01.png",
+"book": 2,
+"unit": 11,
+"items": [
+{
+"ref": "O/N 22/P21/Q6/a",
+"side": "Q",
+"n": 74,
+"page": 829,
+"end_page": 830
+},
+{
+"ref": "O/N 16/P23/Q5",
+"side": "Q",
+"n": 166,
+"page": 959,
+"end_page": 960
+}
+]
+},
+{
+"file": "s2_u11_02.png",
+"book": 2,
+"unit": 11,
+"items": [
+{
+"ref": "M/J 18/P22/Q5/c",
+"side": "Q",
+"n": 143,
+"page": 922,
+"end_page": 922
+},
+{
+"ref": "M/J 20/P21/Q6/c(i)",
+"side": "Q",
+"n": 107,
+"page": 871,
+"end_page": 873
+}
+]
+},
+{
+"file": "s2_u11_03.png",
+"book": 2,
+"unit": 11,
+"items": [
+{
+"ref": "M/J 20/P22/Q6/a(i)",
+"side": "Q",
+"n": 110,
+"page": 876,
+"end_page": 878
+},
+{
+"ref": "M/J 15/P22/Q1/b(ii)",
+"side": "Q",
+"n": 191,
+"page": 999,
+"end_page": 999
+}
+]
+},
+{
+"file": "s2_u11_04.png",
+"book": 2,
+"unit": 11,
+"items": [
+{
+"ref": "M/J 19/P22/Q1/b(i)",
+"side": "Q",
+"n": 128,
+"page": 897,
+"end_page": 899
+},
+{
+"ref": "M/J 23/P21/Q8/a",
+"side": "Q",
+"n": 64,
+"page": 820,
+"end_page": 821
+}
+]
+},
+{
+"file": "s2_u11_05.png",
+"book": 2,
+"unit": 11,
+"items": [
+{
+"ref": "M/J 23/P21/Q1/b,c",
+"side": "Q",
+"n": 61,
+"page": 818,
+"end_page": 819
+},
+{
+"ref": "O/N 25/P23/Q5/b",
+"side": "Q",
+"n": 15,
+"page": 758,
+"end_page": 760
+}
+]
+},
+{
+"file": "s2_u11_06.png",
+"book": 2,
+"unit": 11,
+"items": [
+{
+"ref": "O/N 19/P23/Q2/a(i)",
+"side": "Q",
+"n": 121,
+"page": 891,
+"end_page": 891
+},
+{
+"ref": "M/J 18/P23/Q1/b",
+"side": "Q",
+"n": 144,
+"page": 922,
+"end_page": 925
+}
+]
+},
+{
+"file": "s2_u11_07.png",
+"book": 2,
+"unit": 11,
+"items": [
+{
+"ref": "O/N 23/P22/Q6/b(i,ii)",
+"side": "Q",
+"n": 54,
+"page": 810,
+"end_page": 811
+},
+{
+"ref": "O/N 16/P22/Q6",
+"side": "A",
+"n": 164,
+"page": 1152,
+"end_page": 1152
+}
+]
+},
+{
+"file": "s2_u11_08.png",
+"book": 2,
+"unit": 11,
+"items": [
+{
+"ref": "M/J 17/P23/Q3",
+"side": "A",
+"n": 157,
+"page": 1140,
+"end_page": 1141
+},
+{
+"ref": "M/J 21/P23/Q7/a,c",
+"side": "A",
+"n": 96,
+"page": 1080,
+"end_page": 1083
+}
+]
+},
+{
+"file": "s2_u11_09.png",
+"book": 2,
+"unit": 11,
+"items": [
+{
+"ref": "O/N 15/P23/Q1",
+"side": "A",
+"n": 183,
+"page": 1174,
+"end_page": 1175
+},
+{
+"ref": "M/J 18/P23/Q2/b,c(ii)",
+"side": "A",
+"n": 145,
+"page": 1127,
+"end_page": 1128
+}
+]
+},
+{
+"file": "s2_u12_00.png",
+"book": 2,
+"unit": 12,
+"items": [
+{
+"ref": "M/J 15/P22/Q1/c",
+"side": "Q",
+"n": 157,
+"page": 1390,
+"end_page": 1390
+},
+{
+"ref": "M/J 15/P21/Q1/c",
+"side": "Q",
+"n": 153,
+"page": 1385,
+"end_page": 1385
+}
+]
+},
+{
+"file": "s2_u12_01.png",
+"book": 2,
+"unit": 12,
+"items": [
+{
+"ref": "O/N 19/P22/Q2/a",
+"side": "Q",
+"n": 105,
+"page": 1312,
+"end_page": 1313
+},
+{
+"ref": "M/J 26/P22/Q1/b,c,d,e,f",
+"side": "Q",
+"n": 3,
+"page": 1188,
+"end_page": 1192
+}
+]
+},
+{
+"file": "s2_u12_02.png",
+"book": 2,
+"unit": 12,
+"items": [
+{
+"ref": "M/J 23/P22/Q8/c",
+"side": "Q",
+"n": 58,
+"page": 1253,
+"end_page": 1254
+},
+{
+"ref": "M/J 15/P21/Q4/(ii)",
+"side": "Q",
+"n": 155,
+"page": 1387,
+"end_page": 1387
+}
+]
+},
+{
+"file": "s2_u12_03.png",
+"book": 2,
+"unit": 12,
+"items": [
+{
+"ref": "M/J 17/P23/Q4/a,b",
+"side": "Q",
+"n": 133,
+"page": 1353,
+"end_page": 1353
+},
+{
+"ref": "O/N 24/P23/Q5/a,b",
+"side": "Q",
+"n": 34,
+"page": 1226,
+"end_page": 1226
+}
+]
+},
+{
+"file": "s2_u12_04.png",
+"book": 2,
+"unit": 12,
+"items": [
+{
+"ref": "M/J 21/P23/Q2/a",
+"side": "Q",
+"n": 84,
+"page": 1280,
+"end_page": 1281
+},
+{
+"ref": "O/N 18/P23/Q2/b,c",
+"side": "Q",
+"n": 118,
+"page": 1333,
+"end_page": 1335
+}
+]
+},
+{
+"file": "s2_u12_05.png",
+"book": 2,
+"unit": 12,
+"items": [
+{
+"ref": "O/N 19/P21/Q5/a,b",
+"side": "Q",
+"n": 104,
+"page": 1311,
+"end_page": 1312
+},
+{
+"ref": "O/N 24/P22/Q7/c,d",
+"side": "Q",
+"n": 33,
+"page": 1225,
+"end_page": 1226
+}
+]
+},
+{
+"file": "s2_u12_06.png",
+"book": 2,
+"unit": 12,
+"items": [
+{
+"ref": "O/N 23/P22/Q5",
+"side": "Q",
+"n": 47,
+"page": 1239,
+"end_page": 1241
+},
+{
+"ref": "M/J 15/P21/Q5/b",
+"side": "Q",
+"n": 156,
+"page": 1387,
+"end_page": 1390
+}
+]
+},
+{
+"file": "s2_u12_07.png",
+"book": 2,
+"unit": 12,
+"items": [
+{
+"ref": "M/J 21/P22/Q2/a",
+"side": "Q",
+"n": 82,
+"page": 1279,
+"end_page": 1280
+},
+{
+"ref": "M/J 25/P21/Q6/a",
+"side": "A",
+"n": 17,
+"page": 1413,
+"end_page": 1413
+}
+]
+},
+{
+"file": "s2_u12_08.png",
+"book": 2,
+"unit": 12,
+"items": [
+{
+"ref": "M/J 26/P21/Q3/a,b",
+"side": "A",
+"n": 1,
+"page": 1399,
+"end_page": 1400
+},
+{
+"ref": "M/J 15/P21/Q5/b",
+"side": "A",
+"n": 156,
+"page": 1501,
+"end_page": 1501
+}
+]
+},
+{
+"file": "s2_u12_09.png",
+"book": 2,
+"unit": 12,
+"items": [
+{
+"ref": "M/J 17/P22/Q6/b",
+"side": "A",
+"n": 132,
+"page": 1482,
+"end_page": 1483
+},
+{
+"ref": "O/N 16/P22/Q5/c(iii)",
+"side": "A",
+"n": 137,
+"page": 1487,
+"end_page": 1488
+}
+]
+}
+]

@@ -695,23 +695,6 @@
    ]
   },
   {
-   "ref": "M/J 15/P23/Q4/b",
-   "groups": [
-    [
-     "M/J 15/P23/Q4/b(i)",
-     10
-    ],
-    [
-     "M/J 15/P23/Q4/b(ii)",
-     6
-    ],
-    [
-     "M/J 15/P23/Q4/b(iii,iv)",
-     10
-    ]
-   ]
-  },
-  {
    "ref": "M/J 16/P21/Q3/b",
    "groups": [
     [
@@ -1495,6 +1478,21 @@
    "why": "identifier Index"
   },
   {
+   "ref": "M/J 17/P11/Q4/d(i)",
+   "part": "(a)",
+   "why": "material announced in the stem is printed in the first part"
+  },
+  {
+   "ref": "M/J 17/P12/Q5/c(i)",
+   "part": "(a)",
+   "why": "material announced in the stem is printed in the first part"
+  },
+  {
+   "ref": "M/J 17/P13/Q4/d(i)",
+   "part": "(a)",
+   "why": "material announced in the stem is printed in the first part"
+  },
+  {
    "ref": "M/J 18/P22/Q5/a,d",
    "part": "(c)",
    "why": "identifier GetNumber"
@@ -1590,6 +1588,14 @@
    "by": {
     "9": 3,
     "10": 7
+   }
+  },
+  {
+   "ref": "M/J 15/P23/Q4/b",
+   "why": "(b)(ii) depends on sibling ['(b)(i)']",
+   "by": {
+    "10": 8,
+    "6": 2
    }
   },
   {
@@ -1836,138 +1842,6 @@
     "10": 5,
     "11": 5
    }
-  }
- ],
- "cross_filed": [
-  {
-   "ref": "M/J 15/P23/Q4/b(ii)",
-   "unit": 6,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 6)"
-  },
-  {
-   "ref": "M/J 18/P21/Q5/b",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "M/J 18/P22/Q5/b",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "M/J 18/P23/Q5/b",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "M/J 19/P22/Q2/b",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "M/J 19/P23/Q2/d",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "M/J 20/P22/Q1/d",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "M/J 20/P23/Q1/d",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "M/J 20/P23/Q5/d(iii)",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "9608 M/J 21/P21/Q1/a",
-   "unit": 1,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 1)"
-  },
-  {
-   "ref": "9608 M/J 21/P21/Q4/b",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "9608 M/J 21/P21/Q5/a(ii)",
-   "unit": 6,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 6)"
-  },
-  {
-   "ref": "9608 M/J 21/P21/Q5/b(iii)",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "9608 M/J 21/P22/Q1/b",
-   "unit": 1,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 1)"
-  },
-  {
-   "ref": "9608 M/J 21/P22/Q5/a",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "O/N 15/P21/Q2",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "O/N 15/P21/Q7/c",
-   "unit": 6,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 6)"
-  },
-  {
-   "ref": "O/N 15/P23/Q2",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "O/N 15/P23/Q7/c",
-   "unit": 6,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 6)"
-  },
-  {
-   "ref": "O/N 16/P21/Q4/a,b",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "O/N 16/P23/Q4/a,b",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "O/N 17/P22/Q1/b(i)",
-   "unit": 1,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 1)"
-  },
-  {
-   "ref": "O/N 17/P22/Q4/b",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "O/N 19/P21/Q2/b",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "O/N 19/P22/Q2/b",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
-  },
-  {
-   "ref": "O/N 19/P23/Q2/c",
-   "unit": 5,
-   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
   }
  ],
  "insert": [
@@ -2947,6 +2821,133 @@
    "ref": "O/N 18/P23/Q1/b",
    "issue": "topic marks tie {10: 5, 11: 5}",
    "action": "filed under topic 10 (topic of first sub-part)"
+  }
+ ],
+ "cross_filed": [
+  {
+   "ref": "M/J 18/P21/Q5/b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "M/J 18/P22/Q5/b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "M/J 18/P23/Q5/b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "M/J 19/P22/Q2/b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "M/J 19/P23/Q2/d",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "M/J 20/P22/Q1/d",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "M/J 20/P23/Q1/d",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "M/J 20/P23/Q5/d(iii)",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q1/a",
+   "unit": 1,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 1)"
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q4/b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q5/a(ii)",
+   "unit": 6,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 6)"
+  },
+  {
+   "ref": "9608 M/J 21/P21/Q5/b(iii)",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "9608 M/J 21/P22/Q1/b",
+   "unit": 1,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 1)"
+  },
+  {
+   "ref": "9608 M/J 21/P22/Q5/a",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "O/N 15/P21/Q2",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "O/N 15/P21/Q7/c",
+   "unit": 6,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 6)"
+  },
+  {
+   "ref": "O/N 15/P23/Q2",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "O/N 15/P23/Q7/c",
+   "unit": 6,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 6)"
+  },
+  {
+   "ref": "O/N 16/P21/Q4/a,b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "O/N 16/P23/Q4/a,b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "O/N 17/P22/Q1/b(i)",
+   "unit": 1,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 1)"
+  },
+  {
+   "ref": "O/N 17/P22/Q4/b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "O/N 19/P21/Q2/b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "O/N 19/P22/Q2/b",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
+  },
+  {
+   "ref": "O/N 19/P23/Q2/c",
+   "unit": 5,
+   "action": "Paper 2 part filed in the Paper 1 book (unit 5)"
   }
  ],
  "coverage_gaps": [

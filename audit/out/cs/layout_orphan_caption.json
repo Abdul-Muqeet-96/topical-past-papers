@@ -1,0 +1,38 @@
+[
+{
+"book": 1,
+"page": 534,
+"ref": "O/N 19/P11/Q1/a,b,c",
+"line": "Bus 1"
+},
+{
+"book": 1,
+"page": 845,
+"ref": "O/N 15/P23/Q7/c",
+"line": "OUTPUT MyString, StringTotal"
+},
+{
+"book": 1,
+"page": 949,
+"ref": "O/N 24/P11/Q2/a,b,c",
+"line": "REPAIR_PART(PartID, RepairNumber, Quanti"
+},
+{
+"book": 2,
+"page": 390,
+"ref": "O/N 19/P21/Q6/a,b,c,d(i)",
+"line": "Programming language"
+},
+{
+"book": 2,
+"page": 757,
+"ref": "O/N 25/P23/Q5/b",
+"line": "Num[4] 3"
+},
+{
+"book": 2,
+"page": 1199,
+"ref": "O/N 25/P23/Q5/a",
+"line": "Num[4] 3"
+}
+]

@@ -10556,7 +10556,22 @@
   "marks": 6,
   "code": "10.3.2",
   "phase": "phase2",
-  "item": "M/J 15/P23/Q4/b(i,iii,iv),c",
+  "item": "M/J 15/P23/Q4/b,c",
+  "filed_unit": 10
+ },
+ {
+  "ref": "M/J 15/P23/Q4/b(ii)",
+  "paper": "9608_s15_23",
+  "q": 4,
+  "part": "(b)(ii)",
+  "unit": 6,
+  "section": "6.2",
+  "lo": "6.2.2",
+  "justification": "6.2 Data Integrity: Describe and use methods of data validation",
+  "marks": 2,
+  "code": "6.2.2",
+  "phase": "phase2",
+  "item": "M/J 15/P23/Q4/b,c",
   "filed_unit": 10
  },
  {
@@ -10571,7 +10586,7 @@
   "marks": 1,
   "code": "10.3.2",
   "phase": "phase2",
-  "item": "M/J 15/P23/Q4/b(i,iii,iv),c",
+  "item": "M/J 15/P23/Q4/b,c",
   "filed_unit": 10
  },
  {
@@ -10586,7 +10601,7 @@
   "marks": 1,
   "code": "10.3.2",
   "phase": "phase2",
-  "item": "M/J 15/P23/Q4/b(i,iii,iv),c",
+  "item": "M/J 15/P23/Q4/b,c",
   "filed_unit": 10
  },
  {
@@ -10601,7 +10616,7 @@
   "marks": 10,
   "code": "10.3.2",
   "phase": "phase2",
-  "item": "M/J 15/P23/Q4/b(i,iii,iv),c",
+  "item": "M/J 15/P23/Q4/b,c",
   "filed_unit": 10
  },
  {

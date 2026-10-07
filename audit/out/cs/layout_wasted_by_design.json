@@ -61,16 +61,6 @@
 },
 {
 "book": 1,
-"page": 50,
-"free_pt": 479,
-"next_starts_new_item": true,
-"next_block_h": 498,
-"next_first_band_h": 17,
-"cause": "next item kept whole or its start kept together",
-"ref": "9608 M/J 21/P11/Q2/a,b,c"
-},
-{
-"book": 1,
 "page": 53,
 "free_pt": 371,
 "next_starts_new_item": true,
@@ -81,16 +71,6 @@
 },
 {
 "book": 1,
-"page": 59,
-"free_pt": 361,
-"next_starts_new_item": true,
-"next_block_h": 596,
-"next_first_band_h": 29,
-"cause": "next item kept whole or its start kept together",
-"ref": "M/J 20/P11/Q4/a,b,c"
-},
-{
-"book": 1,
 "page": 68,
 "free_pt": 369,
 "next_starts_new_item": true,
@@ -98,16 +78,6 @@
 "next_first_band_h": 19,
 "cause": "next item kept whole or its start kept together",
 "ref": "M/J 19/P13/Q5/a,c"
-},
-{
-"book": 1,
-"page": 77,
-"free_pt": 346,
-"next_starts_new_item": true,
-"next_block_h": 519,
-"next_first_band_h": 19,
-"cause": "next item kept whole or its start kept together",
-"ref": "M/J 18/P12/Q4/a,b"
 },
 {
 "book": 1,
@@ -142,11 +112,11 @@
 {
 "book": 1,
 "page": 98,
-"free_pt": 392,
-"next_starts_new_item": false,
-"next_block_h": 724,
+"free_pt": 460,
+"next_starts_new_item": true,
+"next_block_h": 725,
 "next_first_band_h": 14,
-"cause": "figure or block kept together",
+"cause": "next item kept whole or its start kept together",
 "ref": "O/N 15/P11/Q8/a,b"
 },
 {
@@ -188,16 +158,6 @@
 "next_first_band_h": 42,
 "cause": "next item kept whole or its start kept together",
 "ref": "M/J 20/P13/Q1/a,b,c"
-},
-{
-"book": 1,
-"page": 205,
-"free_pt": 371,
-"next_starts_new_item": true,
-"next_block_h": 358,
-"next_first_band_h": 19,
-"cause": "next item kept whole or its start kept together",
-"ref": "M/J 18/P11/Q1"
 },
 {
 "book": 1,
@@ -311,18 +271,18 @@
 },
 {
 "book": 1,
-"page": 302,
-"free_pt": 542,
-"next_starts_new_item": false,
-"next_block_h": 634,
+"page": 304,
+"free_pt": 639,
+"next_starts_new_item": true,
+"next_block_h": 658,
 "next_first_band_h": 17,
-"cause": "figure or block kept together",
-"ref": "O/N 22/P12/Q3/a,b,c"
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 22/P13/Q5/a,b"
 },
 {
 "book": 1,
 "page": 310,
-"free_pt": 563,
+"free_pt": 539,
 "next_starts_new_item": true,
 "next_block_h": 540,
 "next_first_band_h": 29,
@@ -338,6 +298,16 @@
 "next_first_band_h": 16,
 "cause": "next item kept whole or its start kept together",
 "ref": "M/J 21/P12/Q3/a,b"
+},
+{
+"book": 1,
+"page": 323,
+"free_pt": 351,
+"next_starts_new_item": false,
+"next_block_h": 496,
+"next_first_band_h": 17,
+"cause": "figure or block kept together",
+"ref": "M/J 20/P13/Q3/a,b,c"
 },
 {
 "book": 1,
@@ -404,20 +374,10 @@
 "page": 448,
 "free_pt": 431,
 "next_starts_new_item": true,
-"next_block_h": 440,
+"next_block_h": 421,
 "next_first_band_h": 27,
 "cause": "next item kept whole or its start kept together",
 "ref": "M/J 25/P11/Q8/a,b"
-},
-{
-"book": 1,
-"page": 453,
-"free_pt": 340,
-"next_starts_new_item": true,
-"next_block_h": 723,
-"next_first_band_h": 27,
-"cause": "next item kept whole or its start kept together",
-"ref": "M/J 25/P13/Q5/a,b"
 },
 {
 "book": 1,
@@ -434,24 +394,34 @@
 "page": 462,
 "free_pt": 430,
 "next_starts_new_item": true,
-"next_block_h": 452,
+"next_block_h": 693,
 "next_first_band_h": 27,
 "cause": "next item kept whole or its start kept together",
 "ref": "O/N 24/P13/Q7/a,b"
 },
 {
 "book": 1,
-"page": 479,
-"free_pt": 575,
+"page": 472,
+"free_pt": 348,
+"next_starts_new_item": true,
+"next_block_h": 428,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 23/P11/Q5/a,b,c"
+},
+{
+"book": 1,
+"page": 477,
+"free_pt": 599,
 "next_starts_new_item": false,
-"next_block_h": 686,
-"next_first_band_h": 686,
+"next_block_h": 707,
+"next_first_band_h": 17,
 "cause": "figure or block kept together",
 "ref": "O/N 23/P12/Q9/a,b"
 },
 {
 "book": 1,
-"page": 486,
+"page": 484,
 "free_pt": 432,
 "next_starts_new_item": true,
 "next_block_h": 548,
@@ -461,7 +431,7 @@
 },
 {
 "book": 1,
-"page": 492,
+"page": 490,
 "free_pt": 377,
 "next_starts_new_item": true,
 "next_block_h": 436,
@@ -471,7 +441,7 @@
 },
 {
 "book": 1,
-"page": 512,
+"page": 510,
 "free_pt": 406,
 "next_starts_new_item": false,
 "next_block_h": 714,
@@ -481,17 +451,17 @@
 },
 {
 "book": 1,
-"page": 514,
-"free_pt": 463,
-"next_starts_new_item": true,
-"next_block_h": 717,
-"next_first_band_h": 28,
-"cause": "next item kept whole or its start kept together",
+"page": 513,
+"free_pt": 356,
+"next_starts_new_item": false,
+"next_block_h": 577,
+"next_first_band_h": 16,
+"cause": "figure or block kept together",
 "ref": "M/J 21/P12/Q4/a,b(ii,iii)"
 },
 {
 "book": 1,
-"page": 520,
+"page": 518,
 "free_pt": 406,
 "next_starts_new_item": false,
 "next_block_h": 714,
@@ -501,8 +471,8 @@
 },
 {
 "book": 1,
-"page": 523,
-"free_pt": 485,
+"page": 521,
+"free_pt": 460,
 "next_starts_new_item": false,
 "next_block_h": 743,
 "next_first_band_h": 17,
@@ -511,17 +481,17 @@
 },
 {
 "book": 1,
-"page": 528,
-"free_pt": 591,
-"next_starts_new_item": true,
-"next_block_h": 641,
-"next_first_band_h": 29,
-"cause": "next item kept whole or its start kept together",
+"page": 527,
+"free_pt": 425,
+"next_starts_new_item": false,
+"next_block_h": 729,
+"next_first_band_h": 17,
+"cause": "figure or block kept together",
 "ref": "9608 M/J 21/P13/Q3/a,b,d"
 },
 {
 "book": 1,
-"page": 531,
+"page": 529,
 "free_pt": 563,
 "next_starts_new_item": true,
 "next_block_h": 553,
@@ -531,7 +501,7 @@
 },
 {
 "book": 1,
-"page": 534,
+"page": 532,
 "free_pt": 373,
 "next_starts_new_item": false,
 "next_block_h": 717,
@@ -541,77 +511,37 @@
 },
 {
 "book": 1,
-"page": 546,
-"free_pt": 564,
+"page": 544,
+"free_pt": 563,
 "next_starts_new_item": false,
-"next_block_h": 678,
-"next_first_band_h": 678,
+"next_block_h": 718,
+"next_first_band_h": 32,
 "cause": "figure or block kept together",
 "ref": "O/N 18/P11/Q4/a,b,d"
 },
 {
 "book": 1,
-"page": 554,
-"free_pt": 485,
+"page": 552,
+"free_pt": 521,
 "next_starts_new_item": false,
-"next_block_h": 673,
-"next_first_band_h": 673,
+"next_block_h": 713,
+"next_first_band_h": 32,
 "cause": "figure or block kept together",
 "ref": "O/N 18/P13/Q2/a,b(iv),c"
-},
-{
-"book": 1,
-"page": 572,
-"free_pt": 604,
-"next_starts_new_item": false,
-"next_block_h": 730,
-"next_first_band_h": 27,
-"cause": "figure or block kept together",
-"ref": "O/N 16/P11/Q8/a,b"
-},
-{
-"book": 1,
-"page": 575,
-"free_pt": 469,
-"next_starts_new_item": false,
-"next_block_h": 624,
-"next_first_band_h": 14,
-"cause": "figure or block kept together",
-"ref": "O/N 16/P12/Q5/a,b"
-},
-{
-"book": 1,
-"page": 578,
-"free_pt": 604,
-"next_starts_new_item": false,
-"next_block_h": 730,
-"next_first_band_h": 27,
-"cause": "figure or block kept together",
-"ref": "O/N 16/P13/Q8/a,b"
 },
 {
 "book": 1,
 "page": 580,
 "free_pt": 466,
 "next_starts_new_item": true,
-"next_block_h": 691,
-"next_first_band_h": 27,
-"cause": "next item kept whole or its start kept together",
-"ref": "M/J 16/P11/Q9/a,b"
-},
-{
-"book": 1,
-"page": 584,
-"free_pt": 466,
-"next_starts_new_item": true,
-"next_block_h": 691,
+"next_block_h": 673,
 "next_first_band_h": 27,
 "cause": "next item kept whole or its start kept together",
 "ref": "M/J 16/P12/Q9/a,b"
 },
 {
 "book": 1,
-"page": 590,
+"page": 586,
 "free_pt": 345,
 "next_starts_new_item": true,
 "next_block_h": 463,
@@ -621,7 +551,7 @@
 },
 {
 "book": 1,
-"page": 597,
+"page": 593,
 "free_pt": 435,
 "next_starts_new_item": true,
 "next_block_h": 595,
@@ -631,7 +561,7 @@
 },
 {
 "book": 1,
-"page": 608,
+"page": 604,
 "free_pt": 342,
 "next_starts_new_item": true,
 "next_block_h": 659,
@@ -641,7 +571,7 @@
 },
 {
 "book": 1,
-"page": 623,
+"page": 619,
 "free_pt": 488,
 "next_starts_new_item": true,
 "next_block_h": 720,
@@ -651,7 +581,7 @@
 },
 {
 "book": 1,
-"page": 632,
+"page": 628,
 "free_pt": 349,
 "next_starts_new_item": true,
 "next_block_h": 372,
@@ -661,7 +591,7 @@
 },
 {
 "book": 1,
-"page": 639,
+"page": 635,
 "free_pt": 361,
 "next_starts_new_item": true,
 "next_block_h": 675,
@@ -671,7 +601,7 @@
 },
 {
 "book": 1,
-"page": 643,
+"page": 639,
 "free_pt": 438,
 "next_starts_new_item": false,
 "next_block_h": 693,
@@ -681,7 +611,7 @@
 },
 {
 "book": 1,
-"page": 666,
+"page": 662,
 "free_pt": 539,
 "next_starts_new_item": true,
 "next_block_h": 532,
@@ -691,7 +621,7 @@
 },
 {
 "book": 1,
-"page": 668,
+"page": 664,
 "free_pt": 363,
 "next_starts_new_item": false,
 "next_block_h": 427,
@@ -701,7 +631,7 @@
 },
 {
 "book": 1,
-"page": 671,
+"page": 667,
 "free_pt": 363,
 "next_starts_new_item": false,
 "next_block_h": 427,
@@ -711,7 +641,7 @@
 },
 {
 "book": 1,
-"page": 676,
+"page": 672,
 "free_pt": 480,
 "next_starts_new_item": true,
 "next_block_h": 447,
@@ -721,7 +651,17 @@
 },
 {
 "book": 1,
-"page": 688,
+"page": 682,
+"free_pt": 445,
+"next_starts_new_item": false,
+"next_block_h": 568,
+"next_first_band_h": 17,
+"cause": "figure or block kept together",
+"ref": "M/J 24/P12/Q8/a,b,c"
+},
+{
+"book": 1,
+"page": 684,
 "free_pt": 380,
 "next_starts_new_item": true,
 "next_block_h": 346,
@@ -731,7 +671,7 @@
 },
 {
 "book": 1,
-"page": 691,
+"page": 687,
 "free_pt": 363,
 "next_starts_new_item": false,
 "next_block_h": 464,
@@ -741,7 +681,7 @@
 },
 {
 "book": 1,
-"page": 694,
+"page": 690,
 "free_pt": 554,
 "next_starts_new_item": true,
 "next_block_h": 574,
@@ -751,7 +691,7 @@
 },
 {
 "book": 1,
-"page": 696,
+"page": 692,
 "free_pt": 345,
 "next_starts_new_item": true,
 "next_block_h": 429,
@@ -761,7 +701,7 @@
 },
 {
 "book": 1,
-"page": 700,
+"page": 696,
 "free_pt": 530,
 "next_starts_new_item": true,
 "next_block_h": 562,
@@ -771,7 +711,7 @@
 },
 {
 "book": 1,
-"page": 702,
+"page": 698,
 "free_pt": 419,
 "next_starts_new_item": true,
 "next_block_h": 562,
@@ -781,7 +721,7 @@
 },
 {
 "book": 1,
-"page": 712,
+"page": 708,
 "free_pt": 358,
 "next_starts_new_item": true,
 "next_block_h": 367,
@@ -791,7 +731,7 @@
 },
 {
 "book": 1,
-"page": 713,
+"page": 709,
 "free_pt": 362,
 "next_starts_new_item": true,
 "next_block_h": 466,
@@ -801,7 +741,7 @@
 },
 {
 "book": 1,
-"page": 716,
+"page": 712,
 "free_pt": 349,
 "next_starts_new_item": true,
 "next_block_h": 413,
@@ -811,7 +751,7 @@
 },
 {
 "book": 1,
-"page": 718,
+"page": 714,
 "free_pt": 357,
 "next_starts_new_item": true,
 "next_block_h": 644,
@@ -821,7 +761,7 @@
 },
 {
 "book": 1,
-"page": 722,
+"page": 718,
 "free_pt": 366,
 "next_starts_new_item": true,
 "next_block_h": 622,
@@ -831,8 +771,8 @@
 },
 {
 "book": 1,
-"page": 729,
-"free_pt": 699,
+"page": 725,
+"free_pt": 594,
 "next_starts_new_item": true,
 "next_block_h": 661,
 "next_first_band_h": 19,
@@ -841,7 +781,17 @@
 },
 {
 "book": 1,
-"page": 749,
+"page": 732,
+"free_pt": 478,
+"next_starts_new_item": true,
+"next_block_h": 429,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 16/P11/Q1"
+},
+{
+"book": 1,
+"page": 746,
 "free_pt": 398,
 "next_starts_new_item": false,
 "next_block_h": 572,
@@ -851,7 +801,7 @@
 },
 {
 "book": 1,
-"page": 761,
+"page": 758,
 "free_pt": 358,
 "next_starts_new_item": true,
 "next_block_h": 510,
@@ -861,7 +811,7 @@
 },
 {
 "book": 1,
-"page": 785,
+"page": 782,
 "free_pt": 439,
 "next_starts_new_item": false,
 "next_block_h": 681,
@@ -871,7 +821,7 @@
 },
 {
 "book": 1,
-"page": 790,
+"page": 787,
 "free_pt": 382,
 "next_starts_new_item": true,
 "next_block_h": 558,
@@ -881,7 +831,7 @@
 },
 {
 "book": 1,
-"page": 807,
+"page": 804,
 "free_pt": 438,
 "next_starts_new_item": true,
 "next_block_h": 413,
@@ -891,17 +841,17 @@
 },
 {
 "book": 1,
-"page": 813,
-"free_pt": 423,
+"page": 807,
+"free_pt": 409,
 "next_starts_new_item": true,
-"next_block_h": 411,
-"next_first_band_h": 29,
+"next_block_h": 687,
+"next_first_band_h": 13,
 "cause": "next item kept whole or its start kept together",
-"ref": "M/J 23/P13/Q4/d"
+"ref": "M/J 24/P13/Q7/f"
 },
 {
 "book": 1,
-"page": 818,
+"page": 815,
 "free_pt": 354,
 "next_starts_new_item": true,
 "next_block_h": 433,
@@ -911,7 +861,7 @@
 },
 {
 "book": 1,
-"page": 821,
+"page": 818,
 "free_pt": 418,
 "next_starts_new_item": true,
 "next_block_h": 498,
@@ -921,17 +871,17 @@
 },
 {
 "book": 1,
-"page": 823,
+"page": 820,
 "free_pt": 412,
 "next_starts_new_item": true,
-"next_block_h": 499,
+"next_block_h": 479,
 "next_first_band_h": 17,
 "cause": "next item kept whole or its start kept together",
 "ref": "9608 M/J 21/P12/Q5/e(ii)"
 },
 {
 "book": 1,
-"page": 825,
+"page": 822,
 "free_pt": 506,
 "next_starts_new_item": true,
 "next_block_h": 529,
@@ -941,7 +891,7 @@
 },
 {
 "book": 1,
-"page": 827,
+"page": 824,
 "free_pt": 455,
 "next_starts_new_item": true,
 "next_block_h": 479,
@@ -951,7 +901,7 @@
 },
 {
 "book": 1,
-"page": 831,
+"page": 828,
 "free_pt": 360,
 "next_starts_new_item": true,
 "next_block_h": 683,
@@ -961,7 +911,7 @@
 },
 {
 "book": 1,
-"page": 835,
+"page": 832,
 "free_pt": 369,
 "next_starts_new_item": true,
 "next_block_h": 488,
@@ -971,17 +921,7 @@
 },
 {
 "book": 1,
-"page": 839,
-"free_pt": 443,
-"next_starts_new_item": false,
-"next_block_h": 723,
-"next_first_band_h": 127,
-"cause": "figure or block kept together",
-"ref": "M/J 17/P12/Q6/c(v)"
-},
-{
-"book": 1,
-"page": 854,
+"page": 851,
 "free_pt": 390,
 "next_starts_new_item": true,
 "next_block_h": 376,
@@ -991,7 +931,7 @@
 },
 {
 "book": 1,
-"page": 898,
+"page": 894,
 "free_pt": 337,
 "next_starts_new_item": true,
 "next_block_h": 425,
@@ -1001,7 +941,7 @@
 },
 {
 "book": 1,
-"page": 900,
+"page": 896,
 "free_pt": 350,
 "next_starts_new_item": true,
 "next_block_h": 506,
@@ -1011,7 +951,27 @@
 },
 {
 "book": 1,
-"page": 954,
+"page": 943,
+"free_pt": 347,
+"next_starts_new_item": true,
+"next_block_h": 327,
+"next_first_band_h": 27,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 25/P12/Q4/a,b,c,d"
+},
+{
+"book": 1,
+"page": 944,
+"free_pt": 402,
+"next_starts_new_item": true,
+"next_block_h": 664,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 25/P13/Q5/a,b,c,d"
+},
+{
+"book": 1,
+"page": 951,
 "free_pt": 440,
 "next_starts_new_item": true,
 "next_block_h": 485,
@@ -1021,7 +981,7 @@
 },
 {
 "book": 1,
-"page": 958,
+"page": 955,
 "free_pt": 388,
 "next_starts_new_item": true,
 "next_block_h": 560,
@@ -1031,7 +991,17 @@
 },
 {
 "book": 1,
-"page": 975,
+"page": 967,
+"free_pt": 516,
+"next_starts_new_item": true,
+"next_block_h": 480,
+"next_first_band_h": 20,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 22/P12/Q5/a,b,c,d"
+},
+{
+"book": 1,
+"page": 973,
 "free_pt": 379,
 "next_starts_new_item": true,
 "next_block_h": 518,
@@ -1041,7 +1011,17 @@
 },
 {
 "book": 1,
-"page": 1088,
+"page": 991,
+"free_pt": 545,
+"next_starts_new_item": true,
+"next_block_h": 546,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 19/P11/Q2/b(i),c"
+},
+{
+"book": 1,
+"page": 1086,
 "free_pt": 512,
 "next_starts_new_item": false,
 "next_block_h": 663,
@@ -1081,17 +1061,27 @@
 },
 {
 "book": 2,
-"page": 25,
-"free_pt": 534,
+"page": 22,
+"free_pt": 659,
 "next_starts_new_item": false,
-"next_block_h": 663,
-"next_first_band_h": 642,
+"next_block_h": 653,
+"next_first_band_h": 16,
+"cause": "figure or block kept together",
+"ref": "M/J 24/P21/Q2/a"
+},
+{
+"book": 2,
+"page": 26,
+"free_pt": 557,
+"next_starts_new_item": false,
+"next_block_h": 683,
+"next_first_band_h": 16,
 "cause": "figure or block kept together",
 "ref": "M/J 24/P22/Q2/a,b"
 },
 {
 "book": 2,
-"page": 30,
+"page": 31,
 "free_pt": 665,
 "next_starts_new_item": false,
 "next_block_h": 713,
@@ -1101,7 +1091,7 @@
 },
 {
 "book": 2,
-"page": 33,
+"page": 34,
 "free_pt": 433,
 "next_starts_new_item": true,
 "next_block_h": 715,
@@ -1111,7 +1101,7 @@
 },
 {
 "book": 2,
-"page": 44,
+"page": 45,
 "free_pt": 466,
 "next_starts_new_item": true,
 "next_block_h": 698,
@@ -1121,8 +1111,18 @@
 },
 {
 "book": 2,
-"page": 52,
-"free_pt": 444,
+"page": 49,
+"free_pt": 338,
+"next_starts_new_item": true,
+"next_block_h": 720,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 22/P23/Q7/b(ii)"
+},
+{
+"book": 2,
+"page": 53,
+"free_pt": 388,
 "next_starts_new_item": true,
 "next_block_h": 424,
 "next_first_band_h": 17,
@@ -1131,17 +1131,7 @@
 },
 {
 "book": 2,
-"page": 74,
-"free_pt": 606,
-"next_starts_new_item": false,
-"next_block_h": 603,
-"next_first_band_h": 29,
-"cause": "figure or block kept together",
-"ref": "M/J 20/P23/Q3/a"
-},
-{
-"book": 2,
-"page": 82,
+"page": 78,
 "free_pt": 423,
 "next_starts_new_item": true,
 "next_block_h": 414,
@@ -1152,16 +1142,6 @@
 {
 "book": 2,
 "page": 90,
-"free_pt": 368,
-"next_starts_new_item": false,
-"next_block_h": 608,
-"next_first_band_h": 19,
-"cause": "figure or block kept together",
-"ref": "M/J 18/P21/Q2/a"
-},
-{
-"book": 2,
-"page": 94,
 "free_pt": 517,
 "next_starts_new_item": true,
 "next_block_h": 645,
@@ -1171,7 +1151,7 @@
 },
 {
 "book": 2,
-"page": 102,
+"page": 98,
 "free_pt": 415,
 "next_starts_new_item": true,
 "next_block_h": 466,
@@ -1181,27 +1161,27 @@
 },
 {
 "book": 2,
-"page": 118,
+"page": 114,
 "free_pt": 372,
 "next_starts_new_item": false,
-"next_block_h": 447,
+"next_block_h": 412,
 "next_first_band_h": 26,
 "cause": "figure or block kept together",
 "ref": "O/N 16/P23/Q1/a,b,c"
 },
 {
 "book": 2,
-"page": 129,
-"free_pt": 368,
+"page": 125,
+"free_pt": 387,
 "next_starts_new_item": false,
-"next_block_h": 685,
-"next_first_band_h": 668,
+"next_block_h": 703,
+"next_first_band_h": 14,
 "cause": "figure or block kept together",
 "ref": "O/N 15/P21/Q4"
 },
 {
 "book": 2,
-"page": 133,
+"page": 129,
 "free_pt": 433,
 "next_starts_new_item": false,
 "next_block_h": 728,
@@ -1211,17 +1191,17 @@
 },
 {
 "book": 2,
-"page": 139,
-"free_pt": 368,
+"page": 135,
+"free_pt": 387,
 "next_starts_new_item": false,
-"next_block_h": 685,
-"next_first_band_h": 668,
+"next_block_h": 703,
+"next_first_band_h": 14,
 "cause": "figure or block kept together",
 "ref": "O/N 15/P23/Q4"
 },
 {
 "book": 2,
-"page": 147,
+"page": 143,
 "free_pt": 505,
 "next_starts_new_item": true,
 "next_block_h": 537,
@@ -1231,7 +1211,7 @@
 },
 {
 "book": 2,
-"page": 162,
+"page": 158,
 "free_pt": 464,
 "next_starts_new_item": true,
 "next_block_h": 602,
@@ -1241,7 +1221,7 @@
 },
 {
 "book": 2,
-"page": 165,
+"page": 161,
 "free_pt": 404,
 "next_starts_new_item": true,
 "next_block_h": 610,
@@ -1251,7 +1231,7 @@
 },
 {
 "book": 2,
-"page": 179,
+"page": 175,
 "free_pt": 368,
 "next_starts_new_item": true,
 "next_block_h": 689,
@@ -1261,7 +1241,7 @@
 },
 {
 "book": 2,
-"page": 188,
+"page": 184,
 "free_pt": 433,
 "next_starts_new_item": true,
 "next_block_h": 646,
@@ -1271,7 +1251,7 @@
 },
 {
 "book": 2,
-"page": 200,
+"page": 196,
 "free_pt": 471,
 "next_starts_new_item": true,
 "next_block_h": 483,
@@ -1281,7 +1261,7 @@
 },
 {
 "book": 2,
-"page": 203,
+"page": 199,
 "free_pt": 479,
 "next_starts_new_item": true,
 "next_block_h": 493,
@@ -1291,7 +1271,7 @@
 },
 {
 "book": 2,
-"page": 211,
+"page": 207,
 "free_pt": 616,
 "next_starts_new_item": true,
 "next_block_h": 627,
@@ -1301,7 +1281,7 @@
 },
 {
 "book": 2,
-"page": 219,
+"page": 215,
 "free_pt": 355,
 "next_starts_new_item": true,
 "next_block_h": 552,
@@ -1311,7 +1291,7 @@
 },
 {
 "book": 2,
-"page": 224,
+"page": 220,
 "free_pt": 549,
 "next_starts_new_item": true,
 "next_block_h": 655,
@@ -1321,7 +1301,7 @@
 },
 {
 "book": 2,
-"page": 230,
+"page": 226,
 "free_pt": 560,
 "next_starts_new_item": true,
 "next_block_h": 650,
@@ -1331,7 +1311,7 @@
 },
 {
 "book": 2,
-"page": 233,
+"page": 229,
 "free_pt": 672,
 "next_starts_new_item": true,
 "next_block_h": 705,
@@ -1341,7 +1321,7 @@
 },
 {
 "book": 2,
-"page": 238,
+"page": 234,
 "free_pt": 445,
 "next_starts_new_item": false,
 "next_block_h": 470,
@@ -1351,7 +1331,7 @@
 },
 {
 "book": 2,
-"page": 247,
+"page": 243,
 "free_pt": 470,
 "next_starts_new_item": true,
 "next_block_h": 500,
@@ -1361,7 +1341,7 @@
 },
 {
 "book": 2,
-"page": 252,
+"page": 248,
 "free_pt": 429,
 "next_starts_new_item": true,
 "next_block_h": 503,
@@ -1371,7 +1351,7 @@
 },
 {
 "book": 2,
-"page": 274,
+"page": 270,
 "free_pt": 400,
 "next_starts_new_item": true,
 "next_block_h": 652,
@@ -1381,7 +1361,7 @@
 },
 {
 "book": 2,
-"page": 280,
+"page": 276,
 "free_pt": 419,
 "next_starts_new_item": true,
 "next_block_h": 584,
@@ -1391,7 +1371,7 @@
 },
 {
 "book": 2,
-"page": 296,
+"page": 292,
 "free_pt": 397,
 "next_starts_new_item": true,
 "next_block_h": 548,
@@ -1401,7 +1381,7 @@
 },
 {
 "book": 2,
-"page": 306,
+"page": 302,
 "free_pt": 571,
 "next_starts_new_item": true,
 "next_block_h": 654,
@@ -1411,7 +1391,7 @@
 },
 {
 "book": 2,
-"page": 327,
+"page": 325,
 "free_pt": 362,
 "next_starts_new_item": true,
 "next_block_h": 486,
@@ -1421,7 +1401,7 @@
 },
 {
 "book": 2,
-"page": 330,
+"page": 328,
 "free_pt": 389,
 "next_starts_new_item": true,
 "next_block_h": 650,
@@ -1431,7 +1411,17 @@
 },
 {
 "book": 2,
-"page": 343,
+"page": 337,
+"free_pt": 369,
+"next_starts_new_item": true,
+"next_block_h": 516,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 22/P21/Q8/a,c"
+},
+{
+"book": 2,
+"page": 342,
 "free_pt": 394,
 "next_starts_new_item": true,
 "next_block_h": 437,
@@ -1441,8 +1431,8 @@
 },
 {
 "book": 2,
-"page": 357,
-"free_pt": 439,
+"page": 356,
+"free_pt": 402,
 "next_starts_new_item": true,
 "next_block_h": 554,
 "next_first_band_h": 29,
@@ -1451,7 +1441,7 @@
 },
 {
 "book": 2,
-"page": 360,
+"page": 359,
 "free_pt": 365,
 "next_starts_new_item": true,
 "next_block_h": 451,
@@ -1461,7 +1451,7 @@
 },
 {
 "book": 2,
-"page": 364,
+"page": 363,
 "free_pt": 536,
 "next_starts_new_item": true,
 "next_block_h": 683,
@@ -1471,7 +1461,7 @@
 },
 {
 "book": 2,
-"page": 372,
+"page": 371,
 "free_pt": 351,
 "next_starts_new_item": true,
 "next_block_h": 317,
@@ -1481,7 +1471,7 @@
 },
 {
 "book": 2,
-"page": 383,
+"page": 382,
 "free_pt": 472,
 "next_starts_new_item": true,
 "next_block_h": 459,
@@ -1491,27 +1481,17 @@
 },
 {
 "book": 2,
-"page": 388,
-"free_pt": 362,
+"page": 391,
+"free_pt": 440,
 "next_starts_new_item": true,
-"next_block_h": 458,
+"next_block_h": 601,
 "next_first_band_h": 19,
 "cause": "next item kept whole or its start kept together",
-"ref": "O/N 19/P21/Q1/b(i)"
+"ref": "O/N 19/P22/Q1/b(i)"
 },
 {
 "book": 2,
-"page": 414,
-"free_pt": 449,
-"next_starts_new_item": true,
-"next_block_h": 589,
-"next_first_band_h": 19,
-"cause": "next item kept whole or its start kept together",
-"ref": "O/N 18/P23/Q4/a(ii),d(i)"
-},
-{
-"book": 2,
-"page": 416,
+"page": 415,
 "free_pt": 425,
 "next_starts_new_item": true,
 "next_block_h": 576,
@@ -1521,7 +1501,7 @@
 },
 {
 "book": 2,
-"page": 428,
+"page": 427,
 "free_pt": 393,
 "next_starts_new_item": true,
 "next_block_h": 386,
@@ -1531,7 +1511,7 @@
 },
 {
 "book": 2,
-"page": 429,
+"page": 428,
 "free_pt": 343,
 "next_starts_new_item": true,
 "next_block_h": 626,
@@ -1541,7 +1521,7 @@
 },
 {
 "book": 2,
-"page": 436,
+"page": 435,
 "free_pt": 619,
 "next_starts_new_item": true,
 "next_block_h": 684,
@@ -1551,7 +1531,7 @@
 },
 {
 "book": 2,
-"page": 439,
+"page": 438,
 "free_pt": 619,
 "next_starts_new_item": true,
 "next_block_h": 684,
@@ -1561,7 +1541,7 @@
 },
 {
 "book": 2,
-"page": 451,
+"page": 450,
 "free_pt": 641,
 "next_starts_new_item": true,
 "next_block_h": 691,
@@ -1571,7 +1551,7 @@
 },
 {
 "book": 2,
-"page": 455,
+"page": 454,
 "free_pt": 641,
 "next_starts_new_item": true,
 "next_block_h": 691,
@@ -1581,7 +1561,7 @@
 },
 {
 "book": 2,
-"page": 472,
+"page": 471,
 "free_pt": 529,
 "next_starts_new_item": false,
 "next_block_h": 584,
@@ -1591,7 +1571,7 @@
 },
 {
 "book": 2,
-"page": 477,
+"page": 476,
 "free_pt": 457,
 "next_starts_new_item": false,
 "next_block_h": 611,
@@ -1601,7 +1581,7 @@
 },
 {
 "book": 2,
-"page": 480,
+"page": 479,
 "free_pt": 339,
 "next_starts_new_item": true,
 "next_block_h": 341,
@@ -1611,7 +1591,7 @@
 },
 {
 "book": 2,
-"page": 488,
+"page": 487,
 "free_pt": 433,
 "next_starts_new_item": true,
 "next_block_h": 464,
@@ -1621,7 +1601,7 @@
 },
 {
 "book": 2,
-"page": 495,
+"page": 494,
 "free_pt": 490,
 "next_starts_new_item": true,
 "next_block_h": 642,
@@ -1631,7 +1611,7 @@
 },
 {
 "book": 2,
-"page": 497,
+"page": 496,
 "free_pt": 361,
 "next_starts_new_item": false,
 "next_block_h": 511,
@@ -1641,7 +1621,7 @@
 },
 {
 "book": 2,
-"page": 501,
+"page": 500,
 "free_pt": 511,
 "next_starts_new_item": true,
 "next_block_h": 561,
@@ -1651,7 +1631,7 @@
 },
 {
 "book": 2,
-"page": 504,
+"page": 503,
 "free_pt": 377,
 "next_starts_new_item": true,
 "next_block_h": 564,
@@ -1661,7 +1641,7 @@
 },
 {
 "book": 2,
-"page": 520,
+"page": 519,
 "free_pt": 415,
 "next_starts_new_item": false,
 "next_block_h": 532,
@@ -1671,7 +1651,7 @@
 },
 {
 "book": 2,
-"page": 522,
+"page": 521,
 "free_pt": 377,
 "next_starts_new_item": true,
 "next_block_h": 540,
@@ -1681,7 +1661,7 @@
 },
 {
 "book": 2,
-"page": 526,
+"page": 525,
 "free_pt": 387,
 "next_starts_new_item": true,
 "next_block_h": 490,
@@ -1691,7 +1671,7 @@
 },
 {
 "book": 2,
-"page": 539,
+"page": 538,
 "free_pt": 376,
 "next_starts_new_item": false,
 "next_block_h": 464,
@@ -1701,7 +1681,7 @@
 },
 {
 "book": 2,
-"page": 546,
+"page": 545,
 "free_pt": 461,
 "next_starts_new_item": true,
 "next_block_h": 487,
@@ -1711,7 +1691,7 @@
 },
 {
 "book": 2,
-"page": 553,
+"page": 552,
 "free_pt": 405,
 "next_starts_new_item": true,
 "next_block_h": 448,
@@ -1721,7 +1701,7 @@
 },
 {
 "book": 2,
-"page": 557,
+"page": 556,
 "free_pt": 445,
 "next_starts_new_item": true,
 "next_block_h": 420,
@@ -1731,7 +1711,7 @@
 },
 {
 "book": 2,
-"page": 561,
+"page": 560,
 "free_pt": 503,
 "next_starts_new_item": true,
 "next_block_h": 657,
@@ -1741,7 +1721,7 @@
 },
 {
 "book": 2,
-"page": 579,
+"page": 578,
 "free_pt": 407,
 "next_starts_new_item": true,
 "next_block_h": 449,
@@ -1751,7 +1731,7 @@
 },
 {
 "book": 2,
-"page": 587,
+"page": 586,
 "free_pt": 450,
 "next_starts_new_item": true,
 "next_block_h": 519,
@@ -1761,7 +1741,7 @@
 },
 {
 "book": 2,
-"page": 589,
+"page": 588,
 "free_pt": 431,
 "next_starts_new_item": false,
 "next_block_h": 628,
@@ -1771,7 +1751,7 @@
 },
 {
 "book": 2,
-"page": 591,
+"page": 590,
 "free_pt": 445,
 "next_starts_new_item": false,
 "next_block_h": 488,
@@ -1781,7 +1761,7 @@
 },
 {
 "book": 2,
-"page": 597,
+"page": 596,
 "free_pt": 456,
 "next_starts_new_item": true,
 "next_block_h": 423,
@@ -1791,7 +1771,7 @@
 },
 {
 "book": 2,
-"page": 606,
+"page": 605,
 "free_pt": 480,
 "next_starts_new_item": false,
 "next_block_h": 505,
@@ -1801,7 +1781,7 @@
 },
 {
 "book": 2,
-"page": 608,
+"page": 607,
 "free_pt": 482,
 "next_starts_new_item": false,
 "next_block_h": 548,
@@ -1811,7 +1791,7 @@
 },
 {
 "book": 2,
-"page": 614,
+"page": 613,
 "free_pt": 409,
 "next_starts_new_item": false,
 "next_block_h": 708,
@@ -1821,7 +1801,7 @@
 },
 {
 "book": 2,
-"page": 619,
+"page": 618,
 "free_pt": 471,
 "next_starts_new_item": true,
 "next_block_h": 515,
@@ -1831,7 +1811,7 @@
 },
 {
 "book": 2,
-"page": 622,
+"page": 621,
 "free_pt": 445,
 "next_starts_new_item": true,
 "next_block_h": 448,
@@ -1841,7 +1821,7 @@
 },
 {
 "book": 2,
-"page": 628,
+"page": 627,
 "free_pt": 509,
 "next_starts_new_item": false,
 "next_block_h": 664,
@@ -1851,7 +1831,7 @@
 },
 {
 "book": 2,
-"page": 631,
+"page": 630,
 "free_pt": 362,
 "next_starts_new_item": true,
 "next_block_h": 487,
@@ -1861,7 +1841,7 @@
 },
 {
 "book": 2,
-"page": 633,
+"page": 632,
 "free_pt": 476,
 "next_starts_new_item": false,
 "next_block_h": 481,
@@ -1871,7 +1851,7 @@
 },
 {
 "book": 2,
-"page": 636,
+"page": 635,
 "free_pt": 589,
 "next_starts_new_item": false,
 "next_block_h": 618,
@@ -1881,7 +1861,7 @@
 },
 {
 "book": 2,
-"page": 638,
+"page": 637,
 "free_pt": 402,
 "next_starts_new_item": false,
 "next_block_h": 721,
@@ -1891,7 +1871,7 @@
 },
 {
 "book": 2,
-"page": 641,
+"page": 640,
 "free_pt": 482,
 "next_starts_new_item": true,
 "next_block_h": 531,
@@ -1901,7 +1881,7 @@
 },
 {
 "book": 2,
-"page": 647,
+"page": 646,
 "free_pt": 484,
 "next_starts_new_item": true,
 "next_block_h": 607,
@@ -1911,7 +1891,7 @@
 },
 {
 "book": 2,
-"page": 654,
+"page": 653,
 "free_pt": 521,
 "next_starts_new_item": true,
 "next_block_h": 713,
@@ -1921,7 +1901,7 @@
 },
 {
 "book": 2,
-"page": 657,
+"page": 656,
 "free_pt": 499,
 "next_starts_new_item": true,
 "next_block_h": 504,
@@ -1931,7 +1911,7 @@
 },
 {
 "book": 2,
-"page": 663,
+"page": 662,
 "free_pt": 624,
 "next_starts_new_item": false,
 "next_block_h": 669,
@@ -1941,7 +1921,7 @@
 },
 {
 "book": 2,
-"page": 666,
+"page": 665,
 "free_pt": 393,
 "next_starts_new_item": false,
 "next_block_h": 507,
@@ -1951,7 +1931,7 @@
 },
 {
 "book": 2,
-"page": 671,
+"page": 670,
 "free_pt": 344,
 "next_starts_new_item": false,
 "next_block_h": 462,
@@ -1961,7 +1941,7 @@
 },
 {
 "book": 2,
-"page": 677,
+"page": 676,
 "free_pt": 410,
 "next_starts_new_item": true,
 "next_block_h": 387,
@@ -1971,7 +1951,7 @@
 },
 {
 "book": 2,
-"page": 681,
+"page": 680,
 "free_pt": 439,
 "next_starts_new_item": false,
 "next_block_h": 681,
@@ -1981,7 +1961,7 @@
 },
 {
 "book": 2,
-"page": 688,
+"page": 687,
 "free_pt": 410,
 "next_starts_new_item": true,
 "next_block_h": 387,
@@ -1991,7 +1971,7 @@
 },
 {
 "book": 2,
-"page": 692,
+"page": 691,
 "free_pt": 383,
 "next_starts_new_item": false,
 "next_block_h": 547,
@@ -2001,7 +1981,7 @@
 },
 {
 "book": 2,
-"page": 697,
+"page": 696,
 "free_pt": 383,
 "next_starts_new_item": false,
 "next_block_h": 547,
@@ -2011,7 +1991,7 @@
 },
 {
 "book": 2,
-"page": 700,
+"page": 699,
 "free_pt": 387,
 "next_starts_new_item": false,
 "next_block_h": 615,
@@ -2021,7 +2001,7 @@
 },
 {
 "book": 2,
-"page": 706,
+"page": 705,
 "free_pt": 437,
 "next_starts_new_item": false,
 "next_block_h": 699,
@@ -2031,7 +2011,7 @@
 },
 {
 "book": 2,
-"page": 709,
+"page": 708,
 "free_pt": 387,
 "next_starts_new_item": false,
 "next_block_h": 615,
@@ -2041,7 +2021,7 @@
 },
 {
 "book": 2,
-"page": 713,
+"page": 712,
 "free_pt": 489,
 "next_starts_new_item": false,
 "next_block_h": 615,
@@ -2051,7 +2031,7 @@
 },
 {
 "book": 2,
-"page": 718,
+"page": 717,
 "free_pt": 489,
 "next_starts_new_item": false,
 "next_block_h": 615,
@@ -2061,7 +2041,7 @@
 },
 {
 "book": 2,
-"page": 728,
+"page": 727,
 "free_pt": 346,
 "next_starts_new_item": false,
 "next_block_h": 699,
@@ -2071,7 +2051,7 @@
 },
 {
 "book": 2,
-"page": 735,
+"page": 734,
 "free_pt": 346,
 "next_starts_new_item": false,
 "next_block_h": 699,
@@ -2081,27 +2061,17 @@
 },
 {
 "book": 2,
-"page": 740,
-"free_pt": 485,
+"page": 739,
+"free_pt": 398,
 "next_starts_new_item": false,
 "next_block_h": 611,
 "next_first_band_h": 611,
 "cause": "figure or block kept together",
-"ref": "M/J 15/P23/Q4/b(i,iii,iv),c"
+"ref": "M/J 15/P23/Q4/b,c"
 },
 {
 "book": 2,
-"page": 751,
-"free_pt": 344,
-"next_starts_new_item": true,
-"next_block_h": 427,
-"next_first_band_h": 14,
-"cause": "next item kept whole or its start kept together",
-"ref": "O/N 25/P21/Q5/b"
-},
-{
-"book": 2,
-"page": 757,
+"page": 759,
 "free_pt": 358,
 "next_starts_new_item": true,
 "next_block_h": 377,
@@ -2111,7 +2081,7 @@
 },
 {
 "book": 2,
-"page": 758,
+"page": 760,
 "free_pt": 351,
 "next_starts_new_item": true,
 "next_block_h": 511,
@@ -2121,7 +2091,7 @@
 },
 {
 "book": 2,
-"page": 761,
+"page": 766,
 "free_pt": 397,
 "next_starts_new_item": true,
 "next_block_h": 407,
@@ -2131,7 +2101,37 @@
 },
 {
 "book": 2,
-"page": 804,
+"page": 787,
+"free_pt": 411,
+"next_starts_new_item": false,
+"next_block_h": 595,
+"next_first_band_h": 595,
+"cause": "figure or block kept together",
+"ref": "M/J 24/P22/Q1/b"
+},
+{
+"book": 2,
+"page": 791,
+"free_pt": 397,
+"next_starts_new_item": true,
+"next_block_h": 408,
+"next_first_band_h": 16,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 24/P22/Q5/a(ii)"
+},
+{
+"book": 2,
+"page": 795,
+"free_pt": 358,
+"next_starts_new_item": false,
+"next_block_h": 595,
+"next_first_band_h": 595,
+"cause": "figure or block kept together",
+"ref": "M/J 24/P23/Q1/a,b"
+},
+{
+"book": 2,
+"page": 817,
 "free_pt": 341,
 "next_starts_new_item": true,
 "next_block_h": 544,
@@ -2141,7 +2141,7 @@
 },
 {
 "book": 2,
-"page": 826,
+"page": 839,
 "free_pt": 393,
 "next_starts_new_item": true,
 "next_block_h": 671,
@@ -2151,7 +2151,7 @@
 },
 {
 "book": 2,
-"page": 831,
+"page": 844,
 "free_pt": 362,
 "next_starts_new_item": true,
 "next_block_h": 521,
@@ -2161,7 +2161,7 @@
 },
 {
 "book": 2,
-"page": 839,
+"page": 852,
 "free_pt": 362,
 "next_starts_new_item": true,
 "next_block_h": 521,
@@ -2171,18 +2171,38 @@
 },
 {
 "book": 2,
-"page": 861,
-"free_pt": 349,
-"next_starts_new_item": true,
-"next_block_h": 468,
-"next_first_band_h": 42,
-"cause": "next item kept whole or its start kept together",
-"ref": "M/J 20/P23/Q4/a,b"
+"page": 871,
+"free_pt": 368,
+"next_starts_new_item": false,
+"next_block_h": 585,
+"next_first_band_h": 503,
+"cause": "figure or block kept together",
+"ref": "M/J 20/P22/Q3"
 },
 {
 "book": 2,
-"page": 903,
-"free_pt": 415,
+"page": 896,
+"free_pt": 362,
+"next_starts_new_item": true,
+"next_block_h": 360,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 19/P22/Q2/a"
+},
+{
+"book": 2,
+"page": 906,
+"free_pt": 590,
+"next_starts_new_item": true,
+"next_block_h": 658,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 18/P22/Q4/a(i),c"
+},
+{
+"book": 2,
+"page": 919,
+"free_pt": 375,
 "next_starts_new_item": true,
 "next_block_h": 420,
 "next_first_band_h": 32,
@@ -2191,7 +2211,17 @@
 },
 {
 "book": 2,
-"page": 909,
+"page": 922,
+"free_pt": 381,
+"next_starts_new_item": true,
+"next_block_h": 644,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 18/P23/Q2/b,c(ii)"
+},
+{
+"book": 2,
+"page": 925,
 "free_pt": 488,
 "next_starts_new_item": true,
 "next_block_h": 459,
@@ -2201,7 +2231,7 @@
 },
 {
 "book": 2,
-"page": 918,
+"page": 934,
 "free_pt": 377,
 "next_starts_new_item": true,
 "next_block_h": 360,
@@ -2211,7 +2241,7 @@
 },
 {
 "book": 2,
-"page": 928,
+"page": 944,
 "free_pt": 622,
 "next_starts_new_item": false,
 "next_block_h": 637,
@@ -2221,7 +2251,7 @@
 },
 {
 "book": 2,
-"page": 945,
+"page": 961,
 "free_pt": 491,
 "next_starts_new_item": false,
 "next_block_h": 692,
@@ -2231,7 +2261,7 @@
 },
 {
 "book": 2,
-"page": 950,
+"page": 966,
 "free_pt": 491,
 "next_starts_new_item": false,
 "next_block_h": 692,
@@ -2241,7 +2271,7 @@
 },
 {
 "book": 2,
-"page": 952,
+"page": 968,
 "free_pt": 453,
 "next_starts_new_item": false,
 "next_block_h": 605,
@@ -2251,7 +2281,7 @@
 },
 {
 "book": 2,
-"page": 959,
+"page": 975,
 "free_pt": 393,
 "next_starts_new_item": false,
 "next_block_h": 729,
@@ -2261,8 +2291,8 @@
 },
 {
 "book": 2,
-"page": 964,
-"free_pt": 466,
+"page": 980,
+"free_pt": 523,
 "next_starts_new_item": false,
 "next_block_h": 725,
 "next_first_band_h": 14,
@@ -2271,7 +2301,7 @@
 },
 {
 "book": 2,
-"page": 972,
+"page": 988,
 "free_pt": 393,
 "next_starts_new_item": false,
 "next_block_h": 729,
@@ -2281,7 +2311,7 @@
 },
 {
 "book": 2,
-"page": 980,
+"page": 996,
 "free_pt": 386,
 "next_starts_new_item": true,
 "next_block_h": 354,
@@ -2291,7 +2321,7 @@
 },
 {
 "book": 2,
-"page": 1004,
+"page": 1020,
 "free_pt": 338,
 "next_starts_new_item": true,
 "next_block_h": 417,
@@ -2301,7 +2331,7 @@
 },
 {
 "book": 2,
-"page": 1008,
+"page": 1024,
 "free_pt": 484,
 "next_starts_new_item": false,
 "next_block_h": 505,
@@ -2311,7 +2341,7 @@
 },
 {
 "book": 2,
-"page": 1017,
+"page": 1033,
 "free_pt": 370,
 "next_starts_new_item": true,
 "next_block_h": 456,
@@ -2321,7 +2351,7 @@
 },
 {
 "book": 2,
-"page": 1019,
+"page": 1035,
 "free_pt": 387,
 "next_starts_new_item": true,
 "next_block_h": 376,
@@ -2331,7 +2361,7 @@
 },
 {
 "book": 2,
-"page": 1023,
+"page": 1039,
 "free_pt": 422,
 "next_starts_new_item": true,
 "next_block_h": 439,
@@ -2341,7 +2371,7 @@
 },
 {
 "book": 2,
-"page": 1031,
+"page": 1047,
 "free_pt": 344,
 "next_starts_new_item": true,
 "next_block_h": 464,
@@ -2351,7 +2381,7 @@
 },
 {
 "book": 2,
-"page": 1033,
+"page": 1049,
 "free_pt": 336,
 "next_starts_new_item": true,
 "next_block_h": 338,
@@ -2361,7 +2391,7 @@
 },
 {
 "book": 2,
-"page": 1038,
+"page": 1054,
 "free_pt": 363,
 "next_starts_new_item": true,
 "next_block_h": 594,
@@ -2371,7 +2401,7 @@
 },
 {
 "book": 2,
-"page": 1042,
+"page": 1058,
 "free_pt": 391,
 "next_starts_new_item": true,
 "next_block_h": 615,
@@ -2381,7 +2411,7 @@
 },
 {
 "book": 2,
-"page": 1055,
+"page": 1071,
 "free_pt": 561,
 "next_starts_new_item": true,
 "next_block_h": 585,
@@ -2391,7 +2421,7 @@
 },
 {
 "book": 2,
-"page": 1059,
+"page": 1075,
 "free_pt": 472,
 "next_starts_new_item": true,
 "next_block_h": 509,
@@ -2401,7 +2431,7 @@
 },
 {
 "book": 2,
-"page": 1067,
+"page": 1083,
 "free_pt": 403,
 "next_starts_new_item": false,
 "next_block_h": 548,
@@ -2411,7 +2441,7 @@
 },
 {
 "book": 2,
-"page": 1069,
+"page": 1085,
 "free_pt": 414,
 "next_starts_new_item": false,
 "next_block_h": 595,
@@ -2421,7 +2451,7 @@
 },
 {
 "book": 2,
-"page": 1077,
+"page": 1093,
 "free_pt": 349,
 "next_starts_new_item": true,
 "next_block_h": 614,
@@ -2431,7 +2461,7 @@
 },
 {
 "book": 2,
-"page": 1083,
+"page": 1099,
 "free_pt": 447,
 "next_starts_new_item": false,
 "next_block_h": 585,
@@ -2441,7 +2471,7 @@
 },
 {
 "book": 2,
-"page": 1086,
+"page": 1102,
 "free_pt": 422,
 "next_starts_new_item": true,
 "next_block_h": 477,
@@ -2451,7 +2481,7 @@
 },
 {
 "book": 2,
-"page": 1088,
+"page": 1104,
 "free_pt": 468,
 "next_starts_new_item": true,
 "next_block_h": 518,
@@ -2461,7 +2491,7 @@
 },
 {
 "book": 2,
-"page": 1107,
+"page": 1123,
 "free_pt": 361,
 "next_starts_new_item": false,
 "next_block_h": 586,
@@ -2471,7 +2501,7 @@
 },
 {
 "book": 2,
-"page": 1119,
+"page": 1135,
 "free_pt": 472,
 "next_starts_new_item": true,
 "next_block_h": 588,
@@ -2481,7 +2511,7 @@
 },
 {
 "book": 2,
-"page": 1122,
+"page": 1138,
 "free_pt": 346,
 "next_starts_new_item": true,
 "next_block_h": 642,
@@ -2491,7 +2521,7 @@
 },
 {
 "book": 2,
-"page": 1135,
+"page": 1151,
 "free_pt": 356,
 "next_starts_new_item": false,
 "next_block_h": 730,
@@ -2501,7 +2531,7 @@
 },
 {
 "book": 2,
-"page": 1142,
+"page": 1158,
 "free_pt": 437,
 "next_starts_new_item": true,
 "next_block_h": 497,
@@ -2511,7 +2541,7 @@
 },
 {
 "book": 2,
-"page": 1146,
+"page": 1162,
 "free_pt": 354,
 "next_starts_new_item": true,
 "next_block_h": 334,
@@ -2521,7 +2551,7 @@
 },
 {
 "book": 2,
-"page": 1147,
+"page": 1163,
 "free_pt": 393,
 "next_starts_new_item": false,
 "next_block_h": 475,
@@ -2531,7 +2561,7 @@
 },
 {
 "book": 2,
-"page": 1151,
+"page": 1167,
 "free_pt": 335,
 "next_starts_new_item": false,
 "next_block_h": 497,
@@ -2541,7 +2571,7 @@
 },
 {
 "book": 2,
-"page": 1159,
+"page": 1175,
 "free_pt": 335,
 "next_starts_new_item": false,
 "next_block_h": 497,
@@ -2551,7 +2581,7 @@
 },
 {
 "book": 2,
-"page": 1161,
+"page": 1177,
 "free_pt": 352,
 "next_starts_new_item": false,
 "next_block_h": 345,
@@ -2561,8 +2591,8 @@
 },
 {
 "book": 2,
-"page": 1173,
-"free_pt": 503,
+"page": 1189,
+"free_pt": 482,
 "next_starts_new_item": true,
 "next_block_h": 680,
 "next_first_band_h": 27,
@@ -2571,17 +2601,17 @@
 },
 {
 "book": 2,
-"page": 1177,
-"free_pt": 386,
-"next_starts_new_item": false,
-"next_block_h": 580,
-"next_first_band_h": 14,
-"cause": "figure or block kept together",
-"ref": "O/N 25/P21/Q7/a,b"
+"page": 1195,
+"free_pt": 380,
+"next_starts_new_item": true,
+"next_block_h": 508,
+"next_first_band_h": 27,
+"cause": "next item kept whole or its start kept together",
+"ref": "O/N 25/P21/Q8/c"
 },
 {
 "book": 2,
-"page": 1181,
+"page": 1197,
 "free_pt": 391,
 "next_starts_new_item": true,
 "next_block_h": 473,
@@ -2591,7 +2621,7 @@
 },
 {
 "book": 2,
-"page": 1184,
+"page": 1200,
 "free_pt": 365,
 "next_starts_new_item": false,
 "next_block_h": 490,
@@ -2601,17 +2631,7 @@
 },
 {
 "book": 2,
-"page": 1190,
-"free_pt": 455,
-"next_starts_new_item": false,
-"next_block_h": 700,
-"next_first_band_h": 14,
-"cause": "figure or block kept together",
-"ref": "M/J 25/P21/Q4/b"
-},
-{
-"book": 2,
-"page": 1194,
+"page": 1209,
 "free_pt": 392,
 "next_starts_new_item": true,
 "next_block_h": 684,
@@ -2621,7 +2641,7 @@
 },
 {
 "book": 2,
-"page": 1203,
+"page": 1218,
 "free_pt": 366,
 "next_starts_new_item": true,
 "next_block_h": 648,
@@ -2631,17 +2651,27 @@
 },
 {
 "book": 2,
-"page": 1221,
-"free_pt": 441,
+"page": 1236,
+"free_pt": 363,
 "next_starts_new_item": false,
-"next_block_h": 492,
-"next_first_band_h": 492,
+"next_block_h": 552,
+"next_first_band_h": 29,
 "cause": "figure or block kept together",
 "ref": "O/N 23/P22/Q5"
 },
 {
 "book": 2,
-"page": 1229,
+"page": 1243,
+"free_pt": 405,
+"next_starts_new_item": true,
+"next_block_h": 372,
+"next_first_band_h": 55,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 23/P21/Q5/a,b"
+},
+{
+"book": 2,
+"page": 1244,
 "free_pt": 357,
 "next_starts_new_item": true,
 "next_block_h": 460,
@@ -2651,7 +2681,17 @@
 },
 {
 "book": 2,
-"page": 1238,
+"page": 1247,
+"free_pt": 618,
+"next_starts_new_item": true,
+"next_block_h": 589,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 23/P22/Q5/a,b,d"
+},
+{
+"book": 2,
+"page": 1254,
 "free_pt": 462,
 "next_starts_new_item": true,
 "next_block_h": 512,
@@ -2661,7 +2701,7 @@
 },
 {
 "book": 2,
-"page": 1241,
+"page": 1257,
 "free_pt": 462,
 "next_starts_new_item": true,
 "next_block_h": 615,
@@ -2671,7 +2711,7 @@
 },
 {
 "book": 2,
-"page": 1245,
+"page": 1261,
 "free_pt": 360,
 "next_starts_new_item": false,
 "next_block_h": 446,
@@ -2681,7 +2721,7 @@
 },
 {
 "book": 2,
-"page": 1251,
+"page": 1267,
 "free_pt": 345,
 "next_starts_new_item": true,
 "next_block_h": 335,
@@ -2691,7 +2731,7 @@
 },
 {
 "book": 2,
-"page": 1255,
+"page": 1271,
 "free_pt": 345,
 "next_starts_new_item": true,
 "next_block_h": 325,
@@ -2701,7 +2741,7 @@
 },
 {
 "book": 2,
-"page": 1256,
+"page": 1272,
 "free_pt": 403,
 "next_starts_new_item": true,
 "next_block_h": 531,
@@ -2711,17 +2751,27 @@
 },
 {
 "book": 2,
-"page": 1265,
-"free_pt": 597,
-"next_starts_new_item": true,
-"next_block_h": 634,
-"next_first_band_h": 29,
-"cause": "next item kept whole or its start kept together",
+"page": 1281,
+"free_pt": 337,
+"next_starts_new_item": false,
+"next_block_h": 688,
+"next_first_band_h": 16,
+"cause": "figure or block kept together",
 "ref": "9608 M/J 21/P21/Q3/a,b"
 },
 {
 "book": 2,
-"page": 1286,
+"page": 1285,
+"free_pt": 376,
+"next_starts_new_item": true,
+"next_block_h": 371,
+"next_first_band_h": 29,
+"cause": "next item kept whole or its start kept together",
+"ref": "9608 M/J 21/P21/Q5/b(i,ii)"
+},
+{
+"book": 2,
+"page": 1301,
 "free_pt": 433,
 "next_starts_new_item": true,
 "next_block_h": 660,
@@ -2731,7 +2781,7 @@
 },
 {
 "book": 2,
-"page": 1292,
+"page": 1307,
 "free_pt": 430,
 "next_starts_new_item": true,
 "next_block_h": 606,
@@ -2741,7 +2791,7 @@
 },
 {
 "book": 2,
-"page": 1298,
+"page": 1312,
 "free_pt": 381,
 "next_starts_new_item": true,
 "next_block_h": 503,
@@ -2751,7 +2801,17 @@
 },
 {
 "book": 2,
-"page": 1304,
+"page": 1315,
+"free_pt": 530,
+"next_starts_new_item": true,
+"next_block_h": 539,
+"next_first_band_h": 19,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 19/P21/Q4/a,c"
+},
+{
+"book": 2,
+"page": 1319,
 "free_pt": 589,
 "next_starts_new_item": true,
 "next_block_h": 559,
@@ -2762,36 +2822,36 @@
 {
 "book": 2,
 "page": 1360,
-"free_pt": 425,
+"free_pt": 362,
 "next_starts_new_item": true,
-"next_block_h": 494,
+"next_block_h": 722,
 "next_first_band_h": 14,
 "cause": "next item kept whole or its start kept together",
-"ref": "O/N 15/P22/Q2/a"
+"ref": "M/J 16/P21/Q6/a,b"
 },
 {
 "book": 2,
-"page": 1365,
-"free_pt": 411,
+"page": 1364,
+"free_pt": 362,
+"next_starts_new_item": true,
+"next_block_h": 722,
+"next_first_band_h": 14,
+"cause": "next item kept whole or its start kept together",
+"ref": "M/J 16/P22/Q6/a,b"
+},
+{
+"book": 2,
+"page": 1379,
+"free_pt": 434,
 "next_starts_new_item": false,
-"next_block_h": 507,
+"next_block_h": 668,
 "next_first_band_h": 14,
 "cause": "figure or block kept together",
 "ref": "O/N 15/P23/Q8/a,b,c"
 },
 {
 "book": 2,
-"page": 1368,
-"free_pt": 425,
-"next_starts_new_item": true,
-"next_block_h": 393,
-"next_first_band_h": 13,
-"cause": "next item kept whole or its start kept together",
-"ref": "M/J 15/P21/Q1/c"
-},
-{
-"book": 2,
-"page": 1373,
+"page": 1386,
 "free_pt": 391,
 "next_starts_new_item": true,
 "next_block_h": 393,
@@ -2801,7 +2861,7 @@
 },
 {
 "book": 2,
-"page": 1378,
+"page": 1391,
 "free_pt": 391,
 "next_starts_new_item": true,
 "next_block_h": 562,
@@ -2811,7 +2871,7 @@
 },
 {
 "book": 2,
-"page": 1381,
+"page": 1394,
 "free_pt": 521,
 "next_starts_new_item": false,
 "next_block_h": 695,
@@ -2821,7 +2881,7 @@
 },
 {
 "book": 2,
-"page": 1444,
+"page": 1457,
 "free_pt": 404,
 "next_starts_new_item": false,
 "next_block_h": 466,
@@ -2831,7 +2891,7 @@
 },
 {
 "book": 2,
-"page": 1455,
+"page": 1468,
 "free_pt": 459,
 "next_starts_new_item": true,
 "next_block_h": 725,
@@ -2841,7 +2901,7 @@
 },
 {
 "book": 2,
-"page": 1488,
+"page": 1501,
 "free_pt": 553,
 "next_starts_new_item": true,
 "next_block_h": 593,

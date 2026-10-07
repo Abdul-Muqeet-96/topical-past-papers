@@ -918,7 +918,7 @@
    }
   },
   "issues": [
-   "2 mark(s) printed short of the right-hand margin were needed to reach the cover total and are counted"
+   "4 mark(s) printed short of the right-hand margin were needed to reach the cover total and are counted"
   ],
   "ms_label_fixes": [],
   "question_numbers": [
@@ -1054,7 +1054,7 @@
    }
   },
   "issues": [
-   "2 mark(s) printed short of the right-hand margin were needed to reach the cover total and are counted"
+   "4 mark(s) printed short of the right-hand margin were needed to reach the cover total and are counted"
   ],
   "ms_label_fixes": [],
   "question_numbers": [
@@ -3261,6 +3261,10 @@
    }
   },
   "issues": [],
+  "unredacted_pages": [
+   14,
+   17
+  ],
   "ms_text_layout": true,
   "ms_label_fixes": [],
   "question_numbers": [
@@ -3334,7 +3338,9 @@
   },
   "issues": [],
   "unredacted_pages": [
-   2
+   2,
+   13,
+   15
   ],
   "ms_text_layout": true,
   "ms_label_fixes": [],
@@ -3414,6 +3420,10 @@
    }
   },
   "issues": [],
+  "unredacted_pages": [
+   14,
+   17
+  ],
   "ms_text_layout": true,
   "ms_label_fixes": [],
   "question_numbers": [
@@ -3728,7 +3738,8 @@
   },
   "issues": [],
   "unredacted_pages": [
-   8
+   8,
+   18
   ],
   "ms_appendix": {
    "attached": 2,
@@ -3798,7 +3809,8 @@
   },
   "issues": [],
   "unredacted_pages": [
-   6
+   6,
+   17
   ],
   "ms_appendix": {
    "attached": 3,
@@ -3862,7 +3874,8 @@
   },
   "issues": [],
   "unredacted_pages": [
-   8
+   8,
+   18
   ],
   "ms_appendix": {
    "attached": 2,

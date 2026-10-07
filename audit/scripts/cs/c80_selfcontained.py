@@ -77,7 +77,7 @@ def appendix_pages(fn):
     return apx_cache[fn]
 
 
-res = {k: [] for k in ("own_not_shown", "part_ref", "page_ref", "insert_ref", "appendix_ref", "question_ref", "announced", "identifier")}
+res = {k: [] for k in ("own_not_shown", "part_ref", "page_ref", "insert_ref", "appendix_ref", "question_ref", "announced", "dangling", "identifier")}
 stats = Counter()
 ctx_seen = {}
 for book in (1, 2):
@@ -218,6 +218,23 @@ for book in (1, 2):
                 miss = [(a, round(b), " ".join(c)[:40]) for a, b, c in nxt if not is_shown(a - 1, b)]
                 if miss:
                     res["announced"].append(dict(base, line=" ".join(ws_)[:90], not_shown=miss))
+        # e3. a shown line that announces what follows ("The following diagram shows ...", "... as
+        # follows:") while the lines printed next in the paper (within 70 pt, or the top of the next
+        # page) are not shown
+        for k, (pg, y, ws_) in enumerate(qlines):
+            t_ = " ".join(ws_)
+            if not is_shown(pg - 1, y) or k + 1 >= len(qlines):
+                continue
+            if not (t_.rstrip().endswith(":") or re.search(r"\b[Tt]he following (diagram|table|pseudocode|program|code|algorithm|flowchart|structure chart)\b[^.]*\.?$", t_)):
+                continue
+            npg, ny, nws = qlines[k + 1]
+            if (npg == pg and ny - y > 70) or npg > pg + 1:
+                continue                     # answer space follows: nothing was announced
+            if t_.rstrip().endswith(":") and re.match(r"\(?([a-h]|[ivx]{1,4})\)", nws[0]):
+                continue                     # "... of the following devices:" - the parts are the list
+            stats["announcing lines (colon / 'the following ...')"] += 1
+            if not is_shown(npg - 1, ny):
+                res["dangling"].append(dict(base, line=t_[-90:], next=" ".join(nws)[:60], at=[pg, round(y)]))
         # f. identifiers
         first = {}
         for w in allw:

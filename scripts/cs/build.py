@@ -164,12 +164,15 @@ def _lead_height(bs):
     for k in range(min(4, len(bs))):
         if k:
             run += min(bs[k].y0 - bs[k - 1].y1, 8) * sc if bs[k].page == bs[k - 1].page and bs[k].y0 >= bs[k - 1].y1 else 4
-        _, core_k, fig = keep_heights(bs, k, sc, maxh)
+        chain_k, core_k, fig = keep_heights(bs, k, sc, maxh)
         if fig:
             if run + core_k <= maxh:
                 lead = max(lead, run + core_k)
             break
-        if bs[k].h * sc > 30:
+        if run + chain_k <= maxh and chain_k > 120:
+            lead = max(lead, run + chain_k)      # a long linked block right after the opening lines
+            break
+        if bs[k].h * sc > 45:
             break                    # a paragraph, not an opening line
         run += min(bs[k].h * sc, maxh)
     return lead

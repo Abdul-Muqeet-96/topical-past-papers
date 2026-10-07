@@ -2389,7 +2389,7 @@
 ]
 },
 {
-"ref": "M/J 15/P23/Q4/b(i,iii,iv),c",
+"ref": "M/J 15/P23/Q4/b,c",
 "paper": "9608_s15_23",
 "paper_ref": "M/J 15/P23",
 "code": "9608",
@@ -2399,33 +2399,32 @@
 "paper_no": 2,
 "q": 4,
 "units": [
-"(b)(i)",
-"(b)(iii)",
-"(b)(iv)",
+"(b)",
 "(c)"
 ],
 "book": 2,
 "topic": 10,
-"marks": 18,
+"marks": 20,
 "by_topic": {
-"10": 18
+"10": 18,
+"6": 2
 },
-"also": {},
-"intros": [
-"(b)"
-],
+"also": {
+"6": 2
+},
+"intros": [],
 "ctx_parts": [],
 "ctx_blocks": [],
 "flags": [
-"split",
-"split",
 "merged"
 ],
 "deps": [],
 "los": [
-"10.3.2"
+"10.3.2",
+"6.2.2"
 ],
 "sections": [
+"6.2",
 "10.3"
 ],
 "insert": null,
@@ -2436,53 +2435,7 @@
 9608,
 -23,
 -4,
--5
-]
-},
-{
-"ref": "M/J 15/P23/Q4/b(ii)",
-"paper": "9608_s15_23",
-"paper_ref": "M/J 15/P23",
-"code": "9608",
-"year": 2015,
-"series": "s",
-"variant": 23,
-"paper_no": 2,
-"q": 4,
-"units": [
-"(b)(ii)"
-],
-"book": 1,
-"topic": 6,
-"marks": 2,
-"by_topic": {
-"6": 2
-},
-"also": {},
-"intros": [
-"(b)"
-],
-"ctx_parts": [],
-"ctx_blocks": [],
-"flags": [
-"split"
-],
-"deps": [],
-"los": [
-"6.2.2"
-],
-"sections": [
-"6.2"
-],
-"insert": null,
-"insert_pages": [],
-"sort": [
-2015,
-2,
-9608,
--23,
--4,
--6
+-4
 ]
 },
 {
@@ -5051,7 +5004,9 @@
 "intros": [
 "(d)"
 ],
-"ctx_parts": [],
+"ctx_parts": [
+"(a)"
+],
 "ctx_blocks": [],
 "flags": [
 "split"
@@ -5469,7 +5424,9 @@
 "intros": [
 "(c)"
 ],
-"ctx_parts": [],
+"ctx_parts": [
+"(a)"
+],
 "ctx_blocks": [],
 "flags": [
 "split"
@@ -5801,7 +5758,9 @@
 "intros": [
 "(d)"
 ],
-"ctx_parts": [],
+"ctx_parts": [
+"(a)"
+],
 "ctx_blocks": [],
 "flags": [
 "split"
@@ -8233,8 +8192,8 @@
 "10.1.1"
 ],
 "sections": [
-"10.1",
-"11.1"
+"11.1",
+"10.1"
 ],
 "insert": "inline",
 "insert_pages": [
@@ -8689,8 +8648,8 @@
 "10.1.1"
 ],
 "sections": [
-"10.1",
-"11.1"
+"11.1",
+"10.1"
 ],
 "insert": "inline",
 "insert_pages": [
@@ -9183,8 +9142,8 @@
 "10.1.1"
 ],
 "sections": [
-"10.1",
-"11.1"
+"11.1",
+"10.1"
 ],
 "insert": "inline",
 "insert_pages": [
@@ -11835,8 +11794,8 @@
 "10.1.1"
 ],
 "sections": [
-"10.1",
-"11.1"
+"11.1",
+"10.1"
 ],
 "insert": "inline",
 "insert_pages": [
@@ -13758,8 +13717,8 @@
 "11.2.1"
 ],
 "sections": [
-"12.2",
 "11.2",
+"12.2",
 "12.3"
 ],
 "insert": "inline",
@@ -26452,8 +26411,8 @@
 "11.1.3"
 ],
 "sections": [
-"10.1",
-"11.1"
+"11.1",
+"10.1"
 ],
 "insert": "inline",
 "insert_pages": [
@@ -26882,8 +26841,8 @@
 "11.1.3"
 ],
 "sections": [
-"10.1",
-"11.1"
+"11.1",
+"10.1"
 ],
 "insert": "inline",
 "insert_pages": [

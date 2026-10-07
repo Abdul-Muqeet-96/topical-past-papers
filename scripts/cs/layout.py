@@ -201,9 +201,21 @@ def keep_heights(bands, i, scale, maxh):
 
     b = bands[i]
     # the chain of linked bands, as far as it fits on one page (at least band i and the next one)
+    # ... and no further than one figure with the line or mark that closes it: a second figure
+    # may start a new page
     chain, k = bh(i), i
+    fig_grp, after_fig = bands[i].grp, 0
     while k + 1 < len(bands) and _together(bands[k], bands[k + 1]):
-        nxt = chain + _gap(bands[k], bands[k + 1]) * scale + bh(k + 1)
+        n_ = bands[k + 1]
+        if n_.grp is not None:
+            if fig_grp is not None and n_.grp != fig_grp:
+                break
+            fig_grp = n_.grp
+        elif fig_grp is not None:
+            after_fig += 1
+            if after_fig > 1 and not n_.mark_only:
+                break
+        nxt = chain + _gap(bands[k], n_) * scale + bh(k + 1)
         if nxt > maxh and k > i:
             break
         chain, k = nxt, k + 1
@@ -244,7 +256,7 @@ def _introduces(a, b):
 def _label_above(a, b):
     """a is the short line printed last before a figure b starts (only blank answer space lies
     between them, at most 60 pt of it)."""
-    if a.grp is not None or b.grp is None or a.h >= 30 or getattr(a, "mark_only", False):
+    if a.grp is not None or b.grp is None or a.h >= 45 or getattr(a, "mark_only", False):
         return False                     # (a [mark] closes what is above it; it never labels a figure)
     # on the same page of the paper, or the figure opens the paper's next page
     return (a.page == b.page and 0 <= b.y0 - a.y1 <= 60) or (b.page == a.page + 1 and b.y0 < 130)

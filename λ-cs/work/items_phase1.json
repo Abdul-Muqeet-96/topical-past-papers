@@ -1939,8 +1939,8 @@
 "11.1.3"
 ],
 "sections": [
-"10.1",
-"11.1"
+"11.1",
+"10.1"
 ],
 "insert": null,
 "insert_pages": [],
@@ -8615,8 +8615,24 @@
 "sections": [
 "11.1"
 ],
-"insert": "note",
-"insert_pages": [],
+"insert": "inline",
+"insert_pages": [
+[
+"in",
+"9618_s24_in_22.pdf",
+1
+],
+[
+"in",
+"9618_s24_in_22.pdf",
+2
+],
+[
+"in",
+"9618_s24_in_22.pdf",
+3
+]
+],
 "sort": [
 2024,
 2,
@@ -9183,8 +9199,24 @@
 "11.1",
 "11.3"
 ],
-"insert": "note",
-"insert_pages": [],
+"insert": "inline",
+"insert_pages": [
+[
+"in",
+"9618_s24_in_23.pdf",
+1
+],
+[
+"in",
+"9618_s24_in_23.pdf",
+2
+],
+[
+"in",
+"9618_s24_in_23.pdf",
+3
+]
+],
 "sort": [
 2024,
 2,
@@ -12075,8 +12107,24 @@
 "11.1",
 "11.3"
 ],
-"insert": "note",
-"insert_pages": [],
+"insert": "inline",
+"insert_pages": [
+[
+"in",
+"9618_s25_in_23.pdf",
+1
+],
+[
+"in",
+"9618_s25_in_23.pdf",
+2
+],
+[
+"in",
+"9618_s25_in_23.pdf",
+3
+]
+],
 "sort": [
 2025,
 2,
@@ -29887,8 +29935,24 @@
 "sections": [
 "11.1"
 ],
-"insert": "note",
-"insert_pages": [],
+"insert": "inline",
+"insert_pages": [
+[
+"in",
+"9618_w25_in_21.pdf",
+1
+],
+[
+"in",
+"9618_w25_in_21.pdf",
+2
+],
+[
+"in",
+"9618_w25_in_21.pdf",
+3
+]
+],
 "sort": [
 2025,
 3,

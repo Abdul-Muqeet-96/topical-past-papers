@@ -5,21 +5,21 @@
     "cover": 1,
     "contents": 1,
     "unit_title": 8,
-    "question": 629,
-    "answers": 453,
+    "question": 628,
+    "answers": 452,
     "index": 11
    },
    "cover": {
-    "papers": 90,
-    "items": 664,
-    "marks": 4663,
-    "cross_filed": 34
+    "papers": 89,
+    "items": 663,
+    "marks": 4661,
+    "cross_filed": 33
    },
    "contents_entries": 17,
    "bad_headers": 0,
    "bad_numbers": 0,
    "order_violations": 0,
-   "index_rows": 664,
+   "index_rows": 663,
    "index_refs_truncated": 0
   },
   "fail": []
@@ -30,7 +30,7 @@
     "cover": 1,
     "contents": 1,
     "unit_title": 4,
-    "question": 818,
+    "question": 831,
     "answers": 665,
     "index": 11,
     "appendix": 3
@@ -38,7 +38,7 @@
    "cover": {
     "papers": 65,
     "items": 688,
-    "marks": 4692,
+    "marks": 4694,
     "cross_filed": 0
    },
    "contents_entries": 10,
@@ -49,9 +49,9 @@
    "index_refs_truncated": 0,
    "appendix": {
     "pages": [
-     1501,
-     1502,
-     1503
+     1514,
+     1515,
+     1516
     ],
     "banner": [
      "Appendix: Insert: pseudocode functions and operators (from M/J 26/P23)"

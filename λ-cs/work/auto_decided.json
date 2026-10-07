@@ -262,7 +262,7 @@
  {
   "item": "Page breaks: what stays together",
   "issue": "A figure can only be kept whole if the lines before it leave room; a mark printed after removed answer space, or the line that introduces a figure, could be left alone on the other side of a page break",
-  "action": "A figure (code block, table, diagram) moves to a new page whole whenever it fits on one; the short line printed last before it (at most 60 pt of blank answer space between them) moves with it; a line that ends with a colon (\"... after execution of the instruction:\") stays with what it introduces (also where the paper itself turns the page after the colon); the one to three opening lines of an item that lead straight into a figure stay with it and with the item's reference line; a caption or title of one to three words (\"Stack\") stays with what is printed directly under it; a band that holds nothing but a [mark] stays with the line before it. Only a figure taller than a page breaks"
+  "action": "A figure (code block, table, diagram) moves to a new page whole whenever it fits on one; the one to three lines printed last before it (at most 60 pt of blank answer space between them) moves with it; a line that ends with a colon (\"... after execution of the instruction:\") stays with what it introduces (also where the paper itself turns the page after the colon); the one to three opening lines of an item that lead straight into a figure stay with it and with the item's reference line; a caption or title of one to three words (\"Stack\") stays with what is printed directly under it; a band that holds nothing but a [mark] stays with the line before it. Only a figure taller than a page breaks"
  },
  {
   "item": "Code blocks with single-letter names",
@@ -303,5 +303,10 @@
   "item": "Lead-in of a part that is not shown",
   "issue": "9608 M/J 21/P12 Q5: a sentence that introduces part (f) is printed at the top of the next page, after the mark of part (e)(ii); item Q5/e(ii) ended with that sentence although (f) is not in the books",
   "action": "One to three lines of plain text printed at the top of a later page, after a part's last mark and directly above the label of the next part, are left out of an item that does not show that next part. One item is affected"
+ },
+ {
+  "item": "Material announced in the stem",
+  "issue": "9608 M/J 17 P11 Q4, P12 Q5 and P13 Q4: the stem ends \"The following diagram shows the contents of a section of main memory and the Index Register (IX).\" and the diagram is printed beside part (a); the items for the hexadecimal sub-part (P11 Q4/d(i), P12 Q5/c(i), P13 Q4/d(i)) showed the sentence without the diagram",
+  "action": "Where the last sentence of a stem announces \"the following\" diagram, table, pseudocode, program code, algorithm or flowchart and the first part holds it, an item that does not contain that part shows it as context (question crop only). Three items are affected; each now shows part (a)"
  }
 ]

@@ -2,11 +2,11 @@
  "files": [
   {
    "file": "λ-cs/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf",
-   "mb": 21.4,
-   "pages": 1103,
+   "mb": 21.3,
+   "pages": 1101,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 1103
+    "(595, 842)": 1101
    },
    "not_embedded": [
     "Arial-BoldMT",
@@ -157,10 +157,10 @@
   {
    "file": "λ-cs/p1-topical-workbook/units/Unit-04-Processor-Fundamentals.pdf",
    "mb": 7.9,
-   "pages": 238,
+   "pages": 234,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 238
+    "(595, 842)": 234
    },
    "not_embedded": [
     "Arial-BoldMT",
@@ -193,10 +193,10 @@
   {
    "file": "λ-cs/p1-topical-workbook/units/Unit-05-System-Software.pdf",
    "mb": 7.8,
-   "pages": 124,
+   "pages": 125,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 124
+    "(595, 842)": 125
    },
    "not_embedded": [
     "Arial-BoldMT",
@@ -232,11 +232,11 @@
   },
   {
    "file": "λ-cs/p1-topical-workbook/units/Unit-06-Security-privacy-and-data-integrity.pdf",
-   "mb": 6.6,
-   "pages": 89,
+   "mb": 6.5,
+   "pages": 88,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 89
+    "(595, 842)": 88
    },
    "not_embedded": [
     "Arial-BoldMT",
@@ -303,10 +303,10 @@
   {
    "file": "λ-cs/p1-topical-workbook/units/Unit-08-Databases.pdf",
    "mb": 7.6,
-   "pages": 152,
+   "pages": 154,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 152
+    "(595, 842)": 154
    },
    "not_embedded": [
     "Arial-BoldMT",
@@ -338,11 +338,11 @@
   },
   {
    "file": "P1 index.csv",
-   "rows": 664
+   "rows": 663
   },
   {
    "file": "P1 items.jsonl",
-   "rows": 664
+   "rows": 663
   },
   {
    "file": "P1 topics.json",
@@ -350,11 +350,11 @@
   },
   {
    "file": "λ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf",
-   "mb": 25.1,
-   "pages": 1503,
+   "mb": 25.9,
+   "pages": 1516,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 1503
+    "(595, 842)": 1516
    },
    "not_embedded": [
     "Arial-BoldItalicMT",
@@ -402,11 +402,11 @@
   },
   {
    "file": "λ-cs/p2-topical-workbook/units/Unit-09-Algorithm-Design-and-Problem-solving.pdf",
-   "mb": 12.9,
-   "pages": 248,
+   "mb": 13.0,
+   "pages": 244,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 248
+    "(595, 842)": 244
    },
    "not_embedded": [
     "Arial-BoldMT",
@@ -445,10 +445,10 @@
   {
    "file": "λ-cs/p2-topical-workbook/units/Unit-10-Data-Types-and-Structures.pdf",
    "mb": 13.5,
-   "pages": 493,
+   "pages": 496,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 493
+    "(595, 842)": 496
    },
    "not_embedded": [
     "Arial-BoldItalicMT",
@@ -488,11 +488,11 @@
   },
   {
    "file": "λ-cs/p2-topical-workbook/units/Unit-11-Programming.pdf",
-   "mb": 14.0,
-   "pages": 423,
+   "mb": 14.7,
+   "pages": 440,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 423
+    "(595, 842)": 440
    },
    "not_embedded": [
     "Arial-BoldItalicMT",
@@ -532,11 +532,11 @@
   },
   {
    "file": "λ-cs/p2-topical-workbook/units/Unit-12-Software-Development.pdf",
-   "mb": 13.2,
-   "pages": 323,
+   "mb": 13.4,
+   "pages": 320,
    "qpdf_ok": true,
    "sizes": {
-    "(595, 842)": 323
+    "(595, 842)": 320
    },
    "not_embedded": [
     "Arial-BoldMT",
@@ -586,11 +586,11 @@
   },
   {
    "file": "P2 topics.json",
-   "rows": 1314
+   "rows": 1315
   }
  ],
  "fail": [],
- "largest_tracked": "29648890\tΔ-chemistry/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf\n25061237\tλ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf\n21766806\tΩ-physics/Physics paper 2 9702 3.pdf\n",
+ "largest_tracked": "29648890\tΔ-chemistry/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf\n25897829\tλ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf\n21766806\tΩ-physics/Physics paper 2 9702 3.pdf\n",
  "fonts_not_embedded_in_sources": [
   "Arial-BoldItalicMT",
   "Arial-BoldMT",

@@ -573,21 +573,69 @@
   },
   {
    "ref": "M/J 24/P22/Q1/b",
-   "mode": "note",
-   "why": "text refers to the insert",
-   "pages": []
+   "mode": "inline",
+   "why": "text refers to the insert; insert text differs from the Appendix",
+   "pages": [
+    [
+     "in",
+     "9618_s24_in_22.pdf",
+     1
+    ],
+    [
+     "in",
+     "9618_s24_in_22.pdf",
+     2
+    ],
+    [
+     "in",
+     "9618_s24_in_22.pdf",
+     3
+    ]
+   ]
   },
   {
    "ref": "M/J 24/P23/Q1/a,b",
-   "mode": "note",
-   "why": "text refers to the insert",
-   "pages": []
+   "mode": "inline",
+   "why": "text refers to the insert; insert text differs from the Appendix",
+   "pages": [
+    [
+     "in",
+     "9618_s24_in_23.pdf",
+     1
+    ],
+    [
+     "in",
+     "9618_s24_in_23.pdf",
+     2
+    ],
+    [
+     "in",
+     "9618_s24_in_23.pdf",
+     3
+    ]
+   ]
   },
   {
    "ref": "M/J 25/P23/Q1/a,b",
-   "mode": "note",
-   "why": "text refers to the insert",
-   "pages": []
+   "mode": "inline",
+   "why": "text refers to the insert; insert text differs from the Appendix",
+   "pages": [
+    [
+     "in",
+     "9618_s25_in_23.pdf",
+     1
+    ],
+    [
+     "in",
+     "9618_s25_in_23.pdf",
+     2
+    ],
+    [
+     "in",
+     "9618_s25_in_23.pdf",
+     3
+    ]
+   ]
   },
   {
    "ref": "O/N 21/P22/Q1/c,d",
@@ -657,9 +705,25 @@
   },
   {
    "ref": "O/N 25/P21/Q1/a",
-   "mode": "note",
-   "why": "text refers to the insert",
-   "pages": []
+   "mode": "inline",
+   "why": "text refers to the insert; insert text differs from the Appendix",
+   "pages": [
+    [
+     "in",
+     "9618_w25_in_21.pdf",
+     1
+    ],
+    [
+     "in",
+     "9618_w25_in_21.pdf",
+     2
+    ],
+    [
+     "in",
+     "9618_w25_in_21.pdf",
+     3
+    ]
+   ]
   }
  ],
  "auto": [

@@ -162,14 +162,14 @@
 {
 "what": "SUMMARY Paper 1 book: unit 6 papers/items/marks",
 "printed": [
-57,
-70,
-365
+56,
+69,
+363
 ],
 "counted": [
-57,
-70,
-365
+56,
+69,
+363
 ],
 "ok": true
 },
@@ -204,14 +204,14 @@
 {
 "what": "SUMMARY Paper 1 book: total papers/items/marks",
 "printed": [
-90,
-664,
-4663
+89,
+663,
+4661
 ],
 "counted": [
-90,
-664,
-4663
+89,
+663,
+4661
 ],
 "ok": true
 },
@@ -234,12 +234,12 @@
 "printed": [
 63,
 182,
-1605
+1607
 ],
 "counted": [
 63,
 182,
-1605
+1607
 ],
 "ok": true
 },
@@ -276,12 +276,12 @@
 "printed": [
 65,
 688,
-4692
+4694
 ],
 "counted": [
 65,
 688,
-4692
+4694
 ],
 "ok": true
 },
@@ -289,13 +289,13 @@
 "what": "SUMMARY Papers: Items in the books",
 "printed": [
 692,
-660,
-1352
+659,
+1351
 ],
 "counted": [
 692,
-660,
-1352
+659,
+1351
 ],
 "ok": true
 },
@@ -321,8 +321,8 @@
 },
 {
 "what": "pages of CS-9618-P1-Topical-Workbook.pdf",
-"printed": 1103,
-"counted": 1103,
+"printed": 1101,
+"counted": 1101,
 "ok": true
 },
 {
@@ -399,8 +399,8 @@
 },
 {
 "what": "pages of CS-9618-P2-Topical-Workbook.pdf",
-"printed": 1503,
-"counted": 1503,
+"printed": 1516,
+"counted": 1516,
 "ok": true
 },
 {
@@ -585,8 +585,8 @@
 },
 {
 "what": "report.md AUTO-DECIDED: every hand-kept decision row is printed",
-"printed": 57,
-"counted": 57,
+"printed": 62,
+"counted": 62,
 "ok": true
 },
 {

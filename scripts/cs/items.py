@@ -116,6 +116,7 @@ def _site_covered(site, units, ctx_parts, intros):
     return False
 
 
+RE_STEM_ANNOUNCE = re.compile(r"\b[Tt]he following (diagram|table|pseudocode|program code|algorithm|flowchart) [^.]*\.$")
 RE_ANNOUNCE = re.compile(r"\b(pseudocode|program code|algorithm|flowchart)\b[^.:]{0,20}\bfollows\b[^.]*\.", re.I)
 # the first sub-part must really hold that material
 RE_ANNOUNCE_KIND = {"pseudocode": re.compile(r"pseudocode|[A-Z]{4,}\s|←"), "program code": re.compile(r"program code|[A-Z]{4,}\s|←"),
@@ -143,10 +144,11 @@ def resolve(Q, units):
     seen = set()
     allleaves = all_leaves(Q)
 
-    def add(site, why, dep=False):
+    def add(site, why, dep=False, whole=False):
         """Add a part (or lettered intro) as context and queue its own text."""
         L = find_letter(Q, letter_of(site)) if letter_of(site) else None
-        if L is not None and site == L["label"] and L["romans"] and not dep and not why.startswith("part reference"):
+        if L is not None and site == L["label"] and L["romans"] and not dep and not whole \
+                and not why.startswith("part reference"):
             site = site + "#intro"          # something defined in a lettered intro: that intro only
         if site in ctx_parts:
             return
@@ -171,6 +173,14 @@ def resolve(Q, units):
         m = RE_ANNOUNCE.search(intro)
         if m and len(intro) - m.end() < 140 and RE_ANNOUNCE_KIND[m.group(1).lower()].search(rom[0]["text"][:400]):
             add(first, "material announced in the introduction is printed in the first sub-part")
+
+    # the same for the stem: its last sentence announces a diagram or a table ("The following
+    # diagram shows the contents of ... main memory") that is printed inside the first part
+    stem = (Q.get("stem_text") or "").strip()
+    if RE_STEM_ANNOUNCE.search(stem[-220:]) and Q["letters"] and Q["letters"][0]["label"]:
+        first = Q["letters"][0]["label"]
+        if not any(u == first or u.startswith(first + "(") for u in units):
+            add(first, "material announced in the stem is printed in the first part", whole=True)
 
     while todo:
         t, tl, ids, where = todo.pop(0)

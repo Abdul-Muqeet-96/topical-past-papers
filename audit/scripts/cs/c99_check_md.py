@@ -142,7 +142,7 @@ else:
 m = log("c80 self-contained", r"\{(.*)\}")
 lst("Self-containment", "Own parts shown; part, page, question, insert and Appendix references resolved; material announced as following is shown; identifier rule (first use of a name is in the item)",
     "c80_selfcontained.py", ["self_own_not_shown.json", "self_part_ref.json", "self_page_ref.json", "self_insert_ref.json",
-                             "self_appendix_ref.json", "self_question_ref.json", "self_announced.json", "self_identifier.json"], (m.group(1).replace("'", "") if m else ""))
+                             "self_appendix_ref.json", "self_question_ref.json", "self_announced.json", "self_dangling.json", "self_identifier.json"], (m.group(1).replace("'", "") if m else ""))
 
 # 7 topics
 bd = os.path.join(OUT, "blind", "disagreements.json")
