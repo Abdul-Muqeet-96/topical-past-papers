@@ -20,7 +20,7 @@ rm -f $O/run.done
   echo "== c71 crops";          python3 c71_crops.py | tail -11
   echo "== c72 pixels P1";      python3 c72_pixels.py 1 | tail -11
   echo "== c72 pixels P2";      python3 c72_pixels.py 2 | tail -11
-  echo "== c73 layout";         python3 c73_layout.py | tail -12 | cut -c1-300
+  echo "== c73 layout";         python3 c73_layout.py | tail -13 | cut -c1-300
   echo "== c74 marks";          python3 c74_marks.py | head -3
   echo "== c80 self-contained"; python3 c80_selfcontained.py | tail -10
   echo "== c91 blind re-tag";   python3 c91_blind_compare.py | tail -5 | cut -c1-300

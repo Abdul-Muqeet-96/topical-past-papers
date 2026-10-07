@@ -231,7 +231,7 @@ def keep_heights(bands, i, scale, maxh):
                 hgt += _gap(bands[e], bands[e + 1]) * scale + bh(e + 1)
             return hgt, True
         if k + 1 < len(bands) and depth < 3 and (_label_above(c, bands[k + 1]) or _introduces(c, bands[k + 1])
-                                                 or _captions(c, bands[k + 1])):
+                                                 or _captions(c, bands[k + 1]) or _leads(c, bands[k + 1])):
             nh, fig = core_of(k + 1, depth + 1)
             return bh(k) + _gap(c, bands[k + 1]) * scale + nh, True
         return bh(k), False
@@ -240,9 +240,17 @@ def keep_heights(bands, i, scale, maxh):
     return chain, core, with_fig
 
 
+def _leads(a, b):
+    """a and b are consecutive lines of an instruction that leads into a figure (crops.mark_leads)."""
+    return getattr(a, "leads", 0) >= 2 and getattr(b, "leads", 0) == a.leads - 1 and a.page == b.page \
+        and 0 <= b.y0 - a.y1 <= 14
+
+
 def _captions(a, b):
-    """a is a caption or title printed directly above b."""
-    return getattr(a, "caption", False) and a.grp is None and a.page == b.page and 0 <= b.y0 - a.y1 <= 14
+    """a is a caption or title printed directly above the figure b (a caption above the header
+    line of a figure is linked by _leads)."""
+    return getattr(a, "caption", False) and a.grp is None and b.grp is not None and a.page == b.page \
+        and 0 <= b.y0 - a.y1 <= 14
 
 
 def _introduces(a, b):
@@ -270,10 +278,12 @@ def _together(a, b):
         return True
     if getattr(b, "mark_only", False):
         return True          # a [mark] on its own stays with the line it closes
-    if _label_above(a, b) or _introduces(a, b) or _captions(a, b):
+    if _label_above(a, b) or _introduces(a, b) or _captions(a, b) or _leads(a, b):
         return True          # the line that introduces a figure, ends with a colon, or is a caption
     if a.page != b.page or b.y0 - a.y1 > 14:
         return False
+    if getattr(b, "colon_end", False) or getattr(a, "bullet", False):
+        return False         # "For example:" introduces what follows; a list item is not a figure
     return (a.h < 18 and b.h > 30) or (a.h > 30 and b.h < 18)
 
 

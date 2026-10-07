@@ -12,7 +12,7 @@ import pymupdf as f
 from c00_common import *
 
 ML, MR, MT, MB, W, H = 40, 40, 58, 40, 595.28, 841.89
-res = {k: [] for k in ("margin", "overlap", "orphan_heading", "orphan_mark", "orphan_intro", "orphan_caption", "split_figure", "empty_page", "wasted_space", "wasted_by_design", "scale")}
+res = {k: [] for k in ("margin", "overlap", "orphan_heading", "orphan_mark", "orphan_intro", "orphan_caption", "orphan_lead", "split_figure", "empty_page", "wasted_space", "wasted_by_design", "scale")}
 stats = Counter()
 cache = {}
 
@@ -175,6 +175,28 @@ for book in (1, 2):
                     and 0 <= b["vclip"][1] - a["vclip"][3] <= 14 and not re.fullmatch(r"\[\d{1,2}\]", " ".join(words_a)) \
                     and re.search(r"[A-Za-z]{3}", " ".join(words_a)) and not re.fullmatch(r"\(?[a-z]\)|\([ivx]+\)|\d{1,2}", words_a[0]):
                 res["orphan_caption"].append({"book": book, "page": pg, "ref": a["ref"], "line": " ".join(words_a)[:40]})
+            # a short instruction (up to 45 pt of text) at the foot of a page, cut off from the table,
+            # diagram or listing printed directly under it (or under one or two more short lines),
+            # although all of it would fit on one page
+            if a["ref"] == b["ref"] and a["side"] == b["side"] == "Q" and a["src"] and a["src"] == b["src"] \
+                    and a["vclip"][3] - a["vclip"][1] < 45 and 0 <= b["vclip"][1] - a["vclip"][3] <= 60 \
+                    and not re.fullmatch(r"\s*\[\d{1,2}\]\s*", a["text"] or "") and re.search(r"[A-Za-z]{3}", a["text"] or ""):
+                fn, pi = b["src"]
+
+                def figure_like(x):
+                    y0_, y1_ = x["vclip"][1], x["vclip"][3]
+                    fig = [r for r in drawings(fn, pi) if r.y0 >= y0_ - 3 and r.y1 <= y1_ + 3 and (r.width > 100 or r.height > 30)]
+                    code_n = [m for m in mono_lines(fn, pi) if m[0] >= y0_ - 2 and m[1] <= y1_ + 2]
+                    return (bool(fig) or len(code_n) >= 3) and x["target"][3] - x["target"][1] > 40
+                k = 0                                   # the figure: the first band of the next page, or after 1-2 short lines
+                while k < 2 and k + 1 < len(nb) and not figure_like(nb[k]) and nb[k]["target"][3] - nb[k]["target"][1] < 45 \
+                        and nb[k + 1]["src"] == b["src"] and 0 <= nb[k + 1]["vclip"][1] - nb[k]["vclip"][3] <= 14:
+                    k += 1
+                if (k == 0 or b["vclip"][1] - a["vclip"][3] <= 14) and figure_like(nb[k]):
+                    need = nb[k]["target"][3] - nb[0]["target"][1] + (a["target"][3] - a["target"][1]) + 10
+                    if need <= H - MB - MT - 20:
+                        res["orphan_lead"].append({"book": book, "page": pg, "ref": a["ref"], "line": " ".join((a["text"] or "").split())[-70:],
+                                                   "lines_between": k, "figure_h": round(nb[k]["target"][3] - nb[k]["target"][1])})
             # a mark alone at the top of a page, cut off from the line it closes
             if a["ref"] == b["ref"] and a["side"] == b["side"] == "Q" and re.fullmatch(r"\s*\[\d{1,2}\]\s*", b["text"] or ""):
                 res["orphan_mark"].append({"book": book, "page": pg + 1, "ref": b["ref"], "mark": b["text"].strip()})

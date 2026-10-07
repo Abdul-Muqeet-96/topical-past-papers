@@ -36,6 +36,8 @@ class Band:
         self.mark_only = False
         self.colon_end = False
         self.caption = False
+        self.leads = 0
+        self.bullet = False
 
     @property
     def h(self):
@@ -371,6 +373,12 @@ def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
             cy = max((w[1] + w[3]) / 2 for w in text)          # the last line: within 5 pt of the lowest word
             last = max((w for w in text if (w[1] + w[3]) / 2 > cy - 5), key=lambda w: w[0])[4]
         b.colon_end = last.endswith(":")
+        # an item of a bulleted or numbered list (it belongs to its list, not to what follows)
+        if text:
+            ty = min(w[1] for w in text)
+            t0 = min((w for w in text if w[1] < ty + 5), key=lambda w: w[0])[4]
+            b.bullet = (len(t0) == 1 and (not t0.isalnum() or t0 == "o") and t0 not in "([\"'<“‘") or \
+                bool(re.fullmatch(r"\d{1,2}[.)]", t0))
         # a caption or title: one to three words on one short line ("Stack" above a diagram)
         b.caption = 1 <= len(text) <= 3 and (y1 - y0) < 18 and max(w[2] for w in text) - min(w[0] for w in text) < 150 \
             and any(re.search(r"[A-Za-z]{3}", w[4]) for w in text) and not b.colon_end \
@@ -385,7 +393,35 @@ def bands(doc, region, keep_total=False):
     for p, y0, y1 in region:
         out += page_bands(doc, p, y0, y1, keep_total)
     group_figures(doc, out)
+    mark_leads(out)
     return out
+
+
+def mark_leads(bs):
+    """Short bands that lead into a figure: the band printed last before a figure starts
+    (leads = 1) and up to two short bands directly above it (leads = 2, 3): an instruction of
+    one to three lines and the table or diagram it is about stay on one page (layout)."""
+    # a caption in monospace type ("MyQueue") printed right above a diagram can be taken into the
+    # block of code that ends a little higher up: it belongs to the figure below it
+    for i in range(1, len(bs) - 1):
+        p, a, b = bs[i - 1], bs[i], bs[i + 1]
+        if a.caption and a.grp is not None and p.grp == a.grp and b.grp is not None and b.grp != a.grp \
+                and a.page == b.page and 0 <= b.y0 - a.y1 <= 14 and a.y0 - p.y1 > b.y0 - a.y1 + 4:
+            a.grp = None
+    for i in range(len(bs) - 2, -1, -1):
+        a, b = bs[i], bs[i + 1]
+        if a.grp is not None or a.h >= 45 or a.mark_only or a.page != b.page:
+            continue
+        gap = b.y0 - a.y1
+        if b.grp is not None and 0 <= gap <= 60:
+            a.leads = 1
+        elif b.grp is None and b.leads in (1, 2) and 0 <= gap <= 14:
+            # (not the last line of a list set solid above it: that line stays with its list)
+            if i and bs[i - 1].page == a.page and a.y0 - bs[i - 1].y1 < 3 and bs[i - 1].grp is None:
+                continue
+            if a.bullet or b.bullet:
+                continue                 # items of a bulleted list stay with their list
+            a.leads = b.leads + 1
 
 
 # ---------- figures: code, tables, diagrams stay on one page ----------

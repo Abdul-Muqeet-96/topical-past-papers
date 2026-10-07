@@ -129,7 +129,7 @@ lst("Crop quality", "Empty frames (answer space for a drawing) still shown", "c7
 lst("Crop quality", "Added ink (in the book, not in the source), ink on a crop edge, trace of a rule lying just outside a crop", "c72_pixels.py",
     ["pix_added_p1.json", "pix_added_p2.json", "pix_edge_p1.json", "pix_edge_p2.json", "pix_edge_rule_p1.json", "pix_edge_rule_p2.json"])
 lst("Crop quality", "Page splits: figure or code block split across pages, heading, mark or introducing line left alone, overlap, margins, empty pages, enlarged crops",
-    "c73_layout.py", ["layout_split_figure.json", "layout_orphan_heading.json", "layout_orphan_mark.json", "layout_orphan_intro.json", "layout_orphan_caption.json", "layout_overlap.json",
+    "c73_layout.py", ["layout_split_figure.json", "layout_orphan_heading.json", "layout_orphan_mark.json", "layout_orphan_intro.json", "layout_orphan_caption.json", "layout_orphan_lead.json", "layout_overlap.json",
                       "layout_margin.json", "layout_empty_page.json", "layout_scale.json"])
 if have("layout_wasted_space.json") and have("layout_wasted_by_design.json"):
     wd = Counter(x["cause"] for x in jl("layout_wasted_by_design.json"))
