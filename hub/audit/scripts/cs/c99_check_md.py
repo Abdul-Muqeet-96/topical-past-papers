@@ -1,4 +1,4 @@
-"""Write audit/CS_CHECK.md from the outputs of the check scripts (audit/out/cs/*.json, run.log).
+"""Write hub/audit/CS_CHECK.md from the outputs of the check scripts (hub/audit/out/cs/*.json, run.log).
 Every check is PASS, FAIL or NOT RUN, with its counts and its script.
 
 A finding list that is not empty is a FAIL unless every row of it has been read and judged: the
@@ -206,14 +206,14 @@ else:
     add("Visual", "Visual checks", "c95_sheets.py", "NOT RUN", "")
 
 c = Counter(r[3] for r in rows)
-info = {b: json.load(open(os.path.join(CS, "work", f"build_info_p{b}.json"))) for b in (1, 2)}
+info = {b: json.load(open(os.path.join(CS, "build", "work", f"build_info_p{b}.json"))) for b in (1, 2)}
 import pymupdf
 pages = {b: len(pymupdf.open(BOOKS[b])) for b in (1, 2)}
 out = ["# CS_CHECK: self-check of the Computer Science 9618 topical workbooks", "",
-       f"Books checked: Paper 1 book {pages[1]} pages, Paper 2 book {pages[2]} pages (the files in `λ-cs/p1-topical-workbook/` and "
-       f"`λ-cs/p2-topical-workbook/` of this commit). Written {datetime.date.today().isoformat()} by `audit/scripts/cs/c99_check_md.py` "
-       "from the outputs in `audit/out/cs/`.", "",
-       "The check scripts are in `audit/scripts/cs/` and do not import the build code (`scripts/cs/`): they read the raw downloads in "
+       f"Books checked: Paper 1 book {pages[1]} pages, Paper 2 book {pages[2]} pages (the files in `λ-cs/booklets/p1-topical-workbook/` and "
+       f"`λ-cs/booklets/p2-topical-workbook/` of this commit). Written {datetime.date.today().isoformat()} by `hub/audit/scripts/cs/c99_check_md.py` "
+       "from the outputs in `hub/audit/out/cs/`.", "",
+       "The check scripts are in `hub/audit/scripts/cs/` and do not import the build code (`hub/scripts/cs/`): they read the raw downloads in "
        "`data/` and the finished books. `run_all.sh` runs them in order; it was run again after every rebuild.", "",
        f"**Result: {c['PASS']} PASS, {c['FAIL']} FAIL, {c['NOT RUN']} NOT RUN.**", "",
        "| Area | Check | Result | Counts | Script |", "|---|---|---|---|---|"]
@@ -221,7 +221,7 @@ for g, ch, sc, res, cnt in rows:
     out.append(f"| {g} | {ch} | **{res}** | {cnt} | `{sc}` |")
 out += ["", "## Findings that were read and judged", "",
         "A finding list that is not empty passes only when every row was read (and viewed where it concerns a picture). "
-        "`audit/scripts/cs/judged.json` holds the verdicts; a verdict stops counting when the number of rows changes.", "",
+        "`hub/audit/scripts/cs/judged.json` holds the verdicts; a verdict stops counting when the number of rows changes.", "",
         "| Output file | Rows | Verdict |", "|---|---|---|"]
 for k, v in J.items():
     if have(k) and n_of(k) and v["verdict"]:

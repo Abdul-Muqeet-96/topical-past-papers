@@ -2,7 +2,7 @@
 lettered parts, roman sub-parts, [n] marks and [Total: n], in reading order. Coordinates are
 normalised to a 595-pt-wide page so A3-scaled files (e.g. s15) parse the same way."""
 import pymupdf as f, re, json, sys
-sys.path.insert(0,'audit/scripts'); from a03_lines import lines
+sys.path.insert(0,'hub/audit/scripts'); from a03_lines import lines
 ROM='i|ii|iii|iv|v|vi|vii|viii|ix|x'
 def parse_qp(fn):
     d=f.open(fn); ev=[]; tot={}; qs=[]; notes=[]; st={'L':None,'Lx':0}
@@ -50,12 +50,12 @@ def parse_qp(fn):
             totals.setdefault(q,[]).append(e[1])
     return {'qnums':[x[0] for x in qs],'qpos':qs,'parts':parts,'totals':totals,'notes':notes,'pages':len(d)}
 if __name__=='__main__':
-    src=json.load(open('audit/out/sources.json')); out={}
+    src=json.load(open('hub/audit/out/sources.json')); out={}
     for r in src:
         if r['type']!='qp' or r['status']=='MISSING': continue
         key=f"{r['series']}{r['year']:02d}_{r['variant']}"
         out[key]=parse_qp(r['file'])
-    json.dump(out,open('audit/out/qp_parse.json','w'))
+    json.dump(out,open('hub/audit/out/qp_parse.json','w'))
     bad=0
     for k,v in out.items():
         qn=v['qnums']; N=max(qn) if qn else 0

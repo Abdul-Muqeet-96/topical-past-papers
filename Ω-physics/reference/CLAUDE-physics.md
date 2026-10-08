@@ -5,14 +5,14 @@ Specification for the Physics run (prompt: `PROMPT-physics.md`). Repo-wide rules
 # Physics 9702 Paper 2 — topical workbook (for a student and for Claude)
 
 Goal: one PDF workbook of 9702 Paper 2 (AS Level Structured Questions, 60
-marks), filed by the 11 AS topics of `Ω-physics/physics-syllabus.pdf`
+marks), filed by the 11 AS topics of `Ω-physics/reference/physics-syllabus.pdf`
 (2025-27), with an Answers Section after each unit. Two readers: the student,
 and Claude Code teaching the student, so every item must have readable text
 (a text layer), not only pixels.
 
 ## Two sources, split by year
 - **Part A, papers up to and including 2023: the uploaded booklet only**
-  (`Ω-physics/Physics paper 2 9702 3.pdf`, 550 scanned pages, no text layer,
+  (`Ω-physics/reference/Physics paper 2 9702 3.pdf`, 550 scanned pages, no text layer,
   12 old-syllabus units, Read and Write Publications). Its selection of
   questions, its items and its answers are used as they are. Do not rebuild
   them from official papers.
@@ -30,7 +30,7 @@ and Claude Code teaching the student, so every item must have readable text
   tried, what state_physics.json says is done) and end.
 - Never retype or reconstruct question content. OCR text is only an invisible
   text layer over the original scan, never a replacement for it.
-- Commit and push after every stage; progress in `Ω-physics/state_physics.json` so a new
+- Commit and push after every stage; progress in `Ω-physics/build/state_physics.json` so a new
   session can resume.
 
 ## Quality first (cost is not a constraint)
@@ -39,15 +39,15 @@ and Claude Code teaching the student, so every item must have readable text
   checks pass.
 - Still work efficiently: heavy work in Python scripts, print counts and short
   summaries, OCR locally with tesseract (no websites), reuse code (copy
-  `scripts/` to `scripts/physics/` and adapt; don't edit the Chemistry scripts).
+  `scripts/` to `hub/scripts/physics/` and adapt; don't edit the Chemistry scripts).
 - Use images whenever text or coordinates can't settle a question, and for all
   the visual checks below. Wait for background jobs with a check that can't
   match its own command line (a marker file or PID, not `pgrep -f`).
 
 ## Part A: the booklet
 1. OCR every page (tesseract 300 dpi, `--oem 1 --psm 3 -l eng`, 4 jobs in
-   parallel). Save word boxes (TSV) in `Ω-physics/work/ocr/`. Write
-   `Ω-physics/booklet-ocr.pdf`: the original page images with the words added as
+   parallel). Save word boxes (TSV) in `Ω-physics/build/work/ocr/`. Write
+   `Ω-physics/reference/booklet-ocr.pdf`: the original page images with the words added as
    invisible text (PyMuPDF `insert_text`, render_mode 3, sized to each word box).
    All Part A crops come from this file, so they carry the text layer.
 2. Find the structure from OCR: unit title pages, Answers Sections, running
@@ -86,9 +86,9 @@ Checked to exist (qp and ms): m24 v22; s24 v21-23; w24 v21-23; m25 v22;
 s25 v21-24; w25 v21-24; m26 v22; s26 v22-24. s26 v21 has a QP but no MS:
 exclude and report. Re-verify by download; page-1 header must show
 9702/<variant>, "Paper 2 AS Level Structured Questions" and the series.
-Downloads go to `data/` (gitignored); manifest `Ω-physics/work/manifest_physics.json`.
+Downloads go to `data/` (gitignored); manifest `Ω-physics/build/work/manifest_physics.json`.
 
-Follow `Δ-chemistry/CLAUDE-chemistry.md` for Part B except where this file
+Follow `Δ-chemistry/reference/CLAUDE-chemistry.md` for Part B except where this file
 differs. Already-fixed behaviour of the copied scripts (keep it):
 - non-standard page scale normalised to A4; crops found from rendered ink;
   answer-line dots removed from the text layer; page furniture excluded;
@@ -117,7 +117,7 @@ Physics differences:
 - Each booklet item carries a small grey source tag "booklet (scan + OCR)";
   Part B items carry nothing extra.
 
-## Deliverables (`Ω-physics/p2-topical-workbook/`)
+## Deliverables (`Ω-physics/booklets/p2-topical-workbook/`)
 Full book PDF; one PDF per unit (items + answers); index.csv (reference,
 unit, marks, page, source = booklet|official, also_topics, context_parts);
 items.jsonl (reference, unit, marks, page, source, text; booklet text is OCR,
@@ -126,13 +126,13 @@ report.md; SUMMARY.md; booklet-ocr.pdf. Any file over 95 MB: don't push it,
 note it in SUMMARY.md.
 
 ## Final self-check (repeat check → fix → rebuild until everything passes)
-Adapt and run the relevant `audit/scripts` checks on the physics book: paper
+Adapt and run the relevant `hub/audit/scripts` checks on the physics book: paper
 checks and coverage (Part B), item/index/items.jsonl/unit PDF consistency,
 structure (contents, headers, bookmarks), crop checks (clipped text, figures,
 furniture, visible dotted lines, page splits), self-containment (Part B),
 file checks (qpdf, sizes). Visual: at least 15 Part B items (or all, if fewer)
 and 5 booklet items per unit, plus every automated flag, viewed at a
 readable dpi (≥ 90); the answers too. After every rebuild, re-run all checks,
-not only the failed ones. Write `audit/PHYSICS_CHECK.md` with every check: PASS / FAIL /
+not only the failed ones. Write `hub/audit/PHYSICS_CHECK.md` with every check: PASS / FAIL /
 NOT RUN, with counts and the script used. Keep report.md and SUMMARY.md
 accurate (no claim without a check behind it).

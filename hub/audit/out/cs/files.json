@@ -1,7 +1,7 @@
 {
  "files": [
   {
-   "file": "λ-cs/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf",
+   "file": "λ-cs/booklets/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf",
    "mb": 21.3,
    "pages": 1099,
    "qpdf_ok": true,
@@ -43,7 +43,7 @@
    ]
   },
   {
-   "file": "λ-cs/p1-topical-workbook/units/Unit-01-Information-representation.pdf",
+   "file": "λ-cs/booklets/p1-topical-workbook/units/Unit-01-Information-representation.pdf",
    "mb": 7.9,
    "pages": 169,
    "qpdf_ok": true,
@@ -81,7 +81,7 @@
    ]
   },
   {
-   "file": "λ-cs/p1-topical-workbook/units/Unit-02-Communication.pdf",
+   "file": "λ-cs/booklets/p1-topical-workbook/units/Unit-02-Communication.pdf",
    "mb": 5.1,
    "pages": 90,
    "qpdf_ok": true,
@@ -117,7 +117,7 @@
    ]
   },
   {
-   "file": "λ-cs/p1-topical-workbook/units/Unit-03-Hardware.pdf",
+   "file": "λ-cs/booklets/p1-topical-workbook/units/Unit-03-Hardware.pdf",
    "mb": 6.7,
    "pages": 175,
    "qpdf_ok": true,
@@ -155,7 +155,7 @@
    ]
   },
   {
-   "file": "λ-cs/p1-topical-workbook/units/Unit-04-Processor-Fundamentals.pdf",
+   "file": "λ-cs/booklets/p1-topical-workbook/units/Unit-04-Processor-Fundamentals.pdf",
    "mb": 7.9,
    "pages": 234,
    "qpdf_ok": true,
@@ -191,7 +191,7 @@
    ]
   },
   {
-   "file": "λ-cs/p1-topical-workbook/units/Unit-05-System-Software.pdf",
+   "file": "λ-cs/booklets/p1-topical-workbook/units/Unit-05-System-Software.pdf",
    "mb": 7.8,
    "pages": 124,
    "qpdf_ok": true,
@@ -231,7 +231,7 @@
    ]
   },
   {
-   "file": "λ-cs/p1-topical-workbook/units/Unit-06-Security-privacy-and-data-integrity.pdf",
+   "file": "λ-cs/booklets/p1-topical-workbook/units/Unit-06-Security-privacy-and-data-integrity.pdf",
    "mb": 6.5,
    "pages": 88,
    "qpdf_ok": true,
@@ -269,7 +269,7 @@
    ]
   },
   {
-   "file": "λ-cs/p1-topical-workbook/units/Unit-07-Ethics-and-Ownership.pdf",
+   "file": "λ-cs/booklets/p1-topical-workbook/units/Unit-07-Ethics-and-Ownership.pdf",
    "mb": 3.9,
    "pages": 53,
    "qpdf_ok": true,
@@ -301,7 +301,7 @@
    ]
   },
   {
-   "file": "λ-cs/p1-topical-workbook/units/Unit-08-Databases.pdf",
+   "file": "λ-cs/booklets/p1-topical-workbook/units/Unit-08-Databases.pdf",
    "mb": 7.6,
    "pages": 153,
    "qpdf_ok": true,
@@ -349,7 +349,7 @@
    "rows": 1968
   },
   {
-   "file": "λ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf",
+   "file": "λ-cs/booklets/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf",
    "mb": 25.9,
    "pages": 1518,
    "qpdf_ok": true,
@@ -401,7 +401,7 @@
    ]
   },
   {
-   "file": "λ-cs/p2-topical-workbook/units/Unit-09-Algorithm-Design-and-Problem-solving.pdf",
+   "file": "λ-cs/booklets/p2-topical-workbook/units/Unit-09-Algorithm-Design-and-Problem-solving.pdf",
    "mb": 13.0,
    "pages": 243,
    "qpdf_ok": true,
@@ -443,7 +443,7 @@
    ]
   },
   {
-   "file": "λ-cs/p2-topical-workbook/units/Unit-10-Data-Types-and-Structures.pdf",
+   "file": "λ-cs/booklets/p2-topical-workbook/units/Unit-10-Data-Types-and-Structures.pdf",
    "mb": 13.5,
    "pages": 496,
    "qpdf_ok": true,
@@ -487,7 +487,7 @@
    ]
   },
   {
-   "file": "λ-cs/p2-topical-workbook/units/Unit-11-Programming.pdf",
+   "file": "λ-cs/booklets/p2-topical-workbook/units/Unit-11-Programming.pdf",
    "mb": 14.7,
    "pages": 440,
    "qpdf_ok": true,
@@ -531,7 +531,7 @@
    ]
   },
   {
-   "file": "λ-cs/p2-topical-workbook/units/Unit-12-Software-Development.pdf",
+   "file": "λ-cs/booklets/p2-topical-workbook/units/Unit-12-Software-Development.pdf",
    "mb": 13.4,
    "pages": 323,
    "qpdf_ok": true,
@@ -590,7 +590,7 @@
   }
  ],
  "fail": [],
- "largest_tracked": "29648890\tΔ-chemistry/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf\n25899835\tλ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf\n21766806\tΩ-physics/Physics paper 2 9702 3.pdf\n",
+ "largest_tracked": "29648890\tΔ-chemistry/booklets/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf\n25899835\tλ-cs/booklets/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf\n21766806\tΩ-physics/reference/Physics paper 2 9702 3.pdf\n",
  "fonts_not_embedded_in_sources": [
   "Arial-BoldItalicMT",
   "Arial-BoldMT",

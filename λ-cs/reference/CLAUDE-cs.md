@@ -2,12 +2,12 @@
 
 Specification for the CS run (prompt: `PROMPT-cs.md`). Repo-wide rules are in
 `CLAUDE.md`. Item, context, cropping, mark-scheme and layout rules are those of
-`Δ-chemistry/CLAUDE-chemistry.md`, as fixed by the audit (the current
+`Δ-chemistry/reference/CLAUDE-chemistry.md`, as fixed by the audit (the current
 `scripts/` already do all of this); this file lists what is different.
 
 ## Goal
 Two part-level topical workbooks, built in one run:
-- **P1 book**: Paper 1 Theory Fundamentals, units 1-8 of `λ-cs/cs-syllabus.pdf`.
+- **P1 book**: Paper 1 Theory Fundamentals, units 1-8 of `λ-cs/reference/cs-syllabus.pdf`.
 - **P2 book**: Paper 2 Fundamental Problem-solving and Programming Skills,
   units 9-12.
 
@@ -91,15 +91,15 @@ Chemistry).
   per unit.
 - Appendix: P2 book = the newest insert. P1 book = none, unless the papers
   print shared reference material.
-- Output: `λ-cs/p1-topical-workbook/` and `λ-cs/p2-topical-workbook/`. Each
+- Output: `λ-cs/booklets/p1-topical-workbook/` and `λ-cs/booklets/p2-topical-workbook/`. Each
   holds the book, `units/`, index.csv, items.jsonl and topics.json.
-  `λ-cs/report.md` and `λ-cs/SUMMARY.md` cover both books.
+  `λ-cs/reports/report.md` and `λ-cs/reports/SUMMARY.md` cover both books.
 - Build and commit a Phase-1-only pair of books first (fallback), then add
   Phase 2.
 - Any file over 95 MB: don't push it; note it in SUMMARY.md.
 
 ## Self-check (repeat check → fix → rebuild until everything passes)
-Adapt `audit/scripts` and run every check of the Chemistry audit on both
+Adapt `hub/audit/scripts` and run every check of the Chemistry audit on both
 books:
 - source headers, plus 10 random re-downloads compared byte for byte;
 - paper level, coverage, and marks;
@@ -115,5 +115,5 @@ books:
 Visual: at least 15 question items and 5 answers per unit, plus every
 automated flag, viewed at ≥ 90 dpi. After every rebuild, re-run all checks.
 
-Write `audit/CS_CHECK.md` with every check marked PASS / FAIL / NOT RUN,
+Write `hub/audit/CS_CHECK.md` with every check marked PASS / FAIL / NOT RUN,
 with counts and the script used. Keep report.md and SUMMARY.md accurate.

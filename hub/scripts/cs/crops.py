@@ -432,7 +432,7 @@ def figure_spans(page):
     """y-ranges on the page that hold one figure: a block of code (consecutive
     monospace lines), or a table / diagram (a cluster of drawings and images
     with the text inside it). Bands inside one range are never split across
-    pages (λ-cs/CLAUDE-cs.md, CS-specific context rules)."""
+    pages (λ-cs/reference/CLAUDE-cs.md, CS-specific context rules)."""
     key = (doc_key(page.parent), page.number)
     if key in _FIG:
         return _FIG[key]

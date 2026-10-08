@@ -1,12 +1,12 @@
 """Check 4 THREE-WAY: book (question side) vs index.csv vs work/items_phase*.json (no items.jsonl
 exists) vs per-unit PDFs: same items, same units, same order, same pages. Also A-side vs Q-side."""
 import json, csv, glob, os, re, sys
-sys.path.insert(0,'audit/scripts'); from a30_book_items import parse
+sys.path.insert(0,'hub/audit/scripts'); from a30_book_items import parse
 from collections import Counter
-bi=json.load(open('audit/out/book_items.json'))
+bi=json.load(open('hub/audit/out/book_items.json'))
 Q=[i for i in bi if i['side']=='Q']; A=[i for i in bi if i['side']=='A']
-idx=list(csv.DictReader(open('Δ-chemistry/p2-topical-workbook/index.csv')))
-js=json.load(open('Δ-chemistry/work/items_phase1.json'))+json.load(open('Δ-chemistry/work/items_phase2.json'))
+idx=list(csv.DictReader(open('Δ-chemistry/booklets/p2-topical-workbook/index.csv')))
+js=json.load(open('Δ-chemistry/build/work/items_phase1.json'))+json.load(open('Δ-chemistry/build/work/items_phase2.json'))
 F=[]
 def fail(kind,ref,page,detail): F.append({'kind':kind,'ref':ref,'page':page,'detail':detail})
 # A: book Q vs index.csv
@@ -36,7 +36,7 @@ for u in range(1,23):
     if [i['n'] for i in q]!=list(range(1,len(q)+1)): fail('numbering-not-sequential',f'unit {u}',None,'')
     if [(i['n'],i['ref']) for i in q]!=[(i['n'],i['ref']) for i in a]: fail('answers!=questions order/number',f'unit {u}',None,'')
 # D: unit PDFs
-for fn in sorted(glob.glob('Δ-chemistry/p2-topical-workbook/units/*.pdf')):
+for fn in sorted(glob.glob('Δ-chemistry/booklets/p2-topical-workbook/units/*.pdf')):
     u=int(re.search(r'Unit-(\d+)',fn).group(1)); o=parse(fn)
     up=[i for i in o['items']]
     qb=[i for i in sorted(bi,key=lambda i:(i['page'],i['y'])) if i['unit']==u]
@@ -52,6 +52,6 @@ for fn in sorted(glob.glob('Δ-chemistry/p2-topical-workbook/units/*.pdf')):
         num=re.search(r'Workbook (\d+)',hdr)
         if not (lab==str(j['page']) or (num and int(num.group(1))==j['page'])): mism+=1
     if mism: fail('unit-pdf printed page != book page',f'unit {u}',None,f'{mism} items')
-json.dump(F,open('audit/out/threeway_fail.json','w'),indent=0)
+json.dump(F,open('hub/audit/out/threeway_fail.json','w'),indent=0)
 print('Q items',len(Q),'A items',len(A),'index rows',len(idx),'items.json',len(js)); print(Counter(f['kind'] for f in F))
 for f in F[:15]: print(f)

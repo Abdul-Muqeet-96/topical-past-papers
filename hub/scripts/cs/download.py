@@ -1,8 +1,8 @@
 """Download 9618 / 9608 Paper 1 and Paper 2 qp/ms/insert PDFs into data/ and
 verify page-1 headers.
 
-Usage: python3 scripts/cs/download.py phase1|phase2
-Writes/updates λ-cs/work/manifest_cs.json. Prints counts only.
+Usage: python3 hub/scripts/cs/download.py phase1|phase2
+Writes/updates λ-cs/build/work/manifest_cs.json. Prints counts only.
 """
 import os, re, subprocess, sys, time
 from concurrent.futures import ThreadPoolExecutor

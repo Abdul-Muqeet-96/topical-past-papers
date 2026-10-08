@@ -2,8 +2,8 @@
 answer lines with white rectangles, so the dots stay in the text layer; a dot-run word is
 'visible' if the rendered pixels inside its box contain ink."""
 import pymupdf as f, json, re
-d=f.open('Δ-chemistry/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf')
-bi=json.load(open('audit/out/book_items.json')); seq=sorted(bi,key=lambda i:(i['page'],i['y']))
+d=f.open('Δ-chemistry/booklets/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf')
+bi=json.load(open('hub/audit/out/book_items.json')); seq=sorted(bi,key=lambda i:(i['page'],i['y']))
 import bisect; keys=[(i['page'],i['y']) for i in seq]
 vis=[]; hidden=0
 Z=100/72
@@ -19,7 +19,7 @@ for i in range(len(d)):
             k=bisect.bisect_right(keys,(i+1,w[1]))-1
             vis.append({'page':i+1,'ref':seq[k]['ref'] if k>=0 else None,'side':seq[k]['side'] if k>=0 else None,'word':w[4][:30],'ink':round(dark/area,3)})
         else: hidden+=1
-json.dump(vis,open('audit/out/dots_visible.json','w'),indent=0)
+json.dump(vis,open('hub/audit/out/dots_visible.json','w'),indent=0)
 from collections import Counter
 print('dot runs hidden',hidden,'; visible',len(vis),Counter(v['side'] for v in vis)); 
 for v in vis[:20]: print(v)

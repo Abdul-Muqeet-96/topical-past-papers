@@ -1,4 +1,4 @@
-"""Check 1b: download 10 random source PDFs again (seed 9618) and compare them byte for byte with data/.
+"""Check 1b: download 10 random source PDFs again (seed 9618) and compare them byte for byte with hub/data/.
 Files re-written by the download site carry a per-download trace ID; for those the comparison is
 repeated on the page text."""
 import hashlib, os, random, re, subprocess, sys

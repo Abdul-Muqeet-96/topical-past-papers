@@ -2,7 +2,7 @@
 reads part labels (compact '2(b)(ii)' or separate q/letter/roman columns), and marks from the
 Marks column (and a Total / part-total column where the old layouts have one)."""
 import pymupdf as f, re, json, sys
-sys.path.insert(0,'audit/scripts'); from a03_lines import lines
+sys.path.insert(0,'hub/audit/scripts'); from a03_lines import lines
 ROM='i|ii|iii|iv|v|vi|vii|viii|ix|x'
 CMP=re.compile(r'(\d{1,2})((?:\([a-z]\))?)((?:\((?:%s)\))?)(?:\((?:%s)\))?$'%(ROM,ROM))
 def num(t):
@@ -120,20 +120,20 @@ def collapse(res):
         out[q]=o
     return out
 if __name__=='__main__':
-    src=json.load(open('audit/out/sources.json')); out={}
+    src=json.load(open('hub/audit/out/sources.json')); out={}
     for r in src:
         if r['type']!='ms' or r['status']=='MISSING': continue
         key=f"{r['series']}{r['year']:02d}_{r['variant']}"
         res=parse_ms(r['file']); out[key]={'parts':collapse(res),'qtot':res['qtot']}
-    json.dump(out,open('audit/out/ms_parse.json','w'))
-    qp=json.load(open('audit/out/qp_parse.json'))
+    json.dump(out,open('hub/audit/out/ms_parse.json','w'))
+    qp=json.load(open('hub/audit/out/qp_parse.json'))
     nq=bad=0; rows=[]
     for k in sorted(qp):
         for q,P in qp[k]['parts'].items():
             nq+=1; qt=qp[k]['totals'][q][0]; ms=out.get(k,{}).get('parts',{}).get(int(q),{})
             mt=sum(ms.values())
             if mt!=qt: bad+=1; rows.append((k,q,qt,mt))
-    json.dump(rows,open('audit/out/ms_q_mismatch.json','w'))
+    json.dump(rows,open('hub/audit/out/ms_q_mismatch.json','w'))
     print(nq,'questions;',bad,'MS total != QP total')
     from collections import Counter; print(Counter(r[0][:1]+r[0][1:3] for r in rows))
     for r in rows[:60]: print(r)

@@ -2,7 +2,7 @@
 (integers at the left margin that are not program text), lettered parts, roman sub-parts, [n] marks
 and [Total: n], in reading order, plus the total printed on the cover. Fonts (not character
 advances) are used to tell code from prose, and the download-site stamps are skipped by size/position,
-so nothing is shared with scripts/cs/parse.py."""
+so nothing is shared with hub/scripts/cs/parse.py."""
 import re, sys
 from collections import Counter
 import pymupdf as f

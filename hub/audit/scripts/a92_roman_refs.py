@@ -1,7 +1,7 @@
 """Check 7b: references to sibling roman sub-parts ('in (ii)', 'your answer to (i)', 'from (ii) and
 (iii)') whose sub-part is not shown in the item (no line starting with that label)."""
 import json, re
-IT=json.load(open('audit/out/item_text.json')); out=[]
+IT=json.load(open('hub/audit/out/item_text.json')); out=[]
 for k,v in IT.items():
     if v['side']!='Q': continue
     t=v['text']
@@ -14,5 +14,5 @@ for k,v in IT.items():
                 out.append({'ref':v['ref'],'page':v['page'],'missing':f'({g})','fallback_given':fallback,'snippet':ctx})
 seen={}
 for o in out: seen.setdefault((o['ref'],o['missing']),o)
-rows=list(seen.values()); json.dump(rows,open('audit/out/roman_refs.json','w'),indent=0)
+rows=list(seen.values()); json.dump(rows,open('hub/audit/out/roman_refs.json','w'),indent=0)
 print(len(rows)); [print(r['ref'],r['page'],r['missing'],'fallback' if r['fallback_given'] else '','|',r['snippet']) for r in rows]

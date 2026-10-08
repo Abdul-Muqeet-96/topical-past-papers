@@ -4,9 +4,9 @@ page, BBox = clip) on every book page; map each band to its source page by text 
 item's own paper, (c) footer/header text inside a band."""
 import pymupdf as f, json, re, sys, glob
 from collections import defaultdict, Counter
-B='Δ-chemistry/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf'
+B='Δ-chemistry/booklets/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf'
 d=f.open(B)
-bi=json.load(open('audit/out/book_items.json'))
+bi=json.load(open('hub/audit/out/book_items.json'))
 SER={'M/J':'s','O/N':'w','MAR':'m'}
 def pk(ref): m=re.match(r'(M/J|O/N|MAR) (\d\d)/P(\d\d)',ref); return f"{SER[m.group(1)]}{m.group(2)}",m.group(3)
 heads=defaultdict(list)
@@ -45,7 +45,7 @@ for pno in range(len(d)):
 print('bands',len(bands))
 # map fullpage xref -> (file,page) using text overlap within the item's paper (qp for Q side, ms for A side, try both)
 def candidates(ref):
-    s,v=pk(ref); return [f'data/9701_{s}_qp_{v}.pdf',f'data/9701_{s}_ms_{v}.pdf']
+    s,v=pk(ref); return [f'hub/data/9701_{s}_qp_{v}.pdf',f'hub/data/9701_{s}_ms_{v}.pdf']
 fptext=defaultdict(str); fpref={}
 for b in bands: fptext[b['fp']]+=' '+b['text']; fpref.setdefault(b['fp'],b['ref'])
 fpsrc={}
@@ -82,6 +82,6 @@ for b in bands:
     t=[c[0]*k,(841.89-c[3])*k,c[2]*k,(841.89-c[1])*k]
     b['clip']=[t[0],Hr-t[3],t[2],Hr-t[1]]; b['scaled']=k
 print('re-scaled papers',{k:round(v,3) for k,v in kcache.items() if v!=1.0})
-json.dump({'bands':bands,'fpsrc':{str(k):v for k,v in fpsrc.items()}},open('audit/out/bands.json','w'))
+json.dump({'bands':bands,'fpsrc':{str(k):v for k,v in fpsrc.items()}},open('hub/audit/out/bands.json','w'))
 lo=[(fp,v) for fp,v in fpsrc.items() if v and v['overlap']<0.8]
 print('source pages placed',len(fpsrc),'; low-overlap mappings',len(lo), lo[:5])

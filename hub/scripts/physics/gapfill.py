@@ -15,7 +15,7 @@ from extract import build_question
 from map_booklet import UNIT_TO_TOPIC
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-WORK = os.path.join(ROOT, "Ω-physics", "work")
+WORK = os.path.join(ROOT, "Ω-physics", "build", "work")
 DATA = os.path.join(ROOT, "hub", "data")
 SER = {"M/J": "s", "O/N": "w", "MAR": "m"}
 RE_REF = re.compile(r"^\s*(M\s*[/iI1l]?\s*J|[O0]\s*[/iI1l]?\s*N|MAR)\s*(\d\d)\s*/\s*P(\d\d)\s*/\s*Q(\d+)\s*$")

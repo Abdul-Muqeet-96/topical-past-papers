@@ -1,6 +1,6 @@
 # Fix report — approved audit findings
 
-Branch `claude/audit-fixes` (from `audit-report`). Approved: every finding except A-021, A-025, A-026; decisions D1–D8 as recommended. Method: fix the build pipeline, rebuild everything from the source PDFs, then re-run the build's own checks and the independent audit scripts (`audit/scripts`). The original audit results stay unchanged on the `audit-report` branch.
+Branch `claude/audit-fixes` (from `audit-report`). Approved: every finding except A-021, A-025, A-026; decisions D1–D8 as recommended. Method: fix the build pipeline, rebuild everything from the source PDFs, then re-run the build's own checks and the independent audit scripts (`hub/audit/scripts`). The original audit results stay unchanged on the `audit-report` branch.
 
 ## Book before → after
 

@@ -1,7 +1,7 @@
 """Check 2/3: the independent QP and MS parses against each other and against the build.
  a. question numbers 1..n once each; margin marks add up to the cover total; [Total] where printed;
  b. per leaf: QP marks = MS marks (independent parsers on both sides);
- c. the build's parts (λ-cs/work/parts_*.json): same questions, same leaves, same marks;
+ c. the build's parts (λ-cs/build/work/parts_*.json): same questions, same leaves, same marks;
  d. the build's question exclusions (checks_*.json) against the independent result."""
 import json, re, sys
 from collections import Counter, defaultdict
@@ -11,8 +11,8 @@ QP, MS = jl("qp_parse.json"), jl("ms_parse.json")
 out = {"paper": {}, "leaf_mismatch": [], "build_diff": [], "q_mismatch": []}
 P, CH = {}, {}
 for ph in ("phase1", "phase2"):
-    P.update(json.load(open(os.path.join(CS, "work", f"parts_{ph}.json"))))
-    CH.update(json.load(open(os.path.join(CS, "work", f"checks_{ph}.json"))))
+    P.update(json.load(open(os.path.join(CS, "build", "work", f"parts_{ph}.json"))))
+    CH.update(json.load(open(os.path.join(CS, "build", "work", f"checks_{ph}.json"))))
 n_leaf = n_ok = 0
 for k in sorted(QP):
     if k not in MS:

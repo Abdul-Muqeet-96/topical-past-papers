@@ -2,7 +2,7 @@
 usage: heading_strips.py out.png pdfpage:y0:y1[:label] ..."""
 import sys, pymupdf
 from PIL import Image, ImageDraw
-d = pymupdf.open("Ω-physics/Physics paper 2 9702 3.pdf")
+d = pymupdf.open("Ω-physics/reference/Physics paper 2 9702 3.pdf")
 ims = []
 for a in sys.argv[2:]:
     p, y0, y1, *lab = a.split(":")

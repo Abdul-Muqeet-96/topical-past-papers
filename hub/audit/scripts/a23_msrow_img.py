@@ -1,6 +1,6 @@
 """Audit helper: render the MS page region around a row label (visual evidence)."""
 import pymupdf as f, sys
-sys.path.insert(0,'audit/scripts'); from a03_lines import lines
+sys.path.insert(0,'hub/audit/scripts'); from a03_lines import lines
 fn,label,out=sys.argv[1],sys.argv[2],sys.argv[3]; h=float(sys.argv[4]) if len(sys.argv)>4 else 160
 d=f.open(fn)
 for i,p in enumerate(d):

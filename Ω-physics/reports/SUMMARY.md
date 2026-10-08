@@ -29,23 +29,23 @@ Book: 932 pages. Part B: 22 papers (24 attempted; s26 v21 has no mark scheme; O/
 
 | File | Size |
 |---|---|
-| Ω-physics/p2-topical-workbook/Physics-9702-P2-Topical-Workbook.pdf (932 pages) | 36.3 MB |
-| Ω-physics/p2-topical-workbook/units/Unit-01-Physical-quantities-and-units.pdf | 6.4 MB |
-| Ω-physics/p2-topical-workbook/units/Unit-02-Kinematics.pdf | 6.8 MB |
-| Ω-physics/p2-topical-workbook/units/Unit-03-Dynamics.pdf | 8.2 MB |
-| Ω-physics/p2-topical-workbook/units/Unit-04-Forces-density-and-pressure.pdf | 7.1 MB |
-| Ω-physics/p2-topical-workbook/units/Unit-05-Work-energy-and-power.pdf | 5.8 MB |
-| Ω-physics/p2-topical-workbook/units/Unit-06-Deformation-of-solids.pdf | 8.1 MB |
-| Ω-physics/p2-topical-workbook/units/Unit-07-Waves.pdf | 5.7 MB |
-| Ω-physics/p2-topical-workbook/units/Unit-08-Superposition.pdf | 7.1 MB |
-| Ω-physics/p2-topical-workbook/units/Unit-09-Electricity.pdf | 6.2 MB |
-| Ω-physics/p2-topical-workbook/units/Unit-10-DC-circuits.pdf | 6.6 MB |
-| Ω-physics/p2-topical-workbook/units/Unit-11-Particle-physics.pdf | 5.8 MB |
-| Ω-physics/p2-topical-workbook/index.csv | 23 KB |
-| Ω-physics/p2-topical-workbook/items.jsonl | 1.1 MB |
-| Ω-physics/topics.json | 0.4 MB |
-| Ω-physics/booklet-ocr.pdf | 24.1 MB |
-| Ω-physics/report.md | 29 KB |
+| Ω-physics/booklets/p2-topical-workbook/Physics-9702-P2-Topical-Workbook.pdf (932 pages) | 36.3 MB |
+| Ω-physics/booklets/p2-topical-workbook/units/Unit-01-Physical-quantities-and-units.pdf | 6.4 MB |
+| Ω-physics/booklets/p2-topical-workbook/units/Unit-02-Kinematics.pdf | 6.8 MB |
+| Ω-physics/booklets/p2-topical-workbook/units/Unit-03-Dynamics.pdf | 8.2 MB |
+| Ω-physics/booklets/p2-topical-workbook/units/Unit-04-Forces-density-and-pressure.pdf | 7.1 MB |
+| Ω-physics/booklets/p2-topical-workbook/units/Unit-05-Work-energy-and-power.pdf | 5.8 MB |
+| Ω-physics/booklets/p2-topical-workbook/units/Unit-06-Deformation-of-solids.pdf | 8.1 MB |
+| Ω-physics/booklets/p2-topical-workbook/units/Unit-07-Waves.pdf | 5.7 MB |
+| Ω-physics/booklets/p2-topical-workbook/units/Unit-08-Superposition.pdf | 7.1 MB |
+| Ω-physics/booklets/p2-topical-workbook/units/Unit-09-Electricity.pdf | 6.2 MB |
+| Ω-physics/booklets/p2-topical-workbook/units/Unit-10-DC-circuits.pdf | 6.6 MB |
+| Ω-physics/booklets/p2-topical-workbook/units/Unit-11-Particle-physics.pdf | 5.8 MB |
+| Ω-physics/booklets/p2-topical-workbook/index.csv | 23 KB |
+| Ω-physics/booklets/p2-topical-workbook/items.jsonl | 1.1 MB |
+| Ω-physics/build/topics.json | 0.4 MB |
+| Ω-physics/reference/booklet-ocr.pdf | 24.1 MB |
+| Ω-physics/reports/report.md | 29 KB |
 
 No file exceeds 95 MB, so everything is pushed. Unit PDFs keep the book's page numbers (they match index.csv).
 

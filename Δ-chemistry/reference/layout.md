@@ -1,8 +1,8 @@
 # layout.md — template derived from the Physics booklet
 
-Source studied: `Ω-physics/Physics paper 2 9702 3.pdf` (scanned, 550 pages, no
+Source studied: `Ω-physics/reference/Physics paper 2 9702 3.pdf` (scanned, 550 pages, no
 text layer). Page roles were found from 14-dpi contact sheets of pages 1–40
-(`scripts/thumbs.py`), then pages 5, 6 and 30 were viewed at 55 dpi.
+(`hub/scripts/thumbs.py`), then pages 5, 6 and 30 were viewed at 55 dpi.
 
 ## What the Physics booklet does
 | Page role | Found at | Observed design |

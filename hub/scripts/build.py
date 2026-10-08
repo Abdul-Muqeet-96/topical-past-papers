@@ -1,6 +1,6 @@
 """Stage 6/8: build the workbook PDF, per-unit PDFs and index.csv.
 
-Usage: python3 scripts/build.py OUTDIR phase1 [phase2 ...]
+Usage: python3 hub/scripts/build.py OUTDIR phase1 [phase2 ...]
 Layout follows layout.md. Contents page numbers are filled after the body is
 rendered (front pages are reserved first), so they are exact.
 """
@@ -263,8 +263,8 @@ def build(outdir, phases):
     docs = Docs()
     items, parts = [], {}
     for ph in phases:
-        items += json.load(open(os.path.join(ROOT, "Δ-chemistry", "work", f"items_{ph}.json")))
-        parts.update(json.load(open(os.path.join(ROOT, "Δ-chemistry", "work", f"parts_{ph}.json"))))
+        items += json.load(open(os.path.join(ROOT, "Δ-chemistry", "build", "work", f"items_{ph}.json")))
+        parts.update(json.load(open(os.path.join(ROOT, "Δ-chemistry", "build", "work", f"parts_{ph}.json"))))
     by_unit = defaultdict(list)
     for it in items:
         by_unit[it["topic"]].append(it)
@@ -399,7 +399,7 @@ def build(outdir, phases):
                                  "text": text_of(docs(P["qp"]), item_regions(it, Q))},
                                 ensure_ascii=False) + "\n")
     json.dump({"pages": out.page_count, "ref_pages": ref_pages, "unit_ranges": unit_ranges,
-               "contents": rows}, open(os.path.join(ROOT, "Δ-chemistry", "work", "build_info.json"), "w"), indent=0)
+               "contents": rows}, open(os.path.join(ROOT, "Δ-chemistry", "build", "work", "build_info.json"), "w"), indent=0)
     print(f"book pages {out.page_count}, items {len(items)}, size {os.path.getsize(book)/1e6:.1f} MB")
 
 

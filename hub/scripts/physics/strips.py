@@ -2,7 +2,7 @@
 usage: strips.py out.png dpi x1 page[:y0-y1] ...   (1-based pdf pages, y in pt)"""
 import sys, pymupdf
 from PIL import Image, ImageDraw
-d = pymupdf.open("Ω-physics/Physics paper 2 9702 3.pdf")
+d = pymupdf.open("Ω-physics/reference/Physics paper 2 9702 3.pdf")
 out, dpi, x1 = sys.argv[1], int(sys.argv[2]), float(sys.argv[3])
 ims = []
 for a in sys.argv[4:]:

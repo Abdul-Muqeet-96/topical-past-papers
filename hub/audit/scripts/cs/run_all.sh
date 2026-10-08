@@ -1,6 +1,6 @@
 #!/bin/sh
 # Run every automated check of the CS self-check, in order. Usage: run_all.sh [--probe]
-# Output: audit/out/cs/run.log (and one JSON per check). The marker audit/out/cs/run.done is
+# Output: hub/audit/out/cs/run.log (and one JSON per check). The marker hub/audit/out/cs/run.done is
 # written when everything has finished.
 cd "$(dirname "$0")"
 O=../../out/cs

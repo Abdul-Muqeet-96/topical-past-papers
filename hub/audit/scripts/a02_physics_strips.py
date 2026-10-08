@@ -5,7 +5,7 @@ whole 550-page scan, a02_physics_ocr.py, was attempted first and was far too slo
 usage: a02_physics_strips.py out.png page page ...   (1-based PDF pages)"""
 import pymupdf as f, sys
 from PIL import Image, ImageDraw
-d = f.open('Ω-physics/Physics paper 2 9702 3.pdf')
+d = f.open('Ω-physics/reference/Physics paper 2 9702 3.pdf')
 out = sys.argv[1]; pages = [int(x) for x in sys.argv[2:]]
 ims = []
 for p in pages:

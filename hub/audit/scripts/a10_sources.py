@@ -14,7 +14,7 @@ SER={'m':('February/March','March'),'s':('May/June',),'w':('October/November',)}
 rows=[]
 for s,y,v in expected():
     for t in ('qp','ms'):
-        fn=f'data/9701_{s}{y}_{t}_{v}.pdf'; r={'file':fn,'series':s,'year':y,'variant':v,'type':t,'phase':1 if (y>22 or (y==22)) else 2}
+        fn=f'hub/data/9701_{s}{y}_{t}_{v}.pdf'; r={'file':fn,'series':s,'year':y,'variant':v,'type':t,'phase':1 if (y>22 or (y==22)) else 2}
         if not os.path.exists(fn): r['status']='MISSING'; rows.append(r); continue
         try: d=f.open(fn)
         except Exception as e: r['status']='UNREADABLE'; rows.append(r); continue

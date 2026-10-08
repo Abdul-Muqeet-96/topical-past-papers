@@ -1,11 +1,11 @@
-"""Write λ-cs/report.md and λ-cs/SUMMARY.md from the manifest, checks, logs
+"""Write λ-cs/reports/report.md and λ-cs/reports/SUMMARY.md from the manifest, checks, logs
 and build info. Sections whose data does not exist yet (later stages) are
 left out, so the report is accurate at every stage.
 
-Hand-kept inputs (never generated): λ-cs/work/auto_decided.json (rows of the
+Hand-kept inputs (never generated): λ-cs/build/work/auto_decided.json (rows of the
 AUTO-DECIDED table that are decisions rather than data), and
-λ-cs/work/notes_layout.md / notes_open.md (inspection log, open issues).
-Usage: python3 scripts/cs/reports.py
+λ-cs/build/work/notes_layout.md / notes_open.md (inspection log, open issues).
+Usage: python3 hub/scripts/cs/reports.py
 """
 import os, sys
 from collections import Counter, defaultdict
@@ -251,13 +251,13 @@ def main():
     nl = read("notes_layout.md")
     if nl:
         R += ["## Layout and visual checks", "", nl, ""]
-    open(os.path.join(CS, "report.md"), "w").write("\n".join(R) + "\n")
+    open(os.path.join(CS, "reports", "report.md"), "w").write("\n".join(R) + "\n")
 
     # ---------- SUMMARY ----------
     S = ["# SUMMARY: Computer Science 9618 Paper 1 and Paper 2 part-level topical workbooks", ""]
-    st = jload(os.path.join(CS, "state_cs.json"), {"stages": {}})
+    st = jload(os.path.join(CS, "build", "state_cs.json"), {"stages": {}})
     done = [k for k, v in sorted(st["stages"].items(), key=lambda kv: int(kv[0])) if v == "done"]
-    S += [f"Stages finished: {', '.join(done) or 'none'} (see `λ-cs/state_cs.json`). "
+    S += [f"Stages finished: {', '.join(done) or 'none'} (see `λ-cs/build/state_cs.json`). "
           f"Books contain: {', '.join(PHNAME[p] for p in built) or 'not built yet'}.", ""]
     S += ["## Papers", "", "| | " + " | ".join(PHNAME[p] for p in phases) + " | Total |",
           "|---|" + "---|" * (len(phases) + 1)]
@@ -316,7 +316,7 @@ def main():
                 p = os.path.join(OUT[b], n)
                 S.append(f"| {rel(p)} | {size(p)} |")
             big += [rel(p) for p in fl if os.path.getsize(p) > 95e6]
-        for p in [os.path.join(CS, "report.md"), os.path.join(CS, "layout.md"),
+        for p in [os.path.join(CS, "reports", "report.md"), os.path.join(CS, "reference", "layout.md"),
                   os.path.join(ROOT, "hub", "audit", "CS_CHECK.md")]:
             if os.path.exists(p):
                 S.append(f"| {rel(p)} | {size(p)} |")
@@ -328,7 +328,7 @@ def main():
                   "(so they match index.csv).", ""]
     no = read("notes_open.md")
     S += ["## What is still open", "", no or "- Nothing recorded yet.", ""]
-    open(os.path.join(CS, "SUMMARY.md"), "w").write("\n".join(S) + "\n")
+    open(os.path.join(CS, "reports", "SUMMARY.md"), "w").write("\n".join(S) + "\n")
     print("report.md and SUMMARY.md written")
 
 

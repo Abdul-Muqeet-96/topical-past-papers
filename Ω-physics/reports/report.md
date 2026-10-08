@@ -1,6 +1,6 @@
 # Report — Physics 9702 Paper 2 topical workbook
 
-Two sources (spec `Ω-physics/CLAUDE-physics.md`): **Part A** = the scanned Read and Write booklet (papers up to 2023; its items and answers used as they are, cropped from the OCR'd scan `Ω-physics/booklet-ocr.pdf`), **Part B** = official papers (O/N 2023, all 2024–2026 papers listed in the spec), built with the Chemistry pipeline. Nothing was retyped: every question and answer in the book is a crop of the scan or a vector clip of the official PDF.
+Two sources (spec `Ω-physics/reference/CLAUDE-physics.md`): **Part A** = the scanned Read and Write booklet (papers up to 2023; its items and answers used as they are, cropped from the OCR'd scan `Ω-physics/reference/booklet-ocr.pdf`), **Part B** = official papers (O/N 2023, all 2024–2026 papers listed in the spec), built with the Chemistry pipeline. Nothing was retyped: every question and answer in the book is a crop of the scan or a vector clip of the official PDF.
 
 ## AUTO-DECIDED
 
@@ -65,7 +65,7 @@ Two sources (spec `Ω-physics/CLAUDE-physics.md`): **Part A** = the scanned Read
 
 ## Part B paper-level verification
 
-Checks per paper (scripts/physics/check_papers.py): every question once, [Total] = sum of part marks, totals = 60, MS marks = QP total per question, reference from the paper's own header.
+Checks per paper (hub/scripts/physics/check_papers.py): every question once, [Total] = sum of part marks, totals = 60, MS marks = QP total per question, reference from the paper's own header.
 
 | Paper | Questions | Result |
 |---|---|---|
@@ -111,7 +111,7 @@ Thin units (< 5 items): none.
 
 ## Part A: booklet light check (report only)
 
-Source: `Ω-physics/Physics paper 2 9702 3.pdf` (550 scanned pages), OCR'd into `Ω-physics/booklet-ocr.pdf` (scripts/physics/ocr_booklet.py). Map: scripts/physics/map_booklet.py; checks: scripts/physics/booklet_check.py (results in work/booklet_check.json).
+Source: `Ω-physics/reference/Physics paper 2 9702 3.pdf` (550 scanned pages), OCR'd into `Ω-physics/reference/booklet-ocr.pdf` (hub/scripts/physics/ocr_booklet.py). Map: hub/scripts/physics/map_booklet.py; checks: hub/scripts/physics/booklet_check.py (results in work/booklet_check.json).
 
 ### Contents page vs pages
 
@@ -244,5 +244,5 @@ Printed marks were read from each item's right margin (OCR at 300 dpi) and compa
 - Coverage (Part B): every lowest-level part of every included question is in exactly one item: unexplained gaps 0, duplicates 0.
 - Self-containment re-check: 0 failures; context recomputed identically (0 mismatches). Marks re-check (item [marks] = MS marks): 0 failures.
 - Every item's reference is on its indexed page (official 0 misses, booklet 0 misses) and appears with an answer entry and an index row (official 0 misses, booklet 0 misses). Booklet items in the book: 371/371.
-- Full self-check with every audit-derived check: `audit/PHYSICS_CHECK.md` (not yet written).
+- Full self-check with every audit-derived check: `hub/audit/PHYSICS_CHECK.md` (not yet written).
 

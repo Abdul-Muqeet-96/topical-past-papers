@@ -5,7 +5,7 @@ crossing it), that line is cut and the figure shows a white break. Checked on th
 150 dpi, inside the band's x-range only (margin text excluded), ignoring the light watermark."""
 import pymupdf as f, json
 from collections import defaultdict
-o=json.load(open('audit/out/bands.json')); fps=o['fpsrc']; cache={}; rend={}
+o=json.load(open('hub/audit/out/bands.json')); fps=o['fpsrc']; cache={}; rend={}
 def page(fn,i):
     if fn not in cache: cache[fn]=f.open(fn)
     return cache[fn][i]
@@ -37,7 +37,7 @@ for (ref,side,fn,pi),bs in grp.items():
         lines=[l for l in lines if len(l)<=6]   # thin vertical strokes only (not filled boxes)
         if lines:
             out.append({'ref':ref,'side':side,'src':fn.split('/')[-1],'srcpage':pi+1,'dropped_y':[round(g0,1),round(g1,1)],'vertical_lines_cut':len(lines),'bookpage':b[4]})
-json.dump(out,open('audit/out/split_gaps.json','w'),indent=0)
+json.dump(out,open('hub/audit/out/split_gaps.json','w'),indent=0)
 from collections import Counter
 items=sorted(set((x['ref'],x['side']) for x in out))
 print(len(out),'dropped strips cutting vertical lines in',len(items),'items/answers',Counter(s for _,s in items))

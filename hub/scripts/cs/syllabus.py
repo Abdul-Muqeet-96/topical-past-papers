@@ -1,19 +1,19 @@
 """Extract units, sections and learning outcomes (AS content, units 1-12) from
-λ-cs/cs-syllabus.pdf (text layer; nothing is typed by hand).
+λ-cs/reference/cs-syllabus.pdf (text layer; nothing is typed by hand).
 
-Writes λ-cs/work/syllabus.json:
+Writes λ-cs/build/work/syllabus.json:
   {"units": {"1": name, ...}, "sections": {"1.1": name, ...},
    "los": {"1.1.1": {"section": "1.1", "text": "...", "notes": "..."}, ...}}
 Each learning outcome is one "Candidates should be able to" statement (left
 column); "notes" is the "Notes and guidance" text printed beside it.
-Usage: python3 scripts/cs/syllabus.py [--print]
+Usage: python3 hub/scripts/cs/syllabus.py [--print]
 """
 import os, re, sys
 import pymupdf
 sys.path.insert(0, os.path.dirname(__file__))
 from paths import CS, work, jdump
 
-PDF = os.path.join(CS, "cs-syllabus.pdf")
+PDF = os.path.join(CS, "reference", "cs-syllabus.pdf")
 MIDX = 300        # left column: learning outcomes; right column: notes and guidance
 
 

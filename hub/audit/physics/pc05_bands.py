@@ -44,8 +44,8 @@ for b in bands:
 fpside = {}
 for b in bands:
     fpside.setdefault(b['fp'], b['side'])
-_g = json.load(open(f'{ROOT}/Ω-physics/work/gapfill.json'))
-_bref = {f"B{i['unit']}-{i['n']}": i['ref'] for i in json.load(open(f'{ROOT}/Ω-physics/work/booklet_items.json'))}
+_g = json.load(open(f'{ROOT}/Ω-physics/build/work/gapfill.json'))
+_bref = {f"B{i['unit']}-{i['n']}": i['ref'] for i in json.load(open(f'{ROOT}/Ω-physics/build/work/booklet_items.json'))}
 GAPFILLED = {(_bref[k], 'Q') for k in _g['replace_q']} | {(_bref[k], 'A') for k in _g['replace_a']} | \
     {(o['ref'], sd) for o in _g['lost'] for sd in 'QA'}
 fpsrc = {}

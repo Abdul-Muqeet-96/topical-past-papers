@@ -77,7 +77,7 @@
  {
   "item": "Tags",
   "issue": "The spec asks for unit, section and learning outcome per part",
-  "action": "Learning outcomes are the \"Candidates should be able to\" statements of `λ-cs/cs-syllabus.pdf`, extracted by `scripts/cs/syllabus.py` and numbered in print order (1.2.3 = third outcome of section 1.2). A tag is one such id"
+  "action": "Learning outcomes are the \"Candidates should be able to\" statements of `λ-cs/reference/cs-syllabus.pdf`, extracted by `scripts/cs/syllabus.py` and numbered in print order (1.2.3 = third outcome of section 1.2). A tag is one such id"
  },
  {
   "item": "items.jsonl",

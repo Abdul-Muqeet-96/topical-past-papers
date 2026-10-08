@@ -1,7 +1,7 @@
-"""Check 8 TOPICS. Compares the blind re-tag (audit/out/cs/blind/tags.txt: item number, unit, and
+"""Check 8 TOPICS. Compares the blind re-tag (hub/audit/out/cs/blind/tags.txt: item number, unit, and
 where the item legitimately spans two units a second acceptable unit) with the unit each item is
 filed under. Every disagreement is written out with the item's parts and their learning outcomes,
-to be resolved by reading (audit/out/cs/blind/resolved.txt holds the verdicts)."""
+to be resolved by reading (hub/audit/out/cs/blind/resolved.txt holds the verdicts)."""
 import json, re, sys
 from collections import Counter, defaultdict
 from c00_common import *

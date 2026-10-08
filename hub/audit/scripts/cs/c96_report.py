@@ -1,4 +1,4 @@
-"""Check REPORT ACCURACY: the figures printed in λ-cs/SUMMARY.md and λ-cs/report.md against the
+"""Check REPORT ACCURACY: the figures printed in λ-cs/reports/SUMMARY.md and λ-cs/reports/report.md against the
 audit's own counts (book pages read back from the PDFs, index.csv, the audit's paper parsers).
 Writes report_accuracy.json: one row per figure compared, with ok true/false."""
 import csv, json, re
@@ -13,8 +13,8 @@ def cmp(what, printed, counted):
     rows.append({"what": what, "printed": printed, "counted": counted, "ok": printed == counted})
 
 
-S = open(os.path.join(CS, "SUMMARY.md")).read()
-R = open(os.path.join(CS, "report.md")).read()
+S = open(os.path.join(CS, "reports", "SUMMARY.md")).read()
+R = open(os.path.join(CS, "reports", "report.md")).read()
 
 
 def table(title):
@@ -117,11 +117,11 @@ for book in (1, 2):
 cov = jl("coverage.json")
 cmp("report.md: exclusion rows that match no part of a verified paper", 0, len(cov["stale_report_rows"]))
 cmp("report.md: parts listed as excluded but present in a book", 0, len(cov["listed_and_included"]))
-auto = json.load(open(os.path.join(CS, "work", "auto_decided.json")))
+auto = json.load(open(os.path.join(CS, "build", "work", "auto_decided.json")))
 sec = R.split("## AUTO-DECIDED")[1].split("\n## ")[0]
 cmp("report.md AUTO-DECIDED: every hand-kept decision row is printed", len(auto), sum(1 for a in auto if f"| {a['item']} |" in sec))
 m = re.search(r"Stages finished: ([\d, ]+)", S)
-state = json.load(open(os.path.join(CS, "state_cs.json")))
+state = json.load(open(os.path.join(CS, "build", "state_cs.json")))
 done = sorted(int(k) for k, v in state["stages"].items() if v == "done")
 cmp("SUMMARY: stages finished = state_cs.json", [int(x) for x in m.group(1).replace(" ", "").split(",") if x], done)
 jd(rows, "report_accuracy.json", 0)

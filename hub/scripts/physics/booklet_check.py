@@ -1,8 +1,8 @@
 """Part A step 6: light check of the booklet (report only).
 
-  python3 scripts/physics/booklet_check.py select   -> Ω-physics/work/booklet_sample.json, prints papers
-  python3 scripts/physics/booklet_check.py marks    -> compares printed [marks] with the official QPs
-  python3 scripts/physics/booklet_check.py summary  -> Ω-physics/work/booklet_check.json (all checks)
+  python3 hub/scripts/physics/booklet_check.py select   -> Ω-physics/build/work/booklet_sample.json, prints papers
+  python3 hub/scripts/physics/booklet_check.py marks    -> compares printed [marks] with the official QPs
+  python3 hub/scripts/physics/booklet_check.py summary  -> Ω-physics/build/work/booklet_check.json (all checks)
 
 Printed marks of a sampled item are read from its right margin: the margin strip of
 every item region is OCR'd again at 300 dpi with a bracket/digit whitelist.
@@ -15,7 +15,7 @@ from booklet_lines import region_text, printed_marks
 from map_booklet import CONTENTS, UNIT_TO_TOPIC, SRC
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-WORK = os.path.join(ROOT, "Ω-physics", "work")
+WORK = os.path.join(ROOT, "Ω-physics", "build", "work")
 SER_FILE = {"M/J": "s", "O/N": "w", "MAR": "m"}
 
 
@@ -122,7 +122,7 @@ def marks():
 
 
 
-# Verdicts of the side-by-side visual comparison (scripts/physics/side_by_side.py, 50 dpi,
+# Verdicts of the side-by-side visual comparison (hub/scripts/physics/side_by_side.py, 50 dpi,
 # booklet crop left, official QP right), recorded by the reviewer for all 55 sampled items.
 VISUAL = {
     "default": "text and figures match the official question; printed marks equal the official marks",

@@ -1,8 +1,8 @@
 """Check 9 BOOK STRUCTURE: contents vs real pages, running headers, page numbering, branding,
 newest-first order, bookmarks, Periodic Table appendix."""
 import json, re, pymupdf as f, sys
-B='Δ-chemistry/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf'
-d=f.open(B); bp=json.load(open('audit/out/book_parse.json')); bi=json.load(open('audit/out/book_items.json'))
+B='Δ-chemistry/booklets/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf'
+d=f.open(B); bp=json.load(open('hub/audit/out/book_parse.json')); bi=json.load(open('hub/audit/out/book_items.json'))
 F=[]; info={}
 # contents
 ct=d[1].get_text()+d[2].get_text()
@@ -53,5 +53,5 @@ for u in range(1,23):
 info['newest_first_violations']=len(order_bad); info['order_examples']=order_bad[:10]
 last=d[-1].get_text(); info['last_page_head']=last[:200]
 info['contents_fail']=F
-json.dump(info,open('audit/out/structure.json','w'),indent=1)
+json.dump(info,open('hub/audit/out/structure.json','w'),indent=1)
 for k,v in info.items(): print(k,':',str(v)[:400])

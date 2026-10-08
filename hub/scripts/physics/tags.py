@@ -1,4 +1,4 @@
-"""Parse Ω-physics/work/tags.txt ("pid Qn: a.i=3.1.4 b=6.1.5": 2025-27 AS learning outcome
+"""Parse Ω-physics/build/work/tags.txt ("pid Qn: a.i=3.1.4 b=6.1.5": 2025-27 AS learning outcome
 topic.section.outcome per lowest-level part) into a dict and check coverage against
 work/parts_<phase>.json. Usage: tags.py phase [--unknown]"""
 import json, os, re, sys
@@ -18,7 +18,7 @@ def key2lab(k):
 
 def load(phase):
     tags = {}
-    for line in open(os.path.join(ROOT, "Ω-physics", "work", "tags.txt")):
+    for line in open(os.path.join(ROOT, "Ω-physics", "build", "work", "tags.txt")):
         line = line.strip()
         if not line:
             continue
@@ -40,7 +40,7 @@ def leaves(P):
 
 if __name__ == "__main__":
     phase = sys.argv[1]
-    P = json.load(open(os.path.join(ROOT, "Ω-physics", "work", f"parts_{phase}.json")))
+    P = json.load(open(os.path.join(ROOT, "Ω-physics", "build", "work", f"parts_{phase}.json")))
     T = load(phase)
     lv = {(pid, Q["n"], lab) for pid, Q, L, lab in leaves(P)}
     missing = sorted(lv - set(T))

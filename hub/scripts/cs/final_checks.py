@@ -1,5 +1,5 @@
 """Re-run coverage, self-containment and marks checks on the final output
-(items as built + the two built PDFs). Writes λ-cs/work/final_checks.json and
+(items as built + the two built PDFs). Writes λ-cs/build/work/final_checks.json and
 prints counts only. Usage: final_checks.py phase1 [phase2]"""
 import os, sys
 from collections import defaultdict

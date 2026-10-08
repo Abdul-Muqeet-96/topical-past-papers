@@ -1,3 +1,3 @@
 # π Maths
 
-No booklet yet; only the syllabus (`maths-syllabus.pdf`). To build one, copy the pattern in `hub/PROMPT-*.md`.
+No booklet yet. `reference/` holds the syllabus. To build one, follow the pattern in `hub/PROMPT-*.md` and use the same `booklets/ reference/ reports/ build/` layout as the other subjects.

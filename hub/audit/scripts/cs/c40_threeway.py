@@ -16,9 +16,9 @@ tot = Counter()
 allrefs = Counter()
 work_items = []
 for ph in ("phase1", "phase2"):
-    work_items += json.load(open(os.path.join(CS, "work", f"items_{ph}.json")))
+    work_items += json.load(open(os.path.join(CS, "build", "work", f"items_{ph}.json")))
 wi = {i["ref"]: i for i in work_items}
-syl = json.load(open(os.path.join(CS, "work", "syllabus.json")))
+syl = json.load(open(os.path.join(CS, "build", "work", "syllabus.json")))
 for book in (1, 2):
     bp = jl(f"book_parse_p{book}.json")
     Q = [i for i in bp["items"] if i["side"] == "Q"]

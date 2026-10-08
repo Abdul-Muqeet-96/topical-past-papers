@@ -1,23 +1,23 @@
-"""Write audit/findings.csv from the audit evidence files (audit/out/*.json) plus the manually verified
+"""Write hub/audit/findings.csv from the audit evidence files (hub/audit/out/*.json) plus the manually verified
 observations recorded below. Item lists are computed from the evidence, not typed."""
 import csv, json
 
-bi = json.load(open('audit/out/book_items.json'))
+bi = json.load(open('hub/audit/out/book_items.json'))
 PG = {(i['ref'], i['side']): i['page'] for i in bi}
 def q(ref): return PG.get((ref, 'Q'))
 def a(ref): return PG.get((ref, 'A'))
 def fmt(refs, side='Q'):
     return '; '.join(f"{r} (p{PG.get((r, side))})" for r in refs)
 
-dropped = json.load(open('audit/out/dropped_ink.json'))
+dropped = json.load(open('hub/audit/out/dropped_ink.json'))
 A001 = sorted({x['ref'] for x in dropped if x['ref'].startswith('M/J 22/P21/Q3')})
 A002 = sorted({x['ref'] for x in dropped
                if not x['ref'].startswith('M/J 22/P21/Q3') and not x['ref'].startswith('M/J 24/P22')})
-furn = json.load(open('audit/out/furniture.json'))['furniture']
+furn = json.load(open('hub/audit/out/furniture.json'))['furniture']
 A005 = sorted({r['ref'] for r in furn if r['ref'].startswith('MAR 20')})
 A006 = sorted({r['ref'] for r in furn if r['ref'].startswith('M/J 24/P22')})
-dup = [d[0] for d in json.load(open('audit/out/context_blocks.json'))['dup']]
-tags = json.load(open('audit/out/tag_compare.json'))
+dup = [d[0] for d in json.load(open('hub/audit/out/context_blocks.json'))['dup']]
+tags = json.load(open('hub/audit/out/tag_compare.json'))
 dis = [t for t in tags if t['status'] == 'DISAGREE']
 
 F = []
@@ -121,9 +121,9 @@ add('A-020', 'Minor', '10 Text layer', 'Whole book',
     'Hidden text: 2,495 dotted answer-line runs remain in the text layer under white rectangles, so copying item text yields "......" noise. No items.jsonl exists and work/items_phase*.json carry no text, so "items.jsonl text matches PDF" cannot be verified.',
     'a75_dots.py (dot runs with no ink under them).', 'a75_dots.py',
     'Redact (not overlay) answer-line glyphs; optionally emit items.jsonl with each item\'s text.', 'automatic')
-add('A-021', 'Minor', '8 Topics', f"{len(dis)} items (list in audit/out/tag_compare.json)",
+add('A-021', 'Minor', '8 Topics', f"{len(dis)} items (list in hub/audit/out/tag_compare.json)",
     f'My blind re-tag disagrees with the build unit on {len(dis)} of 1,577 judged items (94.1% agreement; 158 not judged). 11 disagreements checked against the full item text: the build was right or defensible in all 11, so these are review suggestions, not errors. topics.json justifications cite the section (e.g. "9.2 ...") but not the learning-outcome number.',
-    'audit/out/my_tags.txt vs index.csv.', 'a100_owntext.py, a101_compare_tags.py, manual reading',
+    'hub/audit/out/my_tags.txt vs index.csv.', 'a100_owntext.py, a101_compare_tags.py, manual reading',
     'No change needed; optionally add learning-outcome numbers (e.g. 9.2.3) to justifications.', 'needs your choice')
 add('A-022', 'Cosmetic', '7 Self-containment', fmt(dup),
     'Figure 4.1 printed twice (once in the stem, again as "Context: Fig. 4.1").', 'Same caption line twice in item text.',
@@ -134,7 +134,7 @@ add('A-023', 'Cosmetic', '6 Crop quality', f"M/J 18/P22/Q4(d)(ii)-(iii) (p{q('M/
 add('A-024', 'Cosmetic', '6 Crop quality', f"M/J 26/P24/Q1(c) (p{q('M/J 26/P24/Q1(c)')})",
     'Unneeded context: Figure 1.3 (AlCl4- dot-and-cross) attached although (c) refers only to Figure 1.2.', 'Visual.', 'visual',
     'Only attach figures the part text references.', 'automatic')
-add('A-025', 'Cosmetic', '6 Crop quality', '94 pages (list in audit/out/space.json)',
+add('A-025', 'Cosmetic', '6 Crop quality', '94 pages (list in hub/audit/out/space.json)',
     'Large trailing white space (>350 pt) on 94 item pages because items never split; e.g. p8, p14, p23.', 'Pixel scan.', 'a74_space.py',
     'Optional: allow splitting long items at part boundaries.', 'needs your choice')
 add('A-026', 'Cosmetic', '10 File', 'Book + unit PDFs',
@@ -151,7 +151,7 @@ add('A-028', 'Major', 'Physics reference', '1,566 question items; 23 answers',
 add('A-029', 'Minor', 'Physics reference', '353 runs covering 865 items',
     'Adjacent parts of the same question filed in the same unit are separate items, each repeating stem and figures (e.g. O/N 16/P21/Q1(a)...(h) = 8 items in Unit 2; M/J 25/P21/Q5(a),(b),(c)(i) in Unit 18). The Physics booklet groups kept parts in one item ("Q2/a,b").',
     'Consecutive items in a unit from the same paper+question.', 'audit script inline (book_items.json)', 'Merge such runs into one item with one stem (see D3).', 'needs your choice')
-with open('audit/findings.csv', 'w', newline='') as fh:
+with open('hub/audit/findings.csv', 'w', newline='') as fh:
     w = csv.DictWriter(fh, fieldnames=list(F[0].keys())); w.writeheader(); [w.writerow(r) for r in F]
 from collections import Counter
 print(len(F), 'findings', Counter(r['severity'] for r in F))

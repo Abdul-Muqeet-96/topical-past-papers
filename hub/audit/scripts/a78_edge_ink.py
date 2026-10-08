@@ -3,8 +3,8 @@ render at 144 dpi and count dark pixels in the 1-px rows just inside its top and
 Ink on the edge row means a glyph or line continues past the crop, i.e. it is cut."""
 import pymupdf as f, json
 from collections import defaultdict
-o=json.load(open('audit/out/bands.json'))
-d=f.open('Δ-chemistry/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf')
+o=json.load(open('hub/audit/out/bands.json'))
+d=f.open('Δ-chemistry/booklets/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf')
 byp=defaultdict(list)
 for b in o['bands']: byp[b['page']].append(b)
 Z=144/72; out=[]
@@ -20,6 +20,6 @@ for pg,bs in byp.items():
             if n>=3: out.append({'page':pg,'ref':b['ref'],'side':b['side'],'edge':edge,'dark_px':n})
 # a band edge that touches the next band of the same item continues legitimately; keep only edges where the
 # neighbouring area outside the band is white (checked by the next band not abutting)
-json.dump(out,open('audit/out/edge_ink.json','w'),indent=0)
+json.dump(out,open('hub/audit/out/edge_ink.json','w'),indent=0)
 from collections import Counter
 print(len(out),'edges with ink;',Counter((x['side'],x['edge']) for x in out)); print('items',len(set((x['ref'],x['side']) for x in out)))

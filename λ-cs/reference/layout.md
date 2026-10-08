@@ -1,12 +1,12 @@
 # layout.md (CS): the Chemistry layout with CS names
 
-The two CS books use the layout of `Δ-chemistry/layout.md` unchanged. Only the
-names differ. Code: `scripts/cs/layout.py` (page engine) and
-`scripts/cs/build.py` (books).
+The two CS books use the layout of `Δ-chemistry/reference/layout.md` unchanged. Only the
+names differ. Code: `hub/scripts/cs/layout.py` (page engine) and
+`hub/scripts/cs/build.py` (books).
 
 | Element | P1 book | P2 book |
 |---|---|---|
-| File | `λ-cs/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf` | `λ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf` |
+| File | `λ-cs/booklets/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf` | `λ-cs/booklets/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf` |
 | Units | 1 to 8 | 9 to 12 |
 | Running header (left) | "Computer Science 9618 Paper 1 Topical Workbook" | "Computer Science 9618 Paper 2 Topical Workbook" |
 | Cover | "Computer Science 9618", "Paper 1 · Theory Fundamentals" | "Computer Science 9618", "Paper 2 · Fundamental Problem-solving and Programming Skills" |

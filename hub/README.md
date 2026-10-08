@@ -1,6 +1,6 @@
 # ⌘ hub — shared tooling
 
-- `scripts/` shared audited pipeline (Chemistry) + `scripts/cs`, `scripts/physics` adaptations
+- `scripts/` shared audited pipeline (Chemistry) + `hub/scripts/cs`, `hub/scripts/physics` adaptations
 - `audit/` audit reports and check scripts
 - `data/` downloaded past-paper PDFs (gitignored)
 - `PROMPT-*.md` run prompts for building a subject's booklets

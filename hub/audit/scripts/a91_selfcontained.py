@@ -6,14 +6,14 @@
     as 'compound X'/'element X'/... must also occur elsewhere in the item (defined); (5) reliance on
     the Data Booklet / Periodic Table."""
 import json, re, sys, pymupdf as f
-sys.path.insert(0,'audit/scripts'); from a03_lines import lines
+sys.path.insert(0,'hub/audit/scripts'); from a03_lines import lines
 from a31_coverage import pkey
-qp=json.load(open('audit/out/qp_parse.json')); IT=json.load(open('audit/out/item_text.json'))
+qp=json.load(open('hub/audit/out/qp_parse.json')); IT=json.load(open('hub/audit/out/item_text.json'))
 SER={'s':'s','w':'w','m':'m'}
 stems={}
 def stem(k,q):
     if (k,q) in stems: return stems[(k,q)]
-    s,v=k.split('_'); d=f.open(f'data/9701_{s}_qp_{v}.pdf')
+    s,v=k.split('_'); d=f.open(f'hub/data/9701_{s}_qp_{v}.pdf')
     pg,y=[(p,yy) for (qq,p,yy) in qp[k]['qpos'] if qq==q][0]
     txt=[]; started=False
     for pno in range(pg-1,min(pg+1,len(d))):
@@ -48,7 +48,7 @@ for key,v in IT.items():
     if re.search(r'Data Booklet',t): issues.append(('needs Data Booklet',''))
     if re.search(r'Periodic Table',t) and not re.search(r'Periodic Table of',t): issues.append(('mentions Periodic Table',''))
     res.append({'ref':ref,'page':v['page'],'unit':v['unit'],'issues':issues})
-json.dump(res,open('audit/out/selfcontained.json','w'),indent=0)
+json.dump(res,open('hub/audit/out/selfcontained.json','w'),indent=0)
 from collections import Counter
 c=Counter(i[0] for r in res for i in r['issues']); print('items',len(res),'with issues',sum(1 for r in res if r['issues']),dict(c))
 for r in res:

@@ -1,5 +1,5 @@
 """Stage 2: paper-level verification for every downloaded paper of a phase
-(λ-cs/CLAUDE-cs.md, "Paper-level verification").
+(λ-cs/reference/CLAUDE-cs.md, "Paper-level verification").
 
 1. every question number appears exactly once;
 2. the part [marks] add up to the paper total printed on the cover; a printed
@@ -7,7 +7,7 @@
 3. the MS marks of each question equal the QP marks of that question;
 4. the reference comes from the header text only.
 
-Writes λ-cs/work/checks_<phase>.json; prints counts only."""
+Writes λ-cs/build/work/checks_<phase>.json; prints counts only."""
 import os, re, sys
 from collections import Counter
 sys.path.insert(0, os.path.dirname(__file__))

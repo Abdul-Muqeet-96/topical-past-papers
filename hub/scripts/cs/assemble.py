@@ -1,6 +1,6 @@
 """Stage 3/4: tag leaves with syllabus learning outcomes and assemble items.
 
-Usage: python3 scripts/cs/assemble.py phase1|phase2
+Usage: python3 hub/scripts/cs/assemble.py phase1|phase2
 Reads work/parts_<phase>.json + work/tags_<phase>.txt.
 Writes work/items_<phase>.json, work/topics_<phase>.json, work/log_<phase>.json.
 
@@ -319,7 +319,7 @@ def assemble(phase):
                         c = T[(pid, Q["n"], lab)]
                         if c in LOS and c not in los:
                             los.append(c)
-                # the insert (λ-cs/CLAUDE-cs.md, Sources): a note when the paper's insert
+                # the insert (λ-cs/reference/CLAUDE-cs.md, Sources): a note when the paper's insert
                 # matches the Appendix copy in text, else that insert's pages inline
                 text = " ".join([Q["stem_text"]] + [find_letter(Q, letter_of(i))["intro_text"] for i in r["intros"]]
                                 + [items_text(Q, u) for u in us] + [items_text(Q, c) for c in r["ctx_parts"]])

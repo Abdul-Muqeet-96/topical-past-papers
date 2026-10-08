@@ -3,8 +3,8 @@ spaced through the unit) for eye review. Each tile = the item region rendered fr
 import json, sys, pymupdf as f
 from PIL import Image, ImageDraw
 out=sys.argv[1]
-bi=sorted(json.load(open('audit/out/book_items.json')),key=lambda i:(i['page'],i['y']))
-d=f.open('Δ-chemistry/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf')
+bi=sorted(json.load(open('hub/audit/out/book_items.json')),key=lambda i:(i['page'],i['y']))
+d=f.open('Δ-chemistry/booklets/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf')
 def tile(k,dpi=48,maxh=720):
     a=bi[k]; b=bi[k+1] if k+1<len(bi) else None; ims=[]
     for pg in range(a['page'],(b['page'] if b else a['page'])+1):
@@ -21,7 +21,7 @@ for u in range(1,23):
         ks=[k for k,i in enumerate(bi) if i['unit']==u and i['side']==side]
         step=len(ks)/n; pick=[ks[int(j*step)] for j in range(n)]
         sample+= [(u,side,k) for k in pick]
-json.dump([(u,s,bi[k]['ref'],bi[k]['page']) for u,s,k in sample],open('audit/out/visual_sample.json','w'))
+json.dump([(u,s,bi[k]['ref'],bi[k]['page']) for u,s,k in sample],open('hub/audit/out/visual_sample.json','w'))
 per=6; n=0
 for s in range(0,len(sample),per):
     tiles=[tile(k) for _,_,k in sample[s:s+per]]

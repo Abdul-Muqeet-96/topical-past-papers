@@ -1,8 +1,8 @@
 """Stage 4/5: build the two CS workbooks (Paper 1 book: units 1-8; Paper 2
 book: units 9-12), the per-unit PDFs, index.csv, items.jsonl and topics.json.
 
-Usage: python3 scripts/cs/build.py phase1 [phase2]
-Layout follows Δ-chemistry/layout.md with CS names. Contents page numbers are
+Usage: python3 hub/scripts/cs/build.py phase1 [phase2]
+Layout follows Δ-chemistry/reference/layout.md with CS names. Contents page numbers are
 filled after the body is rendered (front pages are reserved first), so they
 are exact.
 """
@@ -506,7 +506,7 @@ def build_book(book, items, parts, docs, ins, phases):
         toc.append([1, f"Appendix: {app_name}", app_page])
     out.set_toc(toc)
     out.set_metadata({"title": BOOK_NAME[book], "subject": TITLES[book],
-                      "creator": "topical-past-papers scripts/cs", "producer": "PyMuPDF"})
+                      "creator": "topical-past-papers hub/scripts/cs", "producer": "PyMuPDF"})
     os.makedirs(outdir, exist_ok=True)
     bookf = os.path.join(outdir, BOOK_FILE[book])
     out.subset_fonts()

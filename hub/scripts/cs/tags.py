@@ -1,4 +1,4 @@
-"""Parse λ-cs/work/tags_<phase>.txt ("pid Qn: a.i=1.2.3 b=6.2.2 Q=9.2.4") into a
+"""Parse λ-cs/build/work/tags_<phase>.txt ("pid Qn: a.i=1.2.3 b=6.2.2 Q=9.2.4") into a
 dict and check coverage against work/parts_<phase>.json, and every code
 against the syllabus learning outcomes. Usage: tags.py phase [--unknown]
 

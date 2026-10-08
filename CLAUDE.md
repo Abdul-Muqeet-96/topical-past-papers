@@ -6,19 +6,21 @@ So every item must be readable as text (a text layer), not only as pixels.
 
 | Subject | Spec | Run prompt | Output | Status |
 |---|---|---|---|---|
-| Chemistry 9701 P2 | `Δ-chemistry/CLAUDE-chemistry.md` | (done) | `Δ-chemistry/p2-topical-workbook/` | finished, audited, fixed |
-| Physics 9702 P2 | `Ω-physics/CLAUDE-physics.md` | `hub/PROMPT-physics.md` | `Ω-physics/p2-topical-workbook/` | built |
-| Computer Science 9618 P1 + P2 | `λ-cs/CLAUDE-cs.md` | `hub/PROMPT-cs.md` | `λ-cs/p1-topical-workbook/`, `λ-cs/p2-topical-workbook/` | built |
+| Chemistry 9701 P2 | `Δ-chemistry/reference/CLAUDE-chemistry.md` | (done) | `Δ-chemistry/booklets/p2-topical-workbook/` | finished, audited, fixed |
+| Physics 9702 P2 | `Ω-physics/reference/CLAUDE-physics.md` | `hub/PROMPT-physics.md` | `Ω-physics/booklets/p2-topical-workbook/` | built |
+| Computer Science 9618 P1 + P2 | `λ-cs/reference/CLAUDE-cs.md` | `hub/PROMPT-cs.md` | `λ-cs/booklets/p1-topical-workbook/`, `λ-cs/booklets/p2-topical-workbook/` | built |
 
 Repo layout (root = four subject folders + `hub/`):
 - `hub/scripts/` is the shared, audited pipeline. It currently reads and writes
-  the Chemistry paths (`Δ-chemistry/work/`, `Δ-chemistry/report.md`, ...).
+  the Chemistry paths (`Δ-chemistry/build/work/`, `Δ-chemistry/reports/report.md`, ...).
 - `hub/audit/` holds the Chemistry audit and its check scripts.
 - `hub/data/` holds downloads (gitignored).
 - `π-maths/` holds the maths syllabus only (no booklet yet).
-- Each subject folder keeps its own spec, work data (`<folder>/work/`),
-  `state_<subject>.json`, report.md, SUMMARY.md and outputs. The repo root
-  holds only this file, `.gitignore`, the subject folders and `hub/` (run prompts live in `hub/`).
+- Each subject folder uses the same layout: `booklets/` (finished output),
+  `reference/` (syllabus, spec `CLAUDE-<subject>.md`, layout.md), `reports/`
+  (report.md, SUMMARY.md), `build/` (`work/`, `topics.json`, `state_<subject>.json`)
+  and a README.md. The repo root holds only README.md, this file, `.gitignore`,
+  the subject folders and `hub/` (run prompts live in `hub/`). Scripts run from the repo root.
 
 A run follows its prompt and its subject spec. Never change another subject's
 files, scripts or outputs; copy `hub/scripts/` to `hub/scripts/<subject>/` and adapt

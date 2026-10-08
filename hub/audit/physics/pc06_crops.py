@@ -1,4 +1,4 @@
-"""Crop checks on every placed band (adapted from audit/scripts a71-a82, a74, a75, a80b):
+"""Crop checks on every placed band (adapted from hub/audit/scripts a71-a82, a74, a75, a80b):
  clipped  - source words only partly inside the union of an item's clips (10-90 %)
  cutfig   - official vector paths crossing a clip's top/bottom edge by >= 4 pt
  furniture- official: clip reaches the page-number/barcode or footer zone; booklet: clip reaches the

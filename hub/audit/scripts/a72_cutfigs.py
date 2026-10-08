@@ -4,7 +4,7 @@ rules) that cross the union's top/bottom edge with >=4pt on each side. Margin fu
 (x<35 or x>560 on portrait pages), page frames and dotted answer lines are ignored."""
 import pymupdf as f, json, re
 from collections import defaultdict
-o=json.load(open('audit/out/bands.json')); fps=o['fpsrc']
+o=json.load(open('hub/audit/out/bands.json')); fps=o['fpsrc']
 cache={}; dcache={}
 def page(fn,i):
     if fn not in cache: cache[fn]=f.open(fn)
@@ -41,7 +41,7 @@ for (ref,side,fn,pi),bs in grp.items():
 seen={}
 for x in out: seen.setdefault((x['ref'],x['side'],x['src'],x['srcpage'],x['edge']),x)
 rows=list(seen.values())
-json.dump(rows,open('audit/out/cutfigs.json','w'),indent=0)
+json.dump(rows,open('hub/audit/out/cutfigs.json','w'),indent=0)
 from collections import Counter
 print('edges cutting vector paths',len(rows),'items/answers',len(set((x['ref'],x['side']) for x in rows)),Counter(x['side'] for x in rows))
 for x in rows[:40]: print(x['ref'],x['side'],x['src'],x['srcpage'],x['edge'],x['path'],x['bookpages'])

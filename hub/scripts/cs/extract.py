@@ -1,7 +1,7 @@
 """Stage 3 (structure): for every included question, find the regions of the
 stem, lettered parts and roman sub-parts; their text; cross-references (parts,
 identifiers, single-letter labels, scenario nouns); and the matching
-mark-scheme rows. Writes λ-cs/work/parts_<phase>.json. Prints counts only.
+mark-scheme rows. Writes λ-cs/build/work/parts_<phase>.json. Prints counts only.
 
 Regions are lists of [page, y0, y1] on the de-rotated question paper.
 

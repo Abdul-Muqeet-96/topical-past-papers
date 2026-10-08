@@ -1,11 +1,11 @@
 # Physics 9702 P2 workbook: final audit and fixes
 
-Book: `Ω-physics/p2-topical-workbook/Physics-9702-P2-Topical-Workbook.pdf`: 932 pages, 631 items
+Book: `Ω-physics/booklets/p2-topical-workbook/Physics-9702-P2-Topical-Workbook.pdf`: 932 pages, 631 items
 (260 from official papers with 1320 marks, 371 from the booklet). Branch `claude/physics-p2-booklet`.
 
 ## How it was checked
 
-- **Automatic checks** (`audit/physics/run_all.sh`, outputs in `audit/physics/out/`):
+- **Automatic checks** (`hub/audit/physics/run_all.sh`, outputs in `hub/audit/physics/out/`):
   - `final_checks.py`: coverage, duplicates, self-containment, context, marks, references and answers.
   - pc01: book parse.
   - pc02: book, index.csv and items.jsonl agree.
@@ -41,7 +41,7 @@ Every new flag after each fix was looked at. All the real defects found are list
 
 | # | Defect | Fix | Scope |
 |---|---|---|---|
-| 1 | Booklet pages missing from the scan left items lost or cut short | Filled from the official paper of the same question (`scripts/physics/gapfill.py`). Each paper is verified by its header, part marks = [Total] = mark-scheme marks, and a grey note is added | 7 items restored; 4 questions and 6 answers replaced; 0 failed |
+| 1 | Booklet pages missing from the scan left items lost or cut short | Filled from the official paper of the same question (`hub/scripts/physics/gapfill.py`). Each paper is verified by its header, part marks = [Total] = mark-scheme marks, and a grey note is added | 7 items restored; 4 questions and 6 answers replaced; 0 failed |
 | 2 | The dot-removal rule also deleted marks such as "[2]" on the next line | Removal narrowed to a thin strip through the dot centres | 11 papers (2017–19) |
 | 3 | A mark at the very foot of a page was lost | Bottom filter corrected | Several items |
 | 4 | Booklet heading residue at crop tops | Single whiteout strip over the heading; covers extended past band edges | Book-wide |

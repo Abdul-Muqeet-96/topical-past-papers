@@ -1,10 +1,10 @@
 """Stage 5: build the Physics workbook PDF, per-unit PDFs, index.csv, items.jsonl.
 
-Usage: python3 scripts/physics/build.py OUTDIR
+Usage: python3 hub/scripts/physics/build.py OUTDIR
 Each unit: Part B items (official papers, newest first), then the booklet items
-(crops of Ω-physics/booklet-ocr.pdf, newest first, booklet order within a year),
+(crops of Ω-physics/reference/booklet-ocr.pdf, newest first, booklet order within a year),
 one numbering; Answers Section after each unit in the same order. Layout as in
-the Chemistry book (Δ-chemistry/layout.md). Contents page numbers are filled after
+the Chemistry book (Δ-chemistry/reference/layout.md). Contents page numbers are filled after
 the body is rendered (front pages are reserved first), so they are exact.
 """
 import csv, datetime, json, os, re, sys
@@ -137,8 +137,8 @@ def est_height(blocks):
 
 
 
-BOOKLET_PDF = os.path.join(ROOT, "Ω-physics", "booklet-ocr.pdf")
-WORK = os.path.join(ROOT, "Ω-physics", "work")
+BOOKLET_PDF = os.path.join(ROOT, "Ω-physics", "reference", "booklet-ocr.pdf")
+WORK = os.path.join(ROOT, "Ω-physics", "build", "work")
 BOOKNAME = "Physics-9702-P2-Topical-Workbook.pdf"
 BX0, BX1 = 8, 588          # horizontal limits for booklet crops (ink extent inside them)
 _GRAY = {}

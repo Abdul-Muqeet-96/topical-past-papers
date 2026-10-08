@@ -1,6 +1,6 @@
 """Re-run coverage, self-containment and marks checks on the built Physics book (Part B),
 and reference/answer presence for every item (Part B and booklet). Writes
-Ω-physics/work/final_checks.json and prints counts only."""
+Ω-physics/build/work/final_checks.json and prints counts only."""
 import json, os, sys
 from collections import defaultdict, Counter
 import pymupdf
@@ -9,8 +9,8 @@ from items import resolve, marks, find_letter, letter_of
 from assemble import ref_units
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-WORK = os.path.join(ROOT, "Ω-physics", "work")
-BOOK = os.path.join(ROOT, "Ω-physics", "p2-topical-workbook", "Physics-9702-P2-Topical-Workbook.pdf")
+WORK = os.path.join(ROOT, "Ω-physics", "build", "work")
+BOOK = os.path.join(ROOT, "Ω-physics", "booklets", "p2-topical-workbook", "Physics-9702-P2-Topical-Workbook.pdf")
 
 
 def main():

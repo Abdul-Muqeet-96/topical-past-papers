@@ -1,9 +1,9 @@
 # Audit report: Chemistry 9701 Paper 2 topical workbook
 
-- **Audited:** branch `claude/topical-past-paper-booklets-jdm9la` @ `8816ea4`, which contains `Δ-chemistry/p2-topical-workbook/` (book PDF with 1,273 pages, 22 unit PDFs, `index.csv`), `topics.json`, `report.md`, `SUMMARY.md`, `state.json` and `work/`.
+- **Audited:** branch `claude/topical-past-paper-booklets-jdm9la` @ `8816ea4`, which contains `Δ-chemistry/booklets/p2-topical-workbook/` (book PDF with 1,273 pages, 22 unit PDFs, `index.csv`), `topics.json`, `report.md`, `SUMMARY.md`, `state.json` and `work/`.
 - **Audit branch:** `audit-report`. Everything is under `/audit/`: `findings.csv`, `scripts/` (every check), `out/` (machine-readable evidence).
 - **Changes made:** none to the book, data, scripts or any existing file.
-- **Independence:** none of the build's checkers (`scripts/*.py`, `work/final_checks.json`) were reused. `topics.json` and `state.json` were not used as ground truth. Questions, parts, marks and mark-scheme (MS) rows were re-derived from the source PDFs in `data/` with new parsers (`a20`, `a21`). Crop placement was re-derived from the book PDF's own Form XObjects (BBox clip + source page; `a70`). The build's records were used only for the comparisons reported below.
+- **Independence:** none of the build's checkers (`hub/scripts/*.py`, `work/final_checks.json`) were reused. `topics.json` and `state.json` were not used as ground truth. Questions, parts, marks and mark-scheme (MS) rows were re-derived from the source PDFs in `data/` with new parsers (`a20`, `a21`). Crop placement was re-derived from the book PDF's own Form XObjects (BBox clip + source page; `a70`). The build's records were used only for the comparisons reported below.
 - **Note on `items.jsonl`:** this file does not exist. The equivalent records are `work/items_phase1.json` and `work/items_phase2.json` (1,735 records, with no text).
 
 ## 1. Summary
@@ -191,7 +191,7 @@ The Chemistry book does keep the original letters (no renumbering found) and sho
 
 ## Appendix: scripts and evidence
 
-| Script | Purpose | Evidence (`audit/out/`) |
+| Script | Purpose | Evidence (`hub/audit/out/`) |
 |---|---|---|
 | `a10_sources.py`, `a11_redownload.py` | Expected-file list, page-1 header, SHA-256 re-download | `sources.json`, `redownload.json` |
 | `a20_qp_parse.py`, `a21_ms_parse.py`, `a22_dbg.py`, `a23_msrow_img.py`, `a33_part_marks.py` | Independent QP/MS parsing; paper-level and part-level marks | `qp_parse.json`, `ms_parse.json`, `ms_q_mismatch.json`, `part_marks.json` |

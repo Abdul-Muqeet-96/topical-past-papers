@@ -1,7 +1,7 @@
-"""Contact sheet of Physics booklet pages: python3 scripts/thumbs.py first last out.png"""
+"""Contact sheet of Physics booklet pages: python3 hub/scripts/thumbs.py first last out.png"""
 import sys, pymupdf
 from PIL import Image, ImageDraw
-src = "Ω-physics/Physics paper 2 9702 3.pdf"
+src = "Ω-physics/reference/Physics paper 2 9702 3.pdf"
 a, b, out = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3]
 d = pymupdf.open(src)
 ims = []

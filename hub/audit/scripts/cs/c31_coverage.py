@@ -8,7 +8,7 @@ from c00_common import *
 
 QP, MS = jl("qp_parse.json"), jl("ms_parse.json")
 CMPJ = jl("compare.json")
-rep = open(os.path.join(CS, "report.md")).read()
+rep = open(os.path.join(CS, "reports", "report.md")).read()
 
 
 def section(title):

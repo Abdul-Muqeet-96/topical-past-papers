@@ -3,8 +3,8 @@ the next heading (or page end). usage: ref side out.png dpi"""
 import sys, json, pymupdf as f
 from PIL import Image
 ref,side,out=sys.argv[1],sys.argv[2],sys.argv[3]; dpi=int(sys.argv[4]) if len(sys.argv)>4 else 70
-bi=sorted(json.load(open('audit/out/book_items.json')),key=lambda i:(i['page'],i['y']))
-d=f.open('Δ-chemistry/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf')
+bi=sorted(json.load(open('hub/audit/out/book_items.json')),key=lambda i:(i['page'],i['y']))
+d=f.open('Δ-chemistry/booklets/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf')
 k=[n for n,i in enumerate(bi) if i['ref']==ref and i['side']==side][0]; a=bi[k]; b=bi[k+1] if k+1<len(bi) else None
 ims=[]; z=dpi/72
 for pg in range(a['page'], (b['page'] if b else a['page'])+1):

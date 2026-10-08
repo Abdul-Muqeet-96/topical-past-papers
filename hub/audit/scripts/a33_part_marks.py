@@ -1,7 +1,7 @@
 """Check 5a: per-part QP marks vs MS marks (my parsers). Compare at the finest common level:
 leaf if the MS labels the leaf, else roll up to the lettered part."""
 import json, re
-qp=json.load(open('audit/out/qp_parse.json')); ms=json.load(open('audit/out/ms_parse.json'))
+qp=json.load(open('hub/audit/out/qp_parse.json')); ms=json.load(open('hub/audit/out/ms_parse.json'))
 res=[]
 for k in qp:
     for q,P in qp[k]['parts'].items():
@@ -15,6 +15,6 @@ for k in qp:
                 for x in qleaves: res.append((k,x,qleaves[x],mleaves[x],'leaf'))
             else:
                 res.append((k,L,sum(qleaves.values()),sum(mleaves.values()),'letter-rollup'))
-json.dump(res,open('audit/out/part_marks.json','w'))
+json.dump(res,open('hub/audit/out/part_marks.json','w'))
 bad=[r for r in res if r[2]!=r[3]]
 print(len(res),'comparisons;',len(bad),'mismatch'); [print(b) for b in bad]

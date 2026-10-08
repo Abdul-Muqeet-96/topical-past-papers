@@ -4,7 +4,7 @@ placed on different book pages, where ink crosses the cut (dark source pixels wi
 sides of the cut, in the same columns) -> a figure/table is broken over a page break."""
 import pymupdf as f, json
 from collections import defaultdict
-o=json.load(open('audit/out/bands.json')); fps=o['fpsrc']; cache={}; rend={}
+o=json.load(open('hub/audit/out/bands.json')); fps=o['fpsrc']; cache={}; rend={}
 def page(fn,i):
     if fn not in cache: cache[fn]=f.open(fn)
     return cache[fn][i]
@@ -27,7 +27,7 @@ for (ref,side,fn,pi),bs in grp.items():
         up=dk(ya-1.5); dn=dk(yb+1.5)
         cross=[x for x in up if x in dn]
         if len(cross)>=2: out.append({'ref':ref,'side':side,'src':fn.split('/')[-1],'srcpage':pi+1,'cut_src_y':round(ya,1),'book_pages':[a['page'],b['page']],'crossing_px':len(cross)})
-json.dump(out,open('audit/out/page_split.json','w'),indent=0)
+json.dump(out,open('hub/audit/out/page_split.json','w'),indent=0)
 from collections import Counter
 print(len(out),'page-break splits through ink;',Counter(x['side'] for x in out))
 for x in out:

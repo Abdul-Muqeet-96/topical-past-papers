@@ -1,6 +1,6 @@
 # SUMMARY: Computer Science 9618 Paper 1 and Paper 2 part-level topical workbooks
 
-Stages finished: 0, 1, 2, 3, 4, 5, 6, 7 (see `λ-cs/state_cs.json`). Books contain: Phase 1 (9618), Phase 2 (9608).
+Stages finished: 0, 1, 2, 3, 4, 5, 6, 7 (see `λ-cs/build/state_cs.json`). Books contain: Phase 1 (9618), Phase 2 (9608).
 
 ## Papers
 
@@ -44,28 +44,28 @@ Stages finished: 0, 1, 2, 3, 4, 5, 6, 7 (see `λ-cs/state_cs.json`). Books conta
 
 | File | Size |
 |---|---|
-| λ-cs/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf (1099 pages) | 21.3 MB |
-| λ-cs/p1-topical-workbook/units/Unit-01-Information-representation.pdf | 7.9 MB |
-| λ-cs/p1-topical-workbook/units/Unit-02-Communication.pdf | 5.1 MB |
-| λ-cs/p1-topical-workbook/units/Unit-03-Hardware.pdf | 6.7 MB |
-| λ-cs/p1-topical-workbook/units/Unit-04-Processor-Fundamentals.pdf | 7.9 MB |
-| λ-cs/p1-topical-workbook/units/Unit-05-System-Software.pdf | 7.8 MB |
-| λ-cs/p1-topical-workbook/units/Unit-06-Security-privacy-and-data-integrity.pdf | 6.5 MB |
-| λ-cs/p1-topical-workbook/units/Unit-07-Ethics-and-Ownership.pdf | 3.9 MB |
-| λ-cs/p1-topical-workbook/units/Unit-08-Databases.pdf | 7.6 MB |
-| λ-cs/p1-topical-workbook/index.csv | 28 KB |
-| λ-cs/p1-topical-workbook/items.jsonl | 1.3 MB |
-| λ-cs/p1-topical-workbook/topics.json | 0.7 MB |
-| λ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf (1518 pages) | 25.9 MB |
-| λ-cs/p2-topical-workbook/units/Unit-09-Algorithm-Design-and-Problem-solving.pdf | 13.0 MB |
-| λ-cs/p2-topical-workbook/units/Unit-10-Data-Types-and-Structures.pdf | 13.5 MB |
-| λ-cs/p2-topical-workbook/units/Unit-11-Programming.pdf | 14.7 MB |
-| λ-cs/p2-topical-workbook/units/Unit-12-Software-Development.pdf | 13.4 MB |
-| λ-cs/p2-topical-workbook/index.csv | 29 KB |
-| λ-cs/p2-topical-workbook/items.jsonl | 1.8 MB |
-| λ-cs/p2-topical-workbook/topics.json | 0.5 MB |
-| λ-cs/report.md | 78 KB |
-| λ-cs/layout.md | 3 KB |
+| λ-cs/booklets/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf (1099 pages) | 21.3 MB |
+| λ-cs/booklets/p1-topical-workbook/units/Unit-01-Information-representation.pdf | 7.9 MB |
+| λ-cs/booklets/p1-topical-workbook/units/Unit-02-Communication.pdf | 5.1 MB |
+| λ-cs/booklets/p1-topical-workbook/units/Unit-03-Hardware.pdf | 6.7 MB |
+| λ-cs/booklets/p1-topical-workbook/units/Unit-04-Processor-Fundamentals.pdf | 7.9 MB |
+| λ-cs/booklets/p1-topical-workbook/units/Unit-05-System-Software.pdf | 7.8 MB |
+| λ-cs/booklets/p1-topical-workbook/units/Unit-06-Security-privacy-and-data-integrity.pdf | 6.5 MB |
+| λ-cs/booklets/p1-topical-workbook/units/Unit-07-Ethics-and-Ownership.pdf | 3.9 MB |
+| λ-cs/booklets/p1-topical-workbook/units/Unit-08-Databases.pdf | 7.6 MB |
+| λ-cs/booklets/p1-topical-workbook/index.csv | 28 KB |
+| λ-cs/booklets/p1-topical-workbook/items.jsonl | 1.3 MB |
+| λ-cs/booklets/p1-topical-workbook/topics.json | 0.7 MB |
+| λ-cs/booklets/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf (1518 pages) | 25.9 MB |
+| λ-cs/booklets/p2-topical-workbook/units/Unit-09-Algorithm-Design-and-Problem-solving.pdf | 13.0 MB |
+| λ-cs/booklets/p2-topical-workbook/units/Unit-10-Data-Types-and-Structures.pdf | 13.5 MB |
+| λ-cs/booklets/p2-topical-workbook/units/Unit-11-Programming.pdf | 14.7 MB |
+| λ-cs/booklets/p2-topical-workbook/units/Unit-12-Software-Development.pdf | 13.4 MB |
+| λ-cs/booklets/p2-topical-workbook/index.csv | 29 KB |
+| λ-cs/booklets/p2-topical-workbook/items.jsonl | 1.8 MB |
+| λ-cs/booklets/p2-topical-workbook/topics.json | 0.5 MB |
+| λ-cs/reports/report.md | 78 KB |
+| λ-cs/reference/layout.md | 3 KB |
 
 No file exceeds 95 MB, so everything is pushed. Per-unit PDFs keep the full book's page numbers (so they match index.csv).
 
@@ -79,6 +79,6 @@ Nothing is open that a further run could close from the files on the site. What 
 - **143 parts of 9608 papers are out of the 2027-29 syllabus** and are listed in report.md, not printed.
 - **Text layer, inherited from the source files.** On 7 question-paper pages the answer-line dots could not be taken out of the PDF text layer without moving other glyphs, and on 13 pages the footer words beside a mark could not; they are hidden in the picture and absent from items.jsonl, but a text search of the book PDF finds them. 20 crops carry control characters where the source font has no text code for a bullet. 19 fonts are not embedded in the source papers themselves and stay that way in the books (the standard PDF fonts).
 - **Dotted lines.** The rule that tells an answer line (removed) from a gap to fill in code or in a sentence (kept) is a set of printed-form tests (AUTO-DECIDED, "Gaps to fill and answer lines"). The self-check finds no answer line left and no gap removed by that rule; a reader may still judge a single borderline line differently.
-- **Unused space.** About 290 pages are less than 55 % full, because an item that fits on one page, a figure, and the line that introduces a figure are never split (counts in audit/CS_CHECK.md).
+- **Unused space.** About 290 pages are less than 55 % full, because an item that fits on one page, a figure, and the line that introduces a figure are never split (counts in hub/audit/CS_CHECK.md).
 - **Tags.** Every part was tagged from its text against the 2027-29 learning outcomes, and every item was re-tagged blind in the self-check (10 disagreements, all read, no change). Where one part touches two units the choice follows the conventions in AUTO-DECIDED; such items carry an "also" note.
 

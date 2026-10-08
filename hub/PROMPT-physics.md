@@ -8,8 +8,8 @@ Paste this one line into a fresh session:
 
 ## Task
 
-Build the Physics 9702 Paper 2 topical workbook described in `Ω-physics/CLAUDE-physics.md`, in
-one unattended run. `Ω-physics/CLAUDE-physics.md` is the specification; if this prompt and the
+Build the Physics 9702 Paper 2 topical workbook described in `Ω-physics/reference/CLAUDE-physics.md`, in
+one unattended run. `Ω-physics/reference/CLAUDE-physics.md` is the specification; if this prompt and the
 specification ever disagree, follow the specification. Quality and accuracy come first;
 cost is not a constraint. Never skip a check, a fix or a visual inspection to
 save tokens. Still let scripts do the heavy lifting and print only counts and
@@ -23,27 +23,27 @@ short summaries.
    `main` or the Chemistry files.
 2. Install what is missing: `pip install pymupdf numpy`; tesseract (`apt-get
    install -y tesseract-ocr`) if `tesseract --version` fails; qpdf if missing.
-3. Create `Ω-physics/state_physics.json` and update it after every stage.
+3. Create `Ω-physics/build/state_physics.json` and update it after every stage.
 
 ## Stages (commit and push after each)
-0. **Tooling and sources.** Copy `scripts/` to `scripts/physics/` and adapt it
+0. **Tooling and sources.** Copy `scripts/` to `hub/scripts/physics/` and adapt it
    (subject code 9702, URLs, Data/Formulae pages, topics). Download and verify
    the Part B papers listed in the specification. Print a count table.
 1. **OCR the booklet** (Part A, step 1 of the specification). Run it in the
-   background, 4 parallel jobs; write `Ω-physics/booklet-ocr.pdf`. Check: the
+   background, 4 parallel jobs; write `Ω-physics/reference/booklet-ocr.pdf`. Check: the
    page count is 550 and a text search finds a known heading.
 2. **Map the booklet**: units, item headings, answers, page spans, references
-   (Part A, steps 2-5). Write `Ω-physics/work/booklet_items.json`. Print counts
+   (Part A, steps 2-5). Write `Ω-physics/build/work/booklet_items.json`. Print counts
    per unit and the number of headings read by image.
 3. **Light check of the booklet** (Part A, step 6). Write the results to
    report.md.
 4. **Part B**: paper checks, parts, topic tags (by reading the extracted
-   text, written compactly to `Ω-physics/work/tags.txt`), items, context, marks.
+   text, written compactly to `Ω-physics/build/work/tags.txt`), items, context, marks.
 5. **Build**: book, unit PDFs, index.csv, items.jsonl, topics.json,
    report.md, SUMMARY.md. Render 3 sample pages (cover/contents, a Part B
    page, a booklet page) and fix obvious problems.
 6. **Self-check** (the final section of the specification): write
-   `audit/PHYSICS_CHECK.md`, fix what failed, rebuild, and re-run all checks;
+   `hub/audit/PHYSICS_CHECK.md`, fix what failed, rebuild, and re-run all checks;
    repeat until everything passes or the remaining issue cannot be fixed
    (then report exactly why). Commit after each round.
 7. **Finish**: update SUMMARY.md with what was done, counts per unit (Part A

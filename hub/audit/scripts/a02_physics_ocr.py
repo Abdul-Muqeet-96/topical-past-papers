@@ -2,7 +2,7 @@
 reference lines, to find partial items (references with part letters)."""
 import pymupdf as f, subprocess, re, json, sys, os
 from concurrent.futures import ThreadPoolExecutor
-S=sys.argv[1]; d=f.open('Ω-physics/Physics paper 2 9702 3.pdf')
+S=sys.argv[1]; d=f.open('Ω-physics/reference/Physics paper 2 9702 3.pdf')
 fns=[]
 for i in range(len(d)):
     fn=f'{S}/phocr_{i}.png'; d[i].get_pixmap(dpi=120,clip=f.Rect(30,40,330,830),colorspace=f.csGRAY).save(fn); fns.append(fn)

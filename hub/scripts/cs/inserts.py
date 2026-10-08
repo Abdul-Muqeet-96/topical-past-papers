@@ -1,6 +1,6 @@
 """Inserts (pseudocode functions and operators) and in-paper appendices.
 
-λ-cs/CLAUDE-cs.md, Sources: the P2 book's Appendix is the insert of the newest
+λ-cs/reference/CLAUDE-cs.md, Sources: the P2 book's Appendix is the insert of the newest
 paper. An item whose text refers to the insert gets a note when its own
 paper's insert matches the Appendix copy in text; otherwise the relevant pages
 of its own insert are shown inline. Older papers print the function list as an

@@ -15,7 +15,7 @@ SPEC_SECS = {1: 3, 2: 1, 3: 2, 4: 3, 5: 2, 6: 2, 7: 1, 8: 3, 9: 2, 10: 4, 11: 3,
 NAME = {1: "Computer Science 9618 Paper 1 Topical Workbook", 2: "Computer Science 9618 Paper 2 Topical Workbook"}
 SORD = {"MAR": 0, "M/J": 1, "O/N": 2}
 # section names straight from the syllabus PDF (independent of work/syllabus.json)
-sd = f.open(os.path.join(CS, "cs-syllabus.pdf"))
+sd = f.open(os.path.join(CS, "reference", "cs-syllabus.pdf"))
 stext = "\n".join(p.get_text() for p in sd)
 out = {}
 allF = []

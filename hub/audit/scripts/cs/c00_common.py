@@ -1,4 +1,4 @@
-"""CS self-check, shared helpers. Nothing here imports the build's code (scripts/cs): the checks
+"""CS self-check, shared helpers. Nothing here imports the build's code (hub/scripts/cs): the checks
 re-derive questions, parts, marks and mark-scheme rows from the downloaded PDFs and from the built
 books themselves."""
 import json, os, re
@@ -8,9 +8,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.d
 DATA = os.path.join(ROOT, "hub", "data")
 CS = os.path.join(ROOT, "λ-cs")
 OUT = os.path.join(ROOT, "hub", "audit", "out", "cs")
-BOOKS = {1: os.path.join(CS, "p1-topical-workbook", "CS-9618-P1-Topical-Workbook.pdf"),
-         2: os.path.join(CS, "p2-topical-workbook", "CS-9618-P2-Topical-Workbook.pdf")}
-BOOKDIR = {1: os.path.join(CS, "p1-topical-workbook"), 2: os.path.join(CS, "p2-topical-workbook")}
+BOOKS = {1: os.path.join(CS, "booklets", "p1-topical-workbook", "CS-9618-P1-Topical-Workbook.pdf"),
+         2: os.path.join(CS, "booklets", "p2-topical-workbook", "CS-9618-P2-Topical-Workbook.pdf")}
+BOOKDIR = {1: os.path.join(CS, "booklets", "p1-topical-workbook"), 2: os.path.join(CS, "booklets", "p2-topical-workbook")}
 UNITS = {1: range(1, 9), 2: range(9, 13)}
 URL = "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/"
 SER = {"M/J": "s", "O/N": "w", "MAR": "m"}

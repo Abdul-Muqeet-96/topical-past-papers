@@ -1,4 +1,4 @@
-"""Write Ω-physics/topics.json: every lowest-level part of the Part B papers with its 2025-27
+"""Write Ω-physics/build/topics.json: every lowest-level part of the Part B papers with its 2025-27
 AS learning outcome, justification, marks and the item (unit) it was filed under; then every
 booklet item with the unit it is filed in (booklet unit -> syllabus topic, spec Part A step 4)."""
 import json, os, sys
@@ -7,7 +7,7 @@ from items import find_letter, letter_of
 from map_booklet import BOOKLET_UNITS
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-WORK = os.path.join(ROOT, "Ω-physics", "work")
+WORK = os.path.join(ROOT, "Ω-physics", "build", "work")
 
 
 def main():
@@ -32,7 +32,7 @@ def main():
                     "booklet_item": it["n"],
                     "justification": f"booklet unit {it['unit']} ({BOOKLET_UNITS[it['unit']]}) -> syllabus topic "
                                      f"{it['topic']} (spec Part A step 4)"})
-    json.dump(out, open(os.path.join(ROOT, "Ω-physics", "topics.json"), "w"), indent=1, ensure_ascii=False)
+    json.dump(out, open(os.path.join(ROOT, "Ω-physics", "build", "topics.json"), "w"), indent=1, ensure_ascii=False)
     print("topics.json: official parts", sum(1 for t in out if t["source"] == "official"),
           "filed", sum(1 for t in out if t["source"] == "official" and t["item"]),
           "booklet items", sum(1 for t in out if t["source"] == "booklet"))

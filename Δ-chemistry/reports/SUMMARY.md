@@ -45,34 +45,34 @@ Papers excluded: s20 v23 (MS header says "Paper 3"; decision D5).
 
 | File | Size |
 |---|---|
-| Δ-chemistry/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf (1159 pages) | 29.6 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-01-Atomic-structure.pdf | 8.0 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-02-Atoms,-molecules-and-stoichiometry.pdf | 8.4 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-03-Chemical-bonding.pdf | 10.7 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-04-States-of-matter.pdf | 7.3 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-05-Chemical-energetics.pdf | 7.7 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-06-Electrochemistry.pdf | 6.4 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-07-Equilibria.pdf | 7.8 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-08-Reaction-kinetics.pdf | 5.5 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-09-The-Periodic-Table-chemical-periodicity.pdf | 9.1 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-10-Group-2.pdf | 5.0 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-11-Group-17.pdf | 6.7 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-12-Nitrogen-and-sulfur.pdf | 4.1 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-13-An-introduction-to-AS-Level-organic-chemistry.pdf | 11.6 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-14-Hydrocarbons.pdf | 11.1 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-15-Halogen-compounds.pdf | 6.2 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-16-Hydroxy-compounds.pdf | 7.6 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-17-Carbonyl-compounds.pdf | 6.5 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-18-Carboxylic-acids-and-derivatives.pdf | 5.7 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-19-Nitrogen-compounds.pdf | 3.3 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-20-Polymerisation.pdf | 3.8 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-21-Organic-synthesis.pdf | 4.5 MB |
-| Δ-chemistry/p2-topical-workbook/units/Unit-22-Analytical-techniques.pdf | 8.2 MB |
-| Δ-chemistry/p2-topical-workbook/index.csv | 42 KB |
-| Δ-chemistry/p2-topical-workbook/items.jsonl | 0.8 MB |
-| Δ-chemistry/topics.json | 0.8 MB |
-| Δ-chemistry/report.md | 18 KB |
-| Δ-chemistry/layout.md | 3 KB |
+| Δ-chemistry/booklets/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf (1159 pages) | 29.6 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-01-Atomic-structure.pdf | 8.0 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-02-Atoms,-molecules-and-stoichiometry.pdf | 8.4 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-03-Chemical-bonding.pdf | 10.7 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-04-States-of-matter.pdf | 7.3 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-05-Chemical-energetics.pdf | 7.7 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-06-Electrochemistry.pdf | 6.4 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-07-Equilibria.pdf | 7.8 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-08-Reaction-kinetics.pdf | 5.5 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-09-The-Periodic-Table-chemical-periodicity.pdf | 9.1 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-10-Group-2.pdf | 5.0 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-11-Group-17.pdf | 6.7 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-12-Nitrogen-and-sulfur.pdf | 4.1 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-13-An-introduction-to-AS-Level-organic-chemistry.pdf | 11.6 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-14-Hydrocarbons.pdf | 11.1 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-15-Halogen-compounds.pdf | 6.2 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-16-Hydroxy-compounds.pdf | 7.6 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-17-Carbonyl-compounds.pdf | 6.5 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-18-Carboxylic-acids-and-derivatives.pdf | 5.7 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-19-Nitrogen-compounds.pdf | 3.3 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-20-Polymerisation.pdf | 3.8 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-21-Organic-synthesis.pdf | 4.5 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/units/Unit-22-Analytical-techniques.pdf | 8.2 MB |
+| Δ-chemistry/booklets/p2-topical-workbook/index.csv | 42 KB |
+| Δ-chemistry/booklets/p2-topical-workbook/items.jsonl | 0.8 MB |
+| Δ-chemistry/build/topics.json | 0.8 MB |
+| Δ-chemistry/reports/report.md | 18 KB |
+| Δ-chemistry/reference/layout.md | 3 KB |
 
 No file exceeds 95 MB, so everything is pushed. Per-unit PDFs keep the full book's page numbers (so they match index.csv).
 

@@ -1,4 +1,4 @@
-"""Shared paths and the book parser for the Physics self-check (adapted from audit/scripts)."""
+"""Shared paths and the book parser for the Physics self-check (adapted from hub/audit/scripts)."""
 import json, os, re, sys
 import pymupdf as f
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -6,10 +6,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 sys.path.insert(0, os.path.join(ROOT, "hub", "audit", "scripts"))
 from a03_lines import lines          # noqa: E402  (visual lines of a page)
 OUT = os.path.join(HERE, "out")
-WB = os.path.join(ROOT, "Ω-physics", "p2-topical-workbook")
+WB = os.path.join(ROOT, "Ω-physics", "booklets", "p2-topical-workbook")
 BOOK = os.path.join(WB, "Physics-9702-P2-Topical-Workbook.pdf")
-BOOKLET = os.path.join(ROOT, "Ω-physics", "booklet-ocr.pdf")
-WORK = os.path.join(ROOT, "Ω-physics", "work")
+BOOKLET = os.path.join(ROOT, "Ω-physics", "reference", "booklet-ocr.pdf")
+WORK = os.path.join(ROOT, "Ω-physics", "build", "work")
 REF = re.compile(r'^(\d+)\.\s+((?:M/J|O/N|MAR)\s\d\d/P\d\d/Q\d+\S*)\s*$')
 SER = {'M/J': 's', 'O/N': 'w', 'MAR': 'm'}
 

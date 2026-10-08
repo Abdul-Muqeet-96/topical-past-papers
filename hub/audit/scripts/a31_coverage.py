@@ -29,7 +29,7 @@ def expand(q,suf,leaves):
     if suf=='': return L
     return None
 def report_exclusions():
-    R=open('Δ-chemistry/report.md').read(); ex={}
+    R=open('Δ-chemistry/reports/report.md').read(); ex={}
     sec=None
     for line in R.splitlines():
         if line.startswith('## '): sec=line[3:]
@@ -41,11 +41,11 @@ def report_exclusions():
             ex.setdefault(sec,[]).append((m.group(1),m.group(2),m.group(3),m.group(4).strip(),line))
     return R,ex
 if __name__=='__main__':
-    qp=json.load(open('audit/out/qp_parse.json')); src=json.load(open('audit/out/sources.json'))
-    msm=json.load(open('audit/out/ms_q_mismatch.json'))
+    qp=json.load(open('hub/audit/out/qp_parse.json')); src=json.load(open('hub/audit/out/sources.json'))
+    msm=json.load(open('hub/audit/out/ms_q_mismatch.json'))
     bad_hdr={f"{r['series']}{r['year']:02d}_{r['variant']}" for r in src if r['status']!='OK'}
     bad_q={(k,int(q)) for k,q,_,_ in msm}
-    book=json.load(open('audit/out/book_parse.json'))
+    book=json.load(open('hub/audit/out/book_parse.json'))
     # question-side items: pages before the answers banner of their unit
     pages=book['pages']; ut=[p['i'] for p in pages if 'unit_title' in p]; ab=[p['i'] for p in pages if p.get('answers_banner')]
     def side(pg):
@@ -57,7 +57,7 @@ if __name__=='__main__':
     items=[]
     for it in book['items']:
         u,s=side(it['page']); it['unit']=u; it['side']=s; items.append(it)
-    json.dump(items,open('audit/out/book_items.json','w'))
+    json.dump(items,open('hub/audit/out/book_items.json','w'))
     cover=defaultdict(list); unexpandable=[]
     for it in items:
         if it['side']!='Q': continue
@@ -75,7 +75,7 @@ if __name__=='__main__':
         reason='paper excluded (my header check)' if k in bad_hdr else 'question excluded (my MS check)' if (k,q) in bad_q else ''
         status='covered' if len(c)==1 else 'DUPLICATE' if len(c)>1 else ('excluded:'+reason if reason else 'MISSING')
         st[status]+=1; rows.append({'paper':k,'leaf':x,'status':status,'items':c})
-    json.dump(rows,open('audit/out/coverage.json','w'))
+    json.dump(rows,open('hub/audit/out/coverage.json','w'))
     print('expected leaves',len(expected),dict(st)); print('unexpandable refs',len(unexpandable),unexpandable[:10])
     extra=[k for k in cover if not any(r['paper']==k[0] and r['leaf']==k[1] for r in rows)]
     print('book leaves not in my QP parse',len(extra),extra[:10])

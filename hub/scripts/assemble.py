@@ -1,6 +1,6 @@
 """Stage 5: tag leaves with topics (topics.json) and assemble items per CLAUDE.md.
 
-Usage: python3 scripts/assemble.py phase1|phase2|all
+Usage: python3 hub/scripts/assemble.py phase1|phase2|all
 Reads work/parts_<phase>.json + work/tags_<phase>.txt.
 Writes work/items_<phase>.json, work/topics_<phase>.json, work/log_<phase>.json.
 """
@@ -118,7 +118,7 @@ def majority(leaves):
 
 
 def assemble(phase):
-    P = json.load(open(os.path.join(ROOT, "Δ-chemistry", "work", f"parts_{phase}.json")))
+    P = json.load(open(os.path.join(ROOT, "Δ-chemistry", "build", "work", f"parts_{phase}.json")))
     T = load_tags(phase)
     cx = Ctx()
     items, topics, log = [], [], defaultdict(list)
@@ -295,14 +295,14 @@ def coverage(P, items, T, log):
 def main():
     phase = sys.argv[1]
     items, topics, log = assemble(phase)
-    P = json.load(open(os.path.join(ROOT, "Δ-chemistry", "work", f"parts_{phase}.json")))
+    P = json.load(open(os.path.join(ROOT, "Δ-chemistry", "build", "work", f"parts_{phase}.json")))
     gaps, dupes = coverage(P, items, None, log)
     excl_refs = {e["ref"] for e in log["excluded"] + log["out_of_syllabus"]}
     log["coverage_gaps"] = [list(g) for g in gaps]
     log["coverage_dupes"] = [list(d) for d in dupes]
-    json.dump(items, open(os.path.join(ROOT, "Δ-chemistry", "work", f"items_{phase}.json"), "w"), indent=0, ensure_ascii=False)
-    json.dump(topics, open(os.path.join(ROOT, "Δ-chemistry", "work", f"topics_{phase}.json"), "w"), indent=0, ensure_ascii=False)
-    json.dump(log, open(os.path.join(ROOT, "Δ-chemistry", "work", f"log_{phase}.json"), "w"), indent=1, ensure_ascii=False)
+    json.dump(items, open(os.path.join(ROOT, "Δ-chemistry", "build", "work", f"items_{phase}.json"), "w"), indent=0, ensure_ascii=False)
+    json.dump(topics, open(os.path.join(ROOT, "Δ-chemistry", "build", "work", f"topics_{phase}.json"), "w"), indent=0, ensure_ascii=False)
+    json.dump(log, open(os.path.join(ROOT, "Δ-chemistry", "build", "work", f"log_{phase}.json"), "w"), indent=1, ensure_ascii=False)
     per = defaultdict(int)
     for it in items:
         per[it["topic"]] += 1

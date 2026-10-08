@@ -4,13 +4,13 @@ continuing on the next page) must be inside the item's answer-side crops -> else
 (c) MS lines shown in the answer crops that belong to other questions/parts (not the item's own
 parts and not its listed context parts) -> WRONG/EXTRA ROWS."""
 import json, csv, re, sys, pymupdf as f
-sys.path.insert(0,'audit/scripts')
+sys.path.insert(0,'hub/audit/scripts')
 from a31_coverage import pkey, expand
 from a21_ms_parse import parse_ms
 from collections import defaultdict
-qp=json.load(open('audit/out/qp_parse.json')); ms=json.load(open('audit/out/ms_parse.json'))
-idx={r['reference']:r for r in csv.DictReader(open('Δ-chemistry/p2-topical-workbook/index.csv'))}
-B=json.load(open('audit/out/bands.json')); fps=B['fpsrc']
+qp=json.load(open('hub/audit/out/qp_parse.json')); ms=json.load(open('hub/audit/out/ms_parse.json'))
+idx={r['reference']:r for r in csv.DictReader(open('Δ-chemistry/booklets/p2-topical-workbook/index.csv'))}
+B=json.load(open('hub/audit/out/bands.json')); fps=B['fpsrc']
 bands=defaultdict(list)
 for b in B['bands']:
     m=fps.get(str(b['fp']))
@@ -18,7 +18,7 @@ for b in B['bands']:
 mscache={}
 def msl(k):
     if k not in mscache:
-        s,v=k.split('_'); mscache[k]=parse_ms(f'data/9701_{s}_ms_{v}.pdf')
+        s,v=k.split('_'); mscache[k]=parse_ms(f'hub/data/9701_{s}_ms_{v}.pdf')
     return mscache[k]
 doc={}
 def H(fn,pi):
@@ -60,7 +60,7 @@ for ref,row in idx.items():
         if L is None: continue   # label not resolved to a part (e.g. MS typo '2c(i)'): skip, ambiguous
         mine = (qq==q) and (l in want or any(x.startswith(l+'(') or l.startswith(x+'(') for x in want) or l==f'{q}' and False)
         cl=[c for (fn,pi,c,_) in bs if pi==pno and fn.endswith(f'_ms_{k.split("_")[1]}.pdf') and f'_{k.split("_")[0]}_' in fn]
-        Hh=H(f'data/9701_{k.split("_")[0]}_ms_{k.split("_")[1]}.pdf',pno) if cl else None
+        Hh=H(f'hub/data/9701_{k.split("_")[0]}_ms_{k.split("_")[1]}.pdf',pno) if cl else None
         def inside(w):
             cx,cy=(w[0]+w[2])/2,(w[1]+w[3])/2
             return any(c[0]<=cx<=c[2] and Hh-c[3]<=cy<=Hh-c[1] for c in cl)
@@ -73,7 +73,7 @@ for ref,row in idx.items():
                 if not isctx: ext[l]+=1
     if miss: trunc.append({'ref':ref,'page_q':row['page'],'missing_words':miss,'sample':missw[:8]})
     if ext: extra.append({'ref':ref,'page_q':row['page'],'other_rows_shown':dict(ext)})
-json.dump({'marks_bad':marks_bad,'trunc':trunc,'extra':extra},open('audit/out/marks_ms.json','w'),indent=0)
+json.dump({'marks_bad':marks_bad,'trunc':trunc,'extra':extra},open('hub/audit/out/marks_ms.json','w'),indent=0)
 print('items',len(idx),'answer crops checked',checked)
 print('marks mismatches',len(marks_bad)); [print(' ',x) for x in marks_bad[:15]]
 print('truncated MS rows',len(trunc)); [print(' ',x) for x in trunc[:15]]

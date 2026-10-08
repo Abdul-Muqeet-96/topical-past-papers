@@ -4,7 +4,7 @@ An item is a set of 'units' of one question: a lettered part "(c)" (whole) or
 roman sub-parts "(c)(ii)". resolve() returns the context needed so the item is
 solvable alone, or a failure reason.
 
-Context sources (λ-cs/CLAUDE-cs.md):
+Context sources (λ-cs/reference/CLAUDE-cs.md):
 - the stem and the lettered introduction (always shown);
 - an earlier part named in the text ("part (a)", "1(b)(i)", "(ii)");
 - "use your answer" with no part named -> the previous part;

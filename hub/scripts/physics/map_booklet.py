@@ -4,10 +4,10 @@ Finds page roles (unit title pages, question pages, Answers Sections), the
 running header of every page, every item heading "n. <reference>" in the
 question and answer sections, and the page spans of each item and answer.
 Headings whose reference fails the tolerant regex are listed in
-Ω-physics/work/heading_reads.json and must be read by image (a cropped strip);
+Ω-physics/build/work/heading_reads.json and must be read by image (a cropped strip);
 the values read are stored there and used on the next run.
 
-Writes Ω-physics/work/booklet_pages.json and Ω-physics/work/booklet_items.json.
+Writes Ω-physics/build/work/booklet_pages.json and Ω-physics/build/work/booklet_items.json.
 Prints counts only.
 """
 import json, os, re, sys
@@ -18,8 +18,8 @@ sys.path.insert(0, os.path.dirname(__file__))
 from booklet_lines import vlines, words
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-SRC = os.path.join(ROOT, "Ω-physics", "Physics paper 2 9702 3.pdf")
-WORK = os.path.join(ROOT, "Ω-physics", "work")
+SRC = os.path.join(ROOT, "Ω-physics", "reference", "Physics paper 2 9702 3.pdf")
+WORK = os.path.join(ROOT, "Ω-physics", "build", "work")
 READS = os.path.join(WORK, "heading_reads.json")
 
 # Booklet contents page (pdf page 3), printed page numbers: unit -> (questions, answers).

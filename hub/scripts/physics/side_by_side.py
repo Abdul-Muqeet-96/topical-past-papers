@@ -1,6 +1,6 @@
 """Side-by-side sheets for the booklet light check: booklet item crop (left) and the
 official QP pages of that question (right). Usage:
-  python3 scripts/physics/side_by_side.py OUTDIR [unit:n ...]   (default: the 55 sampled items)
+  python3 hub/scripts/physics/side_by_side.py OUTDIR [unit:n ...]   (default: the 55 sampled items)
 Writes OUTDIR/sbs_<unit>_<n>.png and prints the file names."""
 import json, os, re, sys
 import pymupdf
@@ -9,8 +9,8 @@ sys.path.insert(0, os.path.dirname(__file__))
 from parse import load, parse_qp, special_page
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-WORK = os.path.join(ROOT, "Ω-physics", "work")
-SRC = os.path.join(ROOT, "Ω-physics", "Physics paper 2 9702 3.pdf")
+WORK = os.path.join(ROOT, "Ω-physics", "build", "work")
+SRC = os.path.join(ROOT, "Ω-physics", "reference", "Physics paper 2 9702 3.pdf")
 DPI = 50
 
 

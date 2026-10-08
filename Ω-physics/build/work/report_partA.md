@@ -1,6 +1,6 @@
 ## Part A: booklet light check (report only)
 
-Source: `Ω-physics/Physics paper 2 9702 3.pdf` (550 scanned pages), OCR'd into `Ω-physics/booklet-ocr.pdf` (scripts/physics/ocr_booklet.py). Map: scripts/physics/map_booklet.py; checks: scripts/physics/booklet_check.py (results in work/booklet_check.json).
+Source: `Ω-physics/reference/Physics paper 2 9702 3.pdf` (550 scanned pages), OCR'd into `Ω-physics/reference/booklet-ocr.pdf` (scripts/physics/ocr_booklet.py). Map: scripts/physics/map_booklet.py; checks: scripts/physics/booklet_check.py (results in work/booklet_check.json).
 
 ### Contents page vs pages
 

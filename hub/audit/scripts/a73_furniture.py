@@ -5,7 +5,7 @@ text positions (page number / UCLES / Turn over), so scaled pages (m20) are hand
 rendered book pages for the red PapaCambridge logo."""
 import pymupdf as f, json, re
 from collections import defaultdict
-o=json.load(open('audit/out/bands.json')); fps=o['fpsrc']
+o=json.load(open('hub/audit/out/bands.json')); fps=o['fpsrc']
 cache={}; zc={}
 def zones(fn,i):
     if (fn,i) in zc: return zc[(fn,i)]
@@ -27,13 +27,13 @@ for b in o['bands']:
     if bot is not None and y1>bot+2: hits[(b['ref'],b['side'],b['page'])].add('footer zone (UCLES / Turn over / paper code)')
 rows=[{'ref':k[0],'side':k[1],'page':k[2],'what':sorted(v)} for k,v in hits.items()]
 # logo scan (rendered pixels)
-d=f.open('Δ-chemistry/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf'); logo=[]
+d=f.open('Δ-chemistry/booklets/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf'); logo=[]
 for i in range(len(d)):
     pm=d[i].get_pixmap(dpi=36); s=pm.samples; n=0
     for j in range(0,len(s),3):
         if s[j]>170 and s[j+1]<90 and s[j+2]<90: n+=1
     if n>15: logo.append((i+1,n))
-json.dump({'furniture':rows,'logo_pages':logo},open('audit/out/furniture.json','w'),indent=0)
+json.dump({'furniture':rows,'logo_pages':logo},open('hub/audit/out/furniture.json','w'),indent=0)
 from collections import Counter
 print('bands reaching furniture zones:',len(rows),Counter(tuple(r['what']) for r in rows)); print('pages with red logo pixels',logo)
 for r in rows[:30]: print(r)

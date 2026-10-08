@@ -1,9 +1,9 @@
 """Download 9702 Paper 2 qp/ms PDFs into data/ and verify page-1 headers.
 
-Usage: python3 scripts/physics/download.py partb            (Part B papers in the spec)
-       python3 scripts/physics/download.py <phase> s23_21 ... (extra papers, e.g. 'check' for
+Usage: python3 hub/scripts/physics/download.py partb            (Part B papers in the spec)
+       python3 hub/scripts/physics/download.py <phase> s23_21 ... (extra papers, e.g. 'check' for
                                                              the booklet light check, 'partb23')
-Writes/updates Ω-physics/work/manifest_physics.json. Prints counts only.
+Writes/updates Ω-physics/build/work/manifest_physics.json. Prints counts only.
 """
 import json, os, re, subprocess, sys, time
 import pymupdf
@@ -15,7 +15,7 @@ SERIES_NAME = {"m": "February/March", "s": "May/June", "w": "October/November"}
 
 
 def papers(phase):
-    """Part B papers listed in Ω-physics/CLAUDE-physics.md (2024 onwards)."""
+    """Part B papers listed in Ω-physics/reference/CLAUDE-physics.md (2024 onwards)."""
     out = [("m", 24, 22)] + [("s", 24, v) for v in (21, 22, 23)] + [("w", 24, v) for v in (21, 22, 23)]
     out += [("m", 25, 22)] + [("s", 25, v) for v in (21, 22, 23, 24)] + [("w", 25, v) for v in (21, 22, 23, 24)]
     out += [("m", 26, 22)] + [("s", 26, v) for v in (21, 22, 23, 24)]
@@ -75,7 +75,7 @@ def main():
     phase = sys.argv[1]
     sel_papers = parse_pids(sys.argv[2:]) if len(sys.argv) > 2 else papers(phase)
     kinds_for = ("qp",) if phase == "check" else ("qp", "ms")
-    mpath = os.path.join(ROOT, "Ω-physics", "work", "manifest_physics.json")
+    mpath = os.path.join(ROOT, "Ω-physics", "build", "work", "manifest_physics.json")
     man = json.load(open(mpath)) if os.path.exists(mpath) else {}
     for s, yy, v in sel_papers:
         pid = f"{s}{yy:02d}_{v}"

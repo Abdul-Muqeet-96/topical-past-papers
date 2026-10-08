@@ -1,9 +1,9 @@
 """Extract each item's visible text from the book (question side and answer side): words between its
 heading and the next heading. Text under the build's white-outs (hidden dotted lines) is dropped by
-checking rendered ink. Output audit/out/item_text.json."""
+checking rendered ink. Output hub/audit/out/item_text.json."""
 import pymupdf as f, json, re
-bi=sorted(json.load(open('audit/out/book_items.json')),key=lambda i:(i['page'],i['y']))
-d=f.open('Δ-chemistry/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf')
+bi=sorted(json.load(open('hub/audit/out/book_items.json')),key=lambda i:(i['page'],i['y']))
+d=f.open('Δ-chemistry/booklets/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf')
 words={}
 for i in range(len(d)):
     words[i+1]=[w for w in d[i].get_text('words') if w[1]>46]
@@ -25,5 +25,5 @@ for k,it in enumerate(bi):
         T.append(' '.join(L).replace(' \n ','\n'))
         if nx and pg==nx['page']: break
     out[it['ref']+'|'+it['side']]={'ref':it['ref'],'side':it['side'],'unit':it['unit'],'n':it['n'],'page':it['page'],'text':'\n'.join(T)}
-json.dump(out,open('audit/out/item_text.json','w'))
+json.dump(out,open('hub/audit/out/item_text.json','w'))
 print(len(out),'item texts')

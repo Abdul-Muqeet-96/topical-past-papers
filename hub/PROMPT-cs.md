@@ -7,8 +7,8 @@ Paste this one line into a fresh session:
 ---
 
 ## Task
-Build the two CS workbooks described in `λ-cs/CLAUDE-cs.md`, in one
-unattended run. `λ-cs/CLAUDE-cs.md` is the specification; repo-wide rules are
+Build the two CS workbooks described in `λ-cs/reference/CLAUDE-cs.md`, in one
+unattended run. `λ-cs/reference/CLAUDE-cs.md` is the specification; repo-wide rules are
 in `CLAUDE.md`. If this prompt and the specification disagree, follow the
 specification.
 
@@ -25,27 +25,27 @@ summaries.
    - Do not open a pull request.
    - Do not touch `main`, or the Chemistry or Physics files.
 2. Install what is missing: `pip install pymupdf numpy`, and qpdf.
-3. Create `λ-cs/state_cs.json` and update it after every stage.
+3. Create `λ-cs/build/state_cs.json` and update it after every stage.
 
 ## Stages (commit and push after each)
-0. **Tooling.** Copy `scripts/` to `scripts/cs/` and adapt it:
+0. **Tooling.** Copy `scripts/` to `hub/scripts/cs/` and adapt it:
    - codes 9618/9608, variants 1x/2x, URLs and header titles;
    - inserts;
    - the paper-total check (75, not 60);
    - two books, with filing by topic across them;
    - remove the chemistry-only rules (Periodic Table, data block, Data
      Booklet).
-   Then read `Δ-chemistry/layout.md` and the Chemistry book's code. The CS layout is the
+   Then read `Δ-chemistry/reference/layout.md` and the Chemistry book's code. The CS layout is the
    same, with CS names.
 1. **Downloads.** Download Phase 1 (9618) QPs, MSs and inserts; verify the
-   headers; write `λ-cs/work/manifest_cs.json`. Print a count table, including
+   headers; write `λ-cs/build/work/manifest_cs.json`. Print a count table, including
    unavailable papers.
 2. **Paper checks** (the spec's paper-level verification). Log every failure
-   in `λ-cs/report.md`.
+   in `λ-cs/reports/report.md`.
 3. **Parts and tags.** Split into parts and resolve context, including the
    identifier rule and the inserts. Tag every lowest-level part with a unit,
    section and learning outcome, by reading the extracted text, in compact
-   files under `λ-cs/work/`. Check every unit's tags against the syllabus wording.
+   files under `λ-cs/build/work/`. Check every unit's tags against the syllabus wording.
 4. **Phase 1 books.** Build both books, the unit PDFs, the index files,
    report.md and SUMMARY.md. Render sample pages (cover, contents, a P1 page,
    a P2 page with pseudocode, an answers page) and fix what is wrong. Commit
@@ -53,11 +53,11 @@ summaries.
 5. **Phase 2 (9608).** Download and check. Tag against the 2027-29 syllabus.
    Exclude pre-release and out-of-syllabus parts, and list them. Rebuild both
    books with Phase 1 and Phase 2 together.
-6. **Self-check** (the final section of the spec). Write `audit/CS_CHECK.md`,
+6. **Self-check** (the final section of the spec). Write `hub/audit/CS_CHECK.md`,
    fix what failed, rebuild, and re-run all checks. Repeat until everything
    passes, or until a remaining issue cannot be fixed (then report exactly
    why). Commit after each round.
-7. **Finish.** Update `λ-cs/SUMMARY.md`: papers, items and marks per unit for
+7. **Finish.** Update `λ-cs/reports/SUMMARY.md`: papers, items and marks per unit for
    each book, files and sizes, and what is still open. Your final message: a
    compact summary table, the open issues, and the branch name.
 

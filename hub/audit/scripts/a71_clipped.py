@@ -4,7 +4,7 @@ union of its band clips (source user space) and list source words only PARTLY co
 words fully inside the clips reproduce the band text."""
 import pymupdf as f, json, re
 from collections import defaultdict
-o=json.load(open('audit/out/bands.json')); fps=o['fpsrc']
+o=json.load(open('hub/audit/out/bands.json')); fps=o['fpsrc']
 cache={}
 def page(fn,i):
     if fn not in cache: cache[fn]=f.open(fn)
@@ -27,7 +27,7 @@ for (ref,side,fn,pi),bs in grp.items():
         if 0.12<inside<0.88 or (hx and 0.12<xin<0.88):
             if re.fullmatch(r'[.…]+',w[4]): continue   # dotted answer line fragments are meant to be cut
             out.append({'ref':ref,'side':side,'src':fn.split('/')[-1],'srcpage':pi+1,'word':w[4],'vfrac':round(inside,2),'hfrac':round(xin,2),'bookpages':sorted(set(b['page'] for b in bs))})
-json.dump(out,open('audit/out/clipped.json','w'),indent=0)
+json.dump(out,open('hub/audit/out/clipped.json','w'),indent=0)
 from collections import Counter
 print('partly-clipped words',len(out),'in',len(set((x['ref'],x['side']) for x in out)),'items/answers;',Counter(x['side'] for x in out))
 for x in out[:25]: print(x)

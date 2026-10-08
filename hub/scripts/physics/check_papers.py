@@ -66,7 +66,7 @@ def check(pid, ent):
 
 def main():
     phase = sys.argv[1]
-    man = json.load(open(os.path.join(ROOT, "Ω-physics", "work", "manifest_physics.json")))
+    man = json.load(open(os.path.join(ROOT, "Ω-physics", "build", "work", "manifest_physics.json")))
     out = {}
     seen = {}      # normalised question-paper text -> pid (identical papers issued under two codes)
     for pid, ent in sorted(man.items(), key=lambda kv: (kv[1]["year"], kv[1]["series"], kv[1]["variant"])):
@@ -91,8 +91,8 @@ def main():
                 out[pid]["duplicate_of"] = seen[key]
             else:
                 seen[key] = pid
-    os.makedirs(os.path.join(ROOT, "Ω-physics", "work"), exist_ok=True)
-    json.dump(out, open(os.path.join(ROOT, "Ω-physics", "work", f"checks_{phase}.json"), "w"), indent=1)
+    os.makedirs(os.path.join(ROOT, "Ω-physics", "build", "work"), exist_ok=True)
+    json.dump(out, open(os.path.join(ROOT, "Ω-physics", "build", "work", f"checks_{phase}.json"), "w"), indent=1)
     exc = [p for p, r in out.items() if r["paper_excluded"]]
     badq = [(p, n) for p, r in out.items() if not r["paper_excluded"]
             for n, q in r["questions"].items() if not q["ok"]]

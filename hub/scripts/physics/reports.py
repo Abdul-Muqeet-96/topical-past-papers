@@ -1,4 +1,4 @@
-"""Write Ω-physics/report.md and Ω-physics/SUMMARY.md from the manifest, checks, logs,
+"""Write Ω-physics/reports/report.md and Ω-physics/reports/SUMMARY.md from the manifest, checks, logs,
 booklet light check, build info and final checks."""
 import json, os, sys
 from collections import Counter, defaultdict
@@ -8,7 +8,7 @@ import report_partA
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 PH = os.path.join(ROOT, "Ω-physics")
-OUT = os.path.join(PH, "p2-topical-workbook")
+OUT = os.path.join(PH, "booklets", "p2-topical-workbook")
 BOOKNAME = "Physics-9702-P2-Topical-Workbook.pdf"
 
 
@@ -22,21 +22,21 @@ def size(p):
 
 
 def main():
-    man = j("work/manifest_physics.json")
-    chk = j("work/checks_partb.json")
-    log = j("work/log_partb.json")
-    items = j("work/items_partb.json")
-    parts = j("work/parts_partb.json")
-    info = j("work/build_info.json")
-    fc = j("work/final_checks.json")
-    bk = j("work/booklet_items.json")
-    bchk = j("work/booklet_check.json")
+    man = j("build/work/manifest_physics.json")
+    chk = j("build/work/checks_partb.json")
+    log = j("build/work/log_partb.json")
+    items = j("build/work/items_partb.json")
+    parts = j("build/work/parts_partb.json")
+    info = j("build/work/build_info.json")
+    fc = j("build/work/final_checks.json")
+    bk = j("build/work/booklet_items.json")
+    bchk = j("build/work/booklet_check.json")
     selfchk = os.path.join(ROOT, "hub", "audit", "PHYSICS_CHECK.md")
 
     R = ["# Report — Physics 9702 Paper 2 topical workbook", "",
-         "Two sources (spec `Ω-physics/CLAUDE-physics.md`): **Part A** = the scanned Read and Write booklet "
+         "Two sources (spec `Ω-physics/reference/CLAUDE-physics.md`): **Part A** = the scanned Read and Write booklet "
          "(papers up to 2023; its items and answers used as they are, cropped from the OCR'd scan "
-         "`Ω-physics/booklet-ocr.pdf`), **Part B** = official papers (O/N 2023, all 2024–2026 papers listed in "
+         "`Ω-physics/reference/booklet-ocr.pdf`), **Part B** = official papers (O/N 2023, all 2024–2026 papers listed in "
          "the spec), built with the Chemistry pipeline. Nothing was retyped: every question and answer in the "
          "book is a crop of the scan or a vector clip of the official PDF.", ""]
     # ---------- AUTO-DECIDED ----------
@@ -91,7 +91,7 @@ def main():
     for (u, n), why in MISFILED.items():
         rows.append((f"Booklet Unit {u} #{n}", "The booklet files this question twice, once under an unrelated "
                      "unit", f"Dropped the misfiled copy: {why}."))
-    gp = os.path.join(ROOT, "Ω-physics", "work", "gapfill.json")
+    gp = os.path.join(ROOT, "Ω-physics", "build", "work", "gapfill.json")
     if os.path.exists(gp):
         G = json.load(open(gp))
         for k, o in G["replace_q"].items():
@@ -154,7 +154,7 @@ def main():
     R.append("")
     # ---------- paper checks ----------
     R += ["## Part B paper-level verification", "",
-          "Checks per paper (scripts/physics/check_papers.py): every question once, [Total] = sum of part marks, "
+          "Checks per paper (hub/scripts/physics/check_papers.py): every question once, [Total] = sum of part marks, "
           "totals = 60, MS marks = QP total per question, reference from the paper's own header.", "",
           "| Paper | Questions | Result |", "|---|---|---|"]
     for pid, c in sorted(chk.items(), key=lambda kv: (man[kv[0]]["year"], man[kv[0]]["series"], man[kv[0]]["variant"])):
@@ -190,9 +190,9 @@ def main():
           f"booklet {len(fc['booklet_ref_not_on_page'])} misses) and appears with an answer entry and an index "
           f"row (official {len(fc['answers_missing'])} misses, booklet {len(fc['booklet_answer_missing'])} "
           f"misses). Booklet items in the book: {fc['counts']['booklet_in_book']}/{fc['counts']['booklet_items']}.",
-          "- Full self-check with every audit-derived check: `audit/PHYSICS_CHECK.md`"
+          "- Full self-check with every audit-derived check: `hub/audit/PHYSICS_CHECK.md`"
           + (" (see there)." if os.path.exists(selfchk) else " (not yet written)."), ""]
-    open(os.path.join(PH, "report.md"), "w").write("\n".join(R) + "\n")
+    open(os.path.join(PH, "reports", "report.md"), "w").write("\n".join(R) + "\n")
 
     # ---------- SUMMARY ----------
     S = ["# SUMMARY — Physics 9702 Paper 2 topical workbook", "",
@@ -231,10 +231,10 @@ def main():
     for f in sorted(os.listdir(os.path.join(OUT, "units"))):
         p = os.path.join(OUT, "units", f)
         S.append(f"| {rel(p)} | {size(p)} |")
-    for p in [os.path.join(OUT, "index.csv"), os.path.join(OUT, "items.jsonl"), os.path.join(PH, "topics.json"),
-              os.path.join(PH, "booklet-ocr.pdf"), os.path.join(PH, "report.md")]:
+    for p in [os.path.join(OUT, "index.csv"), os.path.join(OUT, "items.jsonl"), os.path.join(PH, "build", "topics.json"),
+              os.path.join(PH, "reference", "booklet-ocr.pdf"), os.path.join(PH, "reports", "report.md")]:
         S.append(f"| {rel(p)} | {size(p)} |")
-    big = [p for p in [book, os.path.join(PH, "booklet-ocr.pdf")] if os.path.getsize(p) > 95e6]
+    big = [p for p in [book, os.path.join(PH, "reference", "booklet-ocr.pdf")] if os.path.getsize(p) > 95e6]
     S += ["", ("Files over 95 MB (not pushed): " + ", ".join(map(rel, big))) if big else
           "No file exceeds 95 MB, so everything is pushed. Unit PDFs keep the book's page numbers "
           "(they match index.csv).", ""]
@@ -256,8 +256,8 @@ def main():
           "were tagged by what they test, which splits some questions across units.",
           "6. **Repo size:** the book, unit PDFs and booklet-ocr.pdf are committed (see sizes above).", ""]
     if os.path.exists(selfchk):
-        S += ["Self-check results: `audit/PHYSICS_CHECK.md`.", ""]
-    open(os.path.join(PH, "SUMMARY.md"), "w").write("\n".join(S) + "\n")
+        S += ["Self-check results: `hub/audit/PHYSICS_CHECK.md`.", ""]
+    open(os.path.join(PH, "reports", "SUMMARY.md"), "w").write("\n".join(S) + "\n")
     print("report.md and SUMMARY.md written")
 
 

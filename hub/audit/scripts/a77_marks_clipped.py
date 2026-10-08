@@ -2,7 +2,7 @@
 (3-97% of the box inside the crop union), i.e. visibly truncated marks."""
 import pymupdf as f, json, re
 from collections import defaultdict
-o=json.load(open('audit/out/bands.json')); fps=o['fpsrc']; cache={}
+o=json.load(open('hub/audit/out/bands.json')); fps=o['fpsrc']; cache={}
 def page(fn,i):
     if fn not in cache: cache[fn]=f.open(fn)
     return cache[fn][i]
@@ -19,6 +19,6 @@ for (ref,fn,pi),bs in grp.items():
         r=f.Rect(w[:4])*RM
         ins=sum(max(0,min(r.y1,c.y1)-max(r.y0,c.y0)) for c in cl if r.x0<c.x1 and r.x1>c.x0)/r.height
         if 0.03<ins<0.97: out.append({'ref':ref,'src':fn.split('/')[-1],'srcpage':pi+1,'word':w[4],'inside':round(ins,2),'bookpages':sorted(set(b['page'] for b in bs))})
-json.dump(out,open('audit/out/marks_clipped.json','w'),indent=0)
+json.dump(out,open('hub/audit/out/marks_clipped.json','w'),indent=0)
 print(len(out),'cut mark brackets in',len(set(x['ref'] for x in out)),'items')
 for x in out: print(x)

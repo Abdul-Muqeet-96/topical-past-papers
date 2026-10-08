@@ -10,9 +10,9 @@
   "7": "done"
  },
  "notes": {
-  "0": "branch claude/cs-9618-booklets; PyMuPDF 1.28.2, numpy 2.5.3, qpdf 12.4.2 present (no pip on this machine, nothing to install); scripts/ copied to scripts/cs/ and adapted (codes 9618/9608, variants 1x/2x, inserts, paper total 75, two books, chemistry-only rules removed); syllabus LOs extracted to work/syllabus.json; λ-cs/layout.md written",
-  "1": "Phase 1 (9618): 84 papers attempted, 60 downloaded with QP+MS headers verified (30 P1, 30 P2), 24 not on the site (all March series, s22, w26), 0 excluded; 31 inserts (30 used; s22_in_21 has no paper). λ-cs/work/manifest_cs.json",
-  "2": "Phase 1 paper checks: 60 papers pass (question numbers once, part marks = 75, references from headers); 473 questions, 1 excluded (M/J 25/P12 Q7: MS marks 7 != QP marks 8). λ-cs/work/checks_phase1.json",
+  "0": "branch claude/cs-9618-booklets; PyMuPDF 1.28.2, numpy 2.5.3, qpdf 12.4.2 present (no pip on this machine, nothing to install); scripts/ copied to scripts/cs/ and adapted (codes 9618/9608, variants 1x/2x, inserts, paper total 75, two books, chemistry-only rules removed); syllabus LOs extracted to work/syllabus.json; λ-cs/reference/layout.md written",
+  "1": "Phase 1 (9618): 84 papers attempted, 60 downloaded with QP+MS headers verified (30 P1, 30 P2), 24 not on the site (all March series, s22, w26), 0 excluded; 31 inserts (30 used; s22_in_21 has no paper). λ-cs/build/work/manifest_cs.json",
+  "2": "Phase 1 paper checks: 60 papers pass (question numbers once, part marks = 75, references from headers); 473 questions, 1 excluded (M/J 25/P12 Q7: MS marks 7 != QP marks 8). λ-cs/build/work/checks_phase1.json",
   "3": "Phase 1: 472 questions split into 1220 lettered parts / 595 roman sub-parts = 1551 lowest-level parts, all tagged (work/tags_phase1.txt) and checked against the syllabus wording; context resolved (identifier rule, inserts); 692 items assembled (work/items_phase1.json), 0 exclusions, coverage complete",
   "4": "Phase 1 books built (fallback): P1 book 528 pages, 326 items, 2267 marks; P2 book 686 pages, 366 items, 2225 marks; unit PDFs, index.csv, items.jsonl, topics.json per book; final_checks all zero; sample pages rendered and viewed",
   "5": "Phase 2 (9608): 98 papers attempted, 70 downloaded and header-verified, 26 not on the site, 2 excluded; 70 pass the paper checks, 3 questions excluded; 1725 parts tagged (work/tags_phase2.txt), 143 of them out of syllabus. Books rebuilt with both phases",

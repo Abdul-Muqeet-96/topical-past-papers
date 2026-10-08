@@ -1,10 +1,10 @@
 """Part A step 1: OCR every page of the scanned Physics booklet.
 
-Usage: python3 scripts/physics/ocr_booklet.py ocr [jobs]   -> Ω-physics/work/ocr/pNNN.tsv
-       python3 scripts/physics/ocr_booklet.py pdf          -> Ω-physics/booklet-ocr.pdf
+Usage: python3 hub/scripts/physics/ocr_booklet.py ocr [jobs]   -> Ω-physics/build/work/ocr/pNNN.tsv
+       python3 hub/scripts/physics/ocr_booklet.py pdf          -> Ω-physics/reference/booklet-ocr.pdf
 The 'ocr' step renders each page at 300 dpi (grey) and runs tesseract
 (--oem 1 --psm 3 -l eng, TSV word boxes), several pages in parallel. It
-writes Ω-physics/work/ocr/DONE when every page has a TSV (marker for waiting).
+writes Ω-physics/build/work/ocr/DONE when every page has a TSV (marker for waiting).
 The 'pdf' step writes the original scanned pages with each OCR word added as
 invisible text (insert_text, render_mode 3) sized to its word box, so crops
 of this file carry a text layer. The scan itself is not changed.
@@ -14,9 +14,9 @@ from concurrent.futures import ProcessPoolExecutor
 import pymupdf
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-SRC = os.path.join(ROOT, "Ω-physics", "Physics paper 2 9702 3.pdf")
-OCR = os.path.join(ROOT, "Ω-physics", "work", "ocr")
-OUT = os.path.join(ROOT, "Ω-physics", "booklet-ocr.pdf")
+SRC = os.path.join(ROOT, "Ω-physics", "reference", "Physics paper 2 9702 3.pdf")
+OCR = os.path.join(ROOT, "Ω-physics", "build", "work", "ocr")
+OUT = os.path.join(ROOT, "Ω-physics", "reference", "booklet-ocr.pdf")
 DPI = 300
 FONT = "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"
 

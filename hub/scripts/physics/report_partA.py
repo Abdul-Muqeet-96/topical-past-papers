@@ -1,5 +1,5 @@
-"""Part A (booklet) section of Ω-physics/report.md, from the booklet map and light check.
-Writes Ω-physics/work/report_partA.md (included by reports.py) and, when run directly,
+"""Part A (booklet) section of Ω-physics/reports/report.md, from the booklet map and light check.
+Writes Ω-physics/build/work/report_partA.md (included by reports.py) and, when run directly,
 also a provisional Ω-physics/report.md."""
 import json, os, sys
 from collections import Counter
@@ -7,7 +7,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from map_booklet import BOOKLET_UNITS, UNIT_TO_TOPIC
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-WORK = os.path.join(ROOT, "Ω-physics", "work")
+WORK = os.path.join(ROOT, "Ω-physics", "build", "work")
 
 
 def auto_decided():
@@ -54,9 +54,9 @@ def section():
     I = json.load(open(os.path.join(WORK, "booklet_items.json")))
     P = json.load(open(os.path.join(WORK, "booklet_pages.json")))
     L = ["## Part A: booklet light check (report only)", "",
-         "Source: `Ω-physics/Physics paper 2 9702 3.pdf` (550 scanned pages), OCR'd into "
-         "`Ω-physics/booklet-ocr.pdf` (scripts/physics/ocr_booklet.py). Map: scripts/physics/map_booklet.py; "
-         "checks: scripts/physics/booklet_check.py (results in work/booklet_check.json).", ""]
+         "Source: `Ω-physics/reference/Physics paper 2 9702 3.pdf` (550 scanned pages), OCR'd into "
+         "`Ω-physics/reference/booklet-ocr.pdf` (hub/scripts/physics/ocr_booklet.py). Map: hub/scripts/physics/map_booklet.py; "
+         "checks: hub/scripts/physics/booklet_check.py (results in work/booklet_check.json).", ""]
     L += ["### Contents page vs pages", "", "| Booklet unit | → topic | Title page (contents / found) | "
           "Answers Section (contents / found) | Question pages | Items | Answers | Numbered to |",
           "|---|---|---|---|---|---|---|---|"]
@@ -129,5 +129,5 @@ if __name__ == "__main__":
            "## AUTO-DECIDED", "", "| Item | Issue | What I did |", "|---|---|---|"]
     rep += [f"| {a} | {b} | {c} |" for a, b, c in rows]
     rep += ["", txt]
-    open(os.path.join(ROOT, "Ω-physics", "report.md"), "w").write("\n".join(rep) + "\n")
+    open(os.path.join(ROOT, "Ω-physics", "reports", "report.md"), "w").write("\n".join(rep) + "\n")
     print("report.md (Part A) written:", len(rows), "auto-decided rows")

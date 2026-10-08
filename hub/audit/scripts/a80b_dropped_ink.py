@@ -5,7 +5,7 @@ Strips that contain text (other sub-parts deliberately left out) are skipped; gr
 removed from the item (lost figure parts, e.g. branches of a skeletal formula, bond lines)."""
 import pymupdf as f, json
 from collections import defaultdict
-o=json.load(open('audit/out/bands.json')); fps=o['fpsrc']; cache={}; rend={}
+o=json.load(open('hub/audit/out/bands.json')); fps=o['fpsrc']; cache={}; rend={}
 def page(fn,i):
     if fn not in cache: cache[fn]=f.open(fn)
     return cache[fn][i]
@@ -43,6 +43,6 @@ for (ref,fn,pi),bs in grp.items():
         words=[w for w in p.get_text('words') if g0+0.5<(w[1]+w[3])/2<g1-0.5 and 42<w[0]<553 and not set(w[4])<=set('.…') and 'UCLES' not in w[4]]
         if ink>=12 and not words:
             out.append({'ref':ref,'src':fn.split('/')[-1],'srcpage':pi+1,'dropped_y':[round(g0,1),round(g1,1)],'ink_px':ink,'rows':rows,'bookpage':b[4]})
-json.dump(out,open('audit/out/dropped_ink.json','w'),indent=0)
+json.dump(out,open('hub/audit/out/dropped_ink.json','w'),indent=0)
 print(len(out),'strips with dropped ink in',len(set(x['ref'] for x in out)),'items')
 for x in sorted(out,key=lambda x:-x['ink_px']): print(x['ref'],'p',x['bookpage'],x['src'],'srcp',x['srcpage'],x['dropped_y'],'ink',x['ink_px'],'rows',x['rows'])

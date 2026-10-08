@@ -3,11 +3,11 @@ import json, os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 CS = os.path.join(ROOT, "λ-cs")
-WORK = os.path.join(CS, "work")
+WORK = os.path.join(CS, "build", "work")
 DATA = os.path.join(ROOT, "hub", "data")
 MANIFEST = os.path.join(WORK, "manifest_cs.json")
-STATE = os.path.join(CS, "state_cs.json")
-OUT = {1: os.path.join(CS, "p1-topical-workbook"), 2: os.path.join(CS, "p2-topical-workbook")}
+STATE = os.path.join(CS, "build", "state_cs.json")
+OUT = {1: os.path.join(CS, "booklets", "p1-topical-workbook"), 2: os.path.join(CS, "booklets", "p2-topical-workbook")}
 BOOK_FILE = {1: "CS-9618-P1-Topical-Workbook.pdf", 2: "CS-9618-P2-Topical-Workbook.pdf"}
 PAPER_TOTAL = 75
 TITLES = {1: "Paper 1 Theory Fundamentals",

@@ -10,9 +10,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 def main(phases):
     out = []
     for ph in phases:
-        T = json.load(open(os.path.join(ROOT, "Δ-chemistry", "work", f"topics_{ph}.json")))
-        I = json.load(open(os.path.join(ROOT, "Δ-chemistry", "work", f"items_{ph}.json")))
-        P = json.load(open(os.path.join(ROOT, "Δ-chemistry", "work", f"parts_{ph}.json")))
+        T = json.load(open(os.path.join(ROOT, "Δ-chemistry", "build", "work", f"topics_{ph}.json")))
+        I = json.load(open(os.path.join(ROOT, "Δ-chemistry", "build", "work", f"items_{ph}.json")))
+        P = json.load(open(os.path.join(ROOT, "Δ-chemistry", "build", "work", f"parts_{ph}.json")))
         where = {}
         for it in I:
             Q = next(q for q in P[it["paper"]]["questions"] if q["n"] == it["q"])
@@ -25,7 +25,7 @@ def main(phases):
             ref, unit = where.get((t["paper"], t["q"], t["part"]), (None, None))
             t = dict(t, phase=ph, item=ref, unit=unit)
             out.append(t)
-    json.dump(out, open(os.path.join(ROOT, "Δ-chemistry", "topics.json"), "w"), indent=1, ensure_ascii=False)
+    json.dump(out, open(os.path.join(ROOT, "Δ-chemistry", "build", "topics.json"), "w"), indent=1, ensure_ascii=False)
     print("topics.json parts:", len(out), "filed:", sum(1 for t in out if t["item"]))
 
 
