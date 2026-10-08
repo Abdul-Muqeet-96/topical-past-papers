@@ -1,0 +1,229 @@
+[
+ {
+  "n": 38,
+  "ref": "M/J 23/P23/Q8/c",
+  "book": 2,
+  "filed": 12,
+  "blind": [
+   9,
+   10
+  ],
+  "parts": [
+   [
+    "(c)(i)",
+    "12.3.8",
+    2
+   ],
+   [
+    "(c)(ii)",
+    "12.3.8",
+    3
+   ]
+  ],
+  "verdict": [
+   "KEEP",
+   "M/J 23/P23/Q8/c asks why a changed report layout complicates an existing algorithm and to describe the modified algorithm: 12.3.8 (analyse an existing program and amend it) fits better than a generic algorithm outcome."
+  ]
+ },
+ {
+  "n": 258,
+  "ref": "9608 M/J 21/P23/Q2/b",
+  "book": 2,
+  "filed": 9,
+  "blind": [
+   12
+  ],
+  "parts": [
+   [
+    "(b)(i)",
+    "9.2.2",
+    1
+   ],
+   [
+    "(b)(ii)",
+    "9.2.2",
+    3
+   ]
+  ],
+  "verdict": [
+   "KEEP",
+   "9608 M/J 21/P23/Q2/b asks the reason for sensible identifier names and other examples of good programming practice: filed with 9.2.2 like every other part on identifier names / readability (uniform convention, 20 parts); 12.3.1 is used where the part asks how to minimise faults."
+  ]
+ },
+ {
+  "n": 380,
+  "ref": "O/N 15/P22/Q5/a(ii)",
+  "book": 2,
+  "filed": 10,
+  "blind": [
+   9,
+   12
+  ],
+  "parts": [
+   [
+    "(a)(ii)",
+    "10.2.4",
+    1
+   ]
+  ],
+  "verdict": [
+   "KEEP",
+   "O/N 15/P22/Q5/a(ii) asks the purpose of the given pseudocode, which is a bubble sort on an array: 10.2.4 (process array data, bubble sort) is the specific outcome."
+  ]
+ },
+ {
+  "n": 410,
+  "ref": "O/N 22/P23/Q5/c",
+  "book": 2,
+  "filed": 9,
+  "blind": [
+   12
+  ],
+  "parts": [
+   [
+    "(c)",
+    "9.2.2",
+    3
+   ]
+  ],
+  "verdict": [
+   "KEEP",
+   "O/N 22/P23/Q5/c asks why meaningful identifier names are good practice and for two other examples: 9.2.2, same convention as 258."
+  ]
+ },
+ {
+  "n": 474,
+  "ref": "M/J 23/P22/Q1/b",
+  "book": 2,
+  "filed": 9,
+  "blind": [
+   12,
+   11
+  ],
+  "parts": [
+   [
+    "(b)",
+    "9.2.2",
+    3
+   ]
+  ],
+  "verdict": [
+   "KEEP",
+   "M/J 23/P22/Q1/b asks for features that make pseudocode easier to understand: 9.2.2, same convention."
+  ]
+ },
+ {
+  "n": 536,
+  "ref": "O/N 21/P22/Q4/b",
+  "book": 2,
+  "filed": 9,
+  "blind": [
+   12,
+   11
+  ],
+  "parts": [
+   [
+    "(b)",
+    "9.2.2",
+    3
+   ]
+  ],
+  "verdict": [
+   "KEEP",
+   "O/N 21/P22/Q4/b asks for features that make pseudocode easier to read: 9.2.2, same convention."
+  ]
+ },
+ {
+  "n": 833,
+  "ref": "M/J 18/P23/Q2/a",
+  "book": 2,
+  "filed": 9,
+  "blind": [
+   12,
+   11
+  ],
+  "parts": [
+   [
+    "(a)",
+    "9.2.2",
+    2
+   ]
+  ],
+  "verdict": [
+   "KEEP",
+   "M/J 18/P23/Q2/a asks why comments and indentation are useful: 9.2.2, same convention."
+  ]
+ },
+ {
+  "n": 978,
+  "ref": "M/J 18/P21/Q2/a",
+  "book": 2,
+  "filed": 9,
+  "blind": [
+   12,
+   11
+  ],
+  "parts": [
+   [
+    "(a)(i)",
+    "9.2.2",
+    4
+   ],
+   [
+    "(a)(ii)",
+    "9.2.2",
+    1
+   ]
+  ],
+  "verdict": [
+   "KEEP",
+   "M/J 18/P21/Q2/a asks for readability features of the pseudocode: 9.2.2, same convention."
+  ]
+ },
+ {
+  "n": 1085,
+  "ref": "M/J 18/P22/Q2/a",
+  "book": 2,
+  "filed": 9,
+  "blind": [
+   12,
+   11
+  ],
+  "parts": [
+   [
+    "(a)(i)",
+    "9.2.2",
+    2
+   ],
+   [
+    "(a)(ii)",
+    "9.2.2",
+    2
+   ]
+  ],
+  "verdict": [
+   "KEEP",
+   "M/J 18/P22/Q2/a asks for readability features of the pseudocode: 9.2.2, same convention."
+  ]
+ },
+ {
+  "n": 1324,
+  "ref": "M/J 23/P21/Q8/a",
+  "book": 2,
+  "filed": 11,
+  "blind": [
+   10
+  ],
+  "parts": [
+   [
+    "(a)",
+    "11.3.4",
+    7
+   ]
+  ],
+  "verdict": [
+   "KEEP",
+   "M/J 23/P21/Q8/a asks for the function IsNewSupp(), which tests a string and calls SuppExists(); it does not handle the file itself: 11.3.4 (define and use a function) fits better than a file outcome."
+  ]
+ }
+]

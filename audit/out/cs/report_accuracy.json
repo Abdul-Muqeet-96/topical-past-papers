@@ -1,0 +1,616 @@
+[
+{
+"what": "SUMMARY Papers: Papers attempted",
+"printed": [
+84,
+98
+],
+"counted": [
+84,
+98
+],
+"ok": true
+},
+{
+"what": "SUMMARY Papers: Papers attempted (total)",
+"printed": 182,
+"counted": 182,
+"ok": true
+},
+{
+"what": "SUMMARY Papers: Not on the site",
+"printed": [
+24,
+26
+],
+"counted": [
+24,
+26
+],
+"ok": true
+},
+{
+"what": "SUMMARY Papers: Not on the site (total)",
+"printed": 50,
+"counted": 50,
+"ok": true
+},
+{
+"what": "SUMMARY Papers: Downloaded and header-verified (QP + MS)",
+"printed": [
+60,
+70
+],
+"counted": [
+60,
+70
+],
+"ok": true
+},
+{
+"what": "SUMMARY Papers: Downloaded and header-verified (QP + MS) (total)",
+"printed": 130,
+"counted": 130,
+"ok": true
+},
+{
+"what": "SUMMARY Papers: Inserts found",
+"printed": [
+31,
+0
+],
+"counted": [
+31,
+0
+],
+"ok": true
+},
+{
+"what": "SUMMARY Papers: Inserts found (total)",
+"printed": 31,
+"counted": 31,
+"ok": true
+},
+{
+"what": "SUMMARY Papers: Questions excluded (MS marks ≠ QP marks)",
+"printed": [
+1,
+3
+],
+"counted": [
+1,
+3
+],
+"ok": true
+},
+{
+"what": "SUMMARY Papers: Questions excluded (MS marks ≠ QP marks) (total)",
+"printed": 4,
+"counted": 4,
+"ok": true
+},
+{
+"what": "SUMMARY Paper 1 book: unit 1 papers/items/marks",
+"printed": [
+67,
+124,
+782
+],
+"counted": [
+67,
+124,
+782
+],
+"ok": true
+},
+{
+"what": "SUMMARY Paper 1 book: unit 2 papers/items/marks",
+"printed": [
+53,
+64,
+491
+],
+"counted": [
+53,
+64,
+491
+],
+"ok": true
+},
+{
+"what": "SUMMARY Paper 1 book: unit 3 papers/items/marks",
+"printed": [
+59,
+110,
+650
+],
+"counted": [
+59,
+110,
+650
+],
+"ok": true
+},
+{
+"what": "SUMMARY Paper 1 book: unit 4 papers/items/marks",
+"printed": [
+62,
+92,
+766
+],
+"counted": [
+62,
+92,
+766
+],
+"ok": true
+},
+{
+"what": "SUMMARY Paper 1 book: unit 5 papers/items/marks",
+"printed": [
+80,
+96,
+563
+],
+"counted": [
+80,
+96,
+563
+],
+"ok": true
+},
+{
+"what": "SUMMARY Paper 1 book: unit 6 papers/items/marks",
+"printed": [
+56,
+69,
+363
+],
+"counted": [
+56,
+69,
+363
+],
+"ok": true
+},
+{
+"what": "SUMMARY Paper 1 book: unit 7 papers/items/marks",
+"printed": [
+42,
+49,
+236
+],
+"counted": [
+42,
+49,
+236
+],
+"ok": true
+},
+{
+"what": "SUMMARY Paper 1 book: unit 8 papers/items/marks",
+"printed": [
+59,
+59,
+810
+],
+"counted": [
+59,
+59,
+810
+],
+"ok": true
+},
+{
+"what": "SUMMARY Paper 1 book: total papers/items/marks",
+"printed": [
+89,
+663,
+4661
+],
+"counted": [
+89,
+663,
+4661
+],
+"ok": true
+},
+{
+"what": "SUMMARY Paper 2 book: unit 9 papers/items/marks",
+"printed": [
+64,
+145,
+848
+],
+"counted": [
+64,
+145,
+848
+],
+"ok": true
+},
+{
+"what": "SUMMARY Paper 2 book: unit 10 papers/items/marks",
+"printed": [
+63,
+182,
+1607
+],
+"counted": [
+63,
+182,
+1607
+],
+"ok": true
+},
+{
+"what": "SUMMARY Paper 2 book: unit 11 papers/items/marks",
+"printed": [
+62,
+198,
+1315
+],
+"counted": [
+62,
+198,
+1315
+],
+"ok": true
+},
+{
+"what": "SUMMARY Paper 2 book: unit 12 papers/items/marks",
+"printed": [
+65,
+163,
+924
+],
+"counted": [
+65,
+163,
+924
+],
+"ok": true
+},
+{
+"what": "SUMMARY Paper 2 book: total papers/items/marks",
+"printed": [
+65,
+688,
+4694
+],
+"counted": [
+65,
+688,
+4694
+],
+"ok": true
+},
+{
+"what": "SUMMARY Papers: Items in the books",
+"printed": [
+692,
+659,
+1351
+],
+"counted": [
+692,
+659,
+1351
+],
+"ok": true
+},
+{
+"what": "SUMMARY Papers: Marks in the books",
+"printed": [
+4492,
+4863,
+9355
+],
+"counted": [
+4492,
+4863,
+9355
+],
+"ok": true
+},
+{
+"what": "size of CS-9618-P1-Topical-Workbook.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "pages of CS-9618-P1-Topical-Workbook.pdf",
+"printed": 1099,
+"counted": 1099,
+"ok": true
+},
+{
+"what": "size of Unit-01-Information-representation.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of Unit-02-Communication.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of Unit-03-Hardware.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of Unit-04-Processor-Fundamentals.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of Unit-05-System-Software.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of Unit-06-Security-privacy-and-data-integrity.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of Unit-07-Ethics-and-Ownership.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of Unit-08-Databases.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of index.csv",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of items.jsonl",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of topics.json",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of CS-9618-P2-Topical-Workbook.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "pages of CS-9618-P2-Topical-Workbook.pdf",
+"printed": 1518,
+"counted": 1518,
+"ok": true
+},
+{
+"what": "size of Unit-09-Algorithm-Design-and-Problem-solving.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of Unit-10-Data-Types-and-Structures.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of Unit-11-Programming.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of Unit-12-Software-Development.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of index.csv",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of items.jsonl",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of topics.json",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "size of layout.md",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p1-topical-workbook/items.jsonl",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p1-topical-workbook/index.csv",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p1-topical-workbook/topics.json",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p1-topical-workbook/units/Unit-08-Databases.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p1-topical-workbook/units/Unit-07-Ethics-and-Ownership.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p1-topical-workbook/units/Unit-04-Processor-Fundamentals.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p1-topical-workbook/units/Unit-05-System-Software.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p1-topical-workbook/units/Unit-01-Information-representation.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p1-topical-workbook/units/Unit-03-Hardware.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p1-topical-workbook/units/Unit-06-Security-privacy-and-data-integrity.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p1-topical-workbook/units/Unit-02-Communication.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p2-topical-workbook/items.jsonl",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p2-topical-workbook/index.csv",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p2-topical-workbook/topics.json",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p2-topical-workbook/units/Unit-12-Software-Development.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p2-topical-workbook/units/Unit-09-Algorithm-Design-and-Problem-solving.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p2-topical-workbook/units/Unit-11-Programming.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "output file listed in SUMMARY: λ-cs/p2-topical-workbook/units/Unit-10-Data-Types-and-Structures.pdf",
+"printed": true,
+"counted": true,
+"ok": true
+},
+{
+"what": "report.md: exclusion rows that match no part of a verified paper",
+"printed": 0,
+"counted": 0,
+"ok": true
+},
+{
+"what": "report.md: parts listed as excluded but present in a book",
+"printed": 0,
+"counted": 0,
+"ok": true
+},
+{
+"what": "report.md AUTO-DECIDED: every hand-kept decision row is printed",
+"printed": 62,
+"counted": 62,
+"ok": true
+},
+{
+"what": "SUMMARY: stages finished = state_cs.json",
+"printed": [
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7
+],
+"counted": [
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7
+],
+"ok": true
+}
+]

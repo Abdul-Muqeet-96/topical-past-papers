@@ -1,0 +1,615 @@
+{
+ "files": [
+  {
+   "file": "λ-cs/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf",
+   "mb": 21.3,
+   "pages": 1099,
+   "qpdf_ok": true,
+   "sizes": {
+    "(595, 842)": 1099
+   },
+   "not_embedded": [
+    "Arial-BoldMT",
+    "Arial-ItalicMT",
+    "ArialMT",
+    "Courier",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "Symbol",
+    "T1",
+    "TimesNewRomanPS-BoldMT",
+    "TimesNewRomanPSMT"
+   ],
+   "pages_without_text": [],
+   "annots": 0,
+   "encrypted": false,
+   "not_embedded_inherited": [
+    "Arial-BoldMT",
+    "Arial-ItalicMT",
+    "ArialMT",
+    "Courier",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "Symbol",
+    "T1",
+    "TimesNewRomanPS-BoldMT",
+    "TimesNewRomanPSMT"
+   ],
+   "own_fonts": [
+    "FNXBHH+Noto Sans Regular",
+    "WFPZRO+Noto Sans Bold"
+   ]
+  },
+  {
+   "file": "λ-cs/p1-topical-workbook/units/Unit-01-Information-representation.pdf",
+   "mb": 7.9,
+   "pages": 169,
+   "qpdf_ok": true,
+   "sizes": {
+    "(595, 842)": 169
+   },
+   "not_embedded": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "Symbol",
+    "T1",
+    "TimesNewRomanPS-BoldMT",
+    "TimesNewRomanPSMT"
+   ],
+   "pages_without_text": [],
+   "annots": 0,
+   "encrypted": false,
+   "not_embedded_inherited": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "Symbol",
+    "T1",
+    "TimesNewRomanPS-BoldMT",
+    "TimesNewRomanPSMT"
+   ],
+   "own_fonts": [
+    "FNXBHH+Noto Sans Regular",
+    "WFPZRO+Noto Sans Bold"
+   ]
+  },
+  {
+   "file": "λ-cs/p1-topical-workbook/units/Unit-02-Communication.pdf",
+   "mb": 5.1,
+   "pages": 90,
+   "qpdf_ok": true,
+   "sizes": {
+    "(595, 842)": 90
+   },
+   "not_embedded": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "Symbol",
+    "T1",
+    "TimesNewRomanPSMT"
+   ],
+   "pages_without_text": [],
+   "annots": 0,
+   "encrypted": false,
+   "not_embedded_inherited": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "Symbol",
+    "T1",
+    "TimesNewRomanPSMT"
+   ],
+   "own_fonts": [
+    "FNXBHH+Noto Sans Regular",
+    "WFPZRO+Noto Sans Bold"
+   ]
+  },
+  {
+   "file": "λ-cs/p1-topical-workbook/units/Unit-03-Hardware.pdf",
+   "mb": 6.7,
+   "pages": 175,
+   "qpdf_ok": true,
+   "sizes": {
+    "(595, 842)": 175
+   },
+   "not_embedded": [
+    "Arial-BoldMT",
+    "Arial-ItalicMT",
+    "ArialMT",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "Symbol",
+    "TimesNewRomanPS-BoldMT",
+    "TimesNewRomanPSMT"
+   ],
+   "pages_without_text": [],
+   "annots": 0,
+   "encrypted": false,
+   "not_embedded_inherited": [
+    "Arial-BoldMT",
+    "Arial-ItalicMT",
+    "ArialMT",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "Symbol",
+    "TimesNewRomanPS-BoldMT",
+    "TimesNewRomanPSMT"
+   ],
+   "own_fonts": [
+    "FNXBHH+Noto Sans Regular",
+    "WFPZRO+Noto Sans Bold"
+   ]
+  },
+  {
+   "file": "λ-cs/p1-topical-workbook/units/Unit-04-Processor-Fundamentals.pdf",
+   "mb": 7.9,
+   "pages": 234,
+   "qpdf_ok": true,
+   "sizes": {
+    "(595, 842)": 234
+   },
+   "not_embedded": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "Symbol",
+    "T1",
+    "TimesNewRomanPSMT"
+   ],
+   "pages_without_text": [],
+   "annots": 0,
+   "encrypted": false,
+   "not_embedded_inherited": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "Symbol",
+    "T1",
+    "TimesNewRomanPSMT"
+   ],
+   "own_fonts": [
+    "FNXBHH+Noto Sans Regular",
+    "WFPZRO+Noto Sans Bold"
+   ]
+  },
+  {
+   "file": "λ-cs/p1-topical-workbook/units/Unit-05-System-Software.pdf",
+   "mb": 7.8,
+   "pages": 124,
+   "qpdf_ok": true,
+   "sizes": {
+    "(595, 842)": 124
+   },
+   "not_embedded": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "Courier",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "Symbol",
+    "T1",
+    "TimesNewRomanPS-BoldMT",
+    "TimesNewRomanPSMT"
+   ],
+   "pages_without_text": [],
+   "annots": 0,
+   "encrypted": false,
+   "not_embedded_inherited": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "Courier",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "Symbol",
+    "T1",
+    "TimesNewRomanPS-BoldMT",
+    "TimesNewRomanPSMT"
+   ],
+   "own_fonts": [
+    "FNXBHH+Noto Sans Regular",
+    "WFPZRO+Noto Sans Bold"
+   ]
+  },
+  {
+   "file": "λ-cs/p1-topical-workbook/units/Unit-06-Security-privacy-and-data-integrity.pdf",
+   "mb": 6.5,
+   "pages": 88,
+   "qpdf_ok": true,
+   "sizes": {
+    "(595, 842)": 88
+   },
+   "not_embedded": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "Symbol",
+    "T1",
+    "TimesNewRomanPS-BoldMT",
+    "TimesNewRomanPSMT"
+   ],
+   "pages_without_text": [],
+   "annots": 0,
+   "encrypted": false,
+   "not_embedded_inherited": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "Symbol",
+    "T1",
+    "TimesNewRomanPS-BoldMT",
+    "TimesNewRomanPSMT"
+   ],
+   "own_fonts": [
+    "FNXBHH+Noto Sans Regular",
+    "WFPZRO+Noto Sans Bold"
+   ]
+  },
+  {
+   "file": "λ-cs/p1-topical-workbook/units/Unit-07-Ethics-and-Ownership.pdf",
+   "mb": 3.9,
+   "pages": 53,
+   "qpdf_ok": true,
+   "sizes": {
+    "(595, 842)": 53
+   },
+   "not_embedded": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Symbol",
+    "T1"
+   ],
+   "pages_without_text": [],
+   "annots": 0,
+   "encrypted": false,
+   "not_embedded_inherited": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Symbol",
+    "T1"
+   ],
+   "own_fonts": [
+    "FNXBHH+Noto Sans Regular",
+    "WFPZRO+Noto Sans Bold"
+   ]
+  },
+  {
+   "file": "λ-cs/p1-topical-workbook/units/Unit-08-Databases.pdf",
+   "mb": 7.6,
+   "pages": 153,
+   "qpdf_ok": true,
+   "sizes": {
+    "(595, 842)": 153
+   },
+   "not_embedded": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "Symbol",
+    "T1",
+    "TimesNewRomanPSMT"
+   ],
+   "pages_without_text": [],
+   "annots": 0,
+   "encrypted": false,
+   "not_embedded_inherited": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "Symbol",
+    "T1",
+    "TimesNewRomanPSMT"
+   ],
+   "own_fonts": [
+    "FNXBHH+Noto Sans Regular",
+    "WFPZRO+Noto Sans Bold"
+   ]
+  },
+  {
+   "file": "P1 index.csv",
+   "rows": 663
+  },
+  {
+   "file": "P1 items.jsonl",
+   "rows": 663
+  },
+  {
+   "file": "P1 topics.json",
+   "rows": 1968
+  },
+  {
+   "file": "λ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf",
+   "mb": 25.9,
+   "pages": 1518,
+   "qpdf_ok": true,
+   "sizes": {
+    "(595, 842)": 1518
+   },
+   "not_embedded": [
+    "Arial-BoldItalicMT",
+    "Arial-BoldMT",
+    "Arial-ItalicMT",
+    "ArialMT",
+    "Courier",
+    "Courier-Bold",
+    "Courier-Oblique",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "TimesNewRomanPS-ItalicMT",
+    "ZapfDingbats"
+   ],
+   "pages_without_text": [],
+   "annots": 0,
+   "encrypted": false,
+   "not_embedded_inherited": [
+    "Arial-BoldItalicMT",
+    "Arial-BoldMT",
+    "Arial-ItalicMT",
+    "ArialMT",
+    "Courier",
+    "Courier-Bold",
+    "Courier-Oblique",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "TimesNewRomanPS-ItalicMT",
+    "ZapfDingbats"
+   ],
+   "own_fonts": [
+    "FGIGZT+Noto Sans Regular",
+    "WFPZRO+Noto Sans Bold"
+   ]
+  },
+  {
+   "file": "λ-cs/p2-topical-workbook/units/Unit-09-Algorithm-Design-and-Problem-solving.pdf",
+   "mb": 13.0,
+   "pages": 243,
+   "qpdf_ok": true,
+   "sizes": {
+    "(595, 842)": 243
+   },
+   "not_embedded": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "Courier",
+    "Courier-Bold",
+    "Courier-Oblique",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "T1",
+    "TimesNewRomanPS-ItalicMT",
+    "ZapfDingbats"
+   ],
+   "pages_without_text": [],
+   "annots": 0,
+   "encrypted": false,
+   "not_embedded_inherited": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "Courier",
+    "Courier-Bold",
+    "Courier-Oblique",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "T1",
+    "TimesNewRomanPS-ItalicMT",
+    "ZapfDingbats"
+   ],
+   "own_fonts": [
+    "FGIGZT+Noto Sans Regular",
+    "WFPZRO+Noto Sans Bold"
+   ]
+  },
+  {
+   "file": "λ-cs/p2-topical-workbook/units/Unit-10-Data-Types-and-Structures.pdf",
+   "mb": 13.5,
+   "pages": 496,
+   "qpdf_ok": true,
+   "sizes": {
+    "(595, 842)": 496
+   },
+   "not_embedded": [
+    "Arial-BoldItalicMT",
+    "Arial-BoldMT",
+    "Arial-ItalicMT",
+    "ArialMT",
+    "Courier",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+   ],
+   "pages_without_text": [],
+   "annots": 0,
+   "encrypted": false,
+   "not_embedded_inherited": [
+    "Arial-BoldItalicMT",
+    "Arial-BoldMT",
+    "Arial-ItalicMT",
+    "ArialMT",
+    "Courier",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+   ],
+   "own_fonts": [
+    "FGIGZT+Noto Sans Regular",
+    "WFPZRO+Noto Sans Bold"
+   ]
+  },
+  {
+   "file": "λ-cs/p2-topical-workbook/units/Unit-11-Programming.pdf",
+   "mb": 14.7,
+   "pages": 440,
+   "qpdf_ok": true,
+   "sizes": {
+    "(595, 842)": 440
+   },
+   "not_embedded": [
+    "Arial-BoldItalicMT",
+    "Arial-BoldMT",
+    "Arial-ItalicMT",
+    "ArialMT",
+    "Courier",
+    "Courier-Oblique",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "T1",
+    "TimesNewRomanPS-ItalicMT",
+    "ZapfDingbats"
+   ],
+   "pages_without_text": [],
+   "annots": 0,
+   "encrypted": false,
+   "not_embedded_inherited": [
+    "Arial-BoldItalicMT",
+    "Arial-BoldMT",
+    "Arial-ItalicMT",
+    "ArialMT",
+    "Courier",
+    "Courier-Oblique",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "T1",
+    "TimesNewRomanPS-ItalicMT",
+    "ZapfDingbats"
+   ],
+   "own_fonts": [
+    "FGIGZT+Noto Sans Regular",
+    "WFPZRO+Noto Sans Bold"
+   ]
+  },
+  {
+   "file": "λ-cs/p2-topical-workbook/units/Unit-12-Software-Development.pdf",
+   "mb": 13.4,
+   "pages": 323,
+   "qpdf_ok": true,
+   "sizes": {
+    "(595, 842)": 323
+   },
+   "not_embedded": [
+    "Arial-BoldMT",
+    "Arial-ItalicMT",
+    "ArialMT",
+    "Courier",
+    "Courier-Bold",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "TimesNewRomanPS-ItalicMT"
+   ],
+   "pages_without_text": [],
+   "annots": 0,
+   "encrypted": false,
+   "not_embedded_inherited": [
+    "Arial-BoldMT",
+    "Arial-ItalicMT",
+    "ArialMT",
+    "Courier",
+    "Courier-Bold",
+    "Helvetica",
+    "Helvetica-Bold",
+    "Helvetica-Oblique",
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "TimesNewRomanPS-ItalicMT"
+   ],
+   "own_fonts": [
+    "FGIGZT+Noto Sans Regular",
+    "WFPZRO+Noto Sans Bold"
+   ]
+  },
+  {
+   "file": "P2 index.csv",
+   "rows": 688
+  },
+  {
+   "file": "P2 items.jsonl",
+   "rows": 688
+  },
+  {
+   "file": "P2 topics.json",
+   "rows": 1315
+  }
+ ],
+ "fail": [],
+ "largest_tracked": "29648890\tΔ-chemistry/p2-topical-workbook/Chemistry-9701-P2-Topical-Workbook.pdf\n25899835\tλ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf\n21766806\tΩ-physics/Physics paper 2 9702 3.pdf\n",
+ "fonts_not_embedded_in_sources": [
+  "Arial-BoldItalicMT",
+  "Arial-BoldMT",
+  "Arial-ItalicMT",
+  "ArialMT",
+  "Courier",
+  "Courier-Bold",
+  "Courier-Oblique",
+  "Helvetica",
+  "Helvetica-Bold",
+  "Helvetica-Oblique",
+  "Symbol",
+  "T1",
+  "T2",
+  "T3",
+  "T4",
+  "TimesNewRomanPS-BoldMT",
+  "TimesNewRomanPS-ItalicMT",
+  "TimesNewRomanPSMT",
+  "ZapfDingbats"
+ ]
+}

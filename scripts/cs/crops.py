@@ -1,0 +1,558 @@
+"""Vector crops of QP regions and MS rows, cleaned of answer lines/space.
+
+bands(doc, region) -> list of Band(page, y0, y1, whiteouts) in reading order,
+with dotted answer lines, empty writing space and [Total: n] removed.
+
+Content is found from the rendered ink of the page (not only from text and
+get_drawings, which misses some vector strokes such as the methyl branches of
+skeletal formulae): a row of the page is kept when it has ink, so a figure is
+never cut by a 'blank' strip (audit A-001/A-002). Rows of regularly spaced dots
+(answer lines) are whited out and dropped (A-012).
+"""
+import re
+from collections import OrderedDict
+import numpy as np
+import pymupdf
+from parse import page_lines, GAP_MAX_W, doc_key, answer_dot_runs, gap_dot_runs
+from extract import content_bottom, RE_DOTS, mono_lines, line_texts, line_mono_chars
+
+RE_DOTRUN = re.compile(r"[.…]{5,}")
+RE_NAV = re.compile(r"((continues|continued|begins|starts) on (the next )?page|\(on page \d+\)$|"
+                    r"^\s*(Please )?turn over\.?\s*$|^\s*BLANK PAGE\s*$)", re.I)
+X0, X1 = 40, 556   # standard QP content clip
+XMIN, XMAX = 26, 574   # widest clip, used only where ink sits in the margins (A-004)
+TOP = 52
+Z = 2.0               # render zoom for ink analysis
+INK = 170             # grey level below which a pixel is ink
+PAD = 2.0             # band padding (A-013)
+
+
+class Band:
+    def __init__(self, page, y0, y1, whiteouts=None, x0=X0, x1=X1):
+        self.page, self.y0, self.y1 = page, y0, y1
+        self.whiteouts = whiteouts or []
+        self.x0, self.x1 = x0, x1
+        self.grp = None       # figure/table this band belongs to (kept on one page)
+        self.mark_only = False
+        self.colon_end = False
+        self.caption = False
+        self.leads = 0
+        self.bullet = False
+
+    @property
+    def h(self):
+        return self.y1 - self.y0
+
+
+def page_top(page):
+    """Top of the content area: below the page number, barcode and corner marks
+    (some papers print them lower, e.g. M/J 24/P22; audit A-006)."""
+    top = TOP
+    for w in page.get_text("words"):
+        if w[0] > XMAX - 4:
+            continue
+        if (w[1] < 50 and w[3] < 64) or (w[3] < 62 and w[3] - w[1] < 6.5) or \
+                (w[3] < 73 and w[3] - w[1] < 6.5 and not re.search(r"[A-Za-z0-9]", w[4])):
+            top = max(top, w[3] + 1)   # page number, barcode glyphs (M/J 24 P13/P23 print them at y 64-69)
+    for d in page.get_drawings():
+        r = d["rect"]
+        if r.y0 < 50 and r.height < 40:
+            top = max(top, r.y1 + 1)
+    return top
+
+
+def bottom_furniture(page):
+    """White-out rectangles for the bottom barcode glyphs and for corner marks or
+    boxes that reach down into the footer zone (visible once the clip is widened
+    to the margins). Real content beside them (e.g. a [3] mark) is kept."""
+    cb = content_bottom(page)
+    out = []
+    for w in page.get_text("words"):
+        if w[1] > 765 and sum(ord(ch) > 0x7f for ch in w[4]) >= 4:
+            out.append(pymupdf.Rect(w[0] - 1, w[1] - 3, w[2] + 1, w[3] + 3))
+    for d in page.get_drawings():
+        r = d["rect"]
+        if r.y0 > 765 and r.y1 > cb + 2:
+            pad = (d.get("width") or 1) / 2 + 1.5      # stroke width of the corner marks
+            out.append(pymupdf.Rect(r.x0 - pad, r.y0 - pad, r.x1 + pad, r.y1 + pad))
+    return out
+
+
+_CACHE = OrderedDict()
+
+
+def _gray(page):
+    key = (doc_key(page.parent), page.number)
+    if key in _CACHE:
+        _CACHE.move_to_end(key)
+        return _CACHE[key]
+    pm = page.get_pixmap(matrix=pymupdf.Matrix(Z, Z), colorspace=pymupdf.csGRAY, alpha=False)
+    a = np.frombuffer(pm.samples, dtype=np.uint8).reshape(pm.height, pm.stride)[:, :pm.width].copy()
+    _CACHE[key] = a
+    if len(_CACHE) > 48:
+        _CACHE.popitem(last=False)
+    return a
+
+
+def _is_dotted(cols):
+    """cols: boolean ink-per-column of a thin row run -> regularly spaced dots?"""
+    idx = np.flatnonzero(cols)
+    if len(idx) < 10:
+        return False
+    segs = np.split(idx, np.flatnonzero(np.diff(idx) > 1) + 1)
+    if len(segs) < 15:
+        return False
+    widths = np.array([len(s) for s in segs])
+    gaps = np.array([b[0] - a[-1] for a, b in zip(segs, segs[1:])])
+    return widths.max() <= 2.2 * Z + 1 and np.median(gaps) <= 6 * Z and (widths <= 2 * Z).mean() > 0.9
+
+
+def ink_runs(page, y0, y1, whiteouts, xa=XMIN, xb=XMAX):
+    """Ink row-runs inside [y0, y1): list of (y0, y1, x0, x1); dotted runs are
+    appended to whiteouts and skipped."""
+    a = _gray(page)
+    H, W = a.shape
+    r0, r1 = max(0, int(y0 * Z)), min(H, int(np.ceil(y1 * Z)))
+    c0, c1 = max(0, int(xa * Z)), min(W, int(xb * Z))
+    if r1 <= r0:
+        return []
+    sub = a[r0:r1, c0:c1] < INK
+    for wo in whiteouts:
+        rr0, rr1 = int(wo.y0 * Z) - r0, int(np.ceil(wo.y1 * Z)) - r0
+        cc0, cc1 = int(wo.x0 * Z) - c0, int(np.ceil(wo.x1 * Z)) - c0
+        sub[max(0, rr0):max(0, rr1), max(0, cc0):max(0, cc1)] = False
+    rows = sub.any(axis=1)
+    out = []
+    gaps = gap_dot_runs(page)
+    i, n = 0, len(rows)
+    while i < n:
+        if not rows[i]:
+            i += 1
+            continue
+        j = i
+        while j < n and rows[j]:
+            j += 1
+        cols = sub[i:j].any(axis=0)
+        ya, yb = (r0 + i) / Z, (r0 + j) / Z
+        xs = np.flatnonzero(cols)
+        # a dotted answer line: long, or running to the right-hand margin; a short
+        # dotted run is a gap to fill inside code or a diagram and is kept
+        gx0, gx1 = (c0 + xs[0]) / Z, (c0 + xs[-1] + 1) / Z
+        is_gap = any(base - 3.5 <= ya and yb <= base + 2.5 and min(g.x1, gx1) - max(g.x0, gx0) > 0.5 * g.width
+                     for g, base in gaps)     # a gap to fill, kept as printed (parse.dot_runs)
+        if (j - i) <= 3.5 * Z and _is_dotted(cols) and not is_gap and \
+                ((xs[-1] - xs[0]) / Z >= GAP_MAX_W or (c0 + xs[-1]) / Z > 500):
+            whiteouts.append(pymupdf.Rect((c0 + xs[0]) / Z - 1, ya - 1, (c0 + xs[-1] + 1) / Z + 1, yb + 1))
+        else:
+            out.append((ya, yb, (c0 + xs[0]) / Z, (c0 + xs[-1] + 1) / Z))
+        i = j
+    return out
+
+
+def _dot_whiteouts(page, line_rect):
+    """Rectangles covering runs of dots in a line (char-accurate)."""
+    outs = []
+    raw = page.get_text("rawdict", clip=line_rect + (-1, -1, 1, 1))
+    for b in raw["blocks"]:
+        for l in b.get("lines", []):
+            for s in l["spans"]:
+                chars = s["chars"]
+                txt = "".join(c["c"] for c in chars)
+                for m in RE_DOTRUN.finditer(txt):
+                    cs = chars[m.start():m.end()]
+                    x0 = min(c["bbox"][0] for c in cs)
+                    x1 = max(c["bbox"][2] for c in cs)
+                    outs.append(pymupdf.Rect(x0 - 0.5, line_rect.y0 - 1, x1 + 0.5, line_rect.y1 + 1))
+    return outs
+
+
+_BOX = {}
+
+
+def empty_boxes(page):
+    """Large bordered boxes with nothing inside: answer space for a drawing
+    (a flowchart, a diagram). They are empty writing space and are removed like
+    answer lines. A box with anything printed in it (labels, START/END, a grid)
+    is a figure or a table to complete and stays."""
+    key = (doc_key(page.parent), page.number)
+    if key in _BOX:
+        return _BOX[key]
+    a = _gray(page)
+    H, W = a.shape
+    out = []
+    for d in page.get_drawings():
+        r = d["rect"]
+        if r.width < 250 or r.height < 70 or r.width > 560 or r.x0 < XMIN or r.x1 > XMAX:
+            continue
+        if d.get("fill") not in (None, (1.0, 1.0, 1.0)):
+            continue
+        if len(d.get("items", [])) > 6:
+            continue          # not a plain rectangle
+        inset = 4
+        r0, r1 = int((r.y0 + inset) * Z), int((r.y1 - inset) * Z)
+        c0, c1 = int((r.x0 + inset) * Z), int((r.x1 - inset) * Z)
+        if r1 <= r0 or c1 <= c0 or r1 > H or c1 > W:
+            continue
+        if (a[r0:r1, c0:c1] < INK).any():
+            continue
+        # the border itself must be there (ink just outside the inset area)
+        # (a hairline frame renders lighter than ordinary ink)
+        edge = a[max(0, int((r.y0 - 2) * Z)):int((r.y0 + 2) * Z) + 1, c0:c1]
+        if not (edge < 235).any():
+            continue
+        # a frame with something attached to its sides (the labelled inputs and output of a
+        # logic circuit to draw) is a figure to complete, not plain writing space: it stays
+        left = a[r0:r1, max(0, int((r.x0 - 9) * Z)):max(0, int((r.x0 - 2.5) * Z))]
+        right = a[r0:r1, int((r.x1 + 2.5) * Z):min(W, int((r.x1 + 9) * Z))]
+        if (left < INK).any() or (right < INK).any():
+            continue
+        out.append(pymupdf.Rect(r.x0 - 2, r.y0 - 2, r.x1 + 2, r.y1 + 2))
+    _BOX[key] = out
+    if len(_BOX) > 64:
+        _BOX.pop(next(iter(_BOX)))
+    return out
+
+
+def _ink_bottom(page, w):
+    """y just below the lowest ink of word w (its glyphs, not its box): the first blank pixel row
+    under the middle of the word, looked for within the columns of the word."""
+    a = _gray(page)
+    H, W = a.shape
+    c0, c1 = max(0, int(w[0] * Z)), min(W, int(np.ceil(w[2] * Z)))
+    r = int(((w[1] + w[3]) / 2) * Z)
+    last = min(H - 1, int((w[3] + 1.5) * Z))
+    while r <= last and (a[r, c0:c1] < INK).any():
+        r += 1
+    return min(r / Z, w[3] + 1.5)
+
+
+def _carve(page, rect, own):
+    """rect (a white-out for words of the line below) with the ink of the region's own words
+    cut out of it: beside such a word the rect is kept whole, under it the rect starts below
+    the word's lowest ink."""
+    hit = [w for w in own if w[0] < rect.x1 and w[2] > rect.x0 and w[3] > rect.y0 and w[1] < rect.y1]
+    if not hit:
+        return [rect]
+    out = []
+    x = rect.x0
+    for w in sorted(hit, key=lambda w: w[0]):
+        a, b = max(rect.x0, w[0] - 1), min(rect.x1, w[2] + 1)
+        if a > x:
+            out.append(pymupdf.Rect(x, rect.y0, a, rect.y1))
+        yb = max(rect.y0, _ink_bottom(page, w) + 0.2)
+        if yb < rect.y1:
+            out.append(pymupdf.Rect(a, yb, b, rect.y1))
+        x = max(x, b)
+    if x < rect.x1:
+        out.append(pymupdf.Rect(x, rect.y0, rect.x1, rect.y1))
+    return [r for r in out if r.width > 0.1 and r.height > 0.1]
+
+
+_HAIR = {}
+
+
+def _hairlines(page):
+    """Thin horizontal strokes of the page: [(x0, x1, y)]."""
+    key = (doc_key(page.parent), page.number)
+    if key not in _HAIR:
+        if len(_HAIR) > 64:
+            _HAIR.clear()
+        out = []
+        for d in page.get_drawings():
+            r = d["rect"]
+            if r.height < 1.2 and r.width >= 4 and d.get("dashes") in (None, "[] 0") and \
+                    not (d.get("fill") == (1.0, 1.0, 1.0) and not d.get("color")):
+                out.append((r.x0, r.x1, (r.y0 + r.y1) / 2))
+        _HAIR[key] = out
+    return _HAIR[key]
+
+
+def page_bands(doc, p, ry0, ry1, keep_total=False, gap_merge=2.0):
+    page = doc[p]
+    top, bot = page_top(page), content_bottom(page)
+    ry0, ry1 = max(ry0, top), min(ry1, bot)
+    if ry1 - ry0 < 1:
+        return []
+    wos = [r for r in bottom_furniture(page) if r.y0 < ry1]
+    wos += [r for r in empty_boxes(page) if r.y0 < ry1 and r.y1 > ry0]
+    words = page.get_text("words")
+    # text cut by the region edges: a word of the previous part straddling the
+    # top edge is whited out; a word of this part straddling the bottom edge
+    # extends the region, and words of the next part inside the extension are
+    # whited out (A-013)
+    ext = ry1
+    for w in words:
+        if w[0] < XMIN or w[2] > XMAX:
+            continue
+        if ((w[1] + w[3]) / 2 < ry0 or w[1] < ry0 - 3) and w[3] > ry0 + 0.3:
+            wos.append(pymupdf.Rect(w[0] - 0.5, ry0 - 1, w[2] + 0.5, w[3] + 0.5))
+        if (w[1] + w[3]) / 2 >= ry0 and (w[1] + w[3]) / 2 < ry1 and w[3] > ry1 and w[3] - ry1 < 8:
+            ext = max(ext, min(w[3] + 1, bot + 2.5))
+    # words of this region that reach down to the bottom edge (a [mark] on the last line): a
+    # white-out laid over the line below must not cover any of their ink
+    own = [w for w in words if ry0 <= (w[1] + w[3]) / 2 < ry1 and w[3] > ry1 - 6 and XMIN <= w[0] and w[2] <= XMAX]
+    if ext > bot:
+        # a [mark] printed level with the footer: keep it, white out the footer line
+        for w in words:
+            if w[1] >= bot - 0.5 and w[1] < bot + 30 and XMIN <= w[0] and w[2] <= XMAX and w not in own:
+                wos += _carve(page, pymupdf.Rect(w[0] - 1, w[1] - 0.5, w[2] + 1, w[3] + 1), own)
+    # words of the next part whose box starts above the bottom edge (top of their
+    # glyphs inside the region) are whited out, so no sliver of them shows
+    for w in words:
+        if (w[1] + w[3]) / 2 >= ry1 and w[1] < max(ext, ry1) and XMIN <= w[0] and w[2] <= XMAX:
+            wos += _carve(page, pymupdf.Rect(w[0] - 0.5, w[1] - 1.5, w[2] + 0.5, max(ext, ry1) + 1), own)
+    ry1 = max(ry1, ext)
+    for ws in page_lines(page, bottom=bot):
+        ly0 = min(w[1] for w in ws)
+        if not (ry0 - 0.5 <= ly0 < ry1):
+            continue
+        txt = " ".join(w[4] for w in ws)
+        if not keep_total and re.search(r"\[Total:", txt):
+            wos += [pymupdf.Rect(w[0] - 1, w[1] - 1, w[2] + 1, w[3] + 1) for w in ws
+                    if re.match(r"\[Total:|\d+\]$", w[4])]
+        if RE_NAV.search(txt):
+            # navigation note of the source paper, e.g. "Question 4 continues on page 10" (A-023)
+            m = RE_NAV.search(txt)
+            if m.group(0).lower().startswith("(on page"):
+                pass
+            else:
+                wos.append(pymupdf.Rect(min(w[0] for w in ws) - 1, ly0 - 1, max(w[2] for w in ws) + 1,
+                                        max(w[3] for w in ws) + 1))
+        # (answer-line dots were removed from the page at load; the dotted runs still
+        # present are gaps to fill and stay)
+    # a page that was put back unredacted still shows its answer-line dots: the same runs
+    # that the redaction would have removed are whited out here
+    for r, base in answer_dot_runs(page):
+        if r.y1 > ry0 - 2 and r.y0 < ry1 + 2:
+            wos.append(pymupdf.Rect(r.x0 - 0.4, base - 3.0, r.x1 + 0.4, base + 1.0))
+    runs = ink_runs(page, ry0, ry1, wos)
+    merged = []
+    for y0, y1, x0, x1 in sorted(runs):
+        if merged and y0 <= merged[-1][1] + gap_merge:
+            m = merged[-1]
+            m[1], m[2], m[3] = max(m[1], y1), min(m[2], x0), max(m[3], x1)
+        else:
+            merged.append([y0, y1, x0, x1])
+    # slivers of a neighbouring line touching the region edge
+    merged = [m for m in merged if not (m[1] - m[0] < 1.6 and (m[0] <= ry0 + 0.6 or m[1] >= ry1 - 0.6))]
+    # extend each band over the full boxes of the words whose centre lies in it,
+    # so no glyph box is cut by the clip (A-013)
+    wb = [w for w in words if XMIN <= w[0] and w[2] <= XMAX]
+    ext_m = []
+    for y0, y1, x0, x1 in merged:
+        a, b2 = y0 - PAD, y1 + PAD
+        for w in wb:
+            cy = (w[1] + w[3]) / 2
+            if y0 - 0.5 <= cy <= y1 + 0.5:
+                a, b2 = min(a, w[1] - 0.5), max(b2, w[3] + 0.5)
+        a, b2 = max(ry0, a), min(ry1, b2)
+        # a hairline drawn just under a line of text and no wider than it (the bar under a sum)
+        # is too faint to count as ink: the band is extended over it
+        under = [h for h in _hairlines(page) if y1 - 0.5 <= h[2] <= b2 + 3.5 and h[0] >= x0 - 12 and h[1] <= x1 + 12]
+        if under and 15 <= max(h[1] for h in under) - min(h[0] for h in under) <= 300 and max(h[2] for h in under) + 0.8 <= ry1:
+            b2 = max(b2, max(h[2] for h in under) + 0.8)
+        if ext_m and a <= ext_m[-1][1]:
+            m = ext_m[-1]
+            m[1], m[2], m[3] = max(m[1], b2), min(m[2], x0), max(m[3], x1)
+        else:
+            ext_m.append([a, b2, x0, x1])
+    out = []
+    for y0, y1, x0, x1 in ext_m:
+        b = Band(p, y0, y1, x0=min(X0, x0 - 1.5), x1=max(X1, x1 + 1.5))
+        b.whiteouts = [w for w in wos if w.y0 < b.y1 and w.y1 > b.y0]
+        iw = [w for w in wb if y0 - 0.5 <= (w[1] + w[3]) / 2 <= y1 + 0.5 and w[4].strip()
+              and not any(pymupdf.Rect(w[:4]).intersects(o) and (pymupdf.Rect(w[:4]) & o).get_area() >
+                          0.5 * pymupdf.Rect(w[:4]).get_area() for o in b.whiteouts)]
+        inside = [w[4] for w in iw]
+        # a band that holds nothing but a mark stays with the line before it (layout)
+        b.mark_only = bool(inside) and all(re.fullmatch(r"\[\d{1,2}\]", t) for t in inside) and x1 - x0 < 40
+        # a band whose last line ends with a colon introduces what follows and stays with it
+        text = [w for w in iw if not re.fullmatch(r"\[\d{1,2}\]", w[4])]
+        last = ""
+        if text:
+            cy = max((w[1] + w[3]) / 2 for w in text)          # the last line: within 5 pt of the lowest word
+            last = max((w for w in text if (w[1] + w[3]) / 2 > cy - 5), key=lambda w: w[0])[4]
+        b.colon_end = last.endswith(":")
+        # an item of a bulleted or numbered list (it belongs to its list, not to what follows)
+        if text:
+            ty = min(w[1] for w in text)
+            t0 = min((w for w in text if w[1] < ty + 5), key=lambda w: w[0])[4]
+            b.bullet = (len(t0) == 1 and (not t0.isalnum() or t0 == "o") and t0 not in "([\"'<“‘") or \
+                bool(re.fullmatch(r"\d{1,2}[.)]", t0))
+        # a caption or title: one to three words on one short line ("Stack" above a diagram)
+        b.caption = 1 <= len(text) <= 3 and (y1 - y0) < 18 and max(w[2] for w in text) - min(w[0] for w in text) < 150 \
+            and any(re.search(r"[A-Za-z]{3}", w[4]) for w in text) and not b.colon_end \
+            and not re.fullmatch(r"\(?[a-z]\)|\([ivx]+\)|\d{1,2}", text[0][4])
+        if b.h > 1:
+            out.append(b)
+    return out
+
+
+def bands(doc, region, keep_total=False):
+    out = []
+    for p, y0, y1 in region:
+        out += page_bands(doc, p, y0, y1, keep_total)
+    group_figures(doc, out)
+    mark_leads(out)
+    return out
+
+
+def mark_leads(bs):
+    """Short bands that lead into a figure: the band printed last before a figure starts
+    (leads = 1) and up to two short bands directly above it (leads = 2, 3): an instruction of
+    one to three lines and the table or diagram it is about stay on one page (layout)."""
+    # a caption in monospace type ("MyQueue") printed right above a diagram can be taken into the
+    # block of code that ends a little higher up: it belongs to the figure below it
+    for i in range(1, len(bs) - 1):
+        p, a, b = bs[i - 1], bs[i], bs[i + 1]
+        if a.caption and a.grp is not None and p.grp == a.grp and b.grp is not None and b.grp != a.grp \
+                and a.page == b.page and 0 <= b.y0 - a.y1 <= 14 and a.y0 - p.y1 > b.y0 - a.y1 + 4:
+            a.grp = None
+    for i in range(len(bs) - 2, -1, -1):
+        a, b = bs[i], bs[i + 1]
+        if a.grp is not None or a.h >= 45 or a.mark_only or a.page != b.page:
+            continue
+        gap = b.y0 - a.y1
+        if b.grp is not None and 0 <= gap <= 60:
+            a.leads = 1
+        elif b.grp is None and b.leads in (1, 2) and 0 <= gap <= 14:
+            # (not the last line of a list set solid above it: that line stays with its list)
+            if i and bs[i - 1].page == a.page and a.y0 - bs[i - 1].y1 < 3 and bs[i - 1].grp is None:
+                continue
+            if a.bullet or b.bullet:
+                continue                 # items of a bulleted list stay with their list
+            a.leads = b.leads + 1
+
+
+# ---------- figures: code, tables, diagrams stay on one page ----------
+_FIG = {}
+
+
+def figure_spans(page):
+    """y-ranges on the page that hold one figure: a block of code (consecutive
+    monospace lines), or a table / diagram (a cluster of drawings and images
+    with the text inside it). Bands inside one range are never split across
+    pages (λ-cs/CLAUDE-cs.md, CS-specific context rules)."""
+    key = (doc_key(page.parent), page.number)
+    if key in _FIG:
+        return _FIG[key]
+    top, bot = page_top(page), content_bottom(page)
+    spans = []
+    # drawings and images, clustered vertically
+    boxes = []
+    for d in page.get_drawings():
+        r = d["rect"]
+        if r.x1 <= XMIN or r.x0 >= XMAX or r.y1 <= top or r.y0 >= bot + 3:
+            continue
+        if r.width > 480 and r.height > 600:
+            continue          # page frame
+        if r.height < 1.5 and r.width > 300 and d.get("dashes") not in (None, "[] 0"):
+            continue          # dashed answer rule
+        if d.get("fill") == (1.0, 1.0, 1.0) and not d.get("color"):
+            continue
+        boxes.append((r.y0, r.y1))
+    for img in page.get_image_info():
+        x0, y0, x1, y1 = img["bbox"]
+        if y1 - y0 > 3 and x1 - x0 > 3 and y0 > top and x0 > XMIN and y1 < bot + 3:
+            boxes.append((y0, y1))
+    boxes.sort()
+    for y0, y1 in boxes:
+        if spans and y0 <= spans[-1][1] + 14:
+            spans[-1][1] = max(spans[-1][1], y1)
+        else:
+            spans.append([y0, y1])
+    spans = [s for s in spans if s[1] - s[0] > 6]      # a lone rule is not a figure
+    # blocks of code: consecutive monospace lines; a line that is only a dotted gap
+    # (a line of code to fill in) continues a block
+    code = []
+    for (ly0, ly1, mono, line), n_ch in zip(line_texts(page), line_mono_chars(page)):
+        if ly0 < top or ly1 > bot + 3:
+            continue
+        n_mono = len(mono.replace(" ", ""))
+        full = "".join(c for c in line if not c.isspace())
+        full = re.sub(r"\[\d+\]$", "", full)
+        core = re.sub(r"[.…←→]", "", full)
+        gap_line = not core and len(full) >= 5
+        is_code = n_mono >= 3 and len(core) and n_mono / len(core) >= 0.6
+        # a short line of single-letter names ("n <- 0", "x <- n") continues a block of code
+        if not is_code and code and ly0 <= code[-1][1] + 20 and len(core) and n_ch / len(core) >= 0.6:
+            is_code = True
+        if not (gap_line or is_code):
+            continue
+        if code and ly0 <= code[-1][1] + 20:
+            code[-1][1] = max(code[-1][1], ly1)
+            code[-1][2] += 1
+            code[-1][3] += bool(is_code)
+        else:
+            code.append([ly0, ly1, 1, int(bool(is_code))])
+    spans += [[a, b] for a, b, n, real in code if n >= 2 and real >= 1]
+    spans.sort()
+    merged = []
+    for a, b in spans:
+        if merged and a <= merged[-1][1] + 2:
+            merged[-1][1] = max(merged[-1][1], b)
+        else:
+            merged.append([a, b])
+    _FIG[key] = merged
+    if len(_FIG) > 64:
+        _FIG.pop(next(iter(_FIG)))
+    return merged
+
+
+def group_figures(doc, bs):
+    for b in bs:
+        mid0, mid1 = b.y0 + 1.5, b.y1 - 1.5
+        for k, (a, c) in enumerate(figure_spans(doc[b.page])):
+            if mid1 > a and mid0 < c:
+                b.grp = (b.page, k)
+                break
+
+
+_ROWS = {}
+
+
+def row_spans(page):
+    """Ruled rows and boxes of a reference page (insert, appendix): [(y0, y1)]. A box is a drawn
+    rectangle; a table row is the strip between two horizontal rules joined by a vertical rule."""
+    key = (doc_key(page.parent), page.number)
+    if key not in _ROWS:
+        if len(_ROWS) > 64:
+            _ROWS.clear()
+        spans, hl, vl = [], [], []
+        for d in page.get_drawings():
+            r = d["rect"]
+            if d.get("fill") == (1.0, 1.0, 1.0) and not d.get("color"):
+                continue
+            if r.width > 200 and 10 < r.height < 400:
+                spans.append((r.y0, r.y1))
+            elif r.width > 200 and r.height <= 2:
+                hl.append((r.y0 + r.y1) / 2)
+            elif r.height > 8 and r.width <= 2:
+                vl.append((r.y0, r.y1))
+        hl = sorted(set(round(y, 1) for y in hl))
+        for a, b in zip(hl, hl[1:]):
+            if 8 < b - a < 400 and any(v0 <= a + 2 and v1 >= b - 2 for v0, v1 in vl):
+                spans.append((a, b))
+        _ROWS[key] = sorted(set((round(a, 1), round(b, 1)) for a, b in spans))
+    return _ROWS[key]
+
+
+def group_rows(doc, bs):
+    """Bands of a reference page: each ruled row or box is kept on one page; the page may break
+    between rows (a whole table of functions is longer than a page)."""
+    for b in bs:
+        b.grp = None
+        mid = (b.y0 + b.y1) / 2
+        for a, c in row_spans(doc[b.page]):
+            if a - 1 <= mid <= c + 1:
+                b.grp = ("row", b.page, a)
+                break
+
+
+def ms_bands(doc, segs):
+    """MS row segments are kept whole (full width, incl. Guidance column)."""
+    return [Band(p, r[1], r[3]) for p, r in segs if r[3] - r[1] > 2]
+
+
+def ms_x(segs):
+    return min(r[0] for _, r in segs), max(r[2] for _, r in segs)

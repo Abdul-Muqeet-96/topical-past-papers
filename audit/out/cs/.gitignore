@@ -1,0 +1,4 @@
+# large intermediates, rebuilt by run_all.sh (c30, c70)
+book_parse_p*.json
+bands_p*.json
+run.done

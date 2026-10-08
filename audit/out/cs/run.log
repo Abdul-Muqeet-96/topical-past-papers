@@ -1,0 +1,133 @@
+== c10 sources
+files expected 546 {('qp', 'ABSENT'): 50, ('ms', 'ABSENT'): 44, ('in', 'ABSENT'): 151, ('qp', 'OK'): 131, ('ms', 'OK'): 137, ('in', 'OK'): 31, ('qp', 'UNREADABLE'): 1, ('ms', 'HEADER_MISMATCH'): 1}
+titles: Counter({('qp', 'full'): 131, ('ms', 'written paper'): 64, ('ms', 'full'): 63, ('in', 'full'): 31, ('ms', 'problem solving & programming'): 9, ('ms', 'none'): 2})
+  9608_w17_qp_11.pdf UNREADABLE {'code_ok': None, 'paper_no': None, 'series_ok': None, 'type': None, 'error': 'code=7: Invalid number of pages'}
+  9608_w18_ms_21.pdf HEADER_MISMATCH {'code_ok': True, 'paper_no': ['1'], 'series_ok': True, 'type': 'ms', 'error': None}
+unexpected extra files in data/: []
+== c20 qp parse
+9608_s17_11 cover 75 margin marks 71 inner marks 4 | totals ok True | stray [] | []
+9608_s17_12 cover 75 margin marks 71 inner marks 4 | totals ok True | stray [] | []
+9608_s17_13 cover 75 margin marks 71 inner marks 4 | totals ok True | stray [] | []
+9618_w23_12 cover 75 margin marks 71 inner marks 4 | totals ok True | stray [] | []
+131 QPs parsed; 4 need a look (margin marks != cover total, or notes)
+questions 954 leaves 3303
+== c21 ms parse
+137 MS parsed; Counter({'table': 115, 'text': 22})
+rows 3556 | rows without a mark 67 | notes 679
+== c22 compare
+papers with QP+MS: 130 | sequence ok 130 | sum = cover = 75 130 | [Total] ok 130 | needed marks short of the margin 4
+leaves 3296 QP=MS 3283 | leaf mismatches 13 Counter({'text': 7, 'table': 6})
+question-level QP!=MS: 4 Counter({'table': 3, 'text': 1})
+build differences: 0 | repeated continuation rows counted once 3 | MS labelled one level deeper than the QP 10
+leaf differences explained (excluded question / logged label slip): 13 | unexplained: 0
+questions excluded by the build: 4 | of these the audit parsers also find QP != MS: 4 | not confirmed: [] | QP != MS but not excluded: []
+== c30 book parse
+P1: 1099 pages {'cover': 1, 'contents': 1, 'unit_title': 8, 'question': 626, 'answers': 452, 'index': 11}; headings Q 663 A 663; bands 10125; unit PDFs 8; toc 18
+P2: 1518 pages {'cover': 1, 'contents': 1, 'unit_title': 4, 'question': 833, 'answers': 665, 'index': 11, 'appendix': 3}; headings Q 688 A 688; bands 12394; unit PDFs 4; toc 11
+== c31 coverage
+leaves in verified papers: 3296 {'in one item': 3133, 'out of syllabus': 143, 'question excluded (check 3)': 20}
+unexplained gaps: 0 | in more than one item: 0 | listed as excluded but in a book: 0 | index refs that match no paper part: 0 | report rows that match no part: 0
+items: 1351 | item marks != QP parts (audit): 0 | item marks != MS (audit; known label slips left out): 0
+  bad refs [] stale []
+== c40 three-way
+{'P1 Q headings': 663, 'P1 A headings': 663, 'P1 index rows': 663, 'P1 jsonl rows': 663, 'P1 unit PDF pages': 1086, 'P2 Q headings': 688, 'P2 A headings': 688, 'P2 index rows': 688, 'P2 jsonl rows': 688, 'P2 unit PDF pages': 1502}
+three-way failures: 0 {}
+== c41 text layer
+{'Q items': 1351, 'Q tokens (jsonl)': 234915, 'A items': 1351, 'A tokens (jsonl)': 190913}
+items whose book text and jsonl text differ by more than 3 %: 0 {}
+== c50 structure
+P1: {'cover': {'papers': 89, 'items': 663, 'marks': 4661, 'cross_filed': 33}, 'contents_entries': 17, 'bad_headers': 0, 'bad_numbers': 0, 'order_violations': 0, 'index_rows': 663, 'index_refs_truncated': 0} | kinds {'cover': 1, 'contents': 1, 'unit_title': 8, 'question': 626, 'answers': 452, 'index': 11}
+P2: {'cover': {'papers': 65, 'items': 688, 'marks': 4694, 'cross_filed': 0}, 'contents_entries': 10, 'bad_headers': 0, 'bad_numbers': 0, 'order_violations': 0, 'index_rows': 688, 'index_refs_truncated': 0, 'appendix': {'pages': [1516, 1517, 1518], 'banner': ['Appendix: Insert: pseudocode functions and operators (from M/J 26/P23)'], 'newest_series_inserts': ['9618_s26_in_21.pdf', '9618_s26_in_22.pdf', '9618_s26_in_23.pdf'], 'named': '9618_s26_in_23.pdf', 'source_tokens': 780, 'missing': 2, 'extra': 0, 'missing_examples': ['Turn', 'over'], 'extra_examples': []}} | kinds {'cover': 1, 'contents': 
+structure failures: 0
+== c60 files
+fonts the source papers do not embed: ['Arial-BoldItalicMT', 'Arial-BoldMT', 'Arial-ItalicMT', 'ArialMT', 'Courier', 'Courier-Bold', 'Courier-Oblique', 'Helvetica', 'Helvetica-Bold', 'Helvetica-Oblique', 'Symbol', 'T1', 'T2', 'T3', 'T4', 'TimesNewRomanPS-BoldMT', 'TimesNewRomanPS-ItalicMT', 'TimesNewRomanPSMT', 'ZapfDingbats']
+files checked 20 | failures 0
+   λ-cs/p1-topical-workbook/CS-9618-P1-Topical-Workbook.pdf 21.3 MB 1099 p qpdf ok
+   ical-workbook/units/Unit-01-Information-representation.pdf 7.9 MB 169 p qpdf ok
+   λ-cs/p1-topical-workbook/units/Unit-02-Communication.pdf 5.1 MB 90 p qpdf ok
+   λ-cs/p1-topical-workbook/units/Unit-03-Hardware.pdf 6.7 MB 175 p qpdf ok
+   -topical-workbook/units/Unit-04-Processor-Fundamentals.pdf 7.9 MB 234 p qpdf ok
+   λ-cs/p1-topical-workbook/units/Unit-05-System-Software.pdf 7.8 MB 124 p qpdf ok
+   book/units/Unit-06-Security-privacy-and-data-integrity.pdf 6.5 MB 88 p qpdf ok
+   p1-topical-workbook/units/Unit-07-Ethics-and-Ownership.pdf 3.9 MB 53 p qpdf ok
+   λ-cs/p1-topical-workbook/units/Unit-08-Databases.pdf 7.6 MB 153 p qpdf ok
+   λ-cs/p2-topical-workbook/CS-9618-P2-Topical-Workbook.pdf 25.9 MB 1518 p qpdf ok
+   ook/units/Unit-09-Algorithm-Design-and-Problem-solving.pdf 13.0 MB 243 p qpdf ok
+   pical-workbook/units/Unit-10-Data-Types-and-Structures.pdf 13.5 MB 496 p qpdf ok
+   λ-cs/p2-topical-workbook/units/Unit-11-Programming.pdf 14.7 MB 440 p qpdf ok
+   p2-topical-workbook/units/Unit-12-Software-Development.pdf 13.4 MB 323 p qpdf ok
+== c70 bands
+   weak mappings resolved by pixels: 2 of 2
+P1: bands 10125, source pages placed 1456, unmapped (no text) 0, low-overlap 0 {('Q', 'qp'): 8271, ('A', 'ms'): 1854}
+   weak mappings resolved by pixels: 49 of 49
+P2: bands 12394, source pages placed 1733, unmapped (no text) 0, low-overlap 0 {('Q', 'qp'): 10668, ('A', 'ms'): 1496, ('Q', 'in'): 213, ('X', 'in'): 17}
+== c71 crops
+{'groups': 4405, 'gaps inside shown parts': 16009, 'skipped dotted words': 9301, 'gaps holding another part (filed elsewhere)': 199, 'furniture words partly inside a clip (whited out; see pixel check)': 53, 'path boxes crossing a clip edge with no visible ink there': 112, 'word boxes crossing a clip edge with all their ink inside (tall brackets, spaces)': 8}
+clipped: 0 rows in 0 item sides {}
+marks_cut: 0 rows in 0 item sides {}
+furniture: 15 rows in 15 item sides {'A': 3, 'Q': 12}
+furn_text: 0 rows in 0 item sides {}
+cutfig: 0 rows in 0 item sides {}
+dropped_words: 0 rows in 0 item sides {}
+dropped_draw: 0 rows in 0 item sides {}
+empty_box: 25 rows in 24 item sides {'Q': 25}
+empty_box_kept: 0 rows in 0 item sides {}
+stamp: 0 rows in 0 item sides {}
+== c72 pixels P1
+P1 {'shift 0,0': 7116, 'bands': 10125, 'shift 0,1': 2005, 'answer lines removed': 2140, 'gaps in code or sentences kept': 192, 'footer furniture inside a clip, whited out': 23, 'shift 0,2': 62, 'shift 1,0': 638, 'shift 1,1': 301, 'bands under a site watermark image': 175, 'shift 1,2': 3, 'dotted runs after an identifier, long (kept or removed with their code block)': 18}
+  removed: 0 rows in 0 item sides {}
+  dots_visible: 0 rows in 0 item sides {}
+  gap_removed: 0 rows in 0 item sides {}
+  stamp_visible: 0 rows in 0 item sides {}
+  furniture_visible: 0 rows in 0 item sides {}
+  added: 0 rows in 0 item sides {}
+  edge: 0 rows in 0 item sides {}
+  edge_rule: 0 rows in 0 item sides {}
+  mark_damaged: 0 rows in 0 item sides {}
+== c72 pixels P2
+P2 {'shift 0,0': 9172, 'bands': 12394, 'shift 0,1': 2359, 'gaps in code or sentences kept': 242, 'answer lines removed': 1483, 'dotted runs after an identifier, long (kept or removed with their code block)': 105, 'footer furniture inside a clip, whited out': 59, 'shift 0,2': 96, 'shift 1,0': 457, 'rules just outside a crop edge, no trace': 14, 'bands under a site watermark image': 331, 'shift 1,1': 307, 'shift 1,2': 3}
+  removed: 0 rows in 0 item sides {}
+  dots_visible: 0 rows in 0 item sides {}
+  gap_removed: 0 rows in 0 item sides {}
+  stamp_visible: 0 rows in 0 item sides {}
+  furniture_visible: 0 rows in 0 item sides {}
+  added: 0 rows in 0 item sides {}
+  edge: 0 rows in 0 item sides {}
+  edge_rule: 0 rows in 0 item sides {}
+  mark_damaged: 0 rows in 0 item sides {}
+== c73 layout
+{'body pages': 2579, 'unused space: next item kept whole or its start kept together': 209, 'page breaks inside a source page': 413, 'breaks between rows of a reference page': 67, 'unused space: figure or block kept together': 82}
+margin: 0 {}
+overlap: 0 {}
+orphan_heading: 0 {}
+orphan_mark: 0 {}
+orphan_intro: 0 {}
+orphan_caption: 11 {1: 7, 2: 4}
+orphan_lead: 26 {1: 12, 2: 14}
+split_figure: 0 {}
+empty_page: 0 {}
+wasted_space: 0 {}
+wasted_by_design: 291 {1: 100, 2: 191}
+scale: 0 {}
+== c74 marks
+{'marks in bands': 3162, "marks on these pages outside the item's bands": 180, 'marks under the site watermark in the source, clean in the book': 5, 'marks with a dotted line touching the top of their box (line removed, mark intact)': 10}
+marks that lost ink: 0 in 0 items []
+== c80 self-contained
+{'items': 1351, "announcing lines (colon / 'the following ...')": 1707, 'part references': 109, 'page references': 76, 'Appendix references': 58, 'identifiers checked': 2595, "announcements ('... follows')": 32, 'insert references': 8}
+own_not_shown: 0 rows in 0 items
+part_ref: 0 rows in 0 items
+page_ref: 0 rows in 0 items
+insert_ref: 0 rows in 0 items
+appendix_ref: 0 rows in 0 items
+question_ref: 0 rows in 0 items
+announced: 0 rows in 0 items
+dangling: 0 rows in 0 items
+identifier: 3 rows in 3 items
+== c91 blind re-tag
+items 1352 | blind-tagged 1352 | not tagged [] | unknown numbers []
+items in the books now: 1351 | regrouped since the blind pass: [('M/J 15/P23/Q4/b(ii)', 'M/J 15/P23/Q4/b,c'), ('M/J 15/P23/Q4/b(i,iii,iv),c', 'M/J 15/P23/Q4/b,c')] | of these, blind unit named in the item's also-note: 1
+same unit: 1304 | filed unit is the second acceptable unit: 37 | disagreements: 10 | resolved by reading: 10 | unresolved: 0
+verdicts: {'KEEP': 10}
+filed -> blind: [((9, 12), 7), ((12, 9), 1), ((10, 9), 1), ((11, 10), 1)]
+== c96 report accuracy
+figures compared: 73 | wrong: 0

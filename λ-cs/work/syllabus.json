@@ -1,0 +1,769 @@
+{
+ "units": {
+  "1": "Information representation",
+  "2": "Communication",
+  "3": "Hardware",
+  "4": "Processor Fundamentals",
+  "5": "System Software",
+  "6": "Security, privacy and data integrity",
+  "7": "Ethics and Ownership",
+  "8": "Databases",
+  "9": "Algorithm Design and Problem-solving",
+  "10": "Data Types and Structures",
+  "11": "Programming",
+  "12": "Software Development"
+ },
+ "sections": {
+  "1.1": "Data Representation",
+  "1.2": "Multimedia",
+  "1.3": "Compression",
+  "2.1": "Networks including the internet",
+  "3.1": "Computers and their components",
+  "3.2": "Logic Gates and Logic Circuits",
+  "4.1": "Central Processing Unit (CPU) Architecture",
+  "4.2": "Assembly Language",
+  "4.3": "Bit manipulation",
+  "5.1": "Operating Systems",
+  "5.2": "Language Translators",
+  "6.1": "Data Security",
+  "6.2": "Data Integrity",
+  "7.1": "Ethics and Ownership",
+  "8.1": "Database Concepts",
+  "8.2": "Database Management Systems (DBMS)",
+  "8.3": "Data Definition Language (DDL) and Data Manipulation Language (DML)",
+  "9.1": "Computational Thinking Skills",
+  "9.2": "Algorithms",
+  "10.1": "Data Types and Records",
+  "10.2": "Arrays",
+  "10.3": "Files",
+  "10.4": "Introduction to Abstract Data Types (ADT)",
+  "11.1": "Programming Basics",
+  "11.2": "Constructs",
+  "11.3": "Structured Programming",
+  "12.1": "Program Development Life cycle",
+  "12.2": "Program Design",
+  "12.3": "Program Testing and Maintenance"
+ },
+ "los": {
+  "1.1.1": {
+   "section": "1.1",
+   "text": "Show understanding of binary magnitudes and the difference between binary prefixes and decimal prefixes",
+   "notes": "Understand the difference between and use: • kibi and kilo • mebi and mega • gibi and giga • tebi and tera"
+  },
+  "1.1.2": {
+   "section": "1.1",
+   "text": "Show understanding of different number systems",
+   "notes": "Use the binary, denary, hexadecimal number bases and Binary Coded Decimal (BCD) and one’s and two’s complement representation for binary numbers Convert an integer value from one number base/ representation to another"
+  },
+  "1.1.3": {
+   "section": "1.1",
+   "text": "Perform binary addition and subtraction",
+   "notes": "Using positive and negative binary integers Show understanding of how overflow can occur"
+  },
+  "1.1.4": {
+   "section": "1.1",
+   "text": "Describe practical applications where Binary Coded Decimal (BCD) and Hexadecimal are used",
+   "notes": ""
+  },
+  "1.1.5": {
+   "section": "1.1",
+   "text": "Show understanding of and be able to represent character data in its internal binary form, depending on the character set used",
+   "notes": "Students are expected to be familiar with ASCII (American Standard Code for Information Interchange), extended ASCII and Unicode. Students will not be expected to memorise any particular character codes"
+  },
+  "1.2.1": {
+   "section": "1.2",
+   "text": "Show understanding of how data for a bitmapped image are encoded",
+   "notes": "Use and understand the terms: pixel, file header, image resolution, screen resolution, colour depth/ bit depth"
+  },
+  "1.2.2": {
+   "section": "1.2",
+   "text": "Perform calculations to estimate the file size for a bitmap image",
+   "notes": ""
+  },
+  "1.2.3": {
+   "section": "1.2",
+   "text": "Show understanding of the effects of changing elements of a bitmap image on the image quality and file size",
+   "notes": "Use the terms: image resolution, colour depth / bit depth"
+  },
+  "1.2.4": {
+   "section": "1.2",
+   "text": "Show understanding of how data for a vector graphic are encoded",
+   "notes": "Use the terms: drawing object, property, drawing list"
+  },
+  "1.2.5": {
+   "section": "1.2",
+   "text": "Justify the use of a bitmap image or a vector graphic for a given task",
+   "notes": ""
+  },
+  "1.2.6": {
+   "section": "1.2",
+   "text": "Show understanding of how sound is represented and encoded",
+   "notes": "Use the terms: sampling, sampling rate, sampling resolution, analogue and digital data"
+  },
+  "1.2.7": {
+   "section": "1.2",
+   "text": "Show understanding of the impact of changing the sampling rate and resolution",
+   "notes": "Including the impact on file size and accuracy"
+  },
+  "1.3.1": {
+   "section": "1.3",
+   "text": "Show understanding of the need for and examples of the use of compression",
+   "notes": ""
+  },
+  "1.3.2": {
+   "section": "1.3",
+   "text": "Show understanding of lossy and lossless compression and justify the use of a method in a given situation",
+   "notes": ""
+  },
+  "1.3.3": {
+   "section": "1.3",
+   "text": "Show understanding of how a text file, bitmap image, vector graphic and sound file can be compressed",
+   "notes": "Including the use of run-length encoding (RLE)"
+  },
+  "2.1.1": {
+   "section": "2.1",
+   "text": "Show understanding of the purpose and benefits of networking devices",
+   "notes": ""
+  },
+  "2.1.2": {
+   "section": "2.1",
+   "text": "Show understanding of the characteristics of a LAN (local area network) and a WAN (wide area network)",
+   "notes": ""
+  },
+  "2.1.3": {
+   "section": "2.1",
+   "text": "Explain the client-server and peer-to-peer models of networked computers",
+   "notes": "Roles of the different computers within the network and subnetwork models Benefits and drawbacks of each model Justify the use of a model for a given situation"
+  },
+  "2.1.4": {
+   "section": "2.1",
+   "text": "Show understanding of thin-client and thick-client and the differences between them",
+   "notes": ""
+  },
+  "2.1.5": {
+   "section": "2.1",
+   "text": "Show understanding of the bus, star, mesh and hybrid topologies",
+   "notes": "Understand how packets are transmitted between two hosts for a given topology Justify the use of a topology for a given situation"
+  },
+  "2.1.6": {
+   "section": "2.1",
+   "text": "Show understanding of cloud computing",
+   "notes": "Including the use of public and private clouds Benefits and drawbacks of cloud computing"
+  },
+  "2.1.7": {
+   "section": "2.1",
+   "text": "Show understanding of the differences between and implications of the use of wireless and wired networks",
+   "notes": "Describe the characteristics of copper cable, fibre-optic cable, radio waves (including WiFi), microwaves, satellites"
+  },
+  "2.1.8": {
+   "section": "2.1",
+   "text": "Describe the hardware that is used to support a LAN",
+   "notes": "Including switch, server, Network Interface Card (NIC), Wireless Network Interface Card (WNIC), Wireless Access Points (WAP), cables, bridge, repeater"
+  },
+  "2.1.9": {
+   "section": "2.1",
+   "text": "Describe the role and function of a router in a network",
+   "notes": ""
+  },
+  "2.1.10": {
+   "section": "2.1",
+   "text": "Show understanding of Ethernet and how collisions are detected and avoided",
+   "notes": "Including Carrier Sense Multiple Access / Collision Detection (CSMA / CD)"
+  },
+  "2.1.11": {
+   "section": "2.1",
+   "text": "Show understanding of bit streaming",
+   "notes": "Methods of bit streaming, i.e. real-time and on-demand Importance of bit rates broadband speed on bit streaming"
+  },
+  "2.1.12": {
+   "section": "2.1",
+   "text": "Show understanding of the differences between the World Wide Web (WWW) and the internet",
+   "notes": ""
+  },
+  "2.1.13": {
+   "section": "2.1",
+   "text": "Describe the hardware that is used to support the internet",
+   "notes": "Including modems, PSTN (Public Switched Telephone Network), dedicated lines, cell phone network"
+  },
+  "2.1.14": {
+   "section": "2.1",
+   "text": "Explain the use of IP addresses in the transmission of data over the internet",
+   "notes": "Including: • format of an IP address including IPv4 and IPv6 • use of subnetting in a network • how an IP address is associated with a device on a network • difference between a public IP address and a private IP address and the implications for security • difference between a static IP address and a dynamic IP address"
+  },
+  "2.1.15": {
+   "section": "2.1",
+   "text": "Explain how a Uniform Resource Locator (URL) is used to locate a resource on the World Wide Web (WWW) and the role of the Domain Name Service (DNS)",
+   "notes": ""
+  },
+  "3.1.1": {
+   "section": "3.1",
+   "text": "Show understanding of the need for input, output, primary memory and secondary (including removable) storage",
+   "notes": ""
+  },
+  "3.1.2": {
+   "section": "3.1",
+   "text": "Show understanding of embedded systems",
+   "notes": "Including: benefits and drawbacks of embedded systems"
+  },
+  "3.1.3": {
+   "section": "3.1",
+   "text": "Describe the principal operations of hardware devices",
+   "notes": "Including: Laser printer, 3D printer, microphone, speakers, magnetic hard disk, solid state (flash) memory, optical disc reader/writer, touchscreen, virtual reality headset"
+  },
+  "3.1.4": {
+   "section": "3.1",
+   "text": "Show understanding of the use of buffers",
+   "notes": ""
+  },
+  "3.1.5": {
+   "section": "3.1",
+   "text": "Explain the differences between Random Access Memory (RAM) and Read Only Memory (ROM)",
+   "notes": "Including their use in a range of devices and systems"
+  },
+  "3.1.6": {
+   "section": "3.1",
+   "text": "Explain the differences between Static RAM (SRAM) and Dynamic RAM (DRAM)",
+   "notes": "Including the use of SRAM and DRAM in a range of devices and systems and the reasons for using one instead of the other depending on the device and its use"
+  },
+  "3.1.7": {
+   "section": "3.1",
+   "text": "Explain the difference between Programmable ROM (PROM), Erasable Programmable ROM (EPROM) and Electrically Erasable Programmable ROM (EEPROM)",
+   "notes": ""
+  },
+  "3.1.8": {
+   "section": "3.1",
+   "text": "Show an understanding of monitoring and control systems",
+   "notes": "Including: • difference between monitoring and control • use of sensors (including temperature, pressure, infra-red, sound) and actuators • importance of feedback"
+  },
+  "3.2.1": {
+   "section": "3.2",
+   "text": "Use the following logic gate symbols: NOT AND OR",
+   "notes": "NAND NOR XOR"
+  },
+  "3.2.2": {
+   "section": "3.2",
+   "text": "Understand and define the functions of : NOT, AND, OR, NAND, NOR and XOR (EOR) gates",
+   "notes": "All gates except the NOT gate will have two inputs only."
+  },
+  "3.2.3": {
+   "section": "3.2",
+   "text": "Construct the truth table for each of the logic gates above",
+   "notes": ""
+  },
+  "3.2.4": {
+   "section": "3.2",
+   "text": "Construct a logic circuit",
+   "notes": "From: • a problem statement • a logic expression • a truth table"
+  },
+  "3.2.5": {
+   "section": "3.2",
+   "text": "Construct a truth table",
+   "notes": "From: • a problem statement • a logic circuit • a logic expression"
+  },
+  "3.2.6": {
+   "section": "3.2",
+   "text": "Construct a logic expression",
+   "notes": "From: • a problem statement • a logic circuit • a truth table"
+  },
+  "4.1.1": {
+   "section": "4.1",
+   "text": "Show understanding of the basic Von Neumann model for a computer system and the stored program concept",
+   "notes": ""
+  },
+  "4.1.2": {
+   "section": "4.1",
+   "text": "Show understanding of the purpose and role of registers, including the difference between general purpose and special purpose registers",
+   "notes": "Special purpose registers including: • Program Counter (PC) • Memory Data Register (MDR) • Memory Address Register (MAR) • The Accumulator (ACC) • Index Register (IX) • Current Instruction Register (CIR) • Status Register"
+  },
+  "4.1.3": {
+   "section": "4.1",
+   "text": "Show understanding of the purpose and roles of the Arithmetic and Logic Unit (ALU), Control Unit (CU) and system clock, Immediate Access Store (IAS)",
+   "notes": ""
+  },
+  "4.1.4": {
+   "section": "4.1",
+   "text": "Show understanding of how data are transferred between various components of the computer system using the address bus, data bus and control bus",
+   "notes": ""
+  },
+  "4.1.5": {
+   "section": "4.1",
+   "text": "Show understanding of how factors contribute to the performance of the computer system",
+   "notes": "Including: • processor type and number of cores • the bus width • clock speed • cache memory"
+  },
+  "4.1.6": {
+   "section": "4.1",
+   "text": "Understand how different ports provide connection to peripheral devices",
+   "notes": "Including connection to: • Universal Serial Bus (USB) • High Definition Multimedia Interface (HDMI) • Video Graphics Array (VGA)"
+  },
+  "4.1.7": {
+   "section": "4.1",
+   "text": "Describe the stages of the Fetch-Execute (F-E) cycle",
+   "notes": "Describe and use ‘register transfer’ notation to describe the F-E cycle"
+  },
+  "4.1.8": {
+   "section": "4.1",
+   "text": "Show understanding of the purpose of interrupts",
+   "notes": "Including: • possible causes of interrupts • applications of interrupts • use of an Interrupt Service handling Routine (ISR) • when interrupts are detected during the fetch- execute cycle • how interrupts are handled"
+  },
+  "4.2.1": {
+   "section": "4.2",
+   "text": "Show understanding of the relationship between assembly language and machine code",
+   "notes": ""
+  },
+  "4.2.2": {
+   "section": "4.2",
+   "text": "Describe the different stages of the assembly process for a two-pass assembler",
+   "notes": "Apply the two-pass assembler process to a given simple assembly language program"
+  },
+  "4.2.3": {
+   "section": "4.2",
+   "text": "Trace a given simple assembly language program",
+   "notes": ""
+  },
+  "4.2.4": {
+   "section": "4.2",
+   "text": "Show understanding that a set of instructions are grouped",
+   "notes": "Including the following groups: • Data movement • Input and output of data • Arithmetic operations • Unconditional and conditional instructions • Compare instructions"
+  },
+  "4.2.5": {
+   "section": "4.2",
+   "text": "Show understanding of and be able to use different modes of addressing",
+   "notes": "Including immediate, direct, indirect, indexed, relative The following table is an example of an instruction set: Instruction Explanation Opcode Operand LDM #n Immediate addressing. Load the number n to ACC LDD <address> Direct addressing. Load the contents of the location at the given address to ACC LDI <address> Indirect addressing. The address to be used is at the given address. Load the contents of this second address to ACC LDX <address> Indexed addressing. Form the address from <address> + the contents of the index register. Copy the contents of this calculated address to ACC LDR #n Immediate addressing. Load the number n to IX MOV <register> Move the contents of the accumulator to the given register (IX) STO <address> Store the contents of ACC at the given address ADD <address> Add the contents of the given address to the ACC ADD #n/Bn/&n Add the number n to the ACC SUB <address> Subtract the contents of the given address from the ACC SUB #n/Bn/&n Subtract the number n from the ACC INC <register> Add 1 to the contents of the register (ACC or IX) DEC <register> Subtract 1 from the contents of the register (ACC or IX) JMP <address> Jump to the given address CMP <address> Compare the contents of ACC with the contents of <address> CMP #n Compare the contents of ACC with number n CMI <address> Indirect addressing. The address to be used is at the given address. Compare the contents of ACC with the contents of this second address JPE <address> Following a compare instruction, jump to <address> if the compare was True JPN <address> Following a compare instruction, jump to <address> if the compare was False IN Key in a character and store its ASCII value in ACC OUT Output to the screen the character whose ASCII value is stored in ACC END Return control to the operating system All questions will assume there is only one general purpose register available (Accumulator) ACC denotes Accumulator IX denotes Index Register <address> can be an absolute or symbolic address # denotes a denary number, e.g. #123 B denotes a binary number, e.g. B01001010 & denotes a hexadecimal number, e.g. &4A"
+  },
+  "4.3.1": {
+   "section": "4.3",
+   "text": "Show understanding of and perform binary shifts",
+   "notes": "Logical, arithmetic and cyclic Left shift, right shift"
+  },
+  "4.3.2": {
+   "section": "4.3",
+   "text": "Show understanding of how bit manipulation can be used to monitor/control a device",
+   "notes": "Carry out bit manipulation operations Test and set a bit (using bit masking) Instruction Label Opcode Operand AND #n / Bn / &n Bitwise AND operation of the contents of ACC with the operand AND <address> Bitwise AND operation of the contents of ACC with the contents of <address> XOR #n / Bn / &n Bitwise XOR operation of the contents of ACC with the operand XOR <address> Bitwise XOR operation of the contents of ACC with the contents of <address> OR #n / Bn / &n Bitwise OR operation of the contents of ACC with the operand OR <address> Bitwise OR operation of the contents of ACC with the contents of <address> LSL #n Bits in ACC are shifted logically n places to the left. Zeros are introduced on the right hand end LSR #n Bits in ACC are shifted logically n places to the right. Zeros are introduced on the left hand end <label>: <opcode> <operand> Labels an instruction <label>: <data> Gives a symbolic address <label> to the memory location with contents <data> Explanation All questions will assume there is only one general purpose register available (Accumulator) ACC denotes Accumulator IX denotes Index Register <address> can be an absolute or symbolic address # denotes a denary number, e.g. #123 B denotes a binary number, e.g. B01001010 & denotes a hexadecimal number, e.g. &4A"
+  },
+  "5.1.1": {
+   "section": "5.1",
+   "text": "Explain why a computer system requires an Operating System (OS)",
+   "notes": ""
+  },
+  "5.1.2": {
+   "section": "5.1",
+   "text": "Explain the key management tasks carried out by the Operating System",
+   "notes": "Including memory management, file management, security management, hardware management (input / output / peripherals), process management"
+  },
+  "5.1.3": {
+   "section": "5.1",
+   "text": "Show understanding of the need for typical utility software provided with an Operating System",
+   "notes": "Including disk formatter, virus checker, defragmentation software, disk contents analysis/ disk repair software, file compression, back-up software"
+  },
+  "5.1.4": {
+   "section": "5.1",
+   "text": "Show understanding of program libraries",
+   "notes": "Including: • software under development is often constructed using existing code from program libraries • the benefits to the developer of software constructed using library files, including Dynamic Link Library (DLL) files"
+  },
+  "5.2.1": {
+   "section": "5.2",
+   "text": "Show understanding of the need for: • assembler software for the translation of an assembly language program • a compiler for the translation of a high-level language program • an interpreter for translation and execution of a high-level language program",
+   "notes": ""
+  },
+  "5.2.2": {
+   "section": "5.2",
+   "text": "Explain the benefits and drawbacks of using either a compiler or interpreter and justify the use of each",
+   "notes": ""
+  },
+  "5.2.3": {
+   "section": "5.2",
+   "text": "Show awareness that high-level language programs may be partially compiled and partially interpreted, such as Java (console mode)",
+   "notes": ""
+  },
+  "5.2.4": {
+   "section": "5.2",
+   "text": "Describe features found in a typical Integrated Development Environment (IDE)",
+   "notes": "Including: • for coding, including context-sensitive prompts • for initial error detection, including dynamic syntax checks • for presentation, including prettyprint, expand and collapse code blocks • for debugging, including single stepping, breakpoints, i.e. variables, expressions, report window"
+  },
+  "6.1.1": {
+   "section": "6.1",
+   "text": "Explain the difference between the terms security, privacy and integrity of data",
+   "notes": ""
+  },
+  "6.1.2": {
+   "section": "6.1",
+   "text": "Show appreciation of the need for both the security of data and the security of the computer system",
+   "notes": ""
+  },
+  "6.1.3": {
+   "section": "6.1",
+   "text": "Describe security measures designed to protect computer systems, ranging from the stand-alone PC to a network of computers",
+   "notes": "Including user accounts, passwords, authentication techniques such as digital signatures and biometrics, firewall, anti-virus software, anti- spyware, encryption"
+  },
+  "6.1.4": {
+   "section": "6.1",
+   "text": "Show understanding of the threats to computer and data security posed by networks and the internet",
+   "notes": "Including malware (virus, spyware), hackers, phishing, pharming"
+  },
+  "6.1.5": {
+   "section": "6.1",
+   "text": "Describe methods that can be used to restrict the risks posed by threats",
+   "notes": ""
+  },
+  "6.1.6": {
+   "section": "6.1",
+   "text": "Describe security methods designed to protect the security of data",
+   "notes": "Including encryption, access rights"
+  },
+  "6.2.1": {
+   "section": "6.2",
+   "text": "Describe how data validation and data verification help protect the integrity of data",
+   "notes": ""
+  },
+  "6.2.2": {
+   "section": "6.2",
+   "text": "Describe and use methods of data validation",
+   "notes": "Including range check, format check, length check, presence check, existence check, limit check, check digit"
+  },
+  "6.2.3": {
+   "section": "6.2",
+   "text": "Describe and use methods of data verification during data entry and data transfer",
+   "notes": "During data entry including visual check, double entry During data transfer including parity check (byte and block), checksum"
+  },
+  "7.1.1": {
+   "section": "7.1",
+   "text": "Show understanding of the need for and purpose of ethics as a computing professional",
+   "notes": "Understand the importance of joining a professional ethical body including BCS (British Computer Society), IEEE (Institute of Electrical and Electronic Engineers)"
+  },
+  "7.1.2": {
+   "section": "7.1",
+   "text": "Show understanding of the need to act ethically and the impact of acting ethically or unethically for a given situation",
+   "notes": ""
+  },
+  "7.1.3": {
+   "section": "7.1",
+   "text": "Show understanding of the need for copyright legislation",
+   "notes": ""
+  },
+  "7.1.4": {
+   "section": "7.1",
+   "text": "Show understanding of the different types of software licencing and justify the use of a licence for a given situation",
+   "notes": "Licences to include free Software Foundation, the Open Source Initiative, shareware and commercial software"
+  },
+  "7.1.5": {
+   "section": "7.1",
+   "text": "Show understanding of Artificial Intelligence (AI)",
+   "notes": "Understand the impact of AI including social, economic and environmental issues Understand the applications of AI"
+  },
+  "8.1.1": {
+   "section": "8.1",
+   "text": "Show understanding of the limitations of using a file- based approach for the storage and retrieval of data",
+   "notes": ""
+  },
+  "8.1.2": {
+   "section": "8.1",
+   "text": "Describe the features of a relational database that address the limitations of a file-based approach",
+   "notes": ""
+  },
+  "8.1.3": {
+   "section": "8.1",
+   "text": "Show understanding of and use the terminology associated with a relational database model",
+   "notes": "Including entity, table, record, field, tuple, attribute, primary key, candidate key, secondary key, foreign key, relationship (one-to-many, one-to-one, many- to-many), referential integrity, indexing"
+  },
+  "8.1.4": {
+   "section": "8.1",
+   "text": "Use an entity-relationship (E-R) diagram to document a database design",
+   "notes": ""
+  },
+  "8.1.5": {
+   "section": "8.1",
+   "text": "Show understanding of the normalisation process",
+   "notes": "First Normal Form (1NF), Second Normal Form (2NF) and Third Normal Form (3NF)"
+  },
+  "8.1.6": {
+   "section": "8.1",
+   "text": "Explain why a given set of database tables are, or are not, in 3NF",
+   "notes": ""
+  },
+  "8.1.7": {
+   "section": "8.1",
+   "text": "Produce a normalised database design for a description of a database, a given set of data, or a given set of tables",
+   "notes": ""
+  },
+  "8.2.1": {
+   "section": "8.2",
+   "text": "Show understanding of the features provided by a Database Management System (DBMS) that address the issues of a file based approach",
+   "notes": "Including: • data management, including maintaining a data dictionary • data modelling • logical schema • data integrity • data security, including backup procedures and the use of access rights to individuals / groups of users"
+  },
+  "8.2.2": {
+   "section": "8.2",
+   "text": "Show understanding of how software tools found within a DBMS are used in practice",
+   "notes": "Including the use and purpose of: • developer interface • query processor"
+  },
+  "8.3.1": {
+   "section": "8.3",
+   "text": "Show understanding that the DBMS carries out all creation / modification of the database structure using its Data Definition Language (DDL)",
+   "notes": ""
+  },
+  "8.3.2": {
+   "section": "8.3",
+   "text": "Show understanding that the DBMS carries out all queries and maintenance of data using its DML",
+   "notes": ""
+  },
+  "8.3.3": {
+   "section": "8.3",
+   "text": "Show understanding that the industry standard for both DDL and DML is Structured Query Language (SQL)",
+   "notes": "Understand a given SQL statement"
+  },
+  "8.3.4": {
+   "section": "8.3",
+   "text": "Understand given SQL (DDL) statements and be able to write simple SQL (DDL) statements using a sub-set of statements",
+   "notes": "Create a database (CREATE DATABASE) Create a table definition (CREATE TABLE), including the creation of attributes with appropriate data types: • CHARACTER • VARCHAR(n) • BOOLEAN • INTEGER • REAL • DATE • TIME change a table definition (ALTER TABLE) add a primary key to a table (PRIMARY KEY (field)) add a foreign key to a table (FOREIGN KEY (field) REFERENCES Table (Field))"
+  },
+  "8.3.5": {
+   "section": "8.3",
+   "text": "Write an SQL script to query or modify data (DML) which are stored in (at most two) database tables",
+   "notes": "Queries including SELECT... FROM, WHERE, ORDER BY, GROUP BY, INNER JOIN, SUM, COUNT, AVG Data maintenance including. INSERT INTO, DELETE FROM, UPDATE"
+  },
+  "9.1.1": {
+   "section": "9.1",
+   "text": "Show an understanding of abstraction",
+   "notes": "Need for and benefits of using abstraction Describe the purpose of abstraction Produce an abstract model of a system by only including essential details"
+  },
+  "9.1.2": {
+   "section": "9.1",
+   "text": "Describe and use decomposition",
+   "notes": "Break down problems into sub-problems leading to the concept of a program module (procedure / function)"
+  },
+  "9.2.1": {
+   "section": "9.2",
+   "text": "Show understanding that an algorithm is a solution to a problem expressed as a sequence of defined steps",
+   "notes": ""
+  },
+  "9.2.2": {
+   "section": "9.2",
+   "text": "Use suitable identifier names for the representation of data used by a problem and represent these using an identifier table",
+   "notes": ""
+  },
+  "9.2.3": {
+   "section": "9.2",
+   "text": "Write pseudocode that contains input, process and output",
+   "notes": ""
+  },
+  "9.2.4": {
+   "section": "9.2",
+   "text": "Write pseudocode using the three basic constructs of sequence, selection and iteration (repetition)",
+   "notes": ""
+  },
+  "9.2.5": {
+   "section": "9.2",
+   "text": "Document a simple algorithm using a structured English description, a flowchart or pseudocode",
+   "notes": ""
+  },
+  "9.2.6": {
+   "section": "9.2",
+   "text": "Write pseudocode from: • a structured English description • a flowchart",
+   "notes": ""
+  },
+  "9.2.7": {
+   "section": "9.2",
+   "text": "Draw a flowchart from: • a structured English description • pseudocode",
+   "notes": ""
+  },
+  "9.2.8": {
+   "section": "9.2",
+   "text": "Describe and use the process of stepwise refinement to express an algorithm to a level of detail from which the task may be programmed",
+   "notes": ""
+  },
+  "9.2.9": {
+   "section": "9.2",
+   "text": "Use logic statements to define parts of an algorithm solution",
+   "notes": ""
+  },
+  "10.1.1": {
+   "section": "10.1",
+   "text": "Select and use appropriate data types for a problem solution",
+   "notes": "including integer, real, char, string, Boolean, date (pseudocode will use the following data types: INTEGER, REAL, CHAR, STRING, BOOLEAN, DATE, ARRAY, FILE)"
+  },
+  "10.1.2": {
+   "section": "10.1",
+   "text": "Show understanding of the purpose of a record structure to hold a set of data of different data types under one identifier",
+   "notes": "Write pseudocode to define a record structure Write pseudocode to read data from a record structure and save data to a record structure"
+  },
+  "10.2.1": {
+   "section": "10.2",
+   "text": "Use the technical terms associated with arrays",
+   "notes": "Including index, upper and lower bound"
+  },
+  "10.2.2": {
+   "section": "10.2",
+   "text": "Select a suitable data structure (1D or 2D array) to use for a given task",
+   "notes": ""
+  },
+  "10.2.3": {
+   "section": "10.2",
+   "text": "Write pseudocode for 1D and 2D arrays",
+   "notes": ""
+  },
+  "10.2.4": {
+   "section": "10.2",
+   "text": "Write pseudocode to process array data",
+   "notes": "Sort using a bubble sort Search using a linear search"
+  },
+  "10.3.1": {
+   "section": "10.3",
+   "text": "Show understanding of why files are needed",
+   "notes": ""
+  },
+  "10.3.2": {
+   "section": "10.3",
+   "text": "Write pseudocode to handle text files that consist of one or more lines",
+   "notes": ""
+  },
+  "10.4.1": {
+   "section": "10.4",
+   "text": "Show understanding that an ADT is a collection of data and a set of operations on those data",
+   "notes": ""
+  },
+  "10.4.2": {
+   "section": "10.4",
+   "text": "Show understanding that a stack, queue and linked list are examples of ADTs",
+   "notes": "Describe the key features of a stack, queue and linked list and justify their use for a given situation"
+  },
+  "10.4.3": {
+   "section": "10.4",
+   "text": "Use a stack, queue and linked list to store data",
+   "notes": "Candidates will not be required to write pseudocode for these structures, but they should be able to add, edit and delete data from these structures"
+  },
+  "10.4.4": {
+   "section": "10.4",
+   "text": "Describe how a queue, stack and linked list can be implemented using arrays",
+   "notes": ""
+  },
+  "11.1.1": {
+   "section": "11.1",
+   "text": "Implement and write pseudocode from a given design presented as either a program flowchart or structured English",
+   "notes": ""
+  },
+  "11.1.2": {
+   "section": "11.1",
+   "text": "Write pseudocode statements for: • the declaration and initialisation of constants • the declaration of variables • the assignment of values to variables • expressions involving any of the arithmetic or logical operators input from the keyboard and output to the console",
+   "notes": ""
+  },
+  "11.1.3": {
+   "section": "11.1",
+   "text": "Use built-in functions and library routines",
+   "notes": "Any functions not given in the pseudocode guide will be provided String manipulation functions will always be given"
+  },
+  "11.2.1": {
+   "section": "11.2",
+   "text": "Use pseudocode to write: • an ‘IF’ statement including the ‘ELSE’ clause and nested IF statements • a ‘CASE’ structure • a ‘count-controlled’ loop: • a ‘post-condition’ loop • a ‘pre-condition’ loop",
+   "notes": ""
+  },
+  "11.2.2": {
+   "section": "11.2",
+   "text": "Justify why one loop structure may be better suited to solve a problem than the others",
+   "notes": ""
+  },
+  "11.3.1": {
+   "section": "11.3",
+   "text": "Define and use a procedure",
+   "notes": ""
+  },
+  "11.3.2": {
+   "section": "11.3",
+   "text": "Explain where in the construction of an algorithm it would be appropriate to use a procedure",
+   "notes": ""
+  },
+  "11.3.3": {
+   "section": "11.3",
+   "text": "Use parameters",
+   "notes": "A procedure may have none, one or more parameters A parameter can be passed by reference or by value"
+  },
+  "11.3.4": {
+   "section": "11.3",
+   "text": "Define and use a function",
+   "notes": ""
+  },
+  "11.3.5": {
+   "section": "11.3",
+   "text": "Explain where in the construction of an algorithm it is appropriate to use a function",
+   "notes": "A function is used in an expression, e.g. the return value replaces the call"
+  },
+  "11.3.6": {
+   "section": "11.3",
+   "text": "Use the terminology associated with procedures and functions",
+   "notes": "including procedure / function header, procedure / function interface, parameter, argument, return value"
+  },
+  "11.3.7": {
+   "section": "11.3",
+   "text": "Write efficient pseudocode",
+   "notes": ""
+  },
+  "12.1.1": {
+   "section": "12.1",
+   "text": "Show understanding of the purpose of a development life cycle",
+   "notes": ""
+  },
+  "12.1.2": {
+   "section": "12.1",
+   "text": "Show understanding of the need for different development life cycles depending on the program being developed",
+   "notes": "Including: waterfall, iterative, rapid application development (RAD)"
+  },
+  "12.1.3": {
+   "section": "12.1",
+   "text": "Describe the principles, benefits and drawbacks of each type of life cycle",
+   "notes": ""
+  },
+  "12.1.4": {
+   "section": "12.1",
+   "text": "Show understanding of the analysis, design, coding, testing and maintenance stages in the program development life cycle",
+   "notes": ""
+  },
+  "12.2.1": {
+   "section": "12.2",
+   "text": "Use a structure chart to decompose a problem into sub-tasks and express the parameters passed between the various modules / procedures / functions which are part of the algorithm design",
+   "notes": "Describe the purpose of a structure chart Construct a structure chart for a given problem Derive equivalent pseudocode from a structure chart"
+  },
+  "12.2.2": {
+   "section": "12.2",
+   "text": "Show understanding of the purpose of state-transition diagrams to document an algorithm",
+   "notes": ""
+  },
+  "12.3.1": {
+   "section": "12.3",
+   "text": "Show understanding of ways of exposing and avoiding faults in programs",
+   "notes": ""
+  },
+  "12.3.2": {
+   "section": "12.3",
+   "text": "Locate and identify the different types of errors",
+   "notes": "• syntax errors • logic errors • run-time errors"
+  },
+  "12.3.3": {
+   "section": "12.3",
+   "text": "Correct identified errors",
+   "notes": ""
+  },
+  "12.3.4": {
+   "section": "12.3",
+   "text": "Show understanding of the methods of testing available and select appropriate data for a given method",
+   "notes": "Including dry run, walkthrough, white-box, black- box, integration, alpha, beta, acceptance, stub"
+  },
+  "12.3.5": {
+   "section": "12.3",
+   "text": "Show understanding of the need for a test strategy and test plan and their likely contents",
+   "notes": ""
+  },
+  "12.3.6": {
+   "section": "12.3",
+   "text": "Choose appropriate test data for a test plan",
+   "notes": "Including normal, abnormal and extreme/boundary"
+  },
+  "12.3.7": {
+   "section": "12.3",
+   "text": "Show understanding of the need for continuing maintenance of a system and the differences between each type of maintenance",
+   "notes": "Including perfective, adaptive, corrective"
+  },
+  "12.3.8": {
+   "section": "12.3",
+   "text": "Analyse an existing program and make amendments to enhance functionality",
+   "notes": ""
+  }
+ }
+}

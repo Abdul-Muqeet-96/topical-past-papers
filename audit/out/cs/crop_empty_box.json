@@ -1,0 +1,402 @@
+[
+{
+"book": 1,
+"ref": "O/N 23/P12/Q7/a,b,c,d",
+"side": "Q",
+"src": "9618_w23_qp_12.pdf",
+"srcpage": 10,
+"bookpages": [
+184
+],
+"path": [
+50,
+348,
+546,
+616
+]
+},
+{
+"book": 2,
+"ref": "M/J 21/P21/Q2/c",
+"side": "Q",
+"src": "9618_s21_qp_21.pdf",
+"srcpage": 6,
+"bookpages": [
+56
+],
+"path": [
+95,
+218,
+545,
+778
+]
+},
+{
+"book": 2,
+"ref": "M/J 21/P23/Q2/c",
+"side": "Q",
+"src": "9618_s21_qp_23.pdf",
+"srcpage": 6,
+"bookpages": [
+60
+],
+"path": [
+95,
+218,
+545,
+778
+]
+},
+{
+"book": 2,
+"ref": "9608 M/J 21/P21/Q2/a,b",
+"side": "Q",
+"src": "9608_s21_qp_21.pdf",
+"srcpage": 5,
+"bookpages": [
+62
+],
+"path": [
+91,
+109,
+520,
+729
+]
+},
+{
+"book": 2,
+"ref": "9608 M/J 21/P22/Q2/b",
+"side": "Q",
+"src": "9608_s21_qp_22.pdf",
+"srcpage": 5,
+"bookpages": [
+64
+],
+"path": [
+48,
+106,
+520,
+734
+]
+},
+{
+"book": 2,
+"ref": "9608 M/J 21/P23/Q3/a,b,c",
+"side": "Q",
+"src": "9608_s21_qp_23.pdf",
+"srcpage": 5,
+"bookpages": [
+65
+],
+"path": [
+91,
+307,
+518,
+740
+]
+},
+{
+"book": 2,
+"ref": "M/J 20/P23/Q3/a",
+"side": "Q",
+"src": "9608_s20_qp_23.pdf",
+"srcpage": 7,
+"bookpages": [
+71
+],
+"path": [
+64,
+231,
+531,
+778
+]
+},
+{
+"book": 2,
+"ref": "O/N 19/P21/Q1/a",
+"side": "Q",
+"src": "9608_w19_qp_21.pdf",
+"srcpage": 3,
+"bookpages": [
+71
+],
+"path": [
+70,
+96,
+497,
+727
+]
+},
+{
+"book": 2,
+"ref": "O/N 19/P22/Q1/a",
+"side": "Q",
+"src": "9608_w19_qp_22.pdf",
+"srcpage": 3,
+"bookpages": [
+73
+],
+"path": [
+71,
+96,
+496,
+726
+]
+},
+{
+"book": 2,
+"ref": "M/J 19/P23/Q1/a",
+"side": "Q",
+"src": "9608_s19_qp_23.pdf",
+"srcpage": 3,
+"bookpages": [
+79
+],
+"path": [
+50,
+114,
+546,
+774
+]
+},
+{
+"book": 2,
+"ref": "O/N 17/P21/Q2/c",
+"side": "Q",
+"src": "9608_w17_qp_21.pdf",
+"srcpage": 5,
+"bookpages": [
+94
+],
+"path": [
+64,
+114,
+531,
+752
+]
+},
+{
+"book": 2,
+"ref": "O/N 17/P22/Q2/b",
+"side": "Q",
+"src": "9608_w17_qp_22.pdf",
+"srcpage": 7,
+"bookpages": [
+95
+],
+"path": [
+64,
+115,
+531,
+743
+]
+},
+{
+"book": 2,
+"ref": "O/N 17/P23/Q2/c",
+"side": "Q",
+"src": "9608_w17_qp_23.pdf",
+"srcpage": 5,
+"bookpages": [
+96
+],
+"path": [
+64,
+114,
+531,
+752
+]
+},
+{
+"book": 2,
+"ref": "M/J 21/P21/Q2/b",
+"side": "Q",
+"src": "9618_s21_qp_21.pdf",
+"srcpage": 4,
+"bookpages": [
+844
+],
+"path": [
+95,
+378,
+545,
+776
+]
+},
+{
+"book": 2,
+"ref": "M/J 21/P23/Q2/b",
+"side": "Q",
+"src": "9618_s21_qp_23.pdf",
+"srcpage": 4,
+"bookpages": [
+852
+],
+"path": [
+95,
+378,
+545,
+776
+]
+},
+{
+"book": 2,
+"ref": "M/J 23/P21/Q7/b",
+"side": "Q",
+"src": "9618_s23_qp_21.pdf",
+"srcpage": 13,
+"bookpages": [
+1245
+],
+"path": [
+118,
+546,
+546,
+776
+]
+},
+{
+"book": 2,
+"ref": "M/J 21/P21/Q2/a",
+"side": "Q",
+"src": "9618_s21_qp_21.pdf",
+"srcpage": 4,
+"bookpages": [
+1272
+],
+"path": [
+95,
+378,
+545,
+776
+]
+},
+{
+"book": 2,
+"ref": "M/J 21/P23/Q2/a",
+"side": "Q",
+"src": "9618_s21_qp_23.pdf",
+"srcpage": 4,
+"bookpages": [
+1278
+],
+"path": [
+95,
+378,
+545,
+776
+]
+},
+{
+"book": 2,
+"ref": "9608 M/J 21/P22/Q3/a,b",
+"side": "Q",
+"src": "9608_s21_qp_22.pdf",
+"srcpage": 6,
+"bookpages": [
+1288
+],
+"path": [
+113,
+346,
+517,
+728
+]
+},
+{
+"book": 2,
+"ref": "9608 M/J 21/P22/Q3/a,b",
+"side": "Q",
+"src": "9608_s21_qp_22.pdf",
+"srcpage": 7,
+"bookpages": [
+1288
+],
+"path": [
+91,
+97,
+519,
+440
+]
+},
+{
+"book": 2,
+"ref": "M/J 20/P21/Q2/a,b",
+"side": "Q",
+"src": "9608_s20_qp_21.pdf",
+"srcpage": 3,
+"bookpages": [
+1294
+],
+"path": [
+50,
+353,
+546,
+773
+]
+},
+{
+"book": 2,
+"ref": "O/N 19/P22/Q5",
+"side": "Q",
+"src": "9608_w19_qp_22.pdf",
+"srcpage": 12,
+"bookpages": [
+1312
+],
+"path": [
+70,
+284,
+497,
+700
+]
+},
+{
+"book": 2,
+"ref": "O/N 19/P23/Q3",
+"side": "Q",
+"src": "9608_w19_qp_23.pdf",
+"srcpage": 7,
+"bookpages": [
+1313
+],
+"path": [
+72,
+291,
+523,
+766
+]
+},
+{
+"book": 2,
+"ref": "M/J 19/P23/Q3/a",
+"side": "Q",
+"src": "9608_s19_qp_23.pdf",
+"srcpage": 9,
+"bookpages": [
+1326
+],
+"path": [
+50,
+101,
+546,
+564
+]
+},
+{
+"book": 2,
+"ref": "M/J 18/P23/Q3/b",
+"side": "Q",
+"src": "9608_s18_qp_23.pdf",
+"srcpage": 7,
+"bookpages": [
+1338
+],
+"path": [
+50,
+472,
+546,
+777
+]
+}
+]

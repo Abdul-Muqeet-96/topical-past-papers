@@ -1,0 +1,6 @@
+{
+ "sample_ok": true,
+ "sample": "Final books: 180 question items and 60 answers (15 + 5 per unit, 12 units; random, seed 9625; listed in audit/out/cs/visual_samples.json) rendered at 92 dpi, 120 images, all viewed: no defect found. Seven earlier rounds of the same size on earlier builds found the defects listed below, each fixed and re-checked",
+ "flags_ok": true,
+ "flags": "Every row of every finding list that was not empty during the self-check was viewed as a book crop beside its source page (or read, for text findings); the lists still not empty are judged below"
+}

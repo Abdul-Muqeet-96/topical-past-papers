@@ -1,0 +1,92 @@
+[
+ {
+  "file": "9618_s26_qp_22.pdf",
+  "http": "200",
+  "identical": true,
+  "local_sha256": "8940a2df58113958b5da471ad6536f59231eb9326201ad5bc5e91f552342ede6",
+  "remote_sha256": "8940a2df58113958b5da471ad6536f59231eb9326201ad5bc5e91f552342ede6",
+  "local_size": 665054,
+  "remote_size": 665054
+ },
+ {
+  "file": "9608_s20_ms_22.pdf",
+  "http": "200",
+  "identical": true,
+  "local_sha256": "0e8fc9ef53fa935d055994333f0d3744a69fa91a354837d6a11a5bb4f8af0ad6",
+  "remote_sha256": "0e8fc9ef53fa935d055994333f0d3744a69fa91a354837d6a11a5bb4f8af0ad6",
+  "local_size": 209474,
+  "remote_size": 209474
+ },
+ {
+  "file": "9618_s25_in_21.pdf",
+  "http": "200",
+  "identical": true,
+  "local_sha256": "9cdddef3569351a65ebe90f4d28825329cbf7c0171a99d2d881b69b96471ea69",
+  "remote_sha256": "9cdddef3569351a65ebe90f4d28825329cbf7c0171a99d2d881b69b96471ea69",
+  "local_size": 1439477,
+  "remote_size": 1439477
+ },
+ {
+  "file": "9618_w25_qp_21.pdf",
+  "http": "200",
+  "identical": true,
+  "local_sha256": "6b85b806813779906ba15c8c5ea7e039247702f8b44b2d6923df0423ca51741a",
+  "remote_sha256": "6b85b806813779906ba15c8c5ea7e039247702f8b44b2d6923df0423ca51741a",
+  "local_size": 124125,
+  "remote_size": 124125
+ },
+ {
+  "file": "9608_w21_ms_22.pdf",
+  "http": "200",
+  "identical": true,
+  "local_sha256": "8320d81d84a8aedf9fdfcb3d24beff106a34900c1c84c43c9890ee99c538ea47",
+  "remote_sha256": "8320d81d84a8aedf9fdfcb3d24beff106a34900c1c84c43c9890ee99c538ea47",
+  "local_size": 373589,
+  "remote_size": 373589
+ },
+ {
+  "file": "9618_w22_ms_23.pdf",
+  "http": "200",
+  "identical": true,
+  "local_sha256": "4c082ac6575485e6b9876f6e0bbf9efb403079356fe532afdfa1914795c4dcc5",
+  "remote_sha256": "4c082ac6575485e6b9876f6e0bbf9efb403079356fe532afdfa1914795c4dcc5",
+  "local_size": 224676,
+  "remote_size": 224676
+ },
+ {
+  "file": "9608_s19_ms_12.pdf",
+  "http": "200",
+  "identical": true,
+  "local_sha256": "c8c65804992240aca2a21113b4514eb167a706724c1b61ae175f783710bfe6ff",
+  "remote_sha256": "c8c65804992240aca2a21113b4514eb167a706724c1b61ae175f783710bfe6ff",
+  "local_size": 191132,
+  "remote_size": 191132
+ },
+ {
+  "file": "9608_w15_ms_22.pdf",
+  "http": "200",
+  "identical": true,
+  "local_sha256": "98cc25d5b0de6f629036f91695339654e5065aeed8c53a01d98e656d99527fb0",
+  "remote_sha256": "98cc25d5b0de6f629036f91695339654e5065aeed8c53a01d98e656d99527fb0",
+  "local_size": 271139,
+  "remote_size": 271139
+ },
+ {
+  "file": "9618_w24_qp_13.pdf",
+  "http": "200",
+  "identical": true,
+  "local_sha256": "1633471ff692292618910635b391aef69624188ec30b72425738f8a46354cc04",
+  "remote_sha256": "1633471ff692292618910635b391aef69624188ec30b72425738f8a46354cc04",
+  "local_size": 120709,
+  "remote_size": 120709
+ },
+ {
+  "file": "9618_s24_qp_11.pdf",
+  "http": "200",
+  "identical": true,
+  "local_sha256": "2e39e6c2ee1e65d621df71b4b7fbe41a16f1e4ed8e252fb1612a6d14b13de063",
+  "remote_sha256": "2e39e6c2ee1e65d621df71b4b7fbe41a16f1e4ed8e252fb1612a6d14b13de063",
+  "local_size": 837029,
+  "remote_size": 837029
+ }
+]

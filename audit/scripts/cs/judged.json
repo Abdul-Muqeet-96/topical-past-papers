@@ -1,0 +1,22 @@
+{
+ "crop_furniture.json": {
+  "rows": 15,
+  "verdict": "The crop reaches into the footer zone because a mark or the last line of a figure is printed level with the footer (12 question crops), or a mark-scheme row ends low on its page (3 answer crops). The pixel comparison finds no footer ink in any of them (furniture visible: 0)"
+ },
+ "crop_empty_box.json": {
+  "rows": 25,
+  "verdict": "Empty frames for drawing a flowchart, a structure chart or a network diagram (answer space), removed by rule (AUTO-DECIDED, empty drawing boxes). All 23 frames were viewed on their source pages, outlined: each is blank"
+ },
+ "self_identifier.json": {
+  "rows": 3,
+  "verdict": "False alarms. Name (M/J 23/P12 Q2), Description (M/J 19/P11 Q2) and Temp (M/J 15/P23 Q2) are defined in the question stem, which is printed in the item; the items were read"
+ },
+ "layout_orphan_caption.json": {
+  "rows": 11,
+  "verdict": "Not captions cut from a figure. Each row was read: answer labels (\"Register\", \"Bus 1\", \"corrected line\", \"Programming language\"), the last line of a code listing or of a list (\"OUTPUT MyString, StringTotal\", \"PUSH 'Y'\"), a table row or table definition followed by ordinary text or by the next part (\"Num[4] 3\", \"REPAIR_PART(...)\"), and the end of a sentence (\"appropriate title.\")"
+ },
+ "layout_orphan_lead.json": {
+  "rows": 2,
+  "verdict": "Both rows are the last row of a figure (a register diagram, a table definition) at the foot of a page, followed on the next page by the text of the next part; no instruction is separated from its figure"
+ }
+}

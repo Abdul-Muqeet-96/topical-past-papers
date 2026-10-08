@@ -1,0 +1,312 @@
+[
+ {
+  "item": "Tooling",
+  "issue": "`pip` is not installed on this machine; PyMuPDF 1.28.2, numpy 2.5.3 and qpdf 12.4.2 are already present; Pillow is not",
+  "action": "Nothing to install. Page renders for inspection are made with PyMuPDF only (`scripts/cs/render_pages.py`)"
+ },
+ {
+  "item": "Fonts",
+  "issue": "Liberation Sans (used by the Chemistry book) is not installed",
+  "action": "Generated text (cover, headers, references, index) uses Noto Sans; `layout.py` picks Liberation Sans when it is present"
+ },
+ {
+  "item": "Downloads: series attempted",
+  "issue": "The spec lists s22, every March series and w26 as not on the site",
+  "action": "All of them were still requested (so each is logged as unavailable): m21-m26 (variants 12, 22), s22, w26. All answer with a redirect, not a PDF"
+ },
+ {
+  "item": "Downloads: w22",
+  "issue": "O/N 2022 (9618) is on the site although the spec's list of found series does not name it",
+  "action": "Downloaded, header-verified and included like the other series (spec: verify every paper by download)"
+ },
+ {
+  "item": "Download-site watermark",
+  "issue": "The 9618 PDFs carry the site's tiled logo and a footer block (rule, site name, invisible lines ending in a trace ID)",
+  "action": "Stripped in memory when a file is loaded (`parse.strip_watermark`); the files in data/ are left untouched"
+ },
+ {
+  "item": "Paper check 2",
+  "issue": "9618 papers print no [Total: n] per question",
+  "action": "The part [marks] must add up to the cover total (75); a printed [Total: n] would also be checked. A question ends where the next one starts; the last question ends just below its last [mark]"
+ },
+ {
+  "item": "Reading [marks]",
+  "issue": "Bracketed numbers also occur inside questions (array elements such as `Sales[4]`, trace-table headings)",
+  "action": "Only a `[n]` right-aligned at the right-hand margin counts as a mark"
+ },
+ {
+  "item": "Dotted lines",
+  "issue": "CS papers use dots both for answer lines and for gaps inside code and sentences that the candidate must fill",
+  "action": "Answer lines are removed from the picture and the text layer; gaps to fill are kept as printed. The rule that tells them apart is in the row \"Gaps to fill and answer lines\" below and in `parse.dot_runs`"
+ },
+ {
+  "item": "Mark-scheme reader",
+  "issue": "The Chemistry reader treats the word \"Total\" in the answer column as a total row; CS answers contain identifiers named `Total`",
+  "action": "That rule is removed for CS (9618 mark schemes print no question totals)"
+ },
+ {
+  "item": "Identifier rule",
+  "issue": "The spec asks for the part that defines an identifier to be shown with any item that uses it",
+  "action": "Identifiers are found from the text layer: words set in the monospace font (character advance 0.6 em) that are not keywords, built-in functions or literals, plus `Name()`, CamelCase, `UPPER_SNAKE` and `File.txt` names in ordinary text. The definition site is the first part of the question, in paper order, that uses the name; an item using it gets that part as context (question crop only)"
+ },
+ {
+  "item": "Scenario nouns",
+  "issue": "Papers do not number figures or tables; a later part says \"the algorithm\", \"this flowchart\", \"the company\" about something an earlier part introduced",
+  "action": "When an item uses \"the/this/these <noun>\" for a noun that neither the stem nor the item introduces, the earlier part that first has the noun is added as context. Very general nouns (data, user, computer, program, table, file ...) are not treated this way"
+ },
+ {
+  "item": "Insert: which items",
+  "issue": "Every 9618 Paper 2 prints \"Refer to the insert for the list of pseudocode functions and operators\" once, above Question 1; that line is not part of any item",
+  "action": "The insert note or inline pages go to an item whose own text refers to the insert, and to an item that uses a function its own insert defines and the Appendix copy does not (LCASE, UCASE, NOW in 2021). All other items rely on the Appendix"
+ },
+ {
+  "item": "Insert: text comparison",
+  "issue": "The 2024-25 inserts differ from the 2026 insert only by a colon after one \"Example\" and a full stop after \"records\"",
+  "action": "\"Matches in text\" ignores punctuation at the end of a word (and white space, footers and the copyright paragraph). M/J 24, M/J 25, O/N 25 and M/J 26 inserts match the Appendix copy; 2021, 2022, 2023 and O/N 24 inserts differ"
+ },
+ {
+  "item": "Appendix (P2 book)",
+  "issue": "\"The insert of the newest paper\": the three M/J 26 inserts have the same text",
+  "action": "The insert of M/J 26/P23 is used (newest series, highest variant, as in the Chemistry build)"
+ },
+ {
+  "item": "Figures",
+  "issue": "The spec asks that code, tables, trace tables and diagrams never split across pages; CS papers print no captions",
+  "action": "A figure is a run of consecutive monospace lines or a cluster of drawings/images with the text inside it; all its crop bands are kept on one page. Only a figure taller than a page can break"
+ },
+ {
+  "item": "Tags",
+  "issue": "The spec asks for unit, section and learning outcome per part",
+  "action": "Learning outcomes are the \"Candidates should be able to\" statements of `λ-cs/cs-syllabus.pdf`, extracted by `scripts/cs/syllabus.py` and numbered in print order (1.2.3 = third outcome of section 1.2). A tag is one such id"
+ },
+ {
+  "item": "items.jsonl",
+  "issue": "The book serves a student and Claude teaching the student",
+  "action": "Besides the Chemistry fields, each line also has the sections, learning-outcome ids, answer page and the answer text from the mark scheme's text layer"
+ },
+ {
+  "item": "Tagging conventions (Paper 2 topics)",
+  "issue": "Many Paper 2 parts touch several learning outcomes at once (a module that reads a file into an array with string functions)",
+  "action": "One rule for every part and for the blind re-tag: a part that writes or completes a module is tagged by the first that applies: text-file handling 10.3.2; array processing 10.2.3 / 10.2.4 (search, sort); stack, queue or linked list 10.4.x; otherwise procedure 11.3.1 or function 11.3.4. Trace tables / dry runs 12.3.4; flowchart from a description 9.2.7; pseudocode from a flowchart or numbered steps 9.2.6; an algorithm described in steps or structured English 9.2.5; complete algorithm from a description 9.2.4; evaluating or completing expressions with built-in functions 11.1.3, with operators only 11.1.2; a logic statement written from a problem condition 9.2.9"
+ },
+ {
+  "item": "Tagging: good programming practice",
+  "issue": "Parts asking for features that make code easier to read (meaningful names, indentation, comments) have no learning outcome of their own",
+  "action": "Tagged 9.2.2 (use suitable identifier names), the nearest outcome; kept in the Paper 2 book"
+ },
+ {
+  "item": "Tagging: Paper 2 parts on Paper 1 topics",
+  "issue": "Some Paper 2 parts test a unit 1-8 outcome: IDE debugging features (5.2.4), validation checks and check digits (6.2.2)",
+  "action": "Tagged with that outcome and filed in the Paper 1 book (spec: a part is filed by its topic, not its paper); each is listed under \"Parts filed by topic in the other paper's book\". Library routines in Paper 2 stay under 11.1.3 (use built-in functions and library routines)"
+ },
+ {
+  "item": "Identical variant papers",
+  "issue": "In 2021 the variant 1 and variant 3 papers have the same text: M/J 21 P11 = P13, M/J 21 P21 = P23, O/N 21 P11 = P13, O/N 21 P21 = P23",
+  "action": "Both papers of each pair are kept (each is a separate official paper with its own reference); their parts carry the same tags, so their items sit next to each other in a unit"
+ },
+ {
+  "item": "Phase 2 downloads: series attempted",
+  "issue": "The spec lists the 9608 series found on the site",
+  "action": "All series 2015-2021 were requested, including March (variants 12, 22), w20 and the w15/w21 variants the spec lists as missing. Not on the site: every March series, w20 (all), w15 QP 12, w21 QPs 12, 13, 21, 22, 23 (their mark schemes exist but are not used)"
+ },
+ {
+  "item": "9608 MS headers",
+  "issue": "Many 9608 mark schemes print \"Paper 1 Written Paper\" / \"Paper 2 Written Paper\" (63 files), and two print \"Paper 2\" with no title (M/J 17 P21, P23)",
+  "action": "Accepted (paper number, code/variant, series and document type match); each wording is counted in the table below"
+ },
+ {
+  "item": "O/N 18/P21 (9608)",
+  "issue": "The mark scheme of 9608/21 prints \"Paper 1 Written Paper\": wrong paper number",
+  "action": "Paper excluded by the header rule (as Chemistry decision D5)"
+ },
+ {
+  "item": "O/N 17/P11 (9608)",
+  "issue": "The question paper file on the site is damaged (truncated at 475 136 bytes; the same on a second download; PyMuPDF and qpdf cannot read it)",
+  "action": "Paper excluded"
+ },
+ {
+  "item": "References of 9608 papers in 2021",
+  "issue": "In M/J 21 and O/N 21 both syllabuses sat papers with the same variant numbers, so \"M/J 21/P11/Q3/a\" would name two different parts",
+  "action": "The seven 9608 papers of 2021 carry the code from their header in the reference: \"9608 M/J 21/P11/Q3/a\". All other references are unchanged"
+ },
+ {
+  "item": "9608 mark schemes 2015-2016",
+  "issue": "They are printed as running text, not as a table (\"2 (a) (i) Any one from: ... [1]\")",
+  "action": "A second reader (`parse.ms_rows_text`): a row starts at a part label at the start of a line, in the order of the question paper's own parts, and runs to the next label; marks are the [n] at the right-hand margin; \"max n\" is the row's mark, counted once when it is repeated under alternative solutions. Every question still has to pass check 3 and every item the [marks] = MS marks check"
+ },
+ {
+  "item": "Marks not at the right-hand margin (9608)",
+  "issue": "A few 9608 papers print a mark beside a short answer line in the middle of the page, as two words (\"[1\" \"]\"), or level with the footer",
+  "action": "Split marks are joined; a mark that ends a dotted answer line counts; a lone [n] short of the margin counts only when the paper total cannot be reached without it (M/J 17 P11 and P13: 2 marks each; M/J 17 P12: 4 marks; logged per paper). Each such paper still adds up to its cover total and every question agrees with its mark scheme"
+ },
+ {
+  "item": "Line numbers of code listings (9608)",
+  "issue": "Numbered pseudocode lines at the left margin look like question numbers",
+  "action": "A question number is never zero-padded and never set in the monospace font"
+ },
+ {
+  "item": "Repeated marks on continuation rows",
+  "issue": "Some 2018 mark schemes repeat a row's label and mark on the next page",
+  "action": "A mark repeated under the same label on a later page counts once"
+ },
+ {
+  "item": "In-paper Appendix (9608 Paper 2)",
+  "issue": "9608 Paper 2 prints the built-in functions as an \"Appendix\" inside the question paper (one or two pages) instead of an insert",
+  "action": "Those pages are not question material. They are treated as the paper's insert: an item whose text refers to the Appendix shows its own paper's Appendix page(s) inline under a grey note, because that text differs from the book's Appendix (the 2026 insert)"
+ },
+ {
+  "item": "\"Write program code\" parts (9608 Paper 2)",
+  "issue": "9608 asks for program code in Visual Basic, Pascal or Python; the 2027-29 Paper 2 outcomes speak of pseudocode",
+  "action": "Included and tagged by the skill tested (file handling, arrays, procedures, functions ...), as the spec's rule on \"Write program code\" answers implies. Where the mark scheme prints the program-code solutions in its own appendix (\"Q6 (a): Visual Basic\" ...), that appendix section is appended to the part's answer rows, so the answer is whole"
+ },
+ {
+  "item": "Out of syllabus (Phase 2)",
+  "issue": "Topics of 9608 with no clear match in the 2027-29 outcomes",
+  "action": "Excluded and listed: client- and server-side scripting (JavaScript, PHP, HTML), video (frame rate, interlaced/progressive encoding, spatial/temporal redundancy), features of sound- and graphics-editing software, devices not in the 3.1 list (keyboard, mouse, trackerball, scanner, inkjet printer), gateways, URL encoding characters, the three-level database schema, disk mirroring, assembler macros and directives, the named principles of the ACM/IEEE code of ethics, \"transferable skills\" and reading code in an unfamiliar language, numeric formatting masks, error detection and recovery as an OS task"
+ },
+ {
+  "item": "Pre-release material (9608 Paper 2)",
+  "issue": "The spec excludes parts that need pre-release material",
+  "action": "No part of the downloaded 9608 Paper 2 papers refers to pre-release material in its text; none was excluded for this reason"
+ },
+ {
+  "item": "Parts whose context would exceed one page",
+  "issue": "The spec says to keep the lettered part whole or exclude; in CS the context is often a whole earlier part (a flowchart, a module table)",
+  "action": "\"About one page\" is one page of the book (744 pt). A part whose context would be longer is merged with the parts it depends on into one block, filed under the unit with most marks and tagged \"also\" (listed under multi-unit parts kept whole). Excluded only if that is not possible"
+ },
+ {
+  "item": "Small-print copyright paragraph",
+  "issue": "Some papers print the copyright paragraph at the foot of a question page",
+  "action": "Treated as page furniture: not part of any crop or text"
+ },
+ {
+  "item": "Download-site watermark (2015-2019 files)",
+  "issue": "The older 9608 files carry the site's corner ribbon and footer logo as images (added by \"A-PDF Watermark\" and an FPDF wrapper), sometimes over question text or a mark",
+  "action": "The image draw operators are removed in memory at load (`parse.strip_watermark`); the text and marks underneath show again. The self-check compares every crop with its source pixel by pixel and finds no stamp left"
+ },
+ {
+  "item": "Empty drawing boxes",
+  "issue": "Some questions print a large empty bordered box as space for a drawing (a flowchart, a structure chart)",
+  "action": "An empty box is writing space and is removed like answer lines. A box with anything printed in it, or with labelled lines attached to its sides (the inputs and output of a logic circuit to draw), is a figure to complete and stays"
+ },
+ {
+  "item": "References of questions without lettered parts",
+  "issue": "Some 9608 questions have roman parts directly under the question number",
+  "action": "The reference names them in brackets: `O/N 16/P11/Q4/(i,ii)`"
+ },
+ {
+  "item": "Reference line and first crop",
+  "issue": "A reference line could fall alone at the foot of a page",
+  "action": "An item (and an answer) starts on a new page when its first crop or figure would not fit under its reference line"
+ },
+ {
+  "item": "Marks printed as \"Max2\" / \"MAX8\" (M/J 18/P21)",
+  "issue": "A few rows of the 9608 M/J 18/P21 mark scheme print the mark in the Marks column as one word with \"Max\"",
+  "action": "Read as the row's mark (found by the self-check: the questions had first been excluded for 'no mark printed'); Q6 and Q7 are in the books"
+ },
+ {
+  "item": "Removing answer-line dots from the text layer",
+  "issue": "On 7 of 2348 question-paper pages the removal (a PDF redaction) also moved other glyphs: text set with character spacing, e.g. a mark shown as \"[1 ]\"",
+  "action": "Every page is compared before and after, character by character. A page on which anything but the dots changed is used unchanged: its answer lines are hidden by white rectangles instead and stay in the PDF text layer (not in items.jsonl). The pages are listed below per paper"
+ },
+ {
+  "item": "Gaps to fill and answer lines",
+  "issue": "A dotted run can be an answer line (\"Answer ......\", \"Line number: ......\", a line of dots on its own) or a gap inside code or a sentence (\"DECLARE ...... : STRING\", \"PC ← ...... + 1\", \"The values ... will indicate ......\")",
+  "action": "Kept as a gap: a run followed by text on its line (any length); a run that ends a line of code whose statement is visibly unfinished (it stops at an operator, a keyword or an assignment arrow: \"WHILE ......\", \"NextChar ← ......\"), or that stands in a block of code with other gaps; a short run (under 250 pt) that ends an unfinished sentence or numbered step. Removed as an answer line: a run on its own; a run after a label (\"Answer\", \"Hours worked\", \"Logic gate:\"), after a finished sentence, or beside a name or a complete expression (\"ItemStatus ......\", \"CONCAT(\\\"Studio\\\", 54) ......\"); a run whose neighbouring text is in another cell of a table (a border lies between them). Code is recognised by its monospace font; an arrow that is a drawing is found by its ink"
+ },
+ {
+  "item": "Mark printed on the footer line",
+  "issue": "The last mark of a page is sometimes printed level with \"[Turn over\" or the paper code",
+  "action": "The mark is kept; the footer words beside or under it are covered by white rectangles that start below the mark's own ink"
+ },
+ {
+  "item": "Papers printed at reduced scale",
+  "issue": "Nine 9608 question papers (M/J 21 P12-P23, O/N 19 P11-P22) are printed at 95.2 % of the standard size",
+  "action": "Their pages are re-scaled to standard size before any coordinate rule is applied; the scale is measured from the footer \"©\" (x = 49.61 pt on a standard paper). Crops are never enlarged beyond the standard size"
+ },
+ {
+  "item": "Barcode strips inside the type area",
+  "issue": "M/J 24 P13 and P23 print a barcode strip below the page number, at the height where other papers start their text",
+  "action": "Treated as page furniture (thin glyph rows without letters or digits above y = 73 pt)"
+ },
+ {
+  "item": "Running-text mark schemes: blank tails",
+  "issue": "A row of a 2015-16 mark scheme, and an appended program-code appendix section, runs to the foot of its page",
+  "action": "Each such segment is cut back to its ink, so no blank strip goes into the Answers Sections; the footer line of a mark-scheme page is never part of a segment"
+ },
+ {
+  "item": "Part that refers forward (O/N 15 P21/P23 Q5(a))",
+  "issue": "Part (a) says \"Study the incomplete pseudocode which follows in part (b)\"; (a) and (b) are filed under different units",
+  "action": "The later part is shown with the item as context (question crop only). A reference to a later part counts as a dependency only when the text sends the reader there for material (\"which follows in part\", \"shown/given/described in part\")"
+ },
+ {
+  "item": "Malformed stream in a source font",
+  "issue": "One compressed stream of a font carried over from the source papers does not end properly; viewers read it, `qpdf --check` warns",
+  "action": "The stream is stored again from its decoded bytes when a book or unit PDF is saved; its content is unchanged"
+ },
+ {
+  "item": "Running-text mark schemes: where a row starts",
+  "issue": "In four 2015 mark schemes (O/N 15 P11, P13: 8(b)(i); O/N 15 P21, P23: 4) a fraction or the frame of a flowchart box starts a few points above the line of the part label",
+  "action": "The cut between the two rows is moved up to the nearest blank strip (at most 15 pt), so the drawing stays whole and with its own row"
+ },
+ {
+  "item": "Hairline under a line of text",
+  "issue": "The bar under a binary addition (O/N 22/P12 Q2(b)) is a hairline too faint to count as ink, so it fell into the removed blank space",
+  "action": "A thin rule drawn up to 4.5 pt under a line of text and no wider than that line is kept with it"
+ },
+ {
+  "item": "Footer words under a figure",
+  "issue": "Where a figure or a mark reaches down to the footer line, the footer words beside it are covered by white rectangles; at the last pixel row of the crop a faint trace of them could remain",
+  "action": "A white rectangle that runs past the foot of a crop is drawn 0.6 pt beyond it (over blank paper)"
+ },
+ {
+  "item": "Page breaks: what stays together",
+  "issue": "A figure can only be kept whole if the lines before it leave room; a mark printed after removed answer space, or the line that introduces a figure, could be left alone on the other side of a page break",
+  "action": "A figure (code block, table, diagram) moves to a new page whole whenever it fits on one. Kept with it on that page: the line printed last before it (at most 60 pt of blank answer space between them) and up to two short lines directly above that line (an instruction of one to three lines; not the last line of a list set solid above it); a caption or title of one to three words directly above it (\"Stack\", \"MyQueue\"); a line that ends with a colon (\"... after execution of the instruction:\"), also where the paper itself turns the page after the colon; the one to three opening lines of an item that lead straight into a figure, together with the item's reference line. A band that holds nothing but a [mark] stays with the line before it. A chain of such links holds one figure at most and never more than a page. Only a figure taller than a page breaks"
+ },
+ {
+  "item": "Code blocks with single-letter names",
+  "issue": "A line such as \"n ← 0\" has no monospace word of two letters and was not counted as code, so a listing with such lines fell apart into several figures and could break across pages",
+  "action": "A line whose characters are monospace continues the block of code directly above it"
+ },
+ {
+  "item": "Insert and appendix pages: page breaks",
+  "issue": "The pages of an insert (or of a 9608 appendix) printed with an item, and the Appendix of the Paper 2 book, are longer than a page as a whole",
+  "action": "They may break between rows or boxes of the function tables, never inside one; a heading stays with the first row under it"
+ },
+ {
+  "item": "items.jsonl: insert pages",
+  "issue": "An item that shows its paper's own insert or appendix pages has that reference material in the book but not in the \"text\" field",
+  "action": "A field \"insert_text\" carries the text of those pages (null for every other item), so the item can be read from items.jsonl alone"
+ },
+ {
+  "item": "Footer words in the text layer",
+  "issue": "On 247 question-paper pages a mark or a figure reaches down to the footer line, so \"[Turn over\" or the barcode glyphs fall inside a crop: hidden by white rectangles, but still in the PDF text layer",
+  "action": "On those pages the footer words are removed from the text layer together with the answer-line dots, under the same before-and-after comparison. On 13 pages the comparison fails with the footer words included; there only the dots are removed and the footer words stay in the text layer under their white rectangle (never in items.jsonl)"
+ },
+ {
+  "item": "Material announced in an introduction",
+  "issue": "9608 M/J 15/P23 Q4(b): the introduction says \"Incomplete pseudocode follows\", but the pseudocode is printed inside sub-part (b)(i); item Q4/b(ii), filed in the Paper 1 book, showed the introduction without it",
+  "action": "Where a lettered introduction announces pseudocode, program code, an algorithm or a flowchart that \"follows\" and the first sub-part holds it, every other sub-part of that letter depends on the first one. One part is affected: 9608 M/J 15/P23 Q4(b). Its sub-part (b)(ii) (2 marks, Unit 6) can no longer be filed apart from (b)(i), so (b) is kept whole under the rule for parts that depend on a sibling: item M/J 15/P23/Q4/b,c in the Paper 2 book, Unit 10, with the note \"also Unit 6 (2 marks)\". The books now hold 1351 items (Paper 1 book 663, Paper 2 book 688)"
+ },
+ {
+  "item": "Rule above the copyright paragraph",
+  "issue": "The last page of a question paper prints a rule across the page above the small-print copyright paragraph; where the last question ends on that page, the rule was cropped with it",
+  "action": "The rule (up to 16 pt above the paragraph) is treated as part of the paragraph and left out"
+ },
+ {
+  "item": "Empty drawing boxes: hairline frames",
+  "issue": "Twelve empty frames for drawing a flowchart, a structure chart or a network diagram are drawn with a hairline that renders lighter than ordinary ink, so they were not recognised as empty boxes and stayed in the items",
+  "action": "A frame counts as drawn when any trace of its border is there; all 28 empty frames are now removed like other answer space. Frames with labelled inputs and outputs on their sides (logic circuits to draw) stay"
+ },
+ {
+  "item": "Lead-in of a part that is not shown",
+  "issue": "9608 M/J 21/P12 Q5: a sentence that introduces part (f) is printed at the top of the next page, after the mark of part (e)(ii); item Q5/e(ii) ended with that sentence although (f) is not in the books",
+  "action": "One to three lines of plain text printed at the top of a later page, after a part's last mark and directly above the label of the next part, are left out of an item that does not show that next part. One item is affected"
+ },
+ {
+  "item": "Material announced in the stem",
+  "issue": "9608 M/J 17 P11 Q4, P12 Q5 and P13 Q4: the stem ends \"The following diagram shows the contents of a section of main memory and the Index Register (IX).\" and the diagram is printed beside part (a); the items for the hexadecimal sub-part (P11 Q4/d(i), P12 Q5/c(i), P13 Q4/d(i)) showed the sentence without the diagram",
+  "action": "Where the last sentence of a stem announces \"the following\" diagram, table, pseudocode, program code, algorithm or flowchart and the first part holds it, an item that does not contain that part shows it as context (question crop only). Three items are affected; each now shows part (a)"
+ }
+]
