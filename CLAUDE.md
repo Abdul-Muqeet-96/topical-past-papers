@@ -7,21 +7,22 @@ So every item must be readable as text (a text layer), not only as pixels.
 | Subject | Spec | Run prompt | Output | Status |
 |---|---|---|---|---|
 | Chemistry 9701 P2 | `Δ-chemistry/CLAUDE-chemistry.md` | (done) | `Δ-chemistry/p2-topical-workbook/` | finished, audited, fixed |
-| Physics 9702 P2 | `Ω-physics/CLAUDE-physics.md` | `PROMPT-physics.md` | `Ω-physics/p2-topical-workbook/` | to build |
-| Computer Science 9618 P1 + P2 | `λ-cs/CLAUDE-cs.md` | `PROMPT-cs.md` | `λ-cs/p1-topical-workbook/`, `λ-cs/p2-topical-workbook/` | to build |
+| Physics 9702 P2 | `Ω-physics/CLAUDE-physics.md` | `hub/PROMPT-physics.md` | `Ω-physics/p2-topical-workbook/` | built |
+| Computer Science 9618 P1 + P2 | `λ-cs/CLAUDE-cs.md` | `hub/PROMPT-cs.md` | `λ-cs/p1-topical-workbook/`, `λ-cs/p2-topical-workbook/` | built |
 
-Repo layout:
-- `scripts/` is the shared, audited pipeline. It currently reads and writes
+Repo layout (root = four subject folders + `hub/`):
+- `hub/scripts/` is the shared, audited pipeline. It currently reads and writes
   the Chemistry paths (`Δ-chemistry/work/`, `Δ-chemistry/report.md`, ...).
-- `audit/` holds the Chemistry audit and its check scripts.
-- `data/` holds downloads (gitignored).
+- `hub/audit/` holds the Chemistry audit and its check scripts.
+- `hub/data/` holds downloads (gitignored).
+- `π-maths/` holds the maths syllabus only (no booklet yet).
 - Each subject folder keeps its own spec, work data (`<folder>/work/`),
   `state_<subject>.json`, report.md, SUMMARY.md and outputs. The repo root
-  holds only this file and the run prompts.
+  holds only this file, `.gitignore`, the subject folders and `hub/` (run prompts live in `hub/`).
 
 A run follows its prompt and its subject spec. Never change another subject's
-files, scripts or outputs; copy `scripts/` to `scripts/<subject>/` and adapt
-it there. `audit/` holds the Chemistry audit, whose scripts can be adapted for
+files, scripts or outputs; copy `hub/scripts/` to `hub/scripts/<subject>/` and adapt
+it there. `hub/audit/` holds the Chemistry audit, whose scripts can be adapted for
 a self-check.
 
 ## Rules for every run
@@ -43,5 +44,5 @@ a self-check.
   resume. Change every path in the copied scripts to the subject's folder.
 - Wait for background jobs on a marker file or a PID. Never use `pgrep -f`
   with a pattern that also matches the waiting command itself.
-- Downloads go to `data/` (gitignored). No third-party websites besides the
+- Downloads go to `hub/data/` (gitignored). No third-party websites besides the
   past-paper source.

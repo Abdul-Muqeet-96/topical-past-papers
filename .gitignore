@@ -1,5 +1,2 @@
-data/*.pdf
+hub/data/*.pdf
 __pycache__/
-work/*.png
-work/*.pdf
-work/dbg*.py
