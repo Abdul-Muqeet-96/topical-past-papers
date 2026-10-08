@@ -1,0 +1,6404 @@
+{
+"pages": [
+{
+"pdf": 1,
+"role": "title",
+"unit": null,
+"printed": null,
+"header_bottom": null,
+"header_text": ""
+},
+{
+"pdf": 2,
+"role": "title",
+"unit": null,
+"printed": null,
+"header_bottom": null,
+"header_text": "All rights reserved. No part of this publication may be reproduced, stored in a retrieval system or transmitted,"
+},
+{
+"pdf": 3,
+"role": "other",
+"unit": null,
+"printed": 3,
+"header_bottom": 72.6,
+"header_text": "3 | Read and Write Publications"
+},
+{
+"pdf": 4,
+"role": "blank",
+"unit": null,
+"printed": 4,
+"header_bottom": 47.64,
+"header_text": "4 | Read and Write Publications"
+},
+{
+"pdf": 5,
+"role": "title",
+"unit": 1,
+"printed": 5,
+"header_bottom": null,
+"header_text": "5 | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "title"
+},
+{
+"pdf": 6,
+"role": "questions",
+"unit": 1,
+"printed": 6,
+"header_bottom": 114.36,
+"header_text": "Physics A Level P-2 Topical Workbook 6 Unit 1: Physical quantities and units | Read and Write Publications | Unit 1: Physical Quantities And Units",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 7,
+"role": "questions",
+"unit": 1,
+"printed": 7,
+"header_bottom": 80.03999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 7 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 8,
+"role": "questions",
+"unit": 1,
+"printed": 8,
+"header_bottom": 55.8,
+"header_text": "Physics A Level P-2 Topical Workbook 8 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 9,
+"role": "questions",
+"unit": 1,
+"printed": 9,
+"header_bottom": 79.8,
+"header_text": "Physics A Level P-2 Topical Workbook 9 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 10,
+"role": "questions",
+"unit": 1,
+"printed": 10,
+"header_bottom": 55.559999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 10 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 11,
+"role": "questions",
+"unit": 1,
+"printed": 11,
+"header_bottom": 81.48,
+"header_text": "Physics A Level P-2 Topical Workbook 11 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 12,
+"role": "questions",
+"unit": 1,
+"printed": 12,
+"header_bottom": 58.199999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 12 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 13,
+"role": "questions",
+"unit": 1,
+"printed": 13,
+"header_bottom": 76.92,
+"header_text": "Physics A Level P-2 Topical Workbook 13 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 14,
+"role": "questions",
+"unit": 1,
+"printed": 14,
+"header_bottom": 53.64,
+"header_text": "Physics A Level P-2 Topical Workbook 14 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 15,
+"role": "questions",
+"unit": 1,
+"printed": 15,
+"header_bottom": 78.6,
+"header_text": "Physics A Level P-2 Topical Workbook 15 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 16,
+"role": "questions",
+"unit": 1,
+"printed": 16,
+"header_bottom": 54.36,
+"header_text": "Physics A Level P-2 Topical Workbook 16 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 17,
+"role": "questions",
+"unit": 1,
+"printed": 17,
+"header_bottom": 73.56,
+"header_text": "Physics A Level P-2 Topical Workbook 17 Unit 4: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 18,
+"role": "questions",
+"unit": 1,
+"printed": 18,
+"header_bottom": 51.48,
+"header_text": "Physics A Level P-2 Topical Workbook 18 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 19,
+"role": "questions",
+"unit": 1,
+"printed": 19,
+"header_bottom": 83.16,
+"header_text": "Physics A Level P-2 Topical Workbook 19 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 20,
+"role": "questions",
+"unit": 1,
+"printed": 20,
+"header_bottom": 59.879999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 20 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 21,
+"role": "questions",
+"unit": 1,
+"printed": 21,
+"header_bottom": 69.96,
+"header_text": "Physics A Level P-2 Topical Workbook 21 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 22,
+"role": "questions",
+"unit": 1,
+"printed": 22,
+"header_bottom": 46.199999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 22 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 23,
+"role": "questions",
+"unit": 1,
+"printed": 23,
+"header_bottom": 75.0,
+"header_text": "Physics A Level P-2 Topical Workbook 23 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 24,
+"role": "questions",
+"unit": 1,
+"printed": 24,
+"header_bottom": 52.68,
+"header_text": "Physics A Level P-2 Topical Workbook 24 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 25,
+"role": "questions",
+"unit": 1,
+"printed": 25,
+"header_bottom": 78.36,
+"header_text": "Physics A Level P-2 Topical Workbook 25 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 26,
+"role": "questions",
+"unit": 1,
+"printed": 26,
+"header_bottom": 52.44,
+"header_text": "Physics A Level P-2 Topical Workbook 26 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 27,
+"role": "questions",
+"unit": 1,
+"printed": 27,
+"header_bottom": 75.24,
+"header_text": "Physics A Level P-2 Topical Workbook 27 | Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 28,
+"role": "questions",
+"unit": 1,
+"printed": 28,
+"header_bottom": 51.239999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 28 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 29,
+"role": "questions",
+"unit": 1,
+"printed": 29,
+"header_bottom": 80.28,
+"header_text": "Physics A Level P-2 Topical Workbook 29 Unit 1: Physical quantities and units | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "questions"
+},
+{
+"pdf": 30,
+"role": "answers",
+"unit": 1,
+"printed": 30,
+"header_bottom": 56.28,
+"header_text": "Physics A Level P-2 Topical Workbook 30 Unit 1: Answers Section | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "answers"
+},
+{
+"pdf": 31,
+"role": "answers",
+"unit": 1,
+"printed": 31,
+"header_bottom": 77.39999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 31 Unit 1: Answers Section | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "answers"
+},
+{
+"pdf": 32,
+"role": "answers",
+"unit": 1,
+"printed": 32,
+"header_bottom": 51.48,
+"header_text": "Physics A Level P-2 Topical Workbook 32 Unit 1: Answers Section | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "answers"
+},
+{
+"pdf": 33,
+"role": "answers",
+"unit": 1,
+"printed": 33,
+"header_bottom": 83.16,
+"header_text": "Physics A Level P-2 Topical Workbook 33 Unit 1: Answers Section | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "answers"
+},
+{
+"pdf": 34,
+"role": "answers",
+"unit": 1,
+"printed": 34,
+"header_bottom": 57.96,
+"header_text": "Physics A Level P-2 Topical Workbook 34 Unit 1: Answers Section | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "answers"
+},
+{
+"pdf": 35,
+"role": "answers",
+"unit": 1,
+"printed": 35,
+"header_bottom": 76.2,
+"header_text": "Physics A Level P-2 Topical Workbook 35 Unit 1: Answers Section | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "answers"
+},
+{
+"pdf": 36,
+"role": "answers",
+"unit": 1,
+"printed": 36,
+"header_bottom": 51.72,
+"header_text": "Physics A Level P-2 Topical Workbook 36 Unit 1: Answers Section | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "answers"
+},
+{
+"pdf": 37,
+"role": "answers",
+"unit": 1,
+"printed": 37,
+"header_bottom": 79.08,
+"header_text": "Physics A Level P-2 Topical Workbook 37 Unit 1: Answers Section | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "answers"
+},
+{
+"pdf": 38,
+"role": "answers",
+"unit": 1,
+"printed": 38,
+"header_bottom": 54.839999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 38 Unit 1: Answers Section | Read and Write Publications",
+"contents_unit": 1,
+"contents_role": "answers"
+},
+{
+"pdf": 39,
+"role": "title",
+"unit": 2,
+"printed": 39,
+"header_bottom": null,
+"header_text": "39 | Read and Write Publications | Unit 2 i",
+"contents_unit": 2,
+"contents_role": "title"
+},
+{
+"pdf": 40,
+"role": "questions",
+"unit": 2,
+"printed": 40,
+"header_bottom": 98.52,
+"header_text": "Physics A Level P-2 Topical Workbook 40 Unit 2: Measurement techniques | Read and Write Publications | Unit 2: Measurement Techniques",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 41,
+"role": "questions",
+"unit": 2,
+"printed": 41,
+"header_bottom": 75.48,
+"header_text": "Physics A Level P-2 Topical Workbook 41 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 42,
+"role": "questions",
+"unit": 2,
+"printed": 42,
+"header_bottom": 52.44,
+"header_text": "Physics A Level P-2 Topical Workbook 42 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 43,
+"role": "questions",
+"unit": 2,
+"printed": 43,
+"header_bottom": 79.08,
+"header_text": "Physics A Level P-2 Topical Workbook 43 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 44,
+"role": "questions",
+"unit": 2,
+"printed": 44,
+"header_bottom": 54.36,
+"header_text": "Physics A Level P-2 Topical Workbook 44 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 45,
+"role": "questions",
+"unit": 2,
+"printed": 45,
+"header_bottom": 79.08,
+"header_text": "Physics A Level P-2 Topical Workbook 45 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 46,
+"role": "questions",
+"unit": 2,
+"printed": 46,
+"header_bottom": 54.36,
+"header_text": "Physics A Level P-2 Topical Workbook 46 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 47,
+"role": "questions",
+"unit": 2,
+"printed": 47,
+"header_bottom": 80.03999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 47 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 48,
+"role": "questions",
+"unit": 2,
+"printed": 48,
+"header_bottom": 57.0,
+"header_text": "Physics A Level P-2 Topical Workbook 48 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 49,
+"role": "questions",
+"unit": 2,
+"printed": 49,
+"header_bottom": 75.0,
+"header_text": "Physics A Level P-2 Topical Workbook 49 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 50,
+"role": "questions",
+"unit": 2,
+"printed": 50,
+"header_bottom": 51.72,
+"header_text": "Physics A Level P-2 Topical Workbook 50 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 51,
+"role": "questions",
+"unit": 2,
+"printed": 51,
+"header_bottom": 82.44,
+"header_text": "Physics A Level P-2 Topical Workbook 51 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 52,
+"role": "questions",
+"unit": 2,
+"printed": 52,
+"header_bottom": 54.36,
+"header_text": "Physics A Level P-2 Topical Workbook 52 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 53,
+"role": "questions",
+"unit": 2,
+"printed": 53,
+"header_bottom": 78.36,
+"header_text": "Physics A Level P-2 Topical Workbook 53 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 54,
+"role": "questions",
+"unit": 2,
+"printed": 54,
+"header_bottom": 50.04,
+"header_text": "Physics A Level P-2 Topical Workbook 54 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 55,
+"role": "questions",
+"unit": 2,
+"printed": 55,
+"header_bottom": 79.56,
+"header_text": "Physics A Level P-2 Topical Workbook 55 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 56,
+"role": "questions",
+"unit": 2,
+"printed": 56,
+"header_bottom": 56.519999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 56 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 57,
+"role": "questions",
+"unit": 2,
+"printed": 57,
+"header_bottom": 83.16,
+"header_text": "Physics A Level P-2 Topical Workbook 57 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 58,
+"role": "questions",
+"unit": 2,
+"printed": 58,
+"header_bottom": 56.519999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 58 Unit 2: Measurement techniques | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "questions"
+},
+{
+"pdf": 59,
+"role": "answers",
+"unit": 2,
+"printed": 59,
+"header_bottom": 79.56,
+"header_text": "Physics A Level P-2 Topical Workbook 59 Unit 2: Answers Section | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "answers"
+},
+{
+"pdf": 60,
+"role": "answers",
+"unit": 2,
+"printed": 60,
+"header_bottom": 58.68,
+"header_text": "Physics A Level P-2 Topical Workbook 60 Unit 2: Answers Section | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "answers"
+},
+{
+"pdf": 61,
+"role": "answers",
+"unit": 2,
+"printed": 61,
+"header_bottom": 81.24,
+"header_text": "Physics A Level P-2 Topical Workbook 61 Unit 2: Answers Section | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "answers"
+},
+{
+"pdf": 62,
+"role": "answers",
+"unit": 2,
+"printed": 62,
+"header_bottom": 60.12,
+"header_text": "Physics A Level P-2 Topical Workbook 62 Unit 2: Answers Section | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "answers"
+},
+{
+"pdf": 63,
+"role": "answers",
+"unit": 2,
+"printed": 63,
+"header_bottom": 82.2,
+"header_text": "Physics A Level P-2 Topical Workbook 63 Unit 2: Answers Section | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "answers"
+},
+{
+"pdf": 64,
+"role": "answers",
+"unit": 2,
+"printed": 64,
+"header_bottom": 56.04,
+"header_text": "Physics A Level P-2 Topical Workbook 64 Unit 2: Answers Section | Read and Write Publications",
+"contents_unit": 2,
+"contents_role": "answers"
+},
+{
+"pdf": 65,
+"role": "title",
+"unit": 3,
+"printed": 65,
+"header_bottom": null,
+"header_text": "65 | Read and Write Publications | A Unit 3",
+"contents_unit": 3,
+"contents_role": "title"
+},
+{
+"pdf": 66,
+"role": "questions",
+"unit": 3,
+"printed": 66,
+"header_bottom": 58.199999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 66 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 67,
+"role": "questions",
+"unit": 3,
+"printed": 67,
+"header_bottom": 78.11999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 67 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 68,
+"role": "questions",
+"unit": 3,
+"printed": 68,
+"header_bottom": 52.92,
+"header_text": "Physics A Level P-2 Topical Workbook 68 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 69,
+"role": "questions",
+"unit": 3,
+"printed": 69,
+"header_bottom": 85.56,
+"header_text": "Physics A Level P-2 Topical Workbook 69 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 70,
+"role": "questions",
+"unit": 3,
+"printed": 70,
+"header_bottom": 60.839999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 70 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 71,
+"role": "questions",
+"unit": 3,
+"printed": 71,
+"header_bottom": 79.32,
+"header_text": "Physics A Level P-2 Topical Workbook 71 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 72,
+"role": "questions",
+"unit": 3,
+"printed": 72,
+"header_bottom": 57.72,
+"header_text": "Physics A Level P-2 Topical Workbook 72 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 73,
+"role": "questions",
+"unit": 3,
+"printed": 73,
+"header_bottom": 82.44,
+"header_text": "Physics A Level P-2 Topical Workbook 73 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 74,
+"role": "questions",
+"unit": 3,
+"printed": 74,
+"header_bottom": 57.239999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 74 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 75,
+"role": "questions",
+"unit": 3,
+"printed": 75,
+"header_bottom": 83.16,
+"header_text": "Physics A Level P-2 Topical Workbook 75 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 76,
+"role": "questions",
+"unit": 3,
+"printed": 76,
+"header_bottom": 59.879999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 76 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 77,
+"role": "questions",
+"unit": 3,
+"printed": 77,
+"header_bottom": 77.88,
+"header_text": "Physics A Level P-2 Topical Workbook 77 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 78,
+"role": "questions",
+"unit": 3,
+"printed": 78,
+"header_bottom": 54.36,
+"header_text": "Physics A Level P-2 Topical Workbook 78 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 79,
+"role": "questions",
+"unit": 3,
+"printed": 79,
+"header_bottom": 78.36,
+"header_text": "Physics A Level P-2 Topical Workbook 79 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 80,
+"role": "questions",
+"unit": 3,
+"printed": 80,
+"header_bottom": 53.16,
+"header_text": "Physics A Level P-2 Topical Workbook 80 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 81,
+"role": "questions",
+"unit": 3,
+"printed": 81,
+"header_bottom": 77.64,
+"header_text": "Physics A Level P-2 Topical Workbook 81 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 82,
+"role": "questions",
+"unit": 3,
+"printed": 82,
+"header_bottom": 57.239999999999995,
+"header_text": "Physics A Level P-2 Topicai Workbook 82 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 83,
+"role": "questions",
+"unit": 3,
+"printed": 83,
+"header_bottom": 80.03999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 83 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 84,
+"role": "questions",
+"unit": 3,
+"printed": 84,
+"header_bottom": 53.64,
+"header_text": "Physics A Level P-2 Topical Workbook 84 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 85,
+"role": "questions",
+"unit": 3,
+"printed": 85,
+"header_bottom": 81.0,
+"header_text": "Physics A Level P-2 Topical Workbook 85 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 86,
+"role": "questions",
+"unit": 3,
+"printed": 86,
+"header_bottom": 54.839999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 86 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 87,
+"role": "questions",
+"unit": 3,
+"printed": 87,
+"header_bottom": 74.03999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 87 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 88,
+"role": "questions",
+"unit": 3,
+"printed": 88,
+"header_bottom": 53.64,
+"header_text": "Physics A Level P-2 Topical Workbook 88 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 89,
+"role": "questions",
+"unit": 3,
+"printed": 89,
+"header_bottom": 79.32,
+"header_text": "Physics A Level P-2 Topical Workbook 89 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 90,
+"role": "questions",
+"unit": 3,
+"printed": 90,
+"header_bottom": 51.72,
+"header_text": "Physics A Level P-2 Topical Workbook 90 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 91,
+"role": "questions",
+"unit": 3,
+"printed": 91,
+"header_bottom": 77.39999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 91 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 92,
+"role": "questions",
+"unit": 3,
+"printed": 92,
+"header_bottom": 56.04,
+"header_text": "Physics A Level P-2 Topical Workbook 92 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 93,
+"role": "questions",
+"unit": 3,
+"printed": 93,
+"header_bottom": 77.64,
+"header_text": "Physics A Level P-2 Topical Workbook 93 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 94,
+"role": "questions",
+"unit": 3,
+"printed": 94,
+"header_bottom": 56.28,
+"header_text": "Physics A Level P-2 Topical Workbook 94 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 95,
+"role": "questions",
+"unit": 3,
+"printed": 95,
+"header_bottom": 77.16,
+"header_text": "Physics A Level P-2 Topical Workbook 95 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 96,
+"role": "questions",
+"unit": 3,
+"printed": 98,
+"header_bottom": 60.36,
+"header_text": "Physics A Level P-2 Topical Workbook 98 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 97,
+"role": "questions",
+"unit": 3,
+"printed": 99,
+"header_bottom": 83.88,
+"header_text": "Physics A Level P-2 Topical Workbook 99 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 98,
+"role": "questions",
+"unit": 3,
+"printed": 100,
+"header_bottom": 57.96,
+"header_text": "Physics A Level P-2 Topical Workbook 100 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 99,
+"role": "questions",
+"unit": 3,
+"printed": 101,
+"header_bottom": 85.8,
+"header_text": "Physics A Level P-2 Topical Workbook 101 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 100,
+"role": "questions",
+"unit": 3,
+"printed": 102,
+"header_bottom": 59.879999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 102 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 101,
+"role": "questions",
+"unit": 3,
+"printed": 103,
+"header_bottom": 82.67999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 103 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 102,
+"role": "questions",
+"unit": 3,
+"printed": 104,
+"header_bottom": 60.12,
+"header_text": "Physics A Level P-2 Topical Workbook 104 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 103,
+"role": "questions",
+"unit": 3,
+"printed": 105,
+"header_bottom": 83.88,
+"header_text": "Physics A Level P-2 Topical Workbook 105 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 104,
+"role": "questions",
+"unit": 3,
+"printed": 106,
+"header_bottom": 58.44,
+"header_text": "Physics A Level P-2 Topical Workbook 106 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 105,
+"role": "questions",
+"unit": 3,
+"printed": 107,
+"header_bottom": 82.67999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 107 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 106,
+"role": "questions",
+"unit": 3,
+"printed": 108,
+"header_bottom": 60.36,
+"header_text": "Physics A Level P-2 Topical Workbook 108 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 107,
+"role": "questions",
+"unit": 3,
+"printed": 109,
+"header_bottom": 79.32,
+"header_text": "Physics A Level P-2 Topical Workbook 109 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 108,
+"role": "questions",
+"unit": 3,
+"printed": 110,
+"header_bottom": 57.239999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 110 Unit 3: Kinematics | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "questions"
+},
+{
+"pdf": 109,
+"role": "answers",
+"unit": 3,
+"printed": 111,
+"header_bottom": 80.52,
+"header_text": "Physics A Level P-2 Topical Workbook 111 Unit 3: Answers Section | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "answers"
+},
+{
+"pdf": 110,
+"role": "answers",
+"unit": 3,
+"printed": 112,
+"header_bottom": 55.32,
+"header_text": "Physics A Level P-2 Topical Workbook 112 Unit 3: Answers Section | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "answers"
+},
+{
+"pdf": 111,
+"role": "answers",
+"unit": 3,
+"printed": 113,
+"header_bottom": 81.0,
+"header_text": "Physics A Level P-2 Topical Workbook 113 Unit 3: Answers Section | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "answers"
+},
+{
+"pdf": 112,
+"role": "answers",
+"unit": 3,
+"printed": 114,
+"header_bottom": 53.879999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 114 Unit 3: Answers Section | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "answers"
+},
+{
+"pdf": 113,
+"role": "answers",
+"unit": 3,
+"printed": 115,
+"header_bottom": 82.2,
+"header_text": "Physics A Level P-2 Topical Workbook 115 Unit 3: Answers Section | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "answers"
+},
+{
+"pdf": 114,
+"role": "answers",
+"unit": 3,
+"printed": 116,
+"header_bottom": 60.599999999999994,
+"header_text": "Physics A Level P-2 Topical Workbook 116 Unit 3: Answers Section | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "answers"
+},
+{
+"pdf": 115,
+"role": "answers",
+"unit": 3,
+"printed": 117,
+"header_bottom": 77.88,
+"header_text": "Physics A Level P-2 Topical Workbook 117 Unit 3: Answers Section | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "answers"
+},
+{
+"pdf": 116,
+"role": "answers",
+"unit": 3,
+"printed": 118,
+"header_bottom": 56.04,
+"header_text": "Physics A Level P-2 Topical Workbook 118 Unit 3: Answers Section | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "answers"
+},
+{
+"pdf": 117,
+"role": "answers",
+"unit": 3,
+"printed": 119,
+"header_bottom": 81.72,
+"header_text": "Physics A Level P-2 Topical Workbook 119 Unit 3: Answers Section | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "answers"
+},
+{
+"pdf": 118,
+"role": "answers",
+"unit": 3,
+"printed": 120,
+"header_bottom": 54.36,
+"header_text": "Physics A Level P-2 Topical Workbook 120 Unit 3: Answers Section | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "answers"
+},
+{
+"pdf": 119,
+"role": "answers",
+"unit": 3,
+"printed": 121,
+"header_bottom": 79.8,
+"header_text": "Physics A Level P-2 Topical Workbook 121 Unit 3: Answers Section | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "answers"
+},
+{
+"pdf": 120,
+"role": "answers",
+"unit": 3,
+"printed": 122,
+"header_bottom": 58.44,
+"header_text": "Physics A Level P-2 Topical Workbook 122 Unit 3: Answers Section | Read and Write Publications",
+"contents_unit": 3,
+"contents_role": "answers"
+},
+{
+"pdf": 121,
+"role": "title",
+"unit": 4,
+"printed": 123,
+"header_bottom": null,
+"header_text": "123 | Read and Write Publications | Unit 4",
+"contents_unit": 4,
+"contents_role": "title"
+},
+{
+"pdf": 122,
+"role": "questions",
+"unit": 4,
+"printed": 124,
+"header_bottom": 109.8,
+"header_text": "Physics A Level P-2 Topical Workbook 124 Unit 4: Dynamics | Read and Write Publications | Unit 4: Dynamics",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 123,
+"role": "questions",
+"unit": 4,
+"printed": 125,
+"header_bottom": 81.72,
+"header_text": "Physics A Level P-2 Topical Workbook 125 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 124,
+"role": "questions",
+"unit": 4,
+"printed": 126,
+"header_bottom": 55.559999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 126 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 125,
+"role": "questions",
+"unit": 4,
+"printed": 127,
+"header_bottom": 78.84,
+"header_text": "Physics A Level P-2 Topical Workbook 127 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 126,
+"role": "questions",
+"unit": 4,
+"printed": 128,
+"header_bottom": 57.0,
+"header_text": "Physics A Level P-2 Topical Workbook 128 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 127,
+"role": "questions",
+"unit": 4,
+"printed": 129,
+"header_bottom": 82.44,
+"header_text": "Physics A Level P-2 Topical Workbook 129 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 128,
+"role": "questions",
+"unit": 4,
+"printed": 130,
+"header_bottom": 57.48,
+"header_text": "Physics A Level P-2 Topical Workbook 130 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 129,
+"role": "questions",
+"unit": 4,
+"printed": 131,
+"header_bottom": 86.52,
+"header_text": "Physics A Level P-2 Topical Workbook 131 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 130,
+"role": "questions",
+"unit": 4,
+"printed": 132,
+"header_bottom": 61.8,
+"header_text": "Physics A Level P-2 Topical Workbook 132 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 131,
+"role": "questions",
+"unit": 4,
+"printed": 133,
+"header_bottom": 74.03999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 133 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 132,
+"role": "questions",
+"unit": 4,
+"printed": 134,
+"header_bottom": 49.32,
+"header_text": "Physics A Level P-2 Topical Workbook 134 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 133,
+"role": "questions",
+"unit": 4,
+"printed": 135,
+"header_bottom": 75.72,
+"header_text": "Physics A Level P-2 Topical Workbook 135 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 134,
+"role": "questions",
+"unit": 4,
+"printed": 136,
+"header_bottom": 50.76,
+"header_text": "Physics A Level P-2 Topical Workbook 136 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 135,
+"role": "questions",
+"unit": 4,
+"printed": 137,
+"header_bottom": 76.92,
+"header_text": "Physics A Level P-2 Topical Workbook 137 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 136,
+"role": "questions",
+"unit": 4,
+"printed": 138,
+"header_bottom": 53.64,
+"header_text": "Physics A Level P-2 Topical Workbook 138 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 137,
+"role": "questions",
+"unit": 4,
+"printed": 139,
+"header_bottom": 77.39999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 139 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 138,
+"role": "questions",
+"unit": 4,
+"printed": 140,
+"header_bottom": 52.92,
+"header_text": "Physics A Level P-2 Topical Workbook 140 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 139,
+"role": "questions",
+"unit": 4,
+"printed": 141,
+"header_bottom": 84.11999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 141 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 140,
+"role": "questions",
+"unit": 4,
+"printed": 142,
+"header_bottom": 59.64,
+"header_text": "Physics A Level P-2 Topical Workbook 142 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 141,
+"role": "questions",
+"unit": 4,
+"printed": 143,
+"header_bottom": 79.08,
+"header_text": "Physics A Level P-2 Topical Workbook 143 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 142,
+"role": "questions",
+"unit": 4,
+"printed": 146,
+"header_bottom": 59.4,
+"header_text": "Physics A Level P-2 Topical Workbook 146 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 143,
+"role": "questions",
+"unit": 4,
+"printed": 147,
+"header_bottom": 85.32,
+"header_text": "Physics A Level P-2 Topical Workbook 147 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 144,
+"role": "questions",
+"unit": 4,
+"printed": 148,
+"header_bottom": 62.519999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 148 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 145,
+"role": "questions",
+"unit": 4,
+"printed": 149,
+"header_bottom": 71.88,
+"header_text": "Physics A Level P-2 Topical Workbook 149 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 146,
+"role": "questions",
+"unit": 4,
+"printed": 150,
+"header_bottom": 48.6,
+"header_text": "Physics A Level P-2 Topical Workbook 150 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 147,
+"role": "questions",
+"unit": 4,
+"printed": 151,
+"header_bottom": 75.0,
+"header_text": "Physics A Level P-2 Topical Workbook 151 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 148,
+"role": "questions",
+"unit": 4,
+"printed": 152,
+"header_bottom": 49.32,
+"header_text": "Physics A Level P-2 Topical Workbook 152 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 149,
+"role": "questions",
+"unit": 4,
+"printed": 153,
+"header_bottom": 75.0,
+"header_text": "Physics A Level P-2 Topical Workbook 153 Unit 4: Dynamics | ; Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 150,
+"role": "questions",
+"unit": 4,
+"printed": 154,
+"header_bottom": 51.96,
+"header_text": "Physics A Level P-2 Topical Workbook 154 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 151,
+"role": "questions",
+"unit": 4,
+"printed": 155,
+"header_bottom": 76.92,
+"header_text": "Physics A Level P-2 Topical Workbook 155 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 152,
+"role": "questions",
+"unit": 4,
+"printed": 156,
+"header_bottom": 51.239999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 156 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 153,
+"role": "questions",
+"unit": 4,
+"printed": 157,
+"header_bottom": 83.64,
+"header_text": "Physics A Level P-2 Topical Workbook 157 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 154,
+"role": "questions",
+"unit": 4,
+"printed": 158,
+"header_bottom": 58.199999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 158 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 155,
+"role": "questions",
+"unit": 4,
+"printed": 159,
+"header_bottom": 80.75999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 159 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 156,
+"role": "questions",
+"unit": 4,
+"printed": 160,
+"header_bottom": 58.199999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 160 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 157,
+"role": "questions",
+"unit": 4,
+"printed": 161,
+"header_bottom": 81.24,
+"header_text": "Physics A Level P-2 Topical Workbook 161 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 158,
+"role": "questions",
+"unit": 4,
+"printed": 162,
+"header_bottom": 57.0,
+"header_text": "Physics A Level P-2 Topical Workbook 162 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 159,
+"role": "questions",
+"unit": 4,
+"printed": 163,
+"header_bottom": 80.52,
+"header_text": "Physics A Level P-2 Topical Workbook 163 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 160,
+"role": "questions",
+"unit": 4,
+"printed": 164,
+"header_bottom": 55.559999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 164 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 161,
+"role": "questions",
+"unit": 4,
+"printed": 165,
+"header_bottom": 81.24,
+"header_text": "Physics A Level P-2 Topical Workbook 165 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 162,
+"role": "questions",
+"unit": 4,
+"printed": 166,
+"header_bottom": 56.04,
+"header_text": "Physics A Level P-2 Topical Workbook 166 Unit 4: Dynamics | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "questions"
+},
+{
+"pdf": 163,
+"role": "answers",
+"unit": 4,
+"printed": 167,
+"header_bottom": 77.64,
+"header_text": "Physics A Level P-2 Topical Workbook 167 Unit 4: Answers Section | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "answers"
+},
+{
+"pdf": 164,
+"role": "answers",
+"unit": 4,
+"printed": 168,
+"header_bottom": 54.12,
+"header_text": "Physics A Level P-2 Topical Workbook 168 Unit 4: Answers Section | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "answers"
+},
+{
+"pdf": 165,
+"role": "answers",
+"unit": 4,
+"printed": 169,
+"header_bottom": 79.56,
+"header_text": "Physics A Level P-2 Topical Workbook 169 Unit 4: Answers Section | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "answers"
+},
+{
+"pdf": 166,
+"role": "answers",
+"unit": 4,
+"printed": 170,
+"header_bottom": 55.8,
+"header_text": "Physics A Level P-2 Topical Workbook 170 Unit 4: Answers Section | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "answers"
+},
+{
+"pdf": 167,
+"role": "answers",
+"unit": 4,
+"printed": 171,
+"header_bottom": 81.24,
+"header_text": "Physics A Level P-2 Topical Workbook 171 Unit 4: Answers Section | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "answers"
+},
+{
+"pdf": 168,
+"role": "answers",
+"unit": 4,
+"printed": 172,
+"header_bottom": 57.72,
+"header_text": "Physics A Level P-2 Topical Workbook 172 Unit 4: Answers Section | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "answers"
+},
+{
+"pdf": 169,
+"role": "answers",
+"unit": 4,
+"printed": 173,
+"header_bottom": 79.8,
+"header_text": "Physics A Level P-2 Topical Workbook 173 Unit 4: Answers Section | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "answers"
+},
+{
+"pdf": 170,
+"role": "answers",
+"unit": 4,
+"printed": 174,
+"header_bottom": 56.28,
+"header_text": "Physics A Level P-2 Topical Workbook 174 Unit 4: Answers Section | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "answers"
+},
+{
+"pdf": 171,
+"role": "answers",
+"unit": 4,
+"printed": 175,
+"header_bottom": 80.28,
+"header_text": "Physics A Level P-2 Topical Workbook 175 Unit 4: Answers Section | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "answers"
+},
+{
+"pdf": 172,
+"role": "answers",
+"unit": 4,
+"printed": 176,
+"header_bottom": 56.28,
+"header_text": "Physics A Level P-2 Topical Workbook 176 Unit 4: Answers Section | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "answers"
+},
+{
+"pdf": 173,
+"role": "answers",
+"unit": 4,
+"printed": 177,
+"header_bottom": 80.03999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 177 Unit 4: Answers Section | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "answers"
+},
+{
+"pdf": 174,
+"role": "answers",
+"unit": 4,
+"printed": 178,
+"header_bottom": 54.6,
+"header_text": "Physics A Level P-2 Topical Workbook 178 Unit 4: Answers Section | Read and Write Publications",
+"contents_unit": 4,
+"contents_role": "answers"
+},
+{
+"pdf": 175,
+"role": "title",
+"unit": 5,
+"printed": 179,
+"header_bottom": null,
+"header_text": "179 | Read and Write Publications | Unit 5",
+"contents_unit": 5,
+"contents_role": "title"
+},
+{
+"pdf": 176,
+"role": "questions",
+"unit": 5,
+"printed": 180,
+"header_bottom": 114.83999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 180 Unit 5: Forces, density and pressure | Read and Write Publications | Unit 5: Forces, Density And Pressure",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 177,
+"role": "questions",
+"unit": 5,
+"printed": 181,
+"header_bottom": 80.03999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 181 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 178,
+"role": "questions",
+"unit": 5,
+"printed": 182,
+"header_bottom": 57.0,
+"header_text": "Physics A Level P-2 Topical Workbook 182 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 179,
+"role": "questions",
+"unit": 5,
+"printed": 183,
+"header_bottom": 80.75999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 183 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 180,
+"role": "questions",
+"unit": 5,
+"printed": 184,
+"header_bottom": 55.32,
+"header_text": "Physics A Level! P-2 Topical Workbook 184 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 181,
+"role": "questions",
+"unit": 5,
+"printed": 185,
+"header_bottom": 83.16,
+"header_text": "Physics A Level P-2 Topical Workbook 185 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 182,
+"role": "questions",
+"unit": 5,
+"printed": 186,
+"header_bottom": 60.12,
+"header_text": "Physics A Level P-2 Topical Workbook 186 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 183,
+"role": "questions",
+"unit": 5,
+"printed": 187,
+"header_bottom": 84.11999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 187 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 184,
+"role": "questions",
+"unit": 5,
+"printed": 188,
+"header_bottom": 59.4,
+"header_text": "Physics A Level P-2 Topical Workbook 188 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 185,
+"role": "questions",
+"unit": 5,
+"printed": 189,
+"header_bottom": 79.08,
+"header_text": "Physics A Level P-2 Topical Workbook 189 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 186,
+"role": "questions",
+"unit": 5,
+"printed": 190,
+"header_bottom": 54.12,
+"header_text": "Physics A Level P-2 Topical Workbook 190 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 187,
+"role": "questions",
+"unit": 5,
+"printed": 191,
+"header_bottom": 76.92,
+"header_text": "Physics A Level P-2 Topical Workbook 191 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 188,
+"role": "questions",
+"unit": 5,
+"printed": 192,
+"header_bottom": 53.879999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 192 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 189,
+"role": "questions",
+"unit": 5,
+"printed": 193,
+"header_bottom": 83.88,
+"header_text": "Physics A Level P-2 Topical Workbook 193 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 190,
+"role": "questions",
+"unit": 5,
+"printed": 194,
+"header_bottom": 61.08,
+"header_text": "Physics A Level P-2 Topical Workbook 194 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 191,
+"role": "questions",
+"unit": 5,
+"printed": 195,
+"header_bottom": 85.56,
+"header_text": "Physics A Level P-2 Topical Workbook 195 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 192,
+"role": "questions",
+"unit": 5,
+"printed": 196,
+"header_bottom": 60.36,
+"header_text": "Physics A Level P-2 Topical Workbook 196 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 193,
+"role": "questions",
+"unit": 5,
+"printed": 197,
+"header_bottom": 76.92,
+"header_text": "Physics A Level P-2 Topical Workbook 197 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 194,
+"role": "questions",
+"unit": 5,
+"printed": 198,
+"header_bottom": 51.72,
+"header_text": "Physics A Level P-2 Topical Workbook 198 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 195,
+"role": "questions",
+"unit": 5,
+"printed": 199,
+"header_bottom": 75.96,
+"header_text": "Physics A Level P-2 Topical Workbook 199 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 196,
+"role": "questions",
+"unit": 5,
+"printed": 200,
+"header_bottom": 51.48,
+"header_text": "Physics A Level P-2 Topical Workbook 200 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 197,
+"role": "questions",
+"unit": 5,
+"printed": 201,
+"header_bottom": 77.88,
+"header_text": "Physics A Level P-2 Topical Workbook 201 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 198,
+"role": "questions",
+"unit": 5,
+"printed": 202,
+"header_bottom": 53.4,
+"header_text": "Physics A Level P-2 Topica! Workbook 202 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 199,
+"role": "questions",
+"unit": 5,
+"printed": 203,
+"header_bottom": 78.11999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 203 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 200,
+"role": "questions",
+"unit": 5,
+"printed": 204,
+"header_bottom": 54.12,
+"header_text": "Physics A Level P-2 Topical Workbook 204 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 201,
+"role": "questions",
+"unit": 5,
+"printed": 205,
+"header_bottom": 81.72,
+"header_text": "Physics A Level P-2 Topical Workbook 205 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 202,
+"role": "questions",
+"unit": 5,
+"printed": 206,
+"header_bottom": 57.96,
+"header_text": "Physics A Level P-2 Topical Workbook 206 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 203,
+"role": "questions",
+"unit": 5,
+"printed": 207,
+"header_bottom": 81.48,
+"header_text": "Physics A Level P-2 Topical Workbook 207 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 204,
+"role": "questions",
+"unit": 5,
+"printed": 208,
+"header_bottom": 57.0,
+"header_text": "Physics A Level P-2 Topical Workbook 208 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 205,
+"role": "questions",
+"unit": 5,
+"printed": 209,
+"header_bottom": 83.88,
+"header_text": "Physics A Level P-2 Topical Workbook 209 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 206,
+"role": "questions",
+"unit": 5,
+"printed": 210,
+"header_bottom": 57.72,
+"header_text": "Physics A Level P-2 Topical Workbook 210 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 207,
+"role": "questions",
+"unit": 5,
+"printed": 211,
+"header_bottom": 79.56,
+"header_text": "Physics A Level P-2 Topical Workbook 211 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 208,
+"role": "questions",
+"unit": 5,
+"printed": 212,
+"header_bottom": 54.36,
+"header_text": "Physics A Level P-2 Topical Workbook 212 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 209,
+"role": "questions",
+"unit": 5,
+"printed": 213,
+"header_bottom": 83.88,
+"header_text": "Physics A Level P-2 Topical Workbook 213 | Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 210,
+"role": "questions",
+"unit": 5,
+"printed": 214,
+"header_bottom": 58.919999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 214 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 211,
+"role": "questions",
+"unit": 5,
+"printed": 215,
+"header_bottom": 79.32,
+"header_text": "Physics A Level P-2 Topical Workbook 215 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 212,
+"role": "questions",
+"unit": 5,
+"printed": 216,
+"header_bottom": 52.68,
+"header_text": "Physics A Level P-2 Topical Workbook 216 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 213,
+"role": "questions",
+"unit": 5,
+"printed": 217,
+"header_bottom": 78.84,
+"header_text": "Physics A Level P-2 Topical Workbook 217 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 214,
+"role": "questions",
+"unit": 5,
+"printed": 218,
+"header_bottom": 55.32,
+"header_text": "Physics A Level P-2 Topical Workbook 218 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 215,
+"role": "questions",
+"unit": 5,
+"printed": 219,
+"header_bottom": 81.72,
+"header_text": "Physics A Level P-2 Topical Workbook 219 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 216,
+"role": "questions",
+"unit": 5,
+"printed": 220,
+"header_bottom": 57.0,
+"header_text": "Physics A Level P-2 Topical Workbook 220 Unit 5: Forces, density and pressure | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 217,
+"role": "questions",
+"unit": 5,
+"printed": 221,
+"header_bottom": 81.72,
+"header_text": "Physics A Level P-2 Topical Workbook 221 Unit 5: Forces, density and pressure | Read and:Write Publications",
+"contents_unit": 5,
+"contents_role": "questions"
+},
+{
+"pdf": 218,
+"role": "answers",
+"unit": 5,
+"printed": 222,
+"header_bottom": 57.48,
+"header_text": "Unit 5: Answers Section | Physics A Level P-2 Topical Workbook 222 | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "answers"
+},
+{
+"pdf": 219,
+"role": "answers",
+"unit": 5,
+"printed": 223,
+"header_bottom": 81.48,
+"header_text": "Physics A Level P-2 Topical Workbook: 223 Unit 5: Answers Section | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "answers"
+},
+{
+"pdf": 220,
+"role": "answers",
+"unit": 5,
+"printed": 224,
+"header_bottom": 58.199999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 224 Unit 5: Answers Section | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "answers"
+},
+{
+"pdf": 221,
+"role": "answers",
+"unit": 5,
+"printed": 225,
+"header_bottom": 81.24,
+"header_text": "Physics A Level P-2 Topical Workbook 225 Unit 5: Answers Section | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "answers"
+},
+{
+"pdf": 222,
+"role": "answers",
+"unit": 5,
+"printed": 226,
+"header_bottom": 56.04,
+"header_text": "Unit 5: Answers Section | Physics A Level P-2 Topical Workbook 226 | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "answers"
+},
+{
+"pdf": 223,
+"role": "answers",
+"unit": 5,
+"printed": 227,
+"header_bottom": 81.48,
+"header_text": "Physics A Level P-2 Topical Workbook 227 Unit 5: Answers Section | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "answers"
+},
+{
+"pdf": 224,
+"role": "answers",
+"unit": 5,
+"printed": 228,
+"header_bottom": 54.6,
+"header_text": "Physics A Level P-2 Topical Workbook 228 Unit 5: Answers Section | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "answers"
+},
+{
+"pdf": 225,
+"role": "answers",
+"unit": 5,
+"printed": 229,
+"header_bottom": 84.11999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 229 Unit 5: Answers Section | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "answers"
+},
+{
+"pdf": 226,
+"role": "answers",
+"unit": 5,
+"printed": 230,
+"header_bottom": 57.239999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 230 Unit 5: Answers Section | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "answers"
+},
+{
+"pdf": 227,
+"role": "answers",
+"unit": 5,
+"printed": 231,
+"header_bottom": 80.52,
+"header_text": "Physics A Level P-2 Topical Workbook 231 Unit 5: Answers Section | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "answers"
+},
+{
+"pdf": 228,
+"role": "answers",
+"unit": 5,
+"printed": 232,
+"header_bottom": 55.32,
+"header_text": "Physics A Level P-2 Topical Workbook 232 Unit 5: Answers Section | Read and Write Publications",
+"contents_unit": 5,
+"contents_role": "answers"
+},
+{
+"pdf": 229,
+"role": "title",
+"unit": 6,
+"printed": 233,
+"header_bottom": null,
+"header_text": "233 | Read and Write Publications | Unit 6",
+"contents_unit": 6,
+"contents_role": "title"
+},
+{
+"pdf": 230,
+"role": "questions",
+"unit": 6,
+"printed": 234,
+"header_bottom": 107.39999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 234 Unit 6: Work, energy and power | Read and Write Publications | Unit 6: Work, Energy And Power",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 231,
+"role": "questions",
+"unit": 6,
+"printed": 235,
+"header_bottom": 79.8,
+"header_text": "Physics A Level P-2 Topical Workbook 235 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 232,
+"role": "questions",
+"unit": 6,
+"printed": 236,
+"header_bottom": 56.76,
+"header_text": "Physics A Level P-2 Topical Workbook 236 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 233,
+"role": "questions",
+"unit": 6,
+"printed": 237,
+"header_bottom": 80.28,
+"header_text": "Physics A Level P-2 Topical Workbook 237 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 234,
+"role": "questions",
+"unit": 6,
+"printed": 238,
+"header_bottom": 57.239999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 238 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 235,
+"role": "questions",
+"unit": 6,
+"printed": 239,
+"header_bottom": 81.24,
+"header_text": "Physics A Level P-2 Topical Workbook 239 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 236,
+"role": "questions",
+"unit": 6,
+"printed": 240,
+"header_bottom": 57.48,
+"header_text": "Physics A Level P-2 Topical Workbook 240 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 237,
+"role": "questions",
+"unit": 6,
+"printed": 241,
+"header_bottom": 86.03999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 241 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 238,
+"role": "questions",
+"unit": 6,
+"printed": 242,
+"header_bottom": 61.08,
+"header_text": "Physics A Level P-2 Topical Workbook 242 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 239,
+"role": "questions",
+"unit": 6,
+"printed": 243,
+"header_bottom": 80.28,
+"header_text": "Physics A Level P-2 Topical Workbook 243 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 240,
+"role": "questions",
+"unit": 6,
+"printed": 244,
+"header_bottom": 57.0,
+"header_text": "Physics A Level P-2 Topical Workbook 244 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 241,
+"role": "questions",
+"unit": 6,
+"printed": 245,
+"header_bottom": 81.96,
+"header_text": "Physics A Level P-2 Topical Workbook 245 | Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 242,
+"role": "questions",
+"unit": 6,
+"printed": 246,
+"header_bottom": 58.44,
+"header_text": "Physics A Level P-2 Topical Workbook 246 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 243,
+"role": "questions",
+"unit": 6,
+"printed": 247,
+"header_bottom": 74.75999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 247 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 244,
+"role": "questions",
+"unit": 6,
+"printed": 248,
+"header_bottom": 49.559999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 248 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 245,
+"role": "questions",
+"unit": 6,
+"printed": 249,
+"header_bottom": 76.2,
+"header_text": "Physics A Level P-2 Topical Workbook 249 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 246,
+"role": "questions",
+"unit": 6,
+"printed": 250,
+"header_bottom": 52.92,
+"header_text": "Physics A Level P-2 Topical Workbook 250 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 247,
+"role": "questions",
+"unit": 6,
+"printed": 251,
+"header_bottom": 79.08,
+"header_text": "Physics A Level P-2 Topical Workbook 251 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 248,
+"role": "questions",
+"unit": 6,
+"printed": 252,
+"header_bottom": 54.6,
+"header_text": "Physics A Level P-2 Topical Workbook 252 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 249,
+"role": "questions",
+"unit": 6,
+"printed": 253,
+"header_bottom": 81.48,
+"header_text": "Physics A Level P-2 Topical Workbook 253 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 250,
+"role": "questions",
+"unit": 6,
+"printed": 254,
+"header_bottom": 57.0,
+"header_text": "Physics A Level P-2 Topical Workbook 254 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 251,
+"role": "questions",
+"unit": 6,
+"printed": 255,
+"header_bottom": 81.24,
+"header_text": "Physics A Level P-2 Topical Workbook 255 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 252,
+"role": "questions",
+"unit": 6,
+"printed": 256,
+"header_bottom": 58.199999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 256 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 253,
+"role": "questions",
+"unit": 6,
+"printed": 257,
+"header_bottom": 85.8,
+"header_text": "Physics A Level P-2 Topical Workbook 257 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 254,
+"role": "questions",
+"unit": 6,
+"printed": 258,
+"header_bottom": 62.04,
+"header_text": "Physics A Level P-2 Topical Workbook 258 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 255,
+"role": "questions",
+"unit": 6,
+"printed": 259,
+"header_bottom": 80.52,
+"header_text": "Physics A Level P-2 Topical Workbook 259 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 256,
+"role": "questions",
+"unit": 6,
+"printed": 260,
+"header_bottom": 56.76,
+"header_text": "Physics A Level P-2 Topical Workbook 260 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 257,
+"role": "questions",
+"unit": 6,
+"printed": 261,
+"header_bottom": 85.32,
+"header_text": "Physics A Level P-2 Topical Workbook 261 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 258,
+"role": "questions",
+"unit": 6,
+"printed": 262,
+"header_bottom": 61.32,
+"header_text": "Physics A Level P-2 Topical Workbook 262 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 259,
+"role": "questions",
+"unit": 6,
+"printed": 263,
+"header_bottom": 75.96,
+"header_text": "Physics A Level P-2 Topical Workbook 263 Unit 6: Work, energy and power. | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 260,
+"role": "questions",
+"unit": 6,
+"printed": 264,
+"header_bottom": 51.72,
+"header_text": "Physics A Level P-2 Topical Workbook 264 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 261,
+"role": "questions",
+"unit": 6,
+"printed": 265,
+"header_bottom": 81.48,
+"header_text": "Physics A Level P-2 Topical Workbook 265 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 262,
+"role": "questions",
+"unit": 6,
+"printed": 266,
+"header_bottom": 56.76,
+"header_text": "Physics A Level P-2 Topical Workbook 266 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 263,
+"role": "questions",
+"unit": 6,
+"printed": 267,
+"header_bottom": 83.39999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 267 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 264,
+"role": "questions",
+"unit": 6,
+"printed": 268,
+"header_bottom": 59.4,
+"header_text": "Physics A Level P-2 Topical Workbook 268 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 265,
+"role": "questions",
+"unit": 6,
+"printed": 269,
+"header_bottom": 80.28,
+"header_text": "Physics A Level P-2 Topical Workbook 269 Unit 6: Work, energy and power | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "questions"
+},
+{
+"pdf": 266,
+"role": "answers",
+"unit": 6,
+"printed": 270,
+"header_bottom": 56.28,
+"header_text": "Physics A Level! P-2 Topical Workbook 270 Unit 6: Answers Section | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "answers"
+},
+{
+"pdf": 267,
+"role": "answers",
+"unit": 6,
+"printed": 271,
+"header_bottom": 82.67999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 271 Unit 6: Answers Section | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "answers"
+},
+{
+"pdf": 268,
+"role": "answers",
+"unit": 6,
+"printed": 272,
+"header_bottom": 58.44,
+"header_text": "Physics A Level P-2 Topical Workbook 272 Unit 6: Answers Section | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "answers"
+},
+{
+"pdf": 269,
+"role": "answers",
+"unit": 6,
+"printed": 273,
+"header_bottom": 82.67999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 273 Unit 6: Answers Section | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "answers"
+},
+{
+"pdf": 270,
+"role": "answers",
+"unit": 6,
+"printed": 274,
+"header_bottom": 55.559999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 274 Unit 6: Answers Section | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "answers"
+},
+{
+"pdf": 271,
+"role": "answers",
+"unit": 6,
+"printed": 275,
+"header_bottom": 83.88,
+"header_text": "Physics A Level P-2 Topical Workbook 275 Unit 6: Answers Section | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "answers"
+},
+{
+"pdf": 272,
+"role": "answers",
+"unit": 6,
+"printed": 276,
+"header_bottom": 60.839999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 276 Unit 6: Answers Section | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "answers"
+},
+{
+"pdf": 273,
+"role": "answers",
+"unit": 6,
+"printed": 277,
+"header_bottom": 81.96,
+"header_text": "Physics A Level P-2 Topical Workbook 277 Unit 6: Answers Section | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "answers"
+},
+{
+"pdf": 274,
+"role": "answers",
+"unit": 6,
+"printed": 278,
+"header_bottom": 58.919999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 278 Unit 6: Answers Section | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "answers"
+},
+{
+"pdf": 275,
+"role": "answers",
+"unit": 6,
+"printed": 279,
+"header_bottom": 82.44,
+"header_text": "Physics A Level P-2 Topical Workbook 279 Unit 6: Answers Section | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "answers"
+},
+{
+"pdf": 276,
+"role": "answers",
+"unit": 6,
+"printed": 280,
+"header_bottom": 55.559999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 280 Unit 6: Answers Section | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "answers"
+},
+{
+"pdf": 277,
+"role": "answers",
+"unit": 6,
+"printed": 281,
+"header_bottom": 79.56,
+"header_text": "Physics A Level P-2 Topical Workbook 281 Unit 6: Answers Section | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "answers"
+},
+{
+"pdf": 278,
+"role": "blank",
+"unit": 6,
+"printed": 282,
+"header_bottom": 57.72,
+"header_text": "282 | Read and Write Publications",
+"contents_unit": 6,
+"contents_role": "answers"
+},
+{
+"pdf": 279,
+"role": "title",
+"unit": 7,
+"printed": 283,
+"header_bottom": null,
+"header_text": "283 | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "title"
+},
+{
+"pdf": 280,
+"role": "questions",
+"unit": 7,
+"printed": 284,
+"header_bottom": 106.67999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 284 Unit 7: Deformation of solids | Read and Write Publications | Unit 7: Deformation Of Solids",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 281,
+"role": "questions",
+"unit": 7,
+"printed": 285,
+"header_bottom": 81.72,
+"header_text": "Physics A Level P-2 Topical Workbook 285 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 282,
+"role": "questions",
+"unit": 7,
+"printed": 286,
+"header_bottom": 56.04,
+"header_text": "Physics A Level P-2 Topical Workbook 286 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 283,
+"role": "questions",
+"unit": 7,
+"printed": 287,
+"header_bottom": 79.32,
+"header_text": "Physics A Level P-2 Topical Workbook 287 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 284,
+"role": "questions",
+"unit": 7,
+"printed": 288,
+"header_bottom": 57.48,
+"header_text": "Physics A Level P-2 Topical Workbook 288 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 285,
+"role": "questions",
+"unit": 7,
+"printed": 289,
+"header_bottom": 82.44,
+"header_text": "Physics A Level P-2 Topical Workbook 289 | Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 286,
+"role": "questions",
+"unit": 7,
+"printed": 290,
+"header_bottom": 58.199999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 290 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 287,
+"role": "questions",
+"unit": 7,
+"printed": 291,
+"header_bottom": 72.36,
+"header_text": "Physics A Level P-2 Topical Workbook 291 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 288,
+"role": "questions",
+"unit": 7,
+"printed": 292,
+"header_bottom": 51.72,
+"header_text": "292 Unit 7: Deformation of solids | Physics A Level P-2 Topical Workbook | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 289,
+"role": "questions",
+"unit": 7,
+"printed": 293,
+"header_bottom": 83.64,
+"header_text": "Physics A Level P-2 Topical Workbook 293 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 290,
+"role": "questions",
+"unit": 7,
+"printed": 294,
+"header_bottom": 63.239999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 294 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 291,
+"role": "questions",
+"unit": 7,
+"printed": 295,
+"header_bottom": 75.96,
+"header_text": "Physics A Level P-2 Topical Workbook 295 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 292,
+"role": "questions",
+"unit": 7,
+"printed": 296,
+"header_bottom": 51.72,
+"header_text": "Physics A Level P-2 Topical Workbook 296 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 293,
+"role": "questions",
+"unit": 7,
+"printed": 297,
+"header_bottom": 80.75999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 297 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 294,
+"role": "questions",
+"unit": 7,
+"printed": 298,
+"header_bottom": 58.44,
+"header_text": "Physics A Level P-2 Topical Workbook 298 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 295,
+"role": "questions",
+"unit": 7,
+"printed": 299,
+"header_bottom": 86.28,
+"header_text": "Physics A Level P-2 Topical Workbook 299 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 296,
+"role": "questions",
+"unit": 7,
+"printed": 300,
+"header_bottom": 60.12,
+"header_text": "Physics A Level P-2 Topical Workbook 300 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 297,
+"role": "questions",
+"unit": 7,
+"printed": 301,
+"header_bottom": 76.2,
+"header_text": "Physics A Level P-2 Topical Workbook 301 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 298,
+"role": "questions",
+"unit": 7,
+"printed": 302,
+"header_bottom": 49.8,
+"header_text": "Physics A Level P-2 Topical Workbook 302 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 299,
+"role": "questions",
+"unit": 7,
+"printed": 303,
+"header_bottom": 75.72,
+"header_text": "Physics A Level P-2 Topical Workbook 303 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 300,
+"role": "questions",
+"unit": 7,
+"printed": 304,
+"header_bottom": 53.4,
+"header_text": "Physics A Level P-2 Topical Workbook 304 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 301,
+"role": "questions",
+"unit": 7,
+"printed": 305,
+"header_bottom": 83.64,
+"header_text": "Physics A Level P-2 Topical Workbook 305 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 302,
+"role": "questions",
+"unit": 7,
+"printed": 306,
+"header_bottom": 62.04,
+"header_text": "Physics A Level P-2 Topical Workbook 306 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 303,
+"role": "questions",
+"unit": 7,
+"printed": 307,
+"header_bottom": 82.44,
+"header_text": "Physics A Level P-2 Topical Workbook 307 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 304,
+"role": "questions",
+"unit": 7,
+"printed": 308,
+"header_bottom": 56.28,
+"header_text": "Physics A Level P-2 Topical Workbook 308 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 305,
+"role": "questions",
+"unit": 7,
+"printed": 309,
+"header_bottom": 83.88,
+"header_text": "Physics A Level P-2 Topical Workbook 309 | Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 306,
+"role": "questions",
+"unit": 7,
+"printed": 310,
+"header_bottom": 57.72,
+"header_text": "Physics A Level P-2 Topical Workbook 310 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 307,
+"role": "questions",
+"unit": 7,
+"printed": 311,
+"header_bottom": 74.03999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 311 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 308,
+"role": "questions",
+"unit": 7,
+"printed": 312,
+"header_bottom": 52.44,
+"header_text": "Physics A Level P-2 Topical Workbook 312 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 309,
+"role": "questions",
+"unit": 7,
+"printed": 315,
+"header_bottom": 75.0,
+"header_text": "Physics A Level P-2 Topical Workbook 315 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 310,
+"role": "questions",
+"unit": 7,
+"printed": 316,
+"header_bottom": 52.44,
+"header_text": "Physics A Level P-2 Topical Workbook 316 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 311,
+"role": "questions",
+"unit": 7,
+"printed": 317,
+"header_bottom": 81.96,
+"header_text": "Physics A Level P-2 Topical Workbook 317 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 312,
+"role": "questions",
+"unit": 7,
+"printed": 318,
+"header_bottom": 60.12,
+"header_text": "Physics A Level P-2 Topical Workbook 318 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 313,
+"role": "questions",
+"unit": 7,
+"printed": 319,
+"header_bottom": 85.08,
+"header_text": "Physics A Level P-2 Topical Workbook 319 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 314,
+"role": "questions",
+"unit": 7,
+"printed": 320,
+"header_bottom": 58.68,
+"header_text": "Physics A Level P-2 Topical Workbook 320 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 315,
+"role": "questions",
+"unit": 7,
+"printed": 321,
+"header_bottom": 77.88,
+"header_text": "Physics A Level P-2 Topical Workbook 321 - Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 316,
+"role": "questions",
+"unit": 7,
+"printed": 322,
+"header_bottom": 51.48,
+"header_text": "Physics A Level P-2 Topical Workbook 322 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 317,
+"role": "questions",
+"unit": 7,
+"printed": 323,
+"header_bottom": 84.6,
+"header_text": "Physics A Level P-2 Topical Workbook 323 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 318,
+"role": "questions",
+"unit": 7,
+"printed": 324,
+"header_bottom": 61.32,
+"header_text": "Physics A Level P-2 Topical Workbook 324 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 319,
+"role": "questions",
+"unit": 7,
+"printed": 325,
+"header_bottom": 76.92,
+"header_text": "Physics A Level P-2 Topical Workbook 325 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 320,
+"role": "questions",
+"unit": 7,
+"printed": 326,
+"header_bottom": 53.4,
+"header_text": "Physics A Level P-2 Topical Workbook 326 Unit 7: Deformation of solids | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "questions"
+},
+{
+"pdf": 321,
+"role": "answers",
+"unit": 7,
+"printed": 327,
+"header_bottom": 82.2,
+"header_text": "Physics A Level P-2 Topical Workbook 327 Unit 7: Answers Section | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "answers"
+},
+{
+"pdf": 322,
+"role": "answers",
+"unit": 7,
+"printed": 330,
+"header_bottom": 61.32,
+"header_text": "Unit 7: Answers Section | Physics A Level P-2 Topical Workbook 330 | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "answers"
+},
+{
+"pdf": 323,
+"role": "answers",
+"unit": 7,
+"printed": 331,
+"header_bottom": 80.03999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 331 | Unit 7: Answers Section | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "answers"
+},
+{
+"pdf": 324,
+"role": "answers",
+"unit": 7,
+"printed": 332,
+"header_bottom": 54.839999999999996,
+"header_text": "Unit 7: Answers Section | Physics A Level P-2 Topical Workbook 332 | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "answers"
+},
+{
+"pdf": 325,
+"role": "answers",
+"unit": 7,
+"printed": 333,
+"header_bottom": 81.72,
+"header_text": "Physics A Level P-2 Topical Workbook 333 Unit 7: Answers Section | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "answers"
+},
+{
+"pdf": 326,
+"role": "answers",
+"unit": 7,
+"printed": 334,
+"header_bottom": 56.519999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 334 Unit 7: Answers Section | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "answers"
+},
+{
+"pdf": 327,
+"role": "answers",
+"unit": 7,
+"printed": 335,
+"header_bottom": 81.0,
+"header_text": "Physics A Level P-2 Topica! Workbook 335 | Unit 7: Answers Section | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "answers"
+},
+{
+"pdf": 328,
+"role": "answers",
+"unit": 7,
+"printed": 336,
+"header_bottom": 58.44,
+"header_text": "Physics A Level P-2 Topical Workbook 336 Unit 7: Answers Section | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "answers"
+},
+{
+"pdf": 329,
+"role": "answers",
+"unit": 7,
+"printed": 337,
+"header_bottom": 83.64,
+"header_text": "Physics A Level P-2 Topical Workbook 337 Unit 7: Answers Section | Read and Write Publications",
+"contents_unit": 7,
+"contents_role": "answers"
+},
+{
+"pdf": 330,
+"role": "title",
+"unit": 8,
+"printed": 338,
+"header_bottom": null,
+"header_text": "338 | Read and Write Publications | Unit 8",
+"contents_unit": 8,
+"contents_role": "title"
+},
+{
+"pdf": 331,
+"role": "questions",
+"unit": 8,
+"printed": 339,
+"header_bottom": 84.36,
+"header_text": "Physics A Level P-2 Topical Workbook 339 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 332,
+"role": "questions",
+"unit": 8,
+"printed": 340,
+"header_bottom": 56.76,
+"header_text": "Physics A Level P-2 Topical Workbook 340 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 333,
+"role": "questions",
+"unit": 8,
+"printed": 341,
+"header_bottom": 82.92,
+"header_text": "Physics A Level P-2 Topical Workbook 341 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 334,
+"role": "questions",
+"unit": 8,
+"printed": 342,
+"header_bottom": 55.32,
+"header_text": "Physics A Level P-2 Topical Workbook 342 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 335,
+"role": "questions",
+"unit": 8,
+"printed": 343,
+"header_bottom": 80.75999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 343 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 336,
+"role": "questions",
+"unit": 8,
+"printed": 344,
+"header_bottom": 54.36,
+"header_text": "Physics A Level P-2 Topical Workbook 344 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 337,
+"role": "questions",
+"unit": 8,
+"printed": 345,
+"header_bottom": 81.72,
+"header_text": "Physics A Level P-2 Topical Workbook 345 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 338,
+"role": "questions",
+"unit": 8,
+"printed": 346,
+"header_bottom": 57.96,
+"header_text": "Physics A Level P-2 Topical Workbook 346 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 339,
+"role": "questions",
+"unit": 8,
+"printed": 347,
+"header_bottom": 82.44,
+"header_text": "Physics A Level P-2 Topical Workbook 347 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 340,
+"role": "questions",
+"unit": 8,
+"printed": 348,
+"header_bottom": 59.4,
+"header_text": "Physics A Level P-2 Topical Workbook 348 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 341,
+"role": "questions",
+"unit": 8,
+"printed": 349,
+"header_bottom": 80.28,
+"header_text": "Physics A Level P-2 Topical Workbook 349 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 342,
+"role": "questions",
+"unit": 8,
+"printed": 350,
+"header_bottom": 57.0,
+"header_text": "Physics A Level P-2 Topical Workbook 350 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 343,
+"role": "questions",
+"unit": 8,
+"printed": 351,
+"header_bottom": 80.03999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 351 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 344,
+"role": "questions",
+"unit": 8,
+"printed": 352,
+"header_bottom": 56.28,
+"header_text": "Physics A Level P-2 Topical Workbook 352 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 345,
+"role": "questions",
+"unit": 8,
+"printed": 353,
+"header_bottom": 73.8,
+"header_text": "Physics A Level P-2 Topical Workbook 353 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 346,
+"role": "questions",
+"unit": 8,
+"printed": 354,
+"header_bottom": 52.92,
+"header_text": "Physics A Level P-2 Topical Workbook 354 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 347,
+"role": "questions",
+"unit": 8,
+"printed": 355,
+"header_bottom": 83.64,
+"header_text": "Physics A Level P-2 Topical Workbook 355 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 348,
+"role": "questions",
+"unit": 8,
+"printed": 356,
+"header_bottom": 58.68,
+"header_text": "Physics A Level P-2 Topical Workbook 356 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 349,
+"role": "questions",
+"unit": 8,
+"printed": 357,
+"header_bottom": 84.36,
+"header_text": "Physics A Level P-2 Topical Workbook 357 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 350,
+"role": "questions",
+"unit": 8,
+"printed": 358,
+"header_bottom": 59.16,
+"header_text": "Physics A Level P-2 Topical Workbook 358 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 351,
+"role": "questions",
+"unit": 8,
+"printed": 359,
+"header_bottom": 85.32,
+"header_text": "Physics A Level P-2 Topical Workbook 359 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 352,
+"role": "questions",
+"unit": 8,
+"printed": 360,
+"header_bottom": 64.19999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 360 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 353,
+"role": "questions",
+"unit": 8,
+"printed": 361,
+"header_bottom": 87.47999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 361 Unit 8: Waves | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "questions"
+},
+{
+"pdf": 354,
+"role": "answers",
+"unit": 8,
+"printed": 362,
+"header_bottom": 61.32,
+"header_text": "Physics A Level P-2 Topical Workbook 362 Unit 8: Answers Section | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "answers"
+},
+{
+"pdf": 355,
+"role": "answers",
+"unit": 8,
+"printed": 363,
+"header_bottom": 84.84,
+"header_text": "Physics A Level P-2 Topical Workbook 363 Unit 8: Answers Section | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "answers"
+},
+{
+"pdf": 356,
+"role": "answers",
+"unit": 8,
+"printed": 364,
+"header_bottom": 62.519999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 364 Unit 8: Answers Section | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "answers"
+},
+{
+"pdf": 357,
+"role": "answers",
+"unit": 8,
+"printed": 365,
+"header_bottom": 82.44,
+"header_text": "Physics A Level P-2 Topical Workbook 365 Unit 8: Answers Section | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "answers"
+},
+{
+"pdf": 358,
+"role": "answers",
+"unit": 8,
+"printed": 366,
+"header_bottom": 59.879999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 366 Unit 8: Answers Section | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "answers"
+},
+{
+"pdf": 359,
+"role": "answers",
+"unit": 8,
+"printed": 367,
+"header_bottom": 82.92,
+"header_text": "Physics A Level P-2 Topical Workbook 367 Unit 8: Answers Section | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "answers"
+},
+{
+"pdf": 360,
+"role": "answers",
+"unit": 8,
+"printed": 368,
+"header_bottom": 56.519999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 368 Unit 8: Answers Section | Read and Write Publications",
+"contents_unit": 8,
+"contents_role": "answers"
+},
+{
+"pdf": 361,
+"role": "title",
+"unit": 9,
+"printed": 369,
+"header_bottom": null,
+"header_text": "369 | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "title"
+},
+{
+"pdf": 362,
+"role": "questions",
+"unit": 9,
+"printed": 370,
+"header_bottom": 118.67999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 370 Unit 9: Superposition | Read and Write Publications | Unit 9: Superposition",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 363,
+"role": "questions",
+"unit": 9,
+"printed": 371,
+"header_bottom": 85.8,
+"header_text": "Physics A Level P-2 Topical Workbook 371 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 364,
+"role": "questions",
+"unit": 9,
+"printed": 372,
+"header_bottom": 63.72,
+"header_text": "Physics A Level P-2 Topical Workbook 372 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 365,
+"role": "questions",
+"unit": 9,
+"printed": 373,
+"header_bottom": 88.2,
+"header_text": "Physics A Level P-2 Topical Workbook 373 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 366,
+"role": "questions",
+"unit": 9,
+"printed": 374,
+"header_bottom": 65.88,
+"header_text": "Physics A Level P-2 Topical Workbook 374 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 367,
+"role": "questions",
+"unit": 9,
+"printed": 375,
+"header_bottom": 86.03999999999999,
+"header_text": "Physics A Level! P-2 Topical Workbook 375 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 368,
+"role": "questions",
+"unit": 9,
+"printed": 376,
+"header_bottom": 59.4,
+"header_text": "Physics A Level P-2 Topical Workbook 376 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 369,
+"role": "questions",
+"unit": 9,
+"printed": 377,
+"header_bottom": 87.24,
+"header_text": "Physics A Level P-2 Topical Workbook 377 | Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 370,
+"role": "questions",
+"unit": 9,
+"printed": 378,
+"header_bottom": 65.16,
+"header_text": "Physics A Level P-2 Topical Workbook 378 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 371,
+"role": "questions",
+"unit": 9,
+"printed": 379,
+"header_bottom": 91.08,
+"header_text": "Physics A Level P-2 Topical Workbook 379 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 372,
+"role": "questions",
+"unit": 9,
+"printed": 380,
+"header_bottom": 64.91999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 380 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 373,
+"role": "questions",
+"unit": 9,
+"printed": 381,
+"header_bottom": 85.08,
+"header_text": "Physics A Level P-2 Topical Workbook 381 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 374,
+"role": "questions",
+"unit": 9,
+"printed": 382,
+"header_bottom": 58.919999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 382 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 375,
+"role": "questions",
+"unit": 9,
+"printed": 383,
+"header_bottom": 83.88,
+"header_text": "Physics A Level P-2 Topical Workbook 383 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 376,
+"role": "questions",
+"unit": 9,
+"printed": 384,
+"header_bottom": 62.04,
+"header_text": "Physics A Level P-2 Topical Workbook 384 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 377,
+"role": "questions",
+"unit": 9,
+"printed": 385,
+"header_bottom": 84.84,
+"header_text": "Physics A Level P-2 Topical Workbook 385 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 378,
+"role": "questions",
+"unit": 9,
+"printed": 386,
+"header_bottom": 60.839999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 386 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 379,
+"role": "questions",
+"unit": 9,
+"printed": 387,
+"header_bottom": 85.32,
+"header_text": "Physics A Level P-2 Topical Workbook 387 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 380,
+"role": "questions",
+"unit": 9,
+"printed": 388,
+"header_bottom": 57.48,
+"header_text": "Physics A Level P-2 Topical Workbook 388 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 381,
+"role": "questions",
+"unit": 9,
+"printed": 389,
+"header_bottom": 86.52,
+"header_text": "Physics A Level P-2 Topical Workbook 389 | Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 382,
+"role": "questions",
+"unit": 9,
+"printed": 390,
+"header_bottom": 58.68,
+"header_text": "Physics A Level P-2 Topical Workbook 390 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 383,
+"role": "questions",
+"unit": 9,
+"printed": 391,
+"header_bottom": 80.75999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 391 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 384,
+"role": "questions",
+"unit": 9,
+"printed": 392,
+"header_bottom": 57.239999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 392 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 385,
+"role": "questions",
+"unit": 9,
+"printed": 393,
+"header_bottom": 84.6,
+"header_text": "Physics A Level P-2 Topical Workbook 393 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 386,
+"role": "questions",
+"unit": 9,
+"printed": 394,
+"header_bottom": 58.44,
+"header_text": "394 Unit 9: Superposition | Physics A Level P-2 Topical Workbook | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 387,
+"role": "questions",
+"unit": 9,
+"printed": 395,
+"header_bottom": 83.64,
+"header_text": "Physics A Level P-2 Topical Workbook 395 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 388,
+"role": "questions",
+"unit": 9,
+"printed": 396,
+"header_bottom": 62.519999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 396 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 389,
+"role": "questions",
+"unit": 9,
+"printed": 397,
+"header_bottom": 81.72,
+"header_text": "Physics A Level P-2 Topical Workbook 397 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 390,
+"role": "questions",
+"unit": 9,
+"printed": 398,
+"header_bottom": 60.12,
+"header_text": "Physics A Level P-2 Topical Workbook 398 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 391,
+"role": "questions",
+"unit": 9,
+"printed": 399,
+"header_bottom": 84.6,
+"header_text": "Physics A Level P-2 Topical Workbook 399 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 392,
+"role": "questions",
+"unit": 9,
+"printed": 400,
+"header_bottom": 58.44,
+"header_text": "Physics A Level P-2 Topical Workbook 400 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 393,
+"role": "questions",
+"unit": 9,
+"printed": 401,
+"header_bottom": 88.2,
+"header_text": "Physics A Level P-2 Topical Workbook 401 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 394,
+"role": "questions",
+"unit": 9,
+"printed": 402,
+"header_bottom": 59.16,
+"header_text": "Physics A Level P-2 Topical Workbook 402 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 395,
+"role": "questions",
+"unit": 9,
+"printed": 403,
+"header_bottom": 91.08,
+"header_text": "Physics A Level P-2 Topical Workbook 403 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 396,
+"role": "questions",
+"unit": 9,
+"printed": 404,
+"header_bottom": 69.72,
+"header_text": "404 Unit 9: Superposition | Physics A Level P-2 Topical Workbook Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 397,
+"role": "questions",
+"unit": 9,
+"printed": 405,
+"header_bottom": 74.03999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 405 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 398,
+"role": "questions",
+"unit": 9,
+"printed": 406,
+"header_bottom": 52.199999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 406 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 399,
+"role": "questions",
+"unit": 9,
+"printed": 407,
+"header_bottom": 82.44,
+"header_text": "Physics A Level P-2 Topical Workbook 407 | Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 400,
+"role": "questions",
+"unit": 9,
+"printed": 408,
+"header_bottom": 53.16,
+"header_text": "Physics A Level P-2 Topical Workbook 408 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 401,
+"role": "questions",
+"unit": 9,
+"printed": 409,
+"header_bottom": 80.28,
+"header_text": "Physics A Level P-2 Topical Workbook 409 Unit 9: Superposition | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "questions"
+},
+{
+"pdf": 402,
+"role": "answers",
+"unit": 9,
+"printed": 410,
+"header_bottom": 110.52,
+"header_text": "Physics A Level P-2 Topical Workbook 410 Unit 9: Answers Section | Read and Write Publications | | Answers Section",
+"contents_unit": 9,
+"contents_role": "answers"
+},
+{
+"pdf": 403,
+"role": "answers",
+"unit": 9,
+"printed": 411,
+"header_bottom": 82.44,
+"header_text": "Physics A Level P-2 Topical Workbook 411 | Unit 9: Answers Section | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "answers"
+},
+{
+"pdf": 404,
+"role": "answers",
+"unit": 9,
+"printed": 412,
+"header_bottom": 55.08,
+"header_text": "Unit 9: Answers Section | Physics A Level P-2 Topical Workbook 412 | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "answers"
+},
+{
+"pdf": 405,
+"role": "answers",
+"unit": 9,
+"printed": 413,
+"header_bottom": 88.67999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 413 Unit 9: Answers Section | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "answers"
+},
+{
+"pdf": 406,
+"role": "answers",
+"unit": 9,
+"printed": 414,
+"header_bottom": 61.08,
+"header_text": "Physics A Level P-2 Topical Workbook 414 Unit 9: Answers Section | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "answers"
+},
+{
+"pdf": 407,
+"role": "answers",
+"unit": 9,
+"printed": 415,
+"header_bottom": 82.92,
+"header_text": "Physics A Level P-2 Topical V/orkbook 415 Unit 9: Answers Section | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "answers"
+},
+{
+"pdf": 408,
+"role": "answers",
+"unit": 9,
+"printed": 416,
+"header_bottom": 63.0,
+"header_text": "Physics A Level P-2 Topical Workbook 416 Unit 9: Answers Section | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "answers"
+},
+{
+"pdf": 409,
+"role": "answers",
+"unit": 9,
+"printed": 417,
+"header_bottom": 78.84,
+"header_text": "Physics A Level P-2 Topical Workbook 417 Unit 9: Answers Section | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "answers"
+},
+{
+"pdf": 410,
+"role": "answers",
+"unit": 9,
+"printed": 418,
+"header_bottom": 51.48,
+"header_text": "Physics A Level P-2 Topical Workbook 418 Unit 9: Answers Section | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "answers"
+},
+{
+"pdf": 411,
+"role": "answers",
+"unit": 9,
+"printed": 419,
+"header_bottom": 86.75999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 419 Unit 9: Answers Section | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "answers"
+},
+{
+"pdf": 412,
+"role": "answers",
+"unit": 9,
+"printed": 420,
+"header_bottom": 65.4,
+"header_text": "Physics A Level P-2 Topical Workbook 420 Unit 9: Answers Section | Read and Write Publications",
+"contents_unit": 9,
+"contents_role": "answers"
+},
+{
+"pdf": 413,
+"role": "title",
+"unit": 10,
+"printed": 421,
+"header_bottom": null,
+"header_text": "421 | Read and Write Publications | Unit 10",
+"contents_unit": 10,
+"contents_role": "title"
+},
+{
+"pdf": 414,
+"role": "questions",
+"unit": 10,
+"printed": 422,
+"header_bottom": 108.6,
+"header_text": "Physics A Level P-2 Topical Workbook 422 Unit 10: Current of electricity | Read and Write Publications | Unit 10: Current Of Electricity",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 415,
+"role": "questions",
+"unit": 10,
+"printed": 423,
+"header_bottom": 90.6,
+"header_text": "Physics A Level P-2 Topical Workbook 423 | Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 416,
+"role": "questions",
+"unit": 10,
+"printed": 424,
+"header_bottom": 62.76,
+"header_text": "Physics A Level P-2 Topical Workbook 424 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 417,
+"role": "questions",
+"unit": 10,
+"printed": 425,
+"header_bottom": 86.03999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 425 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 418,
+"role": "questions",
+"unit": 10,
+"printed": 426,
+"header_bottom": 65.64,
+"header_text": "Physics A Level P-2 Topical Workbook 426 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 419,
+"role": "questions",
+"unit": 10,
+"printed": 427,
+"header_bottom": 86.75999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 427 | Read and Write Publications Unit 10: Current of electricity",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 420,
+"role": "questions",
+"unit": 10,
+"printed": 428,
+"header_bottom": 59.16,
+"header_text": "Physics A Level P-2 Topical Workbook 428 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 421,
+"role": "questions",
+"unit": 10,
+"printed": 429,
+"header_bottom": 85.8,
+"header_text": "Physics A Level P-2 Topical Workbook 429 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 422,
+"role": "questions",
+"unit": 10,
+"printed": 430,
+"header_bottom": 58.44,
+"header_text": "Physics A Level P-2 Topical Workbook 430 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 423,
+"role": "questions",
+"unit": 10,
+"printed": 431,
+"header_bottom": 79.32,
+"header_text": "Physics A Level P-2 Topical Workbook 431 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 424,
+"role": "questions",
+"unit": 10,
+"printed": 432,
+"header_bottom": 58.68,
+"header_text": "Physics A Level P-2 Topical Workbook 432 Unit 10: Current of eleciricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 425,
+"role": "questions",
+"unit": 10,
+"printed": 433,
+"header_bottom": 83.16,
+"header_text": "Physics A Levet P-2 Topical Workbook 433 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 426,
+"role": "questions",
+"unit": 10,
+"printed": 434,
+"header_bottom": 59.16,
+"header_text": "Physics A Level P-2 Topical Workbook 434 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 427,
+"role": "questions",
+"unit": 10,
+"printed": 435,
+"header_bottom": 87.72,
+"header_text": "Physics A Level P-2 Topical Workbook 435 | Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 428,
+"role": "questions",
+"unit": 10,
+"printed": 436,
+"header_bottom": 63.48,
+"header_text": "Physics A Level P-2 Topical Workbook 436 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 429,
+"role": "questions",
+"unit": 10,
+"printed": 437,
+"header_bottom": 82.44,
+"header_text": "Physics A Level P-2 Topical Workbook 437 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 430,
+"role": "questions",
+"unit": 10,
+"printed": 438,
+"header_bottom": 58.44,
+"header_text": "Physics A Level P-2 Topical Workbook 438 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 431,
+"role": "questions",
+"unit": 10,
+"printed": 439,
+"header_bottom": 84.6,
+"header_text": "Physics A Level P-2 Topical Workbook 439 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 432,
+"role": "questions",
+"unit": 10,
+"printed": 440,
+"header_bottom": 60.599999999999994,
+"header_text": "Physics A Level P-2 Topical Workbook 440 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 433,
+"role": "questions",
+"unit": 10,
+"printed": 441,
+"header_bottom": 85.08,
+"header_text": "Physics A Level P-2 Topical Workbook 441 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 434,
+"role": "questions",
+"unit": 10,
+"printed": 442,
+"header_bottom": 61.32,
+"header_text": "Physics A Level P-2 Topical Workbook 442 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 435,
+"role": "questions",
+"unit": 10,
+"printed": 443,
+"header_bottom": 84.84,
+"header_text": "Physics A Level P-2 Topical Workbook 443 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 436,
+"role": "questions",
+"unit": 10,
+"printed": 444,
+"header_bottom": 60.36,
+"header_text": "Physics A Level P-2 Topical Workbook 444 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 437,
+"role": "questions",
+"unit": 10,
+"printed": 445,
+"header_bottom": 86.28,
+"header_text": "Physics A Level P-2 Topical Workbook 445 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 438,
+"role": "questions",
+"unit": 10,
+"printed": 446,
+"header_bottom": 62.28,
+"header_text": "Physics A Level P-2 Topical Workbook 446 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 439,
+"role": "questions",
+"unit": 10,
+"printed": 447,
+"header_bottom": 83.88,
+"header_text": "Physics A Level P-2 Topical Workbook 447 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 440,
+"role": "questions",
+"unit": 10,
+"printed": 448,
+"header_bottom": 59.879999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 448 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 441,
+"role": "questions",
+"unit": 10,
+"printed": 449,
+"header_bottom": 84.6,
+"header_text": "Physics A Level P-2 Topical Workbook 449 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 442,
+"role": "questions",
+"unit": 10,
+"printed": 450,
+"header_bottom": 60.36,
+"header_text": "Physics A Level P-2 Topical Workbook 450 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 443,
+"role": "questions",
+"unit": 10,
+"printed": 451,
+"header_bottom": 87.72,
+"header_text": "Physics A Level P-2 Topical Workbook 451 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 444,
+"role": "questions",
+"unit": 10,
+"printed": 452,
+"header_bottom": 63.48,
+"header_text": "Physics A Level P-2 Topical Workbook 452 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 445,
+"role": "questions",
+"unit": 10,
+"printed": 453,
+"header_bottom": 85.32,
+"header_text": "Physics A Level P-2 Topical Workbook 453 | Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 446,
+"role": "questions",
+"unit": 10,
+"printed": 454,
+"header_bottom": 60.839999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 454 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 447,
+"role": "questions",
+"unit": 10,
+"printed": 455,
+"header_bottom": 83.39999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 455 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 448,
+"role": "questions",
+"unit": 10,
+"printed": 456,
+"header_bottom": 59.16,
+"header_text": "Physics A Level P-2 Topical Workbook 456 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 449,
+"role": "questions",
+"unit": 10,
+"printed": 457,
+"header_bottom": 85.56,
+"header_text": "Physics A Level P-2 Topical Workbook 457 | Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 450,
+"role": "questions",
+"unit": 10,
+"printed": 458,
+"header_bottom": 61.32,
+"header_text": "Physics A Level P-2 Topical Workbook 458 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 451,
+"role": "questions",
+"unit": 10,
+"printed": 459,
+"header_bottom": 85.32,
+"header_text": "Physics A Level P-2 Topical Workbook 459 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 452,
+"role": "questions",
+"unit": 10,
+"printed": 460,
+"header_bottom": 61.32,
+"header_text": "Physics A Level P-2 Topical Workbook 460 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 453,
+"role": "questions",
+"unit": 10,
+"printed": 461,
+"header_bottom": 86.03999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 461 Unit 10: Current of electricity | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "questions"
+},
+{
+"pdf": 454,
+"role": "answers",
+"unit": 10,
+"printed": 462,
+"header_bottom": 62.28,
+"header_text": "Physics A Level P-2 Topical Workbook 462 Unit 10: Answers Section | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "answers"
+},
+{
+"pdf": 455,
+"role": "answers",
+"unit": 10,
+"printed": 463,
+"header_bottom": 86.52,
+"header_text": "Physics A Level P-2 Topical Workbook 463 | Unit 10: Answers Section | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "answers"
+},
+{
+"pdf": 456,
+"role": "answers",
+"unit": 10,
+"printed": 464,
+"header_bottom": 62.04,
+"header_text": "Physics A Level P-2 Topical Workbook 464 Unit 10: Answers Section | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "answers"
+},
+{
+"pdf": 457,
+"role": "answers",
+"unit": 10,
+"printed": 465,
+"header_bottom": 89.39999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 465 | Unit 10: Answers Section | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "answers"
+},
+{
+"pdf": 458,
+"role": "answers",
+"unit": 10,
+"printed": 466,
+"header_bottom": 68.75999999999999,
+"header_text": "Unit 10: Answers Section | Physics A Level P-2 Topical Workbook 466 | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "answers"
+},
+{
+"pdf": 459,
+"role": "answers",
+"unit": 10,
+"printed": 467,
+"header_bottom": 88.67999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 467 Unit 10: Answers Section | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "answers"
+},
+{
+"pdf": 460,
+"role": "answers",
+"unit": 10,
+"printed": 468,
+"header_bottom": 62.76,
+"header_text": "Physics A Level P-2 Topical Workbook 468 Unit 10: Answers Section | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "answers"
+},
+{
+"pdf": 461,
+"role": "answers",
+"unit": 10,
+"printed": 469,
+"header_bottom": 89.64,
+"header_text": "Physics A Level P-2 Topical Workbook 469 Unit 10: Answers Section | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "answers"
+},
+{
+"pdf": 462,
+"role": "answers",
+"unit": 10,
+"printed": 470,
+"header_bottom": 63.72,
+"header_text": "Physics A Level P-2 Topical Workbook 470 Unit 10: Answers Section | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "answers"
+},
+{
+"pdf": 463,
+"role": "answers",
+"unit": 10,
+"printed": 471,
+"header_bottom": 81.48,
+"header_text": "Physics A Level P-2 Topical Workbook 471 Unit 10: Answers Section | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "answers"
+},
+{
+"pdf": 464,
+"role": "answers",
+"unit": 10,
+"printed": 472,
+"header_bottom": 60.599999999999994,
+"header_text": "Physics A Level P-2 Topical Workbook 472 Unit 10: Answers Section | Read and Write Publications",
+"contents_unit": 10,
+"contents_role": "answers"
+},
+{
+"pdf": 465,
+"role": "title",
+"unit": 11,
+"printed": 473,
+"header_bottom": null,
+"header_text": "473 | Read and Write Publications | Unit 11",
+"contents_unit": 11,
+"contents_role": "title"
+},
+{
+"pdf": 466,
+"role": "questions",
+"unit": 11,
+"printed": 474,
+"header_bottom": 121.08,
+"header_text": "Physics A Level P-2 Topical Workbook 474 Unit 11: D.C ciruits | Read and Write Publications | Unit 14: D.C Circuits",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 467,
+"role": "questions",
+"unit": 11,
+"printed": 475,
+"header_bottom": 85.32,
+"header_text": "Physics A Level P-2 Topical Workbook 475 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 468,
+"role": "questions",
+"unit": 11,
+"printed": 476,
+"header_bottom": 63.96,
+"header_text": "Physics A Level P-2 Topical Workbook 476 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 469,
+"role": "questions",
+"unit": 11,
+"printed": 477,
+"header_bottom": 87.47999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 477 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 470,
+"role": "questions",
+"unit": 11,
+"printed": 478,
+"header_bottom": 66.36,
+"header_text": "Unit 11: D.C ciruits | Physics A Level P-2 Topical Workbook 478 | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 471,
+"role": "questions",
+"unit": 11,
+"printed": 479,
+"header_bottom": 91.32,
+"header_text": "Physics A Level P-2 Topical Workbook 479 | Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 472,
+"role": "questions",
+"unit": 11,
+"printed": 480,
+"header_bottom": 63.96,
+"header_text": "Physics A Level P-2 Topical Workbook 480 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 473,
+"role": "questions",
+"unit": 11,
+"printed": 481,
+"header_bottom": 88.2,
+"header_text": "Physics A Level P-2 Topical Workbook 481 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 474,
+"role": "questions",
+"unit": 11,
+"printed": 482,
+"header_bottom": 64.68,
+"header_text": "Physics A Level P-2 Topical Workbook 482 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 475,
+"role": "questions",
+"unit": 11,
+"printed": 483,
+"header_bottom": 88.2,
+"header_text": "Physics A Level P-2 Topical Workbook 483 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 476,
+"role": "questions",
+"unit": 11,
+"printed": 484,
+"header_bottom": 64.44,
+"header_text": "Physics A Level P-2 Topical Workbook 484 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 477,
+"role": "questions",
+"unit": 11,
+"printed": 485,
+"header_bottom": 84.11999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 485 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 478,
+"role": "questions",
+"unit": 11,
+"printed": 486,
+"header_bottom": 60.599999999999994,
+"header_text": "Physics A Level P-2 Topical Workbook 486 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 479,
+"role": "questions",
+"unit": 11,
+"printed": 487,
+"header_bottom": 81.48,
+"header_text": "Physics A Level P-2 Topical Workbook 487 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 480,
+"role": "questions",
+"unit": 11,
+"printed": 488,
+"header_bottom": 57.96,
+"header_text": "Physics A Level P-2 Topical Workbook 488 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 481,
+"role": "questions",
+"unit": 11,
+"printed": 489,
+"header_bottom": 83.39999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 489 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 482,
+"role": "questions",
+"unit": 11,
+"printed": 490,
+"header_bottom": 58.68,
+"header_text": "Physics A Level P-2 Topical Workbook 490 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 483,
+"role": "questions",
+"unit": 11,
+"printed": 491,
+"header_bottom": 84.36,
+"header_text": "Physics A Level P-2 Topical Workbook 491 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 484,
+"role": "questions",
+"unit": 11,
+"printed": 492,
+"header_bottom": 60.599999999999994,
+"header_text": "Physics A Level P-2 Topical Workbook 492 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 485,
+"role": "questions",
+"unit": 11,
+"printed": 493,
+"header_bottom": 87.72,
+"header_text": "Physics A Level P-2 Topical Workbook 493 | Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 486,
+"role": "questions",
+"unit": 11,
+"printed": 494,
+"header_bottom": 63.96,
+"header_text": "494 Unit 11: D.C ciruits | Physics A Level P-2 Topical Workbook | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 487,
+"role": "questions",
+"unit": 11,
+"printed": 495,
+"header_bottom": 88.2,
+"header_text": "Physics A Level P-2 Topical Workbook 495 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 488,
+"role": "questions",
+"unit": 11,
+"printed": 496,
+"header_bottom": 63.48,
+"header_text": "Physics A Level P-2 Topical Workbook 496 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 489,
+"role": "questions",
+"unit": 11,
+"printed": 497,
+"header_bottom": 86.28,
+"header_text": "Physics A Level P-2 Topical Workbook 497 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 490,
+"role": "questions",
+"unit": 11,
+"printed": 498,
+"header_bottom": 63.72,
+"header_text": "Physics A Level P-2 Topical Workbook 498 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 491,
+"role": "questions",
+"unit": 11,
+"printed": 499,
+"header_bottom": 88.92,
+"header_text": "Physics A Level P-2 Topical Workbook 499 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 492,
+"role": "questions",
+"unit": 11,
+"printed": 500,
+"header_bottom": 66.6,
+"header_text": "Physics A Level P-2 Topical Workbook 500 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 493,
+"role": "questions",
+"unit": 11,
+"printed": 501,
+"header_bottom": 82.44,
+"header_text": "Physics A Level P-2 Topical Workbook 501 | Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 494,
+"role": "questions",
+"unit": 11,
+"printed": 502,
+"header_bottom": 60.12,
+"header_text": "Physics A Level P-2 Topical Workbook 502 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 495,
+"role": "questions",
+"unit": 11,
+"printed": 503,
+"header_bottom": 81.48,
+"header_text": "Physics A Level P-2 Topical Workbook 503 | Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 496,
+"role": "questions",
+"unit": 11,
+"printed": 504,
+"header_bottom": 58.68,
+"header_text": "Physics A Level P-2 Topical Workbook 504 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 497,
+"role": "questions",
+"unit": 11,
+"printed": 505,
+"header_bottom": 83.88,
+"header_text": "Physics A Level P-2 Topical Workbook 505 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 498,
+"role": "questions",
+"unit": 11,
+"printed": 506,
+"header_bottom": 59.16,
+"header_text": "Physics A Level P-2 Topical Workbook 506 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 499,
+"role": "questions",
+"unit": 11,
+"printed": 507,
+"header_bottom": 83.88,
+"header_text": "Physics A Level P-2 Topical Workbook 507 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 500,
+"role": "questions",
+"unit": 11,
+"printed": 508,
+"header_bottom": 59.4,
+"header_text": "Physics A Level P-2 Topical Workbook 508 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 501,
+"role": "questions",
+"unit": 11,
+"printed": 509,
+"header_bottom": 89.64,
+"header_text": "Physics A Level P-2 Topical Workbook 509 | Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 502,
+"role": "questions",
+"unit": 11,
+"printed": 510,
+"header_bottom": 64.91999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 510 Unit 14: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 503,
+"role": "questions",
+"unit": 11,
+"printed": 511,
+"header_bottom": 88.44,
+"header_text": "Physics A Level P-2 Topical Workbook 511 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 504,
+"role": "questions",
+"unit": 11,
+"printed": 512,
+"header_bottom": 64.19999999999999,
+"header_text": "Unit 11: D.C ciruits | Physics A Level P-2 Topical Workbook 512 | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 505,
+"role": "questions",
+"unit": 11,
+"printed": 513,
+"header_bottom": 89.64,
+"header_text": "Physics A Level P-2 Topical Workbook 513 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 506,
+"role": "questions",
+"unit": 11,
+"printed": 514,
+"header_bottom": 67.32,
+"header_text": "Physics A Level P-2 Topical Workbook 514 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 507,
+"role": "questions",
+"unit": 11,
+"printed": 515,
+"header_bottom": 92.75999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 515 Unit 11: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 508,
+"role": "questions",
+"unit": 11,
+"printed": 516,
+"header_bottom": 67.56,
+"header_text": "Physics A Level P-2 Topical Workbook 516 Unit 14: D.C ciruits | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "questions"
+},
+{
+"pdf": 509,
+"role": "answers",
+"unit": 11,
+"printed": 517,
+"header_bottom": 80.28,
+"header_text": "Physics A Level P-2 Topical Workbook 517 | Unit 11: Answers Section | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "answers"
+},
+{
+"pdf": 510,
+"role": "answers",
+"unit": 11,
+"printed": 518,
+"header_bottom": 55.32,
+"header_text": "Physics A Level P-2 Topical Workbook 518 Unit 11: Answers Section | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "answers"
+},
+{
+"pdf": 511,
+"role": "answers",
+"unit": 11,
+"printed": 519,
+"header_bottom": 79.32,
+"header_text": "Physics A Level P-2 Topical Workbook 519 Unit 11: Answers Section . | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "answers"
+},
+{
+"pdf": 512,
+"role": "answers",
+"unit": 11,
+"printed": 520,
+"header_bottom": 57.0,
+"header_text": "Unit 11: Answers Section | Physics A Level P-2 Topical Workbook 520 | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "answers"
+},
+{
+"pdf": 513,
+"role": "answers",
+"unit": 11,
+"printed": 521,
+"header_bottom": 83.39999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 521 | Unit 11: Answers Section | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "answers"
+},
+{
+"pdf": 514,
+"role": "answers",
+"unit": 11,
+"printed": 522,
+"header_bottom": 57.48,
+"header_text": "Physics A Level P-2 Topical Workbook 522 Unit 11: Answers Section | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "answers"
+},
+{
+"pdf": 515,
+"role": "answers",
+"unit": 11,
+"printed": 523,
+"header_bottom": 82.44,
+"header_text": "Physics A Level P-2 Topical Workbook 523 | Unit 11: Answers Section | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "answers"
+},
+{
+"pdf": 516,
+"role": "answers",
+"unit": 11,
+"printed": 524,
+"header_bottom": 59.879999999999995,
+"header_text": "Unit 11: Answers Section | Physics A Level P-2 Topical Workbook 524 | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "answers"
+},
+{
+"pdf": 517,
+"role": "answers",
+"unit": 11,
+"printed": 525,
+"header_bottom": 90.36,
+"header_text": "Physics A Level P-2 Topical Workbook 525 | Unit 11: Answers Section | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "answers"
+},
+{
+"pdf": 518,
+"role": "answers",
+"unit": 11,
+"printed": 526,
+"header_bottom": 67.8,
+"header_text": "Physics A Level P-2 Topical Workbook 526 Unit 11: Answers Section | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "answers"
+},
+{
+"pdf": 519,
+"role": "answers",
+"unit": 11,
+"printed": 527,
+"header_bottom": 91.08,
+"header_text": "Physics A Level P-2 Topical Workbook 527 Unit 11: Answers Section | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "answers"
+},
+{
+"pdf": 520,
+"role": "answers",
+"unit": 11,
+"printed": 528,
+"header_bottom": 65.16,
+"header_text": "Unit 11: Answers Section | Physics A Level P-2 Topical Workbook 528 | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "answers"
+},
+{
+"pdf": 521,
+"role": "answers",
+"unit": 11,
+"printed": 529,
+"header_bottom": 88.2,
+"header_text": "Physics A Level P-2 Topical Workbook 529 Unit 11: Answers Section | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "answers"
+},
+{
+"pdf": 522,
+"role": "answers",
+"unit": 11,
+"printed": 530,
+"header_bottom": 63.72,
+"header_text": "Unit 11: Answers Section | Physics A Level P-2 Topical Workbook 530 | Read and Write Publications",
+"contents_unit": 11,
+"contents_role": "answers"
+},
+{
+"pdf": 523,
+"role": "title",
+"unit": 12,
+"printed": 531,
+"header_bottom": null,
+"header_text": "531 | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "title"
+},
+{
+"pdf": 524,
+"role": "questions",
+"unit": 12,
+"printed": 532,
+"header_bottom": 114.36,
+"header_text": "Physics A Level P-2 Topical Workbook 532 Unit 12: Particle and nuclear physics | Read and Write Publications | Unit 12: Particle And Nuclear Physics",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 525,
+"role": "questions",
+"unit": 12,
+"printed": 533,
+"header_bottom": 86.75999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 533 Unit 12: Particle and nuclear physics | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 526,
+"role": "questions",
+"unit": 12,
+"printed": 536,
+"header_bottom": 50.28,
+"header_text": "Physics A Level P-2 Topical Workbook 536 Unit 12: Particie and nuclear physics | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 527,
+"role": "questions",
+"unit": 12,
+"printed": 537,
+"header_bottom": 81.0,
+"header_text": "Physics A Level P-2 Topical Workbook 537 Unit 12: Particle and nuclear physics | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 528,
+"role": "questions",
+"unit": 12,
+"printed": 538,
+"header_bottom": 57.0,
+"header_text": "Physics A Level P-2 Topical Workbook 538 Unit 12: Particle and nuclear physics | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 529,
+"role": "questions",
+"unit": 12,
+"printed": 539,
+"header_bottom": 85.32,
+"header_text": "Physics A Level P-2 Topical Workbook 539 Unit 12: Particle and nuclear physics | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 530,
+"role": "questions",
+"unit": 12,
+"printed": 540,
+"header_bottom": 60.839999999999996,
+"header_text": "Physics A Level P-2 Topical Workbook 540 Unit 12: Particle and nuclear physics | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 531,
+"role": "questions",
+"unit": 12,
+"printed": 541,
+"header_bottom": 88.44,
+"header_text": "Physics A Level P-2 Topical Workbook 541 Unit 12: Particle and nuclear physics | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 532,
+"role": "questions",
+"unit": 12,
+"printed": 542,
+"header_bottom": 64.19999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 542 Unit 12: Particle and nuclear physics | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 533,
+"role": "questions",
+"unit": 12,
+"printed": 543,
+"header_bottom": 88.67999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 543 Unit 12: Particle and nuclear physics | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 534,
+"role": "questions",
+"unit": 12,
+"printed": 544,
+"header_bottom": 64.91999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 544 Unit 12: Particle and nuclear physics | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 535,
+"role": "questions",
+"unit": 12,
+"printed": 545,
+"header_bottom": 86.28,
+"header_text": "Physics A Level P-2 Topical Workbook 545 | Read and Write Publications Unit 12: Particle and nuclear physics",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 536,
+"role": "questions",
+"unit": 12,
+"printed": 546,
+"header_bottom": 62.04,
+"header_text": "Physics A Level P-2 Topical Workbook 546 Unit 12: Particle and nuclear physics | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 537,
+"role": "questions",
+"unit": 12,
+"printed": 547,
+"header_bottom": 86.75999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 547 Unit 12: Particle and nuclear physics | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 538,
+"role": "questions",
+"unit": 12,
+"printed": 548,
+"header_bottom": 64.68,
+"header_text": "Physics A Level P-2 Topical Workbook 548 Unit 12: Particle and nuclear physics | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 539,
+"role": "questions",
+"unit": 12,
+"printed": 549,
+"header_bottom": 88.2,
+"header_text": "Physics A Level P-2 Topical Workbook 549 Unit 12: Particle and nuclear physics | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 540,
+"role": "questions",
+"unit": 12,
+"printed": 550,
+"header_bottom": 65.64,
+"header_text": "Physics A Level P-2 Topical Workbook 550 Unit 12: Particle and nuclear physics | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 541,
+"role": "questions",
+"unit": 12,
+"printed": 551,
+"header_bottom": 87.96,
+"header_text": "Physics A Level P-2 Topical Workbook 551 Unit 12: Particle and nuclear physics | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "questions"
+},
+{
+"pdf": 542,
+"role": "answers",
+"unit": 12,
+"printed": 552,
+"header_bottom": 63.239999999999995,
+"header_text": "Physics A Level P-2 Topical Workbook 552 Unit 12: Answers Section | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "answers"
+},
+{
+"pdf": 543,
+"role": "answers",
+"unit": 12,
+"printed": 553,
+"header_bottom": 89.64,
+"header_text": "Physics A Level P-2 Topical Workbook 553 Unit 12: Answers Section | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "answers"
+},
+{
+"pdf": 544,
+"role": "answers",
+"unit": 12,
+"printed": 554,
+"header_bottom": 66.6,
+"header_text": "Unit 12: Answers Section | Physics A Level P-2 Topical Workbook 554 | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "answers"
+},
+{
+"pdf": 545,
+"role": "answers",
+"unit": 12,
+"printed": 555,
+"header_bottom": 91.08,
+"header_text": "Physics A Level P-2 Topical Workbook 555 | Unit 12: Answers Section | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "answers"
+},
+{
+"pdf": 546,
+"role": "answers",
+"unit": 12,
+"printed": 556,
+"header_bottom": 65.88,
+"header_text": "Physics A Level P-2 Topical Workbook 556 Unit 12: Answers Section | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "answers"
+},
+{
+"pdf": 547,
+"role": "answers",
+"unit": 12,
+"printed": 557,
+"header_bottom": 87.72,
+"header_text": "Physics A Level P-2 Topical Workbook 557 | Unit 12: Answers Section | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "answers"
+},
+{
+"pdf": 548,
+"role": "answers",
+"unit": 12,
+"printed": 558,
+"header_bottom": 62.76,
+"header_text": "Unit 12: Answers Section | Physics A Level P-2 Topical Workbook 558 | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "answers"
+},
+{
+"pdf": 549,
+"role": "answers",
+"unit": 12,
+"printed": 559,
+"header_bottom": 90.11999999999999,
+"header_text": "Physics A Level P-2 Topical Workbook 559 | Unit 12: Answers Section | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "answers"
+},
+{
+"pdf": 550,
+"role": "answers",
+"unit": 12,
+"printed": 560,
+"header_bottom": 67.08,
+"header_text": "Physics A Level P-2 Topical Workbook 560 Unit 12: Answers Section | Read and Write Publications",
+"contents_unit": 12,
+"contents_role": "answers"
+}
+],
+"missing_printed": [
+[
+96,
+97,
+95,
+96
+],
+[
+144,
+145,
+141,
+142
+],
+[
+313,
+314,
+308,
+309
+],
+[
+328,
+329,
+321,
+322
+],
+[
+534,
+535,
+525,
+526
+]
+],
+"role_disagree": [
+17,
+502,
+508
+],
+"sections": {
+"1:questions": [
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20,
+21,
+22,
+23,
+24,
+25,
+26,
+27,
+28,
+29
+],
+"1:answers": [
+30,
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38
+],
+"2:questions": [
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50,
+51,
+52,
+53,
+54,
+55,
+56,
+57,
+58
+],
+"2:answers": [
+59,
+60,
+61,
+62,
+63,
+64
+],
+"3:questions": [
+66,
+67,
+68,
+69,
+70,
+71,
+72,
+73,
+74,
+75,
+76,
+77,
+78,
+79,
+80,
+81,
+82,
+83,
+84,
+85,
+86,
+87,
+88,
+89,
+90,
+91,
+92,
+93,
+94,
+95,
+96,
+97,
+98,
+99,
+100,
+101,
+102,
+103,
+104,
+105,
+106,
+107,
+108
+],
+"3:answers": [
+109,
+110,
+111,
+112,
+113,
+114,
+115,
+116,
+117,
+118,
+119,
+120
+],
+"4:questions": [
+122,
+123,
+124,
+125,
+126,
+127,
+128,
+129,
+130,
+131,
+132,
+133,
+134,
+135,
+136,
+137,
+138,
+139,
+140,
+141,
+142,
+143,
+144,
+145,
+146,
+147,
+148,
+149,
+150,
+151,
+152,
+153,
+154,
+155,
+156,
+157,
+158,
+159,
+160,
+161,
+162
+],
+"4:answers": [
+163,
+164,
+165,
+166,
+167,
+168,
+169,
+170,
+171,
+172,
+173,
+174
+],
+"5:questions": [
+176,
+177,
+178,
+179,
+180,
+181,
+182,
+183,
+184,
+185,
+186,
+187,
+188,
+189,
+190,
+191,
+192,
+193,
+194,
+195,
+196,
+197,
+198,
+199,
+200,
+201,
+202,
+203,
+204,
+205,
+206,
+207,
+208,
+209,
+210,
+211,
+212,
+213,
+214,
+215,
+216,
+217
+],
+"5:answers": [
+218,
+219,
+220,
+221,
+222,
+223,
+224,
+225,
+226,
+227,
+228
+],
+"6:questions": [
+230,
+231,
+232,
+233,
+234,
+235,
+236,
+237,
+238,
+239,
+240,
+241,
+242,
+243,
+244,
+245,
+246,
+247,
+248,
+249,
+250,
+251,
+252,
+253,
+254,
+255,
+256,
+257,
+258,
+259,
+260,
+261,
+262,
+263,
+264,
+265
+],
+"6:answers": [
+266,
+267,
+268,
+269,
+270,
+271,
+272,
+273,
+274,
+275,
+276,
+277
+],
+"7:questions": [
+280,
+281,
+282,
+283,
+284,
+285,
+286,
+287,
+288,
+289,
+290,
+291,
+292,
+293,
+294,
+295,
+296,
+297,
+298,
+299,
+300,
+301,
+302,
+303,
+304,
+305,
+306,
+307,
+308,
+309,
+310,
+311,
+312,
+313,
+314,
+315,
+316,
+317,
+318,
+319,
+320
+],
+"7:answers": [
+321,
+322,
+323,
+324,
+325,
+326,
+327,
+328,
+329
+],
+"8:questions": [
+331,
+332,
+333,
+334,
+335,
+336,
+337,
+338,
+339,
+340,
+341,
+342,
+343,
+344,
+345,
+346,
+347,
+348,
+349,
+350,
+351,
+352,
+353
+],
+"8:answers": [
+354,
+355,
+356,
+357,
+358,
+359,
+360
+],
+"9:questions": [
+362,
+363,
+364,
+365,
+366,
+367,
+368,
+369,
+370,
+371,
+372,
+373,
+374,
+375,
+376,
+377,
+378,
+379,
+380,
+381,
+382,
+383,
+384,
+385,
+386,
+387,
+388,
+389,
+390,
+391,
+392,
+393,
+394,
+395,
+396,
+397,
+398,
+399,
+400,
+401
+],
+"9:answers": [
+402,
+403,
+404,
+405,
+406,
+407,
+408,
+409,
+410,
+411,
+412
+],
+"10:questions": [
+414,
+415,
+416,
+417,
+418,
+419,
+420,
+421,
+422,
+423,
+424,
+425,
+426,
+427,
+428,
+429,
+430,
+431,
+432,
+433,
+434,
+435,
+436,
+437,
+438,
+439,
+440,
+441,
+442,
+443,
+444,
+445,
+446,
+447,
+448,
+449,
+450,
+451,
+452,
+453
+],
+"10:answers": [
+454,
+455,
+456,
+457,
+458,
+459,
+460,
+461,
+462,
+463,
+464
+],
+"11:questions": [
+466,
+467,
+468,
+469,
+470,
+471,
+472,
+473,
+474,
+475,
+476,
+477,
+478,
+479,
+480,
+481,
+482,
+483,
+484,
+485,
+486,
+487,
+488,
+489,
+490,
+491,
+492,
+493,
+494,
+495,
+496,
+497,
+498,
+499,
+500,
+501,
+502,
+503,
+504,
+505,
+506,
+507,
+508
+],
+"11:answers": [
+509,
+510,
+511,
+512,
+513,
+514,
+515,
+516,
+517,
+518,
+519,
+520,
+521,
+522
+],
+"12:questions": [
+524,
+525,
+526,
+527,
+528,
+529,
+530,
+531,
+532,
+533,
+534,
+535,
+536,
+537,
+538,
+539,
+540,
+541
+],
+"12:answers": [
+542,
+543,
+544,
+545,
+546,
+547,
+548,
+549,
+550
+]
+},
+"problems": [
+{
+"section": [
+1,
+"answers"
+],
+"issue": "item number OCR 'None' read as 2 (between 1 and 5)",
+"pdf": 30,
+"fixed": true,
+"no_number": true
+},
+{
+"section": [
+1,
+"answers"
+],
+"issue": "item number OCR 'None' read as 3 (between 1 and 5)",
+"pdf": 30,
+"fixed": true,
+"no_number": true
+},
+{
+"section": [
+1,
+"answers"
+],
+"issue": "item number OCR 'None' read as 4 (between 1 and 5)",
+"pdf": 30,
+"fixed": true,
+"no_number": true
+},
+{
+"section": [
+3,
+"answers"
+],
+"issue": "item number OCR 'None' read as 2 (between 1 and 3)",
+"pdf": 109,
+"fixed": true,
+"no_number": true
+},
+{
+"section": [
+3,
+"questions"
+],
+"issue": "numbers 25..25 not found before pdf p97",
+"pdf": 97,
+"missing": [
+25
+]
+},
+{
+"section": [
+4,
+"questions"
+],
+"issue": "numbers 16..17 not found before pdf p143",
+"pdf": 143,
+"missing": [
+16,
+17
+]
+},
+{
+"section": [
+5,
+"questions"
+],
+"issue": "item number OCR 'None' read as 7 (between 6 and 8)",
+"pdf": 186,
+"fixed": true,
+"no_number": true
+},
+{
+"section": [
+6,
+"questions"
+],
+"issue": "item number OCR '141' read as 11 (between 10 and 12)",
+"pdf": 242,
+"fixed": true,
+"no_number": false
+},
+{
+"section": [
+7,
+"answers"
+],
+"issue": "item number OCR '41' read as 11 (between 10 and 13)",
+"pdf": 322,
+"fixed": true,
+"no_number": false
+},
+{
+"section": [
+7,
+"answers"
+],
+"issue": "item number OCR '42' read as 12 (between 10 and 13)",
+"pdf": 322,
+"fixed": true,
+"no_number": false
+},
+{
+"section": [
+7,
+"answers"
+],
+"issue": "numbers 5..9 not found before pdf p322",
+"pdf": 322,
+"missing": [
+5,
+6,
+7,
+8,
+9
+]
+},
+{
+"section": [
+7,
+"questions"
+],
+"issue": "item number OCR 'None' read as 2 (between 1 and 3)",
+"pdf": 280,
+"fixed": true,
+"no_number": true
+},
+{
+"section": [
+7,
+"questions"
+],
+"issue": "item number OCR '41' read as 11 (between 10 and 12)",
+"pdf": 294,
+"fixed": true,
+"no_number": false
+},
+{
+"section": [
+7,
+"questions"
+],
+"issue": "item number OCR '49' read as 19 (between 18 and 20)",
+"pdf": 306,
+"fixed": true,
+"no_number": false
+},
+{
+"section": [
+7,
+"questions"
+],
+"issue": "numbers 22..22 not found before pdf p309",
+"pdf": 309,
+"missing": [
+22
+]
+},
+{
+"section": [
+11,
+"answers"
+],
+"issue": "item number OCR 'None' read as 2 (between 1 and 3)",
+"pdf": 509,
+"fixed": true,
+"no_number": true
+},
+{
+"section": [
+11,
+"answers"
+],
+"issue": "item number OCR 'None' read as 7 (between 6 and 9)",
+"pdf": 512,
+"fixed": true,
+"no_number": true
+},
+{
+"section": [
+11,
+"answers"
+],
+"issue": "item number OCR 'None' read as 8 (between 6 and 9)",
+"pdf": 512,
+"fixed": true,
+"no_number": true
+},
+{
+"section": [
+12,
+"answers"
+],
+"issue": "item number OCR '4' read as 1 (between 0 and 2)",
+"pdf": 542,
+"fixed": true,
+"no_number": false
+},
+{
+"section": [
+12,
+"answers"
+],
+"issue": "item number OCR '41' read as 11 (between 10 and 13)",
+"pdf": 544,
+"fixed": true,
+"no_number": false
+},
+{
+"section": [
+12,
+"answers"
+],
+"issue": "item number OCR '42' read as 12 (between 10 and 13)",
+"pdf": 544,
+"fixed": true,
+"no_number": false
+},
+{
+"section": [
+12,
+"questions"
+],
+"issue": "item number OCR '42' read as 12 (between 11 and 13)",
+"pdf": 528,
+"fixed": true,
+"no_number": false
+},
+{
+"section": [
+12,
+"questions"
+],
+"issue": "numbers 5..7 not found before pdf p526",
+"pdf": 526,
+"missing": [
+5,
+6,
+7
+]
+}
+],
+"orphan_answers": [
+{
+"unit": 3,
+"n": 25,
+"ocr": "OIN 15/P23/Q3",
+"pdf": 117
+},
+{
+"unit": 4,
+"n": 16,
+"ocr": "MAR 19/P22/Q3",
+"pdf": 168
+},
+{
+"unit": 4,
+"n": 17,
+"ocr": "OIN 18/P22/Q3",
+"pdf": 168
+},
+{
+"unit": 7,
+"n": 22,
+"ocr": "MiJ 18/P21/Q2",
+"pdf": 326
+},
+{
+"unit": 12,
+"n": 5,
+"ocr": "ON 22/P22/Q7",
+"pdf": 542
+},
+{
+"unit": 12,
+"n": 6,
+"ocr": "O/N 22/P21/Q6",
+"pdf": 543
+},
+{
+"unit": 12,
+"n": 7,
+"ocr": "O/N 22/P23/Q6",
+"pdf": 543
+}
+]
+}

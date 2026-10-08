@@ -1,0 +1,7082 @@
+[
+{
+"ref": "MAR 24/P22/Q1/a",
+"paper": "m24_22",
+"q": 1,
+"part": "(a)",
+"topic": 1,
+"section": "1.2.1",
+"justification": "1.2.1 SI units: \u0007recall the following SI base quantities and their units: mass (kg), length (m), time (s), current (A), temperature (K)",
+"marks": 1
+},
+{
+"ref": "MAR 24/P22/Q1/b",
+"paper": "m24_22",
+"q": 1,
+"part": "(b)",
+"topic": 1,
+"section": "1.2.2",
+"justification": "1.2.2 SI units: express derived units as products or quotients of the SI base units and use the derived units for quantities listed in this syllabus as appropriate",
+"marks": 2
+},
+{
+"ref": "MAR 24/P22/Q1/c",
+"paper": "m24_22",
+"q": 1,
+"part": "(c)",
+"topic": 7,
+"section": "7.1.7",
+"justification": "7.1.7 Progressive waves: recall and use intensity = power/area and intensity ∝ (amplitude)2 for a progressive wave",
+"marks": 3
+},
+{
+"ref": "MAR 24/P22/Q2/a",
+"paper": "m24_22",
+"q": 2,
+"part": "(a)",
+"topic": 2,
+"section": "2.1.1",
+"justification": "2.1.1 Equations of motion: define and use distance, displacement, speed, velocity and acceleration",
+"marks": 1
+},
+{
+"ref": "MAR 24/P22/Q2/b",
+"paper": "m24_22",
+"q": 2,
+"part": "(b)",
+"topic": 5,
+"section": "5.1.2",
+"justification": "5.1.2 Energy conservation: recall and apply the principle of conservation of energy",
+"marks": 3
+},
+{
+"ref": "MAR 24/P22/Q2/c(i)",
+"paper": "m24_22",
+"q": 2,
+"part": "(c)(i)",
+"topic": 3,
+"section": "3.2.1",
+"justification": "3.2.1 Non-uniform motion: \u0007show a qualitative understanding of frictional forces and viscous/drag forces including air resistance (no treatment of the coefficients of friction and viscosity is required, and a simple model of drag force increasing as speed increases is sufficient)",
+"marks": 2
+},
+{
+"ref": "MAR 24/P22/Q2/c(ii)",
+"paper": "m24_22",
+"q": 2,
+"part": "(c)(ii)",
+"topic": 4,
+"section": "4.3.6",
+"justification": "4.3.6 Density and pressure: calculate the upthrust acting on an object in a fluid using the equation F = ρgV (Archimedes’ principle)",
+"marks": 1
+},
+{
+"ref": "MAR 24/P22/Q2/c(iii)",
+"paper": "m24_22",
+"q": 2,
+"part": "(c)(iii)",
+"topic": 3,
+"section": "3.1.2",
+"justification": "3.1.2 Momentum and Newton's laws of motion: \u0007recall F = ma and solve problems using it, understanding that acceleration and resultant force are always in the same direction",
+"marks": 4
+},
+{
+"ref": "MAR 24/P22/Q3/a(i)",
+"paper": "m24_22",
+"q": 3,
+"part": "(a)(i)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 3
+},
+{
+"ref": "MAR 24/P22/Q3/a(ii)",
+"paper": "m24_22",
+"q": 3,
+"part": "(a)(ii)",
+"topic": 6,
+"section": "6.2.4",
+"justification": "6.2.4 Elastic and plastic behaviour: recall and use EP = 2 1  Fx = 2 1  kx2 for a material deformed within its limit of proportionality",
+"marks": 3
+},
+{
+"ref": "MAR 24/P22/Q3/b",
+"paper": "m24_22",
+"q": 3,
+"part": "(b)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 2
+},
+{
+"ref": "MAR 24/P22/Q4/a",
+"paper": "m24_22",
+"q": 4,
+"part": "(a)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 2
+},
+{
+"ref": "MAR 24/P22/Q4/b(i)",
+"paper": "m24_22",
+"q": 4,
+"part": "(b)(i)",
+"topic": 3,
+"section": "3.3.1",
+"justification": "3.3.1 Linear momentum and its conservation: state the principle of conservation of momentum",
+"marks": 2
+},
+{
+"ref": "MAR 24/P22/Q4/b(ii)",
+"paper": "m24_22",
+"q": 4,
+"part": "(b)(ii)",
+"topic": 3,
+"section": "3.3.2",
+"justification": "3.3.2 Linear momentum and its conservation: \u0007apply the principle of conservation of momentum to solve simple problems, including elastic and inelastic interactions between objects in both one and two dimensions (knowledge of the concept of coefficient of restitution is not required)",
+"marks": 2
+},
+{
+"ref": "MAR 24/P22/Q5/a",
+"paper": "m24_22",
+"q": 5,
+"part": "(a)",
+"topic": 7,
+"section": "7.2.1",
+"justification": "7.2.1 Transverse and longitudinal waves: compare transverse and longitudinal waves",
+"marks": 1
+},
+{
+"ref": "MAR 24/P22/Q5/b",
+"paper": "m24_22",
+"q": 5,
+"part": "(b)",
+"topic": 7,
+"section": "7.4.2",
+"justification": "7.4.2 Electromagnetic spectrum: recall the approximate range of wavelengths in free space of the principal regions of the electromagnetic spectrum from radio waves to γ-rays",
+"marks": 1
+},
+{
+"ref": "MAR 24/P22/Q5/c",
+"paper": "m24_22",
+"q": 5,
+"part": "(c)",
+"topic": 7,
+"section": "7.1.3",
+"justification": "7.1.3 Progressive waves: \u0007understand the use of the time-base and y-gain of a cathode-ray oscilloscope (CRO) to determine frequency and amplitude",
+"marks": 3
+},
+{
+"ref": "MAR 24/P22/Q6/a(i)",
+"paper": "m24_22",
+"q": 6,
+"part": "(a)(i)",
+"topic": 8,
+"section": "8.3.1",
+"justification": "8.3.1 Interference: understand the terms interference and coherence",
+"marks": 3
+},
+{
+"ref": "MAR 24/P22/Q6/a(ii)",
+"paper": "m24_22",
+"q": 6,
+"part": "(a)(ii)",
+"topic": 8,
+"section": "8.3.4",
+"justification": "8.3.4 Interference: recall and use λ = ax / D for double-slit interference using light",
+"marks": 3
+},
+{
+"ref": "MAR 24/P22/Q6/a(iii)",
+"paper": "m24_22",
+"q": 6,
+"part": "(a)(iii)",
+"topic": 8,
+"section": "8.3.4",
+"justification": "8.3.4 Interference: recall and use λ = ax / D for double-slit interference using light",
+"marks": 1
+},
+{
+"ref": "MAR 24/P22/Q6/b(i)",
+"paper": "m24_22",
+"q": 6,
+"part": "(b)(i)",
+"topic": 8,
+"section": "8.1.3",
+"justification": "8.1.3 Stationary waves: explain the formation of a stationary wave using a graphical method, and identify nodes and antinodes",
+"marks": 1
+},
+{
+"ref": "MAR 24/P22/Q6/b(ii)",
+"paper": "m24_22",
+"q": 6,
+"part": "(b)(ii)",
+"topic": 8,
+"section": "8.1.3",
+"justification": "8.1.3 Stationary waves: explain the formation of a stationary wave using a graphical method, and identify nodes and antinodes",
+"marks": 1
+},
+{
+"ref": "MAR 24/P22/Q6/b(iii)",
+"paper": "m24_22",
+"q": 6,
+"part": "(b)(iii)",
+"topic": 8,
+"section": "8.1.3",
+"justification": "8.1.3 Stationary waves: explain the formation of a stationary wave using a graphical method, and identify nodes and antinodes",
+"marks": 1
+},
+{
+"ref": "MAR 24/P22/Q7/a",
+"paper": "m24_22",
+"q": 7,
+"part": "(a)",
+"topic": 9,
+"section": "9.2.1",
+"justification": "9.2.1 Potential difference and power: define the potential difference across a component as the energy transferred per unit charge",
+"marks": 1
+},
+{
+"ref": "MAR 24/P22/Q7/b",
+"paper": "m24_22",
+"q": 7,
+"part": "(b)",
+"topic": 10,
+"section": "10.1.5",
+"justification": "10.1.5 Practical circuits: understand the effects of the internal resistance of a source of e.m.f. on the terminal potential difference",
+"marks": 3
+},
+{
+"ref": "MAR 24/P22/Q7/c(i)",
+"paper": "m24_22",
+"q": 7,
+"part": "(c)(i)",
+"topic": 10,
+"section": "10.1.3",
+"justification": "10.1.3 Practical circuits: \u0007define and use the electromotive force (e.m.f.) of a source as energy transferred per unit charge in driving charge around a complete circuit",
+"marks": 1
+},
+{
+"ref": "MAR 24/P22/Q7/c(ii)",
+"paper": "m24_22",
+"q": 7,
+"part": "(c)(ii)",
+"topic": 9,
+"section": "9.3.4",
+"justification": "9.3.4 Resistance and resistivity: \u0007explain that the resistance of a filament lamp increases as current increases because its temperature increases",
+"marks": 3
+},
+{
+"ref": "MAR 24/P22/Q8/a",
+"paper": "m24_22",
+"q": 8,
+"part": "(a)",
+"topic": 11,
+"section": "11.2.6",
+"justification": "11.2.6 Fundamental particles: recall that electrons and neutrinos are fundamental particles called leptons",
+"marks": 1
+},
+{
+"ref": "MAR 24/P22/Q8/b(i)",
+"paper": "m24_22",
+"q": 8,
+"part": "(b)(i)",
+"topic": 11,
+"section": "11.2.2",
+"justification": "11.2.2 Fundamental particles: \u0007recall and use the charge of each flavour of quark and understand that its respective antiquark has the opposite charge (no knowledge of any other properties of quarks is required)",
+"marks": 1
+},
+{
+"ref": "MAR 24/P22/Q8/b(ii)",
+"paper": "m24_22",
+"q": 8,
+"part": "(b)(ii)",
+"topic": 11,
+"section": "11.2.4",
+"justification": "11.2.4 Fundamental particles: \u0007understand that a hadron may be either a baryon (consisting of three quarks) or a meson (consisting of one quark and one antiquark)",
+"marks": 1
+},
+{
+"ref": "MAR 24/P22/Q8/c(i)",
+"paper": "m24_22",
+"q": 8,
+"part": "(c)(i)",
+"topic": 11,
+"section": "11.1.9",
+"justification": "11.1.9 Atoms, nuclei and radiation: \u0007state that (electron) antineutrinos are produced during β– decay and (electron) neutrinos are produced during β+ decay",
+"marks": 1
+},
+{
+"ref": "MAR 24/P22/Q8/c(ii)",
+"paper": "m24_22",
+"q": 8,
+"part": "(c)(ii)",
+"topic": 11,
+"section": "11.1.6",
+"justification": "11.1.6 Atoms, nuclei and radiation: understand that nucleon number and charge are conserved in nuclear processes",
+"marks": 1
+},
+{
+"ref": "MAR 24/P22/Q8/c(iii)",
+"paper": "m24_22",
+"q": 8,
+"part": "(c)(iii)",
+"topic": 11,
+"section": "11.1.6",
+"justification": "11.1.6 Atoms, nuclei and radiation: understand that nucleon number and charge are conserved in nuclear processes",
+"marks": 1
+},
+{
+"ref": "MAR 25/P22/Q1/a",
+"paper": "m25_22",
+"q": 1,
+"part": "(a)",
+"topic": 1,
+"section": "1.3.2",
+"justification": "1.3.2 Errors and uncertainties: \u0007understand the distinction between precision and accuracy",
+"marks": 1
+},
+{
+"ref": "MAR 25/P22/Q1/b(i)",
+"paper": "m25_22",
+"q": 1,
+"part": "(b)(i)",
+"topic": 4,
+"section": "4.3.1",
+"justification": "4.3.1 Density and pressure: define and use density",
+"marks": 2
+},
+{
+"ref": "MAR 25/P22/Q1/b(ii)",
+"paper": "m25_22",
+"q": 1,
+"part": "(b)(ii)",
+"topic": 1,
+"section": "1.3.3",
+"justification": "1.3.3 Errors and uncertainties: \u0007assess the uncertainty in a derived quantity by simple addition of absolute or percentage uncertainties",
+"marks": 2
+},
+{
+"ref": "MAR 25/P22/Q1/b(iii)",
+"paper": "m25_22",
+"q": 1,
+"part": "(b)(iii)",
+"topic": 1,
+"section": "1.3.3",
+"justification": "1.3.3 Errors and uncertainties: \u0007assess the uncertainty in a derived quantity by simple addition of absolute or percentage uncertainties",
+"marks": 2
+},
+{
+"ref": "MAR 25/P22/Q2/a",
+"paper": "m25_22",
+"q": 2,
+"part": "(a)",
+"topic": 4,
+"section": "4.2.1",
+"justification": "4.2.1 Equilibrium of forces: state and apply the principle of moments",
+"marks": 2
+},
+{
+"ref": "MAR 25/P22/Q2/b(i)",
+"paper": "m25_22",
+"q": 2,
+"part": "(b)(i)",
+"topic": 4,
+"section": "4.2.1",
+"justification": "4.2.1 Equilibrium of forces: state and apply the principle of moments",
+"marks": 3
+},
+{
+"ref": "MAR 25/P22/Q2/b(ii)",
+"paper": "m25_22",
+"q": 2,
+"part": "(b)(ii)",
+"topic": 4,
+"section": "4.2.2",
+"justification": "4.2.2 Equilibrium of forces: understand that, when there is no resultant force and no resultant torque, a system is in equilibrium",
+"marks": 1
+},
+{
+"ref": "MAR 25/P22/Q2/b(iii)",
+"paper": "m25_22",
+"q": 2,
+"part": "(b)(iii)",
+"topic": 4,
+"section": "4.3.6",
+"justification": "4.3.6 Density and pressure: calculate the upthrust acting on an object in a fluid using the equation F = ρgV (Archimedes’ principle)",
+"marks": 2
+},
+{
+"ref": "MAR 25/P22/Q2/b(iv)",
+"paper": "m25_22",
+"q": 2,
+"part": "(b)(iv)",
+"topic": 4,
+"section": "4.2.1",
+"justification": "4.2.1 Equilibrium of forces: state and apply the principle of moments",
+"marks": 2
+},
+{
+"ref": "MAR 25/P22/Q3/a(i)",
+"paper": "m25_22",
+"q": 3,
+"part": "(a)(i)",
+"topic": 2,
+"section": "2.1.7",
+"justification": "2.1.7 Equations of motion: \u0007solve problems using equations that represent uniformly accelerated motion in a straight line, including the motion of bodies falling in a uniform gravitational field without air resistance",
+"marks": 2
+},
+{
+"ref": "MAR 25/P22/Q3/a(ii)",
+"paper": "m25_22",
+"q": 3,
+"part": "(a)(ii)",
+"topic": 5,
+"section": "5.2.4",
+"justification": "5.2.4 Gravitational potential energy and kinetic energy: recall and use EK = 2 1 mv2",
+"marks": 3
+},
+{
+"ref": "MAR 25/P22/Q3/b(i)",
+"paper": "m25_22",
+"q": 3,
+"part": "(b)(i)",
+"topic": 3,
+"section": "3.1.4",
+"justification": "3.1.4 Momentum and Newton's laws of motion: define and use force as rate of change of momentum",
+"marks": 1
+},
+{
+"ref": "MAR 25/P22/Q3/b(ii)",
+"paper": "m25_22",
+"q": 3,
+"part": "(b)(ii)",
+"topic": 3,
+"section": "3.1.4",
+"justification": "3.1.4 Momentum and Newton's laws of motion: define and use force as rate of change of momentum",
+"marks": 1
+},
+{
+"ref": "MAR 25/P22/Q3/b(iii)",
+"paper": "m25_22",
+"q": 3,
+"part": "(b)(iii)",
+"topic": 3,
+"section": "3.1.4",
+"justification": "3.1.4 Momentum and Newton's laws of motion: define and use force as rate of change of momentum",
+"marks": 3
+},
+{
+"ref": "MAR 25/P22/Q4/a",
+"paper": "m25_22",
+"q": 4,
+"part": "(a)",
+"topic": 8,
+"section": "8.1.3",
+"justification": "8.1.3 Stationary waves: explain the formation of a stationary wave using a graphical method, and identify nodes and antinodes",
+"marks": 4
+},
+{
+"ref": "MAR 25/P22/Q4/b(i)",
+"paper": "m25_22",
+"q": 4,
+"part": "(b)(i)",
+"topic": 8,
+"section": "8.1.4",
+"justification": "8.1.4 Stationary waves: \u0007understand how wavelength may be determined from the positions of nodes or antinodes of a stationary wave",
+"marks": 2
+},
+{
+"ref": "MAR 25/P22/Q4/b(ii)",
+"paper": "m25_22",
+"q": 4,
+"part": "(b)(ii)",
+"topic": 8,
+"section": "8.1.4",
+"justification": "8.1.4 Stationary waves: \u0007understand how wavelength may be determined from the positions of nodes or antinodes of a stationary wave",
+"marks": 1
+},
+{
+"ref": "MAR 25/P22/Q4/b(iii)",
+"paper": "m25_22",
+"q": 4,
+"part": "(b)(iii)",
+"topic": 8,
+"section": "8.1.4",
+"justification": "8.1.4 Stationary waves: \u0007understand how wavelength may be determined from the positions of nodes or antinodes of a stationary wave",
+"marks": 1
+},
+{
+"ref": "MAR 25/P22/Q5/a",
+"paper": "m25_22",
+"q": 5,
+"part": "(a)",
+"topic": 7,
+"section": "7.1.3",
+"justification": "7.1.3 Progressive waves: \u0007understand the use of the time-base and y-gain of a cathode-ray oscilloscope (CRO) to determine frequency and amplitude",
+"marks": 3
+},
+{
+"ref": "MAR 25/P22/Q5/b",
+"paper": "m25_22",
+"q": 5,
+"part": "(b)",
+"topic": 7,
+"section": "7.3.1",
+"justification": "7.3.1 Doppler effect for sound waves: \u0007understand that when a source of sound waves moves relative to a stationary observer, the observed frequency is different from the source frequency (understanding of the Doppler effect for a stationary source and a moving observer is not required)",
+"marks": 2
+},
+{
+"ref": "MAR 25/P22/Q6/a",
+"paper": "m25_22",
+"q": 6,
+"part": "(a)",
+"topic": 9,
+"section": "9.3.2",
+"justification": "9.3.2 Resistance and resistivity: recall and use V = IR",
+"marks": 2
+},
+{
+"ref": "MAR 25/P22/Q6/b(i)",
+"paper": "m25_22",
+"q": 6,
+"part": "(b)(i)",
+"topic": 9,
+"section": "9.3.6",
+"justification": "9.3.6 Resistance and resistivity: recall and use R = ρL / A",
+"marks": 2
+},
+{
+"ref": "MAR 25/P22/Q6/b(ii)",
+"paper": "m25_22",
+"q": 6,
+"part": "(b)(ii)",
+"topic": 9,
+"section": "9.1.4",
+"justification": "9.1.4 Electric current: \u0007use, for a current-carrying conductor, the expression I = Anvq, where n is the number density of charge carriers",
+"marks": 1
+},
+{
+"ref": "MAR 25/P22/Q6/b(iii)",
+"paper": "m25_22",
+"q": 6,
+"part": "(b)(iii)",
+"topic": 9,
+"section": "9.1.4",
+"justification": "9.1.4 Electric current: \u0007use, for a current-carrying conductor, the expression I = Anvq, where n is the number density of charge carriers",
+"marks": 2
+},
+{
+"ref": "MAR 25/P22/Q6/c(i)",
+"paper": "m25_22",
+"q": 6,
+"part": "(c)(i)",
+"topic": 9,
+"section": "9.3.6",
+"justification": "9.3.6 Resistance and resistivity: recall and use R = ρL / A",
+"marks": 4
+},
+{
+"ref": "MAR 25/P22/Q6/c(ii)",
+"paper": "m25_22",
+"q": 6,
+"part": "(c)(ii)",
+"topic": 9,
+"section": "9.1.4",
+"justification": "9.1.4 Electric current: \u0007use, for a current-carrying conductor, the expression I = Anvq, where n is the number density of charge carriers",
+"marks": 2
+},
+{
+"ref": "MAR 25/P22/Q7/a",
+"paper": "m25_22",
+"q": 7,
+"part": "(a)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 1
+},
+{
+"ref": "MAR 25/P22/Q7/b",
+"paper": "m25_22",
+"q": 7,
+"part": "(b)",
+"topic": 3,
+"section": "3.3.2",
+"justification": "3.3.2 Linear momentum and its conservation: \u0007apply the principle of conservation of momentum to solve simple problems, including elastic and inelastic interactions between objects in both one and two dimensions (knowledge of the concept of coefficient of restitution is not required)",
+"marks": 3
+},
+{
+"ref": "MAR 25/P22/Q7/c",
+"paper": "m25_22",
+"q": 7,
+"part": "(c)",
+"topic": 11,
+"section": "11.1.6",
+"justification": "11.1.6 Atoms, nuclei and radiation: understand that nucleon number and charge are conserved in nuclear processes",
+"marks": 3
+},
+{
+"ref": "MAR 26/P22/Q1/a",
+"paper": "m26_22",
+"q": 1,
+"part": "(a)",
+"topic": 3,
+"section": "3.1.4",
+"justification": "3.1.4 Momentum and Newton's laws of motion: define and use force as rate of change of momentum",
+"marks": 1
+},
+{
+"ref": "MAR 26/P22/Q1/b",
+"paper": "m26_22",
+"q": 1,
+"part": "(b)",
+"topic": 1,
+"section": "1.2.2",
+"justification": "1.2.2 SI units: express derived units as products or quotients of the SI base units and use the derived units for quantities listed in this syllabus as appropriate",
+"marks": 1
+},
+{
+"ref": "MAR 26/P22/Q1/c",
+"paper": "m26_22",
+"q": 1,
+"part": "(c)",
+"topic": 1,
+"section": "1.2.3",
+"justification": "1.2.3 SI units: use SI base units to check the homogeneity of physical equations",
+"marks": 2
+},
+{
+"ref": "MAR 26/P22/Q2/a",
+"paper": "m26_22",
+"q": 2,
+"part": "(a)",
+"topic": 3,
+"section": "3.3.1",
+"justification": "3.3.1 Linear momentum and its conservation: state the principle of conservation of momentum",
+"marks": 2
+},
+{
+"ref": "MAR 26/P22/Q2/b(i)",
+"paper": "m26_22",
+"q": 2,
+"part": "(b)(i)",
+"topic": 3,
+"section": "3.3.2",
+"justification": "3.3.2 Linear momentum and its conservation: \u0007apply the principle of conservation of momentum to solve simple problems, including elastic and inelastic interactions between objects in both one and two dimensions (knowledge of the concept of coefficient of restitution is not required)",
+"marks": 2
+},
+{
+"ref": "MAR 26/P22/Q2/b(ii)",
+"paper": "m26_22",
+"q": 2,
+"part": "(b)(ii)",
+"topic": 3,
+"section": "3.3.4",
+"justification": "3.3.4 Linear momentum and its conservation: \u0007understand that, while momentum of a system is always conserved in interactions between objects, some change in kinetic energy may take place",
+"marks": 3
+},
+{
+"ref": "MAR 26/P22/Q2/b(iii)",
+"paper": "m26_22",
+"q": 2,
+"part": "(b)(iii)",
+"topic": 3,
+"section": "3.3.3",
+"justification": "3.3.3 Linear momentum and its conservation: \u0007recall that, for an elastic collision, total kinetic energy is conserved and the relative speed of approach is equal to the relative speed of separation",
+"marks": 1
+},
+{
+"ref": "MAR 26/P22/Q2/c(i)",
+"paper": "m26_22",
+"q": 2,
+"part": "(c)(i)",
+"topic": 4,
+"section": "4.3.6",
+"justification": "4.3.6 Density and pressure: calculate the upthrust acting on an object in a fluid using the equation F = ρgV (Archimedes’ principle)",
+"marks": 1
+},
+{
+"ref": "MAR 26/P22/Q2/c(ii)",
+"paper": "m26_22",
+"q": 2,
+"part": "(c)(ii)",
+"topic": 4,
+"section": "4.3.6",
+"justification": "4.3.6 Density and pressure: calculate the upthrust acting on an object in a fluid using the equation F = ρgV (Archimedes’ principle)",
+"marks": 2
+},
+{
+"ref": "MAR 26/P22/Q3/a(i)",
+"paper": "m26_22",
+"q": 3,
+"part": "(a)(i)",
+"topic": 5,
+"section": "5.1.1",
+"justification": "5.1.1 Energy conservation: \u0007understand the concept of work, and recall and use work done = force × displacement in the direction of the force",
+"marks": 2
+},
+{
+"ref": "MAR 26/P22/Q3/a(ii)",
+"paper": "m26_22",
+"q": 3,
+"part": "(a)(ii)",
+"topic": 5,
+"section": "5.2.2",
+"justification": "5.2.2 Gravitational potential energy and kinetic energy: \u0007recall and use the formula ∆EP = mg∆h for gravitational potential energy changes in a uniform gravitational field",
+"marks": 3
+},
+{
+"ref": "MAR 26/P22/Q3/b",
+"paper": "m26_22",
+"q": 3,
+"part": "(b)",
+"topic": 5,
+"section": "5.1.2",
+"justification": "5.1.2 Energy conservation: recall and apply the principle of conservation of energy",
+"marks": 1
+},
+{
+"ref": "MAR 26/P22/Q4/a(i)",
+"paper": "m26_22",
+"q": 4,
+"part": "(a)(i)",
+"topic": 4,
+"section": "4.1.2",
+"justification": "4.1.2 Turning effects of forces: define and apply the moment of a force",
+"marks": 1
+},
+{
+"ref": "MAR 26/P22/Q4/a(ii)",
+"paper": "m26_22",
+"q": 4,
+"part": "(a)(ii)",
+"topic": 4,
+"section": "4.1.2",
+"justification": "4.1.2 Turning effects of forces: define and apply the moment of a force",
+"marks": 1
+},
+{
+"ref": "MAR 26/P22/Q4/a(iii)",
+"paper": "m26_22",
+"q": 4,
+"part": "(a)(iii)",
+"topic": 4,
+"section": "4.2.3",
+"justification": "4.2.3 Equilibrium of forces: use a vector triangle to represent coplanar forces in equilibrium",
+"marks": 2
+},
+{
+"ref": "MAR 26/P22/Q4/a(iv)",
+"paper": "m26_22",
+"q": 4,
+"part": "(a)(iv)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 3
+},
+{
+"ref": "MAR 26/P22/Q4/b(i)",
+"paper": "m26_22",
+"q": 4,
+"part": "(b)(i)",
+"topic": 2,
+"section": "2.1.7",
+"justification": "2.1.7 Equations of motion: \u0007solve problems using equations that represent uniformly accelerated motion in a straight line, including the motion of bodies falling in a uniform gravitational field without air resistance",
+"marks": 2
+},
+{
+"ref": "MAR 26/P22/Q4/b(ii)",
+"paper": "m26_22",
+"q": 4,
+"part": "(b)(ii)",
+"topic": 2,
+"section": "2.1.2",
+"justification": "2.1.2 Equations of motion: use graphical methods to represent distance, displacement, speed, velocity and acceleration",
+"marks": 2
+},
+{
+"ref": "MAR 26/P22/Q5/a(i)",
+"paper": "m26_22",
+"q": 5,
+"part": "(a)(i)",
+"topic": 7,
+"section": "7.1.2",
+"justification": "7.1.2 Progressive waves: \u0007understand and use the terms displacement, amplitude, phase difference, period, frequency, wavelength and speed",
+"marks": 1
+},
+{
+"ref": "MAR 26/P22/Q5/a(ii)",
+"paper": "m26_22",
+"q": 5,
+"part": "(a)(ii)",
+"topic": 7,
+"section": "7.1.2",
+"justification": "7.1.2 Progressive waves: \u0007understand and use the terms displacement, amplitude, phase difference, period, frequency, wavelength and speed",
+"marks": 1
+},
+{
+"ref": "MAR 26/P22/Q5/b(i)",
+"paper": "m26_22",
+"q": 5,
+"part": "(b)(i)",
+"topic": 8,
+"section": "8.1.3",
+"justification": "8.1.3 Stationary waves: explain the formation of a stationary wave using a graphical method, and identify nodes and antinodes",
+"marks": 1
+},
+{
+"ref": "MAR 26/P22/Q5/b(ii)",
+"paper": "m26_22",
+"q": 5,
+"part": "(b)(ii)",
+"topic": 8,
+"section": "8.1.4",
+"justification": "8.1.4 Stationary waves: \u0007understand how wavelength may be determined from the positions of nodes or antinodes of a stationary wave",
+"marks": 3
+},
+{
+"ref": "MAR 26/P22/Q5/b(iii)",
+"paper": "m26_22",
+"q": 5,
+"part": "(b)(iii)",
+"topic": 8,
+"section": "8.1.4",
+"justification": "8.1.4 Stationary waves: \u0007understand how wavelength may be determined from the positions of nodes or antinodes of a stationary wave",
+"marks": 2
+},
+{
+"ref": "MAR 26/P22/Q5/c(i)",
+"paper": "m26_22",
+"q": 5,
+"part": "(c)(i)",
+"topic": 8,
+"section": "8.4.1",
+"justification": "8.4.1 The diffraction grating: recall and use d sin θ = nλ",
+"marks": 3
+},
+{
+"ref": "MAR 26/P22/Q5/c(ii)",
+"paper": "m26_22",
+"q": 5,
+"part": "(c)(ii)",
+"topic": 8,
+"section": "8.4.1",
+"justification": "8.4.1 The diffraction grating: recall and use d sin θ = nλ",
+"marks": 1
+},
+{
+"ref": "MAR 26/P22/Q6/a",
+"paper": "m26_22",
+"q": 6,
+"part": "(a)",
+"topic": 9,
+"section": "9.1.1",
+"justification": "9.1.1 Electric current: understand that an electric current is a flow of charge carriers",
+"marks": 1
+},
+{
+"ref": "MAR 26/P22/Q6/b",
+"paper": "m26_22",
+"q": 6,
+"part": "(b)",
+"topic": 10,
+"section": "10.1.5",
+"justification": "10.1.5 Practical circuits: understand the effects of the internal resistance of a source of e.m.f. on the terminal potential difference",
+"marks": 2
+},
+{
+"ref": "MAR 26/P22/Q6/c(i)",
+"paper": "m26_22",
+"q": 6,
+"part": "(c)(i)",
+"topic": 9,
+"section": "9.3.6",
+"justification": "9.3.6 Resistance and resistivity: recall and use R = ρL / A",
+"marks": 2
+},
+{
+"ref": "MAR 26/P22/Q6/c(ii)",
+"paper": "m26_22",
+"q": 6,
+"part": "(c)(ii)",
+"topic": 10,
+"section": "10.2.7",
+"justification": "10.2.7 Kirchhoff's laws: use Kirchhoff’s laws to solve simple circuit problems",
+"marks": 3
+},
+{
+"ref": "MAR 26/P22/Q6/c(iii)",
+"paper": "m26_22",
+"q": 6,
+"part": "(c)(iii)",
+"topic": 9,
+"section": "9.2.3",
+"justification": "9.2.3 Potential difference and power: recall and use P = VI, P = I 2R and P = V 2 / R",
+"marks": 2
+},
+{
+"ref": "MAR 26/P22/Q7/a",
+"paper": "m26_22",
+"q": 7,
+"part": "(a)",
+"topic": 11,
+"section": "11.1.2",
+"justification": "11.1.2 Atoms, nuclei and radiation: describe a simple model for the nuclear atom to include protons, neutrons and orbital electrons",
+"marks": 2
+},
+{
+"ref": "MAR 26/P22/Q7/b(i)",
+"paper": "m26_22",
+"q": 7,
+"part": "(b)(i)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 1
+},
+{
+"ref": "MAR 26/P22/Q7/b(ii)",
+"paper": "m26_22",
+"q": 7,
+"part": "(b)(ii)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 1
+},
+{
+"ref": "MAR 26/P22/Q7/c",
+"paper": "m26_22",
+"q": 7,
+"part": "(c)",
+"topic": 11,
+"section": "11.1.7",
+"justification": "11.1.7 Atoms, nuclei and radiation: \u0007describe the composition, mass and charge of α-, β- and γ-radiations (both β– (electrons) and β+ (positrons) are included)",
+"marks": 2
+},
+{
+"ref": "M/J 24/P21/Q1/a",
+"paper": "s24_21",
+"q": 1,
+"part": "(a)",
+"topic": 1,
+"section": "1.2.3",
+"justification": "1.2.3 SI units: use SI base units to check the homogeneity of physical equations",
+"marks": 3
+},
+{
+"ref": "M/J 24/P21/Q1/b",
+"paper": "s24_21",
+"q": 1,
+"part": "(b)",
+"topic": 3,
+"section": "3.2.1",
+"justification": "3.2.1 Non-uniform motion: \u0007show a qualitative understanding of frictional forces and viscous/drag forces including air resistance (no treatment of the coefficients of friction and viscosity is required, and a simple model of drag force increasing as speed increases is sufficient)",
+"marks": 2
+},
+{
+"ref": "M/J 24/P21/Q1/c",
+"paper": "s24_21",
+"q": 1,
+"part": "(c)",
+"topic": 3,
+"section": "3.2.3",
+"justification": "3.2.3 Non-uniform motion: understand that objects moving against a resistive force may reach a terminal (constant) velocity",
+"marks": 2
+},
+{
+"ref": "M/J 24/P21/Q1/d",
+"paper": "s24_21",
+"q": 1,
+"part": "(d)",
+"topic": 3,
+"section": "3.2.3",
+"justification": "3.2.3 Non-uniform motion: understand that objects moving against a resistive force may reach a terminal (constant) velocity",
+"marks": 3
+},
+{
+"ref": "M/J 24/P21/Q2/a",
+"paper": "s24_21",
+"q": 2,
+"part": "(a)",
+"topic": 2,
+"section": "2.1.1",
+"justification": "2.1.1 Equations of motion: define and use distance, displacement, speed, velocity and acceleration",
+"marks": 1
+},
+{
+"ref": "M/J 24/P21/Q2/b(i)",
+"paper": "s24_21",
+"q": 2,
+"part": "(b)(i)",
+"topic": 2,
+"section": "2.1.9",
+"justification": "2.1.9 Equations of motion: \u0007describe and explain motion due to a uniform velocity in one direction and a uniform acceleration in a perpendicular direction",
+"marks": 2
+},
+{
+"ref": "M/J 24/P21/Q2/b(ii)",
+"paper": "s24_21",
+"q": 2,
+"part": "(b)(ii)",
+"topic": 1,
+"section": "1.4.3",
+"justification": "1.4.3 Scalars and vectors: represent a vector as two perpendicular components",
+"marks": 1
+},
+{
+"ref": "M/J 24/P21/Q2/b(iii)",
+"paper": "s24_21",
+"q": 2,
+"part": "(b)(iii)",
+"topic": 2,
+"section": "2.1.9",
+"justification": "2.1.9 Equations of motion: \u0007describe and explain motion due to a uniform velocity in one direction and a uniform acceleration in a perpendicular direction",
+"marks": 3
+},
+{
+"ref": "M/J 24/P21/Q3/a",
+"paper": "s24_21",
+"q": 3,
+"part": "(a)",
+"topic": 3,
+"section": "3.3.1",
+"justification": "3.3.1 Linear momentum and its conservation: state the principle of conservation of momentum",
+"marks": 2
+},
+{
+"ref": "M/J 24/P21/Q3/b",
+"paper": "s24_21",
+"q": 3,
+"part": "(b)",
+"topic": 3,
+"section": "3.3.2",
+"justification": "3.3.2 Linear momentum and its conservation: \u0007apply the principle of conservation of momentum to solve simple problems, including elastic and inelastic interactions between objects in both one and two dimensions (knowledge of the concept of coefficient of restitution is not required)",
+"marks": 4
+},
+{
+"ref": "M/J 24/P21/Q3/c",
+"paper": "s24_21",
+"q": 3,
+"part": "(c)",
+"topic": 3,
+"section": "3.1.2",
+"justification": "3.1.2 Momentum and Newton's laws of motion: \u0007recall F = ma and solve problems using it, understanding that acceleration and resultant force are always in the same direction",
+"marks": 3
+},
+{
+"ref": "M/J 24/P21/Q4/a",
+"paper": "s24_21",
+"q": 4,
+"part": "(a)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 1
+},
+{
+"ref": "M/J 24/P21/Q4/b(i)",
+"paper": "s24_21",
+"q": 4,
+"part": "(b)(i)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 3
+},
+{
+"ref": "M/J 24/P21/Q4/b(ii)",
+"paper": "s24_21",
+"q": 4,
+"part": "(b)(ii)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 2
+},
+{
+"ref": "M/J 24/P21/Q4/c",
+"paper": "s24_21",
+"q": 4,
+"part": "(c)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 2
+},
+{
+"ref": "M/J 24/P21/Q5/a",
+"paper": "s24_21",
+"q": 5,
+"part": "(a)",
+"topic": 8,
+"section": "8.1.3",
+"justification": "8.1.3 Stationary waves: explain the formation of a stationary wave using a graphical method, and identify nodes and antinodes",
+"marks": 2
+},
+{
+"ref": "M/J 24/P21/Q5/b",
+"paper": "s24_21",
+"q": 5,
+"part": "(b)",
+"topic": 8,
+"section": "8.1.4",
+"justification": "8.1.4 Stationary waves: \u0007understand how wavelength may be determined from the positions of nodes or antinodes of a stationary wave",
+"marks": 1
+},
+{
+"ref": "M/J 24/P21/Q5/c",
+"paper": "s24_21",
+"q": 5,
+"part": "(c)",
+"topic": 8,
+"section": "8.1.3",
+"justification": "8.1.3 Stationary waves: explain the formation of a stationary wave using a graphical method, and identify nodes and antinodes",
+"marks": 2
+},
+{
+"ref": "M/J 24/P21/Q5/d",
+"paper": "s24_21",
+"q": 5,
+"part": "(d)",
+"topic": 8,
+"section": "8.1.3",
+"justification": "8.1.3 Stationary waves: explain the formation of a stationary wave using a graphical method, and identify nodes and antinodes",
+"marks": 1
+},
+{
+"ref": "M/J 24/P21/Q5/e",
+"paper": "s24_21",
+"q": 5,
+"part": "(e)",
+"topic": 7,
+"section": "7.1.5",
+"justification": "7.1.5 Progressive waves: recall and use v = f λ",
+"marks": 2
+},
+{
+"ref": "M/J 24/P21/Q6/a",
+"paper": "s24_21",
+"q": 6,
+"part": "(a)",
+"topic": 10,
+"section": "10.2.1",
+"justification": "10.2.1 Kirchhoff's laws: recall Kirchhoff’s first law and understand that it is a consequence of conservation of charge",
+"marks": 1
+},
+{
+"ref": "M/J 24/P21/Q6/b",
+"paper": "s24_21",
+"q": 6,
+"part": "(b)",
+"topic": 10,
+"section": "10.2.2",
+"justification": "10.2.2 Kirchhoff's laws: recall Kirchhoff’s second law and understand that it is a consequence of conservation of energy",
+"marks": 2
+},
+{
+"ref": "M/J 24/P21/Q6/c",
+"paper": "s24_21",
+"q": 6,
+"part": "(c)",
+"topic": 10,
+"section": "10.1.5",
+"justification": "10.1.5 Practical circuits: understand the effects of the internal resistance of a source of e.m.f. on the terminal potential difference",
+"marks": 3
+},
+{
+"ref": "M/J 24/P21/Q6/d(i)",
+"paper": "s24_21",
+"q": 6,
+"part": "(d)(i)",
+"topic": 10,
+"section": "10.2.6",
+"justification": "10.2.6 Kirchhoff's laws: use the formula for the combined resistance of two or more resistors in parallel",
+"marks": 2
+},
+{
+"ref": "M/J 24/P21/Q6/d(ii)",
+"paper": "s24_21",
+"q": 6,
+"part": "(d)(ii)",
+"topic": 10,
+"section": "10.1.5",
+"justification": "10.1.5 Practical circuits: understand the effects of the internal resistance of a source of e.m.f. on the terminal potential difference",
+"marks": 2
+},
+{
+"ref": "M/J 24/P21/Q7/a",
+"paper": "s24_21",
+"q": 7,
+"part": "(a)",
+"topic": 11,
+"section": "11.1.5",
+"justification": "11.1.5 Atoms, nuclei and radiation: understand and use the notation A Z X for the representation of nuclides",
+"marks": 1
+},
+{
+"ref": "M/J 24/P21/Q7/b(i)",
+"paper": "s24_21",
+"q": 7,
+"part": "(b)(i)",
+"topic": 11,
+"section": "11.1.10",
+"justification": "11.1.10 Atoms, nuclei and radiation: \u0007understand that α-particles have discrete energies but that β-particles have a continuous range of energies because (anti)neutrinos are emitted in β-decay",
+"marks": 3
+},
+{
+"ref": "M/J 24/P21/Q7/b(ii)",
+"paper": "s24_21",
+"q": 7,
+"part": "(b)(ii)",
+"topic": 11,
+"section": "11.1.9",
+"justification": "11.1.9 Atoms, nuclei and radiation: \u0007state that (electron) antineutrinos are produced during β– decay and (electron) neutrinos are produced during β+ decay",
+"marks": 1
+},
+{
+"ref": "M/J 24/P21/Q7/b(iii)",
+"paper": "s24_21",
+"q": 7,
+"part": "(b)(iii)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 3
+},
+{
+"ref": "M/J 24/P22/Q1/a",
+"paper": "s24_22",
+"q": 1,
+"part": "(a)",
+"topic": 1,
+"section": "1.2.1",
+"justification": "1.2.1 SI units: \u0007recall the following SI base quantities and their units: mass (kg), length (m), time (s), current (A), temperature (K)",
+"marks": 1
+},
+{
+"ref": "M/J 24/P22/Q1/b(i)",
+"paper": "s24_22",
+"q": 1,
+"part": "(b)(i)",
+"topic": 7,
+"section": "7.1.7",
+"justification": "7.1.7 Progressive waves: recall and use intensity = power/area and intensity ∝ (amplitude)2 for a progressive wave",
+"marks": 3
+},
+{
+"ref": "M/J 24/P22/Q1/b(ii)",
+"paper": "s24_22",
+"q": 1,
+"part": "(b)(ii)",
+"topic": 1,
+"section": "1.3.3",
+"justification": "1.3.3 Errors and uncertainties: \u0007assess the uncertainty in a derived quantity by simple addition of absolute or percentage uncertainties",
+"marks": 2
+},
+{
+"ref": "M/J 24/P22/Q1/b(iii)",
+"paper": "s24_22",
+"q": 1,
+"part": "(b)(iii)",
+"topic": 5,
+"section": "5.1.4",
+"justification": "5.1.4 Energy conservation: use the concept of efficiency to solve problems",
+"marks": 1
+},
+{
+"ref": "M/J 24/P22/Q1/b(iv)",
+"paper": "s24_22",
+"q": 1,
+"part": "(b)(iv)",
+"topic": 5,
+"section": "5.1.4",
+"justification": "5.1.4 Energy conservation: use the concept of efficiency to solve problems",
+"marks": 3
+},
+{
+"ref": "M/J 24/P22/Q2/a(i)",
+"paper": "s24_22",
+"q": 2,
+"part": "(a)(i)",
+"topic": 3,
+"section": "3.2.3",
+"justification": "3.2.3 Non-uniform motion: understand that objects moving against a resistive force may reach a terminal (constant) velocity",
+"marks": 1
+},
+{
+"ref": "M/J 24/P22/Q2/a(ii)",
+"paper": "s24_22",
+"q": 2,
+"part": "(a)(ii)",
+"topic": 2,
+"section": "2.1.5",
+"justification": "2.1.5 Equations of motion: determine acceleration using the gradient of a velocity–time graph",
+"marks": 2
+},
+{
+"ref": "M/J 24/P22/Q2/b",
+"paper": "s24_22",
+"q": 2,
+"part": "(b)",
+"topic": 3,
+"section": "3.1.2",
+"justification": "3.1.2 Momentum and Newton's laws of motion: \u0007recall F = ma and solve problems using it, understanding that acceleration and resultant force are always in the same direction",
+"marks": 3
+},
+{
+"ref": "M/J 24/P22/Q2/c(i)",
+"paper": "s24_22",
+"q": 2,
+"part": "(c)(i)",
+"topic": 3,
+"section": "3.2.2",
+"justification": "3.2.2 Non-uniform motion: describe and explain qualitatively the motion of objects in a uniform gravitational field with air resistance",
+"marks": 2
+},
+{
+"ref": "M/J 24/P22/Q2/c(ii)",
+"paper": "s24_22",
+"q": 2,
+"part": "(c)(ii)",
+"topic": 3,
+"section": "3.1.3",
+"justification": "3.1.3 Momentum and Newton's laws of motion: define and use linear momentum as the product of mass and velocity",
+"marks": 2
+},
+{
+"ref": "M/J 24/P22/Q3/a",
+"paper": "s24_22",
+"q": 3,
+"part": "(a)",
+"topic": 9,
+"section": "9.1.3",
+"justification": "9.1.3 Electric current: recall and use Q = It",
+"marks": 2
+},
+{
+"ref": "M/J 24/P22/Q3/b",
+"paper": "s24_22",
+"q": 3,
+"part": "(b)",
+"topic": 9,
+"section": "9.2.3",
+"justification": "9.2.3 Potential difference and power: recall and use P = VI, P = I 2R and P = V 2 / R",
+"marks": 2
+},
+{
+"ref": "M/J 24/P22/Q3/c(i)",
+"paper": "s24_22",
+"q": 3,
+"part": "(c)(i)",
+"topic": 9,
+"section": "9.3.6",
+"justification": "9.3.6 Resistance and resistivity: recall and use R = ρL / A",
+"marks": 3
+},
+{
+"ref": "M/J 24/P22/Q3/c(ii)",
+"paper": "s24_22",
+"q": 3,
+"part": "(c)(ii)",
+"topic": 9,
+"section": "9.3.6",
+"justification": "9.3.6 Resistance and resistivity: recall and use R = ρL / A",
+"marks": 1
+},
+{
+"ref": "M/J 24/P22/Q3/d",
+"paper": "s24_22",
+"q": 3,
+"part": "(d)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 3
+},
+{
+"ref": "M/J 24/P22/Q4/a",
+"paper": "s24_22",
+"q": 4,
+"part": "(a)",
+"topic": 6,
+"section": "6.2.4",
+"justification": "6.2.4 Elastic and plastic behaviour: recall and use EP = 2 1  Fx = 2 1  kx2 for a material deformed within its limit of proportionality",
+"marks": 2
+},
+{
+"ref": "M/J 24/P22/Q4/b(i)",
+"paper": "s24_22",
+"q": 4,
+"part": "(b)(i)",
+"topic": 5,
+"section": "5.2.2",
+"justification": "5.2.2 Gravitational potential energy and kinetic energy: \u0007recall and use the formula ∆EP = mg∆h for gravitational potential energy changes in a uniform gravitational field",
+"marks": 3
+},
+{
+"ref": "M/J 24/P22/Q4/b(ii)",
+"paper": "s24_22",
+"q": 4,
+"part": "(b)(ii)",
+"topic": 5,
+"section": "5.1.2",
+"justification": "5.1.2 Energy conservation: recall and apply the principle of conservation of energy",
+"marks": 3
+},
+{
+"ref": "M/J 24/P22/Q4/c(i)",
+"paper": "s24_22",
+"q": 4,
+"part": "(c)(i)",
+"topic": 4,
+"section": "4.2.1",
+"justification": "4.2.1 Equilibrium of forces: state and apply the principle of moments",
+"marks": 2
+},
+{
+"ref": "M/J 24/P22/Q4/c(ii)",
+"paper": "s24_22",
+"q": 4,
+"part": "(c)(ii)",
+"topic": 4,
+"section": "4.1.2",
+"justification": "4.1.2 Turning effects of forces: define and apply the moment of a force",
+"marks": 1
+},
+{
+"ref": "M/J 24/P22/Q5/a",
+"paper": "s24_22",
+"q": 5,
+"part": "(a)",
+"topic": 10,
+"section": "10.2.2",
+"justification": "10.2.2 Kirchhoff's laws: recall Kirchhoff’s second law and understand that it is a consequence of conservation of energy",
+"marks": 1
+},
+{
+"ref": "M/J 24/P22/Q5/b(i)",
+"paper": "s24_22",
+"q": 5,
+"part": "(b)(i)",
+"topic": 10,
+"section": "10.3.1",
+"justification": "10.3.1 Potential dividers: understand the principle of a potential divider circuit",
+"marks": 2
+},
+{
+"ref": "M/J 24/P22/Q5/b(ii)",
+"paper": "s24_22",
+"q": 5,
+"part": "(b)(ii)",
+"topic": 10,
+"section": "10.3.4",
+"justification": "10.3.4 Potential dividers: \u0007explain the use of thermistors and light-dependent resistors in potential dividers to provide a potential difference that is dependent on temperature and light intensity",
+"marks": 3
+},
+{
+"ref": "M/J 24/P22/Q5/b(iii)",
+"paper": "s24_22",
+"q": 5,
+"part": "(b)(iii)",
+"topic": 10,
+"section": "10.3.4",
+"justification": "10.3.4 Potential dividers: \u0007explain the use of thermistors and light-dependent resistors in potential dividers to provide a potential difference that is dependent on temperature and light intensity",
+"marks": 3
+},
+{
+"ref": "M/J 24/P22/Q6/a",
+"paper": "s24_22",
+"q": 6,
+"part": "(a)",
+"topic": 8,
+"section": "8.4.1",
+"justification": "8.4.1 The diffraction grating: recall and use d sin θ = nλ",
+"marks": 3
+},
+{
+"ref": "M/J 24/P22/Q6/b(i)",
+"paper": "s24_22",
+"q": 6,
+"part": "(b)(i)",
+"topic": 7,
+"section": "7.4.3",
+"justification": "7.4.3 Electromagnetic spectrum: recall that wavelengths in the range 400–700 nm in free space are visible to the human eye",
+"marks": 1
+},
+{
+"ref": "M/J 24/P22/Q6/b(ii)",
+"paper": "s24_22",
+"q": 6,
+"part": "(b)(ii)",
+"topic": 8,
+"section": "8.4.1",
+"justification": "8.4.1 The diffraction grating: recall and use d sin θ = nλ",
+"marks": 2
+},
+{
+"ref": "M/J 24/P22/Q7/a",
+"paper": "s24_22",
+"q": 7,
+"part": "(a)",
+"topic": 11,
+"section": "11.2.4",
+"justification": "11.2.4 Fundamental particles: \u0007understand that a hadron may be either a baryon (consisting of three quarks) or a meson (consisting of one quark and one antiquark)",
+"marks": 1
+},
+{
+"ref": "M/J 24/P22/Q7/b",
+"paper": "s24_22",
+"q": 7,
+"part": "(b)",
+"topic": 11,
+"section": "11.2.2",
+"justification": "11.2.2 Fundamental particles: \u0007recall and use the charge of each flavour of quark and understand that its respective antiquark has the opposite charge (no knowledge of any other properties of quarks is required)",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q1/a",
+"paper": "s24_23",
+"q": 1,
+"part": "(a)",
+"topic": 1,
+"section": "1.2.2",
+"justification": "1.2.2 SI units: express derived units as products or quotients of the SI base units and use the derived units for quantities listed in this syllabus as appropriate",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q1/b",
+"paper": "s24_23",
+"q": 1,
+"part": "(b)",
+"topic": 3,
+"section": "3.2.1",
+"justification": "3.2.1 Non-uniform motion: \u0007show a qualitative understanding of frictional forces and viscous/drag forces including air resistance (no treatment of the coefficients of friction and viscosity is required, and a simple model of drag force increasing as speed increases is sufficient)",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q1/c",
+"paper": "s24_23",
+"q": 1,
+"part": "(c)",
+"topic": 3,
+"section": "3.2.1",
+"justification": "3.2.1 Non-uniform motion: \u0007show a qualitative understanding of frictional forces and viscous/drag forces including air resistance (no treatment of the coefficients of friction and viscosity is required, and a simple model of drag force increasing as speed increases is sufficient)",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q1/d(i)",
+"paper": "s24_23",
+"q": 1,
+"part": "(d)(i)",
+"topic": 4,
+"section": "4.3.6",
+"justification": "4.3.6 Density and pressure: calculate the upthrust acting on an object in a fluid using the equation F = ρgV (Archimedes’ principle)",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q1/d(ii)",
+"paper": "s24_23",
+"q": 1,
+"part": "(d)(ii)",
+"topic": 3,
+"section": "3.2.3",
+"justification": "3.2.3 Non-uniform motion: understand that objects moving against a resistive force may reach a terminal (constant) velocity",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q2/a",
+"paper": "s24_23",
+"q": 2,
+"part": "(a)",
+"topic": 2,
+"section": "2.1.1",
+"justification": "2.1.1 Equations of motion: define and use distance, displacement, speed, velocity and acceleration",
+"marks": 1
+},
+{
+"ref": "M/J 24/P23/Q2/b(i)",
+"paper": "s24_23",
+"q": 2,
+"part": "(b)(i)",
+"topic": 2,
+"section": "2.1.9",
+"justification": "2.1.9 Equations of motion: \u0007describe and explain motion due to a uniform velocity in one direction and a uniform acceleration in a perpendicular direction",
+"marks": 1
+},
+{
+"ref": "M/J 24/P23/Q2/b(ii)",
+"paper": "s24_23",
+"q": 2,
+"part": "(b)(ii)",
+"topic": 2,
+"section": "2.1.9",
+"justification": "2.1.9 Equations of motion: \u0007describe and explain motion due to a uniform velocity in one direction and a uniform acceleration in a perpendicular direction",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q2/b(iii)",
+"paper": "s24_23",
+"q": 2,
+"part": "(b)(iii)",
+"topic": 2,
+"section": "2.1.9",
+"justification": "2.1.9 Equations of motion: \u0007describe and explain motion due to a uniform velocity in one direction and a uniform acceleration in a perpendicular direction",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q2/b(iv)",
+"paper": "s24_23",
+"q": 2,
+"part": "(b)(iv)",
+"topic": 2,
+"section": "2.1.1",
+"justification": "2.1.1 Equations of motion: define and use distance, displacement, speed, velocity and acceleration",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q2/b(v)",
+"paper": "s24_23",
+"q": 2,
+"part": "(b)(v)",
+"topic": 5,
+"section": "5.1.2",
+"justification": "5.1.2 Energy conservation: recall and apply the principle of conservation of energy",
+"marks": 3
+},
+{
+"ref": "M/J 24/P23/Q3/a",
+"paper": "s24_23",
+"q": 3,
+"part": "(a)",
+"topic": 6,
+"section": "6.1.3",
+"justification": "6.1.3 Stress and strain: recall and use Hooke’s law",
+"marks": 1
+},
+{
+"ref": "M/J 24/P23/Q3/b(i)",
+"paper": "s24_23",
+"q": 3,
+"part": "(b)(i)",
+"topic": 6,
+"section": "6.1.2",
+"justification": "6.1.2 Stress and strain: \u0007understand and use the terms load, extension, compression and limit of proportionality",
+"marks": 1
+},
+{
+"ref": "M/J 24/P23/Q3/b(ii)",
+"paper": "s24_23",
+"q": 3,
+"part": "(b)(ii)",
+"topic": 6,
+"section": "6.2.1",
+"justification": "6.2.1 Elastic and plastic behaviour: understand and use the terms elastic deformation, plastic deformation and elastic limit",
+"marks": 1
+},
+{
+"ref": "M/J 24/P23/Q3/c(i)",
+"paper": "s24_23",
+"q": 3,
+"part": "(c)(i)",
+"topic": 6,
+"section": "6.1.4",
+"justification": "6.1.4 Stress and strain: recall and use the formula for the spring constant k = F / x",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q3/c(ii)",
+"paper": "s24_23",
+"q": 3,
+"part": "(c)(ii)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 3
+},
+{
+"ref": "M/J 24/P23/Q3/d",
+"paper": "s24_23",
+"q": 3,
+"part": "(d)",
+"topic": 6,
+"section": "6.2.2",
+"justification": "6.2.2 Elastic and plastic behaviour: understand that the area under the force–extension graph represents the work done",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q3/e",
+"paper": "s24_23",
+"q": 3,
+"part": "(e)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q4/a",
+"paper": "s24_23",
+"q": 4,
+"part": "(a)",
+"topic": 7,
+"section": "7.1.2",
+"justification": "7.1.2 Progressive waves: \u0007understand and use the terms displacement, amplitude, phase difference, period, frequency, wavelength and speed",
+"marks": 1
+},
+{
+"ref": "M/J 24/P23/Q4/b",
+"paper": "s24_23",
+"q": 4,
+"part": "(b)",
+"topic": 7,
+"section": "7.2.2",
+"justification": "7.2.2 Transverse and longitudinal waves: analyse and interpret graphical representations of transverse and longitudinal waves",
+"marks": 1
+},
+{
+"ref": "M/J 24/P23/Q4/c",
+"paper": "s24_23",
+"q": 4,
+"part": "(c)",
+"topic": 7,
+"section": "7.1.5",
+"justification": "7.1.5 Progressive waves: recall and use v = f λ",
+"marks": 3
+},
+{
+"ref": "M/J 24/P23/Q4/d",
+"paper": "s24_23",
+"q": 4,
+"part": "(d)",
+"topic": 8,
+"section": "8.3.1",
+"justification": "8.3.1 Interference: understand the terms interference and coherence",
+"marks": 3
+},
+{
+"ref": "M/J 24/P23/Q5/a(i)",
+"paper": "s24_23",
+"q": 5,
+"part": "(a)(i)",
+"topic": 10,
+"section": "10.2.2",
+"justification": "10.2.2 Kirchhoff's laws: recall Kirchhoff’s second law and understand that it is a consequence of conservation of energy",
+"marks": 1
+},
+{
+"ref": "M/J 24/P23/Q5/a(ii)",
+"paper": "s24_23",
+"q": 5,
+"part": "(a)(ii)",
+"topic": 10,
+"section": "10.2.2",
+"justification": "10.2.2 Kirchhoff's laws: recall Kirchhoff’s second law and understand that it is a consequence of conservation of energy",
+"marks": 1
+},
+{
+"ref": "M/J 24/P23/Q5/b(i)",
+"paper": "s24_23",
+"q": 5,
+"part": "(b)(i)",
+"topic": 10,
+"section": "10.2.5",
+"justification": "10.2.5 Kirchhoff's laws: derive, using Kirchhoff’s laws, a formula for the combined resistance of two or more resistors in parallel",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q5/b(ii)",
+"paper": "s24_23",
+"q": 5,
+"part": "(b)(ii)",
+"topic": 10,
+"section": "10.1.5",
+"justification": "10.1.5 Practical circuits: understand the effects of the internal resistance of a source of e.m.f. on the terminal potential difference",
+"marks": 3
+},
+{
+"ref": "M/J 24/P23/Q5/c(i)",
+"paper": "s24_23",
+"q": 5,
+"part": "(c)(i)",
+"topic": 10,
+"section": "10.2.6",
+"justification": "10.2.6 Kirchhoff's laws: use the formula for the combined resistance of two or more resistors in parallel",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q5/c(ii)",
+"paper": "s24_23",
+"q": 5,
+"part": "(c)(ii)",
+"topic": 10,
+"section": "10.1.5",
+"justification": "10.1.5 Practical circuits: understand the effects of the internal resistance of a source of e.m.f. on the terminal potential difference",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q6/a",
+"paper": "s24_23",
+"q": 6,
+"part": "(a)",
+"topic": 11,
+"section": "11.1.5",
+"justification": "11.1.5 Atoms, nuclei and radiation: understand and use the notation A Z X for the representation of nuclides",
+"marks": 1
+},
+{
+"ref": "M/J 24/P23/Q6/b(i)",
+"paper": "s24_23",
+"q": 6,
+"part": "(b)(i)",
+"topic": 11,
+"section": "11.1.10",
+"justification": "11.1.10 Atoms, nuclei and radiation: \u0007understand that α-particles have discrete energies but that β-particles have a continuous range of energies because (anti)neutrinos are emitted in β-decay",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q6/b(ii)",
+"paper": "s24_23",
+"q": 6,
+"part": "(b)(ii)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q6/c(i)",
+"paper": "s24_23",
+"q": 6,
+"part": "(c)(i)",
+"topic": 11,
+"section": "11.2.2",
+"justification": "11.2.2 Fundamental particles: \u0007recall and use the charge of each flavour of quark and understand that its respective antiquark has the opposite charge (no knowledge of any other properties of quarks is required)",
+"marks": 2
+},
+{
+"ref": "M/J 24/P23/Q6/c(ii)",
+"paper": "s24_23",
+"q": 6,
+"part": "(c)(ii)",
+"topic": 11,
+"section": "11.2.2",
+"justification": "11.2.2 Fundamental particles: \u0007recall and use the charge of each flavour of quark and understand that its respective antiquark has the opposite charge (no knowledge of any other properties of quarks is required)",
+"marks": 1
+},
+{
+"ref": "M/J 25/P21/Q1/a",
+"paper": "s25_21",
+"q": 1,
+"part": "(a)",
+"topic": 2,
+"section": "2.1.1",
+"justification": "2.1.1 Equations of motion: define and use distance, displacement, speed, velocity and acceleration",
+"marks": 1
+},
+{
+"ref": "M/J 25/P21/Q1/b(i)",
+"paper": "s25_21",
+"q": 1,
+"part": "(b)(i)",
+"topic": 2,
+"section": "2.1.7",
+"justification": "2.1.7 Equations of motion: \u0007solve problems using equations that represent uniformly accelerated motion in a straight line, including the motion of bodies falling in a uniform gravitational field without air resistance",
+"marks": 2
+},
+{
+"ref": "M/J 25/P21/Q1/b(ii)",
+"paper": "s25_21",
+"q": 1,
+"part": "(b)(ii)",
+"topic": 2,
+"section": "2.1.7",
+"justification": "2.1.7 Equations of motion: \u0007solve problems using equations that represent uniformly accelerated motion in a straight line, including the motion of bodies falling in a uniform gravitational field without air resistance",
+"marks": 2
+},
+{
+"ref": "M/J 25/P21/Q1/c(i)",
+"paper": "s25_21",
+"q": 1,
+"part": "(c)(i)",
+"topic": 2,
+"section": "2.1.9",
+"justification": "2.1.9 Equations of motion: \u0007describe and explain motion due to a uniform velocity in one direction and a uniform acceleration in a perpendicular direction",
+"marks": 2
+},
+{
+"ref": "M/J 25/P21/Q1/c(ii)",
+"paper": "s25_21",
+"q": 1,
+"part": "(c)(ii)",
+"topic": 5,
+"section": "5.1.2",
+"justification": "5.1.2 Energy conservation: recall and apply the principle of conservation of energy",
+"marks": 2
+},
+{
+"ref": "M/J 25/P21/Q2/a",
+"paper": "s25_21",
+"q": 2,
+"part": "(a)",
+"topic": 4,
+"section": "4.2.1",
+"justification": "4.2.1 Equilibrium of forces: state and apply the principle of moments",
+"marks": 2
+},
+{
+"ref": "M/J 25/P21/Q2/b",
+"paper": "s25_21",
+"q": 2,
+"part": "(b)",
+"topic": 4,
+"section": "4.2.1",
+"justification": "4.2.1 Equilibrium of forces: state and apply the principle of moments",
+"marks": 3
+},
+{
+"ref": "M/J 25/P21/Q2/c(i)",
+"paper": "s25_21",
+"q": 2,
+"part": "(c)(i)",
+"topic": 6,
+"section": "6.1.4",
+"justification": "6.1.4 Stress and strain: recall and use the formula for the spring constant k = F / x",
+"marks": 3
+},
+{
+"ref": "M/J 25/P21/Q2/c(ii)",
+"paper": "s25_21",
+"q": 2,
+"part": "(c)(ii)",
+"topic": 6,
+"section": "6.2.4",
+"justification": "6.2.4 Elastic and plastic behaviour: recall and use EP = 2 1  Fx = 2 1  kx2 for a material deformed within its limit of proportionality",
+"marks": 2
+},
+{
+"ref": "M/J 25/P21/Q3/a",
+"paper": "s25_21",
+"q": 3,
+"part": "(a)",
+"topic": 5,
+"section": "5.1.5",
+"justification": "5.1.5 Energy conservation: define power as work done per unit time",
+"marks": 1
+},
+{
+"ref": "M/J 25/P21/Q3/b(i)",
+"paper": "s25_21",
+"q": 3,
+"part": "(b)(i)",
+"topic": 5,
+"section": "5.1.7",
+"justification": "5.1.7 Energy conservation: derive P = Fv and use it to solve problems",
+"marks": 2
+},
+{
+"ref": "M/J 25/P21/Q3/b(ii)",
+"paper": "s25_21",
+"q": 3,
+"part": "(b)(ii)",
+"topic": 5,
+"section": "5.1.1",
+"justification": "5.1.1 Energy conservation: \u0007understand the concept of work, and recall and use work done = force × displacement in the direction of the force",
+"marks": 2
+},
+{
+"ref": "M/J 25/P21/Q3/b(iii)",
+"paper": "s25_21",
+"q": 3,
+"part": "(b)(iii)",
+"topic": 5,
+"section": "5.1.4",
+"justification": "5.1.4 Energy conservation: use the concept of efficiency to solve problems",
+"marks": 3
+},
+{
+"ref": "M/J 25/P21/Q3/c(i)",
+"paper": "s25_21",
+"q": 3,
+"part": "(c)(i)",
+"topic": 3,
+"section": "3.2.1",
+"justification": "3.2.1 Non-uniform motion: \u0007show a qualitative understanding of frictional forces and viscous/drag forces including air resistance (no treatment of the coefficients of friction and viscosity is required, and a simple model of drag force increasing as speed increases is sufficient)",
+"marks": 1
+},
+{
+"ref": "M/J 25/P21/Q3/c(ii)",
+"paper": "s25_21",
+"q": 3,
+"part": "(c)(ii)",
+"topic": 5,
+"section": "5.1.7",
+"justification": "5.1.7 Energy conservation: derive P = Fv and use it to solve problems",
+"marks": 1
+},
+{
+"ref": "M/J 25/P21/Q4/a",
+"paper": "s25_21",
+"q": 4,
+"part": "(a)",
+"topic": 8,
+"section": "8.1.1",
+"justification": "8.1.1 Stationary waves: explain and use the principle of superposition",
+"marks": 2
+},
+{
+"ref": "M/J 25/P21/Q4/b(i)",
+"paper": "s25_21",
+"q": 4,
+"part": "(b)(i)",
+"topic": 8,
+"section": "8.3.4",
+"justification": "8.3.4 Interference: recall and use λ = ax / D for double-slit interference using light",
+"marks": 3
+},
+{
+"ref": "M/J 25/P21/Q4/b(ii)",
+"paper": "s25_21",
+"q": 4,
+"part": "(b)(ii)",
+"topic": 8,
+"section": "8.3.4",
+"justification": "8.3.4 Interference: recall and use λ = ax / D for double-slit interference using light",
+"marks": 3
+},
+{
+"ref": "M/J 25/P21/Q5/a",
+"paper": "s25_21",
+"q": 5,
+"part": "(a)",
+"topic": 7,
+"section": "7.1.4",
+"justification": "7.1.4 Progressive waves: derive, using the definitions of speed, frequency and wavelength, the wave equation v = f λ",
+"marks": 2
+},
+{
+"ref": "M/J 25/P21/Q5/b(i)",
+"paper": "s25_21",
+"q": 5,
+"part": "(b)(i)",
+"topic": 7,
+"section": "7.1.3",
+"justification": "7.1.3 Progressive waves: \u0007understand the use of the time-base and y-gain of a cathode-ray oscilloscope (CRO) to determine frequency and amplitude",
+"marks": 2
+},
+{
+"ref": "M/J 25/P21/Q5/b(ii)",
+"paper": "s25_21",
+"q": 5,
+"part": "(b)(ii)",
+"topic": 7,
+"section": "7.3.2",
+"justification": "7.3.2 Doppler effect for sound waves: \u0007use the expression fο = f sv / (v ± vs) for the observed frequency when a source of sound waves moves relative to a stationary observer",
+"marks": 2
+},
+{
+"ref": "M/J 25/P21/Q6/a(i)",
+"paper": "s25_21",
+"q": 6,
+"part": "(a)(i)",
+"topic": 9,
+"section": "9.3.2",
+"justification": "9.3.2 Resistance and resistivity: recall and use V = IR",
+"marks": 1
+},
+{
+"ref": "M/J 25/P21/Q6/a(ii)",
+"paper": "s25_21",
+"q": 6,
+"part": "(a)(ii)",
+"topic": 9,
+"section": "9.1.4",
+"justification": "9.1.4 Electric current: \u0007use, for a current-carrying conductor, the expression I = Anvq, where n is the number density of charge carriers",
+"marks": 2
+},
+{
+"ref": "M/J 25/P21/Q6/a(iii)",
+"paper": "s25_21",
+"q": 6,
+"part": "(a)(iii)",
+"topic": 9,
+"section": "9.3.6",
+"justification": "9.3.6 Resistance and resistivity: recall and use R = ρL / A",
+"marks": 3
+},
+{
+"ref": "M/J 25/P21/Q6/b(i)",
+"paper": "s25_21",
+"q": 6,
+"part": "(b)(i)",
+"topic": 10,
+"section": "10.2.6",
+"justification": "10.2.6 Kirchhoff's laws: use the formula for the combined resistance of two or more resistors in parallel",
+"marks": 2
+},
+{
+"ref": "M/J 25/P21/Q6/b(ii)",
+"paper": "s25_21",
+"q": 6,
+"part": "(b)(ii)",
+"topic": 9,
+"section": "9.1.4",
+"justification": "9.1.4 Electric current: \u0007use, for a current-carrying conductor, the expression I = Anvq, where n is the number density of charge carriers",
+"marks": 1
+},
+{
+"ref": "M/J 25/P21/Q7/a",
+"paper": "s25_21",
+"q": 7,
+"part": "(a)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 3
+},
+{
+"ref": "M/J 25/P21/Q7/b(i)",
+"paper": "s25_21",
+"q": 7,
+"part": "(b)(i)",
+"topic": 11,
+"section": "11.1.8",
+"justification": "11.1.8 Atoms, nuclei and radiation: \u0007understand that an antiparticle has the same mass but opposite charge to the corresponding particle, and that a positron is the antiparticle of an electron",
+"marks": 1
+},
+{
+"ref": "M/J 25/P21/Q7/b(ii)",
+"paper": "s25_21",
+"q": 7,
+"part": "(b)(ii)",
+"topic": 11,
+"section": "11.2.6",
+"justification": "11.2.6 Fundamental particles: recall that electrons and neutrinos are fundamental particles called leptons",
+"marks": 1
+},
+{
+"ref": "M/J 25/P21/Q7/b(iii)",
+"paper": "s25_21",
+"q": 7,
+"part": "(b)(iii)",
+"topic": 11,
+"section": "11.2.2",
+"justification": "11.2.2 Fundamental particles: \u0007recall and use the charge of each flavour of quark and understand that its respective antiquark has the opposite charge (no knowledge of any other properties of quarks is required)",
+"marks": 3
+},
+{
+"ref": "M/J 25/P22/Q1/a",
+"paper": "s25_22",
+"q": 1,
+"part": "(a)",
+"topic": 1,
+"section": "1.4.1",
+"justification": "1.4.1 Scalars and vectors: \u0007understand the difference between scalar and vector quantities and give examples of scalar and vector quantities included in the syllabus",
+"marks": 2
+},
+{
+"ref": "M/J 25/P22/Q1/b(i)",
+"paper": "s25_22",
+"q": 1,
+"part": "(b)(i)",
+"topic": 5,
+"section": "5.2.3",
+"justification": "5.2.3 Gravitational potential energy and kinetic energy: derive, using the equations of motion, the formula for kinetic energy EK = 2 1 mv2",
+"marks": 3
+},
+{
+"ref": "M/J 25/P22/Q1/b(ii)",
+"paper": "s25_22",
+"q": 1,
+"part": "(b)(ii)",
+"topic": 5,
+"section": "5.2.4",
+"justification": "5.2.4 Gravitational potential energy and kinetic energy: recall and use EK = 2 1 mv2",
+"marks": 1
+},
+{
+"ref": "M/J 25/P22/Q1/b(iii)",
+"paper": "s25_22",
+"q": 1,
+"part": "(b)(iii)",
+"topic": 5,
+"section": "5.1.6",
+"justification": "5.1.6 Energy conservation: solve problems using P = W / t",
+"marks": 3
+},
+{
+"ref": "M/J 25/P22/Q1/b(iv)",
+"paper": "s25_22",
+"q": 1,
+"part": "(b)(iv)",
+"topic": 5,
+"section": "5.1.7",
+"justification": "5.1.7 Energy conservation: derive P = Fv and use it to solve problems",
+"marks": 1
+},
+{
+"ref": "M/J 25/P22/Q2/a",
+"paper": "s25_22",
+"q": 2,
+"part": "(a)",
+"topic": 4,
+"section": "4.1.2",
+"justification": "4.1.2 Turning effects of forces: define and apply the moment of a force",
+"marks": 1
+},
+{
+"ref": "M/J 25/P22/Q2/b(i)",
+"paper": "s25_22",
+"q": 2,
+"part": "(b)(i)",
+"topic": 4,
+"section": "4.2.1",
+"justification": "4.2.1 Equilibrium of forces: state and apply the principle of moments",
+"marks": 3
+},
+{
+"ref": "M/J 25/P22/Q2/b(ii)",
+"paper": "s25_22",
+"q": 2,
+"part": "(b)(ii)",
+"topic": 4,
+"section": "4.2.3",
+"justification": "4.2.3 Equilibrium of forces: use a vector triangle to represent coplanar forces in equilibrium",
+"marks": 2
+},
+{
+"ref": "M/J 25/P22/Q2/b(iii)",
+"paper": "s25_22",
+"q": 2,
+"part": "(b)(iii)",
+"topic": 4,
+"section": "4.3.2",
+"justification": "4.3.2 Density and pressure: define and use pressure",
+"marks": 2
+},
+{
+"ref": "M/J 25/P22/Q3/a",
+"paper": "s25_22",
+"q": 3,
+"part": "(a)",
+"topic": 7,
+"section": "7.1.2",
+"justification": "7.1.2 Progressive waves: \u0007understand and use the terms displacement, amplitude, phase difference, period, frequency, wavelength and speed",
+"marks": 1
+},
+{
+"ref": "M/J 25/P22/Q3/b(i)",
+"paper": "s25_22",
+"q": 3,
+"part": "(b)(i)",
+"topic": 7,
+"section": "7.1.5",
+"justification": "7.1.5 Progressive waves: recall and use v = f λ",
+"marks": 2
+},
+{
+"ref": "M/J 25/P22/Q3/b(ii)",
+"paper": "s25_22",
+"q": 3,
+"part": "(b)(ii)",
+"topic": 8,
+"section": "8.3.1",
+"justification": "8.3.1 Interference: understand the terms interference and coherence",
+"marks": 1
+},
+{
+"ref": "M/J 25/P22/Q3/c",
+"paper": "s25_22",
+"q": 3,
+"part": "(c)",
+"topic": 8,
+"section": "8.1.1",
+"justification": "8.1.1 Stationary waves: explain and use the principle of superposition",
+"marks": 2
+},
+{
+"ref": "M/J 25/P22/Q3/d",
+"paper": "s25_22",
+"q": 3,
+"part": "(d)",
+"topic": 7,
+"section": "7.1.7",
+"justification": "7.1.7 Progressive waves: recall and use intensity = power/area and intensity ∝ (amplitude)2 for a progressive wave",
+"marks": 2
+},
+{
+"ref": "M/J 25/P22/Q4/a",
+"paper": "s25_22",
+"q": 4,
+"part": "(a)",
+"topic": 3,
+"section": "3.3.3",
+"justification": "3.3.3 Linear momentum and its conservation: \u0007recall that, for an elastic collision, total kinetic energy is conserved and the relative speed of approach is equal to the relative speed of separation",
+"marks": 1
+},
+{
+"ref": "M/J 25/P22/Q4/b(i)",
+"paper": "s25_22",
+"q": 4,
+"part": "(b)(i)",
+"topic": 3,
+"section": "3.1.3",
+"justification": "3.1.3 Momentum and Newton's laws of motion: define and use linear momentum as the product of mass and velocity",
+"marks": 2
+},
+{
+"ref": "M/J 25/P22/Q4/b(ii)",
+"paper": "s25_22",
+"q": 4,
+"part": "(b)(ii)",
+"topic": 3,
+"section": "3.1.4",
+"justification": "3.1.4 Momentum and Newton's laws of motion: define and use force as rate of change of momentum",
+"marks": 2
+},
+{
+"ref": "M/J 25/P22/Q4/c",
+"paper": "s25_22",
+"q": 4,
+"part": "(c)",
+"topic": 5,
+"section": "5.1.2",
+"justification": "5.1.2 Energy conservation: recall and apply the principle of conservation of energy",
+"marks": 3
+},
+{
+"ref": "M/J 25/P22/Q5/a",
+"paper": "s25_22",
+"q": 5,
+"part": "(a)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 1
+},
+{
+"ref": "M/J 25/P22/Q5/b(i)",
+"paper": "s25_22",
+"q": 5,
+"part": "(b)(i)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 3
+},
+{
+"ref": "M/J 25/P22/Q5/b(ii)",
+"paper": "s25_22",
+"q": 5,
+"part": "(b)(ii)",
+"topic": 6,
+"section": "6.2.2",
+"justification": "6.2.2 Elastic and plastic behaviour: understand that the area under the force–extension graph represents the work done",
+"marks": 3
+},
+{
+"ref": "M/J 25/P22/Q6/a",
+"paper": "s25_22",
+"q": 6,
+"part": "(a)",
+"topic": 9,
+"section": "9.2.1",
+"justification": "9.2.1 Potential difference and power: define the potential difference across a component as the energy transferred per unit charge",
+"marks": 1
+},
+{
+"ref": "M/J 25/P22/Q6/b(i)",
+"paper": "s25_22",
+"q": 6,
+"part": "(b)(i)",
+"topic": 9,
+"section": "9.1.3",
+"justification": "9.1.3 Electric current: recall and use Q = It",
+"marks": 2
+},
+{
+"ref": "M/J 25/P22/Q6/b(ii)",
+"paper": "s25_22",
+"q": 6,
+"part": "(b)(ii)",
+"topic": 10,
+"section": "10.2.7",
+"justification": "10.2.7 Kirchhoff's laws: use Kirchhoff’s laws to solve simple circuit problems",
+"marks": 2
+},
+{
+"ref": "M/J 25/P22/Q6/b(iii)",
+"paper": "s25_22",
+"q": 6,
+"part": "(b)(iii)",
+"topic": 10,
+"section": "10.2.1",
+"justification": "10.2.1 Kirchhoff's laws: recall Kirchhoff’s first law and understand that it is a consequence of conservation of charge",
+"marks": 1
+},
+{
+"ref": "M/J 25/P22/Q6/b(iv)",
+"paper": "s25_22",
+"q": 6,
+"part": "(b)(iv)",
+"topic": 10,
+"section": "10.2.7",
+"justification": "10.2.7 Kirchhoff's laws: use Kirchhoff’s laws to solve simple circuit problems",
+"marks": 2
+},
+{
+"ref": "M/J 25/P22/Q6/c",
+"paper": "s25_22",
+"q": 6,
+"part": "(c)",
+"topic": 10,
+"section": "10.3.3",
+"justification": "10.3.3 Potential dividers: understand the use of a galvanometer in null methods",
+"marks": 2
+},
+{
+"ref": "M/J 25/P22/Q7/a",
+"paper": "s25_22",
+"q": 7,
+"part": "(a)",
+"topic": 11,
+"section": "11.2.1",
+"justification": "11.2.1 Fundamental particles: \u0007understand that a quark is a fundamental particle and that there are six flavours (types) of quark: up, down, strange, charm, top and bottom",
+"marks": 1
+},
+{
+"ref": "M/J 25/P22/Q7/b(i)",
+"paper": "s25_22",
+"q": 7,
+"part": "(b)(i)",
+"topic": 11,
+"section": "11.1.3",
+"justification": "11.1.3 Atoms, nuclei and radiation: distinguish between nucleon number and proton number",
+"marks": 3
+},
+{
+"ref": "M/J 25/P22/Q7/b(ii)",
+"paper": "s25_22",
+"q": 7,
+"part": "(b)(ii)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 3
+},
+{
+"ref": "M/J 25/P22/Q7/c",
+"paper": "s25_22",
+"q": 7,
+"part": "(c)",
+"topic": 11,
+"section": "11.1.10",
+"justification": "11.1.10 Atoms, nuclei and radiation: \u0007understand that α-particles have discrete energies but that β-particles have a continuous range of energies because (anti)neutrinos are emitted in β-decay",
+"marks": 2
+},
+{
+"ref": "M/J 25/P23/Q1/a",
+"paper": "s25_23",
+"q": 1,
+"part": "(a)",
+"topic": 2,
+"section": "2.1.1",
+"justification": "2.1.1 Equations of motion: define and use distance, displacement, speed, velocity and acceleration",
+"marks": 1
+},
+{
+"ref": "M/J 25/P23/Q1/b",
+"paper": "s25_23",
+"q": 1,
+"part": "(b)",
+"topic": 2,
+"section": "2.1.7",
+"justification": "2.1.7 Equations of motion: \u0007solve problems using equations that represent uniformly accelerated motion in a straight line, including the motion of bodies falling in a uniform gravitational field without air resistance",
+"marks": 3
+},
+{
+"ref": "M/J 25/P23/Q1/c(i)",
+"paper": "s25_23",
+"q": 1,
+"part": "(c)(i)",
+"topic": 2,
+"section": "2.1.9",
+"justification": "2.1.9 Equations of motion: \u0007describe and explain motion due to a uniform velocity in one direction and a uniform acceleration in a perpendicular direction",
+"marks": 2
+},
+{
+"ref": "M/J 25/P23/Q1/c(ii)",
+"paper": "s25_23",
+"q": 1,
+"part": "(c)(ii)",
+"topic": 5,
+"section": "5.1.2",
+"justification": "5.1.2 Energy conservation: recall and apply the principle of conservation of energy",
+"marks": 2
+},
+{
+"ref": "M/J 25/P23/Q2/a",
+"paper": "s25_23",
+"q": 2,
+"part": "(a)",
+"topic": 4,
+"section": "4.1.2",
+"justification": "4.1.2 Turning effects of forces: define and apply the moment of a force",
+"marks": 1
+},
+{
+"ref": "M/J 25/P23/Q2/b(i)",
+"paper": "s25_23",
+"q": 2,
+"part": "(b)(i)",
+"topic": 4,
+"section": "4.2.1",
+"justification": "4.2.1 Equilibrium of forces: state and apply the principle of moments",
+"marks": 3
+},
+{
+"ref": "M/J 25/P23/Q2/b(ii)",
+"paper": "s25_23",
+"q": 2,
+"part": "(b)(ii)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 3
+},
+{
+"ref": "M/J 25/P23/Q2/b(iii)",
+"paper": "s25_23",
+"q": 2,
+"part": "(b)(iii)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 2
+},
+{
+"ref": "M/J 25/P23/Q3/a",
+"paper": "s25_23",
+"q": 3,
+"part": "(a)",
+"topic": 5,
+"section": "5.1.7",
+"justification": "5.1.7 Energy conservation: derive P = Fv and use it to solve problems",
+"marks": 2
+},
+{
+"ref": "M/J 25/P23/Q3/b(i)",
+"paper": "s25_23",
+"q": 3,
+"part": "(b)(i)",
+"topic": 5,
+"section": "5.2.2",
+"justification": "5.2.2 Gravitational potential energy and kinetic energy: \u0007recall and use the formula ∆EP = mg∆h for gravitational potential energy changes in a uniform gravitational field",
+"marks": 2
+},
+{
+"ref": "M/J 25/P23/Q3/b(ii)",
+"paper": "s25_23",
+"q": 3,
+"part": "(b)(ii)",
+"topic": 5,
+"section": "5.1.6",
+"justification": "5.1.6 Energy conservation: solve problems using P = W / t",
+"marks": 2
+},
+{
+"ref": "M/J 25/P23/Q3/c(i)",
+"paper": "s25_23",
+"q": 3,
+"part": "(c)(i)",
+"topic": 3,
+"section": "3.2.1",
+"justification": "3.2.1 Non-uniform motion: \u0007show a qualitative understanding of frictional forces and viscous/drag forces including air resistance (no treatment of the coefficients of friction and viscosity is required, and a simple model of drag force increasing as speed increases is sufficient)",
+"marks": 1
+},
+{
+"ref": "M/J 25/P23/Q3/c(ii)",
+"paper": "s25_23",
+"q": 3,
+"part": "(c)(ii)",
+"topic": 5,
+"section": "5.1.7",
+"justification": "5.1.7 Energy conservation: derive P = Fv and use it to solve problems",
+"marks": 1
+},
+{
+"ref": "M/J 25/P23/Q4/a",
+"paper": "s25_23",
+"q": 4,
+"part": "(a)",
+"topic": 3,
+"section": "3.3.1",
+"justification": "3.3.1 Linear momentum and its conservation: state the principle of conservation of momentum",
+"marks": 2
+},
+{
+"ref": "M/J 25/P23/Q4/b(i)",
+"paper": "s25_23",
+"q": 4,
+"part": "(b)(i)",
+"topic": 3,
+"section": "3.3.2",
+"justification": "3.3.2 Linear momentum and its conservation: \u0007apply the principle of conservation of momentum to solve simple problems, including elastic and inelastic interactions between objects in both one and two dimensions (knowledge of the concept of coefficient of restitution is not required)",
+"marks": 2
+},
+{
+"ref": "M/J 25/P23/Q4/b(ii)",
+"paper": "s25_23",
+"q": 4,
+"part": "(b)(ii)",
+"topic": 3,
+"section": "3.3.4",
+"justification": "3.3.4 Linear momentum and its conservation: \u0007understand that, while momentum of a system is always conserved in interactions between objects, some change in kinetic energy may take place",
+"marks": 2
+},
+{
+"ref": "M/J 25/P23/Q5/a",
+"paper": "s25_23",
+"q": 5,
+"part": "(a)",
+"topic": 7,
+"section": "7.5.1",
+"justification": "7.5.1 Polarisation: understand that polarisation is a phenomenon associated with transverse waves",
+"marks": 1
+},
+{
+"ref": "M/J 25/P23/Q5/b(i)",
+"paper": "s25_23",
+"q": 5,
+"part": "(b)(i)",
+"topic": 7,
+"section": "7.5.2",
+"justification": "7.5.2 Polarisation: \u0007recall and use Malus’s law (I = I0 cos2θ ) to calculate the intensity of a plane-polarised electromagnetic wave after transmission through a polarising filter or a series of polarising filters (calculation of the effect of a polarising filter on the intensity of an unpolarised wave is not required)",
+"marks": 3
+},
+{
+"ref": "M/J 25/P23/Q5/b(ii)",
+"paper": "s25_23",
+"q": 5,
+"part": "(b)(ii)",
+"topic": 7,
+"section": "7.5.2",
+"justification": "7.5.2 Polarisation: \u0007recall and use Malus’s law (I = I0 cos2θ ) to calculate the intensity of a plane-polarised electromagnetic wave after transmission through a polarising filter or a series of polarising filters (calculation of the effect of a polarising filter on the intensity of an unpolarised wave is not required)",
+"marks": 4
+},
+{
+"ref": "M/J 25/P23/Q6/a",
+"paper": "s25_23",
+"q": 6,
+"part": "(a)",
+"topic": 8,
+"section": "8.2.1",
+"justification": "8.2.1 Diffraction: explain the meaning of the term diffraction",
+"marks": 1
+},
+{
+"ref": "M/J 25/P23/Q6/b(i)",
+"paper": "s25_23",
+"q": 6,
+"part": "(b)(i)",
+"topic": 7,
+"section": "7.1.5",
+"justification": "7.1.5 Progressive waves: recall and use v = f λ",
+"marks": 2
+},
+{
+"ref": "M/J 25/P23/Q6/b(ii)",
+"paper": "s25_23",
+"q": 6,
+"part": "(b)(ii)",
+"topic": 8,
+"section": "8.4.1",
+"justification": "8.4.1 The diffraction grating: recall and use d sin θ = nλ",
+"marks": 3
+},
+{
+"ref": "M/J 25/P23/Q6/b(iii)",
+"paper": "s25_23",
+"q": 6,
+"part": "(b)(iii)",
+"topic": 8,
+"section": "8.4.1",
+"justification": "8.4.1 The diffraction grating: recall and use d sin θ = nλ",
+"marks": 2
+},
+{
+"ref": "M/J 25/P23/Q7/a",
+"paper": "s25_23",
+"q": 7,
+"part": "(a)",
+"topic": 9,
+"section": "9.3.6",
+"justification": "9.3.6 Resistance and resistivity: recall and use R = ρL / A",
+"marks": 3
+},
+{
+"ref": "M/J 25/P23/Q7/b(i)",
+"paper": "s25_23",
+"q": 7,
+"part": "(b)(i)",
+"topic": 10,
+"section": "10.3.3",
+"justification": "10.3.3 Potential dividers: understand the use of a galvanometer in null methods",
+"marks": 1
+},
+{
+"ref": "M/J 25/P23/Q7/b(ii)",
+"paper": "s25_23",
+"q": 7,
+"part": "(b)(ii)",
+"topic": 10,
+"section": "10.3.2",
+"justification": "10.3.2 Potential dividers: recall and use the principle of the potentiometer as a means of comparing potential differences",
+"marks": 2
+},
+{
+"ref": "M/J 25/P23/Q7/b(iii)",
+"paper": "s25_23",
+"q": 7,
+"part": "(b)(iii)",
+"topic": 10,
+"section": "10.3.2",
+"justification": "10.3.2 Potential dividers: recall and use the principle of the potentiometer as a means of comparing potential differences",
+"marks": 2
+},
+{
+"ref": "M/J 25/P23/Q8/a",
+"paper": "s25_23",
+"q": 8,
+"part": "(a)",
+"topic": 11,
+"section": "11.2.2",
+"justification": "11.2.2 Fundamental particles: \u0007recall and use the charge of each flavour of quark and understand that its respective antiquark has the opposite charge (no knowledge of any other properties of quarks is required)",
+"marks": 3
+},
+{
+"ref": "M/J 25/P23/Q8/b",
+"paper": "s25_23",
+"q": 8,
+"part": "(b)",
+"topic": 11,
+"section": "11.1.9",
+"justification": "11.1.9 Atoms, nuclei and radiation: \u0007state that (electron) antineutrinos are produced during β– decay and (electron) neutrinos are produced during β+ decay",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q1/a",
+"paper": "s25_24",
+"q": 1,
+"part": "(a)",
+"topic": 4,
+"section": "4.1.2",
+"justification": "4.1.2 Turning effects of forces: define and apply the moment of a force",
+"marks": 1
+},
+{
+"ref": "M/J 25/P24/Q1/b(i)",
+"paper": "s25_24",
+"q": 1,
+"part": "(b)(i)",
+"topic": 4,
+"section": "4.2.1",
+"justification": "4.2.1 Equilibrium of forces: state and apply the principle of moments",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q1/b(ii)",
+"paper": "s25_24",
+"q": 1,
+"part": "(b)(ii)",
+"topic": 1,
+"section": "1.4.3",
+"justification": "1.4.3 Scalars and vectors: represent a vector as two perpendicular components",
+"marks": 1
+},
+{
+"ref": "M/J 25/P24/Q1/b(iii)",
+"paper": "s25_24",
+"q": 1,
+"part": "(b)(iii)",
+"topic": 4,
+"section": "4.2.1",
+"justification": "4.2.1 Equilibrium of forces: state and apply the principle of moments",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q2/a",
+"paper": "s25_24",
+"q": 2,
+"part": "(a)",
+"topic": 3,
+"section": "3.1.3",
+"justification": "3.1.3 Momentum and Newton's laws of motion: define and use linear momentum as the product of mass and velocity",
+"marks": 1
+},
+{
+"ref": "M/J 25/P24/Q2/b",
+"paper": "s25_24",
+"q": 2,
+"part": "(b)",
+"topic": 3,
+"section": "3.1.3",
+"justification": "3.1.3 Momentum and Newton's laws of motion: define and use linear momentum as the product of mass and velocity",
+"marks": 1
+},
+{
+"ref": "M/J 25/P24/Q2/c",
+"paper": "s25_24",
+"q": 2,
+"part": "(c)",
+"topic": 3,
+"section": "3.1.4",
+"justification": "3.1.4 Momentum and Newton's laws of motion: define and use force as rate of change of momentum",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q2/d",
+"paper": "s25_24",
+"q": 2,
+"part": "(d)",
+"topic": 3,
+"section": "3.1.3",
+"justification": "3.1.3 Momentum and Newton's laws of motion: define and use linear momentum as the product of mass and velocity",
+"marks": 1
+},
+{
+"ref": "M/J 25/P24/Q2/e",
+"paper": "s25_24",
+"q": 2,
+"part": "(e)",
+"topic": 3,
+"section": "3.2.1",
+"justification": "3.2.1 Non-uniform motion: \u0007show a qualitative understanding of frictional forces and viscous/drag forces including air resistance (no treatment of the coefficients of friction and viscosity is required, and a simple model of drag force increasing as speed increases is sufficient)",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q2/f",
+"paper": "s25_24",
+"q": 2,
+"part": "(f)",
+"topic": 2,
+"section": "2.1.2",
+"justification": "2.1.2 Equations of motion: use graphical methods to represent distance, displacement, speed, velocity and acceleration",
+"marks": 3
+},
+{
+"ref": "M/J 25/P24/Q3/a",
+"paper": "s25_24",
+"q": 3,
+"part": "(a)",
+"topic": 5,
+"section": "5.2.4",
+"justification": "5.2.4 Gravitational potential energy and kinetic energy: recall and use EK = 2 1 mv2",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q3/b",
+"paper": "s25_24",
+"q": 3,
+"part": "(b)",
+"topic": 5,
+"section": "5.2.2",
+"justification": "5.2.2 Gravitational potential energy and kinetic energy: \u0007recall and use the formula ∆EP = mg∆h for gravitational potential energy changes in a uniform gravitational field",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q3/c",
+"paper": "s25_24",
+"q": 3,
+"part": "(c)",
+"topic": 5,
+"section": "5.1.2",
+"justification": "5.1.2 Energy conservation: recall and apply the principle of conservation of energy",
+"marks": 1
+},
+{
+"ref": "M/J 25/P24/Q3/d",
+"paper": "s25_24",
+"q": 3,
+"part": "(d)",
+"topic": 6,
+"section": "6.2.3",
+"justification": "6.2.3 Elastic and plastic behaviour: \u0007determine the elastic potential energy of a material deformed within its limit of proportionality from the area under the force–extension graph",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q3/e(i)",
+"paper": "s25_24",
+"q": 3,
+"part": "(e)(i)",
+"topic": 3,
+"section": "3.1.2",
+"justification": "3.1.2 Momentum and Newton's laws of motion: \u0007recall F = ma and solve problems using it, understanding that acceleration and resultant force are always in the same direction",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q3/e(ii)",
+"paper": "s25_24",
+"q": 3,
+"part": "(e)(ii)",
+"topic": 3,
+"section": "3.1.2",
+"justification": "3.1.2 Momentum and Newton's laws of motion: \u0007recall F = ma and solve problems using it, understanding that acceleration and resultant force are always in the same direction",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q4/a(i)",
+"paper": "s25_24",
+"q": 4,
+"part": "(a)(i)",
+"topic": 7,
+"section": "7.1.6",
+"justification": "7.1.6 Progressive waves: understand that energy is transferred by a progressive wave",
+"marks": 1
+},
+{
+"ref": "M/J 25/P24/Q4/a(ii)",
+"paper": "s25_24",
+"q": 4,
+"part": "(a)(ii)",
+"topic": 7,
+"section": "7.1.4",
+"justification": "7.1.4 Progressive waves: derive, using the definitions of speed, frequency and wavelength, the wave equation v = f λ",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q4/a(iii)",
+"paper": "s25_24",
+"q": 4,
+"part": "(a)(iii)",
+"topic": 7,
+"section": "7.1.4",
+"justification": "7.1.4 Progressive waves: derive, using the definitions of speed, frequency and wavelength, the wave equation v = f λ",
+"marks": 1
+},
+{
+"ref": "M/J 25/P24/Q4/b(i)",
+"paper": "s25_24",
+"q": 4,
+"part": "(b)(i)",
+"topic": 7,
+"section": "7.1.5",
+"justification": "7.1.5 Progressive waves: recall and use v = f λ",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q4/b(ii)",
+"paper": "s25_24",
+"q": 4,
+"part": "(b)(ii)",
+"topic": 8,
+"section": "8.3.3",
+"justification": "8.3.3 Interference: understand the conditions required if two-source interference fringes are to be observed",
+"marks": 1
+},
+{
+"ref": "M/J 25/P24/Q4/b(iii)",
+"paper": "s25_24",
+"q": 4,
+"part": "(b)(iii)",
+"topic": 8,
+"section": "8.3.3",
+"justification": "8.3.3 Interference: understand the conditions required if two-source interference fringes are to be observed",
+"marks": 3
+},
+{
+"ref": "M/J 25/P24/Q4/b(iv)",
+"paper": "s25_24",
+"q": 4,
+"part": "(b)(iv)",
+"topic": 8,
+"section": "8.3.2",
+"justification": "8.3.2 Interference: \u0007show an understanding of experiments that demonstrate two-source interference using water waves in a ripple tank, sound, light and microwaves",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q5/a(i)",
+"paper": "s25_24",
+"q": 5,
+"part": "(a)(i)",
+"topic": 9,
+"section": "9.3.4",
+"justification": "9.3.4 Resistance and resistivity: \u0007explain that the resistance of a filament lamp increases as current increases because its temperature increases",
+"marks": 1
+},
+{
+"ref": "M/J 25/P24/Q5/a(ii)",
+"paper": "s25_24",
+"q": 5,
+"part": "(a)(ii)",
+"topic": 9,
+"section": "9.3.3",
+"justification": "9.3.3 Resistance and resistivity: \u0007sketch the I–V characteristics of a metallic conductor at constant temperature, a semiconductor diode and a filament lamp",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q5/b(i)",
+"paper": "s25_24",
+"q": 5,
+"part": "(b)(i)",
+"topic": 9,
+"section": "9.2.3",
+"justification": "9.2.3 Potential difference and power: recall and use P = VI, P = I 2R and P = V 2 / R",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q5/b(ii)",
+"paper": "s25_24",
+"q": 5,
+"part": "(b)(ii)",
+"topic": 9,
+"section": "9.1.4",
+"justification": "9.1.4 Electric current: \u0007use, for a current-carrying conductor, the expression I = Anvq, where n is the number density of charge carriers",
+"marks": 3
+},
+{
+"ref": "M/J 25/P24/Q6/a",
+"paper": "s25_24",
+"q": 6,
+"part": "(a)",
+"topic": 10,
+"section": "10.3.1",
+"justification": "10.3.1 Potential dividers: understand the principle of a potential divider circuit",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q6/b",
+"paper": "s25_24",
+"q": 6,
+"part": "(b)",
+"topic": 10,
+"section": "10.3.2",
+"justification": "10.3.2 Potential dividers: recall and use the principle of the potentiometer as a means of comparing potential differences",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q6/c(i)",
+"paper": "s25_24",
+"q": 6,
+"part": "(c)(i)",
+"topic": 10,
+"section": "10.3.2",
+"justification": "10.3.2 Potential dividers: recall and use the principle of the potentiometer as a means of comparing potential differences",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q6/c(ii)",
+"paper": "s25_24",
+"q": 6,
+"part": "(c)(ii)",
+"topic": 10,
+"section": "10.3.2",
+"justification": "10.3.2 Potential dividers: recall and use the principle of the potentiometer as a means of comparing potential differences",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q7/a",
+"paper": "s25_24",
+"q": 7,
+"part": "(a)",
+"topic": 11,
+"section": "11.2.6",
+"justification": "11.2.6 Fundamental particles: recall that electrons and neutrinos are fundamental particles called leptons",
+"marks": 2
+},
+{
+"ref": "M/J 25/P24/Q7/b",
+"paper": "s25_24",
+"q": 7,
+"part": "(b)",
+"topic": 11,
+"section": "11.2.4",
+"justification": "11.2.4 Fundamental particles: \u0007understand that a hadron may be either a baryon (consisting of three quarks) or a meson (consisting of one quark and one antiquark)",
+"marks": 1
+},
+{
+"ref": "M/J 25/P24/Q7/c",
+"paper": "s25_24",
+"q": 7,
+"part": "(c)",
+"topic": 11,
+"section": "11.2.3",
+"justification": "11.2.3 Fundamental particles: \u0007recall that protons and neutrons are not fundamental particles and describe protons and neutrons in terms of their quark composition",
+"marks": 2
+},
+{
+"ref": "M/J 26/P22/Q1/a",
+"paper": "s26_22",
+"q": 1,
+"part": "(a)",
+"topic": 1,
+"section": "1.4.1",
+"justification": "1.4.1 Scalars and vectors: \u0007understand the difference between scalar and vector quantities and give examples of scalar and vector quantities included in the syllabus",
+"marks": 2
+},
+{
+"ref": "M/J 26/P22/Q1/b(i)",
+"paper": "s26_22",
+"q": 1,
+"part": "(b)(i)",
+"topic": 2,
+"section": "2.1.3",
+"justification": "2.1.3 Equations of motion: determine displacement from the area under a velocity–time graph",
+"marks": 1
+},
+{
+"ref": "M/J 26/P22/Q1/b(ii)",
+"paper": "s26_22",
+"q": 1,
+"part": "(b)(ii)",
+"topic": 2,
+"section": "2.1.3",
+"justification": "2.1.3 Equations of motion: determine displacement from the area under a velocity–time graph",
+"marks": 1
+},
+{
+"ref": "M/J 26/P22/Q1/b(iii)",
+"paper": "s26_22",
+"q": 1,
+"part": "(b)(iii)",
+"topic": 2,
+"section": "2.1.5",
+"justification": "2.1.5 Equations of motion: determine acceleration using the gradient of a velocity–time graph",
+"marks": 2
+},
+{
+"ref": "M/J 26/P22/Q1/b(iv)",
+"paper": "s26_22",
+"q": 1,
+"part": "(b)(iv)",
+"topic": 2,
+"section": "2.1.7",
+"justification": "2.1.7 Equations of motion: \u0007solve problems using equations that represent uniformly accelerated motion in a straight line, including the motion of bodies falling in a uniform gravitational field without air resistance",
+"marks": 2
+},
+{
+"ref": "M/J 26/P22/Q1/b(v)",
+"paper": "s26_22",
+"q": 1,
+"part": "(b)(v)",
+"topic": 2,
+"section": "2.1.2",
+"justification": "2.1.2 Equations of motion: use graphical methods to represent distance, displacement, speed, velocity and acceleration",
+"marks": 3
+},
+{
+"ref": "M/J 26/P22/Q2/a",
+"paper": "s26_22",
+"q": 2,
+"part": "(a)",
+"topic": 4,
+"section": "4.2.2",
+"justification": "4.2.2 Equilibrium of forces: understand that, when there is no resultant force and no resultant torque, a system is in equilibrium",
+"marks": 2
+},
+{
+"ref": "M/J 26/P22/Q2/b(i)",
+"paper": "s26_22",
+"q": 2,
+"part": "(b)(i)",
+"topic": 4,
+"section": "4.2.2",
+"justification": "4.2.2 Equilibrium of forces: understand that, when there is no resultant force and no resultant torque, a system is in equilibrium",
+"marks": 2
+},
+{
+"ref": "M/J 26/P22/Q2/b(ii)",
+"paper": "s26_22",
+"q": 2,
+"part": "(b)(ii)",
+"topic": 4,
+"section": "4.2.2",
+"justification": "4.2.2 Equilibrium of forces: understand that, when there is no resultant force and no resultant torque, a system is in equilibrium",
+"marks": 2
+},
+{
+"ref": "M/J 26/P22/Q2/c(i)",
+"paper": "s26_22",
+"q": 2,
+"part": "(c)(i)",
+"topic": 6,
+"section": "6.1.3",
+"justification": "6.1.3 Stress and strain: recall and use Hooke’s law",
+"marks": 1
+},
+{
+"ref": "M/J 26/P22/Q2/c(ii)",
+"paper": "s26_22",
+"q": 2,
+"part": "(c)(ii)",
+"topic": 6,
+"section": "6.2.1",
+"justification": "6.2.1 Elastic and plastic behaviour: understand and use the terms elastic deformation, plastic deformation and elastic limit",
+"marks": 1
+},
+{
+"ref": "M/J 26/P22/Q3/a",
+"paper": "s26_22",
+"q": 3,
+"part": "(a)",
+"topic": 7,
+"section": "7.1.6",
+"justification": "7.1.6 Progressive waves: understand that energy is transferred by a progressive wave",
+"marks": 1
+},
+{
+"ref": "M/J 26/P22/Q3/b(i)",
+"paper": "s26_22",
+"q": 3,
+"part": "(b)(i)",
+"topic": 7,
+"section": "7.1.2",
+"justification": "7.1.2 Progressive waves: \u0007understand and use the terms displacement, amplitude, phase difference, period, frequency, wavelength and speed",
+"marks": 1
+},
+{
+"ref": "M/J 26/P22/Q3/b(ii)",
+"paper": "s26_22",
+"q": 3,
+"part": "(b)(ii)",
+"topic": 8,
+"section": "8.3.3",
+"justification": "8.3.3 Interference: understand the conditions required if two-source interference fringes are to be observed",
+"marks": 3
+},
+{
+"ref": "M/J 26/P22/Q3/c(i)",
+"paper": "s26_22",
+"q": 3,
+"part": "(c)(i)",
+"topic": 5,
+"section": "5.2.2",
+"justification": "5.2.2 Gravitational potential energy and kinetic energy: \u0007recall and use the formula ∆EP = mg∆h for gravitational potential energy changes in a uniform gravitational field",
+"marks": 3
+},
+{
+"ref": "M/J 26/P22/Q3/c(ii)",
+"paper": "s26_22",
+"q": 3,
+"part": "(c)(ii)",
+"topic": 8,
+"section": "8.3.3",
+"justification": "8.3.3 Interference: understand the conditions required if two-source interference fringes are to be observed",
+"marks": 2
+},
+{
+"ref": "M/J 26/P22/Q4/a",
+"paper": "s26_22",
+"q": 4,
+"part": "(a)",
+"topic": 5,
+"section": "5.2.4",
+"justification": "5.2.4 Gravitational potential energy and kinetic energy: recall and use EK = 2 1 mv2",
+"marks": 3
+},
+{
+"ref": "M/J 26/P22/Q4/b(i)",
+"paper": "s26_22",
+"q": 4,
+"part": "(b)(i)",
+"topic": 5,
+"section": "5.1.5",
+"justification": "5.1.5 Energy conservation: define power as work done per unit time",
+"marks": 1
+},
+{
+"ref": "M/J 26/P22/Q4/b(ii)",
+"paper": "s26_22",
+"q": 4,
+"part": "(b)(ii)",
+"topic": 5,
+"section": "5.1.7",
+"justification": "5.1.7 Energy conservation: derive P = Fv and use it to solve problems",
+"marks": 3
+},
+{
+"ref": "M/J 26/P22/Q4/b(iii)",
+"paper": "s26_22",
+"q": 4,
+"part": "(b)(iii)",
+"topic": 5,
+"section": "5.1.4",
+"justification": "5.1.4 Energy conservation: use the concept of efficiency to solve problems",
+"marks": 3
+},
+{
+"ref": "M/J 26/P22/Q5/a",
+"paper": "s26_22",
+"q": 5,
+"part": "(a)",
+"topic": 10,
+"section": "10.2.5",
+"justification": "10.2.5 Kirchhoff's laws: derive, using Kirchhoff’s laws, a formula for the combined resistance of two or more resistors in parallel",
+"marks": 2
+},
+{
+"ref": "M/J 26/P22/Q5/b(i)",
+"paper": "s26_22",
+"q": 5,
+"part": "(b)(i)",
+"topic": 10,
+"section": "10.2.6",
+"justification": "10.2.6 Kirchhoff's laws: use the formula for the combined resistance of two or more resistors in parallel",
+"marks": 2
+},
+{
+"ref": "M/J 26/P22/Q5/b(ii)",
+"paper": "s26_22",
+"q": 5,
+"part": "(b)(ii)",
+"topic": 9,
+"section": "9.1.4",
+"justification": "9.1.4 Electric current: \u0007use, for a current-carrying conductor, the expression I = Anvq, where n is the number density of charge carriers",
+"marks": 2
+},
+{
+"ref": "M/J 26/P22/Q5/c(i)",
+"paper": "s26_22",
+"q": 5,
+"part": "(c)(i)",
+"topic": 10,
+"section": "10.1.1",
+"justification": "10.1.1 Practical circuits: recall and use the circuit symbols shown in section 6 of this syllabus",
+"marks": 1
+},
+{
+"ref": "M/J 26/P22/Q5/c(ii)",
+"paper": "s26_22",
+"q": 5,
+"part": "(c)(ii)",
+"topic": 10,
+"section": "10.2.7",
+"justification": "10.2.7 Kirchhoff's laws: use Kirchhoff’s laws to solve simple circuit problems",
+"marks": 3
+},
+{
+"ref": "M/J 26/P22/Q5/c(iii)",
+"paper": "s26_22",
+"q": 5,
+"part": "(c)(iii)",
+"topic": 9,
+"section": "9.3.8",
+"justification": "9.3.8 Resistance and resistivity: understand that the resistance of a thermistor decreases as the temperature increases (it will be assumed that thermistors have a negative temperature coefficient)",
+"marks": 2
+},
+{
+"ref": "M/J 26/P22/Q6/a",
+"paper": "s26_22",
+"q": 6,
+"part": "(a)",
+"topic": 11,
+"section": "11.1.1",
+"justification": "11.1.1 Atoms, nuclei and radiation: infer from the results of the α-particle scattering experiment the existence and small size of the nucleus",
+"marks": 1
+},
+{
+"ref": "M/J 26/P22/Q6/b(i)",
+"paper": "s26_22",
+"q": 6,
+"part": "(b)(i)",
+"topic": 3,
+"section": "3.1.3",
+"justification": "3.1.3 Momentum and Newton's laws of motion: define and use linear momentum as the product of mass and velocity",
+"marks": 2
+},
+{
+"ref": "M/J 26/P22/Q6/b(ii)",
+"paper": "s26_22",
+"q": 6,
+"part": "(b)(ii)",
+"topic": 3,
+"section": "3.3.2",
+"justification": "3.3.2 Linear momentum and its conservation: \u0007apply the principle of conservation of momentum to solve simple problems, including elastic and inelastic interactions between objects in both one and two dimensions (knowledge of the concept of coefficient of restitution is not required)",
+"marks": 2
+},
+{
+"ref": "M/J 26/P22/Q6/b(iii)",
+"paper": "s26_22",
+"q": 6,
+"part": "(b)(iii)",
+"topic": 1,
+"section": "1.3.3",
+"justification": "1.3.3 Errors and uncertainties: \u0007assess the uncertainty in a derived quantity by simple addition of absolute or percentage uncertainties",
+"marks": 2
+},
+{
+"ref": "M/J 26/P22/Q6/c",
+"paper": "s26_22",
+"q": 6,
+"part": "(c)",
+"topic": 11,
+"section": "11.2.3",
+"justification": "11.2.3 Fundamental particles: \u0007recall that protons and neutrons are not fundamental particles and describe protons and neutrons in terms of their quark composition",
+"marks": 1
+},
+{
+"ref": "M/J 26/P22/Q6/d",
+"paper": "s26_22",
+"q": 6,
+"part": "(d)",
+"topic": 11,
+"section": "11.2.4",
+"justification": "11.2.4 Fundamental particles: \u0007understand that a hadron may be either a baryon (consisting of three quarks) or a meson (consisting of one quark and one antiquark)",
+"marks": 1
+},
+{
+"ref": "M/J 26/P23/Q1/a",
+"paper": "s26_23",
+"q": 1,
+"part": "(a)",
+"topic": 3,
+"section": "3.1.3",
+"justification": "3.1.3 Momentum and Newton's laws of motion: define and use linear momentum as the product of mass and velocity",
+"marks": 1
+},
+{
+"ref": "M/J 26/P23/Q1/b(i)",
+"paper": "s26_23",
+"q": 1,
+"part": "(b)(i)",
+"topic": 2,
+"section": "2.1.5",
+"justification": "2.1.5 Equations of motion: determine acceleration using the gradient of a velocity–time graph",
+"marks": 2
+},
+{
+"ref": "M/J 26/P23/Q1/b(ii)",
+"paper": "s26_23",
+"q": 1,
+"part": "(b)(ii)",
+"topic": 3,
+"section": "3.1.3",
+"justification": "3.1.3 Momentum and Newton's laws of motion: define and use linear momentum as the product of mass and velocity",
+"marks": 2
+},
+{
+"ref": "M/J 26/P23/Q1/b(iii)",
+"paper": "s26_23",
+"q": 1,
+"part": "(b)(iii)",
+"topic": 2,
+"section": "2.1.3",
+"justification": "2.1.3 Equations of motion: determine displacement from the area under a velocity–time graph",
+"marks": 2
+},
+{
+"ref": "M/J 26/P23/Q1/c(i)",
+"paper": "s26_23",
+"q": 1,
+"part": "(c)(i)",
+"topic": 3,
+"section": "3.3.3",
+"justification": "3.3.3 Linear momentum and its conservation: \u0007recall that, for an elastic collision, total kinetic energy is conserved and the relative speed of approach is equal to the relative speed of separation",
+"marks": 2
+},
+{
+"ref": "M/J 26/P23/Q1/c(ii)",
+"paper": "s26_23",
+"q": 1,
+"part": "(c)(ii)",
+"topic": 2,
+"section": "2.1.2",
+"justification": "2.1.2 Equations of motion: use graphical methods to represent distance, displacement, speed, velocity and acceleration",
+"marks": 2
+},
+{
+"ref": "M/J 26/P23/Q1/c(iii)",
+"paper": "s26_23",
+"q": 1,
+"part": "(c)(iii)",
+"topic": 3,
+"section": "3.3.2",
+"justification": "3.3.2 Linear momentum and its conservation: \u0007apply the principle of conservation of momentum to solve simple problems, including elastic and inelastic interactions between objects in both one and two dimensions (knowledge of the concept of coefficient of restitution is not required)",
+"marks": 2
+},
+{
+"ref": "M/J 26/P23/Q2/a",
+"paper": "s26_23",
+"q": 2,
+"part": "(a)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 1
+},
+{
+"ref": "M/J 26/P23/Q2/b(i)",
+"paper": "s26_23",
+"q": 2,
+"part": "(b)(i)",
+"topic": 4,
+"section": "4.3.1",
+"justification": "4.3.1 Density and pressure: define and use density",
+"marks": 2
+},
+{
+"ref": "M/J 26/P23/Q2/b(ii)",
+"paper": "s26_23",
+"q": 2,
+"part": "(b)(ii)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 2
+},
+{
+"ref": "M/J 26/P23/Q2/b(iii)",
+"paper": "s26_23",
+"q": 2,
+"part": "(b)(iii)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 2
+},
+{
+"ref": "M/J 26/P23/Q2/c(i)",
+"paper": "s26_23",
+"q": 2,
+"part": "(c)(i)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 2
+},
+{
+"ref": "M/J 26/P23/Q2/c(ii)",
+"paper": "s26_23",
+"q": 2,
+"part": "(c)(ii)",
+"topic": 6,
+"section": "6.2.4",
+"justification": "6.2.4 Elastic and plastic behaviour: recall and use EP = 2 1  Fx = 2 1  kx2 for a material deformed within its limit of proportionality",
+"marks": 2
+},
+{
+"ref": "M/J 26/P23/Q2/d",
+"paper": "s26_23",
+"q": 2,
+"part": "(d)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 1
+},
+{
+"ref": "M/J 26/P23/Q3/a",
+"paper": "s26_23",
+"q": 3,
+"part": "(a)",
+"topic": 8,
+"section": "8.1.1",
+"justification": "8.1.1 Stationary waves: explain and use the principle of superposition",
+"marks": 2
+},
+{
+"ref": "M/J 26/P23/Q3/b(i)",
+"paper": "s26_23",
+"q": 3,
+"part": "(b)(i)",
+"topic": 8,
+"section": "8.3.1",
+"justification": "8.3.1 Interference: understand the terms interference and coherence",
+"marks": 1
+},
+{
+"ref": "M/J 26/P23/Q3/b(ii)",
+"paper": "s26_23",
+"q": 3,
+"part": "(b)(ii)",
+"topic": 8,
+"section": "8.2.1",
+"justification": "8.2.1 Diffraction: explain the meaning of the term diffraction",
+"marks": 1
+},
+{
+"ref": "M/J 26/P23/Q3/b(iii)",
+"paper": "s26_23",
+"q": 3,
+"part": "(b)(iii)",
+"topic": 8,
+"section": "8.3.1",
+"justification": "8.3.1 Interference: understand the terms interference and coherence",
+"marks": 3
+},
+{
+"ref": "M/J 26/P23/Q3/b(iv)",
+"paper": "s26_23",
+"q": 3,
+"part": "(b)(iv)",
+"topic": 8,
+"section": "8.3.4",
+"justification": "8.3.4 Interference: recall and use λ = ax / D for double-slit interference using light",
+"marks": 3
+},
+{
+"ref": "M/J 26/P23/Q3/c(i)",
+"paper": "s26_23",
+"q": 3,
+"part": "(c)(i)",
+"topic": 8,
+"section": "8.3.4",
+"justification": "8.3.4 Interference: recall and use λ = ax / D for double-slit interference using light",
+"marks": 1
+},
+{
+"ref": "M/J 26/P23/Q3/c(ii)",
+"paper": "s26_23",
+"q": 3,
+"part": "(c)(ii)",
+"topic": 8,
+"section": "8.3.4",
+"justification": "8.3.4 Interference: recall and use λ = ax / D for double-slit interference using light",
+"marks": 1
+},
+{
+"ref": "M/J 26/P23/Q3/d",
+"paper": "s26_23",
+"q": 3,
+"part": "(d)",
+"topic": 7,
+"section": "7.1.5",
+"justification": "7.1.5 Progressive waves: recall and use v = f λ",
+"marks": 2
+},
+{
+"ref": "M/J 26/P23/Q4/a",
+"paper": "s26_23",
+"q": 4,
+"part": "(a)",
+"topic": 10,
+"section": "10.1.2",
+"justification": "10.1.2 Practical circuits: draw and interpret circuit diagrams containing the circuit symbols shown in section 6 of this syllabus",
+"marks": 3
+},
+{
+"ref": "M/J 26/P23/Q4/b(i)",
+"paper": "s26_23",
+"q": 4,
+"part": "(b)(i)",
+"topic": 1,
+"section": "1.3.1",
+"justification": "1.3.1 Errors and uncertainties: \u0007understand and explain the effects of systematic errors (including zero errors) and random errors in measurements",
+"marks": 1
+},
+{
+"ref": "M/J 26/P23/Q4/b(ii)",
+"paper": "s26_23",
+"q": 4,
+"part": "(b)(ii)",
+"topic": 9,
+"section": "9.2.3",
+"justification": "9.2.3 Potential difference and power: recall and use P = VI, P = I 2R and P = V 2 / R",
+"marks": 2
+},
+{
+"ref": "M/J 26/P23/Q4/b(iii)",
+"paper": "s26_23",
+"q": 4,
+"part": "(b)(iii)",
+"topic": 10,
+"section": "10.1.5",
+"justification": "10.1.5 Practical circuits: understand the effects of the internal resistance of a source of e.m.f. on the terminal potential difference",
+"marks": 2
+},
+{
+"ref": "M/J 26/P23/Q4/b(iv)",
+"paper": "s26_23",
+"q": 4,
+"part": "(b)(iv)",
+"topic": 9,
+"section": "9.3.7",
+"justification": "9.3.7 Resistance and resistivity: \u0007understand that the resistance of a light-dependent resistor (LDR) decreases as the light intensity increases",
+"marks": 3
+},
+{
+"ref": "M/J 26/P23/Q5/a",
+"paper": "s26_23",
+"q": 5,
+"part": "(a)",
+"topic": 11,
+"section": "11.2.4",
+"justification": "11.2.4 Fundamental particles: \u0007understand that a hadron may be either a baryon (consisting of three quarks) or a meson (consisting of one quark and one antiquark)",
+"marks": 1
+},
+{
+"ref": "M/J 26/P23/Q5/b",
+"paper": "s26_23",
+"q": 5,
+"part": "(b)",
+"topic": 11,
+"section": "11.2.2",
+"justification": "11.2.2 Fundamental particles: \u0007recall and use the charge of each flavour of quark and understand that its respective antiquark has the opposite charge (no knowledge of any other properties of quarks is required)",
+"marks": 3
+},
+{
+"ref": "M/J 26/P23/Q5/c(i)",
+"paper": "s26_23",
+"q": 5,
+"part": "(c)(i)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 2
+},
+{
+"ref": "M/J 26/P23/Q5/c(ii)",
+"paper": "s26_23",
+"q": 5,
+"part": "(c)(ii)",
+"topic": 11,
+"section": "11.1.9",
+"justification": "11.1.9 Atoms, nuclei and radiation: \u0007state that (electron) antineutrinos are produced during β– decay and (electron) neutrinos are produced during β+ decay",
+"marks": 1
+},
+{
+"ref": "M/J 26/P23/Q5/c(iii)",
+"paper": "s26_23",
+"q": 5,
+"part": "(c)(iii)",
+"topic": 11,
+"section": "11.2.5",
+"justification": "11.2.5 Fundamental particles: describe the changes to quark composition that take place during β– and β+ decay",
+"marks": 1
+},
+{
+"ref": "M/J 26/P23/Q5/c(iv)",
+"paper": "s26_23",
+"q": 5,
+"part": "(c)(iv)",
+"topic": 11,
+"section": "11.1.10",
+"justification": "11.1.10 Atoms, nuclei and radiation: \u0007understand that α-particles have discrete energies but that β-particles have a continuous range of energies because (anti)neutrinos are emitted in β-decay",
+"marks": 2
+},
+{
+"ref": "M/J 26/P24/Q1/a",
+"paper": "s26_24",
+"q": 1,
+"part": "(a)",
+"topic": 1,
+"section": "1.4.1",
+"justification": "1.4.1 Scalars and vectors: \u0007understand the difference between scalar and vector quantities and give examples of scalar and vector quantities included in the syllabus",
+"marks": 1
+},
+{
+"ref": "M/J 26/P24/Q1/b(i)",
+"paper": "s26_24",
+"q": 1,
+"part": "(b)(i)",
+"topic": 5,
+"section": "5.2.4",
+"justification": "5.2.4 Gravitational potential energy and kinetic energy: recall and use EK = 2 1 mv2",
+"marks": 2
+},
+{
+"ref": "M/J 26/P24/Q1/b(ii)",
+"paper": "s26_24",
+"q": 1,
+"part": "(b)(ii)",
+"topic": 2,
+"section": "2.1.7",
+"justification": "2.1.7 Equations of motion: \u0007solve problems using equations that represent uniformly accelerated motion in a straight line, including the motion of bodies falling in a uniform gravitational field without air resistance",
+"marks": 2
+},
+{
+"ref": "M/J 26/P24/Q1/b(iii)",
+"paper": "s26_24",
+"q": 1,
+"part": "(b)(iii)",
+"topic": 3,
+"section": "3.1.2",
+"justification": "3.1.2 Momentum and Newton's laws of motion: \u0007recall F = ma and solve problems using it, understanding that acceleration and resultant force are always in the same direction",
+"marks": 2
+},
+{
+"ref": "M/J 26/P24/Q1/c(i)",
+"paper": "s26_24",
+"q": 1,
+"part": "(c)(i)",
+"topic": 3,
+"section": "3.1.2",
+"justification": "3.1.2 Momentum and Newton's laws of motion: \u0007recall F = ma and solve problems using it, understanding that acceleration and resultant force are always in the same direction",
+"marks": 1
+},
+{
+"ref": "M/J 26/P24/Q1/c(ii)",
+"paper": "s26_24",
+"q": 1,
+"part": "(c)(ii)",
+"topic": 2,
+"section": "2.1.7",
+"justification": "2.1.7 Equations of motion: \u0007solve problems using equations that represent uniformly accelerated motion in a straight line, including the motion of bodies falling in a uniform gravitational field without air resistance",
+"marks": 2
+},
+{
+"ref": "M/J 26/P24/Q2/a",
+"paper": "s26_24",
+"q": 2,
+"part": "(a)",
+"topic": 6,
+"section": "6.1.3",
+"justification": "6.1.3 Stress and strain: recall and use Hooke’s law",
+"marks": 1
+},
+{
+"ref": "M/J 26/P24/Q2/b(i)",
+"paper": "s26_24",
+"q": 2,
+"part": "(b)(i)",
+"topic": 1,
+"section": "1.3.3",
+"justification": "1.3.3 Errors and uncertainties: \u0007assess the uncertainty in a derived quantity by simple addition of absolute or percentage uncertainties",
+"marks": 1
+},
+{
+"ref": "M/J 26/P24/Q2/b(ii)",
+"paper": "s26_24",
+"q": 2,
+"part": "(b)(ii)",
+"topic": 6,
+"section": "6.1.4",
+"justification": "6.1.4 Stress and strain: recall and use the formula for the spring constant k = F / x",
+"marks": 3
+},
+{
+"ref": "M/J 26/P24/Q2/b(iii)",
+"paper": "s26_24",
+"q": 2,
+"part": "(b)(iii)",
+"topic": 1,
+"section": "1.3.3",
+"justification": "1.3.3 Errors and uncertainties: \u0007assess the uncertainty in a derived quantity by simple addition of absolute or percentage uncertainties",
+"marks": 2
+},
+{
+"ref": "M/J 26/P24/Q2/c(i)",
+"paper": "s26_24",
+"q": 2,
+"part": "(c)(i)",
+"topic": 6,
+"section": "6.1.4",
+"justification": "6.1.4 Stress and strain: recall and use the formula for the spring constant k = F / x",
+"marks": 1
+},
+{
+"ref": "M/J 26/P24/Q2/c(ii)",
+"paper": "s26_24",
+"q": 2,
+"part": "(c)(ii)",
+"topic": 6,
+"section": "6.2.4",
+"justification": "6.2.4 Elastic and plastic behaviour: recall and use EP = 2 1  Fx = 2 1  kx2 for a material deformed within its limit of proportionality",
+"marks": 2
+},
+{
+"ref": "M/J 26/P24/Q3/a",
+"paper": "s26_24",
+"q": 3,
+"part": "(a)",
+"topic": 8,
+"section": "8.1.3",
+"justification": "8.1.3 Stationary waves: explain the formation of a stationary wave using a graphical method, and identify nodes and antinodes",
+"marks": 2
+},
+{
+"ref": "M/J 26/P24/Q3/b",
+"paper": "s26_24",
+"q": 3,
+"part": "(b)",
+"topic": 8,
+"section": "8.1.3",
+"justification": "8.1.3 Stationary waves: explain the formation of a stationary wave using a graphical method, and identify nodes and antinodes",
+"marks": 1
+},
+{
+"ref": "M/J 26/P24/Q3/c",
+"paper": "s26_24",
+"q": 3,
+"part": "(c)",
+"topic": 8,
+"section": "8.1.4",
+"justification": "8.1.4 Stationary waves: \u0007understand how wavelength may be determined from the positions of nodes or antinodes of a stationary wave",
+"marks": 3
+},
+{
+"ref": "M/J 26/P24/Q3/d",
+"paper": "s26_24",
+"q": 3,
+"part": "(d)",
+"topic": 8,
+"section": "8.1.3",
+"justification": "8.1.3 Stationary waves: explain the formation of a stationary wave using a graphical method, and identify nodes and antinodes",
+"marks": 2
+},
+{
+"ref": "M/J 26/P24/Q4/a",
+"paper": "s26_24",
+"q": 4,
+"part": "(a)",
+"topic": 3,
+"section": "3.2.1",
+"justification": "3.2.1 Non-uniform motion: \u0007show a qualitative understanding of frictional forces and viscous/drag forces including air resistance (no treatment of the coefficients of friction and viscosity is required, and a simple model of drag force increasing as speed increases is sufficient)",
+"marks": 3
+},
+{
+"ref": "M/J 26/P24/Q4/b",
+"paper": "s26_24",
+"q": 4,
+"part": "(b)",
+"topic": 3,
+"section": "3.2.3",
+"justification": "3.2.3 Non-uniform motion: understand that objects moving against a resistive force may reach a terminal (constant) velocity",
+"marks": 1
+},
+{
+"ref": "M/J 26/P24/Q4/c",
+"paper": "s26_24",
+"q": 4,
+"part": "(c)",
+"topic": 4,
+"section": "4.3.6",
+"justification": "4.3.6 Density and pressure: calculate the upthrust acting on an object in a fluid using the equation F = ρgV (Archimedes’ principle)",
+"marks": 3
+},
+{
+"ref": "M/J 26/P24/Q5/a",
+"paper": "s26_24",
+"q": 5,
+"part": "(a)",
+"topic": 9,
+"section": "9.3.3",
+"justification": "9.3.3 Resistance and resistivity: \u0007sketch the I–V characteristics of a metallic conductor at constant temperature, a semiconductor diode and a filament lamp",
+"marks": 1
+},
+{
+"ref": "M/J 26/P24/Q5/b",
+"paper": "s26_24",
+"q": 5,
+"part": "(b)",
+"topic": 9,
+"section": "9.3.3",
+"justification": "9.3.3 Resistance and resistivity: \u0007sketch the I–V characteristics of a metallic conductor at constant temperature, a semiconductor diode and a filament lamp",
+"marks": 2
+},
+{
+"ref": "M/J 26/P24/Q5/c",
+"paper": "s26_24",
+"q": 5,
+"part": "(c)",
+"topic": 10,
+"section": "10.2.7",
+"justification": "10.2.7 Kirchhoff's laws: use Kirchhoff’s laws to solve simple circuit problems",
+"marks": 3
+},
+{
+"ref": "M/J 26/P24/Q5/d",
+"paper": "s26_24",
+"q": 5,
+"part": "(d)",
+"topic": 9,
+"section": "9.3.3",
+"justification": "9.3.3 Resistance and resistivity: \u0007sketch the I–V characteristics of a metallic conductor at constant temperature, a semiconductor diode and a filament lamp",
+"marks": 1
+},
+{
+"ref": "M/J 26/P24/Q5/e",
+"paper": "s26_24",
+"q": 5,
+"part": "(e)",
+"topic": 10,
+"section": "10.2.7",
+"justification": "10.2.7 Kirchhoff's laws: use Kirchhoff’s laws to solve simple circuit problems",
+"marks": 3
+},
+{
+"ref": "M/J 26/P24/Q6/a",
+"paper": "s26_24",
+"q": 6,
+"part": "(a)",
+"topic": 9,
+"section": "9.2.3",
+"justification": "9.2.3 Potential difference and power: recall and use P = VI, P = I 2R and P = V 2 / R",
+"marks": 2
+},
+{
+"ref": "M/J 26/P24/Q6/b",
+"paper": "s26_24",
+"q": 6,
+"part": "(b)",
+"topic": 9,
+"section": "9.3.6",
+"justification": "9.3.6 Resistance and resistivity: recall and use R = ρL / A",
+"marks": 2
+},
+{
+"ref": "M/J 26/P24/Q6/c",
+"paper": "s26_24",
+"q": 6,
+"part": "(c)",
+"topic": 9,
+"section": "9.1.4",
+"justification": "9.1.4 Electric current: \u0007use, for a current-carrying conductor, the expression I = Anvq, where n is the number density of charge carriers",
+"marks": 3
+},
+{
+"ref": "M/J 26/P24/Q7/a(i)",
+"paper": "s26_24",
+"q": 7,
+"part": "(a)(i)",
+"topic": 11,
+"section": "11.1.4",
+"justification": "11.1.4 Atoms, nuclei and radiation: \u0007understand that isotopes are forms of the same element with different numbers of neutrons in their nuclei",
+"marks": 2
+},
+{
+"ref": "M/J 26/P24/Q7/a(ii)",
+"paper": "s26_24",
+"q": 7,
+"part": "(a)(ii)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 2
+},
+{
+"ref": "M/J 26/P24/Q7/a(iii)",
+"paper": "s26_24",
+"q": 7,
+"part": "(a)(iii)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 2
+},
+{
+"ref": "M/J 26/P24/Q7/b(i)",
+"paper": "s26_24",
+"q": 7,
+"part": "(b)(i)",
+"topic": 11,
+"section": "11.2.3",
+"justification": "11.2.3 Fundamental particles: \u0007recall that protons and neutrons are not fundamental particles and describe protons and neutrons in terms of their quark composition",
+"marks": 1
+},
+{
+"ref": "M/J 26/P24/Q7/b(ii)",
+"paper": "s26_24",
+"q": 7,
+"part": "(b)(ii)",
+"topic": 11,
+"section": "11.2.5",
+"justification": "11.2.5 Fundamental particles: describe the changes to quark composition that take place during β– and β+ decay",
+"marks": 1
+},
+{
+"ref": "O/N 23/P21/Q1/a",
+"paper": "w23_21",
+"q": 1,
+"part": "(a)",
+"topic": 1,
+"section": "1.4.1",
+"justification": "1.4.1 Scalars and vectors: \u0007understand the difference between scalar and vector quantities and give examples of scalar and vector quantities included in the syllabus",
+"marks": 2
+},
+{
+"ref": "O/N 23/P21/Q1/b(i)",
+"paper": "w23_21",
+"q": 1,
+"part": "(b)(i)",
+"topic": 1,
+"section": "1.3.3",
+"justification": "1.3.3 Errors and uncertainties: \u0007assess the uncertainty in a derived quantity by simple addition of absolute or percentage uncertainties",
+"marks": 1
+},
+{
+"ref": "O/N 23/P21/Q1/b(ii)",
+"paper": "w23_21",
+"q": 1,
+"part": "(b)(ii)",
+"topic": 1,
+"section": "1.3.3",
+"justification": "1.3.3 Errors and uncertainties: \u0007assess the uncertainty in a derived quantity by simple addition of absolute or percentage uncertainties",
+"marks": 2
+},
+{
+"ref": "O/N 23/P21/Q2/a(i)",
+"paper": "w23_21",
+"q": 2,
+"part": "(a)(i)",
+"topic": 4,
+"section": "4.2.2",
+"justification": "4.2.2 Equilibrium of forces: understand that, when there is no resultant force and no resultant torque, a system is in equilibrium",
+"marks": 2
+},
+{
+"ref": "O/N 23/P21/Q2/a(ii)",
+"paper": "w23_21",
+"q": 2,
+"part": "(a)(ii)",
+"topic": 4,
+"section": "4.3.6",
+"justification": "4.3.6 Density and pressure: calculate the upthrust acting on an object in a fluid using the equation F = ρgV (Archimedes’ principle)",
+"marks": 3
+},
+{
+"ref": "O/N 23/P21/Q2/a(iii)",
+"paper": "w23_21",
+"q": 2,
+"part": "(a)(iii)",
+"topic": 3,
+"section": "3.1.2",
+"justification": "3.1.2 Momentum and Newton's laws of motion: \u0007recall F = ma and solve problems using it, understanding that acceleration and resultant force are always in the same direction",
+"marks": 3
+},
+{
+"ref": "O/N 23/P21/Q2/b",
+"paper": "w23_21",
+"q": 2,
+"part": "(b)",
+"topic": 3,
+"section": "3.2.2",
+"justification": "3.2.2 Non-uniform motion: describe and explain qualitatively the motion of objects in a uniform gravitational field with air resistance",
+"marks": 3
+},
+{
+"ref": "O/N 23/P21/Q2/c(i)",
+"paper": "w23_21",
+"q": 2,
+"part": "(c)(i)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 1
+},
+{
+"ref": "O/N 23/P21/Q2/c(ii)",
+"paper": "w23_21",
+"q": 2,
+"part": "(c)(ii)",
+"topic": 6,
+"section": "6.2.4",
+"justification": "6.2.4 Elastic and plastic behaviour: recall and use EP = 2 1  Fx = 2 1  kx2 for a material deformed within its limit of proportionality",
+"marks": 2
+},
+{
+"ref": "O/N 23/P21/Q2/c(iii)",
+"paper": "w23_21",
+"q": 2,
+"part": "(c)(iii)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 2
+},
+{
+"ref": "O/N 23/P21/Q3/a",
+"paper": "w23_21",
+"q": 3,
+"part": "(a)",
+"topic": 2,
+"section": "2.1.3",
+"justification": "2.1.3 Equations of motion: determine displacement from the area under a velocity–time graph",
+"marks": 1
+},
+{
+"ref": "O/N 23/P21/Q3/b(i)",
+"paper": "w23_21",
+"q": 3,
+"part": "(b)(i)",
+"topic": 2,
+"section": "2.1.5",
+"justification": "2.1.5 Equations of motion: determine acceleration using the gradient of a velocity–time graph",
+"marks": 2
+},
+{
+"ref": "O/N 23/P21/Q3/b(ii)",
+"paper": "w23_21",
+"q": 3,
+"part": "(b)(ii)",
+"topic": 3,
+"section": "3.3.2",
+"justification": "3.3.2 Linear momentum and its conservation: \u0007apply the principle of conservation of momentum to solve simple problems, including elastic and inelastic interactions between objects in both one and two dimensions (knowledge of the concept of coefficient of restitution is not required)",
+"marks": 3
+},
+{
+"ref": "O/N 23/P21/Q3/c",
+"paper": "w23_21",
+"q": 3,
+"part": "(c)",
+"topic": 2,
+"section": "2.1.2",
+"justification": "2.1.2 Equations of motion: use graphical methods to represent distance, displacement, speed, velocity and acceleration",
+"marks": 3
+},
+{
+"ref": "O/N 23/P21/Q4/a",
+"paper": "w23_21",
+"q": 4,
+"part": "(a)",
+"topic": 8,
+"section": "8.1.1",
+"justification": "8.1.1 Stationary waves: explain and use the principle of superposition",
+"marks": 2
+},
+{
+"ref": "O/N 23/P21/Q4/b",
+"paper": "w23_21",
+"q": 4,
+"part": "(b)",
+"topic": 8,
+"section": "8.3.4",
+"justification": "8.3.4 Interference: recall and use λ = ax / D for double-slit interference using light",
+"marks": 3
+},
+{
+"ref": "O/N 23/P21/Q4/c(i)",
+"paper": "w23_21",
+"q": 4,
+"part": "(c)(i)",
+"topic": 8,
+"section": "8.3.1",
+"justification": "8.3.1 Interference: understand the terms interference and coherence",
+"marks": 1
+},
+{
+"ref": "O/N 23/P21/Q4/c(ii)",
+"paper": "w23_21",
+"q": 4,
+"part": "(c)(ii)",
+"topic": 8,
+"section": "8.3.1",
+"justification": "8.3.1 Interference: understand the terms interference and coherence",
+"marks": 1
+},
+{
+"ref": "O/N 23/P21/Q4/d",
+"paper": "w23_21",
+"q": 4,
+"part": "(d)",
+"topic": 8,
+"section": "8.2.2",
+"justification": "8.2.2 Diffraction: \u0007show an understanding of experiments that demonstrate diffraction including the qualitative effect of the gap width relative to the wavelength of the wave; for example diffraction of water waves in a ripple tank",
+"marks": 2
+},
+{
+"ref": "O/N 23/P21/Q5/a",
+"paper": "w23_21",
+"q": 5,
+"part": "(a)",
+"topic": 7,
+"section": "7.3.1",
+"justification": "7.3.1 Doppler effect for sound waves: \u0007understand that when a source of sound waves moves relative to a stationary observer, the observed frequency is different from the source frequency (understanding of the Doppler effect for a stationary source and a moving observer is not required)",
+"marks": 1
+},
+{
+"ref": "O/N 23/P21/Q5/b",
+"paper": "w23_21",
+"q": 5,
+"part": "(b)",
+"topic": 7,
+"section": "7.1.7",
+"justification": "7.1.7 Progressive waves: recall and use intensity = power/area and intensity ∝ (amplitude)2 for a progressive wave",
+"marks": 3
+},
+{
+"ref": "O/N 23/P21/Q6/a(i)",
+"paper": "w23_21",
+"q": 6,
+"part": "(a)(i)",
+"topic": 9,
+"section": "9.3.2",
+"justification": "9.3.2 Resistance and resistivity: recall and use V = IR",
+"marks": 1
+},
+{
+"ref": "O/N 23/P21/Q6/a(ii)",
+"paper": "w23_21",
+"q": 6,
+"part": "(a)(ii)",
+"topic": 10,
+"section": "10.3.1",
+"justification": "10.3.1 Potential dividers: understand the principle of a potential divider circuit",
+"marks": 3
+},
+{
+"ref": "O/N 23/P21/Q6/a(iii)",
+"paper": "w23_21",
+"q": 6,
+"part": "(a)(iii)",
+"topic": 9,
+"section": "9.2.3",
+"justification": "9.2.3 Potential difference and power: recall and use P = VI, P = I 2R and P = V 2 / R",
+"marks": 2
+},
+{
+"ref": "O/N 23/P21/Q6/b",
+"paper": "w23_21",
+"q": 6,
+"part": "(b)",
+"topic": 10,
+"section": "10.3.4",
+"justification": "10.3.4 Potential dividers: \u0007explain the use of thermistors and light-dependent resistors in potential dividers to provide a potential difference that is dependent on temperature and light intensity",
+"marks": 3
+},
+{
+"ref": "O/N 23/P21/Q7/a",
+"paper": "w23_21",
+"q": 7,
+"part": "(a)",
+"topic": 11,
+"section": "11.1.1",
+"justification": "11.1.1 Atoms, nuclei and radiation: infer from the results of the α-particle scattering experiment the existence and small size of the nucleus",
+"marks": 2
+},
+{
+"ref": "O/N 23/P21/Q7/b",
+"paper": "w23_21",
+"q": 7,
+"part": "(b)",
+"topic": 11,
+"section": "11.1.7",
+"justification": "11.1.7 Atoms, nuclei and radiation: \u0007describe the composition, mass and charge of α-, β- and γ-radiations (both β– (electrons) and β+ (positrons) are included)",
+"marks": 1
+},
+{
+"ref": "O/N 23/P21/Q7/c",
+"paper": "w23_21",
+"q": 7,
+"part": "(c)",
+"topic": 11,
+"section": "11.2.4",
+"justification": "11.2.4 Fundamental particles: \u0007understand that a hadron may be either a baryon (consisting of three quarks) or a meson (consisting of one quark and one antiquark)",
+"marks": 2
+},
+{
+"ref": "O/N 23/P21/Q7/d(i)",
+"paper": "w23_21",
+"q": 7,
+"part": "(d)(i)",
+"topic": 11,
+"section": "11.1.12",
+"justification": "11.1.12 Atoms, nuclei and radiation: \u0007use the unified atomic mass unit (u) as a unit of mass",
+"marks": 1
+},
+{
+"ref": "O/N 23/P21/Q7/d(ii)",
+"paper": "w23_21",
+"q": 7,
+"part": "(d)(ii)",
+"topic": 11,
+"section": "11.2.2",
+"justification": "11.2.2 Fundamental particles: \u0007recall and use the charge of each flavour of quark and understand that its respective antiquark has the opposite charge (no knowledge of any other properties of quarks is required)",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q1/a",
+"paper": "w23_22",
+"q": 1,
+"part": "(a)",
+"topic": 1,
+"section": "1.2.1",
+"justification": "1.2.1 SI units: \u0007recall the following SI base quantities and their units: mass (kg), length (m), time (s), current (A), temperature (K)",
+"marks": 1
+},
+{
+"ref": "O/N 23/P22/Q1/b",
+"paper": "w23_22",
+"q": 1,
+"part": "(b)",
+"topic": 2,
+"section": "2.1.7",
+"justification": "2.1.7 Equations of motion: \u0007solve problems using equations that represent uniformly accelerated motion in a straight line, including the motion of bodies falling in a uniform gravitational field without air resistance",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q1/c(i)",
+"paper": "w23_22",
+"q": 1,
+"part": "(c)(i)",
+"topic": 2,
+"section": "2.1.5",
+"justification": "2.1.5 Equations of motion: determine acceleration using the gradient of a velocity–time graph",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q1/c(ii)",
+"paper": "w23_22",
+"q": 1,
+"part": "(c)(ii)",
+"topic": 2,
+"section": "2.1.5",
+"justification": "2.1.5 Equations of motion: determine acceleration using the gradient of a velocity–time graph",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q1/c(iii)",
+"paper": "w23_22",
+"q": 1,
+"part": "(c)(iii)",
+"topic": 2,
+"section": "2.1.3",
+"justification": "2.1.3 Equations of motion: determine displacement from the area under a velocity–time graph",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q2/a",
+"paper": "w23_22",
+"q": 2,
+"part": "(a)",
+"topic": 4,
+"section": "4.3.6",
+"justification": "4.3.6 Density and pressure: calculate the upthrust acting on an object in a fluid using the equation F = ρgV (Archimedes’ principle)",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q2/b(i)",
+"paper": "w23_22",
+"q": 2,
+"part": "(b)(i)",
+"topic": 3,
+"section": "3.2.2",
+"justification": "3.2.2 Non-uniform motion: describe and explain qualitatively the motion of objects in a uniform gravitational field with air resistance",
+"marks": 1
+},
+{
+"ref": "O/N 23/P22/Q2/b(ii)",
+"paper": "w23_22",
+"q": 2,
+"part": "(b)(ii)",
+"topic": 3,
+"section": "3.2.2",
+"justification": "3.2.2 Non-uniform motion: describe and explain qualitatively the motion of objects in a uniform gravitational field with air resistance",
+"marks": 3
+},
+{
+"ref": "O/N 23/P22/Q2/c",
+"paper": "w23_22",
+"q": 2,
+"part": "(c)",
+"topic": 3,
+"section": "3.1.2",
+"justification": "3.1.2 Momentum and Newton's laws of motion: \u0007recall F = ma and solve problems using it, understanding that acceleration and resultant force are always in the same direction",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q3/a",
+"paper": "w23_22",
+"q": 3,
+"part": "(a)",
+"topic": 6,
+"section": "6.2.4",
+"justification": "6.2.4 Elastic and plastic behaviour: recall and use EP = 2 1  Fx = 2 1  kx2 for a material deformed within its limit of proportionality",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q3/b",
+"paper": "w23_22",
+"q": 3,
+"part": "(b)",
+"topic": 5,
+"section": "5.2.4",
+"justification": "5.2.4 Gravitational potential energy and kinetic energy: recall and use EK = 2 1 mv2",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q3/c(i)",
+"paper": "w23_22",
+"q": 3,
+"part": "(c)(i)",
+"topic": 5,
+"section": "5.2.2",
+"justification": "5.2.2 Gravitational potential energy and kinetic energy: \u0007recall and use the formula ∆EP = mg∆h for gravitational potential energy changes in a uniform gravitational field",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q3/c(ii)",
+"paper": "w23_22",
+"q": 3,
+"part": "(c)(ii)",
+"topic": 5,
+"section": "5.1.1",
+"justification": "5.1.1 Energy conservation: \u0007understand the concept of work, and recall and use work done = force × displacement in the direction of the force",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q3/d",
+"paper": "w23_22",
+"q": 3,
+"part": "(d)",
+"topic": 6,
+"section": "6.2.4",
+"justification": "6.2.4 Elastic and plastic behaviour: recall and use EP = 2 1  Fx = 2 1  kx2 for a material deformed within its limit of proportionality",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q4/a(i)",
+"paper": "w23_22",
+"q": 4,
+"part": "(a)(i)",
+"topic": 3,
+"section": "3.3.2",
+"justification": "3.3.2 Linear momentum and its conservation: \u0007apply the principle of conservation of momentum to solve simple problems, including elastic and inelastic interactions between objects in both one and two dimensions (knowledge of the concept of coefficient of restitution is not required)",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q4/a(ii)",
+"paper": "w23_22",
+"q": 4,
+"part": "(a)(ii)",
+"topic": 3,
+"section": "3.3.2",
+"justification": "3.3.2 Linear momentum and its conservation: \u0007apply the principle of conservation of momentum to solve simple problems, including elastic and inelastic interactions between objects in both one and two dimensions (knowledge of the concept of coefficient of restitution is not required)",
+"marks": 1
+},
+{
+"ref": "O/N 23/P22/Q4/a(iii)",
+"paper": "w23_22",
+"q": 4,
+"part": "(a)(iii)",
+"topic": 3,
+"section": "3.1.5",
+"justification": "3.1.5 Momentum and Newton's laws of motion: state and apply each of Newton’s laws of motion",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q4/b",
+"paper": "w23_22",
+"q": 4,
+"part": "(b)",
+"topic": 3,
+"section": "3.3.3",
+"justification": "3.3.3 Linear momentum and its conservation: \u0007recall that, for an elastic collision, total kinetic energy is conserved and the relative speed of approach is equal to the relative speed of separation",
+"marks": 1
+},
+{
+"ref": "O/N 23/P22/Q5/a(i)",
+"paper": "w23_22",
+"q": 5,
+"part": "(a)(i)",
+"topic": 7,
+"section": "7.5.2",
+"justification": "7.5.2 Polarisation: \u0007recall and use Malus’s law (I = I0 cos2θ ) to calculate the intensity of a plane-polarised electromagnetic wave after transmission through a polarising filter or a series of polarising filters (calculation of the effect of a polarising filter on the intensity of an unpolarised wave is not required)",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q5/a(ii)",
+"paper": "w23_22",
+"q": 5,
+"part": "(a)(ii)",
+"topic": 7,
+"section": "7.5.2",
+"justification": "7.5.2 Polarisation: \u0007recall and use Malus’s law (I = I0 cos2θ ) to calculate the intensity of a plane-polarised electromagnetic wave after transmission through a polarising filter or a series of polarising filters (calculation of the effect of a polarising filter on the intensity of an unpolarised wave is not required)",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q5/b",
+"paper": "w23_22",
+"q": 5,
+"part": "(b)",
+"topic": 8,
+"section": "8.2.1",
+"justification": "8.2.1 Diffraction: explain the meaning of the term diffraction",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q5/c(i)",
+"paper": "w23_22",
+"q": 5,
+"part": "(c)(i)",
+"topic": 8,
+"section": "8.4.1",
+"justification": "8.4.1 The diffraction grating: recall and use d sin θ = nλ",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q5/c(ii)",
+"paper": "w23_22",
+"q": 5,
+"part": "(c)(ii)",
+"topic": 8,
+"section": "8.4.1",
+"justification": "8.4.1 The diffraction grating: recall and use d sin θ = nλ",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q6/a",
+"paper": "w23_22",
+"q": 6,
+"part": "(a)",
+"topic": 9,
+"section": "9.3.6",
+"justification": "9.3.6 Resistance and resistivity: recall and use R = ρL / A",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q6/b(i)",
+"paper": "w23_22",
+"q": 6,
+"part": "(b)(i)",
+"topic": 9,
+"section": "9.3.2",
+"justification": "9.3.2 Resistance and resistivity: recall and use V = IR",
+"marks": 1
+},
+{
+"ref": "O/N 23/P22/Q6/b(ii)",
+"paper": "w23_22",
+"q": 6,
+"part": "(b)(ii)",
+"topic": 9,
+"section": "9.1.3",
+"justification": "9.1.3 Electric current: recall and use Q = It",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q6/b(iii)",
+"paper": "w23_22",
+"q": 6,
+"part": "(b)(iii)",
+"topic": 10,
+"section": "10.2.7",
+"justification": "10.2.7 Kirchhoff's laws: use Kirchhoff’s laws to solve simple circuit problems",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q6/b(iv)",
+"paper": "w23_22",
+"q": 6,
+"part": "(b)(iv)",
+"topic": 9,
+"section": "9.2.3",
+"justification": "9.2.3 Potential difference and power: recall and use P = VI, P = I 2R and P = V 2 / R",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q6/c(i)",
+"paper": "w23_22",
+"q": 6,
+"part": "(c)(i)",
+"topic": 9,
+"section": "9.3.7",
+"justification": "9.3.7 Resistance and resistivity: \u0007understand that the resistance of a light-dependent resistor (LDR) decreases as the light intensity increases",
+"marks": 1
+},
+{
+"ref": "O/N 23/P22/Q6/c(ii)",
+"paper": "w23_22",
+"q": 6,
+"part": "(c)(ii)",
+"topic": 10,
+"section": "10.2.7",
+"justification": "10.2.7 Kirchhoff's laws: use Kirchhoff’s laws to solve simple circuit problems",
+"marks": 1
+},
+{
+"ref": "O/N 23/P22/Q6/c(iii)",
+"paper": "w23_22",
+"q": 6,
+"part": "(c)(iii)",
+"topic": 10,
+"section": "10.3.1",
+"justification": "10.3.1 Potential dividers: understand the principle of a potential divider circuit",
+"marks": 1
+},
+{
+"ref": "O/N 23/P22/Q7/a",
+"paper": "w23_22",
+"q": 7,
+"part": "(a)",
+"topic": 11,
+"section": "11.2.3",
+"justification": "11.2.3 Fundamental particles: \u0007recall that protons and neutrons are not fundamental particles and describe protons and neutrons in terms of their quark composition",
+"marks": 1
+},
+{
+"ref": "O/N 23/P22/Q7/b",
+"paper": "w23_22",
+"q": 7,
+"part": "(b)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 2
+},
+{
+"ref": "O/N 23/P22/Q7/c",
+"paper": "w23_22",
+"q": 7,
+"part": "(c)",
+"topic": 11,
+"section": "11.2.2",
+"justification": "11.2.2 Fundamental particles: \u0007recall and use the charge of each flavour of quark and understand that its respective antiquark has the opposite charge (no knowledge of any other properties of quarks is required)",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q1/a",
+"paper": "w23_23",
+"q": 1,
+"part": "(a)",
+"topic": 1,
+"section": "1.4.1",
+"justification": "1.4.1 Scalars and vectors: \u0007understand the difference between scalar and vector quantities and give examples of scalar and vector quantities included in the syllabus",
+"marks": 1
+},
+{
+"ref": "O/N 23/P23/Q1/b(i)",
+"paper": "w23_23",
+"q": 1,
+"part": "(b)(i)",
+"topic": 1,
+"section": "1.3.3",
+"justification": "1.3.3 Errors and uncertainties: \u0007assess the uncertainty in a derived quantity by simple addition of absolute or percentage uncertainties",
+"marks": 1
+},
+{
+"ref": "O/N 23/P23/Q1/b(ii)",
+"paper": "w23_23",
+"q": 1,
+"part": "(b)(ii)",
+"topic": 4,
+"section": "4.3.1",
+"justification": "4.3.1 Density and pressure: define and use density",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q1/b(iii)",
+"paper": "w23_23",
+"q": 1,
+"part": "(b)(iii)",
+"topic": 1,
+"section": "1.3.3",
+"justification": "1.3.3 Errors and uncertainties: \u0007assess the uncertainty in a derived quantity by simple addition of absolute or percentage uncertainties",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q2/a(i)",
+"paper": "w23_23",
+"q": 2,
+"part": "(a)(i)",
+"topic": 2,
+"section": "2.1.9",
+"justification": "2.1.9 Equations of motion: \u0007describe and explain motion due to a uniform velocity in one direction and a uniform acceleration in a perpendicular direction",
+"marks": 1
+},
+{
+"ref": "O/N 23/P23/Q2/a(ii)",
+"paper": "w23_23",
+"q": 2,
+"part": "(a)(ii)",
+"topic": 1,
+"section": "1.4.3",
+"justification": "1.4.3 Scalars and vectors: represent a vector as two perpendicular components",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q2/a(iii)",
+"paper": "w23_23",
+"q": 2,
+"part": "(a)(iii)",
+"topic": 2,
+"section": "2.1.9",
+"justification": "2.1.9 Equations of motion: \u0007describe and explain motion due to a uniform velocity in one direction and a uniform acceleration in a perpendicular direction",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q2/b",
+"paper": "w23_23",
+"q": 2,
+"part": "(b)",
+"topic": 3,
+"section": "3.3.3",
+"justification": "3.3.3 Linear momentum and its conservation: \u0007recall that, for an elastic collision, total kinetic energy is conserved and the relative speed of approach is equal to the relative speed of separation",
+"marks": 1
+},
+{
+"ref": "O/N 23/P23/Q3/a",
+"paper": "w23_23",
+"q": 3,
+"part": "(a)",
+"topic": 4,
+"section": "4.2.2",
+"justification": "4.2.2 Equilibrium of forces: understand that, when there is no resultant force and no resultant torque, a system is in equilibrium",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q3/b(i)",
+"paper": "w23_23",
+"q": 3,
+"part": "(b)(i)",
+"topic": 4,
+"section": "4.3.6",
+"justification": "4.3.6 Density and pressure: calculate the upthrust acting on an object in a fluid using the equation F = ρgV (Archimedes’ principle)",
+"marks": 1
+},
+{
+"ref": "O/N 23/P23/Q3/b(ii)",
+"paper": "w23_23",
+"q": 3,
+"part": "(b)(ii)",
+"topic": 4,
+"section": "4.2.2",
+"justification": "4.2.2 Equilibrium of forces: understand that, when there is no resultant force and no resultant torque, a system is in equilibrium",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q3/c(i)",
+"paper": "w23_23",
+"q": 3,
+"part": "(c)(i)",
+"topic": 3,
+"section": "3.1.4",
+"justification": "3.1.4 Momentum and Newton's laws of motion: define and use force as rate of change of momentum",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q3/c(ii)",
+"paper": "w23_23",
+"q": 3,
+"part": "(c)(ii)",
+"topic": 3,
+"section": "3.1.3",
+"justification": "3.1.3 Momentum and Newton's laws of motion: define and use linear momentum as the product of mass and velocity",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q3/c(iii)",
+"paper": "w23_23",
+"q": 3,
+"part": "(c)(iii)",
+"topic": 5,
+"section": "5.2.4",
+"justification": "5.2.4 Gravitational potential energy and kinetic energy: recall and use EK = 2 1 mv2",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q4/a(i)",
+"paper": "w23_23",
+"q": 4,
+"part": "(a)(i)",
+"topic": 6,
+"section": "6.1.4",
+"justification": "6.1.4 Stress and strain: recall and use the formula for the spring constant k = F / x",
+"marks": 1
+},
+{
+"ref": "O/N 23/P23/Q4/a(ii)",
+"paper": "w23_23",
+"q": 4,
+"part": "(a)(ii)",
+"topic": 6,
+"section": "6.2.2",
+"justification": "6.2.2 Elastic and plastic behaviour: understand that the area under the force–extension graph represents the work done",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q4/b(i)",
+"paper": "w23_23",
+"q": 4,
+"part": "(b)(i)",
+"topic": 6,
+"section": "6.1.3",
+"justification": "6.1.3 Stress and strain: recall and use Hooke’s law",
+"marks": 1
+},
+{
+"ref": "O/N 23/P23/Q4/b(ii)",
+"paper": "w23_23",
+"q": 4,
+"part": "(b)(ii)",
+"topic": 6,
+"section": "6.2.4",
+"justification": "6.2.4 Elastic and plastic behaviour: recall and use EP = 2 1  Fx = 2 1  kx2 for a material deformed within its limit of proportionality",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q4/b(iii)",
+"paper": "w23_23",
+"q": 4,
+"part": "(b)(iii)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 3
+},
+{
+"ref": "O/N 23/P23/Q5/a(i)",
+"paper": "w23_23",
+"q": 5,
+"part": "(a)(i)",
+"topic": 8,
+"section": "8.3.1",
+"justification": "8.3.1 Interference: understand the terms interference and coherence",
+"marks": 1
+},
+{
+"ref": "O/N 23/P23/Q5/a(ii)",
+"paper": "w23_23",
+"q": 5,
+"part": "(a)(ii)",
+"topic": 8,
+"section": "8.3.1",
+"justification": "8.3.1 Interference: understand the terms interference and coherence",
+"marks": 1
+},
+{
+"ref": "O/N 23/P23/Q5/b(i)",
+"paper": "w23_23",
+"q": 5,
+"part": "(b)(i)",
+"topic": 8,
+"section": "8.3.4",
+"justification": "8.3.4 Interference: recall and use λ = ax / D for double-slit interference using light",
+"marks": 3
+},
+{
+"ref": "O/N 23/P23/Q5/b(ii)",
+"paper": "w23_23",
+"q": 5,
+"part": "(b)(ii)",
+"topic": 7,
+"section": "7.4.2",
+"justification": "7.4.2 Electromagnetic spectrum: recall the approximate range of wavelengths in free space of the principal regions of the electromagnetic spectrum from radio waves to γ-rays",
+"marks": 1
+},
+{
+"ref": "O/N 23/P23/Q6/a",
+"paper": "w23_23",
+"q": 6,
+"part": "(a)",
+"topic": 7,
+"section": "7.3.2",
+"justification": "7.3.2 Doppler effect for sound waves: \u0007use the expression fο = f sv / (v ± vs) for the observed frequency when a source of sound waves moves relative to a stationary observer",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q6/b(i)",
+"paper": "w23_23",
+"q": 6,
+"part": "(b)(i)",
+"topic": 7,
+"section": "7.1.7",
+"justification": "7.1.7 Progressive waves: recall and use intensity = power/area and intensity ∝ (amplitude)2 for a progressive wave",
+"marks": 1
+},
+{
+"ref": "O/N 23/P23/Q6/b(ii)",
+"paper": "w23_23",
+"q": 6,
+"part": "(b)(ii)",
+"topic": 7,
+"section": "7.1.7",
+"justification": "7.1.7 Progressive waves: recall and use intensity = power/area and intensity ∝ (amplitude)2 for a progressive wave",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q7/a",
+"paper": "w23_23",
+"q": 7,
+"part": "(a)",
+"topic": 9,
+"section": "9.3.5",
+"justification": "9.3.5 Resistance and resistivity: state Ohm’s law",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q7/b(i)",
+"paper": "w23_23",
+"q": 7,
+"part": "(b)(i)",
+"topic": 9,
+"section": "9.3.6",
+"justification": "9.3.6 Resistance and resistivity: recall and use R = ρL / A",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q7/b(ii)",
+"paper": "w23_23",
+"q": 7,
+"part": "(b)(ii)",
+"topic": 10,
+"section": "10.3.1",
+"justification": "10.3.1 Potential dividers: understand the principle of a potential divider circuit",
+"marks": 1
+},
+{
+"ref": "O/N 23/P23/Q7/b(iii)",
+"paper": "w23_23",
+"q": 7,
+"part": "(b)(iii)",
+"topic": 10,
+"section": "10.2.7",
+"justification": "10.2.7 Kirchhoff's laws: use Kirchhoff’s laws to solve simple circuit problems",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q7/b(iv)",
+"paper": "w23_23",
+"q": 7,
+"part": "(b)(iv)",
+"topic": 10,
+"section": "10.3.1",
+"justification": "10.3.1 Potential dividers: understand the principle of a potential divider circuit",
+"marks": 1
+},
+{
+"ref": "O/N 23/P23/Q7/c(i)",
+"paper": "w23_23",
+"q": 7,
+"part": "(c)(i)",
+"topic": 9,
+"section": "9.1.4",
+"justification": "9.1.4 Electric current: \u0007use, for a current-carrying conductor, the expression I = Anvq, where n is the number density of charge carriers",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q7/c(ii)",
+"paper": "w23_23",
+"q": 7,
+"part": "(c)(ii)",
+"topic": 9,
+"section": "9.1.2",
+"justification": "9.1.2 Electric current: understand that the charge on charge carriers is quantised",
+"marks": 1
+},
+{
+"ref": "O/N 23/P23/Q8/a(i)",
+"paper": "w23_23",
+"q": 8,
+"part": "(a)(i)",
+"topic": 11,
+"section": "11.1.3",
+"justification": "11.1.3 Atoms, nuclei and radiation: distinguish between nucleon number and proton number",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q8/a(ii)",
+"paper": "w23_23",
+"q": 8,
+"part": "(a)(ii)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 2
+},
+{
+"ref": "O/N 23/P23/Q8/a(iii)",
+"paper": "w23_23",
+"q": 8,
+"part": "(a)(iii)",
+"topic": 11,
+"section": "11.2.6",
+"justification": "11.2.6 Fundamental particles: recall that electrons and neutrinos are fundamental particles called leptons",
+"marks": 1
+},
+{
+"ref": "O/N 23/P23/Q8/b",
+"paper": "w23_23",
+"q": 8,
+"part": "(b)",
+"topic": 11,
+"section": "11.1.10",
+"justification": "11.1.10 Atoms, nuclei and radiation: \u0007understand that α-particles have discrete energies but that β-particles have a continuous range of energies because (anti)neutrinos are emitted in β-decay",
+"marks": 1
+},
+{
+"ref": "O/N 24/P21/Q1/a",
+"paper": "w24_21",
+"q": 1,
+"part": "(a)",
+"topic": 4,
+"section": "4.3.1",
+"justification": "4.3.1 Density and pressure: define and use density",
+"marks": 1
+},
+{
+"ref": "O/N 24/P21/Q1/b(i)",
+"paper": "w24_21",
+"q": 1,
+"part": "(b)(i)",
+"topic": 4,
+"section": "4.3.1",
+"justification": "4.3.1 Density and pressure: define and use density",
+"marks": 2
+},
+{
+"ref": "O/N 24/P21/Q1/b(ii)",
+"paper": "w24_21",
+"q": 1,
+"part": "(b)(ii)",
+"topic": 1,
+"section": "1.3.3",
+"justification": "1.3.3 Errors and uncertainties: \u0007assess the uncertainty in a derived quantity by simple addition of absolute or percentage uncertainties",
+"marks": 3
+},
+{
+"ref": "O/N 24/P21/Q1/c",
+"paper": "w24_21",
+"q": 1,
+"part": "(c)",
+"topic": 1,
+"section": "1.3.1",
+"justification": "1.3.1 Errors and uncertainties: \u0007understand and explain the effects of systematic errors (including zero errors) and random errors in measurements",
+"marks": 1
+},
+{
+"ref": "O/N 24/P21/Q2/a",
+"paper": "w24_21",
+"q": 2,
+"part": "(a)",
+"topic": 3,
+"section": "3.1.3",
+"justification": "3.1.3 Momentum and Newton's laws of motion: define and use linear momentum as the product of mass and velocity",
+"marks": 1
+},
+{
+"ref": "O/N 24/P21/Q2/b(i)",
+"paper": "w24_21",
+"q": 2,
+"part": "(b)(i)",
+"topic": 3,
+"section": "3.1.3",
+"justification": "3.1.3 Momentum and Newton's laws of motion: define and use linear momentum as the product of mass and velocity",
+"marks": 1
+},
+{
+"ref": "O/N 24/P21/Q2/b(ii)",
+"paper": "w24_21",
+"q": 2,
+"part": "(b)(ii)",
+"topic": 5,
+"section": "5.2.4",
+"justification": "5.2.4 Gravitational potential energy and kinetic energy: recall and use EK = 2 1 mv2",
+"marks": 2
+},
+{
+"ref": "O/N 24/P21/Q2/b(iii)",
+"paper": "w24_21",
+"q": 2,
+"part": "(b)(iii)",
+"topic": 3,
+"section": "3.1.4",
+"justification": "3.1.4 Momentum and Newton's laws of motion: define and use force as rate of change of momentum",
+"marks": 2
+},
+{
+"ref": "O/N 24/P21/Q2/b(iv)",
+"paper": "w24_21",
+"q": 2,
+"part": "(b)(iv)",
+"topic": 2,
+"section": "2.1.3",
+"justification": "2.1.3 Equations of motion: determine displacement from the area under a velocity–time graph",
+"marks": 2
+},
+{
+"ref": "O/N 24/P21/Q2/c",
+"paper": "w24_21",
+"q": 2,
+"part": "(c)",
+"topic": 3,
+"section": "3.1.4",
+"justification": "3.1.4 Momentum and Newton's laws of motion: define and use force as rate of change of momentum",
+"marks": 3
+},
+{
+"ref": "O/N 24/P21/Q3/a",
+"paper": "w24_21",
+"q": 3,
+"part": "(a)",
+"topic": 5,
+"section": "5.1.1",
+"justification": "5.1.1 Energy conservation: \u0007understand the concept of work, and recall and use work done = force × displacement in the direction of the force",
+"marks": 1
+},
+{
+"ref": "O/N 24/P21/Q3/b",
+"paper": "w24_21",
+"q": 3,
+"part": "(b)",
+"topic": 5,
+"section": "5.2.1",
+"justification": "5.2.1 Gravitational potential energy and kinetic energy: \u0007derive, using W = Fs, the formula ∆EP = mg∆h for gravitational potential energy changes in a uniform gravitational field",
+"marks": 2
+},
+{
+"ref": "O/N 24/P21/Q3/c(i)",
+"paper": "w24_21",
+"q": 3,
+"part": "(c)(i)",
+"topic": 5,
+"section": "5.1.1",
+"justification": "5.1.1 Energy conservation: \u0007understand the concept of work, and recall and use work done = force × displacement in the direction of the force",
+"marks": 1
+},
+{
+"ref": "O/N 24/P21/Q3/c(ii)",
+"paper": "w24_21",
+"q": 3,
+"part": "(c)(ii)",
+"topic": 5,
+"section": "5.1.6",
+"justification": "5.1.6 Energy conservation: solve problems using P = W / t",
+"marks": 2
+},
+{
+"ref": "O/N 24/P21/Q3/c(iii)",
+"paper": "w24_21",
+"q": 3,
+"part": "(c)(iii)",
+"topic": 5,
+"section": "5.1.4",
+"justification": "5.1.4 Energy conservation: use the concept of efficiency to solve problems",
+"marks": 2
+},
+{
+"ref": "O/N 24/P21/Q3/c(iv)",
+"paper": "w24_21",
+"q": 3,
+"part": "(c)(iv)",
+"topic": 9,
+"section": "9.3.6",
+"justification": "9.3.6 Resistance and resistivity: recall and use R = ρL / A",
+"marks": 3
+},
+{
+"ref": "O/N 24/P21/Q4/a",
+"paper": "w24_21",
+"q": 4,
+"part": "(a)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 1
+},
+{
+"ref": "O/N 24/P21/Q4/b(i)",
+"paper": "w24_21",
+"q": 4,
+"part": "(b)(i)",
+"topic": 6,
+"section": "6.1.3",
+"justification": "6.1.3 Stress and strain: recall and use Hooke’s law",
+"marks": 1
+},
+{
+"ref": "O/N 24/P21/Q4/b(ii)",
+"paper": "w24_21",
+"q": 4,
+"part": "(b)(ii)",
+"topic": 6,
+"section": "6.1.4",
+"justification": "6.1.4 Stress and strain: recall and use the formula for the spring constant k = F / x",
+"marks": 1
+},
+{
+"ref": "O/N 24/P21/Q4/b(iii)",
+"paper": "w24_21",
+"q": 4,
+"part": "(b)(iii)",
+"topic": 6,
+"section": "6.2.2",
+"justification": "6.2.2 Elastic and plastic behaviour: understand that the area under the force–extension graph represents the work done",
+"marks": 1
+},
+{
+"ref": "O/N 24/P21/Q4/c",
+"paper": "w24_21",
+"q": 4,
+"part": "(c)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 3
+},
+{
+"ref": "O/N 24/P21/Q5/a(i)",
+"paper": "w24_21",
+"q": 5,
+"part": "(a)(i)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 2
+},
+{
+"ref": "O/N 24/P21/Q5/a(ii)",
+"paper": "w24_21",
+"q": 5,
+"part": "(a)(ii)",
+"topic": 11,
+"section": "11.1.9",
+"justification": "11.1.9 Atoms, nuclei and radiation: \u0007state that (electron) antineutrinos are produced during β– decay and (electron) neutrinos are produced during β+ decay",
+"marks": 1
+},
+{
+"ref": "O/N 24/P21/Q5/a(iii)",
+"paper": "w24_21",
+"q": 5,
+"part": "(a)(iii)",
+"topic": 11,
+"section": "11.2.6",
+"justification": "11.2.6 Fundamental particles: recall that electrons and neutrinos are fundamental particles called leptons",
+"marks": 1
+},
+{
+"ref": "O/N 24/P21/Q5/b",
+"paper": "w24_21",
+"q": 5,
+"part": "(b)",
+"topic": 11,
+"section": "11.2.3",
+"justification": "11.2.3 Fundamental particles: \u0007recall that protons and neutrons are not fundamental particles and describe protons and neutrons in terms of their quark composition",
+"marks": 3
+},
+{
+"ref": "O/N 24/P21/Q6/a(i)",
+"paper": "w24_21",
+"q": 6,
+"part": "(a)(i)",
+"topic": 8,
+"section": "8.3.3",
+"justification": "8.3.3 Interference: understand the conditions required if two-source interference fringes are to be observed",
+"marks": 2
+},
+{
+"ref": "O/N 24/P21/Q6/a(ii)",
+"paper": "w24_21",
+"q": 6,
+"part": "(a)(ii)",
+"topic": 8,
+"section": "8.3.3",
+"justification": "8.3.3 Interference: understand the conditions required if two-source interference fringes are to be observed",
+"marks": 2
+},
+{
+"ref": "O/N 24/P21/Q6/b(i)",
+"paper": "w24_21",
+"q": 6,
+"part": "(b)(i)",
+"topic": 7,
+"section": "7.1.5",
+"justification": "7.1.5 Progressive waves: recall and use v = f λ",
+"marks": 2
+},
+{
+"ref": "O/N 24/P21/Q6/b(ii)",
+"paper": "w24_21",
+"q": 6,
+"part": "(b)(ii)",
+"topic": 8,
+"section": "8.3.3",
+"justification": "8.3.3 Interference: understand the conditions required if two-source interference fringes are to be observed",
+"marks": 1
+},
+{
+"ref": "O/N 24/P21/Q6/b(iii)",
+"paper": "w24_21",
+"q": 6,
+"part": "(b)(iii)",
+"topic": 8,
+"section": "8.3.4",
+"justification": "8.3.4 Interference: recall and use λ = ax / D for double-slit interference using light",
+"marks": 2
+},
+{
+"ref": "O/N 24/P21/Q7/a(i)",
+"paper": "w24_21",
+"q": 7,
+"part": "(a)(i)",
+"topic": 10,
+"section": "10.1.5",
+"justification": "10.1.5 Practical circuits: understand the effects of the internal resistance of a source of e.m.f. on the terminal potential difference",
+"marks": 2
+},
+{
+"ref": "O/N 24/P21/Q7/a(ii)",
+"paper": "w24_21",
+"q": 7,
+"part": "(a)(ii)",
+"topic": 9,
+"section": "9.3.2",
+"justification": "9.3.2 Resistance and resistivity: recall and use V = IR",
+"marks": 2
+},
+{
+"ref": "O/N 24/P21/Q7/a(iii)",
+"paper": "w24_21",
+"q": 7,
+"part": "(a)(iii)",
+"topic": 10,
+"section": "10.2.4",
+"justification": "10.2.4 Kirchhoff's laws: use the formula for the combined resistance of two or more resistors in series",
+"marks": 1
+},
+{
+"ref": "O/N 24/P21/Q7/b(i)",
+"paper": "w24_21",
+"q": 7,
+"part": "(b)(i)",
+"topic": 10,
+"section": "10.1.2",
+"justification": "10.1.2 Practical circuits: draw and interpret circuit diagrams containing the circuit symbols shown in section 6 of this syllabus",
+"marks": 1
+},
+{
+"ref": "O/N 24/P21/Q7/b(ii)",
+"paper": "w24_21",
+"q": 7,
+"part": "(b)(ii)",
+"topic": 10,
+"section": "10.1.5",
+"justification": "10.1.5 Practical circuits: understand the effects of the internal resistance of a source of e.m.f. on the terminal potential difference",
+"marks": 2
+},
+{
+"ref": "O/N 24/P22/Q1/a",
+"paper": "w24_22",
+"q": 1,
+"part": "(a)",
+"topic": 1,
+"section": "1.4.1",
+"justification": "1.4.1 Scalars and vectors: \u0007understand the difference between scalar and vector quantities and give examples of scalar and vector quantities included in the syllabus",
+"marks": 1
+},
+{
+"ref": "O/N 24/P22/Q1/b(i)",
+"paper": "w24_22",
+"q": 1,
+"part": "(b)(i)",
+"topic": 1,
+"section": "1.2.2",
+"justification": "1.2.2 SI units: express derived units as products or quotients of the SI base units and use the derived units for quantities listed in this syllabus as appropriate",
+"marks": 3
+},
+{
+"ref": "O/N 24/P22/Q1/b(ii)",
+"paper": "w24_22",
+"q": 1,
+"part": "(b)(ii)",
+"topic": 3,
+"section": "3.2.3",
+"justification": "3.2.3 Non-uniform motion: understand that objects moving against a resistive force may reach a terminal (constant) velocity",
+"marks": 1
+},
+{
+"ref": "O/N 24/P22/Q1/b(iii)",
+"paper": "w24_22",
+"q": 1,
+"part": "(b)(iii)",
+"topic": 4,
+"section": "4.3.6",
+"justification": "4.3.6 Density and pressure: calculate the upthrust acting on an object in a fluid using the equation F = ρgV (Archimedes’ principle)",
+"marks": 2
+},
+{
+"ref": "O/N 24/P22/Q2/a",
+"paper": "w24_22",
+"q": 2,
+"part": "(a)",
+"topic": 3,
+"section": "3.1.3",
+"justification": "3.1.3 Momentum and Newton's laws of motion: define and use linear momentum as the product of mass and velocity",
+"marks": 1
+},
+{
+"ref": "O/N 24/P22/Q2/b",
+"paper": "w24_22",
+"q": 2,
+"part": "(b)",
+"topic": 3,
+"section": "3.1.4",
+"justification": "3.1.4 Momentum and Newton's laws of motion: define and use force as rate of change of momentum",
+"marks": 2
+},
+{
+"ref": "O/N 24/P22/Q2/c",
+"paper": "w24_22",
+"q": 2,
+"part": "(c)",
+"topic": 2,
+"section": "2.1.7",
+"justification": "2.1.7 Equations of motion: \u0007solve problems using equations that represent uniformly accelerated motion in a straight line, including the motion of bodies falling in a uniform gravitational field without air resistance",
+"marks": 2
+},
+{
+"ref": "O/N 24/P22/Q2/d(i)",
+"paper": "w24_22",
+"q": 2,
+"part": "(d)(i)",
+"topic": 5,
+"section": "5.1.1",
+"justification": "5.1.1 Energy conservation: \u0007understand the concept of work, and recall and use work done = force × displacement in the direction of the force",
+"marks": 2
+},
+{
+"ref": "O/N 24/P22/Q2/d(ii)",
+"paper": "w24_22",
+"q": 2,
+"part": "(d)(ii)",
+"topic": 5,
+"section": "5.1.2",
+"justification": "5.1.2 Energy conservation: recall and apply the principle of conservation of energy",
+"marks": 3
+},
+{
+"ref": "O/N 24/P22/Q3/a(i)",
+"paper": "w24_22",
+"q": 3,
+"part": "(a)(i)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 2
+},
+{
+"ref": "O/N 24/P22/Q3/a(ii)",
+"paper": "w24_22",
+"q": 3,
+"part": "(a)(ii)",
+"topic": 6,
+"section": "6.1.2",
+"justification": "6.1.2 Stress and strain: \u0007understand and use the terms load, extension, compression and limit of proportionality",
+"marks": 1
+},
+{
+"ref": "O/N 24/P22/Q3/b",
+"paper": "w24_22",
+"q": 3,
+"part": "(b)",
+"topic": 4,
+"section": "4.2.2",
+"justification": "4.2.2 Equilibrium of forces: understand that, when there is no resultant force and no resultant torque, a system is in equilibrium",
+"marks": 2
+},
+{
+"ref": "O/N 24/P22/Q3/c(i)",
+"paper": "w24_22",
+"q": 3,
+"part": "(c)(i)",
+"topic": 4,
+"section": "4.2.1",
+"justification": "4.2.1 Equilibrium of forces: state and apply the principle of moments",
+"marks": 3
+},
+{
+"ref": "O/N 24/P22/Q3/c(ii)",
+"paper": "w24_22",
+"q": 3,
+"part": "(c)(ii)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 2
+},
+{
+"ref": "O/N 24/P22/Q3/c(iii)",
+"paper": "w24_22",
+"q": 3,
+"part": "(c)(iii)",
+"topic": 6,
+"section": "6.2.1",
+"justification": "6.2.1 Elastic and plastic behaviour: understand and use the terms elastic deformation, plastic deformation and elastic limit",
+"marks": 2
+},
+{
+"ref": "O/N 24/P22/Q4/a",
+"paper": "w24_22",
+"q": 4,
+"part": "(a)",
+"topic": 7,
+"section": "7.2.1",
+"justification": "7.2.1 Transverse and longitudinal waves: compare transverse and longitudinal waves",
+"marks": 2
+},
+{
+"ref": "O/N 24/P22/Q4/b(i)",
+"paper": "w24_22",
+"q": 4,
+"part": "(b)(i)",
+"topic": 8,
+"section": "8.1.3",
+"justification": "8.1.3 Stationary waves: explain the formation of a stationary wave using a graphical method, and identify nodes and antinodes",
+"marks": 1
+},
+{
+"ref": "O/N 24/P22/Q4/b(ii)",
+"paper": "w24_22",
+"q": 4,
+"part": "(b)(ii)",
+"topic": 8,
+"section": "8.1.4",
+"justification": "8.1.4 Stationary waves: \u0007understand how wavelength may be determined from the positions of nodes or antinodes of a stationary wave",
+"marks": 3
+},
+{
+"ref": "O/N 24/P22/Q4/b(iii)",
+"paper": "w24_22",
+"q": 4,
+"part": "(b)(iii)",
+"topic": 8,
+"section": "8.1.4",
+"justification": "8.1.4 Stationary waves: \u0007understand how wavelength may be determined from the positions of nodes or antinodes of a stationary wave",
+"marks": 2
+},
+{
+"ref": "O/N 24/P22/Q5/a",
+"paper": "w24_22",
+"q": 5,
+"part": "(a)",
+"topic": 9,
+"section": "9.2.1",
+"justification": "9.2.1 Potential difference and power: define the potential difference across a component as the energy transferred per unit charge",
+"marks": 1
+},
+{
+"ref": "O/N 24/P22/Q5/b(i)",
+"paper": "w24_22",
+"q": 5,
+"part": "(b)(i)",
+"topic": 10,
+"section": "10.1.1",
+"justification": "10.1.1 Practical circuits: recall and use the circuit symbols shown in section 6 of this syllabus",
+"marks": 1
+},
+{
+"ref": "O/N 24/P22/Q5/b(ii)",
+"paper": "w24_22",
+"q": 5,
+"part": "(b)(ii)",
+"topic": 9,
+"section": "9.3.2",
+"justification": "9.3.2 Resistance and resistivity: recall and use V = IR",
+"marks": 1
+},
+{
+"ref": "O/N 24/P22/Q5/b(iii)",
+"paper": "w24_22",
+"q": 5,
+"part": "(b)(iii)",
+"topic": 10,
+"section": "10.2.7",
+"justification": "10.2.7 Kirchhoff's laws: use Kirchhoff’s laws to solve simple circuit problems",
+"marks": 2
+},
+{
+"ref": "O/N 24/P22/Q5/b(iv)",
+"paper": "w24_22",
+"q": 5,
+"part": "(b)(iv)",
+"topic": 10,
+"section": "10.2.7",
+"justification": "10.2.7 Kirchhoff's laws: use Kirchhoff’s laws to solve simple circuit problems",
+"marks": 2
+},
+{
+"ref": "O/N 24/P22/Q5/b(v)",
+"paper": "w24_22",
+"q": 5,
+"part": "(b)(v)",
+"topic": 9,
+"section": "9.2.3",
+"justification": "9.2.3 Potential difference and power: recall and use P = VI, P = I 2R and P = V 2 / R",
+"marks": 2
+},
+{
+"ref": "O/N 24/P22/Q5/b(vi)",
+"paper": "w24_22",
+"q": 5,
+"part": "(b)(vi)",
+"topic": 9,
+"section": "9.2.3",
+"justification": "9.2.3 Potential difference and power: recall and use P = VI, P = I 2R and P = V 2 / R",
+"marks": 2
+},
+{
+"ref": "O/N 24/P22/Q5/b(vii)",
+"paper": "w24_22",
+"q": 5,
+"part": "(b)(vii)",
+"topic": 10,
+"section": "10.2.6",
+"justification": "10.2.6 Kirchhoff's laws: use the formula for the combined resistance of two or more resistors in parallel",
+"marks": 1
+},
+{
+"ref": "O/N 24/P22/Q6/a",
+"paper": "w24_22",
+"q": 6,
+"part": "(a)",
+"topic": 11,
+"section": "11.1.7",
+"justification": "11.1.7 Atoms, nuclei and radiation: \u0007describe the composition, mass and charge of α-, β- and γ-radiations (both β– (electrons) and β+ (positrons) are included)",
+"marks": 3
+},
+{
+"ref": "O/N 24/P22/Q6/b(i)",
+"paper": "w24_22",
+"q": 6,
+"part": "(b)(i)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 1
+},
+{
+"ref": "O/N 24/P22/Q6/b(ii)",
+"paper": "w24_22",
+"q": 6,
+"part": "(b)(ii)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 2
+},
+{
+"ref": "O/N 24/P22/Q6/c(i)",
+"paper": "w24_22",
+"q": 6,
+"part": "(c)(i)",
+"topic": 3,
+"section": "3.3.2",
+"justification": "3.3.2 Linear momentum and its conservation: \u0007apply the principle of conservation of momentum to solve simple problems, including elastic and inelastic interactions between objects in both one and two dimensions (knowledge of the concept of coefficient of restitution is not required)",
+"marks": 3
+},
+{
+"ref": "O/N 24/P22/Q6/c(ii)",
+"paper": "w24_22",
+"q": 6,
+"part": "(c)(ii)",
+"topic": 5,
+"section": "5.2.4",
+"justification": "5.2.4 Gravitational potential energy and kinetic energy: recall and use EK = 2 1 mv2",
+"marks": 2
+},
+{
+"ref": "O/N 24/P23/Q1/a",
+"paper": "w24_23",
+"q": 1,
+"part": "(a)",
+"topic": 2,
+"section": "2.1.1",
+"justification": "2.1.1 Equations of motion: define and use distance, displacement, speed, velocity and acceleration",
+"marks": 1
+},
+{
+"ref": "O/N 24/P23/Q1/b(i)",
+"paper": "w24_23",
+"q": 1,
+"part": "(b)(i)",
+"topic": 2,
+"section": "2.1.9",
+"justification": "2.1.9 Equations of motion: \u0007describe and explain motion due to a uniform velocity in one direction and a uniform acceleration in a perpendicular direction",
+"marks": 1
+},
+{
+"ref": "O/N 24/P23/Q1/b(ii)",
+"paper": "w24_23",
+"q": 1,
+"part": "(b)(ii)",
+"topic": 2,
+"section": "2.1.7",
+"justification": "2.1.7 Equations of motion: \u0007solve problems using equations that represent uniformly accelerated motion in a straight line, including the motion of bodies falling in a uniform gravitational field without air resistance",
+"marks": 2
+},
+{
+"ref": "O/N 24/P23/Q1/b(iii)",
+"paper": "w24_23",
+"q": 1,
+"part": "(b)(iii)",
+"topic": 2,
+"section": "2.1.7",
+"justification": "2.1.7 Equations of motion: \u0007solve problems using equations that represent uniformly accelerated motion in a straight line, including the motion of bodies falling in a uniform gravitational field without air resistance",
+"marks": 1
+},
+{
+"ref": "O/N 24/P23/Q1/b(iv)",
+"paper": "w24_23",
+"q": 1,
+"part": "(b)(iv)",
+"topic": 2,
+"section": "2.1.9",
+"justification": "2.1.9 Equations of motion: \u0007describe and explain motion due to a uniform velocity in one direction and a uniform acceleration in a perpendicular direction",
+"marks": 2
+},
+{
+"ref": "O/N 24/P23/Q2/a",
+"paper": "w24_23",
+"q": 2,
+"part": "(a)",
+"topic": 3,
+"section": "3.3.1",
+"justification": "3.3.1 Linear momentum and its conservation: state the principle of conservation of momentum",
+"marks": 2
+},
+{
+"ref": "O/N 24/P23/Q2/b(i)",
+"paper": "w24_23",
+"q": 2,
+"part": "(b)(i)",
+"topic": 3,
+"section": "3.3.2",
+"justification": "3.3.2 Linear momentum and its conservation: \u0007apply the principle of conservation of momentum to solve simple problems, including elastic and inelastic interactions between objects in both one and two dimensions (knowledge of the concept of coefficient of restitution is not required)",
+"marks": 1
+},
+{
+"ref": "O/N 24/P23/Q2/b(ii)",
+"paper": "w24_23",
+"q": 2,
+"part": "(b)(ii)",
+"topic": 3,
+"section": "3.3.4",
+"justification": "3.3.4 Linear momentum and its conservation: \u0007understand that, while momentum of a system is always conserved in interactions between objects, some change in kinetic energy may take place",
+"marks": 3
+},
+{
+"ref": "O/N 24/P23/Q2/c(i)",
+"paper": "w24_23",
+"q": 2,
+"part": "(c)(i)",
+"topic": 3,
+"section": "3.1.4",
+"justification": "3.1.4 Momentum and Newton's laws of motion: define and use force as rate of change of momentum",
+"marks": 3
+},
+{
+"ref": "O/N 24/P23/Q2/c(ii)",
+"paper": "w24_23",
+"q": 2,
+"part": "(c)(ii)",
+"topic": 3,
+"section": "3.1.5",
+"justification": "3.1.5 Momentum and Newton's laws of motion: state and apply each of Newton’s laws of motion",
+"marks": 2
+},
+{
+"ref": "O/N 24/P23/Q3/a",
+"paper": "w24_23",
+"q": 3,
+"part": "(a)",
+"topic": 4,
+"section": "4.2.1",
+"justification": "4.2.1 Equilibrium of forces: state and apply the principle of moments",
+"marks": 1
+},
+{
+"ref": "O/N 24/P23/Q3/b(i)",
+"paper": "w24_23",
+"q": 3,
+"part": "(b)(i)",
+"topic": 4,
+"section": "4.2.1",
+"justification": "4.2.1 Equilibrium of forces: state and apply the principle of moments",
+"marks": 2
+},
+{
+"ref": "O/N 24/P23/Q3/b(ii)",
+"paper": "w24_23",
+"q": 3,
+"part": "(b)(ii)",
+"topic": 4,
+"section": "4.3.6",
+"justification": "4.3.6 Density and pressure: calculate the upthrust acting on an object in a fluid using the equation F = ρgV (Archimedes’ principle)",
+"marks": 3
+},
+{
+"ref": "O/N 24/P23/Q3/c",
+"paper": "w24_23",
+"q": 3,
+"part": "(c)",
+"topic": 4,
+"section": "4.3.6",
+"justification": "4.3.6 Density and pressure: calculate the upthrust acting on an object in a fluid using the equation F = ρgV (Archimedes’ principle)",
+"marks": 3
+},
+{
+"ref": "O/N 24/P23/Q4/a(i)",
+"paper": "w24_23",
+"q": 4,
+"part": "(a)(i)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 1
+},
+{
+"ref": "O/N 24/P23/Q4/a(ii)",
+"paper": "w24_23",
+"q": 4,
+"part": "(a)(ii)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 1
+},
+{
+"ref": "O/N 24/P23/Q4/b(i)",
+"paper": "w24_23",
+"q": 4,
+"part": "(b)(i)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 3
+},
+{
+"ref": "O/N 24/P23/Q4/b(ii)",
+"paper": "w24_23",
+"q": 4,
+"part": "(b)(ii)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 2
+},
+{
+"ref": "O/N 24/P23/Q5/a(i)",
+"paper": "w24_23",
+"q": 5,
+"part": "(a)(i)",
+"topic": 8,
+"section": "8.1.3",
+"justification": "8.1.3 Stationary waves: explain the formation of a stationary wave using a graphical method, and identify nodes and antinodes",
+"marks": 1
+},
+{
+"ref": "O/N 24/P23/Q5/a(ii)",
+"paper": "w24_23",
+"q": 5,
+"part": "(a)(ii)",
+"topic": 8,
+"section": "8.1.4",
+"justification": "8.1.4 Stationary waves: \u0007understand how wavelength may be determined from the positions of nodes or antinodes of a stationary wave",
+"marks": 1
+},
+{
+"ref": "O/N 24/P23/Q5/a(iii)",
+"paper": "w24_23",
+"q": 5,
+"part": "(a)(iii)",
+"topic": 7,
+"section": "7.1.5",
+"justification": "7.1.5 Progressive waves: recall and use v = f λ",
+"marks": 2
+},
+{
+"ref": "O/N 24/P23/Q5/b(i)",
+"paper": "w24_23",
+"q": 5,
+"part": "(b)(i)",
+"topic": 7,
+"section": "7.3.2",
+"justification": "7.3.2 Doppler effect for sound waves: \u0007use the expression fο = f sv / (v ± vs) for the observed frequency when a source of sound waves moves relative to a stationary observer",
+"marks": 2
+},
+{
+"ref": "O/N 24/P23/Q5/b(ii)",
+"paper": "w24_23",
+"q": 5,
+"part": "(b)(ii)",
+"topic": 7,
+"section": "7.3.1",
+"justification": "7.3.1 Doppler effect for sound waves: \u0007understand that when a source of sound waves moves relative to a stationary observer, the observed frequency is different from the source frequency (understanding of the Doppler effect for a stationary source and a moving observer is not required)",
+"marks": 2
+},
+{
+"ref": "O/N 24/P23/Q6/a",
+"paper": "w24_23",
+"q": 6,
+"part": "(a)",
+"topic": 9,
+"section": "9.3.1",
+"justification": "9.3.1 Resistance and resistivity: define resistance",
+"marks": 1
+},
+{
+"ref": "O/N 24/P23/Q6/b(i)",
+"paper": "w24_23",
+"q": 6,
+"part": "(b)(i)",
+"topic": 9,
+"section": "9.3.6",
+"justification": "9.3.6 Resistance and resistivity: recall and use R = ρL / A",
+"marks": 2
+},
+{
+"ref": "O/N 24/P23/Q6/b(ii)",
+"paper": "w24_23",
+"q": 6,
+"part": "(b)(ii)",
+"topic": 9,
+"section": "9.1.3",
+"justification": "9.1.3 Electric current: recall and use Q = It",
+"marks": 2
+},
+{
+"ref": "O/N 24/P23/Q6/b(iii)",
+"paper": "w24_23",
+"q": 6,
+"part": "(b)(iii)",
+"topic": 9,
+"section": "9.1.4",
+"justification": "9.1.4 Electric current: \u0007use, for a current-carrying conductor, the expression I = Anvq, where n is the number density of charge carriers",
+"marks": 2
+},
+{
+"ref": "O/N 24/P23/Q6/c(i)",
+"paper": "w24_23",
+"q": 6,
+"part": "(c)(i)",
+"topic": 10,
+"section": "10.1.2",
+"justification": "10.1.2 Practical circuits: draw and interpret circuit diagrams containing the circuit symbols shown in section 6 of this syllabus",
+"marks": 1
+},
+{
+"ref": "O/N 24/P23/Q6/c(ii)",
+"paper": "w24_23",
+"q": 6,
+"part": "(c)(ii)",
+"topic": 10,
+"section": "10.3.4",
+"justification": "10.3.4 Potential dividers: \u0007explain the use of thermistors and light-dependent resistors in potential dividers to provide a potential difference that is dependent on temperature and light intensity",
+"marks": 2
+},
+{
+"ref": "O/N 24/P23/Q7/a",
+"paper": "w24_23",
+"q": 7,
+"part": "(a)",
+"topic": 11,
+"section": "11.2.2",
+"justification": "11.2.2 Fundamental particles: \u0007recall and use the charge of each flavour of quark and understand that its respective antiquark has the opposite charge (no knowledge of any other properties of quarks is required)",
+"marks": 3
+},
+{
+"ref": "O/N 24/P23/Q7/b(i)",
+"paper": "w24_23",
+"q": 7,
+"part": "(b)(i)",
+"topic": 11,
+"section": "11.2.4",
+"justification": "11.2.4 Fundamental particles: \u0007understand that a hadron may be either a baryon (consisting of three quarks) or a meson (consisting of one quark and one antiquark)",
+"marks": 1
+},
+{
+"ref": "O/N 24/P23/Q7/b(ii)",
+"paper": "w24_23",
+"q": 7,
+"part": "(b)(ii)",
+"topic": 11,
+"section": "11.2.4",
+"justification": "11.2.4 Fundamental particles: \u0007understand that a hadron may be either a baryon (consisting of three quarks) or a meson (consisting of one quark and one antiquark)",
+"marks": 2
+},
+{
+"ref": "O/N 24/P23/Q7/c",
+"paper": "w24_23",
+"q": 7,
+"part": "(c)",
+"topic": 11,
+"section": "11.2.5",
+"justification": "11.2.5 Fundamental particles: describe the changes to quark composition that take place during β– and β+ decay",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q1/a",
+"paper": "w25_21",
+"q": 1,
+"part": "(a)",
+"topic": 2,
+"section": "2.1.1",
+"justification": "2.1.1 Equations of motion: define and use distance, displacement, speed, velocity and acceleration",
+"marks": 1
+},
+{
+"ref": "O/N 25/P21/Q1/b(i)",
+"paper": "w25_21",
+"q": 1,
+"part": "(b)(i)",
+"topic": 2,
+"section": "2.1.5",
+"justification": "2.1.5 Equations of motion: determine acceleration using the gradient of a velocity–time graph",
+"marks": 1
+},
+{
+"ref": "O/N 25/P21/Q1/b(ii)",
+"paper": "w25_21",
+"q": 1,
+"part": "(b)(ii)",
+"topic": 2,
+"section": "2.1.3",
+"justification": "2.1.3 Equations of motion: determine displacement from the area under a velocity–time graph",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q1/c(i)",
+"paper": "w25_21",
+"q": 1,
+"part": "(c)(i)",
+"topic": 5,
+"section": "5.2.2",
+"justification": "5.2.2 Gravitational potential energy and kinetic energy: \u0007recall and use the formula ∆EP = mg∆h for gravitational potential energy changes in a uniform gravitational field",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q1/c(ii)",
+"paper": "w25_21",
+"q": 1,
+"part": "(c)(ii)",
+"topic": 5,
+"section": "5.2.4",
+"justification": "5.2.4 Gravitational potential energy and kinetic energy: recall and use EK = 2 1 mv2",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q1/c(iii)",
+"paper": "w25_21",
+"q": 1,
+"part": "(c)(iii)",
+"topic": 5,
+"section": "5.1.6",
+"justification": "5.1.6 Energy conservation: solve problems using P = W / t",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q2/a(i)",
+"paper": "w25_21",
+"q": 2,
+"part": "(a)(i)",
+"topic": 4,
+"section": "4.3.2",
+"justification": "4.3.2 Density and pressure: define and use pressure",
+"marks": 1
+},
+{
+"ref": "O/N 25/P21/Q2/a(ii)",
+"paper": "w25_21",
+"q": 2,
+"part": "(a)(ii)",
+"topic": 4,
+"section": "4.3.5",
+"justification": "4.3.5 Density and pressure: understand that the upthrust acting on an object in a fluid is due to a difference in hydrostatic pressure",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q2/b(i)",
+"paper": "w25_21",
+"q": 2,
+"part": "(b)(i)",
+"topic": 3,
+"section": "3.2.1",
+"justification": "3.2.1 Non-uniform motion: \u0007show a qualitative understanding of frictional forces and viscous/drag forces including air resistance (no treatment of the coefficients of friction and viscosity is required, and a simple model of drag force increasing as speed increases is sufficient)",
+"marks": 3
+},
+{
+"ref": "O/N 25/P21/Q2/b(ii)",
+"paper": "w25_21",
+"q": 2,
+"part": "(b)(ii)",
+"topic": 1,
+"section": "1.2.2",
+"justification": "1.2.2 SI units: express derived units as products or quotients of the SI base units and use the derived units for quantities listed in this syllabus as appropriate",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q2/c(i)",
+"paper": "w25_21",
+"q": 2,
+"part": "(c)(i)",
+"topic": 4,
+"section": "4.3.6",
+"justification": "4.3.6 Density and pressure: calculate the upthrust acting on an object in a fluid using the equation F = ρgV (Archimedes’ principle)",
+"marks": 1
+},
+{
+"ref": "O/N 25/P21/Q2/c(ii)",
+"paper": "w25_21",
+"q": 2,
+"part": "(c)(ii)",
+"topic": 3,
+"section": "3.2.3",
+"justification": "3.2.3 Non-uniform motion: understand that objects moving against a resistive force may reach a terminal (constant) velocity",
+"marks": 3
+},
+{
+"ref": "O/N 25/P21/Q3/a",
+"paper": "w25_21",
+"q": 3,
+"part": "(a)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 1
+},
+{
+"ref": "O/N 25/P21/Q3/b(i)",
+"paper": "w25_21",
+"q": 3,
+"part": "(b)(i)",
+"topic": 9,
+"section": "9.3.6",
+"justification": "9.3.6 Resistance and resistivity: recall and use R = ρL / A",
+"marks": 1
+},
+{
+"ref": "O/N 25/P21/Q3/b(ii)",
+"paper": "w25_21",
+"q": 3,
+"part": "(b)(ii)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q3/c(i)",
+"paper": "w25_21",
+"q": 3,
+"part": "(c)(i)",
+"topic": 9,
+"section": "9.3.6",
+"justification": "9.3.6 Resistance and resistivity: recall and use R = ρL / A",
+"marks": 1
+},
+{
+"ref": "O/N 25/P21/Q3/c(ii)",
+"paper": "w25_21",
+"q": 3,
+"part": "(c)(ii)",
+"topic": 6,
+"section": "6.1.4",
+"justification": "6.1.4 Stress and strain: recall and use the formula for the spring constant k = F / x",
+"marks": 1
+},
+{
+"ref": "O/N 25/P21/Q3/d(i)",
+"paper": "w25_21",
+"q": 3,
+"part": "(d)(i)",
+"topic": 9,
+"section": "9.3.6",
+"justification": "9.3.6 Resistance and resistivity: recall and use R = ρL / A",
+"marks": 1
+},
+{
+"ref": "O/N 25/P21/Q3/d(ii)",
+"paper": "w25_21",
+"q": 3,
+"part": "(d)(ii)",
+"topic": 6,
+"section": "6.1.5",
+"justification": "6.1.5 Stress and strain: define and use the terms stress, strain and the Young modulus",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q4/a",
+"paper": "w25_21",
+"q": 4,
+"part": "(a)",
+"topic": 8,
+"section": "8.2.1",
+"justification": "8.2.1 Diffraction: explain the meaning of the term diffraction",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q4/b(i)",
+"paper": "w25_21",
+"q": 4,
+"part": "(b)(i)",
+"topic": 8,
+"section": "8.4.1",
+"justification": "8.4.1 The diffraction grating: recall and use d sin θ = nλ",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q4/b(ii)",
+"paper": "w25_21",
+"q": 4,
+"part": "(b)(ii)",
+"topic": 8,
+"section": "8.4.1",
+"justification": "8.4.1 The diffraction grating: recall and use d sin θ = nλ",
+"marks": 1
+},
+{
+"ref": "O/N 25/P21/Q4/b(iii)",
+"paper": "w25_21",
+"q": 4,
+"part": "(b)(iii)",
+"topic": 8,
+"section": "8.4.1",
+"justification": "8.4.1 The diffraction grating: recall and use d sin θ = nλ",
+"marks": 3
+},
+{
+"ref": "O/N 25/P21/Q4/c",
+"paper": "w25_21",
+"q": 4,
+"part": "(c)",
+"topic": 7,
+"section": "7.5.2",
+"justification": "7.5.2 Polarisation: \u0007recall and use Malus’s law (I = I0 cos2θ ) to calculate the intensity of a plane-polarised electromagnetic wave after transmission through a polarising filter or a series of polarising filters (calculation of the effect of a polarising filter on the intensity of an unpolarised wave is not required)",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q5/a",
+"paper": "w25_21",
+"q": 5,
+"part": "(a)",
+"topic": 10,
+"section": "10.2.1",
+"justification": "10.2.1 Kirchhoff's laws: recall Kirchhoff’s first law and understand that it is a consequence of conservation of charge",
+"marks": 1
+},
+{
+"ref": "O/N 25/P21/Q5/b(i)",
+"paper": "w25_21",
+"q": 5,
+"part": "(b)(i)",
+"topic": 9,
+"section": "9.3.8",
+"justification": "9.3.8 Resistance and resistivity: understand that the resistance of a thermistor decreases as the temperature increases (it will be assumed that thermistors have a negative temperature coefficient)",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q5/b(ii)",
+"paper": "w25_21",
+"q": 5,
+"part": "(b)(ii)",
+"topic": 10,
+"section": "10.1.5",
+"justification": "10.1.5 Practical circuits: understand the effects of the internal resistance of a source of e.m.f. on the terminal potential difference",
+"marks": 3
+},
+{
+"ref": "O/N 25/P21/Q5/c(i)",
+"paper": "w25_21",
+"q": 5,
+"part": "(c)(i)",
+"topic": 10,
+"section": "10.1.5",
+"justification": "10.1.5 Practical circuits: understand the effects of the internal resistance of a source of e.m.f. on the terminal potential difference",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q5/c(ii)",
+"paper": "w25_21",
+"q": 5,
+"part": "(c)(ii)",
+"topic": 10,
+"section": "10.2.7",
+"justification": "10.2.7 Kirchhoff's laws: use Kirchhoff’s laws to solve simple circuit problems",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q6/a(i)",
+"paper": "w25_21",
+"q": 6,
+"part": "(a)(i)",
+"topic": 11,
+"section": "11.1.2",
+"justification": "11.1.2 Atoms, nuclei and radiation: describe a simple model for the nuclear atom to include protons, neutrons and orbital electrons",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q6/a(ii)",
+"paper": "w25_21",
+"q": 6,
+"part": "(a)(ii)",
+"topic": 11,
+"section": "11.1.2",
+"justification": "11.1.2 Atoms, nuclei and radiation: describe a simple model for the nuclear atom to include protons, neutrons and orbital electrons",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q6/b(i)",
+"paper": "w25_21",
+"q": 6,
+"part": "(b)(i)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 2
+},
+{
+"ref": "O/N 25/P21/Q6/b(ii)",
+"paper": "w25_21",
+"q": 6,
+"part": "(b)(ii)",
+"topic": 11,
+"section": "11.1.9",
+"justification": "11.1.9 Atoms, nuclei and radiation: \u0007state that (electron) antineutrinos are produced during β– decay and (electron) neutrinos are produced during β+ decay",
+"marks": 1
+},
+{
+"ref": "O/N 25/P21/Q6/c",
+"paper": "w25_21",
+"q": 6,
+"part": "(c)",
+"topic": 11,
+"section": "11.2.3",
+"justification": "11.2.3 Fundamental particles: \u0007recall that protons and neutrons are not fundamental particles and describe protons and neutrons in terms of their quark composition",
+"marks": 2
+},
+{
+"ref": "O/N 25/P22/Q1/a",
+"paper": "w25_22",
+"q": 1,
+"part": "(a)",
+"topic": 1,
+"section": "1.2.1",
+"justification": "1.2.1 SI units: \u0007recall the following SI base quantities and their units: mass (kg), length (m), time (s), current (A), temperature (K)",
+"marks": 2
+},
+{
+"ref": "O/N 25/P22/Q1/b(i)",
+"paper": "w25_22",
+"q": 1,
+"part": "(b)(i)",
+"topic": 4,
+"section": "4.3.6",
+"justification": "4.3.6 Density and pressure: calculate the upthrust acting on an object in a fluid using the equation F = ρgV (Archimedes’ principle)",
+"marks": 2
+},
+{
+"ref": "O/N 25/P22/Q1/b(ii)",
+"paper": "w25_22",
+"q": 1,
+"part": "(b)(ii)",
+"topic": 4,
+"section": "4.3.5",
+"justification": "4.3.5 Density and pressure: understand that the upthrust acting on an object in a fluid is due to a difference in hydrostatic pressure",
+"marks": 2
+},
+{
+"ref": "O/N 25/P22/Q1/b(iii)",
+"paper": "w25_22",
+"q": 1,
+"part": "(b)(iii)",
+"topic": 3,
+"section": "3.1.2",
+"justification": "3.1.2 Momentum and Newton's laws of motion: \u0007recall F = ma and solve problems using it, understanding that acceleration and resultant force are always in the same direction",
+"marks": 3
+},
+{
+"ref": "O/N 25/P22/Q1/c",
+"paper": "w25_22",
+"q": 1,
+"part": "(c)",
+"topic": 1,
+"section": "1.3.3",
+"justification": "1.3.3 Errors and uncertainties: \u0007assess the uncertainty in a derived quantity by simple addition of absolute or percentage uncertainties",
+"marks": 2
+},
+{
+"ref": "O/N 25/P22/Q2/a(i)",
+"paper": "w25_22",
+"q": 2,
+"part": "(a)(i)",
+"topic": 4,
+"section": "4.1.2",
+"justification": "4.1.2 Turning effects of forces: define and apply the moment of a force",
+"marks": 2
+},
+{
+"ref": "O/N 25/P22/Q2/a(ii)",
+"paper": "w25_22",
+"q": 2,
+"part": "(a)(ii)",
+"topic": 4,
+"section": "4.1.3",
+"justification": "4.1.3 Turning effects of forces: understand that a couple is a pair of forces that acts to produce rotation only",
+"marks": 1
+},
+{
+"ref": "O/N 25/P22/Q2/b",
+"paper": "w25_22",
+"q": 2,
+"part": "(b)",
+"topic": 3,
+"section": "3.1.2",
+"justification": "3.1.2 Momentum and Newton's laws of motion: \u0007recall F = ma and solve problems using it, understanding that acceleration and resultant force are always in the same direction",
+"marks": 2
+},
+{
+"ref": "O/N 25/P22/Q2/c(i)",
+"paper": "w25_22",
+"q": 2,
+"part": "(c)(i)",
+"topic": 3,
+"section": "3.3.1",
+"justification": "3.3.1 Linear momentum and its conservation: state the principle of conservation of momentum",
+"marks": 2
+},
+{
+"ref": "O/N 25/P22/Q2/c(ii)",
+"paper": "w25_22",
+"q": 2,
+"part": "(c)(ii)",
+"topic": 3,
+"section": "3.1.4",
+"justification": "3.1.4 Momentum and Newton's laws of motion: define and use force as rate of change of momentum",
+"marks": 2
+},
+{
+"ref": "O/N 25/P22/Q2/c(iii)",
+"paper": "w25_22",
+"q": 2,
+"part": "(c)(iii)",
+"topic": 3,
+"section": "3.3.2",
+"justification": "3.3.2 Linear momentum and its conservation: \u0007apply the principle of conservation of momentum to solve simple problems, including elastic and inelastic interactions between objects in both one and two dimensions (knowledge of the concept of coefficient of restitution is not required)",
+"marks": 3
+},
+{
+"ref": "O/N 25/P22/Q3/a",
+"paper": "w25_22",
+"q": 3,
+"part": "(a)",
+"topic": 4,
+"section": "4.2.2",
+"justification": "4.2.2 Equilibrium of forces: understand that, when there is no resultant force and no resultant torque, a system is in equilibrium",
+"marks": 2
+},
+{
+"ref": "O/N 25/P22/Q3/b(i)",
+"paper": "w25_22",
+"q": 3,
+"part": "(b)(i)",
+"topic": 4,
+"section": "4.2.3",
+"justification": "4.2.3 Equilibrium of forces: use a vector triangle to represent coplanar forces in equilibrium",
+"marks": 1
+},
+{
+"ref": "O/N 25/P22/Q3/b(ii)",
+"paper": "w25_22",
+"q": 3,
+"part": "(b)(ii)",
+"topic": 6,
+"section": "6.1.4",
+"justification": "6.1.4 Stress and strain: recall and use the formula for the spring constant k = F / x",
+"marks": 2
+},
+{
+"ref": "O/N 25/P22/Q3/c(i)",
+"paper": "w25_22",
+"q": 3,
+"part": "(c)(i)",
+"topic": 6,
+"section": "6.1.4",
+"justification": "6.1.4 Stress and strain: recall and use the formula for the spring constant k = F / x",
+"marks": 2
+},
+{
+"ref": "O/N 25/P22/Q3/c(ii)",
+"paper": "w25_22",
+"q": 3,
+"part": "(c)(ii)",
+"topic": 6,
+"section": "6.2.4",
+"justification": "6.2.4 Elastic and plastic behaviour: recall and use EP = 2 1  Fx = 2 1  kx2 for a material deformed within its limit of proportionality",
+"marks": 2
+},
+{
+"ref": "O/N 25/P22/Q4/a",
+"paper": "w25_22",
+"q": 4,
+"part": "(a)",
+"topic": 8,
+"section": "8.3.1",
+"justification": "8.3.1 Interference: understand the terms interference and coherence",
+"marks": 3
+},
+{
+"ref": "O/N 25/P22/Q4/b",
+"paper": "w25_22",
+"q": 4,
+"part": "(b)",
+"topic": 8,
+"section": "8.3.4",
+"justification": "8.3.4 Interference: recall and use λ = ax / D for double-slit interference using light",
+"marks": 4
+},
+{
+"ref": "O/N 25/P22/Q4/c",
+"paper": "w25_22",
+"q": 4,
+"part": "(c)",
+"topic": 8,
+"section": "8.3.3",
+"justification": "8.3.3 Interference: understand the conditions required if two-source interference fringes are to be observed",
+"marks": 1
+},
+{
+"ref": "O/N 25/P22/Q5/a",
+"paper": "w25_22",
+"q": 5,
+"part": "(a)",
+"topic": 10,
+"section": "10.2.1",
+"justification": "10.2.1 Kirchhoff's laws: recall Kirchhoff’s first law and understand that it is a consequence of conservation of charge",
+"marks": 1
+},
+{
+"ref": "O/N 25/P22/Q5/b(i)",
+"paper": "w25_22",
+"q": 5,
+"part": "(b)(i)",
+"topic": 10,
+"section": "10.1.5",
+"justification": "10.1.5 Practical circuits: understand the effects of the internal resistance of a source of e.m.f. on the terminal potential difference",
+"marks": 2
+},
+{
+"ref": "O/N 25/P22/Q5/b(ii)",
+"paper": "w25_22",
+"q": 5,
+"part": "(b)(ii)",
+"topic": 10,
+"section": "10.2.7",
+"justification": "10.2.7 Kirchhoff's laws: use Kirchhoff’s laws to solve simple circuit problems",
+"marks": 3
+},
+{
+"ref": "O/N 25/P22/Q5/b(iii)",
+"paper": "w25_22",
+"q": 5,
+"part": "(b)(iii)",
+"topic": 9,
+"section": "9.2.3",
+"justification": "9.2.3 Potential difference and power: recall and use P = VI, P = I 2R and P = V 2 / R",
+"marks": 2
+},
+{
+"ref": "O/N 25/P22/Q5/b(iv)",
+"paper": "w25_22",
+"q": 5,
+"part": "(b)(iv)",
+"topic": 10,
+"section": "10.1.5",
+"justification": "10.1.5 Practical circuits: understand the effects of the internal resistance of a source of e.m.f. on the terminal potential difference",
+"marks": 3
+},
+{
+"ref": "O/N 25/P22/Q6/a",
+"paper": "w25_22",
+"q": 6,
+"part": "(a)",
+"topic": 11,
+"section": "11.2.1",
+"justification": "11.2.1 Fundamental particles: \u0007understand that a quark is a fundamental particle and that there are six flavours (types) of quark: up, down, strange, charm, top and bottom",
+"marks": 1
+},
+{
+"ref": "O/N 25/P22/Q6/b(i)",
+"paper": "w25_22",
+"q": 6,
+"part": "(b)(i)",
+"topic": 11,
+"section": "11.2.4",
+"justification": "11.2.4 Fundamental particles: \u0007understand that a hadron may be either a baryon (consisting of three quarks) or a meson (consisting of one quark and one antiquark)",
+"marks": 2
+},
+{
+"ref": "O/N 25/P22/Q6/b(ii)",
+"paper": "w25_22",
+"q": 6,
+"part": "(b)(ii)",
+"topic": 11,
+"section": "11.1.12",
+"justification": "11.1.12 Atoms, nuclei and radiation: \u0007use the unified atomic mass unit (u) as a unit of mass",
+"marks": 3
+},
+{
+"ref": "O/N 25/P22/Q6/c(i)",
+"paper": "w25_22",
+"q": 6,
+"part": "(c)(i)",
+"topic": 11,
+"section": "11.1.2",
+"justification": "11.1.2 Atoms, nuclei and radiation: describe a simple model for the nuclear atom to include protons, neutrons and orbital electrons",
+"marks": 1
+},
+{
+"ref": "O/N 25/P22/Q6/c(ii)",
+"paper": "w25_22",
+"q": 6,
+"part": "(c)(ii)",
+"topic": 11,
+"section": "11.1.11",
+"justification": "11.1.11 Atoms, nuclei and radiation: represent α- and β-decay by a radioactive decay equation of the form 238/92 U → 234/90 Th + α",
+"marks": 2
+},
+{
+"ref": "O/N 25/P24/Q1/a(i)",
+"paper": "w25_24",
+"q": 1,
+"part": "(a)(i)",
+"topic": 1,
+"section": "1.4.3",
+"justification": "1.4.3 Scalars and vectors: represent a vector as two perpendicular components",
+"marks": 2
+},
+{
+"ref": "O/N 25/P24/Q1/a(ii)",
+"paper": "w25_24",
+"q": 1,
+"part": "(a)(ii)",
+"topic": 2,
+"section": "2.1.7",
+"justification": "2.1.7 Equations of motion: \u0007solve problems using equations that represent uniformly accelerated motion in a straight line, including the motion of bodies falling in a uniform gravitational field without air resistance",
+"marks": 1
+},
+{
+"ref": "O/N 25/P24/Q1/a(iii)",
+"paper": "w25_24",
+"q": 1,
+"part": "(a)(iii)",
+"topic": 2,
+"section": "2.1.9",
+"justification": "2.1.9 Equations of motion: \u0007describe and explain motion due to a uniform velocity in one direction and a uniform acceleration in a perpendicular direction",
+"marks": 1
+},
+{
+"ref": "O/N 25/P24/Q1/a(iv)",
+"paper": "w25_24",
+"q": 1,
+"part": "(a)(iv)",
+"topic": 2,
+"section": "2.1.9",
+"justification": "2.1.9 Equations of motion: \u0007describe and explain motion due to a uniform velocity in one direction and a uniform acceleration in a perpendicular direction",
+"marks": 3
+},
+{
+"ref": "O/N 25/P24/Q1/b(i)",
+"paper": "w25_24",
+"q": 1,
+"part": "(b)(i)",
+"topic": 3,
+"section": "3.1.3",
+"justification": "3.1.3 Momentum and Newton's laws of motion: define and use linear momentum as the product of mass and velocity",
+"marks": 1
+},
+{
+"ref": "O/N 25/P24/Q1/b(ii)",
+"paper": "w25_24",
+"q": 1,
+"part": "(b)(ii)",
+"topic": 3,
+"section": "3.1.4",
+"justification": "3.1.4 Momentum and Newton's laws of motion: define and use force as rate of change of momentum",
+"marks": 2
+},
+{
+"ref": "O/N 25/P24/Q1/b(iii)",
+"paper": "w25_24",
+"q": 1,
+"part": "(b)(iii)",
+"topic": 3,
+"section": "3.1.6",
+"justification": "3.1.6 Momentum and Newton's laws of motion: \u0007describe and use the concept of weight as the effect of a gravitational field on a mass and recall that the weight of an object is equal to the product of its mass and the acceleration of free fall",
+"marks": 1
+},
+{
+"ref": "O/N 25/P24/Q2/a",
+"paper": "w25_24",
+"q": 2,
+"part": "(a)",
+"topic": 4,
+"section": "4.1.4",
+"justification": "4.1.4 Turning effects of forces: define and apply the torque of a couple",
+"marks": 2
+},
+{
+"ref": "O/N 25/P24/Q2/b",
+"paper": "w25_24",
+"q": 2,
+"part": "(b)",
+"topic": 4,
+"section": "4.1.1",
+"justification": "4.1.1 Turning effects of forces: \u0007understand that the weight of an object may be taken as acting at a single point known as its centre of gravity",
+"marks": 1
+},
+{
+"ref": "O/N 25/P24/Q2/c(i)",
+"paper": "w25_24",
+"q": 2,
+"part": "(c)(i)",
+"topic": 4,
+"section": "4.1.2",
+"justification": "4.1.2 Turning effects of forces: define and apply the moment of a force",
+"marks": 1
+},
+{
+"ref": "O/N 25/P24/Q2/c(ii)",
+"paper": "w25_24",
+"q": 2,
+"part": "(c)(ii)",
+"topic": 4,
+"section": "4.1.2",
+"justification": "4.1.2 Turning effects of forces: define and apply the moment of a force",
+"marks": 1
+},
+{
+"ref": "O/N 25/P24/Q2/d",
+"paper": "w25_24",
+"q": 2,
+"part": "(d)",
+"topic": 4,
+"section": "4.3.1",
+"justification": "4.3.1 Density and pressure: define and use density",
+"marks": 3
+},
+{
+"ref": "O/N 25/P24/Q2/e",
+"paper": "w25_24",
+"q": 2,
+"part": "(e)",
+"topic": 4,
+"section": "4.1.1",
+"justification": "4.1.1 Turning effects of forces: \u0007understand that the weight of an object may be taken as acting at a single point known as its centre of gravity",
+"marks": 2
+},
+{
+"ref": "O/N 25/P24/Q3/a",
+"paper": "w25_24",
+"q": 3,
+"part": "(a)",
+"topic": 6,
+"section": "6.1.3",
+"justification": "6.1.3 Stress and strain: recall and use Hooke’s law",
+"marks": 1
+},
+{
+"ref": "O/N 25/P24/Q3/b(i)",
+"paper": "w25_24",
+"q": 3,
+"part": "(b)(i)",
+"topic": 6,
+"section": "6.1.2",
+"justification": "6.1.2 Stress and strain: \u0007understand and use the terms load, extension, compression and limit of proportionality",
+"marks": 1
+},
+{
+"ref": "O/N 25/P24/Q3/b(ii)",
+"paper": "w25_24",
+"q": 3,
+"part": "(b)(ii)",
+"topic": 6,
+"section": "6.1.4",
+"justification": "6.1.4 Stress and strain: recall and use the formula for the spring constant k = F / x",
+"marks": 2
+},
+{
+"ref": "O/N 25/P24/Q3/c(i)",
+"paper": "w25_24",
+"q": 3,
+"part": "(c)(i)",
+"topic": 5,
+"section": "5.2.2",
+"justification": "5.2.2 Gravitational potential energy and kinetic energy: \u0007recall and use the formula ∆EP = mg∆h for gravitational potential energy changes in a uniform gravitational field",
+"marks": 2
+},
+{
+"ref": "O/N 25/P24/Q3/c(ii)",
+"paper": "w25_24",
+"q": 3,
+"part": "(c)(ii)",
+"topic": 6,
+"section": "6.2.4",
+"justification": "6.2.4 Elastic and plastic behaviour: recall and use EP = 2 1  Fx = 2 1  kx2 for a material deformed within its limit of proportionality",
+"marks": 2
+},
+{
+"ref": "O/N 25/P24/Q3/d",
+"paper": "w25_24",
+"q": 3,
+"part": "(d)",
+"topic": 5,
+"section": "5.1.2",
+"justification": "5.1.2 Energy conservation: recall and apply the principle of conservation of energy",
+"marks": 2
+},
+{
+"ref": "O/N 25/P24/Q4/a",
+"paper": "w25_24",
+"q": 4,
+"part": "(a)",
+"topic": 8,
+"section": "8.1.1",
+"justification": "8.1.1 Stationary waves: explain and use the principle of superposition",
+"marks": 2
+},
+{
+"ref": "O/N 25/P24/Q4/b(i)",
+"paper": "w25_24",
+"q": 4,
+"part": "(b)(i)",
+"topic": 8,
+"section": "8.1.3",
+"justification": "8.1.3 Stationary waves: explain the formation of a stationary wave using a graphical method, and identify nodes and antinodes",
+"marks": 3
+},
+{
+"ref": "O/N 25/P24/Q4/b(ii)",
+"paper": "w25_24",
+"q": 4,
+"part": "(b)(ii)",
+"topic": 7,
+"section": "7.1.5",
+"justification": "7.1.5 Progressive waves: recall and use v = f λ",
+"marks": 2
+},
+{
+"ref": "O/N 25/P24/Q4/b(iii)",
+"paper": "w25_24",
+"q": 4,
+"part": "(b)(iii)",
+"topic": 7,
+"section": "7.4.2",
+"justification": "7.4.2 Electromagnetic spectrum: recall the approximate range of wavelengths in free space of the principal regions of the electromagnetic spectrum from radio waves to γ-rays",
+"marks": 1
+},
+{
+"ref": "O/N 25/P24/Q4/b(iv)",
+"paper": "w25_24",
+"q": 4,
+"part": "(b)(iv)",
+"topic": 8,
+"section": "8.1.4",
+"justification": "8.1.4 Stationary waves: \u0007understand how wavelength may be determined from the positions of nodes or antinodes of a stationary wave",
+"marks": 1
+},
+{
+"ref": "O/N 25/P24/Q5/a(i)",
+"paper": "w25_24",
+"q": 5,
+"part": "(a)(i)",
+"topic": 9,
+"section": "9.3.1",
+"justification": "9.3.1 Resistance and resistivity: define resistance",
+"marks": 1
+},
+{
+"ref": "O/N 25/P24/Q5/a(ii)",
+"paper": "w25_24",
+"q": 5,
+"part": "(a)(ii)",
+"topic": 10,
+"section": "10.1.2",
+"justification": "10.1.2 Practical circuits: draw and interpret circuit diagrams containing the circuit symbols shown in section 6 of this syllabus",
+"marks": 2
+},
+{
+"ref": "O/N 25/P24/Q5/b(i)",
+"paper": "w25_24",
+"q": 5,
+"part": "(b)(i)",
+"topic": 9,
+"section": "9.3.2",
+"justification": "9.3.2 Resistance and resistivity: recall and use V = IR",
+"marks": 1
+},
+{
+"ref": "O/N 25/P24/Q5/b(ii)",
+"paper": "w25_24",
+"q": 5,
+"part": "(b)(ii)",
+"topic": 9,
+"section": "9.3.6",
+"justification": "9.3.6 Resistance and resistivity: recall and use R = ρL / A",
+"marks": 3
+},
+{
+"ref": "O/N 25/P24/Q5/b(iii)",
+"paper": "w25_24",
+"q": 5,
+"part": "(b)(iii)",
+"topic": 1,
+"section": "1.3.3",
+"justification": "1.3.3 Errors and uncertainties: \u0007assess the uncertainty in a derived quantity by simple addition of absolute or percentage uncertainties",
+"marks": 2
+},
+{
+"ref": "O/N 25/P24/Q5/b(iv)",
+"paper": "w25_24",
+"q": 5,
+"part": "(b)(iv)",
+"topic": 1,
+"section": "1.3.3",
+"justification": "1.3.3 Errors and uncertainties: \u0007assess the uncertainty in a derived quantity by simple addition of absolute or percentage uncertainties",
+"marks": 1
+},
+{
+"ref": "O/N 25/P24/Q6/a(i)",
+"paper": "w25_24",
+"q": 6,
+"part": "(a)(i)",
+"topic": 11,
+"section": "11.1.1",
+"justification": "11.1.1 Atoms, nuclei and radiation: infer from the results of the α-particle scattering experiment the existence and small size of the nucleus",
+"marks": 3
+},
+{
+"ref": "O/N 25/P24/Q6/a(ii)",
+"paper": "w25_24",
+"q": 6,
+"part": "(a)(ii)",
+"topic": 11,
+"section": "11.1.1",
+"justification": "11.1.1 Atoms, nuclei and radiation: infer from the results of the α-particle scattering experiment the existence and small size of the nucleus",
+"marks": 1
+},
+{
+"ref": "O/N 25/P24/Q6/a(iii)",
+"paper": "w25_24",
+"q": 6,
+"part": "(a)(iii)",
+"topic": 11,
+"section": "11.1.1",
+"justification": "11.1.1 Atoms, nuclei and radiation: infer from the results of the α-particle scattering experiment the existence and small size of the nucleus",
+"marks": 1
+},
+{
+"ref": "O/N 25/P24/Q6/b",
+"paper": "w25_24",
+"q": 6,
+"part": "(b)",
+"topic": 11,
+"section": "11.1.7",
+"justification": "11.1.7 Atoms, nuclei and radiation: \u0007describe the composition, mass and charge of α-, β- and γ-radiations (both β– (electrons) and β+ (positrons) are included)",
+"marks": 2
+},
+{
+"ref": "O/N 25/P24/Q6/c(i)",
+"paper": "w25_24",
+"q": 6,
+"part": "(c)(i)",
+"topic": 11,
+"section": "11.2.4",
+"justification": "11.2.4 Fundamental particles: \u0007understand that a hadron may be either a baryon (consisting of three quarks) or a meson (consisting of one quark and one antiquark)",
+"marks": 1
+},
+{
+"ref": "O/N 25/P24/Q6/c(ii)",
+"paper": "w25_24",
+"q": 6,
+"part": "(c)(ii)",
+"topic": 11,
+"section": "11.2.3",
+"justification": "11.2.3 Fundamental particles: \u0007recall that protons and neutrons are not fundamental particles and describe protons and neutrons in terms of their quark composition",
+"marks": 2
+}
+]
